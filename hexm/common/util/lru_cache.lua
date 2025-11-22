@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  uni_test: function
+  uni_test: function()  -- hexm/common/util/lru_cache.lua:253-296
   Node: class <Node>
     Functions:
       ctor(self)  -- hexm/common/util/lru_cache.lua:10-16

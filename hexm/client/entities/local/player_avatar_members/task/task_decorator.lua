@@ -4,4 +4,4 @@ Type: table
 
 Keys:
   FUNCTION_INDEX_NAME: table <UnknownInstance>
-  monitor_task: function
+  monitor_task: function(task_no_index, param_list)  -- hexm/client/entities/local/player_avatar_members/task/task_decorator.lua:47-74

@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  _TimerManagerOverflowNotify: function
+  _TimerManagerOverflowNotify: function(timer_mgr, cnt)  -- hexm/client/manager/timer_manager.lua:15-20
   Timer: class <Timer>
     Functions:
       ctor(self, timerm, ID)  -- hexm/client/manager/timer_manager.lua:25-29

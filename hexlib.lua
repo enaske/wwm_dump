@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  get_listeners_dict_init_size: function
+  get_listeners_dict_init_size: function(...)  -- =[C]
   FlagStackProxy: class <FlagStackProxy>
     Functions:
       __tostring(self)  -- hexm/common/flag_stack_proxy.lua:19-21
@@ -37,10 +37,10 @@ Keys:
       curr_priority(self)  -- hexm/common/flag_stack_proxy.lua:150-155
       push_flag(...)  -- =[C]
       get_curr_record(self)  -- hexm/common/flag_stack_proxy.lua:164-169
-  set_max_event_num: function
-  set_dispatcher_check: function
-  call_component: function
-  set_listeners_dict_init_size: function
+  set_max_event_num: function(...)  -- =[C]
+  set_dispatcher_check: function(...)  -- =[C]
+  call_component: function(...)  -- =[C]
+  set_listeners_dict_init_size: function(...)  -- =[C]
   FastDispatcher: class <FastDispatcher>
     Functions:
       __index(...)  -- =[C]
@@ -112,8 +112,8 @@ Keys:
       remove_all(...)  -- =[C]
       ctor(...)  -- =[C]
       new(...)  -- =[C]
-  init_component: function
-  try_catch_call: function
+  init_component: function(...)  -- =[C]
+  try_catch_call: function(...)  -- =[C]
   DispatcherScope: class <DispatcherScope>
     Functions:
       get_dispatching_events(...)  -- =[C]
@@ -145,5 +145,5 @@ Keys:
       cancel(...)  -- =[C]
       _handle_dispatch_failed_(self)  -- hexm/common/dispatcher.lua:593-595
       new(...)  -- =[C]
-  get_max_event_num: function
-  get_dispatcher_check: function
+  get_max_event_num: function(...)  -- =[C]
+  get_dispatcher_check: function(...)  -- =[C]

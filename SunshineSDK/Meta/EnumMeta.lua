@@ -12,10 +12,10 @@ Keys:
       GetAllValues(self)  -- SunshineSDK/Meta/EnumMeta.lua:167-173
       GetName(self)  -- SunshineSDK/Meta/EnumMeta.lua:163-165
       GetTextByValue(self, val)  -- SunshineSDK/Meta/EnumMeta.lua:159-161
-  GetEnumMetaByKey: function
-  RegisterEnum: function
+  GetEnumMetaByKey: function(key)  -- SunshineSDK/Meta/EnumMeta.lua:272-274
+  RegisterEnum: function(enumType, enum)  -- SunshineSDK/Meta/EnumMeta.lua:8-13
   EnumMetas: table <UnknownInstance>
-  RegisterEnumWatcher: function
+  RegisterEnumWatcher: function(watcher)  -- SunshineSDK/Meta/EnumMeta.lua:15-17
   DefGroupedEnum: class <DefGroupedEnum>
     Functions:
       GetTextByValue(self, val)  -- SunshineSDK/Meta/EnumMeta.lua:223-225

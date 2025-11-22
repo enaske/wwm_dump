@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  get_slot_name: function
+  get_slot_name: function(category, slot_no)  -- hexm/client/ui/windows/wardrobe/wardrobe_util.lua:27-37
   ItemGetBuyController: class <ItemGetBuyController>
     Functions:
       focus_on_shopping_cart_btn(self)  -- hexm/client/ui/windows/wardrobe/wardrobe_util.lua:1580-1585
@@ -56,26 +56,26 @@ Keys:
       set_by_view_no(self, view_no)  -- hexm/client/ui/windows/wardrobe/wardrobe_util.lua:529-535
       refresh_trial_time_view(self, avatar)  -- hexm/client/ui/windows/wardrobe/wardrobe_util.lua:655-682
       suit_stuff_owned(self)  -- hexm/client/ui/windows/wardrobe/wardrobe_util.lua:1216-1220
-  is_borrowing_kongfu_fx_wuxue: function
+  is_borrowing_kongfu_fx_wuxue: function(wuxue_id)  -- hexm/client/ui/windows/wardrobe/wardrobe_util.lua:1889-1899
   OP_TAG_ITEM_GET_BUY: string
-  get_sew_view_sysd: function
-  open_borrow_waiguan_main_window: function
-  is_borrowing_qishu_fx_qishu: function
-  check_and_show_sew_unlock_confirm_window: function
-  get_sew_icon: function
-  real_borrow: function
-  open_waiguan_in_painting_boat_space: function
-  get_weapon_model_no_by_body_type: function
-  is_in_borrowing: function
-  is_sew_style_unlocked: function
-  is_borrowed_view: function
-  set_borrowing_tag: function
-  is_view_no_has_sew_style: function
-  get_all_can_sew_categories: function
-  shop_buy_confirm_window: function
+  get_sew_view_sysd: function(sew_id)  -- hexm/client/ui/windows/wardrobe/wardrobe_util.lua:1732-1744
+  open_borrow_waiguan_main_window: function(borrow_from_pid, borrow_from_hostnum, borrow_from_player_name)  -- hexm/client/ui/windows/wardrobe/wardrobe_util.lua:1923-1936
+  is_borrowing_qishu_fx_qishu: function(qishu_id)  -- hexm/client/ui/windows/wardrobe/wardrobe_util.lua:1901-1912
+  check_and_show_sew_unlock_confirm_window: function(sew_id, goon_callback, unlock_callback, buy_callback, from_window)  -- hexm/client/ui/windows/wardrobe/wardrobe_util.lua:1814-1869
+  get_sew_icon: function(sew_id, body_type, sysd)  -- hexm/client/ui/windows/wardrobe/wardrobe_util.lua:1766-1780
+  real_borrow: function(pid, hostnum, dressing, weapong_dressing, kongfu_fx)  -- hexm/client/ui/windows/wardrobe/wardrobe_util.lua:1938-1943
+  open_waiguan_in_painting_boat_space: function()  -- hexm/client/ui/windows/wardrobe/wardrobe_util.lua:1973-1991
+  get_weapon_model_no_by_body_type: function(weapon_no, body_type)  -- hexm/client/ui/windows/wardrobe/wardrobe_util.lua:40-48
+  is_in_borrowing: function()  -- hexm/client/ui/windows/wardrobe/wardrobe_util.lua:1918-1921
+  is_sew_style_unlocked: function(sew_id)  -- hexm/client/ui/windows/wardrobe/wardrobe_util.lua:1751-1764
+  is_borrowed_view: function(view_no)  -- hexm/client/ui/windows/wardrobe/wardrobe_util.lua:1914-1916
+  set_borrowing_tag: function(tag_view, show)  -- hexm/client/ui/windows/wardrobe/wardrobe_util.lua:1945-1952
+  is_view_no_has_sew_style: function(view_no, sew_id, body_type)  -- hexm/client/ui/windows/wardrobe/wardrobe_util.lua:1666-1693
+  get_all_can_sew_categories: function()  -- hexm/client/ui/windows/wardrobe/wardrobe_util.lua:1695-1730
+  shop_buy_confirm_window: function(view_no, sew_id, waiguan_data, goon_callback)  -- hexm/client/ui/windows/wardrobe/wardrobe_util.lua:1782-1812
   OP_TAG_SHOP_CART: string
-  is_default_sew: function
-  is_borrowing_weapon_view: function
+  is_default_sew: function(sew_id)  -- hexm/client/ui/windows/wardrobe/wardrobe_util.lua:1746-1749
+  is_borrowing_weapon_view: function(category, view_no)  -- hexm/client/ui/windows/wardrobe/wardrobe_util.lua:1874-1887
   From: dict
   GuiseWeaponWrapper: class <GuiseWeaponWrapper>
     Functions:
@@ -100,7 +100,7 @@ Keys:
       clear_weapon_view_entities(self)  -- hexm/client/ui/windows/wardrobe/wardrobe_util.lua:83-91
       post_reload_weapon_entity(self, weapon_entity, view_item)  -- hexm/client/ui/windows/wardrobe/wardrobe_util.lua:272-280
       reload_by_view_item(self, view_item)  -- hexm/client/ui/windows/wardrobe/wardrobe_util.lua:140-270
-  open_waiguan_main_window_with_other_player: function
+  open_waiguan_main_window_with_other_player: function(other_pid, other_hostnum, bag_tag_info, extra)  -- hexm/client/ui/windows/wardrobe/wardrobe_util.lua:1956-1971
   OP_TAG_STUFF_EXCHANGE: string
   WeaponItemGetBuyController: class <WeaponItemGetBuyController>
     Functions:

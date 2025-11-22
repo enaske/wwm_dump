@@ -15,7 +15,7 @@ Keys:
   INPUT_FUNC_ID_BTN_NO: number
   ENV_ID_EDITOR_BASE_SWALLOW: number
   ENV_GROUP_BLACK_LIST_HUD: number
-  clear_input_key_log: function
+  clear_input_key_log: function(debug_log)  -- hexm/client/consts/input_consts.lua:626-632
   FUNC_BUTTON_DOWN2: string
   ENV_ID_STICK_WALL_CONSOLE: number
   INPUT_MAP_ID_OPEN_BIG_MAP: number
@@ -44,7 +44,7 @@ Keys:
   FUNC_CAMERA_ROTATE_LEFT: string
   FUNC_BUTTON_CANCEL: string
   FUNC_BUTTON_DOWN1: string
-  get_joystick_preset_key_mappings: function
+  get_joystick_preset_key_mappings: function(preset_id)  -- hexm/client/consts/input_consts.lua:563-571
   PRESET_GROUP_JOYSTICK_EXCHANGE: number
   ENV_ID_FYZB: number
   INPUT_MAP_IDS_INTERACT: list

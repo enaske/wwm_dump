@@ -27,4 +27,4 @@ Keys:
       on_enter_club_area_visual_distance(self, dis_id, state, club_area_id)  -- hexm/client/entities/local/player_avatar_members/club/imp_club_area.lua:116-146
       init_club_region_check(self)  -- hexm/client/entities/local/player_avatar_members/club/imp_club_area.lua:217-243
       __init_component__(self)  -- hexm/client/entities/local/player_avatar_members/club/imp_club_area.lua:20-36
-  get_self_club_info: function
+  get_self_club_info: function()  -- hexm/client/entities/local/player_avatar_members/club/imp_club_area.lua:309-329

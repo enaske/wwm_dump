@@ -3,44 +3,44 @@ Type: table
 ================================================================================
 
 Keys:
-  is_blueprint_preview_space: function
-  is_wanfa_fuben_space: function
-  is_zhuoying_scene: function
-  is_common_multi_dungeon: function
-  create_space_ctrl: function
-  is_dungeon: function
-  is_guild_space: function
-  is_general_disaster_dungeon_space: function
-  is_flower_disease_space: function
-  is_granny_race_space: function
-  is_client_pvp_battle: function
-  is_pvp_battle: function
-  is_auction_space: function
-  create_backup_space_info: function
-  is_common_plane: function
-  get_space_no_scene_info_d: function
-  is_club_dungeon: function
-  is_guaji_check_space: function
-  is_client_server_space: function
-  get_space_env_ordeal: function
-  is_club_preview_space: function
-  is_pvp_prepare: function
-  is_school_ceremony_space: function
-  get_sapce_real_no: function
-  is_single_need_save_space: function
+  is_blueprint_preview_space: function(spaceno)  -- hexm/common/space_common.lua:548-551
+  is_wanfa_fuben_space: function(spaceno)  -- hexm/common/space_common.lua:327-330
+  is_zhuoying_scene: function(space_no)  -- hexm/common/space_common.lua:283-286
+  is_common_multi_dungeon: function(spaceno)  -- hexm/common/space_common.lua:629-632
+  create_space_ctrl: function(data)  -- hexm/common/space_common.lua:1761-1874
+  is_dungeon: function(space_no)  -- hexm/common/space_common.lua:257-260
+  is_guild_space: function(spaceno)  -- hexm/common/space_common.lua:508-511
+  is_general_disaster_dungeon_space: function(spaceno)  -- hexm/common/space_common.lua:574-578
+  is_flower_disease_space: function(spaceno)  -- hexm/common/space_common.lua:580-584
+  is_granny_race_space: function(spaceno)  -- hexm/common/space_common.lua:622-626
+  is_client_pvp_battle: function(spaceno)  -- hexm/common/space_common.lua:341-344
+  is_pvp_battle: function(spaceno)  -- hexm/common/space_common.lua:336-339
+  is_auction_space: function(space_no)  -- hexm/common/space_common.lua:272-275
+  create_backup_space_info: function(spaceno, position, direction)  -- hexm/common/space_common.lua:1877-1886
+  is_common_plane: function(space_no)  -- hexm/common/space_common.lua:295-298
+  get_space_no_scene_info_d: function(space_no)  -- hexm/common/space_common.lua:54-56
+  is_club_dungeon: function(spaceno)  -- hexm/common/space_common.lua:604-608
+  is_guaji_check_space: function(spaceno)  -- hexm/common/space_common.lua:332-334
+  is_client_server_space: function(space_no)  -- hexm/common/space_common.lua:194-197
+  get_space_env_ordeal: function(space_no, region_id, shichen, weather)  -- hexm/common/space_common.lua:120-128
+  is_club_preview_space: function(spaceno)  -- hexm/common/space_common.lua:610-614
+  is_pvp_prepare: function(spaceno)  -- hexm/common/space_common.lua:401-404
+  is_school_ceremony_space: function(spaceno)  -- hexm/common/space_common.lua:418-421
+  get_sapce_real_no: function(space_no)  -- hexm/common/space_common.lua:735-754
+  is_single_need_save_space: function(space_no)  -- hexm/common/space_common.lua:189-192
   MAGIC_HOMEWORLD_SPACENO: number
-  has_child_space: function
-  is_lm_ai_space: function
-  is_disaster_dungeon: function
-  need_sp_grid_interact: function
+  has_child_space: function(spaceno)  -- hexm/common/space_common.lua:130-133
+  is_lm_ai_space: function(spaceno)  -- hexm/common/space_common.lua:369-372
+  is_disaster_dungeon: function(space_no)  -- hexm/common/space_common.lua:310-313
+  need_sp_grid_interact: function(space_no)  -- hexm/common/space_common.lua:204-207
   MAGIC_BIGWORLD_SPACENO: number
-  get_space_fuben_level_name: function
-  is_school_learn: function
-  is_huiwu_prepare: function
-  is_escort: function
-  is_single_prison_dungeon: function
-  is_single_big_world: function
-  is_child_space: function
+  get_space_fuben_level_name: function(space_no)  -- hexm/common/space_common.lua:69-76
+  is_school_learn: function(spaceno)  -- hexm/common/space_common.lua:395-398
+  is_huiwu_prepare: function(spaceno)  -- hexm/common/space_common.lua:351-354
+  is_escort: function(space_no)  -- hexm/common/space_common.lua:267-270
+  is_single_prison_dungeon: function(spaceno)  -- hexm/common/space_common.lua:598-602
+  is_single_big_world: function(space_no)  -- hexm/common/space_common.lua:183-186
+  is_child_space: function(spaceno)  -- hexm/common/space_common.lua:136-140
   SpaceTag: class <SpaceTag>
     Functions:
       __tostring(self)  -- hexm/common/space_common.lua:1102-1104
@@ -93,15 +93,15 @@ Keys:
       need_level_replace(self)  -- hexm/common/space_common.lua:1741-1745
       ctor(self, space_no)  -- hexm/common/space_common.lua:1069-1072
       need_grid_manager_space(self)  -- hexm/common/space_common.lua:1251-1264
-  is_hotpot_space: function
-  is_pve_battle: function
-  is_treasure_guard_space: function
-  is_school_battle_wait: function
-  get_space_tag_by_space_no: function
-  is_game_level_multi_player_dungeon: function
-  is_homeworld_space: function
-  is_dung_truck_space: function
-  is_client_space: function
-  get_space_name: function
-  is_task_sp_recall_space: function
+  is_hotpot_space: function(spaceno)  -- hexm/common/space_common.lua:644-647
+  is_pve_battle: function(spaceno)  -- hexm/common/space_common.lua:389-392
+  is_treasure_guard_space: function(spaceno)  -- hexm/common/space_common.lua:663-665
+  is_school_battle_wait: function(spaceno)  -- hexm/common/space_common.lua:412-415
+  get_space_tag_by_space_no: function(space_no)  -- hexm/common/space_common.lua:151-159
+  is_game_level_multi_player_dungeon: function(spaceno)  -- hexm/common/space_common.lua:634-637
+  is_homeworld_space: function(spaceno)  -- hexm/common/space_common.lua:472-479
+  is_dung_truck_space: function(spaceno)  -- hexm/common/space_common.lua:616-620
+  is_client_space: function(space_no)  -- hexm/common/space_common.lua:178-181
+  get_space_name: function(space_no)  -- hexm/common/space_common.lua:59-66
+  is_task_sp_recall_space: function(spaceno)  -- hexm/common/space_common.lua:676-679
   (1 more keys)

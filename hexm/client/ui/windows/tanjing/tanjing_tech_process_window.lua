@@ -3,9 +3,9 @@ Type: table
 ================================================================================
 
 Keys:
-  get_fix_bar_percent: function
+  get_fix_bar_percent: function(percent, total)  -- hexm/client/ui/windows/tanjing/tanjing_tech_process_window.lua:108-110
   BAR_MAX: number
-  get_fix_bar_icon_rotation: function
+  get_fix_bar_icon_rotation: function(percent, total)  -- hexm/client/ui/windows/tanjing/tanjing_tech_process_window.lua:111-113
   BAR_ICON_MAX: number
   TanjingTechProcessController: class <TanjingTechProcessController>
     Functions:

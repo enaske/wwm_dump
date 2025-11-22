@@ -4,7 +4,7 @@ Type: table
 
 Keys:
   ERR_OK: number
-  get_show_begin_time: function
+  get_show_begin_time: function()  -- hexm/common/consts/huiwu_consts.lua:110-122
   E_BEGIN_BATTLE: number
   E_GET_OTHER_INFO: number
   ERR_NOT_LEADER: number
@@ -21,7 +21,7 @@ Keys:
   E_GRADE_UP: number
   PREPARE_NOT_PREPARE: number
   E_ENTER_HUIWU_PREPARE: number
-  is_in_huiwu_time: function
+  is_in_huiwu_time: function()  -- hexm/common/consts/huiwu_consts.lua:129-144
   HINT_TARGET_NOT_IN_MAIN_SCENE: number
   TEAM_TASK_KEY: string
   HINT_TARGET_NOT_ONLINE: number
@@ -34,16 +34,16 @@ Keys:
   IOS_WIN_HUIWU: number
   ERR_LEVEL_LIMIT: number
   E_LEAVE_HUIWU_PREPARE: number
-  get_begin_time: function
+  get_begin_time: function()  -- hexm/common/consts/huiwu_consts.lua:96-108
   ERR_ERR: number
   ERR_QIECUO_TEAM_TYPE: number
   ERR_OTHER_HAS_MAP: number
-  attend_commmon_precheck: function
+  attend_commmon_precheck: function(avt)  -- hexm/common/consts/huiwu_consts.lua:155-195
   E_MAX: number
   E_BATTLE_END: number
   ERR_NOT_IN_MAP_INVITE: number
   ERR_IN_COMPETITION: number
-  _huiwu_check_time_in_range: function
+  _huiwu_check_time_in_range: function(begin_time, end_time)  -- hexm/common/consts/huiwu_consts.lua:146-153
   PREPARE_NOT_IN: number
   ERR_TIME_LIMIT: number
   E_GET_RESULT: number

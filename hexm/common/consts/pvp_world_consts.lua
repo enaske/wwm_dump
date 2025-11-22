@@ -31,8 +31,8 @@ Keys:
   CRIME_PRISON: number
   P_OPEN: number
   FACTION_BAOGUAN_AVT: number
-  get_callback: function
-  get_pvp_world_sys_faction: function
+  get_callback: function(event)  -- hexm/common/consts/pvp_world_consts.lua:226-228
+  get_pvp_world_sys_faction: function(mode)  -- hexm/common/consts/pvp_world_consts.lua:230-237
   AI_WITNESS_BILLBOARD_CHANGE: string
   POLICE_STEP_AFTER_PRECHASE: number
   REASON_TIME_OUT: number

@@ -31,7 +31,7 @@ Keys:
   ERR_NOT_USE_UX: number
   MATCH_STATE_PADDING: number
   CONFIRM_STATE_WAIT_LEADER: number
-  get_position_region_info: function
+  get_position_region_info: function(avt)  -- hexm/common/consts/online_recommendation_consts.lua:40-59
   CONFIRM_STATE_LEADER_REJECT: number
   SOCIAL_RECOMM_SERVER_URL_NORMAL: string
   SOCIAL_RECOMM_TOKEN: string

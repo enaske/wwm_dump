@@ -15,4 +15,4 @@ Keys:
       _server_dispatcher_redirect(self, event, data)  -- hexm/client/fake_server/entities/common_members/server_dispatcher_base.lua:50-61
       new(...)  -- =[C]
       __post_component__(self, bdata)  -- hexm/client/fake_server/entities/common_members/server_dispatcher_base.lua:44-48
-  request_fake_event: function
+  request_fake_event: function(eid, event, data)  -- hexm/client/fake_server/entities/common_members/server_dispatcher_base.lua:13-17

@@ -13,9 +13,9 @@ Keys:
       _slice_download_list(self, idx, filename)  -- patch/patch_fetcher.lua:3286-3302
       _reorder_download_list(self, pak_filename, task)  -- patch/patch_fetcher.lua:3304-3317
       optimize_step(self)  -- patch/patch_fetcher.lua:3220-3237
-  list_take: function
-  is_supported_batch_extract: function
-  parse_order_spec: function
+  list_take: function(l, count)  -- patch/patch_fetcher.lua:186-196
+  is_supported_batch_extract: function()  -- patch/patch_fetcher.lua:169-177
+  parse_order_spec: function(spec)  -- patch/patch_fetcher.lua:215-217
   FETCHER_DEFAULT_OPTIONS: dict
   NullPatcherContext: class <NullPatcherContext>
     Functions:
@@ -37,7 +37,7 @@ Keys:
       new(...)  -- =[C]
       is_mpk_excluded(self, filename)  -- patch/patch_fetcher.lua:2835-2835
       local_log(self, ...)  -- patch/patch_fetcher.lua:2848-2850
-  url_add_part: function
+  url_add_part: function(url_parts, part)  -- patch/patch_fetcher.lua:198-203
   PatcherPatchContext: class <PatcherPatchContext>
     Functions:
       get_local_mpk_entry(self, filename)  -- patch/patch_fetcher.lua:2914-2918
@@ -55,9 +55,9 @@ Keys:
       _fill_pak_info_list(self, filename)  -- patch/patch_fetcher.lua:2984-2994
       scan_bg_entries_in_mpk(self, mpk_index, cb)  -- patch/patch_fetcher.lua:2925-2928
       begin_batch_update(self)  -- patch/patch_fetcher.lua:2936-2942
-  mk_headers: function
-  pak_filename: function
-  dict_pop: function
+  mk_headers: function(headers)  -- patch/patch_fetcher.lua:207-213
+  pak_filename: function(pak_idx)  -- patch/patch_fetcher.lua:205-205
+  dict_pop: function(d)  -- patch/patch_fetcher.lua:179-184
   CommonPatchContext: class <CommonPatchContext>
     Functions:
       get_remote_pak_info(self, pak_idx)  -- patch/patch_fetcher.lua:3028-3034
@@ -71,7 +71,7 @@ Keys:
       use_preload_pak(self, pak_idx)  -- patch/patch_fetcher.lua:3049-3049
       get_local_file_paks(self, filename)  -- patch/patch_fetcher.lua:3042-3047
   EMPTY_DICT: dict
-  _compare_extract_task_address: function
+  _compare_extract_task_address: function(t1, t2)  -- patch/patch_fetcher.lua:1393-1407
   PatchFetcher: class <PatchFetcher>
     Functions:
       set_sort_res_info_v1(self, total_mpk_size, sorted_mpk_size)  -- patch/patch_fetcher.lua:451-463
@@ -126,7 +126,7 @@ Keys:
       _complete_extract_to_file(self, extract_task, error_report)  -- patch/patch_fetcher.lua:1649-1682
   http_dns_host_updated: boolean
   EMPTY_TABLE: table <UnknownInstance>
-  _file_comparator_for_migrate: function
+  _file_comparator_for_migrate: function(a, b)  -- patch/patch_fetcher.lua:2072-2082
   BgPatchContext: class <BgPatchContext>
     Functions:
       update_local_mpk_entries(self, filenames, mpk_indices, mpk_offsets, masks)  -- patch/patch_fetcher.lua:3065-3082

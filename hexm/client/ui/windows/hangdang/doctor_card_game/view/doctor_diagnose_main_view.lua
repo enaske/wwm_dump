@@ -118,4 +118,4 @@ Keys:
       set_quick_cure_button(self, cb, text)  -- hexm/client/ui/windows/hangdang/doctor_card_game/view/doctor_diagnose_main_view.lua:249-260
       set_treatment_button(self, cb)  -- hexm/client/ui/windows/hangdang/doctor_card_game/view/doctor_diagnose_main_view.lua:224-235
       on_window_loaded(self, data)  -- hexm/client/ui/windows/hangdang/doctor_card_game/view/doctor_diagnose_main_view.lua:464-466
-  get_view_by_locale: function
+  get_view_by_locale: function(lang_group)  -- hexm/client/ui/windows/hangdang/doctor_card_game/view/doctor_diagnose_main_view.lua:682-689

@@ -45,7 +45,7 @@ Keys:
   UDS_ROOM_APPLY_ENTER: number
   CLUB_BATTLE_MATCH_SUCCESS: number
   APPLY_ENTER_WORLD: number
-  get_player_social_tag_info: function
+  get_player_social_tag_info: function(pid)  -- hexm/client/ui/windows/tip/common_tip_confirm_config.lua:132-140
   AFFINITY_BORROW_REQUEST: number
   TEAM_APPLY_TYPE: number
   GROUP_CONFIG: dict

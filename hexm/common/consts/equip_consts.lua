@@ -29,7 +29,7 @@ Keys:
   SLOT_NECKLACE: number
   ERR_EQUIP_STAR_LIMIT: number
   ERR_NOT_EQUIP: number
-  get_equip_type_name_syd_d: function
+  get_equip_type_name_syd_d: function(subtype, equip_subtype)  -- hexm/common/consts/equip_consts.lua:76-85
   ERR_NOT_SEG: number
   ERR_LOCK_STUFF: number
   EQUIP_TYPE_CLOTH: number

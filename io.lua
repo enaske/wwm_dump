@@ -3,8 +3,8 @@ Type: table
 ================================================================================
 
 Keys:
-  lines: function
-  close: function
+  lines: function(...)  -- =[C]
+  close: function(...)  -- =[C]
   stdin: userdata <UnknownInstance>
     Functions:
       setvbuf(...)  -- =[C]
@@ -14,7 +14,7 @@ Keys:
       flush(...)  -- =[C]
       seek(...)  -- =[C]
       lines(...)  -- =[C]
-  pathinfo: function
+  pathinfo: function(path)  -- engine/Lib/functions.lua:413-437
   stderr: userdata <UnknownInstance>
     Functions:
       setvbuf(...)  -- =[C]
@@ -24,15 +24,15 @@ Keys:
       flush(...)  -- =[C]
       seek(...)  -- =[C]
       lines(...)  -- =[C]
-  readfile: function
-  popen: function
-  write: function
-  flush: function
-  open: function
-  output: function
-  filesize: function
-  read: function
-  exists: function
+  readfile: function(path)  -- engine/Lib/functions.lua:390-399
+  popen: function(...)  -- =[C]
+  write: function(...)  -- =[C]
+  flush: function(...)  -- =[C]
+  open: function(...)  -- =[C]
+  output: function(...)  -- =[C]
+  filesize: function(path)  -- engine/Lib/functions.lua:439-449
+  read: function(...)  -- =[C]
+  exists: function(path)  -- engine/Lib/functions.lua:381-388
   stdout: userdata <UnknownInstance>
     Functions:
       setvbuf(...)  -- =[C]
@@ -42,7 +42,7 @@ Keys:
       flush(...)  -- =[C]
       seek(...)  -- =[C]
       lines(...)  -- =[C]
-  input: function
-  writefile: function
-  type: function
-  tmpfile: function
+  input: function(...)  -- =[C]
+  writefile: function(path, content, mode)  -- engine/Lib/functions.lua:401-411
+  type: function(...)  -- =[C]
+  tmpfile: function(...)  -- =[C]

@@ -10,7 +10,7 @@ Keys:
   NODE_UNLOCK_TIP_GROUP: string
   EDIT_NODE_TYPE_HUD_WRAPPER: string
   NODE_BOTTOM_LEFT_GROUP: string
-  get_skill_view_cls: function
+  get_skill_view_cls: function(cls_name)  -- hexm/client/consts/hud_edit_consts.lua:62-65
   EDIT_NODE_TYPE_WINDOW: string
   SKILL_VIEW_MOBILE_DEFENCE: string
   NODE_HUD_WINDOWS_WRAPPER: string

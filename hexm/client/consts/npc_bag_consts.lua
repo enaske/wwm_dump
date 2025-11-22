@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  check_need_hide_ask_btn: function
+  check_need_hide_ask_btn: function(data)  -- hexm/client/consts/npc_bag_consts.lua:110-135
   NPC_ASK_DIALOG_TYPE_NORMAL: number
   NPC_INTERACT_DIALOG_START_NO: number
   INTERACT_CHESS: number
@@ -15,7 +15,7 @@ Keys:
   ASK_INTERACT_NO: number
   NPC_AGE_OLD: number
   NPC_ASK_DIALOG_TYPE_THANK: number
-  get_npc_stuff_dialog_no: function
+  get_npc_stuff_dialog_no: function(npc, interact_type, dialog_type, stuff_no)  -- hexm/client/consts/npc_bag_consts.lua:57-108
   VIGILANCE_LEVEL_CONFIG: dict
   NPC_AGE_MID: number
   NPC_AGES: list

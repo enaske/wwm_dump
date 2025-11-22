@@ -21,8 +21,8 @@ Keys:
   COLLECT_EXTRA: string
   COLD_PROOF: string
   EQUIP_DEATH_PROOF: string
-  get_flag_value: function
-  check_flag_active: function
+  get_flag_value: function(avatar, flag)  -- hexm/common/consts/interest_skill_consts.lua:65-79
+  check_flag_active: function(avatar, flag, ts_now)  -- hexm/common/consts/interest_skill_consts.lua:81-107
   YAYUN: string
   SWIM_RES: string
-  has_flag: function
+  has_flag: function(avatar, flag)  -- hexm/common/consts/interest_skill_consts.lua:40-63

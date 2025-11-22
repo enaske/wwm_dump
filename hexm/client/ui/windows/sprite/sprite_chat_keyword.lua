@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  sort_match_keyword: function
+  sort_match_keyword: function(a, b)  -- hexm/client/ui/windows/sprite/sprite_chat_keyword.lua:13-19
   SpriteChatKeyWordHandler: class <SpriteChatKeyWordHandler>
     Functions:
       real_search_text(self, text, callback)  -- hexm/client/ui/windows/sprite/sprite_chat_keyword.lua:68-100

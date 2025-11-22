@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  str: function
+  str: function(...)  -- =[C]
   MFoliage: class <MFoliage>
     Functions:
       RegenerateGrass(...)  -- =[C]
@@ -206,7 +206,7 @@ Keys:
       ctor(...)  -- =[C]
       GetScriptTraceback(...)  -- =[C]
       SetupDumpScriptStackFunc(...)  -- =[C]
-  get_proxy_info: function
+  get_proxy_info: function(mesh)  -- hexm/client/debug/gm/gm_commands/gm_npc.lua:2132-2153
   HexFollowPlacer: class <HexFollowPlacer>
     Functions:
       __close(...)  -- =[C]
@@ -274,8 +274,8 @@ Keys:
       setcstacklimit(...)  -- =[C]
       getregistry(...)  -- =[C]
       getmetatable(...)  -- =[C]
-  dir: function
-  loadfile_ex: function
+  dir: function(obj)  -- hexm/client/debug/gm/gm_commands/gm_quick_debug.lua:11-83
+  loadfile_ex: function(...)  -- =[C]
   ParticleParameterConstantFloat: class <ParticleParameterConstantFloat>
     Functions:
       __close(...)  -- =[C]
@@ -284,7 +284,7 @@ Keys:
       _query_properties(...)  -- =[C]
       GetName(...)  -- =[C]
       BindEvent(...)  -- =[C]
-  tonumber: function
+  tonumber: function(...)  -- =[C]
   OrbitAnimPlacer: class <OrbitAnimPlacer>
     Functions:
       __close(...)  -- =[C]
@@ -433,7 +433,7 @@ Keys:
       _query_properties(...)  -- =[C]
       GetName(...)  -- =[C]
       BindEvent(...)  -- =[C]
-  get_packed_texture_name: function
+  get_packed_texture_name: function(texture_name)  -- hexm/client/ui/utils/ui_util.lua:151-157
   RBFPoseModifier: class <RBFPoseModifier>
     Functions:
       __close(...)  -- =[C]
@@ -578,7 +578,7 @@ Keys:
       DelLogicLodOwner(...)  -- =[C]
       AddLogicLodOwner(...)  -- =[C]
       EnterStoryboard(...)  -- =[C]
-  dump: function
+  dump: function(value, description, nesting)  -- hexm/client/game_setup.lua:97-97
   MHexParticles: class <MHexParticles>
     Functions:
       DestroyFadingParticles(...)  -- =[C]
@@ -622,7 +622,7 @@ Keys:
       SetHeadingPos(...)  -- =[C]
       GetShapeIsQuery(...)  -- =[C]
       SetWorldPose(...)  -- =[C]
-  show_soft_bone_manager_panel: function
+  show_soft_bone_manager_panel: function()  -- hexm/client/debug/gm/gm_commands/gm_cloth.lua:454-473
   MRender: class <MRender>
     Functions:
       PreLoadShaderCacheByProfile(...)  -- =[C]
@@ -675,8 +675,8 @@ Keys:
       AddHexTextureSkipList(...)  -- =[C]
       GetShaderCompileStats(...)  -- =[C]
       SetDiyParameter(...)  -- =[C]
-  _show_lod_stats_panel: function
-  print: function
+  _show_lod_stats_panel: function()  -- hexm/client/debug/gm/gm_commands/gm_npc.lua:251-426
+  print: function(...)  -- =[C]
   FpsMover: class <FpsMover>
     Functions:
       __close(...)  -- =[C]
@@ -690,8 +690,8 @@ Keys:
       _query_properties(...)  -- =[C]
       PitchYaw(...)  -- =[C]
       BindEvent(...)  -- =[C]
-  get_node_textures_debug_info: function
-  xinfa_filter: function
+  get_node_textures_debug_info: function(node)  -- hexm/client/ui/utils/ui_util.lua:178-201
+  xinfa_filter: function(xinfa_list, type_list, star_list, liupai_list, effect_list, remove_list, is_remove_equiped_xinfa, remove_xinfa_stages, need_match_neigong_envir)  -- hexm/client/consts/xinfa_consts.lua:431-503
   TerrainComponent: class <TerrainComponent>
     Functions:
       __close(...)  -- =[C]
@@ -806,16 +806,7 @@ Keys:
       _query_properties(...)  -- =[C]
       GetName(...)  -- =[C]
       BindEvent(...)  -- =[C]
-  MHexSDK: class <MHexSDK>
-    Functions:
-      OnPlayerLogin(...)  -- =[C]
-      SetQueueLimitCount(...)  -- =[C]
-      SetUrl(...)  -- =[C]
-      OnPlayerLogout(...)  -- =[C]
-      ctor(...)  -- =[C]
-      SetEntityParam(...)  -- =[C]
-      Stat(...)  -- =[C]
-      new(...)  -- =[C]
+  require_disposable: function(path)  -- engine/Lib/functions.lua:802-808
   AimPlacer: class <AimPlacer>
     Functions:
       __close(...)  -- =[C]
@@ -829,6 +820,6 @@ Keys:
       _query_properties(...)  -- =[C]
       Rotate(...)  -- =[C]
       BindEvent(...)  -- =[C]
-  collectgarbage: function
-  _do_create_npcs_with_model_nos: function
+  collectgarbage: function(...)  -- =[C]
+  _do_create_npcs_with_model_nos: function(model_ids, lod_level)  -- hexm/client/debug/gm/gm_commands/gm_npc.lua:765-800
   (1 more keys)

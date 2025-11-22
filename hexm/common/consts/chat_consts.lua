@@ -5,7 +5,7 @@ Type: table
 Keys:
   WORLD_MSG_RECEIVE_TYPE_SERVER: number
   GROUP_EXPEDITION_WAREHOUSE_FETCH: number
-  pack_chat_msg_dict: function
+  pack_chat_msg_dict: function(message)  -- hexm/common/consts/chat_consts.lua:479-483
   GROUP_STATE_NORMAL: number
   SYSTEM_CHANNEL: string
   GROUP_MEMBER_KICK: string
@@ -31,14 +31,14 @@ Keys:
   dismiss_group: string
   ChatRoomRankTypeTime: number
   ERR_CHAT_GROUP_IN_TARGET_BLACK: number
-  get_msg_npc_data: function
+  get_msg_npc_data: function(msg_npc_config_no)  -- hexm/common/consts/chat_consts.lua:279-292
   ChairTypeQueue: number
   ERR_PERSON_CHAT_WORDS_TOO_LONG: number
   TEAM_HUD_CHANNEL: string
   ERR_CHUANYIN_USE_FORBID_SPACE: number
   MSG_TALK_HONGBAO: string
   chat_num_to_data_field: dict
-  get_is_in_prison_group: function
+  get_is_in_prison_group: function(group_id)  -- hexm/common/consts/chat_consts.lua:830-839
   CR_SPACE_ROOM_TAG_PAINTING_BOAT: number
   HUAFANG_CHANNEL: string
   UNREAD_MSG_NUM: number

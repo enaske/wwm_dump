@@ -13,6 +13,6 @@ Keys:
   _reload_all: boolean
   COMMENT_TYPE_PLOT: number
   COMMENT_TYPE_BOWU: number
-  get_comment_key: function
+  get_comment_key: function(comment_type, topic_id)  -- hexm/common/consts/common_comment_consts.lua:21-23
   COMMENT_TYPE_HOARD_PROFITEER_ANNOUNCE: number
   COMMENT_TYPE_WORLD_VIEW_FORCE: number

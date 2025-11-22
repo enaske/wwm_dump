@@ -9,9 +9,9 @@ Keys:
   MIC_STATE_NAME_MAP: dict
   MIC_STATE_ICON_MAP: dict
   GAMEPLAY_NAME_SHEFU: number
-  get_state_name: function
+  get_state_name: function(state)  -- hexm/client/consts/ccmini_consts.lua:65-68
   GAMEPLAY_NAME_TOUHU: number
-  get_change_voice_types: function
+  get_change_voice_types: function()  -- hexm/client/consts/ccmini_consts.lua:70-96
   GAMEPLAY_NAME_XIANGPU: number
   MIC_OPT_TYPE_SPEAK: number
   SESSION_NAME_GROUP_CHAT: string
@@ -27,7 +27,7 @@ Keys:
   GAMEPLAY_NAME_QUESHEN: number
   GAMEPLAY_CHAT_KEY: dict
   MIC_STATE_MUTE: number
-  get_state_icon: function
+  get_state_icon: function(state)  -- hexm/client/consts/ccmini_consts.lua:61-63
   SESSION_NAME_CHAT_ROOM: string
   SESSION_STATE_NOT_STARTED: number
   MIC_STATE_SPEAK: number

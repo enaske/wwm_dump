@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  test_TreeViewMetaData: function
+  test_TreeViewMetaData: function()  -- hexm/client/ui/struct/meta_model/meta_data.lua:445-487
   TreeMetaData: class <TreeMetaData>
     Functions:
       get_key_by_offset(self, key, offset)  -- hexm/client/ui/struct/meta_model/meta_data.lua:319-348

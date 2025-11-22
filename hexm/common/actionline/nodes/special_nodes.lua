@@ -58,11 +58,11 @@ Keys:
       start(self, graph)  -- hexm/common/actionline/nodes/special_nodes.lua:2948-2981
   ArrowPlayEffect: class <ArrowPlayEffect>
     Functions:
+      get_mojin_effect_color(self, context, particle)  -- hexm/common/actionline/nodes/special_nodes.lua:1496-1510
       real_set_effect_color(self, e_id, particle)  -- hexm/common/actionline/nodes/special_nodes.lua:1484-1494
+      start(self, graph)  -- hexm/common/actionline/nodes/special_nodes.lua:1409-1425
       ctor(self)  -- hexm/common/actionline/nodes/special_nodes.lua:1399-1406
       real_play_arrow_effects(self, context, particle)  -- hexm/common/actionline/nodes/special_nodes.lua:1427-1482
-      get_mojin_effect_color(self, context, particle)  -- hexm/common/actionline/nodes/special_nodes.lua:1496-1510
-      start(self, graph)  -- hexm/common/actionline/nodes/special_nodes.lua:1409-1425
   CallSkillLogic: class <CallSkillLogic>
     Functions:
       need_wait(self, context)  -- hexm/common/actionline/nodes/special_nodes.lua:1802-1813

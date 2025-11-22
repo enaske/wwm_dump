@@ -19,7 +19,7 @@ Keys:
   DISEASE_REASON_PARAM_4: number
   DISEASE_REASON_HIT_XINMAI: number
   DISEASE_TYPE_MUSCLE: number
-  adjust_evolution_pro: function
+  adjust_evolution_pro: function(weight_to_disease_no, disease_no, pro_change)  -- hexm/common/consts/disease_consts.lua:169-192
   EVOLUTION_TYPE_BATTLE: number
   DISEASE_REASON_FALL: number
   REASON_CURE_BY_SELF_HEALING: string
@@ -35,7 +35,7 @@ Keys:
   REASON_CURE_BY_DCGM: string
   SPREAD_PERSON: number
   FLOWER_DISEASE_SPACE_NO: number
-  get_body_type_full_name: function
+  get_body_type_full_name: function(constitution_id)  -- hexm/common/consts/disease_consts.lua:146-152
   DISEASE_TYPE_UNKNOWN: number
   DISEASE_TYPE_MIND: number
   DISEASE_REASON_TEMPERATURE: number

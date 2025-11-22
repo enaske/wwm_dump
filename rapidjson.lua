@@ -3,15 +3,15 @@ Type: table
 ================================================================================
 
 Keys:
-  encode: function
+  encode: function(...)  -- =[C]
   _NAME: string
   _VERSION: string
-  SchemaValidator: function
-  SchemaDocument: function
-  dump: function
-  object: function
-  load: function
-  decode: function
-  array: function
+  SchemaValidator: function(...)  -- =[C]
+  SchemaDocument: function(...)  -- =[C]
+  dump: function(...)  -- =[C]
+  object: function(...)  -- =[C]
+  load: function(...)  -- =[C]
+  decode: function(...)  -- =[C]
+  array: function(...)  -- =[C]
   null: userdata <UnknownInstance>
-  Document: function
+  Document: function(...)  -- =[C]

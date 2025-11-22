@@ -3,8 +3,8 @@ Type: table
 ================================================================================
 
 Keys:
-  _get_sound_no_tag_pri: function
-  _get_sound_pri: function
+  _get_sound_no_tag_pri: function(entity)  -- hexm/client/entities/local/npc_members/imp_sound.lua:270-285
+  _get_sound_pri: function(entity)  -- hexm/client/entities/local/npc_members/imp_sound.lua:260-268
   NpcMember: class <NpcMember>
     Functions:
       __on_revived_component__(self, bdict)  -- hexm/client/entities/local/npc_members/imp_sound.lua:39-41

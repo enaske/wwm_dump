@@ -42,9 +42,9 @@ Keys:
   InteractProcessHandleCueResultNode: class <InteractProcessHandleCueResultNode>
     Functions:
       handle_pick_up(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/InteractProcessNodes.lua:626-670
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/InteractProcessNodes.lua:569-577
       handle_cue_ahead_action(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/InteractProcessNodes.lua:718-768
       Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/InteractProcessNodes.lua:579-600
-      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/InteractProcessNodes.lua:569-577
       handle_put_down(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/InteractProcessNodes.lua:672-716
       handle_cue_result(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/InteractProcessNodes.lua:602-624
   InteractProcessReadTableNode: class <InteractProcessReadTableNode>

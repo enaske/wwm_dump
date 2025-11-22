@@ -11,14 +11,14 @@ Keys:
   SOCIAL_KUAISHOU: number
   FRIEND_EXTRA_MENTOR: number
   SOCIAL_GODLIKE: number
-  sort_chat_group: function
+  sort_chat_group: function(a, b)  -- hexm/client/consts/share_consts.lua:167-178
   SOCIAL_PLATFORM_FACEBOOK_MESSENGER: number
   SOCIAL_SINA_WEIBO: number
   SOCIAL_WEIXIN: number
   CLOUD_SOCIAL_PLATFORM_CHANNELS: dict
   SOCIAL_PLATFORM_WEIXIN: number
   SHARE_SIDE_GAMEPLAY: number
-  dummy_recommend_rule: function
+  dummy_recommend_rule: function(share_model)  -- hexm/client/consts/share_consts.lua:143-157
   SHARE_CHANNEL_TAB: number
   SOCIAL_PLATFORM_TWITTER: number
   SOCIAL_PLATFORM_QQ: number
@@ -32,7 +32,7 @@ Keys:
   REQUEST_MORE_DATA_OK: string
   SHARE_WORLD_VIEW_KAOJU: number
   SHARE_FRIENDS_TAB: number
-  get_share_card_local_key: function
+  get_share_card_local_key: function(share_id, channel)  -- hexm/client/consts/share_consts.lua:139-141
   SOCIAL_WHATSAPP: number
   SOCIAL_TWITTER: number
   SOCIAL_WEIXIN_PENGYOUQUAN: number
@@ -50,7 +50,7 @@ Keys:
   SHARE_INVITATION_GAMEPLAY: number
   SOCIAL_PLATFORM_SINA_WEIBO: number
   FRIEND_EXTRA_ZUIHUAYIN: number
-  get_share_default_tab: function
+  get_share_default_tab: function(share_id)  -- hexm/client/consts/share_consts.lua:186-189
   FRIEND_EXTRA_TEAM: number
   SOCIAL_YIXIN: number
   (1 more keys)

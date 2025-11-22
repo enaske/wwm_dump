@@ -51,7 +51,7 @@ Keys:
       struct(...)  -- =[C]
       gbk(...)  -- =[C]
       bit(...)  -- =[C]
-  loadlib: function
+  loadlib: function(...)  -- =[C]
   cpath: string
-  searchpath: function
+  searchpath: function(...)  -- =[C]
   config: string

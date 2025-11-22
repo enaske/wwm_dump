@@ -3,9 +3,9 @@ Type: table
 ================================================================================
 
 Keys:
-  get_fix_bar_percent: function
+  get_fix_bar_percent: function(percent, total)  -- hexm/client/ui/windows/life_skill_window/qishu_lingwu_process_window.lua:118-120
   BAR_MAX: number
-  get_fix_bar_icon_rotation: function
+  get_fix_bar_icon_rotation: function(percent, total)  -- hexm/client/ui/windows/life_skill_window/qishu_lingwu_process_window.lua:121-123
   BAR_ICON_MAX: number
   QishuLingwuProcessController: class <QishuLingwuProcessController>
     Functions:

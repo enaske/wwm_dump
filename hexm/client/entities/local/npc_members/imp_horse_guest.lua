@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  get_distance_billboard_no: function
+  get_distance_billboard_no: function(distance_mark)  -- hexm/client/entities/local/npc_members/imp_horse_guest.lua:111-116
   NpcMember: class <NpcMember>
     Functions:
       chemahang_on_billboard_after_inited(self)  -- hexm/client/entities/local/npc_members/imp_horse_guest.lua:104-109

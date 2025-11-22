@@ -71,7 +71,7 @@ Keys:
       disable_internal_controller(self, controller_key)  -- hexm/client/ui/windows/chat/chat_center_controllers/chat_center_controller_friend.lua:1037-1040
       update_content(self, key, data)  -- hexm/client/ui/windows/chat/chat_center_controllers/chat_center_controller_friend.lua:1015-1026
       get_current_controller_key(self)  -- hexm/client/ui/windows/chat/chat_center_controllers/chat_center_controller_friend.lua:1042-1044
-  refresh_tag_view: function
+  refresh_tag_view: function(group_info, widget, view)  -- hexm/client/ui/windows/chat/chat_center_controllers/chat_center_controller_friend.lua:33-48
   ChatCenterControllerFriendTabFriend: class <ChatCenterControllerFriendTabFriend>
     Functions:
       refresh_ui_with_model(self)  -- hexm/client/ui/windows/chat/chat_center_controllers/chat_center_controller_friend.lua:1284-1298

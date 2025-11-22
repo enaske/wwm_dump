@@ -3,5 +3,5 @@ Type: table
 ================================================================================
 
 Keys:
-  urldecode: function
-  urlencode: function
+  urldecode: function(url)  -- patch/url_encode.lua:32-39
+  urlencode: function(url)  -- patch/url_encode.lua:18-26

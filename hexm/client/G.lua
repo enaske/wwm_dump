@@ -7,7 +7,7 @@ Keys:
   ENABLE_LOD_FOLLOW_MASTER: boolean
   DEBUG_SHOW_MF: boolean
   DEBUG_SKILL_WINDOW_USE_TILE: boolean
-  ENABLE_MOBILE_MMAP_TABLE_DATA: boolean
+  PROFILE_PAUSE_ENTITY_MODE: boolean
   USE_ENGINE_LOAD_TM_ENTITY: boolean
   ENABLE_FAKE_SERVER_DISPATCHER_LATCH: boolean
   enable_fit_tail_screen: boolean
@@ -17,7 +17,7 @@ Keys:
   USE_OLD_SPACE: boolean
   on_created_dists: dict
   debug_par_loader_list: list
-  platform_manager: instance
+  ENABLE_HEX_MODEL_TICK_CYCLE: boolean
   DEBUG_CLOUD_GAME: boolean
   INTERACT_PROCESS_USE_STORYLINE: boolean
   SKILL_INPUT_CACHE_ENABLED: boolean
@@ -33,8 +33,9 @@ Keys:
   ENABLE_ECS: boolean
   CREATE_DISSOLVE_TIME: number
   bg_patcher: instance
-  export_error_by_mail: function
+  export_error_by_mail: function()  -- hexm/common/util/export_error.lua:102-102
   _not_in_painting_boat_wanfa_ts: number
+  gm_combat_power_flags: number
   GM_NPC_FORCE_LOW_LOD: boolean
   ENABLE_COLLECT_CUR_ROLE_POS: boolean
   sdk_manager: instance
@@ -52,5 +53,4 @@ Keys:
   GM_USE_LISTEN_EFFECT: boolean
   GM_FYZB_UNLOCK_ALL: boolean
   LOCALE_HIDE_TEXT: boolean
-  entity_perf_manager: instance
   (1 more keys)

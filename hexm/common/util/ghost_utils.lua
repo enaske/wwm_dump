@@ -3,9 +3,9 @@ Type: table
 ================================================================================
 
 Keys:
-  swallow: function
-  _init_cls_with_ghost_flag: function
-  relay_to_master: function
+  swallow: function(kwargs)  -- hexm/common/util/ghost_utils.lua:8-10
+  _init_cls_with_ghost_flag: function(dct)  -- hexm/common/util/ghost_utils.lua:16-22
+  relay_to_master: function(comp, method, kwargs)  -- hexm/common/util/ghost_utils.lua:12-14
   MockEntity: class <MockEntity>
     Functions:
       ctor(...)  -- =[C]

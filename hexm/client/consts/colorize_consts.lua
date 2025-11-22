@@ -13,7 +13,7 @@ Keys:
   COLOR_CHOSEN_TARGET: table <UnknownInstance>
   FLAG_INTERACT_TRACE: string
   PRIORITY_DIALOG: number
-  show_colorize_monitor_content: function
+  show_colorize_monitor_content: function()  -- hexm/client/consts/colorize_consts.lua:108-126
   FLAG_INTERACT_TARGET: string
   ColorizeGray: table <UnknownInstance>
     Functions:

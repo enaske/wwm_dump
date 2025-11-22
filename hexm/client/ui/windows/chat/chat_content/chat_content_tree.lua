@@ -6,7 +6,7 @@ Keys:
   VerticalLayoutNode: class <VerticalLayoutNode>
     Functions:
       layout_self(self)  -- hexm/client/ui/windows/chat/chat_content/chat_content_tree.lua:233-253
-  register_node_clz: function
+  register_node_clz: function(node_type)  -- hexm/client/ui/windows/chat/chat_content/chat_content_tree.lua:21-27
   NODE_CLZ: dict
   ComponentNode: class <ComponentNode>
     Functions:
@@ -46,5 +46,5 @@ Keys:
       ctor(self, p, r, node_desc, msg_dict, window)  -- hexm/client/ui/windows/chat/chat_content/chat_content_tree.lua:39-51
       add_child(self, child)  -- hexm/client/ui/windows/chat/chat_content/chat_content_tree.lua:81-83
       refresh_layout(self)  -- hexm/client/ui/windows/chat/chat_content/chat_content_tree.lua:113-119
-  build_node: function
-  build_up_tree: function
+  build_node: function(node_dict, p, root, msg_dict, window, parent_controller)  -- hexm/client/ui/windows/chat/chat_content/chat_content_tree.lua:340-363
+  build_up_tree: function(msg_dict, width, window, parent_controller)  -- hexm/client/ui/windows/chat/chat_content/chat_content_tree.lua:312-338

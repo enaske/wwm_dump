@@ -13,7 +13,7 @@ Keys:
       _on_slider_changed(self, percent, ended)  -- hexm/client/ui/windows/custom_hud_editor/custom_hud_editor_detail_controller.lua:102-122
       update_content(self, key, edit_meta)  -- hexm/client/ui/windows/custom_hud_editor/custom_hud_editor_detail_controller.lua:75-100
       update_edit_value(self, value)  -- hexm/client/ui/windows/custom_hud_editor/custom_hud_editor_detail_controller.lua:124-128
-  to_text: function
+  to_text: function(text)  -- hexm/client/ui/windows/custom_hud_editor/custom_hud_editor_detail_controller.lua:25-30
   CustomHudEditorDetailController: class <CustomHudEditorDetailController>
     Functions:
       detail_item_adapter(edit_meta)  -- hexm/client/ui/windows/custom_hud_editor/custom_hud_editor_detail_controller.lua:39-49

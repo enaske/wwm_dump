@@ -29,7 +29,7 @@ Keys:
   SETTING_SALOG_KEY: dict
   SETTING_WHITEPOINT: string
   SETTING_NOTIFY_ENABLE: string
-  _get_difficulty_setting_config: function
+  _get_difficulty_setting_config: function(setting_key)  -- hexm/client/manager/setting/setting_config.lua:374-426
   SETTING_SIGN_INVITE: string
   SETTING_PICTURE_STYLE: string
   SETTING_PLAYER_NOTIFY: string

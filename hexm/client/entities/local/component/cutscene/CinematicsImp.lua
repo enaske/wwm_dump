@@ -5,9 +5,9 @@ Type: table
 Keys:
   CUTSCENE_ACTION_GRAPH: string
   FLAG_REASON: string
-  GetCastManager: function
-  GetSoundMananger: function
-  GetGroupManager: function
+  GetCastManager: function()  -- hexm/client/entities/local/component/cutscene/CinematicsImp.lua:1915-1923
+  GetSoundMananger: function()  -- hexm/client/entities/local/component/cutscene/CinematicsImp.lua:1930-1933
+  GetGroupManager: function()  -- hexm/client/entities/local/component/cutscene/CinematicsImp.lua:1925-1928
   CastManagerImp: class <CastManagerImp>
     Functions:
       reset_game_main_group(self)  -- hexm/client/entities/local/component/cutscene/CinematicsImp.lua:1865-1869
@@ -60,5 +60,5 @@ Keys:
       enable_all_cast_physics(self)  -- hexm/client/entities/local/component/cutscene/CinematicsImp.lua:861-869
       set_can_terminate(self, enable)  -- hexm/client/entities/local/component/cutscene/CinematicsImp.lua:914-916
       set_cutscene_avatars(self, cutscene_avatars)  -- hexm/client/entities/local/component/cutscene/CinematicsImp.lua:1245-1247
-  GetCutsceneDebugManager: function
+  GetCutsceneDebugManager: function()  -- hexm/client/entities/local/component/cutscene/CinematicsImp.lua:1935-1938
   CastManagerInstance: instance

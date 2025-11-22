@@ -3,9 +3,9 @@ Type: table
 ================================================================================
 
 Keys:
-  _validate_attrs: function
+  _validate_attrs: function(data, allowed_attrs)  -- hexm/client/entities/local/simple_visual_entity.lua:121-125
   ALLOWED_ENTITY_MODEL_ATTRS: table
-  _get_serial_id: function
+  _get_serial_id: function(entity_id, entity_data)  -- hexm/client/entities/local/simple_visual_entity.lua:127-134
   SimpleVisualEntity: class <SimpleVisualEntity>
     Functions:
       push_cap_box(self, cap_box, reason, priority)  -- hexm/client/entities/local/common_members/charctrl_base.lua:1189-1195
@@ -58,8 +58,8 @@ Keys:
       view_reset_custom_material(self, material_virtual_path)  -- hexm/client/entities/local/common_members/view_base.lua:1147-1149
       dialog_set_disable_ai_mouth_anim(self, is_unset)  -- hexm/client/entities/local/common_members/dialogs_base.lua:881-887
       set_use_gameobject(self, value)  -- hexm/client/entities/local/common_members/sound_base.lua:70-72
-  scan_simple_visual_entity: function
+  scan_simple_visual_entity: function()  -- hexm/client/entities/local/simple_visual_entity.lua:173-177
   ALLOWED_ENTITY_ATTRS: table
   ALLOWED_INS_ATTRS: table
   ALLOWED_MODEL_ATTRS: table
-  is_simple_visual_entity: function
+  is_simple_visual_entity: function(entity_id, data)  -- hexm/client/entities/local/simple_visual_entity.lua:136-171

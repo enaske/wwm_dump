@@ -13,7 +13,7 @@ Keys:
       ctor(self)  -- hexm/common/util/defer_msg.lua:23-27
       new(...)  -- =[C]
       add(self, msg, mode)  -- hexm/common/util/defer_msg.lua:29-61
-  main: function
+  main: function()  -- hexm/common/util/defer_msg.lua:182-265
   DeferMsgMember: class <DeferMsgMember>
     Functions:
       _defer_msg_on_call(self, msg)  -- hexm/common/util/defer_msg.lua:166-178

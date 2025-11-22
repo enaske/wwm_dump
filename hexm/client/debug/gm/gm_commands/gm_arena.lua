@@ -3,5 +3,5 @@ Type: table
 ================================================================================
 
 Keys:
-  gm_arena_go_to_point: function
-  gm_arena_unlock_all: function
+  gm_arena_go_to_point: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_arena_unlock_all: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58

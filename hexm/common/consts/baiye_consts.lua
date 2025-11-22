@@ -17,9 +17,9 @@ Keys:
   NOTICE_PK_BUFF_ADD: number
   BLUE_SWORD_SID: number
   ROAD_DOWN: number
-  parse_broadcast_notice_content: function
+  parse_broadcast_notice_content: function(avatar, trigger_camp, event_no, content)  -- hexm/common/consts/baiye_consts.lua:209-240
   AI_AVTS_TO_FIGHT: number
-  is_baiye_halo_effect_type: function
+  is_baiye_halo_effect_type: function(effect_type)  -- hexm/common/consts/baiye_consts.lua:186-188
   MODE_LOSS_FACAI_END: number
   STS_M_STAR_FIGHT: number
   NOTICE_DEAD_WITH_FACAI: number
@@ -38,12 +38,12 @@ Keys:
   MODE_WIN_E_NOT_KILLED: number
   ROLE_SHOP_NPC_3: number
   NOTICE_PK_PLAYER_ENTER: number
-  extrac_rank_score: function
+  extrac_rank_score: function(number)  -- hexm/common/consts/baiye_consts.lua:177-181
   NOTICE_PK_BATTLE_START: number
   REG_MODE: number
   MIDDLE_CAMP_X: number
   ULTIMATE_SLOT_INDEX: number
-  is_base_camp: function
+  is_base_camp: function(camp)  -- hexm/common/consts/baiye_consts.lua:41-43
   MODE_WIN_E_KILLED: number
   FACTION_MIDDLE_CAMP_X: number
   WALL_SKILL_SLOT_MODE: list

@@ -21,7 +21,7 @@ Keys:
   NAVIGATE_MAX_QUERY_DEPTH: number
   NAVIGATE_LOAD_RADIUS_MOBILE_PLATFORM: number
   NAVIGATE_NEAR_QUERY_DEPTH: number
-  get_navigate_flag_by_ai_data: function
+  get_navigate_flag_by_ai_data: function(ai_data)  -- hexm/common/consts/navigate_consts.lua:84-97
   SPACE_NAVIGATE_ROAD_FORMAT: string
   NAVIGATE_LOAD_RADIUS: number
   POLYFLAGS_ROAD: number
@@ -44,7 +44,7 @@ Keys:
   ROAD_POINT_TYPE_DEAD_END: number
   NAVIGATE_TILE_SIZE: number
   POLYFLAGS_WATER: number
-  get_navigate_flag: function
+  get_navigate_flag: function(G, npc_no)  -- hexm/common/consts/navigate_consts.lua:69-82
   PLAYER_OBSTACLE_CLASS: number
   FLAG_POSE_SENDER: string
   ROAD_POINT_TYPE_OTHER: number

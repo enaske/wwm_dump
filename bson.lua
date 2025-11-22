@@ -3,16 +3,16 @@ Type: table
 ================================================================================
 
 Keys:
-  objectid: function
-  encode_order: function
-  decode_str: function
+  objectid: function(...)  -- =[C]
+  encode_order: function(...)  -- =[C]
+  decode_str: function(...)  -- =[C]
   minkey: string
-  encode: function
-  binary: function
-  date: function
+  encode: function(...)  -- =[C]
+  binary: function(...)  -- =[C]
+  date: function(...)  -- =[C]
   maxkey: string
-  decode: function
-  timestamp: function
-  regex: function
+  decode: function(...)  -- =[C]
+  timestamp: function(...)  -- =[C]
+  regex: function(...)  -- =[C]
   null: string
-  type: function
+  type: function(...)  -- =[C]

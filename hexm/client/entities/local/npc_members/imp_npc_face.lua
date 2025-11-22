@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  __test__: function
+  __test__: function()  -- hexm/client/entities/local/npc_members/imp_npc_face.lua:17-100
   __face_data_1__: number
   __face_data_2__: number
   NpcMember: class <NpcMember>

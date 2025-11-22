@@ -31,7 +31,7 @@ Keys:
   CLIMB_BOTTOM_RIGHT: number
   CLIMB_INNER_IDLE: number
   CLIMB_CONSUME_STATE_MAP: dict
-  is_in_fly_state: function
+  is_in_fly_state: function(entity)  -- hexm/common/consts/climb_consts.lua:96-99
   CLIMB_JUMP_ALLOW_STATE_MAP: dict
   CLIMB_INNER_EAVE_TO_WALL: number
   CLIMB_FALL_ALLOW_STATE_MAP: dict

@@ -3,29 +3,29 @@ Type: table
 ================================================================================
 
 Keys:
-  get_weather_player_effect_list: function
+  get_weather_player_effect_list: function(weather_id)  -- hexm/client/consts/weather_consts.lua:168-170
   WEATHER_TAG_GAMEPLAY: string
   WEATHER_PRIORITY_PHOTO: number
   WEATHER_PRIORITY_REGION_EVENT: number
-  get_region_no_by_weather_num: function
+  get_region_no_by_weather_num: function(weather_num, spaceno)  -- hexm/client/consts/weather_consts.lua:145-148
   WEATHER_NOVICE_NO: number
   MAIN_WEATHER_SUNNY: number
-  get_weather_env_transition_config: function
+  get_weather_env_transition_config: function(old_weather, new_weather)  -- hexm/client/consts/weather_consts.lua:199-205
   WEATHER_PRIORITY_AVATAR: number
   MAIN_WEATHER_THUNDER: number
   WEATHER_PRIORITY_ZHENFA: number
-  show_weather_monitor_content: function
+  show_weather_monitor_content: function()  -- hexm/client/consts/weather_consts.lua:256-396
   WEATHER_PRIORITY_REGION: number
-  get_weather_enable_effect_tag: function
-  get_env_volume_fade_time: function
-  get_region_weather_random_list: function
+  get_weather_enable_effect_tag: function(weather_id)  -- hexm/client/consts/weather_consts.lua:172-174
+  get_env_volume_fade_time: function(old_weather, new_weather)  -- hexm/client/consts/weather_consts.lua:235-245
+  get_region_weather_random_list: function(spaceno, region_no)  -- hexm/client/consts/weather_consts.lua:208-213
   WEATHER_HOMEWORLD_SPACE_NO: number
   WEATHER_PRIORITY_CUTSCENE: number
-  get_region_weather_info_table: function
+  get_region_weather_info_table: function(spaceno)  -- hexm/client/consts/weather_consts.lua:140-143
   MAIN_WEATHER_RAIN: number
   WEATHER_PRIORITY_BASE: number
   WEATHER_TAG_SPACE: string
-  check_region_keep_weather: function
+  check_region_keep_weather: function(old, new)  -- hexm/client/consts/weather_consts.lua:135-137
   WEATHER_EFFECT_TYPE_HEX: number
   WEATHER_PRIORITY_DIALOG: number
   WEATHER_PRIORITY_TASK: number
@@ -39,12 +39,12 @@ Keys:
   WEATHER_PRIORITY_DISASTER_DUNGEON: number
   MAIN_WEATHER_FOGGY: number
   WEATHER_EFFECT_TYPE_WIND: number
-  get_region_weather_random_weathers: function
-  get_extreme_weather_replace_weather: function
+  get_region_weather_random_weathers: function(spaceno, region_no)  -- hexm/client/consts/weather_consts.lua:216-223
+  get_extreme_weather_replace_weather: function(weather)  -- hexm/client/consts/weather_consts.lua:248-252
   WEATHER_PRIORITY_NPC: number
-  get_weather_request_random_timeoffset: function
-  get_region_weather_info: function
-  get_weather_priority_by_tag: function
+  get_weather_request_random_timeoffset: function()  -- hexm/client/consts/weather_consts.lua:154-156
+  get_region_weather_info: function(region_no, spaceno)  -- hexm/client/consts/weather_consts.lua:158-162
+  get_weather_priority_by_tag: function(weather_tag)  -- hexm/client/consts/weather_consts.lua:150-152
   WEATHER_PRIORITY_TASK_LOCK: number
   PRIORITY_REGION: number
   WEATHER_PRIORITY_BOSS_WANFA_PYX: number

@@ -4,7 +4,7 @@ Type: table
 
 Keys:
   AFFINITY_BENEFIT_TYPE_NOTIFY: number
-  affinity_get_benefit: function
+  affinity_get_benefit: function(stage)  -- hexm/common/consts/affinity_consts.lua:67-85
   AFFINITY_BENEFIT_TYPE_SHRINK_FOLLOW: number
   AFFINITY_GUISE_BORROW: number
   AFFINITY_BENEFIT_TYPE_COPY_FOLLOW: number
@@ -13,13 +13,13 @@ Keys:
   AFFINITY_BENEFIT_TYPE_TEAM: number
   AFFINITY_FRIEND: number
   AFFINITY_BENEFIT_ID_CLOTHING_BORROW_1: number
-  affinity_is_benefit_stage_enough: function
+  affinity_is_benefit_stage_enough: function(stage, benefit_id)  -- hexm/common/consts/affinity_consts.lua:87-94
   AFFINITY_BENEFIT_TYPE_COOP: number
   AFFINITY_SHITU: number
   AFFINITY_DCGM: number
   AFFINITY_BENEFIT_ID_BADGE: number
   AFFINITY_SOCIAL: number
-  affinity_get_raw_value: function
+  affinity_get_raw_value: function(lv, v)  -- hexm/common/consts/affinity_consts.lua:96-101
   AFFINITY_BENEFIT_ID_FOLLOW: number
   AFFINITY_BENEFIT_ID_COOP: number
   AFFINITY_BENEFIT_ID_CLOTHING_BORROW_2: number
@@ -37,7 +37,7 @@ Keys:
   AFFINITY_BENEFIT_ID_TEAM: number
   AFFINITY_BENEFIT_ID_COPY_FOLLOW: number
   AFFINITY_BENEFIT_TYPE_TONGYOU: number
-  affinity_max_stage: function
+  affinity_max_stage: function()  -- hexm/common/consts/affinity_consts.lua:61-63
   AFFINITY_BENEFIT_TYPE_ACTION: number
   AFFINITY_BENEFIT_TYPE_CLOTHING_BORROW: number
   AFFINITY_STAGE_BENEFIT: dict

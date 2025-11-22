@@ -13,7 +13,7 @@ Keys:
   ACTION_UNION_DOUBT: number
   SYNC_START_GAME: number
   SELECT_CARD_NO: dict
-  get_hupai_entity: function
+  get_hupai_entity: function(avatar)  -- hexm/common/consts/hupai_consts.lua:142-151
   ACTION_DOUBT: number
   ACTION_GIVE_UP: number
   ACTION_FAIL_INVALID_ACTION: number

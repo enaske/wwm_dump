@@ -35,7 +35,7 @@ Keys:
   ATTR_MODE_COPY: number
   LM_ROBOT: number
   _reload_all: boolean
-  conf_to_weapons: function
+  conf_to_weapons: function(conf_id)  -- hexm/common/consts/ailab_consts.lua:158-163
   MODEL_GEN_STATE_SEVER_DENY: number
   FLY_FORBID_DEFENCE_SKILL: number
   MODEL_GEN_STATE_IDLE: number
@@ -44,7 +44,7 @@ Keys:
   RELATION_ENEMY: number
   MODEL_GEN_STATE_SUCCESS: number
   RELATION_FRIEND: number
-  conf_to_kongfus: function
+  conf_to_kongfus: function(conf_id)  -- hexm/common/consts/ailab_consts.lua:151-156
   GEN_TYPE_AILAB: number
   MOVE_POST_SYNC: dict
   GEN_TYPE_TRIPO: number

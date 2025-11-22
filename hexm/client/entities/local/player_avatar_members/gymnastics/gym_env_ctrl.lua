@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  safe_close_win: function
+  safe_close_win: function(win)  -- hexm/client/entities/local/player_avatar_members/gymnastics/gym_env_ctrl.lua:39-39
   GymMember: class <GymMember>
     Functions:
       __activate_component__(self)  -- hexm/client/entities/local/player_avatar_members/gymnastics/gym_env_ctrl.lua:48-50

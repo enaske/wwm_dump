@@ -156,7 +156,7 @@ Keys:
       selection_manager_on_selected(self, is_select)  -- hexm/client/ui/windows/bag_v2/equip_float_window.lua:539-541
       update_content(self, key, data)  -- hexm/client/ui/windows/bag_v2/equip_float_window.lua:527-532
       on_click(self, _)  -- hexm/client/ui/windows/bag_v2/equip_float_window.lua:534-537
-  attr_item_adapter: function
+  attr_item_adapter: function(data)  -- hexm/client/ui/windows/bag_v2/equip_float_window.lua:867-872
   StuffEquipBagDoubleEquipFloatWindow: class <StuffEquipBagDoubleEquipFloatWindow>
     Functions:
       set_windows(self, left_float, right_float)  -- hexm/client/ui/windows/bag_v2/equip_float_window.lua:3159-3161

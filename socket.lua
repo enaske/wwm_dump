@@ -3,10 +3,10 @@ Type: table
 ================================================================================
 
 Keys:
-  udp6: function
+  udp6: function(...)  -- =[C]
   _SETSIZE: number
   _VERSION: string
-  connect6: function
+  connect6: function(address, port, laddress, lport)  -- engine/Lib/socket.lua:23-25
   url: table <UnknownInstance>
     Functions:
       build_path(parsed, unsafe)  -- engine/Lib/socket/url.lua:305-329
@@ -21,27 +21,27 @@ Keys:
       default(sock)  -- engine/Lib/socket.lua:93-103
       close-when-done(sock)  -- engine/Lib/socket.lua:79-91
       keep-open(sock)  -- engine/Lib/socket.lua:93-103
-  tcp: function
-  udp4: function
-  htonl: function
-  protect: function
-  source: function
-  inet_ntoa: function
+  tcp: function(...)  -- =[C]
+  udp4: function(...)  -- =[C]
+  htonl: function(...)  -- =[C]
+  protect: function(...)  -- =[C]
+  source: function(name, opt1, opt2)  -- engine/Lib/socket.lua:59-66
+  inet_ntoa: function(...)  -- =[C]
   sourcet: table <UnknownInstance>
     Functions:
       by-length(sock, length)  -- engine/Lib/socket.lua:109-123
       default(sock)  -- engine/Lib/socket.lua:125-142
       until-closed(sock)  -- engine/Lib/socket.lua:125-142
-  choose: function
-  connect: function
-  sink: function
-  __unload: function
-  bind: function
+  choose: function(table)  -- engine/Lib/socket.lua:58-67
+  connect: function(...)  -- =[C]
+  sink: function(name, opt1, opt2)  -- engine/Lib/socket.lua:59-66
+  __unload: function(...)  -- =[C]
+  bind: function(host, port, backlog)  -- engine/Lib/socket.lua:27-54
   BLOCKSIZE: number
-  skip: function
-  try: function
-  gettime: function
-  select: function
+  skip: function(...)  -- =[C]
+  try: function(...)  -- =[C]
+  gettime: function(...)  -- =[C]
+  select: function(...)  -- =[C]
   dns: table <UnknownInstance>
     Functions:
       getnameinfo(...)  -- =[C]
@@ -49,13 +49,13 @@ Keys:
       gethostname(...)  -- =[C]
       tohostname(...)  -- =[C]
       toip(...)  -- =[C]
-  sleep: function
-  newtry: function
-  ntohl: function
-  connect4: function
-  tcp6: function
-  inet_aton: function
-  udp: function
-  tcp4: function
+  sleep: function(...)  -- =[C]
+  newtry: function(...)  -- =[C]
+  ntohl: function(...)  -- =[C]
+  connect4: function(address, port, laddress, lport)  -- engine/Lib/socket.lua:19-21
+  tcp6: function(...)  -- =[C]
+  inet_aton: function(...)  -- =[C]
+  udp: function(...)  -- =[C]
+  tcp4: function(...)  -- =[C]
   _SOCKETINVALID: number
   _DATAGRAMSIZE: number

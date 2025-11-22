@@ -11,4 +11,4 @@ Keys:
     Functions:
       setup_content(self, kwargs)  -- hexm/client/ui/windows/gymnastics/gym_settlement_window.lua:58-103
       init(self, kwargs)  -- hexm/client/ui/windows/gymnastics/gym_settlement_window.lua:52-56
-  gen_key_config: function
+  gen_key_config: function(pc, ps, xbox)  -- hexm/client/ui/windows/gymnastics/gym_settlement_window.lua:20-26

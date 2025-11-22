@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  DecodeJson: function
+  DecodeJson: function(data)  -- hexm/client/entities/local/component/cutscene/TimelineBase.lua:524-526
   TimelineCreateEntityCmd: class <TimelineCreateEntityCmd>
     Functions:
       ctor(self, args)  -- hexm/client/entities/local/component/cutscene/TimelineBase.lua:109-115
@@ -35,7 +35,7 @@ Keys:
   TimelinePauseModelCmd: class <TimelinePauseModelCmd>
   CUE_TIMELINE_DESTROY_MODEL: number
   TimelineActivatedCmd: class <TimelineActivatedCmd>
-  _DecodeDict: function
+  _DecodeDict: function(data)  -- hexm/client/entities/local/component/cutscene/TimelineBase.lua:507-522
   CUE_TIMELINE_DEACTIVATED: number
   TimelineBase: class <TimelineBase>
     Functions:
@@ -61,4 +61,4 @@ Keys:
       CreateEntity(self, data)  -- hexm/client/entities/local/component/cutscene/TimelineBase.lua:240-252
   TIMELINE_CUE_DISPATCH_FUNCS: dict
   _SubCmd: class <_SubCmd>
-  _DecodeList: function
+  _DecodeList: function(data)  -- hexm/client/entities/local/component/cutscene/TimelineBase.lua:491-505

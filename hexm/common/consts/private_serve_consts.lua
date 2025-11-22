@@ -12,7 +12,7 @@ Keys:
   SERVE_TYPE_XUANHU: number
   _reload_all: boolean
   SERVE_TYPE_ANYING: number
-  get_employee_daily_salary: function
+  get_employee_daily_salary: function(serve_type, xw)  -- hexm/common/consts/private_serve_consts.lua:59-81
   EMPLOYER_STATE_UNLOCK: number
   SERVE_TYPE_WENSHI: number
   PRIVATE_SERVE_APPLY_EXPIRED_TIME: number
@@ -20,11 +20,11 @@ Keys:
   PRIVATE_SERVE_APPLY_NUM_LIMIT: number
   SERVE_TYPE_YANSHI: number
   OP_ACCEPT: number
-  get_same_kind_serve_types: function
+  get_same_kind_serve_types: function(serve_type)  -- hexm/common/consts/private_serve_consts.lua:50-57
   EMPLOYER_STATE_NORMAL: number
   PRIVATE_SERVE_HISTORY_TAG: string
   EMPLOYER_STATE_EXPIRED: number
   OP_REJECT: number
   PRIVATE_SERVE_APPLICANT_LIMIT_NUM: number
-  get_wenshi_private_serve_need_xw: function
+  get_wenshi_private_serve_need_xw: function(wuxian_no)  -- hexm/common/consts/private_serve_consts.lua:83-96
   PRIVATE_SERVE_USE_HISTORY_LIMIT: number

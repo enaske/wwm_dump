@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  is_all_primitives_ready: function
+  is_all_primitives_ready: function(entity)  -- hexm/client/entities/local/room_entity_members/imp_loading.lua:20-46
   RoomEntityMember: class <RoomEntityMember>
     Functions:
       set_warmingup_when_loading(self, v)  -- hexm/client/entities/local/room_entity_members/imp_loading.lua:48-56

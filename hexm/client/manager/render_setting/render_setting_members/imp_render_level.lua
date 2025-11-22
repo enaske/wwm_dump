@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  enable_realtime_sunlight: function
+  enable_realtime_sunlight: function()  -- hexm/client/manager/render_setting/render_setting_members/imp_render_level.lua:66-84
   RenderSettingMembers: class <RenderSettingMembers>
     Functions:
       _set_realtime_sunlight(self, new_value, from)  -- hexm/client/manager/render_setting/render_setting_members/imp_render_level.lua:60-64

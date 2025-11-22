@@ -44,5 +44,5 @@ Keys:
   LongDescribeController: class <LongDescribeController>
     Functions:
       update_content(self, key, data)  -- hexm/client/ui/windows/stuff_museum/item_info/stuff_museum_info_items.lua:266-298
-  stuff_museum_info_item_adapter: function
+  stuff_museum_info_item_adapter: function(data)  -- hexm/client/ui/windows/stuff_museum/item_info/stuff_museum_info_items.lua:28-41
   INFO_ITEM_DESCRIBE: number

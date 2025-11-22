@@ -4,10 +4,10 @@ Type: table
 
 Keys:
   bg_pak_dir: string
-  pak_filename: function
+  pak_filename: function(pak_idx)  -- patch/bg_pak_vault.lua:16-16
   pak_dir: string
-  bg_pak_file_path: function
-  pak_file_path: function
+  bg_pak_file_path: function(pak_idx)  -- patch/bg_pak_vault.lua:14-14
+  pak_file_path: function(pak_idx)  -- patch/bg_pak_vault.lua:12-12
   BgPakVault: class <BgPakVault>
     Functions:
       clear_pak_before(self, to_prune_version)  -- patch/bg_pak_vault.lua:88-117

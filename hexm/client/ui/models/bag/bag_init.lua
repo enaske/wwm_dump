@@ -10,7 +10,7 @@ Keys:
   MODEL_TYPE_BY_INDEX: number
   MODEL_TYPE_EQUIPMENT: number
   MODEL_TYPE_BY_INDEX_WITH_EMPTY: number
-  get_model_clz: function
+  get_model_clz: function(model_type)  -- hexm/client/ui/models/bag/bag_init.lua:52-56
   MODEL_TYPE_QUICK_USE: number
   MODEL_TYPE_SORT_WITH_LOCKED: number
   MODEL_TYPE_MIND_LAKE: number

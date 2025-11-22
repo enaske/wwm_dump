@@ -3,10 +3,10 @@ Type: table
 ================================================================================
 
 Keys:
-  is_oppo_channel: function
-  is_yingyongbao_channel: function
-  is_huawei_channel: function
-  is_xiaomi_channel: function
+  is_oppo_channel: function()  -- hexm/client/manager/sdk_comp/imp_channel.lua:158-160
+  is_yingyongbao_channel: function()  -- hexm/client/manager/sdk_comp/imp_channel.lua:182-184
+  is_huawei_channel: function()  -- hexm/client/manager/sdk_comp/imp_channel.lua:142-144
+  is_xiaomi_channel: function()  -- hexm/client/manager/sdk_comp/imp_channel.lua:150-152
   SdkManagerMember: class <SdkManagerMember>
     Functions:
       is_yingyongbao_channel(self)  -- hexm/client/manager/sdk_comp/imp_channel.lua:185-188
@@ -38,6 +38,6 @@ Keys:
       is_all_netease_channel(self)  -- hexm/client/manager/sdk_comp/imp_channel.lua:76-78
       is_netease_app_channel(self)  -- hexm/client/manager/sdk_comp/imp_channel.lua:72-74
       is_vivo_channel(self)  -- hexm/client/manager/sdk_comp/imp_channel.lua:169-172
-  is_honor_channel: function
-  is_android_channel_pkg: function
-  is_vivo_channel: function
+  is_honor_channel: function()  -- hexm/client/manager/sdk_comp/imp_channel.lua:174-176
+  is_android_channel_pkg: function()  -- hexm/client/manager/sdk_comp/imp_channel.lua:190-202
+  is_vivo_channel: function()  -- hexm/client/manager/sdk_comp/imp_channel.lua:166-168

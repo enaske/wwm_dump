@@ -3,11 +3,11 @@ Type: table
 ================================================================================
 
 Keys:
-  pack: function
-  unpack_limit: function
+  pack: function(...)  -- =[C]
+  unpack_limit: function(...)  -- =[C]
   _NAME: string
-  unpack: function
-  unpack_one: function
+  unpack: function(...)  -- =[C]
+  unpack_one: function(...)  -- =[C]
   _VERSION: string
   _DESCRIPTION: string
   _COPYRIGHT: string

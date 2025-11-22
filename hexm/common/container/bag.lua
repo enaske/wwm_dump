@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  auto_value_id: function
+  auto_value_id: function(cls)  -- hexm/common/container/bag.lua:598-629
   Bag: class <Bag>
     Functions:
       __len(self)  -- engine/common/classutils.lua:332-334

@@ -79,8 +79,8 @@ Keys:
       set_fade_in_scales(self, scales)  -- hexm/client/ui/controllers/multi_layered_tiled_map.lua:202-204
       _calc_tile_pos(self, index)  -- hexm/client/ui/controllers/multi_layered_tiled_map.lua:313-325
       set_visible_scale_range(self, smin, smax)  -- hexm/client/ui/controllers/multi_layered_tiled_map.lua:238-240
-  region_data_convert: function
-  generate_region_ui_config: function
+  region_data_convert: function(region_data)  -- hexm/client/ui/controllers/multi_layered_tiled_map.lua:499-522
+  generate_region_ui_config: function(region_no)  -- hexm/client/ui/controllers/multi_layered_tiled_map.lua:455-482
   UNDER_AREA_Z_ORDER: number
   SCALE_MIN: number
-  parse_region_ui_config: function
+  parse_region_ui_config: function(region_size, region_center_pos)  -- hexm/client/ui/controllers/multi_layered_tiled_map.lua:484-496

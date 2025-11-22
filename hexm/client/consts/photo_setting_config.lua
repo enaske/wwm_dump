@@ -7,7 +7,7 @@ Keys:
   PHOTO_SETTING_TIME: number
   PHOTO_SETTING_SIMPLE_FILTER: number
   PHOTO_SETTING_FILTER_INTENSITY: number
-  clamp_value_to_percent: function
+  clamp_value_to_percent: function(value, min, max)  -- hexm/client/consts/photo_setting_config.lua:174-185
   PHOTO_SETTING_SIMPLE_LOOKAT: number
   PHOTO_SETTING_WEATHER: number
   PHOTO_SETTING_MODEL_SCALE: number
@@ -17,7 +17,7 @@ Keys:
   PHOTO_SETTING_ITEM_SELECT_TEXT: number
   PHOTO_SETTING_VISION: number
   PHOTO_SIMPLE_WATCH_FACE_LIGHT: number
-  get_setting_btn_view_clz: function
+  get_setting_btn_view_clz: function(ui_type)  -- hexm/client/consts/photo_setting_config.lua:91-105
   PHOTO_SETTING_SIMPLE_ACTION_PROGRESS: number
   PHOTO_SETTING_ACTION: number
   PHOTO_SETTING_LIGHT_OVER_THRESHOLD: number
@@ -45,7 +45,7 @@ Keys:
   PHOTO_SETTING_LOOK_AT: number
   PHOTO_SETTING_SIMPLE_FOCAL_LENGTH: number
   PHOTO_SETTING_APERTURE: number
-  format_show_setting_value: function
+  format_show_setting_value: function(setting, value)  -- hexm/client/consts/photo_setting_config.lua:148-172
   PHOTO_SETTING_CONTRAST: number
   PHOTO_SETTING_VISIBLE: number
   PHOTO_SETTING_SIMPLE_POINT_LIGHT_INTENSITY: number

@@ -55,4 +55,4 @@ Keys:
       get_try_trans_state(self)  -- hexm/common/base/ai_npc_base.lua:327-330
       get_ai_state_config_data(self)  -- hexm/common/base/ai_npc_base.lua:287-299
       trigger_bstates_event(self, event, data)  -- hexm/common/base/ai_npc_base.lua:544-579
-  load_all_ai_bfsm: function
+  load_all_ai_bfsm: function()  -- hexm/common/base/ai_npc_base.lua:50-68

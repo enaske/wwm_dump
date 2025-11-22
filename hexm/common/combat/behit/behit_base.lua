@@ -3,8 +3,8 @@ Type: table
 ================================================================================
 
 Keys:
-  check_skill_pre: function
-  process_impact_behit_mode: function
+  check_skill_pre: function(target, context)  -- hexm/common/combat/behit/behit_base.lua:1339-1368
+  process_impact_behit_mode: function(target, context)  -- hexm/common/combat/behit/behit_base.lua:1396-1413
   BehitBase: class <BehitBase>
     Functions:
       custom_behit_show(self, attacker, data)  -- hexm/common/combat/behit/behit_base.lua:125-140
@@ -36,7 +36,7 @@ Keys:
       _behit_dead_calc_dead_config_no(self, killer_id, calcpoint_id)  -- hexm/common/combat/behit/behit_base.lua:546-556
       set_behit_tag(self, in_behit_tag)  -- hexm/common/combat/behit/behit_base.lua:749-751
       _on_damage(self, fromer, damage_type, result, calcpoint_id, jm_type, context)  -- hexm/common/combat/behit/behit_base.lua:245-413
-  calc_behit_angle: function
-  check_immune_behit: function
-  check_tp: function
-  check_behit: function
+  calc_behit_angle: function(target, cur_pos, cur_yaw, center_pos, center_yaw, calc_mode)  -- hexm/common/combat/behit/behit_base.lua:832-860
+  check_immune_behit: function(target, context)  -- hexm/common/combat/behit/behit_base.lua:1305-1325
+  check_tp: function(target, context)  -- hexm/common/combat/behit/behit_base.lua:1327-1338
+  check_behit: function(target, context)  -- hexm/common/combat/behit/behit_base.lua:1370-1383

@@ -20,7 +20,7 @@ Keys:
   COOK_QTE_END_ANIM_NAME: string
   BUILD_QTE_PREPARE_ANIM_NAME: string
   STAGE_START_LEVEL: number
-  get_button_info: function
+  get_button_info: function(btn_plan_id, btn_id)  -- hexm/client/ui/windows/gang/gang_wanfa/gang_build_qte_consts.lua:84-93
   ICON_PREPARE_ID: number
   QTE_CHANGE_EVENT: string
   COOK_QTE_PREPARE_ANIM_NAME: string
@@ -30,7 +30,7 @@ Keys:
   GANG_COOK_QTE_INTERACT_NO: number
   GANG_BUILD_QTE_TRACE_TARGET: number
   QTE_PREPARE_END_EVENT: string
-  get_build_qte_menke_npc_list: function
+  get_build_qte_menke_npc_list: function()  -- hexm/client/ui/windows/gang/gang_wanfa/gang_build_qte_consts.lua:95-103
   GANG_BUILD_QTE_BGM_KEY: string
   GANG_BUILD_QTE_SHARE_ID: number
   BTN_CLICK_TYPE_INSTANT: number

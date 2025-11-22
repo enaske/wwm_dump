@@ -55,4 +55,4 @@ Keys:
       get_room_member_wanfa_info_type(self, wf_type)  -- hexm/client/entities/local/player_avatar_members/imp_space_room.lua:135-147
       show_invitation_world_window(self, data)  -- hexm/client/entities/local/player_avatar_members/imp_space_room.lua:970-1008
       get_room_member_wanfa_info_cache_args(self, k, default)  -- hexm/client/entities/local/player_avatar_members/imp_space_room.lua:209-218
-  show_player_float_window: function
+  show_player_float_window: function(pid, hostnum, head_btn, msg_type, msg_content)  -- hexm/client/entities/local/player_avatar_members/imp_space_room.lua:678-708

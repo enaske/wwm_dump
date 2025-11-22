@@ -3,29 +3,29 @@ Type: table
 ================================================================================
 
 Keys:
-  by_base_type: function
-  estimate_dict_by_refs: function
-  clear_refcnt: function
-  show_owned_memory: function
-  show_backrefs: function
-  estimate_proto_vector: function
-  show_memory_growth_objs: function
-  show_refs: function
-  show_owned_memory_of_members: function
-  show_growth: function
-  by_type: function
-  show_memory: function
-  show_memory_of_obj: function
-  estimate_instance_with_empty_dict: function
-  estimate_strt_hash_conflict: function
-  show_owned_memory_of_obj: function
-  estimate_string_contents: function
-  estimate_strt_dump: function
-  at: function
-  show_refcnt: function
-  count: function
-  show_most_common_types: function
-  release: function
-  estimate_dict_refers: function
-  estimate_dict_memory_for_instance: function
-  estimate_vectornode: function
+  by_base_type: function(...)  -- =[C]
+  estimate_dict_by_refs: function(...)  -- =[C]
+  clear_refcnt: function(...)  -- =[C]
+  show_owned_memory: function(...)  -- =[C]
+  show_backrefs: function(...)  -- =[C]
+  estimate_proto_vector: function(...)  -- =[C]
+  show_memory_growth_objs: function(...)  -- =[C]
+  show_refs: function(...)  -- =[C]
+  show_owned_memory_of_members: function(...)  -- =[C]
+  show_growth: function(...)  -- =[C]
+  by_type: function(...)  -- =[C]
+  show_memory: function(...)  -- =[C]
+  show_memory_of_obj: function(...)  -- =[C]
+  estimate_instance_with_empty_dict: function(...)  -- =[C]
+  estimate_strt_hash_conflict: function(...)  -- =[C]
+  show_owned_memory_of_obj: function(...)  -- =[C]
+  estimate_string_contents: function(...)  -- =[C]
+  estimate_strt_dump: function(...)  -- =[C]
+  at: function(...)  -- =[C]
+  show_refcnt: function(...)  -- =[C]
+  count: function(...)  -- =[C]
+  show_most_common_types: function(...)  -- =[C]
+  release: function(...)  -- =[C]
+  estimate_dict_refers: function(...)  -- =[C]
+  estimate_dict_memory_for_instance: function(...)  -- =[C]
+  estimate_vectornode: function(...)  -- =[C]

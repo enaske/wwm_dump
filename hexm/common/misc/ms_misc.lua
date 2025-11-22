@@ -3,4 +3,4 @@ Type: table
 ================================================================================
 
 Keys:
-  parse_manual_get_data_by_s_type_back_data: function
+  parse_manual_get_data_by_s_type_back_data: function(d)  -- hexm/common/misc/ms_misc.lua:5-19

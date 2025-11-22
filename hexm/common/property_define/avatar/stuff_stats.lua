@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  get_gadget_quick_launch: function
+  get_gadget_quick_launch: function(avatar, row_idx)  -- hexm/common/property_define/avatar/stuff_stats.lua:143-147
   StuffExpireItem: class <StuffExpireItem>
     Functions:
       __lt(self, other)  -- hexm/common/property_define/avatar/stuff_stats.lua:33-35

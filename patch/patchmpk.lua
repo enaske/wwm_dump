@@ -5,7 +5,7 @@ Type: table
 Keys:
   INFO_ISDIR: number
   MAX_MPK_DATA_SUFFIX: number
-  get_mpk_filename: function
+  get_mpk_filename: function(mpk_idx)  -- patch/patchmpk.lua:31-33
   PatchMpk: class <PatchMpk>
     Functions:
       clean_db_and_data(self)  -- patch/patchmpk.lua:417-420
@@ -61,6 +61,6 @@ Keys:
   INFO_MMH3: number
   INFO_DIRTY: number
   INFO_SIZE: number
-  clean_db_and_data: function
+  clean_db_and_data: function()  -- patch/patchmpk.lua:21-29
   INFO_BEGIN: number
   INFO_INDEX: number

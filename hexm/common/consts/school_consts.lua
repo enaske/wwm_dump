@@ -31,14 +31,14 @@ Keys:
   LEARN_STATE_IDLE: string
   STUFF_PARAM_3: string
   SCHOOL_RANK_PREFIX_WEI_REP: string
-  school_ceremony_can_invite_tourist: function
+  school_ceremony_can_invite_tourist: function(state_no)  -- hexm/common/consts/school_consts.lua:212-217
   SCHOOL_EVENT_TYPE_WX: number
   SCHOOL_STATUS_ELDER: number
   SCHOOL_TITLE_MASTER_FOREIGN: number
   CEREMONY_STATE_OVER: string
   SCHOOL_EVENT_QUIT: number
   CEREMONY_STATE_TAKE: string
-  get_jl_level: function
+  get_jl_level: function(school_no, jl_value)  -- hexm/common/consts/school_consts.lua:9-21
   SCHOOL_STATUS_INNER: number
   SCHOOL_WJG_STATUS_LIST: list
   SCHOOL_EVENT_TYPE_SANITY: number
@@ -48,7 +48,7 @@ Keys:
   SCHOOL_TITLE_DEACON_LEGAL: number
   RPC_CHASE_INFO_BACK: string
   WANFA_ZONGMEN: number
-  school_event_type_decode: function
+  school_event_type_decode: function(et)  -- hexm/common/consts/school_consts.lua:238-240
   CEREMONY_STATE_TRAP: list
   SCHOOL_TITLE_PUPIL_INTERNAL: number
   SCHOOL_KUANGLAN: number

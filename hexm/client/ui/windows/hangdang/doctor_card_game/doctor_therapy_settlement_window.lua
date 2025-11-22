@@ -4,7 +4,7 @@ Type: table
 
 Keys:
   TEXT_BE_NUM_CURED: number
-  qx_stuff_adaptor: function
+  qx_stuff_adaptor: function(item)  -- hexm/client/ui/windows/hangdang/doctor_card_game/doctor_therapy_settlement_window.lua:512-518
   CustomItemController: class <CustomItemController>
     Functions:
       update_content(self, key, data)  -- hexm/client/ui/windows/hangdang/doctor_card_game/doctor_therapy_settlement_window.lua:1111-1127
@@ -32,8 +32,8 @@ Keys:
       update_content(self, key, data)  -- hexm/client/ui/windows/hangdang/doctor_card_game/doctor_therapy_settlement_window.lua:93-109
   TEXT_WAIT_FOR_PRAISE: number
   TEXT_SUCCESS: number
-  get_text: function
-  gen_key_config: function
+  get_text: function(text_no, ...)  -- hexm/client/ui/windows/hangdang/doctor_card_game/doctor_therapy_settlement_window.lua:79-79
+  gen_key_config: function(pc, ps, xbox)  -- hexm/client/ui/windows/hangdang/doctor_card_game/doctor_therapy_settlement_window.lua:81-87
   DoctorTherapySettlementController: class <DoctorTherapySettlementController>
     Functions:
       start_close(self, cb)  -- hexm/client/ui/windows/hangdang/doctor_card_game/doctor_therapy_settlement_window.lua:130-133

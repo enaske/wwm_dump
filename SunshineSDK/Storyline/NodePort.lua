@@ -9,7 +9,7 @@ Keys:
   IntNodePort: class <IntNodePort>
     Functions:
       ctor(self, name, optional)  -- SunshineSDK/Storyline/NodePort.lua:95-98
-  GetParamPortByType: function
+  GetParamPortByType: function(typeName)  -- SunshineSDK/Storyline/NodePort.lua:14-16
   FloatNodePort: class <FloatNodePort>
     Functions:
       ctor(self, name, optional)  -- SunshineSDK/Storyline/NodePort.lua:83-86

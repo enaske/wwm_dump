@@ -7,12 +7,12 @@ Keys:
   ALIGN_TYPE_2_RECT_ANCHOR: dict
   ALIGN_LB_TO_RB: number
   ALIGN_LB_TO_LT: number
-  get_align_types: function
+  get_align_types: function(align_prefer)  -- hexm/client/ui/struct/window_members/imp_align.lua:85-97
   ALIGN_RB_TO_LB: number
   ALL_ALIGN_TYPES: list
   ALIGN_LT_TO_RT: number
   ALIGN_RT_TO_LT: number
-  sorted_align_types: function
+  sorted_align_types: function(align_prefer)  -- hexm/client/ui/struct/window_members/imp_align.lua:48-83
   ALIGN_TYPE_2_FLOAT_ANCHOR: dict
   WindowMember: class <WindowMember>
     Functions:

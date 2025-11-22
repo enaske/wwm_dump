@@ -7,7 +7,7 @@ Keys:
   EVENT_JOIN_CHECK: string
   LIMIT_NUM: number
   EVENT_JOIN_CONFIRM: string
-  dance_is_unlock: function
+  dance_is_unlock: function(avt, dance_sid)  -- hexm/common/consts/dance_consts.lua:23-35
   EVENT_JOIN: string
   _reload_all: boolean
   EVENT_LIKE: string

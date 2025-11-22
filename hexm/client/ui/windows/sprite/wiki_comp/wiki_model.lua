@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  get_platform_id: function
+  get_platform_id: function()  -- hexm/client/ui/windows/sprite/wiki_comp/wiki_model.lua:130-138
   SpriteWikiModel: class <SpriteWikiModel>
     Functions:
       add_wiki_red_point(self, wiki_id_list)  -- hexm/client/ui/windows/sprite/wiki_comp/wiki_model.lua:744-758
@@ -56,7 +56,7 @@ Keys:
       on_wiki_detail_back(self, wiki_id, data)  -- hexm/client/ui/windows/sprite/wiki_comp/wiki_model.lua:345-376
       on_wiki_config_data_back(self, data)  -- hexm/client/ui/windows/sprite/wiki_comp/wiki_model.lua:412-415
       get_wiki_type_rd(self, wiki_type_id)  -- hexm/client/ui/windows/sprite/wiki_comp/wiki_model.lua:809-811
-  parse_title: function
-  parse_wiki_unlock_condition: function
-  check_tujian_finish: function
-  check_common_condition_done: function
+  parse_title: function(title)  -- hexm/client/ui/windows/sprite/wiki_comp/wiki_model.lua:83-109
+  parse_wiki_unlock_condition: function(unlock_condition_list)  -- hexm/client/ui/windows/sprite/wiki_comp/wiki_model.lua:111-128
+  check_tujian_finish: function(tujian_no)  -- hexm/client/ui/windows/sprite/wiki_comp/wiki_model.lua:140-154
+  check_common_condition_done: function(common_condition_id)  -- hexm/client/ui/windows/sprite/wiki_comp/wiki_model.lua:156-162

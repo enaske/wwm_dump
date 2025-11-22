@@ -4,7 +4,7 @@ Type: table
 
 Keys:
   VOLUME_MAX_DIS: number
-  check_in_range_sqr: function
+  check_in_range_sqr: function(dist_sqr, min_dist, max_dist)  -- hexm/client/ui/windows/world_event/world_event_listen_window.lua:155-165
   TICK_INTERVAL: number
   WorldEventListenController: class <WorldEventListenController>
     Functions:

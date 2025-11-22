@@ -17,7 +17,7 @@ Keys:
       ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:78-88
       Release(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:134-139
       Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:90-119
-  get_entities_by_serial_list: function
+  get_entities_by_serial_list: function(serial_list)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:39-53
   ResetEntitiesStateNode: class <ResetEntitiesStateNode>
     Functions:
       ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:440-444
@@ -80,7 +80,7 @@ Keys:
     Functions:
       ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:275-278
       Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:280-285
-  to_vector3: function
+  to_vector3: function(pos)  -- hexm/client/entities/local/player_avatar_members/gameplays/region_game/region_game_config.lua:102-114
   RegionGameFinishNode: class <RegionGameFinishNode>
     Functions:
       Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:918-931
@@ -148,7 +148,7 @@ Keys:
     Functions:
       ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:892-896
       Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:898-907
-  to_list: function
+  to_list: function(value)  -- hexm/client/entities/local/player_avatar_members/gameplays/region_game/region_game_config.lua:85-100
   RegionGameGetFlowIdNode: class <RegionGameGetFlowIdNode>
     Functions:
       ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:1205-1208
@@ -162,7 +162,7 @@ Keys:
     Functions:
       ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:345-348
       Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:350-368
-  get_eids_by_serial_list: function
+  get_eids_by_serial_list: function(serial_list)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:55-64
   CheckSWBossWeakRegionNode: class <CheckSWBossWeakRegionNode>
     Functions:
       ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:2338-2342
@@ -186,11 +186,11 @@ Keys:
       Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:1282-1286
   CreateServerVehicleNode: class <CreateServerVehicleNode>
     Functions:
-      on_vehicle_create(self, event, vehicle_id)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:1617-1623
-      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:1580-1589
-      Release(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:1636-1641
       cancel_listener(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:1625-1634
       Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:1591-1615
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:1580-1589
+      Release(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:1636-1641
+      on_vehicle_create(self, event, vehicle_id)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:1617-1623
   LocalRotateYawNode: class <LocalRotateYawNode>
     Functions:
       get_start_yaw(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:1379-1390

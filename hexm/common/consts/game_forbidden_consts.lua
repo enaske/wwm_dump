@@ -31,7 +31,7 @@ Keys:
   FB_ERR_SHOW_OTHER: dict
   FORBID_PHOTO: string
   FORBID_INVITE: string
-  get_flag: function
+  get_flag: function(m)  -- hexm/common/consts/game_forbidden_consts.lua:104-106
   RECALL: string
   TRANSFER_BE_FOLLOW: string
   FORBID_NAME2DEFAULT_ERR: dict

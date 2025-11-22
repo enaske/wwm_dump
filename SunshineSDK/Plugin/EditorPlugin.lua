@@ -15,7 +15,7 @@ Keys:
       ForwardToSunshine(self, func, ...)  -- SunshineSDK/Plugin/EditorPlugin.lua:56-58
       GetServer(self)  -- SunshineSDK/Plugin/EditorPlugin.lua:46-48
       EditorPluginLoaded(self)  -- SunshineSDK/Plugin/EditorPlugin.lua:77-84
-  sunshine_rpc: function
+  sunshine_rpc: function()  -- SunshineSDK/Plugin/EditorPlugin.lua:105-107
   EditorPluginServer: class <EditorPluginServer>
     Functions:
       ctor(self)  -- SunshineSDK/Plugin/EditorPlugin.lua:21-24

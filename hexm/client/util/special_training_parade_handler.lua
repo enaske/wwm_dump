@@ -3,12 +3,12 @@ Type: table
 ================================================================================
 
 Keys:
-  check_single_mode: function
-  get_multi_leader_npc: function
-  get_leader_slogan_next_start_ts: function
-  check_special_training_space: function
-  get_special_training_slogan_speaker: function
-  get_special_training_prop: function
+  check_single_mode: function()  -- hexm/client/util/special_training_parade_handler.lua:17-19
+  get_multi_leader_npc: function()  -- hexm/client/util/special_training_parade_handler.lua:35-40
+  get_leader_slogan_next_start_ts: function()  -- hexm/client/util/special_training_parade_handler.lua:81-88
+  check_special_training_space: function()  -- hexm/client/util/special_training_parade_handler.lua:13-15
+  get_special_training_slogan_speaker: function()  -- hexm/client/util/special_training_parade_handler.lua:90-107
+  get_special_training_prop: function()  -- hexm/client/util/special_training_parade_handler.lua:42-58
   SpecialTrainingHandler: class <SpecialTrainingHandler>
     Functions:
       get_parade_slogan_speaker(self)  -- hexm/client/util/special_training_parade_handler.lua:288-290
@@ -43,9 +43,9 @@ Keys:
       remove_role_join_change_listener(self, listener)  -- hexm/client/util/special_training_parade_handler.lua:224-226
       remove_state_change_listener(self, listener)  -- hexm/client/util/special_training_parade_handler.lua:245-254
       _get_slogan_txt(self, row_key)  -- hexm/client/util/special_training_parade_handler.lua:347-363
-  get_special_training_member_ids: function
-  get_special_training_state: function
-  check_multi_mode: function
-  check_player_in_special_training: function
-  check_is_slogan_follower: function
-  get_multi_leader_npc_serial_no: function
+  get_special_training_member_ids: function()  -- hexm/client/util/special_training_parade_handler.lua:109-125
+  get_special_training_state: function()  -- hexm/client/util/special_training_parade_handler.lua:60-79
+  check_multi_mode: function()  -- hexm/client/util/special_training_parade_handler.lua:21-29
+  check_player_in_special_training: function(player_id)  -- hexm/client/util/special_training_parade_handler.lua:127-141
+  check_is_slogan_follower: function(player_id)  -- hexm/client/util/special_training_parade_handler.lua:143-157
+  get_multi_leader_npc_serial_no: function()  -- hexm/client/util/special_training_parade_handler.lua:31-33

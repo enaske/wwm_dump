@@ -12,7 +12,7 @@ Keys:
       ctor(self, handler, request, timeout, callback)  -- engine/mobilerpc/BHttpClient.lua:84-94
       destroy(self)  -- engine/mobilerpc/BHttpClient.lua:114-118
       on_callback(self, err, headers, content, status, reason)  -- engine/mobilerpc/BHttpClient.lua:96-112
-  test: function
+  test: function(host, port, method, url, usessl, sni, headers, body, protocols)  -- engine/mobilerpc/BHttpClient.lua:179-193
   BHTTPSClient: class <BHTTPSClient>
     Functions:
       ctor(self, handler, request, timeout, callback)  -- engine/mobilerpc/BHttpClient.lua:126-136

@@ -4,7 +4,7 @@ Type: table
 
 Keys:
   TYPE_WEAPON: number
-  main_type_value: function
+  main_type_value: function(type_value)  -- hexm/common/consts/tag_consts.lua:122-130
   TAG_SUB_BUILDING_NORMAL: number
   TYPE_COMMON_PLAY: number
   TYPE_COMPOSITION_ITEM: number
@@ -13,11 +13,11 @@ Keys:
   TYPE_POINT: number
   SUB_TYPE_BIT: number
   TAG_MAIN_BUILDING: number
-  base_tag: function
+  base_tag: function(bit_value)  -- hexm/common/consts/tag_consts.lua:45-47
   TAG_VEHICLE_BIT: number
   TAG_PORRIDGE_SHOP: number
   TAG_BASE_MAIN_PLAYER_BIT: number
-  sub_type: function
+  sub_type: function(type_bit)  -- hexm/common/consts/tag_consts.lua:231-233
   TAG_COLLECT_MINE: number
   TAG_COLLECT_TREE: number
   TYPE_DESTRUCT: number

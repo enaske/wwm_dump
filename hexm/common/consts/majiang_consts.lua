@@ -5,7 +5,7 @@ Type: table
 Keys:
   E_SET_SINGLE_FAN: number
   TIMEOUT_PLAY_CARD: string
-  get_card_weight: function
+  get_card_weight: function(cards)  -- hexm/common/consts/majiang_consts.lua:73-110
   END_TYPE_NO_REMAIN: string
   END_TYPE_HU_SANJIA: string
   E_INVITE_NPC: number
@@ -16,7 +16,7 @@ Keys:
   ACK_GUO: string
   R_ROOMER_KICK: number
   CARD_WAN: number
-  majiang_is_skip_process: function
+  majiang_is_skip_process: function(desk_sid)  -- hexm/common/consts/majiang_consts.lua:355-363
   GANG_TYPE_ZHI: number
   STATE_IN: number
   E_LEAVE_GAME: number
@@ -27,10 +27,10 @@ Keys:
   R_LACK_BEAN: number
   STATE_PREPARED: number
   OP_PLAY_CARD: number
-  get_card_type: function
+  get_card_type: function(card_num)  -- hexm/common/consts/majiang_consts.lua:69-71
   R_LOGIN: number
   LeftSideNeighborCards: list
-  majiang_is_pve: function
+  majiang_is_pve: function(desk_sid)  -- hexm/common/consts/majiang_consts.lua:351-353
   E_PLAY_CARD: number
   MAJIANG_PAIWEI_ACTIVITY_NAME: string
   MAX_MAJIANG_CREATE_WAIT_TIME: number
@@ -48,7 +48,7 @@ Keys:
   MAJIANG_PAIWEI_MAX_INTERVAL: number
   E_KICK: number
   FAN_TYPE_QIANGGANGHU: number
-  majiang_all_desk_sid_list: function
+  majiang_all_desk_sid_list: function(majiang_point_id)  -- hexm/common/consts/majiang_consts.lua:376-380
   E_UNPREPARE: number
   DOT: list
   LeftSideCards: list

@@ -5,7 +5,7 @@ Type: table
 Keys:
   DANMU_PRIORITY_LEAD: number
   DANMU_PRIORITY_MAIN_PLAYER: number
-  get_danmu_line_next_ts: function
+  get_danmu_line_next_ts: function()  -- hexm/client/util/parade_handler_base.lua:30-46
   DANMU_PRIORITY_LIST: list
   DANMU_PRIORITY_PLAYER: number
   DANMU_PRIORITY_NPC: number

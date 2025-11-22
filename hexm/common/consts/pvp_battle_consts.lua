@@ -18,7 +18,7 @@ Keys:
   LAB_INTERACT_START: number
   E_BATTLE_STATE: number
   LAB_INTERACT_END: number
-  get_callback: function
+  get_callback: function(sid)  -- hexm/common/consts/pvp_battle_consts.lua:159-161
   STATE_INIT: number
   E_ENTER_BATTLE_SAPCE: number
   _reload_all: boolean

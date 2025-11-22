@@ -3,19 +3,19 @@ Type: table
 ================================================================================
 
 Keys:
-  exit: function
-  ts: function
-  excepthook: function
-  setlocale: function
-  date: function
-  execute: function
-  getenv: function
+  exit: function(...)  -- =[C]
+  ts: function(...)  -- =[C]
+  excepthook: function(err)  -- engine/Lib/functions.lua:110-117
+  setlocale: function(...)  -- =[C]
+  date: function(...)  -- =[C]
+  execute: function(...)  -- =[C]
+  getenv: function(...)  -- =[C]
   timezone: number
-  difftime: function
-  remove: function
-  time: function
-  monotonictime: function
-  clock: function
-  tmpname: function
-  rename: function
-  getpid: function
+  difftime: function(...)  -- =[C]
+  remove: function(...)  -- =[C]
+  time: function(...)  -- =[C]
+  monotonictime: function(...)  -- =[C]
+  clock: function(...)  -- =[C]
+  tmpname: function(...)  -- =[C]
+  rename: function(...)  -- =[C]
+  getpid: function(...)  -- =[C]

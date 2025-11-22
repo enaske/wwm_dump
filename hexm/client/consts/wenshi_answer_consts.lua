@@ -23,8 +23,8 @@ Keys:
   E_PAIR_INVITE_NOTIFY: number
   E_PAIR_INVITE: number
   QUESTION_CATE_MATH: number
-  is_in_answer_game: function
-  get_next_priority_name_tags: function
+  is_in_answer_game: function(avatar)  -- hexm/common/consts/wenshi_answer_consts.lua:85-88
+  get_next_priority_name_tags: function(cur_priority)  -- hexm/common/consts/wenshi_answer_consts.lua:90-110
   STATE_IN_ANSWER: number
   E_PAIR_SUCC: number
   TAG_TYPE_UPVOTE: number
@@ -44,7 +44,7 @@ Keys:
   KEYBOARD_KEY: list
   REWARD_LIVENESS_RECEIVED: number
   TAG_TYPE_BODY_TYPE: number
-  check_is_lock_by_id: function
+  check_is_lock_by_id: function(is_show_tip)  -- hexm/client/consts/wenshi_answer_consts.lua:21-25
   E_GET_LIVENESS_REWARD: number
   E_ANS_END: number
   OP_ACCEPT: number

@@ -10,7 +10,7 @@ Keys:
   ACTIVITY_REWARD_GRANT_FLAG: number
   MACHINE_INTERACT_EVACUATE: number
   DOOR_INTERACT_STATUS_CLOSE: number
-  get_entity_rescue_duration: function
+  get_entity_rescue_duration: function(entity)  -- hexm/common/consts/mojin_consts.lua:226-240
   E_DROP_STUFF: string
   E_PLAYER_STUFF_CHANGE: string
   E_UPDATE_KDA_BOARD: string
@@ -40,10 +40,10 @@ Keys:
   RS_EVT_GAME_EVT: number
   LIGHT_ATTACH_KEY: string
   DOOR_INTERACT_STATUS_LOCK: number
-  get_mojin_prop: function
+  get_mojin_prop: function(entity)  -- hexm/common/consts/mojin_consts.lua:204-208
   RS_EVT_OPT_MANUAL: number
   RS_EVT_CLI_INTERUPT: number
-  custom_resume_rescue: function
+  custom_resume_rescue: function()  -- hexm/common/consts/mojin_consts.lua:197-201
   MACHINE_INTERACT_SUBMIT: number
   E_GAME_END: string
   SCORE_ID: number

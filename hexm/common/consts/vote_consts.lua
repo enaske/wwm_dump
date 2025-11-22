@@ -21,7 +21,7 @@ Keys:
   MATERIAL_PROC: number
   FLOWER_DISEASE: number
   SZYY_START: number
-  is_vote_all_accept: function
+  is_vote_all_accept: function(vote)  -- hexm/common/consts/vote_consts.lua:83-94
   MULTI_MWZX: number
   SHOW_VOTE_WINDOW_TYPES: list
   VOTE_RES_SUCC: number

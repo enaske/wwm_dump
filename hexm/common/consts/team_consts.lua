@@ -15,7 +15,7 @@ Keys:
   E_VOTE_NOTIFY: number
   FAST_COMMAND_TYPE_CLUB_BATTLE: number
   E_DEAL_APPLY_MERGE: number
-  get_next_open_time: function
+  get_next_open_time: function(game_id, ts)  -- hexm/common/consts/team_consts.lua:136-142
   E_SET_TASK_DATA: number
   FIND_MATCH_TEAM_DELTA_TIME: number
   E_ADD_MEMBERS: number
@@ -27,7 +27,7 @@ Keys:
   E_MATCH_MERGE_TEAM: number
   E_JIEYI: number
   ROLE_LEADER: number
-  check_need_show_in_chiji: function
+  check_need_show_in_chiji: function(pid)  -- hexm/common/consts/team_consts.lua:390-408
   TYPE_CLUB_GROUP: number
   E_FOLLOW: number
   E_APPLY_OK: number
@@ -49,7 +49,7 @@ Keys:
   E_MATCH_CREATE: number
   TYPE_TEAM: number
   E_FOLLOWED: number
-  is_game_id_open: function
+  is_game_id_open: function(game_id, ts)  -- hexm/common/consts/team_consts.lua:115-134
   TEAM_MATCH_COMMON: string
   TEAM_SEP_LINE_SPACE: table <UnknownInstance>
   E_MEMBER_INFO_UPDATE: number

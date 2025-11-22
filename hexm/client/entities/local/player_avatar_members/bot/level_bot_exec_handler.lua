@@ -57,7 +57,7 @@ Keys:
       get_case_file_name(filename)  -- hexm/client/entities/local/player_avatar_members/bot/level_bot_exec_handler.lua:598-604
       check_record(operation)  -- hexm/client/entities/local/player_avatar_members/bot/level_bot_exec_handler.lua:591-596
       exec(self, record, callback)  -- hexm/client/entities/local/player_avatar_members/bot/level_bot_exec_handler.lua:606-615
-  exec_handler: function
+  exec_handler: function(replayer, handler, record, callback, kwargs)  -- hexm/client/entities/local/player_avatar_members/bot/level_bot_exec_handler.lua:23-39
   LevelBotExecInterface: class <LevelBotExecInterface>
     Functions:
       add_timer(self, delay, func, kwargs)  -- hexm/client/entities/local/player_avatar_members/bot/level_bot_exec_handler.lua:101-108
@@ -71,7 +71,7 @@ Keys:
       exec(self, record, callback)  -- hexm/client/entities/local/player_avatar_members/bot/level_bot_exec_handler.lua:63-69
       on_finish(self, res, reason)  -- hexm/client/entities/local/player_avatar_members/bot/level_bot_exec_handler.lua:115-125
       new(...)  -- =[C]
-  get_handler_by_exec_type: function
+  get_handler_by_exec_type: function(type)  -- hexm/client/entities/local/player_avatar_members/bot/level_bot_exec_handler.lua:1287-1289
   LevelBotExecTryAOI: class <LevelBotExecTryAOI>
     Functions:
       after_transfer_out(self, res, reason)  -- hexm/client/entities/local/player_avatar_members/bot/level_bot_exec_handler.lua:1108-1118
@@ -118,7 +118,7 @@ Keys:
       _do_branch_select(self)  -- hexm/client/entities/local/player_avatar_members/bot/level_bot_exec_handler.lua:991-1014
       exec(self, record, callback)  -- hexm/client/entities/local/player_avatar_members/bot/level_bot_exec_handler.lua:931-965
       check_timeout(self)  -- hexm/client/entities/local/player_avatar_members/bot/level_bot_exec_handler.lua:979-983
-  exec_handler_by_type: function
+  exec_handler_by_type: function(replayer, type, record, callback, kwargs)  -- hexm/client/entities/local/player_avatar_members/bot/level_bot_exec_handler.lua:41-44
   LevelBotExecTransfer: class <LevelBotExecTransfer>
     Functions:
       on_finish(self, succ, reason)  -- hexm/client/entities/local/player_avatar_members/bot/level_bot_exec_handler.lua:283-292

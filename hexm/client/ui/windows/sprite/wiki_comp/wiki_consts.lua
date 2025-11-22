@@ -18,10 +18,10 @@ Keys:
   WIKI_FEEDBACK_UNHELPFUL: number
   E_SELECT_WIKI_ID: string
   SHOW_ALL_WIKI: number
-  check_wiki_sprite_red_checked_today: function
+  check_wiki_sprite_red_checked_today: function()  -- hexm/client/ui/windows/sprite/wiki_comp/wiki_consts.lua:42-47
   E_SELECT_CATEGORY_WIKI_ID: string
   E_REARRANGE_WIKI_LIST: string
   RD_WIKI_ITEM: string
   E_REFRESH_WIKI_LIST: string
-  get_wiki_like_text: function
+  get_wiki_like_text: function(is_helpful)  -- hexm/client/ui/windows/sprite/wiki_comp/wiki_consts.lua:36-40
   WIKI_FEEDBACK_HELPFUL: number

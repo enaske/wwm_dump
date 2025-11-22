@@ -9,16 +9,16 @@ Keys:
   GIFT_RELATION_XIALV: number
   GIFT_TYPE_GUISE: number
   _reload_all: boolean
-  open_gift_intro_float_tip: function
-  is_can_gift_in_oversea: function
+  open_gift_intro_float_tip: function(window, avatar, hang_node)  -- hexm/common/consts/chat_gift_consts.lua:95-110
+  is_can_gift_in_oversea: function()  -- hexm/common/consts/chat_gift_consts.lua:84-87
   GIFT_GUISE_SHARE_ID: number
-  check_stuff_can_send_gift: function
+  check_stuff_can_send_gift: function(itm, wc)  -- hexm/common/consts/chat_gift_consts.lua:65-81
   GIFT_SEND_LEVEL_LIMIT_OVERSEA: number
   GIFT_SRC_SCORE_STUFF: number
-  get_gift_friend_day_limit: function
+  get_gift_friend_day_limit: function()  -- hexm/common/consts/chat_gift_consts.lua:89-92
   EXCLUDE_CHECK_TRADE_ITEMS_OVERSEA: list
-  get_gift_money_convert_ratio: function
-  have_unreceived_chat_gift: function
+  get_gift_money_convert_ratio: function(token_id, oversea)  -- hexm/common/consts/chat_gift_consts.lua:48-63
+  have_unreceived_chat_gift: function(avt)  -- hexm/common/consts/chat_gift_consts.lua:36-46
   GIFT_SRC_STUFF_ITEM: number
   GIFT_RELATION_NONE: number
   GIFT_RELATION_FRIEND: number

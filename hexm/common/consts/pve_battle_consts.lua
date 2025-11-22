@@ -14,10 +14,10 @@ Keys:
   S_PREPARE: number
   E_BATTLE_END: number
   E_LEAVE: number
-  is_doing_xs: function
-  get_region_no: function
-  get_battle_skills_xinfa: function
+  is_doing_xs: function(avt)  -- hexm/common/consts/pve_battle_consts.lua:67-72
+  get_region_no: function(sid)  -- hexm/common/consts/pve_battle_consts.lua:29-32
+  get_battle_skills_xinfa: function(avt)  -- hexm/common/consts/pve_battle_consts.lua:44-50
   E_GIVE_UP: number
   E_ENTER_SPACE: number
-  get_pve_battle: function
-  get_battle_skills_qishu: function
+  get_pve_battle: function(avt)  -- hexm/common/consts/pve_battle_consts.lua:53-64
+  get_battle_skills_qishu: function(avt)  -- hexm/common/consts/pve_battle_consts.lua:35-41

@@ -21,7 +21,7 @@ Keys:
   NOTE_CENTER_WHITE_WINDOW_WITH_GOTO2: number
   EX_ORDER_STATUS: string
   EX_NPC_EMPLOY: string
-  construct_add_relation_relation_reward_extra: function
+  construct_add_relation_relation_reward_extra: function(npc_rs_extra, role_id, from_id, from_is_avatar)  -- hexm/common/consts/reward_consts.lua:104-118
   DELAY_SHOW_MERGE: number
   TIPS_NOT_SHOW: number
   EX_LEVEL: string
@@ -33,7 +33,7 @@ Keys:
   EX_LIMIT_MODE: string
   NOTE_SPECIAL: number
   NOTE_CENTER_WHITE_WINDOW_WITH_GOTO: number
-  get_reward_item_no: function
+  get_reward_item_no: function(data)  -- hexm/common/consts/reward_consts.lua:141-152
   LIMIT_MODE_SERIAL: number
   EX_GENDER: string
   NOTE_CENTER_WINDOW: number

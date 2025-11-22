@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  declare_fake_listen: function
+  declare_fake_listen: function(cls)  -- hexm/client/entities/local/common_members/fake_dispatcher_redirect.lua:55-59
   REDIRECT_EVENTS_MAP: dict
   FakeDispatcherRedirect: class <FakeDispatcherRedirect>
     Functions:
@@ -11,5 +11,5 @@ Keys:
       ctor(...)  -- =[C]
       _on_fake_interest_cue(self, event, data)  -- hexm/client/entities/local/common_members/fake_dispatcher_redirect.lua:81-85
       new(...)  -- =[C]
-  declare_fake_cue_listen: function
+  declare_fake_cue_listen: function(cls)  -- hexm/client/entities/local/common_members/fake_dispatcher_redirect.lua:61-65
   REDIRECT_CUE_LIST: list

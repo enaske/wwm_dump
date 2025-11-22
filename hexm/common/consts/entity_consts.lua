@@ -30,11 +30,11 @@ Keys:
   ERR_ENTITY_CREATE_SYS_D: number
   LOD_GROUP_PRIORITY_MAP: table <UnknownInstance>
   CRT_REASON: table <UnknownInstance>
-  get_entity_remove_event_by: function
+  get_entity_remove_event_by: function(serial_id, tag)  -- hexm/common/consts/entity_consts.lua:197-206
   DESTROY_REASON_DEAD: number
   DESTROY_REASON_TIMEOUT: number
   ERR_ENTITY_CREATE_UNKNOWN: number
-  is_strategy: function
+  is_strategy: function(strategy, target_strategy)  -- hexm/common/consts/entity_consts.lua:152-154
   ENTITY_DEAD_CHECK_TIME: number
   ENTITY_SKILL_PRE: string
   ENT_CRT_DELAY: number
@@ -42,7 +42,7 @@ Keys:
   DESTROY_REASON_RESOURCE_CHANGE: number
   ENT_CRT_DEFAULT: number
   ENT_CRT_FADE_IN: number
-  get_entity_create_event_by: function
+  get_entity_create_event_by: function(serial_id, tag)  -- hexm/common/consts/entity_consts.lua:186-195
   DESTROY_REASON_SET_BY_USER: number
   DESTROY_REASON_INTERACT_DEL_ENTITY: number
   ENT_DESTROY_DEFAULT_DELAY: number

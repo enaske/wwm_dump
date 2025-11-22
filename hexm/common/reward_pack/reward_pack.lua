@@ -3,8 +3,8 @@ Type: table
 ================================================================================
 
 Keys:
-  accumu: function
-  unserialize_email_without_copy: function
+  accumu: function(arr)  -- hexm/common/reward_pack/reward_pack.lua:109-118
+  unserialize_email_without_copy: function(em)  -- hexm/common/reward_pack/reward_pack.lua:93-105
   BackRewardPack: class <BackRewardPack>
     Functions:
       add_limited_nos(self, nos)  -- hexm/common/reward_pack/reward_pack.lua:1124-1129
@@ -14,8 +14,8 @@ Keys:
       get_limited_stuffs(self)  -- hexm/common/reward_pack/reward_pack.lua:1148-1150
       add_limited_no(self, no)  -- hexm/common/reward_pack/reward_pack.lua:1131-1134
       get_limited_nos(self)  -- hexm/common/reward_pack/reward_pack.lua:1136-1138
-  serialize_email: function
-  unserialize_email: function
+  serialize_email: function(em)  -- hexm/common/reward_pack/reward_pack.lua:49-62
+  unserialize_email: function(em)  -- hexm/common/reward_pack/reward_pack.lua:78-91
   RewardPack: class <RewardPack>
     Functions:
       get_note_type(self)  -- hexm/common/reward_pack/reward_pack.lua:794-796
@@ -46,4 +46,4 @@ Keys:
       parse_reward_bags(id_list, ex_info, depth)  -- hexm/common/reward_pack/reward_pack.lua:1053-1095
       get_tips_type(self)  -- hexm/common/reward_pack/reward_pack.lua:802-804
       set_ex_info(self, ex_info)  -- hexm/common/reward_pack/reward_pack.lua:856-858
-  serialize_email_without_copy: function
+  serialize_email_without_copy: function(em)  -- hexm/common/reward_pack/reward_pack.lua:64-76

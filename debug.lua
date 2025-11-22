@@ -3,30 +3,30 @@ Type: table
 ================================================================================
 
 Keys:
-  getfuncextra: function
-  getlogprefix: function
-  getuservalue: function
-  GCHead: function
-  gethook: function
-  upvalueid: function
-  traceback: function
-  upvaluejoin: function
-  setlogprefix: function
-  setuservalue: function
-  getlocal: function
-  getupvalue: function
-  getmetatable: function
-  is_func_from_module: function
-  setmetatable: function
-  GCNext: function
-  setfuncextra: function
-  copysource: function
-  getinfo: function
-  sethook: function
-  update_proto: function
-  dis: function
-  setlocal: function
-  setupvalue: function
-  setcstacklimit: function
-  getregistry: function
-  debug: function
+  getfuncextra: function(...)  -- =[C]
+  getlogprefix: function(...)  -- =[C]
+  getuservalue: function(...)  -- =[C]
+  GCHead: function(...)  -- =[C]
+  gethook: function(...)  -- =[C]
+  upvalueid: function(...)  -- =[C]
+  traceback: function(...)  -- =[C]
+  upvaluejoin: function(...)  -- =[C]
+  setlogprefix: function(...)  -- =[C]
+  setuservalue: function(...)  -- =[C]
+  getlocal: function(...)  -- =[C]
+  getupvalue: function(...)  -- =[C]
+  getmetatable: function(...)  -- =[C]
+  is_func_from_module: function(...)  -- =[C]
+  setmetatable: function(...)  -- =[C]
+  GCNext: function(...)  -- =[C]
+  setfuncextra: function(...)  -- =[C]
+  copysource: function(...)  -- =[C]
+  getinfo: function(...)  -- =[C]
+  sethook: function(...)  -- =[C]
+  update_proto: function(...)  -- =[C]
+  dis: function(...)  -- =[C]
+  setlocal: function(...)  -- =[C]
+  setupvalue: function(...)  -- =[C]
+  setcstacklimit: function(...)  -- =[C]
+  getregistry: function(...)  -- =[C]
+  debug: function(...)  -- =[C]

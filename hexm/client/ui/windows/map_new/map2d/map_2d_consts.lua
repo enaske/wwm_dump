@@ -9,7 +9,7 @@ Keys:
   AREA_CUSTOMIZE_AREA: dict
   SHOW_HUAFANG_MULTI_SPACE: number
   EXTRA_MAP_LAYERS_SMAP_PIC: dict
-  init_painting_boat_customize_area: function
+  init_painting_boat_customize_area: function()  -- hexm/client/ui/windows/map_new/map2d/map_2d_consts.lua:56-74
   RELATED_SPACE_NO: dict
   FENBAO_MAKS: dict
   TANJING_AREA: dict

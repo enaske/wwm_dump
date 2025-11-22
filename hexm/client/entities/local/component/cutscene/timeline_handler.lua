@@ -6,7 +6,7 @@ Keys:
   TIMELINE_NEED_TRIGGER_EVENT: list
   MODEL_READY_WAIT_TIME: number
   OVERRIDE_CINE_RENDEROPTION_REASON: string
-  cutscene_cue_event: function
+  cutscene_cue_event: function(cues)  -- hexm/client/entities/local/component/cutscene/timeline_handler.lua:62-75
   ENV_PREFAB_WAIT_TIME: number
   TimelineHandler: class <TimelineHandler>
     Functions:

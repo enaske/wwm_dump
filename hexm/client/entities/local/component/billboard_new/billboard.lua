@@ -3,9 +3,9 @@ Type: table
 ================================================================================
 
 Keys:
-  dump_visible_boards: function
+  dump_visible_boards: function()  -- hexm/client/entities/local/component/billboard_new/billboard.lua:68-100
   all_billboards: dict
-  dump_status: function
+  dump_status: function()  -- hexm/client/entities/local/component/billboard_new/billboard.lua:45-66
   BILLBOARD_VIS_OPT_ENABLE: boolean
   Billboard: class <Billboard>
     Functions:

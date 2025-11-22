@@ -3,10 +3,10 @@ Type: table
 ================================================================================
 
 Keys:
-  get_mem_usage: function
-  get_fps: function
-  get_prims: function
-  get_face: function
+  get_mem_usage: function()  -- hexm/client/entities/local/player_avatar_members/imp_fps.lua:312-314
+  get_fps: function()  -- hexm/client/entities/local/player_avatar_members/imp_fps.lua:299-301
+  get_prims: function()  -- hexm/client/entities/local/player_avatar_members/imp_fps.lua:324-326
+  get_face: function()  -- hexm/client/entities/local/player_avatar_members/imp_fps.lua:347-349
   PlayerAvatarMember: class <PlayerAvatarMember>
     Functions:
       _calc_fps_log_temperature(self, data)  -- hexm/client/entities/local/player_avatar_members/imp_fps.lua:166-182
@@ -25,16 +25,16 @@ Keys:
       enable_jank(self, val)  -- hexm/client/entities/local/player_avatar_members/imp_fps.lua:67-81
       _calc_fps_log_ping(self)  -- hexm/client/entities/local/player_avatar_members/imp_fps.lua:184-210
       new(...)  -- =[C]
-  get_fps_limit: function
-  get_mem_available: function
-  get_pos: function
-  process_stats: function
-  get_thermal_headroom: function
-  get_dialog: function
-  get_cutscene: function
-  get_powersave: function
-  get_inactive: function
-  get_shader_hit_rate: function
-  get_shader_compile_count: function
-  get_dp: function
-  get_btext: function
+  get_fps_limit: function()  -- hexm/client/entities/local/player_avatar_members/imp_fps.lua:303-305
+  get_mem_available: function()  -- hexm/client/entities/local/player_avatar_members/imp_fps.lua:316-318
+  get_pos: function()  -- hexm/client/entities/local/player_avatar_members/imp_fps.lua:307-310
+  process_stats: function(stats)  -- hexm/client/entities/local/player_avatar_members/imp_fps.lua:225-297
+  get_thermal_headroom: function()  -- hexm/client/entities/local/player_avatar_members/imp_fps.lua:364-369
+  get_dialog: function()  -- hexm/client/entities/local/player_avatar_members/imp_fps.lua:343-345
+  get_cutscene: function()  -- hexm/client/entities/local/player_avatar_members/imp_fps.lua:339-341
+  get_powersave: function()  -- hexm/client/entities/local/player_avatar_members/imp_fps.lua:356-358
+  get_inactive: function()  -- hexm/client/entities/local/player_avatar_members/imp_fps.lua:360-362
+  get_shader_hit_rate: function()  -- hexm/client/entities/local/player_avatar_members/imp_fps.lua:328-330
+  get_shader_compile_count: function()  -- hexm/client/entities/local/player_avatar_members/imp_fps.lua:332-337
+  get_dp: function()  -- hexm/client/entities/local/player_avatar_members/imp_fps.lua:320-322
+  get_btext: function()  -- hexm/client/entities/local/player_avatar_members/imp_fps.lua:351-354

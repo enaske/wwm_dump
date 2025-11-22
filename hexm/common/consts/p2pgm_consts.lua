@@ -6,7 +6,7 @@ Keys:
   MAX_VAL: number
   MULTI_EMAIL_NO: number
   TEAM_DUNGEON: number
-  is_unlock: function
+  is_unlock: function(bit, avatar)  -- hexm/common/consts/p2pgm_consts.lua:20-25
   JHTJ: number
   MULTI_PLAY: number
   GUILD: number

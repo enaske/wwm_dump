@@ -4,8 +4,8 @@ Type: table
 
 Keys:
   HORSE_DESTROY_DISTANCE: number
-  _horse_clear_start_listener: function
-  _horse_clear_end_listener: function
+  _horse_clear_start_listener: function(owner)  -- hexm/client/entities/local/npc_members/imp_horse.lua:897-902
+  _horse_clear_end_listener: function(owner)  -- hexm/client/entities/local/npc_members/imp_horse.lua:904-909
   NpcMember: class <NpcMember>
     Functions:
       horse_play_simulate_skill(self, data)  -- hexm/client/entities/local/npc_members/imp_horse.lua:766-895

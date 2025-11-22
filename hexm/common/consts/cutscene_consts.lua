@@ -12,9 +12,9 @@ Keys:
   CUTSCENE_META_VIDEO_ENDS: number
   CUTSCENE_BODY_TYPE_FEMALE: number
   CUTSCENE_CAMERA_PROXY: string
-  get_cutscene_render_level: function
+  get_cutscene_render_level: function(is_mobile, level)  -- hexm/common/consts/cutscene_consts.lua:53-69
   CUTSCENE_ALL_SKIP: number
-  cutscene_is_lowmemory: function
+  cutscene_is_lowmemory: function()  -- hexm/common/consts/cutscene_consts.lua:71-82
   CUTSCENE_RENDER_LEVEL_MOBILE_LOW: number
   CUTSCENE_META_CAM_ANIMS: number
   CUTSCENE_RENDER_LEVEL_PRIORITY_NORMAL: number

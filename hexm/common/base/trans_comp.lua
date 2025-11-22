@@ -19,7 +19,7 @@ Keys:
       ctor(...)  -- =[C]
       trans_get_model_no(self)  -- hexm/common/base/trans_comp.lua:59-65
       new(...)  -- =[C]
-  _get_makeup_param: function
+  _get_makeup_param: function(ent, k, makeup_no, default)  -- hexm/common/base/trans_comp.lua:34-56
   CliTransComp: class <CliTransComp>
     Functions:
       __change_model_over_component__(self)  -- hexm/common/base/trans_comp.lua:329-331

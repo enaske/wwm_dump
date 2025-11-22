@@ -10,10 +10,10 @@ Keys:
   RESULT_CALLBACK: number
   ANIM_FROM_STATUS_RECOVER: string
   INTERACT_ENABLE_PRIORITY_BUNDLE: number
-  task_interact_cmp: function
-  dump_debug_step_log: function
+  task_interact_cmp: function(task_a, task_b, tracked_task_no)  -- hexm/client/consts/interact_consts.lua:108-122
+  dump_debug_step_log: function()  -- hexm/client/consts/interact_consts.lua:144-150
   INTERACT_ENABLE_PRIORITY_BUILDING_NORMAL: number
-  clear_interact_step_log: function
+  clear_interact_step_log: function()  -- hexm/client/consts/interact_consts.lua:135-142
   NAVIGATE_INTERRUPT_CALLBACK: number
   INTERACT_AREA_TYPE_ONLY_AREA: number
   INTERACT_ENABLE_PRIORITY_MANAGER_DESTROYING: number
@@ -27,20 +27,20 @@ Keys:
   ANIM_FROM_STATUS_ENTER: string
   INTERACT_PRIORITY_TASK: number
   INTERRUPT_CALLBACK: number
-  get_task_interact_icon: function
+  get_task_interact_icon: function(task_no)  -- hexm/client/consts/interact_consts.lua:84-87
   TALK_OPTION_TYPE_WANFA_INTERACT: string
-  add_interact_step_log: function
+  add_interact_step_log: function(color, format, ...)  -- hexm/client/consts/interact_consts.lua:124-133
   TRIGGER_ACTIVE_INTERACT_CHECK_DISTANCE: number
   TALK_OPTION_TYPE_BRANCH_SELECT: string
   AHEAD_ACTION_TYPE_UPPER_ANIM: string
-  get_max_priority_task: function
+  get_max_priority_task: function(tasks_set)  -- hexm/client/consts/interact_consts.lua:89-106
   INTERACT_AREA_TYPE_CLIENT_ACTIVE_WAY_FROM_CUSTOM: number
   INTERACT_PRIORITY_BASE: number
   INTERACT_AREA_TYPE_CLIENT_ACTIVE_WAY_FROM_CONFIG: number
   TALK_OPTION_TYPE_EXIT: string
   INTERACT_BUTTON_STYLE_MAIN_SCREEN: number
   INTERACT_AREA_TYPE_SERVER_COMP: number
-  show_interact_debug: function
+  show_interact_debug: function(tag, format, ...)  -- hexm/client/consts/interact_consts.lua:78-82
   END_CALLBACK: number
   INTERACT_BUTTON_STYLE_SKILL_PANEL: number
   TALK_OPTION_TYPE_TASK: string
@@ -50,7 +50,7 @@ Keys:
   PROGRESS_BAR_BUTTON: number
   INTERACT_ENABLE_PRIORITY_BUILDING_BP_COMP: number
   INTERACT_ENABLE_PRIORITY_DEFAULT: number
-  show_interact_monitor_content: function
+  show_interact_monitor_content: function()  -- hexm/client/consts/interact_consts.lua:152-180
   TALK_OPTION_TYPE_NPC_BEHAVIOR: string
   START_CALLBACK: number
   (1 more keys)

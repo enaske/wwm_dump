@@ -17,5 +17,5 @@ Keys:
       ctor(self)  -- hexm/client/ui/windows/hangdang/doctor_card_game/doctor_therapy_banner_window.lua:98-104
   TEXT_NO_START_DISEASE_TURN: number
   TEXT_MSG_ZH: table <UnknownInstance>
-  get_text_msg: function
+  get_text_msg: function(index)  -- hexm/client/ui/windows/hangdang/doctor_card_game/doctor_therapy_banner_window.lua:129-131
   TEXT_NO_START_THERAPY: number

@@ -23,7 +23,7 @@ Keys:
       _load_args_list(self)  -- hexm/client/entities/local/ghost_behavior_recoder/ghost_behaviors.lua:170-184
       invoke(self)  -- hexm/client/entities/local/ghost_behavior_recoder/ghost_behaviors.lua:42-44
       _get_execute_entity(self)  -- hexm/client/entities/local/ghost_behavior_recoder/ghost_behaviors.lua:161-168
-  CreateBehavior: function
+  CreateBehavior: function(behavior_type, entity, data)  -- hexm/client/entities/local/ghost_behavior_recoder/ghost_behaviors.lua:301-305
   AnimStateBehavior: class <AnimStateBehavior>
     Functions:
       template_function_call(self, entity_cxx)  -- hexm/client/entities/local/ghost_behavior_recoder/ghost_behaviors.lua:197-211

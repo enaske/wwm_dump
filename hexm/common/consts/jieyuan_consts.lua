@@ -19,7 +19,7 @@ Keys:
   E_JIEYUAN_NOT_IN_COOL: number
   E_JIEYUAN_NOT_IN_RIGHT_STATE: number
   E_JIEYUAN_CREATE_JIEYUAN_IN_CD: number
-  get_xialv_level: function
+  get_xialv_level: function(avatar, jid)  -- hexm/common/consts/jieyuan_consts.lua:48-69
   JIEYUAN_COIN_LIMIT_TYPE_2: number
   E_JIEYUAN_NOT_EXIST: number
   EVENT_EDIT_CANCEL_FINISH_EDIT: string
@@ -28,15 +28,15 @@ Keys:
   JIEYUAN_CAPACITY_GUYUN: number
   E_LEVEL_NOT_ENOUGH: number
   E_NOT_ENOUGH_INTIMACY: number
-  get_guyun_jielv_members: function
+  get_guyun_jielv_members: function(avatar1, avatar2)  -- hexm/common/consts/jieyuan_consts.lua:459-474
   EVENT_EDIT_GIVEUP_EDIT: string
   JIEYUAN_STAGE_TEXT_KEY: string
   XIAYUAN_FUND: number
-  get_guyun_rec_is_refused: function
+  get_guyun_rec_is_refused: function(avatar, pid, invite_idx)  -- hexm/common/consts/jieyuan_consts.lua:441-445
   PROCESS_DIVORCE_BOTH: number
   JIEYUAN_CAPACITY: number
   EVENT_DIVORCE_ONEWAY_FINAL: string
-  format_xialv_info: function
+  format_xialv_info: function(avatar)  -- hexm/common/consts/jieyuan_consts.lua:126-141
   MARRY_PAY_DEC_REASON: string
   EVENT_DIVORCE_ONEWAY: string
   E_JIEYUAN_NO_NEED_CANCEL_DIVORCE: number
@@ -50,7 +50,7 @@ Keys:
   MARRIED_STATE: number
   XIAYUAN_MINGGE: number
   EVENT_EDIT_APPLY_EDIT: string
-  is_has_xialv: function
+  is_has_xialv: function(avatar)  -- hexm/common/consts/jieyuan_consts.lua:118-124
   PURPOSE_JIEYUAN: string
   DIVORCE_CONSENT_PAY_DEC_REASON: string
   (1 more keys)

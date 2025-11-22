@@ -3,18 +3,18 @@ Type: table
 ================================================================================
 
 Keys:
-  parse_behit_data: function
+  parse_behit_data: function(data)  -- hexm/common/consts/combat_conf.lua:180-211
   ATK_ABR_DMG: number
   HIT_WALL_DETECT_WAIT_TIME: number
   RE_JINGYUAN_KILL_BTHIT: number
-  get_atk_type: function
+  get_atk_type: function(atk_type)  -- hexm/common/consts/combat_conf.lua:213-230
   RE_JINGYUAN_KILL_PARRY: number
   BEHIT_POST: number
   TYPE_IMPACT_HIT: number
   BEHIT_END: number
   BATTLE_TYPE_PVE: number
   BATTLE_TYPE_PVE_BOSS: number
-  pack_behit_data: function
+  pack_behit_data: function(data)  -- hexm/common/consts/combat_conf.lua:139-178
   ICE_STAGE_NORMAL: number
   ICE_STAGE_BROKEN: number
   CAL_FEATURE_HIT_SKL_RELOAD: number
@@ -29,17 +29,17 @@ Keys:
   ENTER_BATTLE_DAMAGE_TARGET_PLAYER: number
   BATCH_UPGRADE_KONGFU: number
   TYPE_CUSTOM_HIT: number
-  pack_bone_collision_data: function
-  get_bayonet_anim: function
-  unpack_bone_collision_data: function
+  pack_bone_collision_data: function(data)  -- hexm/common/consts/combat_conf.lua:264-280
+  get_bayonet_anim: function(anim_no, weapon_no)  -- hexm/common/consts/combat_conf.lua:304-312
+  unpack_bone_collision_data: function(msg)  -- hexm/common/consts/combat_conf.lua:282-302
   RE_JINGYUAN_KILL_WEAKPOINT: number
-  _pack_bone_sub_info: function
+  _pack_bone_sub_info: function(info)  -- hexm/common/consts/combat_conf.lua:233-245
   DOMAIN_FAN: number
-  _unpack_bone_sub_info: function
+  _unpack_bone_sub_info: function(cld, info)  -- hexm/common/consts/combat_conf.lua:248-261
   BEHIT_FRONT: number
   ENTER_BATTLE_AGGRO: number
   RE_JINGYUAN_KILL_SNEAK: number
-  gm_try_show_damage_panel: function
+  gm_try_show_damage_panel: function(target, fromer, fromer_id, data, other_data)  -- hexm/common/consts/combat_conf.lua:314-329
   CAL_FEATURE_HIT_SKL_RELOAD_HURT: number
   BEHIT_LEFT: number
   BF_STAGE_STATE_START: number

@@ -21,7 +21,7 @@ Keys:
   COLLISION_TYPE_ZUOQI: number
   FILTER_FLAG_CLIMB: number
   COLLISION_TYPE_ARROW_AIM: number
-  CHECK_CAN_DESTRUCT: function
+  CHECK_CAN_DESTRUCT: function()  -- hexm/client/consts/collision_consts.lua:108-110
   COLLISION_TYPE_FLOWER: number
   MAX_COLLISION_TYPE: number
   QUERY_DYNAMIC_ENTITY: number

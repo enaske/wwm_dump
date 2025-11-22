@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  start_player_invite_cd: function
+  start_player_invite_cd: function(player_id)  -- hexm/client/ui/windows/game_room_invitation/game_room_invite_page/game_room_invite_friends.lua:34-36
   OutShareItem: class <OutShareItem>
     Functions:
       get_id(self)  -- hexm/client/ui/windows/game_room_invitation/game_room_invite_page/game_room_invite_friends.lua:364-366
@@ -12,7 +12,7 @@ Keys:
       share_outside(self, outer_share_id)  -- hexm/client/ui/windows/game_room_invitation/game_room_invite_page/game_room_invite_friends.lua:353-360
       update_content(self, key, data)  -- hexm/client/ui/windows/game_room_invitation/game_room_invite_page/game_room_invite_friends.lua:334-350
       is_online(self)  -- hexm/client/ui/windows/game_room_invitation/game_room_invite_page/game_room_invite_friends.lua:373-375
-  get_player_invite_cd_left: function
+  get_player_invite_cd_left: function(player_id)  -- hexm/client/ui/windows/game_room_invitation/game_room_invite_page/game_room_invite_friends.lua:24-32
   INVITE_PLAYER_TS_MAP: dict
   PlayerItemBase: class <PlayerItemBase>
     Functions:

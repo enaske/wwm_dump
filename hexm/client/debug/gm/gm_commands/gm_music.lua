@@ -3,39 +3,39 @@ Type: table
 ================================================================================
 
 Keys:
-  is_environment_debug_enable: function
-  gm_sound_show_event_info_with_text: function
-  gm_sound_print_last_combat_bgm: function
-  play_joystick_motion_sound: function
-  gm_reload_sound: function
-  enable_dynamic_sound_log: function
-  is_shrub_sound_debug_enable: function
-  gm_sound_print_event_info: function
-  test_contact_impulse: function
-  gm_sound_show_event_info: function
-  gm_debug_reverb_sound_switch: function
-  gm_backup_events: function
-  gm_stop_sound: function
-  gm_adjust_voicechange: function
-  gm_sound_enable_show_reverb_entity: function
-  disable_sound: function
-  is_click_indoor_debug: function
-  play_joystick_motion_sound_by_cue: function
-  gm_test_voicechange: function
-  test_river_sound: function
-  show_navimap: function
-  gm_sound_print_bgm_stack: function
-  gm_sound_enable_debug_way_point: function
-  gm_play_sound2: function
-  shrub_sound_debug: function
-  gm_select_voicechange: function
-  gm_sound_enable_graph_debug: function
-  disable_sound_async_load: function
-  gm_sound_enable_log: function
-  gm_sound_print_last_region_bgm: function
-  set_dynamic_sound_threshold: function
+  is_environment_debug_enable: function()  -- hexm/client/debug/gm/gm_commands/gm_music.lua:168-170
+  gm_sound_show_event_info_with_text: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_sound_print_last_combat_bgm: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  play_joystick_motion_sound: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_reload_sound: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  enable_dynamic_sound_log: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  is_shrub_sound_debug_enable: function()  -- hexm/client/debug/gm/gm_commands/gm_music.lua:189-191
+  gm_sound_print_event_info: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  test_contact_impulse: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_sound_show_event_info: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_debug_reverb_sound_switch: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_backup_events: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_stop_sound: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_adjust_voicechange: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_sound_enable_show_reverb_entity: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  disable_sound: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  is_click_indoor_debug: function()  -- hexm/client/debug/gm/gm_commands/gm_music.lua:103-109
+  play_joystick_motion_sound_by_cue: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_test_voicechange: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  test_river_sound: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  show_navimap: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_sound_print_bgm_stack: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_sound_enable_debug_way_point: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_play_sound2: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  shrub_sound_debug: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_select_voicechange: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_sound_enable_graph_debug: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  disable_sound_async_load: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_sound_enable_log: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_sound_print_last_region_bgm: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  set_dynamic_sound_threshold: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
   _reload_all: boolean
-  gm_export_region_sound: function
-  gm_play_sound: function
-  show_environment_sound_debug: function
-  gm_en_log: function
+  gm_export_region_sound: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_play_sound: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  show_environment_sound_debug: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_en_log: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58

@@ -18,7 +18,7 @@ Keys:
   MAIN_NEED_SHOW_TAB: list
   MAIN_IDENTITY_TO_RP_NAME: dict
   TRAIN_PRE_WENSHI_SKILL_ITEM: string
-  refresh_hangdang_text: function
+  refresh_hangdang_text: function()  -- hexm/client/ui/windows/hangdang/hangdang_consts.lua:128-156
   SKILL_CLICK_GROUP: string
   TRAIN_WENSHI_ORDER_COST: string
   TRAIN_WENSHI_ORDER_LEVEL: string
@@ -29,7 +29,7 @@ Keys:
   SKILL_BUFENG_DRAG_SKILL: string
   IDENTITY_XUANHU: number
   TRAIN_DOCTOR_SKILL_ITEM: string
-  get_attr_name_by_id: function
+  get_attr_name_by_id: function(attr_id)  -- hexm/client/ui/windows/hangdang/hangdang_consts.lua:120-126
   TRAIN_WENSHI_ALL_ORDER_LIST: list
   IDENTITY_ANYING: number
   TRAIN_WENSHI_FILTER_ITEM: string

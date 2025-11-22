@@ -19,7 +19,7 @@ Keys:
       get_scene_interact_position(self)  -- hexm/client/entities/local/npc_members/imp_disguise_trace.lua:350-356
       get_icon_text_name(self)  -- hexm/client/entities/local/npc_members/imp_disguise_trace.lua:369-371
       _si_close_ui(self)  -- hexm/client/entities/local/npc_members/imp_disguise_trace.lua:387-393
-  gen_marker_id: function
+  gen_marker_id: function(space_no, serial_no)  -- hexm/client/entities/local/npc_members/imp_disguise_trace.lua:38-40
   detect_height: list
   ERROR_ANGLE_NOT_FIT: number
   detect_distance: number

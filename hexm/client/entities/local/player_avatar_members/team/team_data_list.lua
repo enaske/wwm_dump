@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  cmp_by_time: function
+  cmp_by_time: function(x, y)  -- hexm/client/entities/local/player_avatar_members/team/team_data_list.lua:6-8
   TeamDataList: class <TeamDataList>
     Functions:
       sort_by_time(self)  -- hexm/client/entities/local/player_avatar_members/team/team_data_list.lua:25-36

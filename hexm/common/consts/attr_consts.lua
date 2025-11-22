@@ -7,7 +7,7 @@ Keys:
   STATE_LEVEL_TYPE_KUNGFU: number
   LIFE_MIND_HP: number
   WANFA_RES_POISON: number
-  reload_res_key_map: function
+  reload_res_key_map: function()  -- hexm/common/consts/attr_consts.lua:156-160
   TASK_TYPE_MANUALS_UNLOCK: number
   LIFE_TOXIC_HP: number
   COMBAT_RES_JINGYUAN: number
@@ -15,10 +15,10 @@ Keys:
   COMBAT_RES_NAILI: number
   LIFE_COLD_HP: number
   COMBAT_RES_QGZ: number
-  get_res_key_map: function
+  get_res_key_map: function()  -- hexm/common/consts/attr_consts.lua:137-154
   POS_FLAG_SET: table <UnknownInstance>
   WANFA_RES_TILI: number
-  is_local_res: function
+  is_local_res: function(res_id)  -- hexm/common/consts/attr_consts.lua:78-83
   EQUIP_PREFIX: string
   L2_ATTRS: list
   FAKE_SYNC_RES: table

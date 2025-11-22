@@ -3,8 +3,8 @@ Type: table
 ================================================================================
 
 Keys:
-  char: function
-  toutf8: function
-  len: function
-  fromutf8: function
-  byte: function
+  char: function(...)  -- =[C]
+  toutf8: function(...)  -- =[C]
+  len: function(...)  -- =[C]
+  fromutf8: function(...)  -- =[C]
+  byte: function(...)  -- =[C]

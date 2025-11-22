@@ -12,17 +12,22 @@ Keys:
       rpc_pop_slot_mode_type(self, ...)  -- engine/client/AsioServerProxy.lua:37-39
       sdk_login(self, ...)  -- engine/client/AsioServerProxy.lua:37-39
       post_use(self, ...)  -- engine/client/AsioServerProxy.lua:37-39
+      rpc_switch_weapon_mode(self, ...)  -- engine/client/AsioServerProxy.lua:37-39
+      loading_ads_clear_ad_count(self, ...)  -- engine/client/AsioServerProxy.lua:37-39
       rpc_set_crouch(self, ...)  -- engine/client/AsioServerProxy.lua:37-39
       gm_transfer_ignore_region(self, ...)  -- engine/client/AsioServerProxy.lua:37-39
       rpc_cutscene_start_cutscene(self, ...)  -- engine/client/AsioServerProxy.lua:37-39
       rpc_branch_select_consume_token_stuff(self, ...)  -- engine/client/AsioServerProxy.lua:37-39
+      rpc_pop_skill_gameplay_slot(self, ...)  -- engine/client/AsioServerProxy.lua:37-39
       send_reg_md5_index(self, md5, index)  -- engine/client/AsioServerProxy.lua:30-32
       rpc_start_local_move(self, ...)  -- engine/client/AsioServerProxy.lua:37-39
       set_weapon_enchant_raining(self, ...)  -- engine/client/AsioServerProxy.lua:37-39
+      disguise_generate_painting(self, ...)  -- engine/client/AsioServerProxy.lua:37-39
       rpc_client_weather_save(self, ...)  -- engine/client/AsioServerProxy.lua:37-39
       rpc_auto_recover_post_revive(self, ...)  -- engine/client/AsioServerProxy.lua:37-39
       cli_update_weapon(self, ...)  -- engine/client/AsioServerProxy.lua:37-39
       rpc_qx_trade_result_confirm(self, ...)  -- engine/client/AsioServerProxy.lua:37-39
+      rpc_npc_stuff_interact(self, ...)  -- engine/client/AsioServerProxy.lua:37-39
       rpc_set_map_data(self, ...)  -- engine/client/AsioServerProxy.lua:37-39
       rpc_client_transfer_finish_back(self, ...)  -- engine/client/AsioServerProxy.lua:37-39
       destroy(self)  -- engine/client/AsioServerProxy.lua:61-65
@@ -34,6 +39,8 @@ Keys:
       rpc_push_speed_state(self, ...)  -- engine/client/AsioServerProxy.lua:37-39
       room_discard_my_team(self, ...)  -- engine/client/AsioServerProxy.lua:37-39
       rpc_transfer_to(self, ...)  -- engine/client/AsioServerProxy.lua:37-39
+      cli_fall_post(self, ...)  -- engine/client/AsioServerProxy.lua:37-39
+      rpc_push_skill_gameplay_slot(self, ...)  -- engine/client/AsioServerProxy.lua:37-39
       rpc_cutscene_finish_cutscene(self, ...)  -- engine/client/AsioServerProxy.lua:37-39
       rpc_get_sprite_token(self, ...)  -- engine/client/AsioServerProxy.lua:37-39
       rpc_get_all_build_by_chunks(self, ...)  -- engine/client/AsioServerProxy.lua:37-39
@@ -48,10 +55,3 @@ Keys:
       rpc_clientify_batch_rm_buffs(self, ...)  -- engine/client/AsioServerProxy.lua:37-39
       rps_room_get_owner_wanfa_back(self, ...)  -- engine/client/AsioServerProxy.lua:37-39
       friend_fetch(self, ...)  -- engine/client/AsioServerProxy.lua:37-39
-      face_info_load_other(self, ...)  -- engine/client/AsioServerProxy.lua:37-39
-      clientify_attr_sync(self, ...)  -- engine/client/AsioServerProxy.lua:37-39
-      rpc_request_active_interact_start(self, ...)  -- engine/client/AsioServerProxy.lua:37-39
-      rpc_stop_local_move(self, ...)  -- engine/client/AsioServerProxy.lua:37-39
-      login_from_recon(self, ...)  -- engine/client/AsioServerProxy.lua:37-39
-      rpc_cc_event_receive_client(self, ...)  -- engine/client/AsioServerProxy.lua:37-39
-      rpc_debate_chose_battle(self, ...)  -- engine/client/AsioServerProxy.lua:37-39

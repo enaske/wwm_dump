@@ -3,22 +3,22 @@ Type: table
 ================================================================================
 
 Keys:
-  get_pic_enlarge_info: function
+  get_pic_enlarge_info: function(model, index)  -- hexm/client/ui/windows/stuff_museum/item_info/stuff_museum_second_entry_info_window.lua:726-730
   TextController: class <TextController>
     Functions:
       manual_center(self)  -- hexm/client/ui/windows/stuff_museum/item_info/stuff_museum_second_entry_info_window.lua:410-413
       show_page(self, model)  -- hexm/client/ui/windows/stuff_museum/item_info/stuff_museum_second_entry_info_window.lua:390-408
       set_view_visible_false(self)  -- hexm/client/ui/windows/stuff_museum/item_info/stuff_museum_second_entry_info_window.lua:386-388
       init(self, kwargs)  -- hexm/client/ui/windows/stuff_museum/item_info/stuff_museum_second_entry_info_window.lua:369-384
-  get_music: function
-  get_disc_l: function
+  get_music: function(model)  -- hexm/client/ui/windows/stuff_museum/item_info/stuff_museum_second_entry_info_window.lua:736-738
+  get_disc_l: function(model)  -- hexm/client/ui/windows/stuff_museum/item_info/stuff_museum_second_entry_info_window.lua:706-708
   ImageEnlargeBtn: class <ImageEnlargeBtn>
     Functions:
       reset_info(self, kwargs)  -- hexm/client/ui/windows/stuff_museum/item_info/stuff_museum_second_entry_info_window.lua:658-666
       on_click_enlarge_btn(self)  -- hexm/client/ui/windows/stuff_museum/item_info/stuff_museum_second_entry_info_window.lua:668-673
       init(self, kwargs)  -- hexm/client/ui/windows/stuff_museum/item_info/stuff_museum_second_entry_info_window.lua:649-656
-  get_disc_s: function
-  get_music_word_id: function
+  get_disc_s: function(model)  -- hexm/client/ui/windows/stuff_museum/item_info/stuff_museum_second_entry_info_window.lua:702-704
+  get_music_word_id: function(model)  -- hexm/client/ui/windows/stuff_museum/item_info/stuff_museum_second_entry_info_window.lua:740-742
   ImageController: class <ImageController>
     Functions:
       on_set_model(self)  -- hexm/client/ui/windows/stuff_museum/item_info/stuff_museum_second_entry_info_window.lua:166-172
@@ -44,8 +44,8 @@ Keys:
       show_other_enlarge_btn(self, index, is_show)  -- hexm/client/ui/windows/stuff_museum/item_info/stuff_museum_second_entry_info_window.lua:97-101
       to_show_page_by_type(self, model)  -- hexm/client/ui/windows/stuff_museum/item_info/stuff_museum_second_entry_info_window.lua:56-79
       _real_show_page(self, model)  -- hexm/client/ui/windows/stuff_museum/item_info/stuff_museum_second_entry_info_window.lua:81-95
-  get_text_from: function
-  get_show_type: function
+  get_text_from: function(model)  -- hexm/client/ui/windows/stuff_museum/item_info/stuff_museum_second_entry_info_window.lua:714-716
+  get_show_type: function(model)  -- hexm/client/ui/windows/stuff_museum/item_info/stuff_museum_second_entry_info_window.lua:718-720
   ImageInfoItem: class <ImageInfoItem>
     Functions:
       update_content(self, key, data)  -- hexm/client/ui/windows/stuff_museum/item_info/stuff_museum_second_entry_info_window.lua:630-642
@@ -62,6 +62,6 @@ Keys:
       _update_process_show(self, delta_time)  -- hexm/client/ui/windows/stuff_museum/item_info/stuff_museum_second_entry_info_window.lua:551-564
       show_page(self, model)  -- hexm/client/ui/windows/stuff_museum/item_info/stuff_museum_second_entry_info_window.lua:454-508
       play_move_and_subtitle(self, is_play)  -- hexm/client/ui/windows/stuff_museum/item_info/stuff_museum_second_entry_info_window.lua:519-549
-  get_pic_from: function
-  get_pic: function
-  get_text_from_word: function
+  get_pic_from: function(model)  -- hexm/client/ui/windows/stuff_museum/item_info/stuff_museum_second_entry_info_window.lua:732-734
+  get_pic: function(model)  -- hexm/client/ui/windows/stuff_museum/item_info/stuff_museum_second_entry_info_window.lua:722-724
+  get_text_from_word: function(model)  -- hexm/client/ui/windows/stuff_museum/item_info/stuff_museum_second_entry_info_window.lua:710-712

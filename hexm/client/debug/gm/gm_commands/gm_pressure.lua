@@ -16,7 +16,7 @@ Keys:
   _cur_guise_idx: number
   earring_view_nos: list
   hat_view_nos: list
-  test_avatar_guise_pressure: function
+  test_avatar_guise_pressure: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
   entities: list
   enable_hair: boolean
   toushi_view_nos: list

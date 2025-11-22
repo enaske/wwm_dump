@@ -13,7 +13,7 @@ Keys:
   MAX_PIXEL_SIZE: list
   REVIEW_PASSED: number
   PIC_FROM_PLAYER: string
-  compress_upload_filepicker_image: function
+  compress_upload_filepicker_image: function(image_path)  -- hexm/common/consts/filepicker_consts.lua:141-166
   PHOTO_EDIT_TRAJECTORY_NAME: string
   VIDEO_TAG: string
   PIC_REVIEW_NEWSPAPER_POST: number

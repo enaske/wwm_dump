@@ -3,8 +3,8 @@ Type: table
 ================================================================================
 
 Keys:
-  defaultdict: function
-  namedtuple: function
+  defaultdict: function(typ, kwargs)  -- engine/Lib/collections.lua:216-223
+  namedtuple: function(typename, field_names)  -- engine/Lib/collections.lua:3-25
   deque: class <deque>
     Functions:
       __index(self, idx)  -- engine/Lib/collections.lua:137-149

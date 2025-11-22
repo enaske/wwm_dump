@@ -3,11 +3,11 @@ Type: table
 ================================================================================
 
 Keys:
-  escape_pattern: function
+  escape_pattern: function(str)  -- hexm/client/ui/controllers/richtext_controller.lua:88-91
   tag_pattern_str: string
   attr_pattern: string
-  parse_attr_dict: function
-  decode_text_with_color: function
+  parse_attr_dict: function(attr_str)  -- hexm/client/ui/controllers/richtext_controller.lua:80-86
+  decode_text_with_color: function(text_string)  -- hexm/client/ui/controllers/richtext_controller.lua:68-77
   RichTextController: class <RichTextController>
     Functions:
       get_element_dict(self)  -- hexm/client/ui/controllers/richtext_controller.lua:187-193

@@ -3,9 +3,9 @@ Type: table
 ================================================================================
 
 Keys:
-  open_memory: function
+  open_memory: function(...)  -- =[C]
   DROP_VTABLE: number
-  complete: function
+  complete: function(...)  -- =[C]
   MISMATCH: number
   OPEN_NOMUTEX: number
   CREATE_TEMP_TABLE: number
@@ -21,7 +21,7 @@ Keys:
   OPEN_READONLY: number
   INSERT: number
   MISUSE: number
-  backup_init: function
+  backup_init: function(...)  -- =[C]
   CREATE_TEMP_VIEW: number
   PERM: number
   RANGE: number
@@ -37,17 +37,17 @@ Keys:
   CORRUPT: number
   FULL: number
   LOCKED: number
-  lversion: function
+  lversion: function(...)  -- =[C]
   CREATE_INDEX: number
   TEXT: number
   OPEN_MEMORY: number
   SCHEMA: number
-  __newindex: function
+  __newindex: function(...)  -- =[C]
   IOERR: number
   CONSTRAINT: number
-  open_ptr: function
+  open_ptr: function(...)  -- =[C]
   DELETE: number
-  version: function
+  version: function(...)  -- =[C]
   TRANSACTION: number
   EMPTY: number
   SAVEPOINT: number

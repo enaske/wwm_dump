@@ -13,9 +13,9 @@ Keys:
       ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodesV2.lua:214-221
       clear_all(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodesV2.lua:285-290
       Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodesV2.lua:223-265
-  get_entities_by_serial_list: function
-  to_vector3: function
-  get_eids_by_serial_list: function
+  get_entities_by_serial_list: function(serial_list)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodesV2.lua:49-63
+  to_vector3: function(pos)  -- hexm/client/entities/local/player_avatar_members/gameplays/region_game/region_game_config.lua:102-114
+  get_eids_by_serial_list: function(serial_list)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodesV2.lua:65-74
   RegionGamePickStoneNode: class <RegionGamePickStoneNode>
     Functions:
       handle_put_stone_interact(self, e, d)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodesV2.lua:794-828
@@ -28,7 +28,7 @@ Keys:
     Functions:
       Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodesV2.lua:872-890
       ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodesV2.lua:864-870
-  to_list: function
+  to_list: function(value)  -- hexm/client/entities/local/player_avatar_members/gameplays/region_game/region_game_config.lua:85-100
   ActivateInteractionByWeatherTimeNode: class <ActivateInteractionByWeatherTimeNode>
     Functions:
       check_weather_time(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodesV2.lua:333-350

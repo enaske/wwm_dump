@@ -17,5 +17,5 @@ Keys:
   EDIT_NAME_CARD_BG: number
   FRIEND_BADGE_NO: number
   BADGE_COUNT_DEFAULT: number
-  get_name_card_cnt_by_reward: function
+  get_name_card_cnt_by_reward: function(reward_no, avt)  -- hexm/common/consts/name_card_consts.lua:31-38
   BADGE_EXPIRE_NOTIFY_ID: number

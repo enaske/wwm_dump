@@ -9,7 +9,7 @@ Keys:
   E_CHANGE_MEMBER_POS: number
   E_KICK_NOTIFY: number
   E_REFOLLOW: number
-  get_event_notify_id: function
+  get_event_notify_id: function(event)  -- hexm/common/consts/expedition_team_consts.lua:73-78
   E_CREATE: number
   E_VOTE_NOTIFY: number
   E_SET_FORBID: number

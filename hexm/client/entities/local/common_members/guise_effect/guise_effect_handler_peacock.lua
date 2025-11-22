@@ -11,7 +11,7 @@ Keys:
       get_play_effect_extra_sync_params(self, effect_no)  -- hexm/client/entities/local/common_members/guise_effect/guise_effect_handler_peacock.lua:57-74
   SetIsCharacter: boolean
   Version: number
-  get_class: function
+  get_class: function()  -- hexm/client/entities/local/common_members/guise_effect/guise_effect_handler_peacock.lua:20-23
   GuiseEffectHandlerPeacockVersion1: class <GuiseEffectHandlerPeacockVersion1>
     Functions:
       before_play_single_effect(self, effect_no)  -- hexm/client/entities/local/common_members/guise_effect/guise_effect_handler_peacock.lua:107-113

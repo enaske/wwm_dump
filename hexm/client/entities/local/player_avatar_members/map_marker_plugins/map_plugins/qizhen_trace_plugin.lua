@@ -5,7 +5,7 @@ Type: table
 Keys:
   HIDE_REASON_MOUSE_UD: string
   HIDE_REASON_PROCESS: string
-  mouse_init_visiblility_by_ud: function
+  mouse_init_visiblility_by_ud: function(self, game_id, game_state, sid)  -- hexm/client/entities/local/player_avatar_members/map_marker_plugins/map_plugins/qizhen_trace_plugin.lua:183-191
   QizhenTracePlugin: class <QizhenTracePlugin>
     Functions:
       clear_all_timers(self)  -- hexm/client/entities/local/player_avatar_members/map_marker_plugins/map_plugins/qizhen_trace_plugin.lua:36-41

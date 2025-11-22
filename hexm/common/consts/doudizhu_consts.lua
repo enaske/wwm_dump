@@ -29,7 +29,7 @@ Keys:
   NPC_ACTION_TYPE_NOT_QDZ: number
   OP_PLAY_CARD: number
   FAN_SUPER_JIABEI: number
-  doudizhu_is_pve: function
+  doudizhu_is_pve: function(desk_sid)  -- hexm/common/consts/doudizhu_consts.lua:549-551
   NPC_ACTION_TYPE_NOT_JDZ: number
   FAN_BOMB: number
   R_LEAVE_SPACE: number
@@ -37,7 +37,7 @@ Keys:
   GAME_STATE_JIAODIZHU: number
   CARD_TYPE_2_NAME: table <UnknownInstance>
   GAME_STATE_PREPARE: number
-  gm_new_card: function
+  gm_new_card: function()  -- hexm/common/consts/doudizhu_consts.lua:36-45
   INTERVAL_CHUPAI: number
   OP_MINGPAI: number
   R_LEAVE_ROOM: number

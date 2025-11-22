@@ -50,7 +50,7 @@ Keys:
   JUDGE_LABEL_Failure: string
   SHEFU_EVENT_COOP_QUESTION_EDIT_RESPONSE: string
   STATE_PREPARE: number
-  get_shefu_rank_clear_ts: function
+  get_shefu_rank_clear_ts: function(avatar)  -- hexm/common/consts/shefu_consts.lua:229-231
   EVENT_SHEFU_ROUND_CHANGED: string
   SHEFU_EVENT_COOP_SEND_EMOJI: string
   (1 more keys)

@@ -54,11 +54,11 @@ Keys:
       _fetch_callback(self, filepath, res, error_detail_msg)  -- patch/fenbao_downloader.lua:85-115
       _on_task_progress(self, progress)  -- patch/fenbao_downloader.lua:117-121
       _on_task_finish(self, task_id, res)  -- patch/fenbao_downloader.lua:123-142
-  get_download_info: function
+  get_download_info: function()  -- patch/fenbao_downloader.lua:33-45
   DummyFenbaoDownloader: class <DummyFenbaoDownloader>
     Functions:
       ctor(self)  -- patch/fenbao_downloader.lua:854-865
       clear_fake_download_datas(self)  -- patch/fenbao_downloader.lua:867-875
-  get_file_content_in_patch_dir: function
+  get_file_content_in_patch_dir: function(filename)  -- patch/fenbao_downloader.lua:24-29
   downloaded_dict: dict
-  add_download_info: function
+  add_download_info: function(type_name, key, save)  -- patch/fenbao_downloader.lua:47-71

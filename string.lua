@@ -3,34 +3,34 @@ Type: table
 ================================================================================
 
 Keys:
-  hash_version: function
-  hash: function
-  urlencode: function
-  lstrip: function
-  split: function
-  isdigit: function
-  match: function
-  gmatch: function
-  unpack: function
-  center: function
-  upper: function
-  gsub: function
-  format: function
-  byte: function
-  lower: function
-  sub: function
-  pack: function
-  tohex: function
-  strip: function
-  rep: function
-  pformat: function
-  find: function
-  char: function
-  endswith: function
-  dump: function
-  packsize: function
-  reverse: function
-  len: function
-  fromhex: function
-  rstrip: function
-  startswith: function
+  hash_version: function(...)  -- =[C]
+  hash: function(...)  -- =[C]
+  urlencode: function(...)  -- =[C]
+  lstrip: function(...)  -- =[C]
+  split: function(...)  -- =[C]
+  isdigit: function(...)  -- =[C]
+  match: function(...)  -- =[C]
+  gmatch: function(...)  -- =[C]
+  unpack: function(...)  -- =[C]
+  center: function(str, width, fillchar)  -- engine/Lib/functions.lua:741-755
+  upper: function(...)  -- =[C]
+  gsub: function(...)  -- =[C]
+  format: function(...)  -- =[C]
+  byte: function(...)  -- =[C]
+  lower: function(...)  -- =[C]
+  sub: function(...)  -- =[C]
+  pack: function(...)  -- =[C]
+  tohex: function(...)  -- =[C]
+  strip: function(...)  -- =[C]
+  rep: function(...)  -- =[C]
+  pformat: function(...)  -- =[C]
+  find: function(...)  -- =[C]
+  char: function(...)  -- =[C]
+  endswith: function(...)  -- =[C]
+  dump: function(...)  -- =[C]
+  packsize: function(...)  -- =[C]
+  reverse: function(...)  -- =[C]
+  len: function(...)  -- =[C]
+  fromhex: function(...)  -- =[C]
+  rstrip: function(...)  -- =[C]
+  startswith: function(...)  -- =[C]

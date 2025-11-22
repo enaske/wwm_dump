@@ -40,7 +40,7 @@ Keys:
   GRID_PER_LINE: number
   EQUIP_BAGS: list
   GRID_TYPE_ADD: number
-  get_shop_stuff_star_texture: function
+  get_shop_stuff_star_texture: function(star)  -- hexm/common/consts/stuff_consts.lua:247-250
   BAG_NO_WUXUE: number
   BAG_NO_OTHER: number
   BIND_REQ_BOUND: number

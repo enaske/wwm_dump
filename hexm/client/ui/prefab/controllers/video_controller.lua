@@ -28,4 +28,4 @@ Keys:
       _on_cclive_msg(self, msg)  -- hexm/client/ui/prefab/controllers/video_controller.lua:267-281
       pause_video(self, is_pause)  -- hexm/client/ui/prefab/controllers/video_controller.lua:213-222
   VIDEO_SCREEN_TYPE_MAX_SIZE: number
-  proc_video_config: function
+  proc_video_config: function(play_config)  -- hexm/client/ui/prefab/controllers/video_controller.lua:14-40

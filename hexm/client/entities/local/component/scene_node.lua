@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  safe_get: function
+  safe_get: function(value, default, fix_type)  -- hexm/client/entities/local/component/scene_node.lua:11-25
   SceneNodeComponent: class <SceneNodeComponent>
     Functions:
       _get_scene_node_name(self)  -- hexm/client/entities/local/component/scene_node.lua:178-185

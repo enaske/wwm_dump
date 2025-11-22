@@ -31,4 +31,4 @@ Keys:
       unregister_interrupt_events(self)  -- hexm/client/entities/local/gameplay_index/gameplay_index_handler_base.lua:87-92
       play_performance(self)  -- hexm/client/entities/local/gameplay_index/gameplay_index_handler_base.lua:115-120
   HANDLER_CLZ_MAP: dict
-  get_handler_clz: function
+  get_handler_clz: function(gameplay_index)  -- hexm/client/entities/local/gameplay_index/gameplay_index_handler_clz.lua:17-19

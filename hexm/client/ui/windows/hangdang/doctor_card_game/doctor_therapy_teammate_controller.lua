@@ -24,4 +24,4 @@ Keys:
     Functions:
       update_content(self, key, data)  -- hexm/client/ui/windows/hangdang/doctor_card_game/doctor_therapy_teammate_controller.lua:19-25
   MODE_DETAIL: string
-  texture_for_num: function
+  texture_for_num: function(num)  -- hexm/client/ui/windows/hangdang/doctor_card_game/doctor_therapy_teammate_controller.lua:11-11

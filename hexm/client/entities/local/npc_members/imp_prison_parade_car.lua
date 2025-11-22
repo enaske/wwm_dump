@@ -3,8 +3,8 @@ Type: table
 ================================================================================
 
 Keys:
-  add_prison_parade_throw_listener: function
-  remove_prison_parade_throw_listener: function
+  add_prison_parade_throw_listener: function(self)  -- hexm/client/entities/local/npc_members/imp_prison_parade_car.lua:172-186
+  remove_prison_parade_throw_listener: function(self)  -- hexm/client/entities/local/npc_members/imp_prison_parade_car.lua:188-197
   NpcMember: class <NpcMember>
     Functions:
       __leave_space_component__(self)  -- hexm/client/entities/local/npc_members/imp_prison_parade_car.lua:35-43

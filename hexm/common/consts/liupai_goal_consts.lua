@@ -5,9 +5,9 @@ Type: table
 Keys:
   SELF_GOAL_TYPE: number
   COMMON_CONND_TYPE: number
-  has_status: function
+  has_status: function(state, flag)  -- hexm/common/consts/liupai_goal_consts.lua:26-28
   LOAD_INIT_TYPE: number
   LOAD_AFATER_UNLOCK_TYPE: number
   STATE: table <UnknownInstance>
   _reload_all: boolean
-  set_status: function
+  set_status: function(state, flag)  -- hexm/common/consts/liupai_goal_consts.lua:20-24

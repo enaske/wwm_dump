@@ -3,10 +3,10 @@ Type: table
 ================================================================================
 
 Keys:
-  log: function
+  log: function(...)  -- patch/patch_log.lua:50-87
   PT_SOCTEST: string
   PT_UE_test: string
-  is_pinjian_package: function
+  is_pinjian_package: function()  -- patch/patch_config.lua:202-209
   inner: string
   HTTP_RANGE_THRESHOLD: number
   THREAD_NUM: number
@@ -27,16 +27,16 @@ Keys:
   PATCH_FILE_HOSTS: table <UnknownInstance>
   md5_port: number
   PT_APPLE_EVENT: string
-  is_slice_branch: function
+  is_slice_branch: function()  -- patch/patch_config.lua:155-165
   PT_RELEASE: string
   LAUNCH_VIDEO: string
   PT_MOBILE_TEST: string
   LOG_MODE: boolean
   svn_branch: string
   PT_CBT3: string
-  is_enable_pre_download: function
+  is_enable_pre_download: function()  -- patch/patch_config.lua:234-249
   PT_TRC: string
-  delete_logging_tag: function
+  delete_logging_tag: function()  -- patch/patch_log.lua:42-48
   PT_QIEPIAN: string
   PT_KOL: string
   PT_MEDIA: string
@@ -44,13 +44,13 @@ Keys:
   PT_WAICE: string
   is_low2: boolean
   LAUNCH_VIDEO_SIZE: list
-  use_server_a: function
+  use_server_a: function()  -- patch/patch_config.lua:141-153
   PT_CBT3_PS: string
   review_name: string
   PT_MOBILE: string
   HTTP_RANGE_ENABLE: boolean
   enable_fenbao: boolean
-  is_ps_package: function
+  is_ps_package: function()  -- patch/patch_config.lua:136-139
   is_outer: boolean
   patch_host: string
   (1 more keys)

@@ -14,10 +14,10 @@ Keys:
   E_START_GAME: number
   E_CHEER_NOTIFY: number
   E_CHEER: number
-  check_is_lock_by_id: function
+  check_is_lock_by_id: function(is_show_tip)  -- hexm/client/consts/gymnastics_consts.lua:9-13
   E_MAKE_QTE: number
   E_NOTIFY_WATCH_GAME: number
-  get_gym_game_name: function
+  get_gym_game_name: function()  -- hexm/client/consts/gymnastics_consts.lua:15-18
   E_START: number
   IDLE: number
   E_GET_REWARD: number

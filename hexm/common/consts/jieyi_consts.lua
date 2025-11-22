@@ -15,32 +15,32 @@ Keys:
   ERR_CD2: number
   REFRESH_DELAY: number
   E_JIEYI_NEED_LEADER: number
-  is_joined_jieyi: function
+  is_joined_jieyi: function(avatar)  -- hexm/common/consts/jieyi_consts.lua:95-99
   EVENT_JIEYI_MEM_DEL_FORCE: string
   EVENT_JIEYI_RECRUIT: string
   JIEYI_CMD_CHANGE_NAME: string
   E_JIEYI_POST_FAIL: number
-  get_jieyi_rank_name: function
+  get_jieyi_rank_name: function(rank_index, is_female, my_rank_index, jieyi_num)  -- hexm/common/consts/jieyi_consts.lua:198-211
   E_JIEYI_HAS_JIEYI: number
   JIEYI_RANK_TEXT_PREFIX: table <UnknownInstance>
   EVENT_JIEYI_REMOVE: string
   JIEYI_EVENT_SPECIAL: list
-  get_jieyi_id: function
+  get_jieyi_id: function(avatar)  -- hexm/common/consts/jieyi_consts.lua:74-85
   E_JIEYI_OVER_LIMIT: number
-  get_jieyi_gesture: function
-  jieyi_ol_timer: function
+  get_jieyi_gesture: function(rank_index)  -- hexm/common/consts/jieyi_consts.lua:180-183
+  jieyi_ol_timer: function()  -- hexm/common/consts/jieyi_consts.lua:57-60
   ERR_HAS_JIEYI: number
   EVENT_JIEYI_PRETEAM_QUIT_FORCE: string
   JIEYI_CMD_CHANGE_RANK: string
   JY_COMMON_INFO: number
   EVENT_JIEYI_LEVEL: string
-  is_jieyi_preteam_leader: function
+  is_jieyi_preteam_leader: function(avatar)  -- hexm/common/consts/jieyi_consts.lua:107-111
   ELEVEL_NOT_ENOUGH: number
   EVENT_JIEYI_PRETEAM_APPLY_CANCEL: string
-  is_in_jieyi_preteam: function
+  is_in_jieyi_preteam: function(avatar)  -- hexm/common/consts/jieyi_consts.lua:101-105
   EVENT_JIEYI_PRETEAM_PULL: string
   EVENT_JIEYI_POST_DEL: string
-  get_jieyi_level: function
+  get_jieyi_level: function(avatar)  -- hexm/common/consts/jieyi_consts.lua:128-136
   EVENT_JIEYI_PRETEAM_NEED_UPDATE: string
   JIEYI_WAIGUAN_CREATE: string
   EVENT_JIEYI_PRETEAM_APPLY: string
@@ -52,5 +52,5 @@ Keys:
   E_JIEYI_REACH_DAILY_LIMIT: number
   EVENT_JIEYI_PRETEAM_APPLY_REPLY: string
   EVENT_JIEYI_PRETEAM_APPLY_NOTIFY: string
-  get_jieyi_rank: function
+  get_jieyi_rank: function(avatar_id)  -- hexm/common/consts/jieyi_consts.lua:147-155
   (1 more keys)

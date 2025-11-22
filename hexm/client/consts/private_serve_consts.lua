@@ -21,7 +21,7 @@ Keys:
   E_EMPLOYEE_TIP_NUM_CHANGED: string
   SERVE_TABS: list
   E_REMOVE_EMPLOYER: string
-  get_same_kind_serve_types: function
+  get_same_kind_serve_types: function(serve_type)  -- hexm/common/consts/private_serve_consts.lua:50-57
   PRIVATE_SERVE_EMPLOYER: number
   PRIVATE_SERVE_APPLICANT_LIMIT_NUM: number
   PRIVATE_SERVE_USE_HISTORY_LIMIT: number
@@ -36,7 +36,7 @@ Keys:
   E_SELECT_EMPLOYER_SLOT: string
   EMPLOYER_STATE_HAVE_EMPLOYEE: number
   EMPLOYER_STATE_NO_EMPLOYEE: number
-  get_employee_daily_salary: function
+  get_employee_daily_salary: function(serve_type, xw)  -- hexm/common/consts/private_serve_consts.lua:59-81
   SERVE_BIG_ICON: dict
   EMPLOYER_STATE_NO_LICENSE: number
   OP_ACCEPT: number
@@ -48,9 +48,9 @@ Keys:
   MENKE_HISTORY_NAME: dict
   EMPLOYEE_PAGE_MODE: list
   EMPLOYER_STATE_NORMAL: number
-  go_to_yahang: function
+  go_to_yahang: function()  -- hexm/client/consts/private_serve_consts.lua:84-88
   MAIN_TABS_CONFIG: dict
   E_REMOVE_EMPLOYEE: string
   MENKE_HISTORY_NEED_NAME: dict
-  get_wenshi_private_serve_need_xw: function
+  get_wenshi_private_serve_need_xw: function(wuxian_no)  -- hexm/common/consts/private_serve_consts.lua:83-96
   (1 more keys)

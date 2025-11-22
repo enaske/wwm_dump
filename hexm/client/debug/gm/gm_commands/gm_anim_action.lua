@@ -4,4 +4,4 @@ Type: table
 
 Keys:
   _reload_all: boolean
-  gm_unlock_all_anim_action: function
+  gm_unlock_all_anim_action: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58

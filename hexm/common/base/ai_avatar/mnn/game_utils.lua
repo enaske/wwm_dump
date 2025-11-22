@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  transform: function
+  transform: function(position, scene_data, is_round_map)  -- hexm/common/base/ai_avatar/mnn/game_utils.lua:110-118
   ACTION_CHARGE_ATTACK_INDEX: number
   MAGIC_FIELD_EMPTY_INDEX: number
   ACTION_SKILL_2_INDEX: number
@@ -21,12 +21,12 @@ Keys:
   SLOT_FLY_DOWN: number
   SLOT_SKILL_2: number
   LAB_NOOP: number
-  check_in_area: function
+  check_in_area: function(position, move_range, round_range)  -- hexm/common/base/ai_avatar/mnn/game_utils.lua:140-161
   SLOT_ATTACK: number
   SLOT_QISHU_2: number
   SLOT_HEAVY_ATTACK: number
   ACTION_ZHANSHA_INDEX: number
-  predict_magic_field_position_v2: function
+  predict_magic_field_position_v2: function(mf_data, direction)  -- hexm/common/base/ai_avatar/mnn/game_utils.lua:132-136
   ACTION_ATTACK_INDEX: number
   ACTION_NAV_INDEX: number
   ACTION_ARROW_INDEX: number
@@ -41,7 +41,7 @@ Keys:
   ACTION_EMPTY_INDEX: number
   ACTION_RUN_INDEX: number
   ACTION_HUAJIE_INDEX: number
-  normalized_diff_to_border: function
+  normalized_diff_to_border: function(position, move_range)  -- hexm/common/base/ai_avatar/mnn/game_utils.lua:172-179
   SLOT_BREAK_DEFENCE: number
   ACTION_SWITCH_KONGFU_INDEX: number
   ACTION_FLY_DOWN_INDEX: number
@@ -49,7 +49,7 @@ Keys:
   ACTION_SKILL_INDEX: number
   NPC_ID_LIST: list
   SLOT_COUNTER_ATTACK: number
-  normalize_position: function
+  normalize_position: function(position, move_range)  -- hexm/common/base/ai_avatar/mnn/game_utils.lua:164-169
   ACTION_HEAVY_ATTACK_INDEX: number
   ALL_SKILLS: list
   ACTION_REMOVE_CONTROL_INDEX: number

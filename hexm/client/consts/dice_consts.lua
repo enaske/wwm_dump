@@ -3,11 +3,11 @@ Type: table
 ================================================================================
 
 Keys:
-  get_xray_time_value: function
+  get_xray_time_value: function(play_id, sys_d)  -- hexm/client/consts/dice_consts.lua:100-106
   FLIP_CHECK_ATTR: number
   DICE_FACE_MEMBERS: list
   DICE_FACE_NORMALS: list
-  get_flip_checkattrs: function
+  get_flip_checkattrs: function(play_id, sys_d)  -- hexm/client/consts/dice_consts.lua:68-77
   SOUND_OPEN_DICE_CUP: number
   SOUND_ROLL_DICE_CLICK: number
   DICE_COMPARE_TYPE_EQUAL: number
@@ -28,5 +28,5 @@ Keys:
   EFFECT_WAIT_TIME: number
   XRAY_CD: number
   SOUND_CHANGE_DICE: number
-  get_xray_checkattrs: function
-  get_flip_add_value: function
+  get_xray_checkattrs: function(play_id, sys_d)  -- hexm/client/consts/dice_consts.lua:88-97
+  get_flip_add_value: function(play_id, sys_d)  -- hexm/client/consts/dice_consts.lua:80-86

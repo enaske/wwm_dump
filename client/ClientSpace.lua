@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  SpaceClass: function
+  SpaceClass: function(cls)  -- engine/client/ClientSpace.lua:8-18
   ClientSpace: class <ClientSpace>
     Functions:
       on_create_entity(self, entity)  -- engine/client/ClientSpace.lua:147-159

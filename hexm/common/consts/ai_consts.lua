@@ -38,7 +38,7 @@ Keys:
   FLY_GRAVITY_PRIORITY: number
   BB_SPACE_WEATHER_ID: string
   KIT_UNIT_TYPE_COMP: number
-  show_ai_monitor_content: function
+  show_ai_monitor_content: function()  -- hexm/common/consts/ai_consts.lua:439-461
   AI_SYNC_EVENT_SET_BLACKBOARD: string
   BB_SPACE_NPC_DEAD: string
   PAUSED: string
@@ -47,7 +47,7 @@ Keys:
   MONSTER_TYPE_HIRSUTE: number
   BB_ROB_HORSE_PLAYER: string
   AI_VALUE_GRAPH_TYPE: number
-  get_runner_running_info: function
+  get_runner_running_info: function(runner, runner_index, save_info, padding, igore_kv)  -- hexm/common/consts/ai_consts.lua:385-407
   E_AI_DIALOG: number
   FLEE: string
   S_TP_VALID_SET: number

@@ -4,4 +4,4 @@ Type: table
 
 Keys:
   GroupManagerInstance: instance
-  GetGroupManager: function
+  GetGroupManager: function()  -- hexm/client/entities/local/component/cutscene/CinematicsGroupImp.lua:147-153

@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  jump_to_task: function
+  jump_to_task: function(task_no)  -- hexm/client/ui/windows/mode_change/mode_change_main_window.lua:598-606
   MMO_MODE_PACKAGE: string
   ModeChangePointAdapter: class <ModeChangePointAdapter>
     Functions:

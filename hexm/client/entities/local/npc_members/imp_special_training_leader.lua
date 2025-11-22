@@ -3,8 +3,8 @@ Type: table
 ================================================================================
 
 Keys:
-  get_fake_avatar_creation_task_id: function
-  get_npc_max: function
+  get_fake_avatar_creation_task_id: function(avatar_id)  -- hexm/client/entities/local/npc_members/imp_special_training_leader.lua:18-20
+  get_npc_max: function()  -- hexm/client/entities/local/npc_members/imp_special_training_leader.lua:22-28
   NpcMember: class <NpcMember>
     Functions:
       on_special_training_members_changed(self, e, d)  -- hexm/client/entities/local/npc_members/imp_special_training_leader.lua:189-281

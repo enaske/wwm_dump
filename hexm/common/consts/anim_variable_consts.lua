@@ -5,4 +5,4 @@ Type: table
 Keys:
   NEED_CACHE_VARIABLES: dict
   VARIABLE_WHITE_LIST: dict
-  is_variable_use_stack: function
+  is_variable_use_stack: function(name)  -- hexm/common/consts/anim_variable_consts.lua:64-66

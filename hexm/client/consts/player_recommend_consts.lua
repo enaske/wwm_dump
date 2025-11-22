@@ -12,8 +12,8 @@ Keys:
   RECOMMEND_TAG_PAINTING_BOAT: number
   TEAM_SUB_TAG: number
   RECOMMEND_ORDER_RANDOM: number
-  get_recommend_order_by_type: function
-  get_recommend_text: function
+  get_recommend_order_by_type: function(player_model, fetch_type)  -- hexm/client/consts/player_recommend_consts.lua:227-247
+  get_recommend_text: function(recommend_tag, sub_tag, recommend_value)  -- hexm/client/consts/player_recommend_consts.lua:170-205
   ALL_INTELLIGENCE_TAG: list
   RECOMMEND_TAG_INTELLIGENCE_COOP: number
   RECOMMEND_TAG_INTERACT: number
@@ -25,13 +25,13 @@ Keys:
   RECOMMEND_TAG_INTELLIGENCE_TEAM: number
   RECOMMEND_TYPE_COOP: number
   PVP_XS_SUB_TAG: number
-  get_recommend_coop_order: function
+  get_recommend_coop_order: function(recommend_tag, recommend_value)  -- hexm/client/consts/player_recommend_consts.lua:267-283
   CHAQI_SUB_TAG: number
   TANSUO_SUB_TAG: number
   YINGSHENG_SUB_TAG: number
   WUXUE_SUB_TAG: number
   RECOMMEND_TYPE_GHOST: number
-  get_recommend_sub_tag: function
+  get_recommend_sub_tag: function(recommend_tag, extra_info)  -- hexm/client/consts/player_recommend_consts.lua:130-168
   RECOMMEND_TYPE_GIFT_SEND: number
   RECOMMEND_ORDER_OTHERS: number
   RECOMMEND_TAG_FRIEND: number
@@ -40,7 +40,7 @@ Keys:
   INTERACT_SUB_TAG: number
   RECOMMEND_TYPE_COOP_SPECIAL: number
   RECOMMEND_TAG_CLUB: number
-  get_recommend_text_color: function
+  get_recommend_text_color: function(recommend_tag, recommend_value)  -- hexm/client/consts/player_recommend_consts.lua:207-220
   COMBINE_SUB_TAG: number
   TEAM_IN_SUB_TAG: number
   ZHIGE_SUB_TAG: number
@@ -49,7 +49,7 @@ Keys:
   RECOMMEND_TAG_NEWSPAPER: number
   LIANJI_TAG: number
   NEWSPAPER_TAG: number
-  get_recommend_func_by_tag: function
+  get_recommend_func_by_tag: function(tag)  -- hexm/client/consts/player_recommend_consts.lua:75-77
   XIUWEI_EXPLORE: number
   RECOMMEND_TYPE_TONGYOU: number
   RECOMMEND_TAG_FUNC: dict

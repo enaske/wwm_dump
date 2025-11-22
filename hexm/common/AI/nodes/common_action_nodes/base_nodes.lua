@@ -3,15 +3,15 @@ Type: table
 ================================================================================
 
 Keys:
-  compare_value_range: function
-  check_number_value: function
+  compare_value_range: function(middle_value, left_value, right_value, operation)  -- hexm/common/AI/nodes/common_action_nodes/base_nodes.lua:41-55
+  check_number_value: function(a, b)  -- hexm/common/AI/nodes/common_action_nodes/base_nodes.lua:12-14
   LogAction: class <LogAction>
     Functions:
       ctor(self, owner, node_data, parent_node, runner)  -- hexm/common/AI/nodes/common_action_nodes/base_nodes.lua:163-169
       cancel_wait_timer(self)  -- hexm/common/AI/nodes/common_action_nodes/base_nodes.lua:171-176
       run(self)  -- hexm/common/AI/nodes/common_action_nodes/base_nodes.lua:178-190
       finish_clear(self, state)  -- hexm/common/AI/nodes/common_action_nodes/base_nodes.lua:192-194
-  compare_value: function
+  compare_value: function(left_value, right_value, operation)  -- hexm/common/AI/nodes/common_action_nodes/base_nodes.lua:16-39
   OPERATION_TYPE_SINGLE: number
   Nop: class <Nop>
     Functions:
@@ -34,7 +34,7 @@ Keys:
   ActionNode: class <ActionNode>
     Functions:
       restore_node(self, data)  -- hexm/common/AI/nodes/common_action_nodes/base_nodes.lua:68-71
-  compare_value_by_operation_type: function
+  compare_value_by_operation_type: function(base_value, left_value, operation_type, operation, right_value)  -- hexm/common/AI/nodes/common_action_nodes/base_nodes.lua:57-64
   Compare: class <Compare>
     Functions:
       ctor(self, owner, node_data, parent_node, runner)  -- hexm/common/AI/nodes/common_action_nodes/base_nodes.lua:205-212

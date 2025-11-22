@@ -10,4 +10,4 @@ Keys:
       ctor(self, parent)  -- hexm/client/entities/local/component/cutscene/cinematics_video_player.lua:15-31
       _on_timeline_event(self, event, data)  -- hexm/client/entities/local/component/cutscene/cinematics_video_player.lua:48-52
       new(...)  -- =[C]
-  timeline_event: function
+  timeline_event: function(event_name)  -- hexm/client/entities/local/component/cutscene/cinematics_video_player.lua:38-46

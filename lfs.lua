@@ -3,20 +3,20 @@ Type: table
 ================================================================================
 
 Keys:
-  symlinkattributes: function
+  symlinkattributes: function(...)  -- =[C]
   _DESCRIPTION: string
-  mkdir: function
-  lock: function
-  file_modification: function
-  rmdir: function
-  touch: function
-  lock_dir: function
-  dir: function
-  setmode: function
-  currentdir: function
-  unlock: function
-  chdir: function
+  mkdir: function(...)  -- =[C]
+  lock: function(...)  -- =[C]
+  file_modification: function(...)  -- =[C]
+  rmdir: function(...)  -- =[C]
+  touch: function(...)  -- =[C]
+  lock_dir: function(...)  -- =[C]
+  dir: function(...)  -- =[C]
+  setmode: function(...)  -- =[C]
+  currentdir: function(...)  -- =[C]
+  unlock: function(...)  -- =[C]
+  chdir: function(...)  -- =[C]
   _VERSION: string
   _COPYRIGHT: string
-  attributes: function
-  link: function
+  attributes: function(...)  -- =[C]
+  link: function(...)  -- =[C]

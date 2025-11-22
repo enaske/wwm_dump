@@ -18,7 +18,7 @@ Keys:
   BannerPicItemController: class <BannerPicItemController>
     Functions:
       update_content(self, key, data)  -- hexm/client/ui/windows/login/login_post/login_post_items.lua:89-96
-  get_template_clz_by_type: function
+  get_template_clz_by_type: function(type)  -- hexm/client/ui/windows/login/login_post/login_post_items.lua:157-167
   ShopPicItemController: class <ShopPicItemController>
     Functions:
       update_content(self, key, data)  -- hexm/client/ui/windows/login/login_post/login_post_items.lua:104-125

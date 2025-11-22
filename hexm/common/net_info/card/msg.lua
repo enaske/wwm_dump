@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  __main__: function
+  __main__: function()  -- hexm/common/net_info/card/msg.lua:211-236
   MsgMap: instance
   MsgFrame: class <MsgFrame>
     Functions:

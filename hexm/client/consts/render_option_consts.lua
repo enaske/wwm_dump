@@ -17,7 +17,7 @@ Keys:
   RENDER_OPTION_PRIORITY_DEFAULT_PERF: number
   RENDER_OPTION_PRIORITY_SPECIAL_STATUS: number
   RENDER_OPTION_PRIORITY_UI: number
-  get_env_param_sysd: function
+  get_env_param_sysd: function(env_id)  -- hexm/client/consts/render_option_consts.lua:786-788
   RENDER_OPTION_PRIORITY_SETTING_PRESET: number
   IWORLD_OTHER_SETTING: dict
   IWORLD_RENDER_OPTIONS: dict
@@ -32,11 +32,11 @@ Keys:
   RENDER_OPTION_PRIORITY_PERF: number
   RENDER_OPTION_PRIORITY_CUTSCENE: number
   RENDER_OPTION_PRIORITY_WEATHER: number
-  get_env_option_config_sysd: function
+  get_env_option_config_sysd: function(config_no)  -- hexm/client/consts/render_option_consts.lua:778-780
   RENDER_OPTION_PRIORITY_REGION_FANLOU: number
   IS_WINDOW_SCREEN: number
-  get_env_option_all_keys: function
-  get_env_option_list_sysd: function
+  get_env_option_all_keys: function()  -- hexm/client/consts/render_option_consts.lua:782-784
+  get_env_option_list_sysd: function(key)  -- hexm/client/consts/render_option_consts.lua:790-792
   RENDER_LEV_3: number
   RENDER_OPTION_PRIORITY_DEFAULT: number
   RENDER_OPTION_PRIORITY_SPACE: number

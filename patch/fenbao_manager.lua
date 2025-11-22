@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  show_tip: function
+  show_tip: function(text_no, data)  -- patch/fenbao_manager.lua:11-17
   DummyFenbaoManager: class <DummyFenbaoManager>
     Functions:
       get_all_download_size(self)  -- patch/fenbao_manager.lua:2120-2122
@@ -43,8 +43,8 @@ Keys:
       get_preload_patch_stage(self)  -- patch/fenbao_manager.lua:2112-2114
       _on_avatar_created(self)  -- patch/fenbao_manager.lua:1980-1983
       on_package_progress_changed(self, package, download_size, total_size, download_speed, stage_idx, percent)  -- patch/fenbao_manager.lua:2078-2083
-  on_exception: function
-  is_preload_open: function
+  on_exception: function(key, data)  -- patch/fenbao_manager.lua:19-44
+  is_preload_open: function()  -- patch/fenbao_manager.lua:46-66
   FenbaoManager: class <FenbaoManager>
     Functions:
       pause_download(self, package)  -- patch/fenbao_manager.lua:1402-1411
@@ -149,4 +149,4 @@ Keys:
       on_package_finish(self)  -- patch/fenbao_manager.lua:541-555
       is_finish(self)  -- patch/fenbao_manager.lua:472-474
       get_download_size(self)  -- patch/fenbao_manager.lua:476-478
-  get_preload_name: function
+  get_preload_name: function()  -- patch/fenbao_manager.lua:68-75

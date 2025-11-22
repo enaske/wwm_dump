@@ -12,11 +12,11 @@ Keys:
   NEW_NO_HUPAI: number
   NEW_NO_MAJIANG: number
   E_JIGSAW_DONE: string
-  gen_prop_key: function
+  gen_prop_key: function(No, k)  -- hexm/common/consts/common_play_consts.lua:133-135
   E_ENTITY_CHECK_CHEAT: string
   NEW_NO_DEBATE: number
   NEW_NO_LANGZHONG: number
-  get_next_open_time: function
+  get_next_open_time: function(play_index, ts)  -- hexm/common/consts/common_play_consts.lua:269-280
   NO_ARREST: number
   NEW_NO_DANCE: number
   WANFA_MODULES: dict
@@ -27,10 +27,10 @@ Keys:
   E_ENTITY_ENTER_SPACE: string
   NEW_NO_XIAYUAN_ANS: number
   _reload_all: boolean
-  get_next_finish_time: function
+  get_next_finish_time: function(play_index, ts)  -- hexm/common/consts/common_play_consts.lua:310-327
   NEW_NO_YEZIXI: number
   STATE_ACTIVE: number
-  is_play_index_before: function
+  is_play_index_before: function(play_index, off1, off2, ts)  -- hexm/common/consts/common_play_consts.lua:253-267
   COMMON_STATE_INIT: number
   NEW_NO_DEFAULT: number
   NO_DEFAULT: number
@@ -38,11 +38,11 @@ Keys:
   CLIENT_WANFA_MODULES: dict
   ARCHERY_STAGE_INIT: number
   STATE_END: number
-  get_wanfa_start_ts: function
+  get_wanfa_start_ts: function(play_index, season)  -- hexm/common/consts/common_play_consts.lua:297-308
   NO_GAME_PRIORITY: dict
   AVATAR_STATE_GAME: number
-  is_play_index_open: function
-  get_wanfa_season: function
+  is_play_index_open: function(play_index, ts)  -- hexm/common/consts/common_play_consts.lua:236-251
+  get_wanfa_season: function(play_index, ts)  -- hexm/common/consts/common_play_consts.lua:283-295
   COMMON_STATE_ON_CREATE: number
   NO_TAVERN_INDUSTRY_BANQUET: number
   ARCHERY_STAGE_END: number

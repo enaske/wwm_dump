@@ -34,7 +34,7 @@ Keys:
       selection_manager_on_selected(self, is_select)  -- hexm/client/ui/windows/anim_action/anim_action_main_window.lua:1029-1037
       update_content(self, key, data)  -- hexm/client/ui/windows/anim_action/anim_action_main_window.lua:1019-1027
       get_type(self)  -- hexm/client/ui/windows/anim_action/anim_action_main_window.lua:1039-1041
-  get_page_num: function
+  get_page_num: function()  -- hexm/client/ui/windows/anim_action/anim_action_main_window.lua:27-33
   AnimActionModel: class <AnimActionModel>
     Functions:
       init_anim_collector(self)  -- hexm/client/ui/windows/anim_action/anim_action_main_window.lua:577-603

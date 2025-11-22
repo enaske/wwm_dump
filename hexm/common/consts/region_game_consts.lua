@@ -5,7 +5,7 @@ Type: table
 Keys:
   REGION_GAME_TJDL: number
   REGION_GAME_PURSUE: number
-  region_game_need_create: function
+  region_game_need_create: function(game_id, data, game_state)  -- hexm/common/consts/region_game_consts.lua:217-242
   REGION_GAME_NOT_FINISH: number
   REGION_GAME_UPDATE_PROGRESS_COUNT: string
   REGION_GAME_MMM_ROTATE_ENTITY: number
@@ -13,14 +13,14 @@ Keys:
   REGION_GAME_CHEST_FLY: number
   RECALL_REGION_GAME_ID_ADDED: number
   REWARD_NONE: number
-  get_interact_occupy_lock_tip: function
+  get_interact_occupy_lock_tip: function(pid, sid)  -- hexm/common/consts/region_game_consts.lua:252-279
   REGION_GAME_MMM_ZHANGXIN: number
   REGION_GAME_MMM_HUASHU: number
   REGION_GAME_MMM_FREEZE: number
-  region_game_get_radius: function
+  region_game_get_radius: function(game_id, data)  -- hexm/common/consts/region_game_consts.lua:490-504
   REGION_GAME_MMM_QUMO: number
   REWARD_RECEIVED: number
-  get_game_player_distance: function
+  get_game_player_distance: function(game_id)  -- hexm/common/consts/region_game_consts.lua:204-210
   PROCESS_TYPE_AVT_RESV: number
   REGION_GAME_MMM_HUAORNGDAO: number
   REGION_GAME_SHOUCAINU: number
@@ -34,13 +34,13 @@ Keys:
   REGION_GAME_YANWO: number
   REGION_GAME_MMM_DAQINGGONG: number
   RESET_MODE_RESET: number
-  get_game_create_data: function
+  get_game_create_data: function(key, create_data, game_config)  -- hexm/common/consts/region_game_consts.lua:244-249
   REGION_GAME_KZBX: number
   GAME_STATE_INIT: number
   REGION_GAME_QZBML: number
   BELONG_TYPE_COMPOSITE: number
   REGION_GAME_MMM_HEJIAN: number
-  get_game_type_config: function
+  get_game_type_config: function(game_id)  -- hexm/common/consts/region_game_consts.lua:167-170
   REGION_GAME_TJLY: number
   REWARD_LOCKED: number
   TYPE_2_RECORD_KEY_DICT_LIST: dict

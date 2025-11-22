@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  test: function
+  test: function()  -- hexm/common/dispatcher.lua:754-821
   Dispatcher: class <Dispatcher>
     Functions:
       get_dispatching_events(self, active)  -- hexm/client/util/new_dispatcher.lua:60-60
@@ -22,8 +22,8 @@ Keys:
       _handle_add_by_cbname_failed_(event, obj, cbname)  -- hexm/client/util/new_dispatcher.lua:82-84
       _handle_remove_failed_(listener)  -- hexm/client/util/new_dispatcher.lua:90-92
       _handle_dispatch_failed_(event, data)  -- hexm/client/util/new_dispatcher.lua:94-96
-  concat_event: function
-  test_scope: function
+  concat_event: function(event)  -- hexm/common/dispatcher.lua:748-750
+  test_scope: function()  -- hexm/common/dispatcher.lua:823-884
   Listener: class <Listener>
     Functions:
       __tostring(...)  -- =[C]

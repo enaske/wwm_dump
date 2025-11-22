@@ -11,7 +11,7 @@ Keys:
       preload_show(self, owner_id, show_no)  -- hexm/client/ui/windows/fashion_show/fashion_team_show.lua:101-105
       ctor(self)  -- hexm/client/ui/windows/fashion_show/fashion_team_show.lua:74-87
       before_create()  -- hexm/client/ui/windows/fashion_show/fashion_team_show.lua:70-72
-  get_team_member_list: function
+  get_team_member_list: function()  -- hexm/client/ui/windows/fashion_show/fashion_team_show.lua:19-43
   FashionShowController: class <FashionShowController>
     Functions:
       _try_trigger_start(self)  -- hexm/client/ui/windows/fashion_show/fashion_team_show.lua:468-472
@@ -40,7 +40,7 @@ Keys:
       on_fashion_room_loaded(self, room_world)  -- hexm/client/ui/windows/fashion_show/fashion_team_show.lua:445-451
       show_player_info(self, select_pid)  -- hexm/client/ui/windows/fashion_show/fashion_team_show.lua:375-385
   STORE_SHOWROOM_RENDER_OPTIONS_LOW_MEM: dict
-  construct_group_room_scene_data: function
+  construct_group_room_scene_data: function(env)  -- hexm/client/ui/windows/fashion_show/fashion_team_show.lua:949-977
   FashionShowOpCtrl: class <FashionShowOpCtrl>
     Functions:
       _handle_batch_like(self)  -- hexm/client/ui/windows/fashion_show/fashion_team_show.lua:172-200

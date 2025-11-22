@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  generate_click_button_data: function
+  generate_click_button_data: function(key_id, button_name, cb, extra_kwargs)  -- hexm/client/ui/windows/common/common_quick_button_controllers.lua:467-474
   TRIGGER_TYPE_CLICK: number
   BUTTON_TYPE_LONG_PRESS: number
   BUTTON_TYPE_CLICK: number
@@ -69,7 +69,7 @@ Keys:
       set_banben_visible(self, visible)  -- hexm/client/ui/windows/common/common_quick_button_controllers.lua:373-379
       fill_left_btns(self, btn_datas)  -- hexm/client/ui/windows/common/common_quick_button_controllers.lua:283-287
   DEFAULT_CLICK_TIME_LIMIT: number
-  generate_press_button_data: function
+  generate_press_button_data: function(key_id, button_name, press_start_cb, press_end_cb)  -- hexm/client/ui/windows/common/common_quick_button_controllers.lua:476-486
   ComBottomBtnCenterListController: class <ComBottomBtnCenterListController>
     Functions:
       fill_left_btns(self, btn_datas)  -- hexm/client/ui/windows/common/common_quick_button_controllers.lua:504-506

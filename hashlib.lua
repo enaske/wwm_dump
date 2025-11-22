@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  sha1: function
-  md5: function
-  sha256: function
+  sha1: function(...)  -- =[C]
+  md5: function(...)  -- =[C]
+  sha256: function(...)  -- =[C]
   VERSION: string

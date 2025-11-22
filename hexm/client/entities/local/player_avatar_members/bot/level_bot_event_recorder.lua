@@ -43,6 +43,6 @@ Keys:
       on_record_event(self, event, data)  -- hexm/client/entities/local/player_avatar_members/bot/level_bot_event_recorder.lua:30-32
       ctor(self, e_module, event_name, dispatcher_type)  -- hexm/client/entities/local/player_avatar_members/bot/level_bot_event_recorder.lua:15-22
       clear(self)  -- hexm/client/entities/local/player_avatar_members/bot/level_bot_event_recorder.lua:65-72
-  reset_event_recorders: function
-  main_player_dispatcher: function
-  player_fakeserver_dispatcher: function
+  reset_event_recorders: function()  -- hexm/client/entities/local/player_avatar_members/bot/level_bot_event_recorder.lua:215-219
+  main_player_dispatcher: function()  -- hexm/client/entities/local/player_avatar_members/bot/level_bot_event_recorder.lua:200-202
+  player_fakeserver_dispatcher: function()  -- hexm/client/entities/local/player_avatar_members/bot/level_bot_event_recorder.lua:204-208

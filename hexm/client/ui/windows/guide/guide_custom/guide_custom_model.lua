@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  safe_read_list: function
+  safe_read_list: function(_list, _index)  -- hexm/client/ui/windows/guide/guide_custom/guide_custom_model.lua:7-13
   GuideCustomDataModel: class <GuideCustomDataModel>
     Functions:
       get_curr_info(self, idx)  -- hexm/client/ui/windows/guide/guide_custom/guide_custom_model.lua:113-117

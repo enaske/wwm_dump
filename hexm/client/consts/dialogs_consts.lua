@@ -20,7 +20,7 @@ Keys:
   ANIM_RULE_END_ALL_ON_STOP: number
   UI_WINDOW_TAG: string
   ANIM_TARGET_TYPE_SPEAKER: number
-  get_dialog_type: function
+  get_dialog_type: function(dialog_sys_d, paragraph_sys_d)  -- hexm/client/consts/dialogs_consts.lua:50-57
   CAMERA_TYPE_FREE: number
   TRACK_ACTING: string
   WATCH_TYPE_HEAD: number
@@ -34,7 +34,7 @@ Keys:
   STATE_PLAYING: number
   STATE_INIT: number
   TRACK_WATCH: string
-  get_dialog_type_sys_d: function
+  get_dialog_type_sys_d: function(dialog_sys_d, paragraph_sys_d)  -- hexm/client/consts/dialogs_consts.lua:59-62
   SHOW_MODE_CHAT: number
   WATCH_TYPE_BODY: number
   DEFAULT_DURATION: number

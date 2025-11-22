@@ -3,9 +3,9 @@ Type: table
 ================================================================================
 
 Keys:
-  get_weapon_d: function
-  get_weapon_type: function
-  get_space_kongfu_type: function
+  get_weapon_d: function(avt, main)  -- hexm/common/base/skill_set_base.lua:562-564
+  get_weapon_type: function(avt, main)  -- hexm/common/base/skill_set_base.lua:545-550
+  get_space_kongfu_type: function(avt)  -- hexm/common/base/skill_set_base.lua:553-560
   SkillSetCompBase: class <SkillSetCompBase>
     Functions:
       get_cur_kongfu(self)  -- hexm/common/base/skill_set_base.lua:99-101
@@ -41,4 +41,4 @@ Keys:
       check_can_use_kongfu_skill(self, skill_id, sysd)  -- hexm/common/base/skill_set_base.lua:209-243
       get_skillset_unlock_lv(self, skillset_id)  -- hexm/common/base/skill_set_base.lua:413-420
       can_reset_skillset(self, ss_id, skillset)  -- hexm/common/base/skill_set_base.lua:351-372
-  get_ss: function
+  get_ss: function(avt)  -- hexm/common/base/skill_set_base.lua:566-568

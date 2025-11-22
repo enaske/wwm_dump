@@ -10,7 +10,7 @@ Keys:
   FUNC_GROUP: list
   FUNC_NO_TOOL_LIST: number
   CONTENT_MODE_SADDLE: number
-  page_no_to_content_mode: function
+  page_no_to_content_mode: function(page_no)  -- hexm/client/ui/windows/bag_v2/bag_v2_consts.lua:41-55
   FUNC_NO_RESET_FILTER: number
   CONTENT_MODE_GAMEPLAY_HORSE_CARRIAGE: number
   CONTENT_MODE_EQUIPMENT: number

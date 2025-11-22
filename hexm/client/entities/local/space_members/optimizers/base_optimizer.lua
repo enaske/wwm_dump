@@ -14,4 +14,4 @@ Keys:
       ctor(self, space, config_id, config)  -- hexm/client/entities/local/space_members/optimizers/base_optimizer.lua:12-19
       destroy_object(self)  -- hexm/client/entities/local/space_members/optimizers/base_optimizer.lua:57-60
       active(self)  -- hexm/client/entities/local/space_members/optimizers/base_optimizer.lua:21-25
-  create_optimizer_obj: function
+  create_optimizer_obj: function(space, config_id, config)  -- hexm/client/entities/local/space_members/optimizers/base_optimizer.lua:64-81

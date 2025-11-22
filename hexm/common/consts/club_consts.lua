@@ -13,14 +13,14 @@ Keys:
   E_SPACE_CONSTRUCT_FINISH: number
   TAB_GANGWEI: number
   TRANSFER_REASON_BUILD_PLAY_PROC: number
-  get_build_group_id_by_table_sid: function
+  get_build_group_id_by_table_sid: function(space_no, bp_sid)  -- hexm/common/consts/club_consts.lua:1204-1213
   E_POST_REMOVE_MEMBER: number
   CLUB_EFFECT_TYPE_BZ_DAZHAO: number
   AUTH_BUILDING_UPGRADE: number
   CLUB_INIT_TARGET_WAIT: number
   E_BUILD_BP_FILL_UPDATE: number
   POST_MASTER: number
-  get_massage_service_price: function
+  get_massage_service_price: function(unlocked_effect_ids)  -- hexm/common/consts/club_consts.lua:608-611
   PLAY_COMP_PITCH_POT: number
   E_CLUB_WATCH_PLAY_SCHEDULE: number
   FUND_CHANGE_NPC_CONSUME: number
@@ -31,10 +31,10 @@ Keys:
   CLUB_PLAY_ZHOUBEN_QUANYI: number
   CLUB_RED_POINT_MEMBER_APPLICATION: string
   BUILDING_STATE_IN_UPGRADE: number
-  get_club_skill_effect_by_type: function
+  get_club_skill_effect_by_type: function(avt, effect_type)  -- hexm/common/consts/club_consts.lua:944-1028
   GP_TYPE_TIME_LIMIT: number
   CLUB_EFFECT_TYPE_MEMBER_NUM: number
-  get_produce_commit_stuff_reward: function
+  get_produce_commit_stuff_reward: function(cur_resource_num, m_info)  -- hexm/common/consts/club_consts.lua:1235-1269
   CLUB_COND_SERVE_CUSTOMER: number
   MEMBER_SORT_TYPE_CONTRIBUTION: number
   CLUB_EFFECT_TYPE_JOB_EXP_UPPER: number

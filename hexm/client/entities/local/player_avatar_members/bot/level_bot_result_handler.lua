@@ -66,4 +66,4 @@ Keys:
       check_ui_exist(self, win_name, nodes)  -- hexm/client/entities/local/player_avatar_members/bot/level_bot_result_handler.lua:447-470
       check_ui_not_exist(self, win_name, nodes)  -- hexm/client/entities/local/player_avatar_members/bot/level_bot_result_handler.lua:422-445
       check_result(self)  -- hexm/client/entities/local/player_avatar_members/bot/level_bot_result_handler.lua:412-420
-  get_result_handler_cls: function
+  get_result_handler_cls: function(result_type)  -- hexm/client/entities/local/player_avatar_members/bot/level_bot_result_handler.lua:483-485

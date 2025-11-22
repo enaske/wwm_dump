@@ -3,10 +3,10 @@ Type: table
 ================================================================================
 
 Keys:
-  gm_test_fps: function
-  test_scene: function
+  gm_test_fps: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  test_scene: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
   collect_fps_data: boolean
-  is_collect_fps_data: function
+  is_collect_fps_data: function()  -- hexm/client/debug/gm/gm_commands/gm_scene_performance.lua:438-440
   gmSceneBot: class <gmSceneBot>
     Functions:
       collectData(self)  -- hexm/client/debug/gm/gm_commands/gm_scene_performance.lua:183-213
@@ -29,4 +29,4 @@ Keys:
       _waitForLoadingScene(self)  -- hexm/client/debug/gm/gm_commands/gm_scene_performance.lua:76-85
       ctor(self, step)  -- hexm/client/debug/gm/gm_commands/gm_scene_performance.lua:23-60
       UploadFinish(self)  -- hexm/client/debug/gm/gm_commands/gm_scene_performance.lua:391-400
-  gm_test_fps_callback: function
+  gm_test_fps_callback: function()  -- hexm/client/debug/gm/gm_commands/gm_scene_performance.lua:470-475

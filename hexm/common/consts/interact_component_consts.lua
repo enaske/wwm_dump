@@ -7,7 +7,7 @@ Keys:
   COMP_TYPE_INTERACTCOM: number
   WAY_TYPE_COMP: number
   RELATION_TRANSITION_CHANGE: number
-  is_ins_static_entity: function
+  is_ins_static_entity: function(comp_type)  -- hexm/common/consts/interact_component_consts.lua:157-159
   RELATION_TYPE_TURRET_SHRINK_BONE_TARGET_SHOT: number
   COMP_TYPE_STATIC_ENTITY: number
   CHANGE_WAY_SPEED_GTE: number
@@ -23,10 +23,10 @@ Keys:
   COMP_TYPE_INS_ENTITY_MATCH_PATTERN: string
   COMP_PRIVATE_TYPE_OWN_LOAD: number
   CHANGE_WAY_ENTER_STATE_AUTO: number
-  is_type_interactcom: function
+  is_type_interactcom: function(comp_type)  -- hexm/common/consts/interact_component_consts.lua:137-139
   COMP_TYPE_INS_STATIC_ENTITY_MATCH_PATTERN: string
-  is_type_npc: function
-  process_need_wait_result_back: function
+  is_type_npc: function(comp_type)  -- hexm/common/consts/interact_component_consts.lua:133-135
+  process_need_wait_result_back: function(process_type)  -- hexm/common/consts/interact_component_consts.lua:195-197
   COMP_PRIVATE_TYPE_AVATAR: number
   PROGRESS_LOCAL: number
   NPC_INTERACTING_FLAG_BRANCH_SELECT_FINISH: string
@@ -34,7 +34,7 @@ Keys:
   COMP_TYPE_LOCAL_NPC: number
   NPC_INTERACTING_FLAG_TALK_OPTIONS: string
   ACTION_COOLDOWN: number
-  is_ins_entity: function
+  is_ins_entity: function(comp_type)  -- hexm/common/consts/interact_component_consts.lua:149-151
   CHANGE_WAY_ENTER_STATE: number
   PROGRESS_NORMAL: number
   _reload_all: boolean

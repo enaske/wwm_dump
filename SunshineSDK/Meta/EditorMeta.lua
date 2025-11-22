@@ -3,8 +3,8 @@ Type: table
 ================================================================================
 
 Keys:
-  GetMetaKeys: function
-  FromDict: function
+  GetMetaKeys: function(editType)  -- SunshineSDK/Meta/EditorMeta.lua:152-163
+  FromDict: function(data)  -- SunshineSDK/Meta/EditorMeta.lua:270-302
   EditorMeta: class <EditorMeta>
     Functions:
       GetDefault(self)  -- SunshineSDK/Meta/EditorMeta.lua:304-316

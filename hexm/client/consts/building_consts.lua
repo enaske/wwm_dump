@@ -5,17 +5,17 @@ Type: table
 Keys:
   UNI_RULE_TOO_MANY_BUILDING: string
   FREE_BUILDING_ADSORB_SOUND: number
-  check_near_building_workbench: function
+  check_near_building_workbench: function(recipe_no)  -- hexm/client/consts/building_consts.lua:461-511
   UNI_RULE_OUT_OF_GANG_AREA: string
   UNI_RULE_IN_JIEBEI_AREA: string
-  building_get_access_way: function
+  building_get_access_way: function(build_no)  -- hexm/client/consts/building_consts.lua:324-346
   EDIT_STATUS_DELETING: number
   RULE_TYPE_NO_BUILDING: number
   RULE_CHECK_TYPE_PLACE: string
   UNI_RULE_GRID_COUNT_LIMIT: string
   STATUS_BAR_PRIORITY_PUT_OUT_BP_COMP: number
   CAMERA_FLAG_FREE: string
-  is_yanshi_skill_build_no: function
+  is_yanshi_skill_build_no: function(build_no)  -- hexm/client/consts/building_consts.lua:519-524
   EDIT_STATUS_BLUEPRINT_UNFILLED: number
   COCOS_WINDOW_MAP: dict
   BUILDING_CAT2_RECENTUSE: number
@@ -29,7 +29,7 @@ Keys:
   BUILDING_TYPE_COMPOSITION: number
   UNI_RULE_LADDER_IN_CLIMB: string
   COCOS_WINDOW_TYPE_SINGLE: number
-  building_show_access_float: function
+  building_show_access_float: function(build_no)  -- hexm/client/consts/building_consts.lua:369-388
   TOOL_BAR_MODE_FREE_BUILDING: number
   EDIT_STATUS_TOO_FAR: number
   CAMERA_MODE_BIRD: string
@@ -49,7 +49,7 @@ Keys:
   STATUS_BAR_PRIORITY_TERRAIN_TOOL: number
   BAR_ITEM_MODE_BUTTON: string
   CAMERA_MODE_FREE: string
-  get_building_name_with_star_color: function
+  get_building_name_with_star_color: function(name, star)  -- hexm/client/consts/building_consts.lua:513-517
   BUILD_CREATE_INDUSTRY: string
   UNI_RULE_BLOCKED: string
   EDIT_STATUS_HP_LOWER_THAN_50: number

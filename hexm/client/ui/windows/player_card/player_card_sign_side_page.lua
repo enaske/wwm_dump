@@ -13,7 +13,7 @@ Keys:
       get_init_text(self)  -- hexm/client/ui/windows/player_card/player_card_sign_side_page.lua:54-60
       get_custom_operate_bar_datas(self)  -- hexm/client/ui/windows/player_card/player_card_sign_side_page.lua:71-78
       get_place_holder_text(self)  -- hexm/client/ui/windows/player_card/player_card_sign_side_page.lua:62-64
-  get_default_sign: function
+  get_default_sign: function()  -- hexm/client/ui/windows/player_card/player_card_sign_side_page.lua:19-22
   PlayerCardSignSidePage: class <PlayerCardSignSidePage>
     Functions:
       get_page_controller_clz(self)  -- hexm/client/ui/windows/player_card/player_card_sign_side_page.lua:27-29

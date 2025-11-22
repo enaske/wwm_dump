@@ -13,4 +13,4 @@ Keys:
       rpc_room_wanfa_notify(self, game_id, event, data)  -- hexm/client/entities/server/player_avatar_members/imp_region_reward.lua:194-214
       rpc_interact_reward_done(self, err, sid, data)  -- hexm/client/entities/server/player_avatar_members/imp_region_reward.lua:136-170
       new(...)  -- =[C]
-  get_interact_help_tip: function
+  get_interact_help_tip: function(sid, way_no)  -- hexm/client/entities/server/player_avatar_members/imp_region_reward.lua:109-133

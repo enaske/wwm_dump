@@ -19,6 +19,6 @@ Keys:
       resumable_by_vanilla(self, fname, ...)  -- patch/toolbox/resumable.lua:29-36
       new(...)  -- =[C]
   BREAK_MARKER: table <UnknownInstance>
-  run_resumable: function
-  fin_resumable: function
-  mk_resumable: function
+  run_resumable: function(resumable)  -- patch/toolbox/resumable.lua:9-16
+  fin_resumable: function(resumable)  -- patch/toolbox/resumable.lua:18-20
+  mk_resumable: function(f, init_state)  -- patch/toolbox/resumable.lua:5-7

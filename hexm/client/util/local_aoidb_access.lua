@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  gen_aync_load_task_id: function
+  gen_aync_load_task_id: function()  -- hexm/client/util/local_aoidb_access.lua:21-25
   AsyncTask: class <AsyncTask>
     Functions:
       ctor(self, sid, ref_file_path, callback, data)  -- hexm/client/util/local_aoidb_access.lua:31-39

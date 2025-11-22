@@ -3,4 +3,4 @@ Type: table
 ================================================================================
 
 Keys:
-  parse: function
+  parse: function(text, limit)  -- hexm/client/util/htmlparser/htmlparser.lua:33-254

@@ -3,9 +3,9 @@ Type: table
 ================================================================================
 
 Keys:
-  update_combat_snapshot: function
-  copy_from_snapshot: function
-  create_combat_snapshot: function
+  update_combat_snapshot: function(snap, entity, prop_ver)  -- hexm/common/combat/combat_snapshot.lua:206-212
+  copy_from_snapshot: function(to_snap, from_snap)  -- hexm/common/combat/combat_snapshot.lua:215-221
+  create_combat_snapshot: function(entity, prop_ver)  -- hexm/common/combat/combat_snapshot.lua:196-204
   CombatSnapshot: class <CombatSnapshot>
     Functions:
       todict(self, entity)  -- hexm/common/combat/combat_snapshot.lua:127-133

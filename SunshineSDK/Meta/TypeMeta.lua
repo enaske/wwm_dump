@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  MoveEntityProperty: function
+  MoveEntityProperty: function(obj, meta, srcPathParts, dstPathParts)  -- SunshineSDK/Meta/TypeMeta.lua:148-178
   PDynamicEnum: class <PDynamicEnum>
     Functions:
       FromDict(data)  -- SunshineSDK/Meta/TypeMeta.lua:582-584
@@ -12,7 +12,7 @@ Keys:
     Functions:
       ctor(self)  -- SunshineSDK/Meta/TypeMeta.lua:1880-1882
       new(...)  -- =[C]
-  DelEntityProperty: function
+  DelEntityProperty: function(obj, meta, pathParts)  -- SunshineSDK/Meta/TypeMeta.lua:127-145
   PDatetime: class <PDatetime>
     Functions:
       FromDict(data)  -- SunshineSDK/Meta/TypeMeta.lua:618-620
@@ -53,15 +53,15 @@ Keys:
       CreateChildObject(self, obj, key, extValue, partialUpdate)  -- SunshineSDK/Meta/TypeMeta.lua:903-933
       GetDynamicEditorMeta(self, obj, bindObject)  -- SunshineSDK/Meta/TypeMeta.lua:889-901
       ctor(self, args)  -- SunshineSDK/Meta/TypeMeta.lua:857-860
-  register_type_meta: function
+  register_type_meta: function(cls)  -- SunshineSDK/Meta/TypeMeta.lua:216-218
   PVector4: class <PVector4>
     Functions:
       FromDict(data)  -- SunshineSDK/Meta/TypeMeta.lua:468-470
   PInt: class <PInt>
     Functions:
       FromDict(data)  -- SunshineSDK/Meta/TypeMeta.lua:405-407
-  InitObject: function
-  AddEntityProperty: function
+  InitObject: function(obj, meta, data)  -- SunshineSDK/Meta/TypeMeta.lua:1829-1851
+  AddEntityProperty: function(obj, meta, pathParts, val, key, partialUpdate)  -- SunshineSDK/Meta/TypeMeta.lua:107-124
   PDict: class <PDict>
     Functions:
       SerializeData(self, obj)  -- SunshineSDK/Meta/TypeMeta.lua:1164-1184
@@ -104,7 +104,7 @@ Keys:
       new(...)  -- =[C]
       GetEditorMeta(self)  -- SunshineSDK/Meta/TypeMeta.lua:336-338
       SetValue(self, parent, parentMeta, key, value)  -- SunshineSDK/Meta/TypeMeta.lua:353-355
-  ModifyEntityProperty: function
+  ModifyEntityProperty: function(obj, meta, pathParts, val)  -- SunshineSDK/Meta/TypeMeta.lua:83-104
   PRes: class <PRes>
     Functions:
       FromDict(data)  -- SunshineSDK/Meta/TypeMeta.lua:495-497
@@ -149,15 +149,15 @@ Keys:
     Functions:
       GetAllProperties(self)  -- SunshineSDK/Meta/TypeMeta.lua:1824-1826
       ctor(self)  -- SunshineSDK/Meta/TypeMeta.lua:1801-1822
-  ConvertPathToOneBasedIndex: function
-  GetObjectMetaByPath: function
+  ConvertPathToOneBasedIndex: function(pathParts)  -- SunshineSDK/Meta/TypeMeta.lua:23-37
+  GetObjectMetaByPath: function(obj, objMeta, parts, endDepth)  -- SunshineSDK/Meta/TypeMeta.lua:41-73
   PFile: class <PFile>
     Functions:
       FromDict(data)  -- SunshineSDK/Meta/TypeMeta.lua:504-506
   PExpr: class <PExpr>
     Functions:
       FromDict(data)  -- SunshineSDK/Meta/TypeMeta.lua:441-443
-  UpdateObject: function
+  UpdateObject: function(obj, meta, data, partialUpdate)  -- SunshineSDK/Meta/TypeMeta.lua:673-714
   PStr: class <PStr>
     Functions:
       FromDict(data)  -- SunshineSDK/Meta/TypeMeta.lua:432-434
@@ -176,7 +176,7 @@ Keys:
   PPath: class <PPath>
     Functions:
       FromDict(data)  -- SunshineSDK/Meta/TypeMeta.lua:513-515
-  LoadTypeMeta: function
+  LoadTypeMeta: function(jsonData)  -- SunshineSDK/Meta/TypeMeta.lua:222-228
   ObjectVisitor: class <ObjectVisitor>
     Functions:
       AddComponent(self, obj, key, Type)  -- SunshineSDK/Meta/TypeMeta.lua:1408-1410

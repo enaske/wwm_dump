@@ -7,7 +7,7 @@ Keys:
   STATE_WAIT: number
   STATE_SEND: number
   STAGE_FINISH: number
-  get_reward_by_score: function
+  get_reward_by_score: function(game_id, score)  -- hexm/common/consts/chemahang_consts.lua:37-57
   E_GET_LV_REWARD: number
   _reload_all: boolean
   REWARD_STATE_NOT_REACH: number

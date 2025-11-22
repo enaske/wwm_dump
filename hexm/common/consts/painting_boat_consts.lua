@@ -15,7 +15,7 @@ Keys:
   UWSGI_PAINTING_BOAT_BUILD_SPACE_SYNC_DATA: string
   SPACE_TYPE_UNKNOWN: number
   PAINTING_BOAT_SMALL_GAME_EMPTY: string
-  get_painting_boat_trans_config_no: function
+  get_painting_boat_trans_config_no: function(avatar, space_no)  -- hexm/common/consts/painting_boat_consts.lua:75-86
   PAINTING_BOAT_SMALL_GAME_SUMO: number
   UWSGI_PAINTING_BOAT_RANDOM_GET_BUILD_DATA: string
   UWSGI_GET_AND_CHECK_RIVER_SIGHTSEEING_DATA: string
@@ -38,11 +38,11 @@ Keys:
   UWSGI_PAINTING_BOAT_BUILD_GET_SEAT: string
   SMALL_GAME_NEED_CLEAR_RELATION: dict
   UWSGI_CHECK_RIVER_SIGHTSEEING_PERMISSION: string
-  get_build_trans_config_no: function
+  get_build_trans_config_no: function(avatar, owner_id)  -- hexm/common/consts/painting_boat_consts.lua:88-108
   UWSGI_PAINTING_BOAT_SET_BUILD_DATA: string
   SPACE_TYPE_RIVER_SIGHTSEEING: number
   PAINTING_BOAT_SMALL_GAME_BENCH: number
-  get_p_b_f_p_trans_config_no: function
+  get_p_b_f_p_trans_config_no: function(space_no)  -- hexm/common/consts/painting_boat_consts.lua:68-73
   PAINTING_BOAT_SMALL_GAME_FENWEI: string
   PAINTING_BOAT_NOT_INIT_TAG: dict
   OP_ACCEPT: number

@@ -17,7 +17,7 @@ Keys:
       all_bits(self)  -- hexm/common/container/base.lua:260-271
       bits_num(self)  -- hexm/common/container/base.lua:252-258
       set_bit(self, index, bit_value)  -- hexm/common/container/base.lua:231-250
-  fake_local_get_owner: function
+  fake_local_get_owner: function(prop)  -- hexm/common/container/base.lua:28-42
   Base: class <Base>
     Functions:
       on_setattr(self, key, old, new)  -- hexm/common/container/base.lua:56-85

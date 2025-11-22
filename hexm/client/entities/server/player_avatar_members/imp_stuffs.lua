@@ -46,4 +46,4 @@ Keys:
       rpc_stuff_decompose_xinfa_multi(self, err)  -- hexm/client/entities/server/player_avatar_members/imp_stuffs.lua:385-387
       rpc_stuff_bag_msg(self, err, bag_no)  -- hexm/client/entities/server/player_avatar_members/imp_stuffs.lua:446-460
       request_stuff_bag_extend_capacity(self, bag_no, capacity)  -- hexm/client/entities/server/player_avatar_members/imp_stuffs.lua:615-627
-  buff_rand_attr_get_text: function
+  buff_rand_attr_get_text: function(attr, duration)  -- hexm/client/entities/server/player_avatar_members/imp_stuffs.lua:462-476

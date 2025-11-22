@@ -2,8 +2,8 @@ COMPREHENSIVE DUMP SUMMARY
 ================================================================================
 
 Total Functions Found: 495
-Total Class Instances: 25184
-Total Instance Functions: 265237
-Total Modules with Structure: 8351
-Scanned Modules: 8491
-Files Written: 8351
+Total Class Instances: 25991
+Total Instance Functions: 281524
+Total Modules with Structure: 8700
+Scanned Modules: 8840
+Files Written: 8700

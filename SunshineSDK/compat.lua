@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  unpack: function
+  unpack: function(t, ...)  -- engine/Lib/functions.lua:452-459
   fileutils: table <UnknownInstance>
     Functions:
       localize(path)  -- engine/Lib/fileutils.lua:114-116

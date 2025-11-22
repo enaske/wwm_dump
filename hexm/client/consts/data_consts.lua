@@ -5,7 +5,7 @@ Type: table
 Keys:
   HD_DATA_OVERSEA_PATH: string
   NORMAL_GROUP_TABLE_FLAG: number
-  get_data_path: function
+  get_data_path: function(short_path)  -- hexm/common/consts/data_consts.lua:37-39
   MULTI_PLATFORM_DATA: list
   CACHE_STRATEGY_LINE_CACHE_64: number
   DefaultBinDataConfig: instance
@@ -29,7 +29,7 @@ Keys:
     Functions:
       ctor(self, irc_capacity, rc_capacity, ipc_capacity, pc_capacity, tc_capacity, vc_capacity, locale_table_capacity)  -- hexm/client/consts/data_consts.lua:44-62
       new(...)  -- =[C]
-  get_debug_data_path: function
+  get_debug_data_path: function(short_path)  -- hexm/common/consts/data_consts.lua:41-44
   WindowBinDataConfig: instance
   IOSBinDataConfig: instance
   DATA_ROOT_OVERSEA: string

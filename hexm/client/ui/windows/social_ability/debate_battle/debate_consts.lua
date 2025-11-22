@@ -6,7 +6,7 @@ Keys:
   DEBATE_IDLE_CAMERA_FLAG: string
   TURN_STATE_AUTO: string
   DEBATE_GRAPH_VALUES: dict
-  get_debate_commonplay_data: function
+  get_debate_commonplay_data: function(commonplay_entity)  -- hexm/client/ui/windows/social_ability/debate_battle/debate_consts.lua:9-11
   _reload_all: boolean
   DEBATE_FOLLOW_CAMERA: number
   DEBATE_SKILL_TARGET: string

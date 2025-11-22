@@ -7,6 +7,6 @@ Keys:
   EXCEL_ENTITY_SPACE_NAME: string
   EXCEL_ENTITY_NUM_NAME: string
   PROP_NAME: string
-  task_npc_dialog_text: function
+  task_npc_dialog_text: function(self, task_no, data)  -- hexm/client/ui/windows/task/task_request_text/npc_dialog.lua:13-35
   EXCEL_ENTITY_NO_NAME: string
   SERIAL_PROP_NAME: string

@@ -5,7 +5,7 @@ Type: table
 Keys:
   RIDE_GUEST_ATTACH_FUNC: table <UnknownInstance>
   RIDE_ATTACH_FUNC: table <UnknownInstance>
-  get_ride_special_perform_sys_d: function
+  get_ride_special_perform_sys_d: function(perform_id, key, default)  -- hexm/client/entities/local/common_members/ride_base.lua:585-595
   RideBase: class <RideBase>
     Functions:
       attach_horse_by_tach(self, horse, attach_status, category)  -- hexm/client/entities/local/common_members/ride_base.lua:509-547

@@ -17,4 +17,4 @@ Keys:
   WANFA_CHECK: dict
   E_WANFA_USE_UP_CARD: number
   E_CARD_USE: number
-  get_card_season_id: function
+  get_card_season_id: function()  -- hexm/common/consts/score_card_consts.lua:51-63

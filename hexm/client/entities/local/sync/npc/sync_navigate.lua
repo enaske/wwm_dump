@@ -29,4 +29,4 @@ Keys:
       navi_query_space_region(self, data)  -- hexm/client/entities/local/sync/npc/sync_navigate.lua:234-237
       sync_query_available_pos(self, pos_info)  -- hexm/client/entities/local/sync/npc/sync_navigate.lua:181-194
       navigate_get_height(self, data)  -- hexm/client/entities/local/sync/npc/sync_navigate.lua:209-213
-  check_coop_mode_navigate: function
+  check_coop_mode_navigate: function(entity, data)  -- hexm/client/entities/local/sync/npc/sync_navigate.lua:19-53

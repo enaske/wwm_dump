@@ -25,7 +25,7 @@ Keys:
       _waitForLoadingScene(self)  -- hexm/client/debug/gm/gm_commands/gm_scene_navi.lua:93-101
       startNavigate(self, start_navi_num, end_navi_num)  -- hexm/client/debug/gm/gm_commands/gm_scene_navi.lua:79-91
       UploadFinish(self)  -- hexm/client/debug/gm/gm_commands/gm_scene_navi.lua:317-326
-  open_scene_record: function
-  test_scene: function
-  stop_scene_record: function
-  test_scene_v2: function
+  open_scene_record: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  test_scene: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  stop_scene_record: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  test_scene_v2: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58

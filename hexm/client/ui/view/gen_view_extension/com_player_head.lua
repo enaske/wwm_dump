@@ -16,4 +16,4 @@ Keys:
       set_head_info_by_data(self, data)  -- hexm/client/ui/view/gen_view_extension/com_player_head.lua:33-41
       redis_back(self, e_c, data)  -- hexm/client/ui/view/gen_view_extension/com_player_head.lua:60-65
       set_head_info_by_uwsgi(self, entity_id, host_num)  -- hexm/client/ui/view/gen_view_extension/com_player_head.lua:43-50
-  load_component: function
+  load_component: function(component_no, zorder, parent_view)  -- hexm/client/ui/view/gen_view_extension/com_player_head.lua:124-142

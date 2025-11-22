@@ -6,8 +6,8 @@ Keys:
   MEMBER_CHOOSE_IDENTITY_OR_PREPARE: number
   PVP_NOTIFY_EVENT_LANGZHONG_MEDICINE_ON_SALE: number
   PVP_LANGZHONG_TOKEN_TYPE: number
-  is_identity_langzhong: function
-  get_pvp_identity: function
+  is_identity_langzhong: function(avatar)  -- hexm/common/consts/identity_pvp_consts.lua:120-122
+  get_pvp_identity: function(avatar)  -- hexm/common/consts/identity_pvp_consts.lua:135-148
   PVP_NOTIFY_EVENT_WUDAO_BE_HIT_2: number
   PVP_NOTIFY_EVENT_LANGZHONG_THERAPY: number
   CHANGE_STATE: number
@@ -18,24 +18,24 @@ Keys:
   VOTE_RESULT: number
   PVP_BATTLE_LEAVE_SPACE_STATE_HALFWAY: number
   PVP_JIESUAN_ONE_ROUND_END: number
-  get_identity_pvp_doctor_medicine_price: function
+  get_identity_pvp_doctor_medicine_price: function(avatar, medicine_no)  -- hexm/common/consts/identity_pvp_consts.lua:233-239
   WUDAO_KEY: string
   PVP_JIESUAN_FINAL: number
   _reload_all: boolean
   PVP_WUDAO: number
-  is_identity_anying: function
+  is_identity_anying: function(avatar)  -- hexm/common/consts/identity_pvp_consts.lua:125-127
   BAIYE: number
   LANGZHONG_LEAVE: number
-  is_middle_camp: function
+  is_middle_camp: function(pvp_identity, camp)  -- hexm/common/consts/identity_pvp_consts.lua:57-59
   PREPARE_MATCH: number
-  get_team_wudao_pid: function
+  get_team_wudao_pid: function(avatar)  -- hexm/common/consts/identity_pvp_consts.lua:151-155
   E_ROLE_PREPARED: string
-  get_pvp_identity_text: function
+  get_pvp_identity_text: function(identity_no)  -- hexm/common/consts/identity_pvp_consts.lua:158-168
   LAUNCH_VOTE: number
   DEAL_APPLY_WUDAO: number
   E_INIT_PVP_SPACE: string
   PVP_LANGZHONG: number
-  is_identity_wudao: function
+  is_identity_wudao: function(avatar)  -- hexm/common/consts/identity_pvp_consts.lua:114-117
   ADD_STAGE: number
   BATTLE: number
   E_WUDAO_ONE_ROUND_END: string

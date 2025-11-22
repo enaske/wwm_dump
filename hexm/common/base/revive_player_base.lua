@@ -11,4 +11,4 @@ Keys:
       revive_ensure(self)  -- hexm/common/base/revive_player_base.lua:243-257
       revive(self, revive_id, heal_hp)  -- hexm/common/base/revive_player_base.lua:118-171
       get_dungeon_revive_pos(self)  -- hexm/common/base/revive_player_base.lua:259-276
-  check_revive_pos: function
+  check_revive_pos: function(avatar, revive_id, sys_d, is_underground)  -- hexm/common/base/revive_player_base.lua:30-83

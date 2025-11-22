@@ -4,9 +4,9 @@ Type: table
 
 Keys:
   NODE_COUNT_TS: number
-  deserialize_timeline: function
+  deserialize_timeline: function(...)  -- =[C]
   NODE_QPS_LIMIT: number
-  frame_executor: function
+  frame_executor: function(timeline, data)  -- hexm/common/actionline/actionline.lua:227-236
   lua_Actionline: class <Actionline>
     Functions:
       create_timeline(self, timeline_id, l_context)  -- hexm/common/actionline/actionline.lua:92-98
@@ -16,7 +16,7 @@ Keys:
       add_graph_data(self, data)  -- hexm/common/actionline/actionline.lua:100-105
       load_from_dict(self, data)  -- hexm/common/actionline/actionline.lua:86-90
       new(...)  -- =[C]
-  node_executor: function
+  node_executor: function(graph, data, port_data_list)  -- hexm/common/actionline/actionline.lua:169-225
   NODE_EXEC_COUNTER: dict
   NODE_QPS_WARNING_LIMIT: number
   NODE_QPS_WARNED: boolean
@@ -30,8 +30,8 @@ Keys:
       load_from_dict(...)  -- =[C]
       add_graph_data(...)  -- =[C]
       new(...)  -- =[C]
-  lua_deserialize_timeline: function
-  cpp_deserialize_timeline: function
+  lua_deserialize_timeline: function(al, data, context, timeline_id)  -- hexm/common/actionline/actionline.lua:15-30
+  cpp_deserialize_timeline: function(...)  -- =[C]
   cpp_Actionline: class <actionline>
     Functions:
       deserialize_timeline(...)  -- =[C]

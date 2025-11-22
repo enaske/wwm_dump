@@ -22,7 +22,7 @@ Keys:
   RECALL_TASK_ID_PRE: number
   BOT_TASK_TYPE_ANSWER_QUESTION: string
   TASK_TYPE_ZHIXIAN: number
-  is_plot_recap_task: function
+  is_plot_recap_task: function(task_no)  -- hexm/common/consts/task_consts.lua:356-358
   SHOW_STYLE_DEFAULT: number
   BOT_TASK_TYPE_DIALOG: string
   TASK_INVALID_HANDLE_INVALID: number
@@ -39,9 +39,9 @@ Keys:
   HUIJUAN_STATE_LOCKED: number
   BUFF_TYPE_FINISH_ADD: number
   BOT_TASK_TYPE_BUILD_HOSPITAL: string
-  has_finish_one_sub_task: function
+  has_finish_one_sub_task: function(avatar, task_no, has_check_list)  -- hexm/common/consts/task_consts.lua:232-258
   BOT_TASK_TYPE_SUBMIT_MONEY: string
-  task_progress_check_ending_reward: function
+  task_progress_check_ending_reward: function(avatar, group_no)  -- hexm/common/consts/task_consts.lua:301-307
   TASK_PROGRESS_1: number
   TASK_TYPE_ZHUXIAN: number
   TASK_TRACK_DEFAULT_NPC_ADD_DIFF: number
@@ -49,7 +49,7 @@ Keys:
   ONLINE_FINISH_SYNC_ALL: number
   TASK_INVALID_TYPE_LOGOUT: number
   TASK_INVALID_TYPE_LEAVE_SPACE: number
-  get_task_icon: function
+  get_task_icon: function(task_no)  -- hexm/common/consts/task_consts.lua:264-267
   TASK_CHAPTER_BEGIN: number
   TASK_EFFECT_FETCH: number
   BOT_TASK_TYPE_HELP_VICTIM: string

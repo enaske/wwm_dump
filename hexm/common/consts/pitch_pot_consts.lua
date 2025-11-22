@@ -5,19 +5,19 @@ Type: table
 Keys:
   PITCH_POT_STATE_FREE: number
   PITCH_POT_EVENTS_END: number
-  check_pitch_pot_can_pause: function
+  check_pitch_pot_can_pause: function(avatar)  -- hexm/common/consts/pitch_pot_consts.lua:125-147
   PITCH_POT_EVENTS_CONTINUE: number
   PITCH_POT_STATE_CAN_ENTER_DRINK: dict
-  check_pitch_pot_can_continue: function
+  check_pitch_pot_can_continue: function(avatar)  -- hexm/common/consts/pitch_pot_consts.lua:149-171
   PITCH_POT_STATE_DIALOG: number
   PITCH_POT_NPC_EVENT_WATCH: number
-  get_pitch_pot_stage_no_by_entity_no: function
+  get_pitch_pot_stage_no_by_entity_no: function(entity_no)  -- hexm/common/consts/pitch_pot_consts.lua:118-123
   PITCH_POT_NPC_EVENT_END_WIN: number
   PITCH_POT_NPC_EVENT_REFILL: number
   WIN: number
   PITCH_POT_STATE_ANIM: number
   PITCH_POT_STATE_PITCH_POT: number
-  get_pitch_pot_wanfa_no_by_serial_id: function
+  get_pitch_pot_wanfa_no_by_serial_id: function(avatar, serial_id, space_no)  -- hexm/common/consts/pitch_pot_consts.lua:104-116
   PITCH_POT_TARGET_TYPE_SERVER_NPC: number
   PITCH_POT_STATE_DRINK: number
   _reload_all: boolean
@@ -27,13 +27,13 @@ Keys:
   PITCH_POT_STATE_INVITING_AGREE: number
   PITCH_POT_SOCIAL_GAME_WANFA_NO: number
   PITCH_POT_NPC_EVENT_DRINKING_SHOW: number
-  get_pitch_pot_stage_no_by_serial_id: function
+  get_pitch_pot_stage_no_by_serial_id: function(avatar, space_no, serial_id, entity_no)  -- hexm/common/consts/pitch_pot_consts.lua:76-102
   PITCH_POT_TARGET_TYPE_LOCAL_NPC: number
   PITCH_POT_EVENTS_BEGIN: number
   PITCH_POT_EVENTS_STOP: number
   PITCH_POT_EVENTS_NPC_SHOT_SOUND: number
   PITCH_POT_EVENTS_INVITE: number
-  get_random_pvp_stage: function
+  get_random_pvp_stage: function()  -- hexm/common/consts/pitch_pot_consts.lua:173-195
   PITCH_POT_TARGET_TYPE_PLAYER: number
   PITCH_POT_EVENTS_COMMON_TIP: number
   OPPO_RESULT: dict

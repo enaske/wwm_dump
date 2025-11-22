@@ -11,7 +11,7 @@ Keys:
   EVENT_MENTOR_GRADUATE: string
   APPLY_TYPE_SHOUTU: number
   REFRESH_DELAY: number
-  format_students_info: function
+  format_students_info: function(avatar)  -- hexm/common/consts/mentor_consts.lua:50-61
   E_MENTOR_HAS_APPLY: number
   BAISHI_REQUEST_STATE_CHEHUI: number
   EVENT_MENTOR_APPLY: string
@@ -30,26 +30,26 @@ Keys:
   EVENT_MENTOR_LEVEL: string
   MENTOR_CREATE_EDIT: number
   APPLY_TYPE_BAISHI: number
-  mentor_get_mentor_application_available_num: function
+  mentor_get_mentor_application_available_num: function(avatar)  -- hexm/common/consts/mentor_consts.lua:140-155
   EVENT_MENTOR_GRADUATE_FINISH: string
   EVENT_MENTOR_DELETE_SUCC: string
   EVENT_MENTOR_CANCEL_APPLY_NOTIFY: string
   EVENT_MENTOR_UPDATE: string
   BAISHI_REQUEST_STATE_ACCEPT: number
   DELETE_APPLY_TYPE_MENTOR: number
-  format_master_info: function
-  get_jieqi_remain_count_by_type: function
+  format_master_info: function(avatar)  -- hexm/common/consts/mentor_consts.lua:63-76
+  get_jieqi_remain_count_by_type: function(avatar, apply_type)  -- hexm/common/consts/mentor_consts.lua:34-43
   EVENT_MENTOR_CREATE_FINISH: string
   E_MENTOR_STUDENT_HAS_GRADUATED: number
   EVENT_MENTOR_REMOVE: string
   EVENT_MENTOR_CREATE_PICTURE: string
   E_MENTOR_DELETE_HAS_GRADUATED: number
-  mentor_ol_timer: function
+  mentor_ol_timer: function(apply_type)  -- hexm/common/consts/mentor_consts.lua:29-32
   DELETE_APPLY_TYPE_STUDENT: number
   EVENT_MENTOR_BECOME_STUDENT: string
   E_MENTOR_CREATE_HAS_GRADUATED: number
-  check_has_continue_relation: function
-  mentor_get_students_application_available_num: function
+  check_has_continue_relation: function(avatar)  -- hexm/common/consts/mentor_consts.lua:109-119
+  mentor_get_students_application_available_num: function(avatar)  -- hexm/common/consts/mentor_consts.lua:122-137
   E_MENTOR_POST_FAIL: number
   MENTOR_MASTER_BACKGROUND_EDIT: number
   EVENT_MENTOR_ADD_COIN: string

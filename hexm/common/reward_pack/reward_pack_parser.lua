@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  rand_choice_with_weights: function
+  rand_choice_with_weights: function(arr, rng)  -- hexm/common/reward_pack/reward_pack_parser.lua:17-42
   RewardPackParser: class <RewardPackParser>
     Functions:
       parse_random_stuff(cls, stuff_d, seed)  -- hexm/common/reward_pack/reward_pack_parser.lua:46-76

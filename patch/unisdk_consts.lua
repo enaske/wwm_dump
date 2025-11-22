@@ -5,17 +5,17 @@ Type: table
 Keys:
   MINOR_STATUS_TEEN_NOT_CHECK: number
   XM_GAMEID: string
-  init_anti_cheat_sdk_values: function
+  init_anti_cheat_sdk_values: function()  -- patch/unisdk_consts.lua:116-154
   HMT_ANDROID_APP_CHANNEL: string
   COMMON_PRE_NT_INIT_PROP_MAP: table <UnknownInstance>
   HMT_YY_ID: string
-  use_gas3_test: function
+  use_gas3_test: function()  -- patch/unisdk_consts.lua:15-28
   MINOR_STATUS_NO_AGE_NOT_ALLOW_LOGIN_IN: number
-  init_sdk_values: function
+  init_sdk_values: function()  -- patch/unisdk_consts.lua:34-114
   LOGIN_LOADINGBAY_NOT_START: number
   S_SDK_CHECKING: number
   HMT_APPLE_ID: string
-  _set_sdk_prop_before_init: function
+  _set_sdk_prop_before_init: function()  -- patch/unisdk_consts.lua:156-183
   ALL_PROTECT_STATUS: list
   S_WRONG_ORDER_ID: number
   AntiCheatSDKTypeFrame_3: string
@@ -30,11 +30,11 @@ Keys:
   S_SDK_CHECK_ERR: number
   S_WRONG_PRODUCT_ID: number
   CHINA_APPLE_ID: string
-  is_ps5: function
-  set_sdk_prop_before_init: function
+  is_ps5: function()  -- patch/unisdk_consts.lua:30-32
+  set_sdk_prop_before_init: function()  -- patch/unisdk_consts.lua:185-189
   ACSDK_GAME_ID: string
   GLOBAL_APPLE_ID: string
-  get_real_server_account: function
+  get_real_server_account: function(owner)  -- patch/unisdk_consts.lua:191-219
   LOGIN_PC_AD_CANCEL: number
   MINOR_STATUS_NO_AGE_ALLOW_LOGIN_IN: number
   MINOR_STATUS_TEEN_CHECK: number

@@ -3,5 +3,5 @@ Type: table
 ================================================================================
 
 Keys:
-  GetRenderOption: function
+  GetRenderOption: function(zone_name)  -- hexm/client/config/render_options/render_option.lua:77-85
   config_slot: list

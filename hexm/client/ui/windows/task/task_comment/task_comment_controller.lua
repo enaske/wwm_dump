@@ -50,11 +50,11 @@ Keys:
       click_translate_comment(self, e, d)  -- hexm/client/ui/windows/task/task_comment/task_comment_controller.lua:767-784
       update_content(self, key, data)  -- hexm/client/ui/windows/task/task_comment/task_comment_controller.lua:756-765
       get_translate_comment_msg_back(self, msg)  -- hexm/client/ui/windows/task/task_comment/task_comment_controller.lua:786-794
-  comment_content_adapter: function
+  comment_content_adapter: function(data)  -- hexm/client/ui/windows/task/task_comment/task_comment_controller.lua:737-746
   CommentShowMoreItem: class <CommentShowMoreItem>
     Functions:
       update_content(self, key, data)  -- hexm/client/ui/windows/task/task_comment/task_comment_controller.lua:523-548
-  process_comment_num: function
+  process_comment_num: function(num)  -- hexm/client/ui/windows/task/task_comment/task_comment_controller.lua:26-33
   CommentTipItem: class <CommentTipItem>
     Functions:
       update_content(self, key, data)  -- hexm/client/ui/windows/task/task_comment/task_comment_controller.lua:580-583

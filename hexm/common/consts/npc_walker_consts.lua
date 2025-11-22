@@ -9,5 +9,5 @@ Keys:
   WALKER_TYPE_KIT: number
   ID_GEN_LIMIT: number
   ID_GEN_GROUP_OFF: number
-  make_sid: function
-  group_id_from_sid: function
+  make_sid: function(group_id, ii)  -- hexm/common/consts/npc_walker_consts.lua:15-17
+  group_id_from_sid: function(usid)  -- hexm/common/consts/npc_walker_consts.lua:19-22

@@ -9,8 +9,8 @@ Keys:
   LV1_FIGHT: number
   LV2_GUARD: number
   FILTER_VALUE: number
-  get_common_share_extra_data: function
-  get_target_level: function
+  get_common_share_extra_data: function(bounty)  -- hexm/client/ui/windows/bounty/managers/bounty_consts.lua:243-251
+  get_target_level: function(bounty)  -- hexm/client/ui/windows/bounty/managers/bounty_consts.lua:176-187
   IS_PUBLISHED: number
   LV1_REVENGE: number
   LV2_STRONGHOLD: number
@@ -29,14 +29,14 @@ Keys:
   LV1_BUSINESS: number
   LV1_TOGETHER: number
   TARGET: number
-  get_info_template: function
+  get_info_template: function(title, value)  -- hexm/client/ui/windows/bounty/managers/bounty_consts.lua:133-135
   PUBLISH_TEMPLATE_TEXTFIELD: number
   PUBLISH_TEMPLATE_SWITCH: number
-  transfer_target_string: function
-  set_full_reward: function
+  transfer_target_string: function(target_level)  -- hexm/client/ui/windows/bounty/managers/bounty_consts.lua:207-216
+  set_full_reward: function(bounty, reward_controller)  -- hexm/client/ui/windows/bounty/managers/bounty_consts.lua:220-232
   SELF_TEMPLATE_TITLE_SMALL: number
   PUBLISH_TEMPLATE_INFO: number
-  get_lv1_ids_sorted_by_mode: function
+  get_lv1_ids_sorted_by_mode: function()  -- hexm/client/ui/windows/bounty/managers/bounty_consts.lua:55-88
   PUBLISH_TEMPLATE_KONG: number
   LV2_PECUNIARY: number
   LV1_WILD_BOSS: number
@@ -44,12 +44,12 @@ Keys:
   LV2_WILD_BOSS: number
   SELF_TEMPLATE_TITLE_BIG: number
   PUBLISH_TEMPLATE_DROP_DOWN: number
-  get_cost_token_template: function
+  get_cost_token_template: function(token_type, cost)  -- hexm/client/ui/windows/bounty/managers/bounty_consts.lua:137-141
   MODE_TO_LV1_TAG: dict
   IS_FETCHED: number
   SELF_TEMPLATE_DESCRIPTION: number
   SELF_TEMPLATE_TARGET: number
-  get_title_template: function
+  get_title_template: function(title, level)  -- hexm/client/ui/windows/bounty/managers/bounty_consts.lua:121-127
   GUARANTEE_BOUNTY_SEND_TO_PUBLISHER: number
   PUBLISHER_BOUNTY_SEND_TO_FRIENDS: number
   PUBLISH_TEMPLATE_STUFF: number

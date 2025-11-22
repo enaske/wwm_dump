@@ -6,4 +6,4 @@ Keys:
   PRISON_SPACE: dict
   HELP_SHARE_ID: number
   MAPPING_STATE: dict
-  check_players_condition: function
+  check_players_condition: function(player_lists, condition_id, callback)  -- hexm/client/ui/windows/prison/managers/prison_consts.lua:38-56

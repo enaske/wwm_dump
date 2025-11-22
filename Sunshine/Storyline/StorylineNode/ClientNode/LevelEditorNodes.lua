@@ -32,7 +32,7 @@ Keys:
       ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/LevelEditorNodes.lua:94-99
       Release(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/LevelEditorNodes.lua:196-198
       Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/LevelEditorNodes.lua:101-194
-  in_default_pos: function
+  in_default_pos: function(pos)  -- Sunshine/Storyline/StorylineNode/ClientNode/LevelEditorNodes.lua:31-33
   LevelEditorCreateAirWallNode: class <LevelEditorCreateAirWallNode>
     Functions:
       DestroyAirWall(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/LevelEditorNodes.lua:559-570

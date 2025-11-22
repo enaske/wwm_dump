@@ -3,9 +3,9 @@ Type: table
 ================================================================================
 
 Keys:
-  offset: function
-  codes: function
-  codepoint: function
-  char: function
-  len: function
+  offset: function(...)  -- =[C]
+  codes: function(...)  -- =[C]
+  codepoint: function(...)  -- =[C]
+  char: function(...)  -- =[C]
+  len: function(...)  -- =[C]
   charpattern: string

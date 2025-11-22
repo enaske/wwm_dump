@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  GetCinematicsDebugManager: function
+  GetCinematicsDebugManager: function()  -- hexm/client/entities/local/component/cutscene/CinematicsDebugImp.lua:198-204
   CinematicsDebug: class <CinematicsDebug>
     Functions:
       end_profile(self)  -- hexm/client/entities/local/component/cutscene/CinematicsDebugImp.lua:184-191

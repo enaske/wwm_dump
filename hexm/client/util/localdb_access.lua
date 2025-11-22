@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  decode_content: function
+  decode_content: function(raw_content)  -- hexm/client/util/localdb_access.lua:45-53
   LocaldbAccess: class <LocaldbAccess>
     Functions:
       get_global_in_mem(self, key, default, scope)  -- hexm/client/util/localdb_access.lua:349-357
@@ -38,6 +38,6 @@ Keys:
       _query_raw_from_db(self, key, scope)  -- hexm/client/util/localdb_access.lua:273-284
   READ_ONLY_FROM_CACHE: boolean
   LOAD_ALL: boolean
-  encrypt_string: function
-  decrypt_string: function
-  encode_content: function
+  encrypt_string: function(data_str)  -- hexm/client/util/localdb_access.lua:31-33
+  decrypt_string: function(data_str)  -- hexm/client/util/localdb_access.lua:35-37
+  encode_content: function(content)  -- hexm/client/util/localdb_access.lua:39-43

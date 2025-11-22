@@ -15,7 +15,7 @@ Keys:
       set_focus_task(self, task_no)  -- hexm/client/ui/windows/task/new_task_detail/task_detail_list_items.lua:77-82
       on_show_type_changed(self, e, d)  -- hexm/client/ui/windows/task/new_task_detail/task_detail_list_items.lua:130-138
       on_focus_state_changed(self, is_focus)  -- hexm/client/ui/windows/task/new_task_detail/task_detail_list_items.lua:84-98
-  calc_anim_duration: function
+  calc_anim_duration: function(view, anim_name, speed)  -- hexm/client/ui/windows/task/new_task_detail/task_detail_list_items.lua:24-29
   TaskListTitleItemController: class <TaskListTitleItemController>
     Functions:
       update_content(self, key, data)  -- hexm/client/ui/windows/task/new_task_detail/task_detail_list_items.lua:505-509

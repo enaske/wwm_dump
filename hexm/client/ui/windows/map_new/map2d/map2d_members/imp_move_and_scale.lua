@@ -7,7 +7,7 @@ Keys:
   MAX_DISTANCE: number
   MIN_DISTANCE: number
   MIN_SCALE: number
-  distance_to_scale: function
+  distance_to_scale: function(distance)  -- hexm/client/ui/windows/map_new/map2d/map2d_members/imp_move_and_scale.lua:29-33
   Map2dControllerMember: class <Map2dControllerMember>
     Functions:
       get_map_scale(self)  -- hexm/client/ui/windows/map_new/map2d/map2d_members/imp_move_and_scale.lua:117-119

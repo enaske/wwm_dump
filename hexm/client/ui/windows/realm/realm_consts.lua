@@ -10,7 +10,7 @@ Keys:
   CONTENT_SHOW_MODE_FOLD: number
   TITLE_TAB_IDX_TO_TRADE_ID: dict
   MAIN_BRANCH_TANSUO: number
-  get_attr_item_sys_d: function
+  get_attr_item_sys_d: function(attr_item_no)  -- hexm/client/ui/windows/realm/realm_consts.lua:69-71
   HP_MAX_SKILL_STATE_LOCK: number
   MAIN_BRANCH_WULIN: number
   GROUP_TYPE_INTEREST_SKILL: number
@@ -38,7 +38,7 @@ Keys:
   REALM_TASK_REWARD_STATE_ID: number
   EVENT_ROOM_WORLD_CAMERA_ACTION: string
   CONTENT_SHOW_MODE_EXPAND: number
-  get_hp_max_skill_level_color: function
+  get_hp_max_skill_level_color: function(stage)  -- hexm/client/ui/windows/realm/realm_consts.lua:64-66
   PAGE_NO_REPUTATION: number
   REALM_BLOOK_SKILL_UNLOCK_DB_KEY: string
   CONTENT_SHOW_MODE_NONE: number

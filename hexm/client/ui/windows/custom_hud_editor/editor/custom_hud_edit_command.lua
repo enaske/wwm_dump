@@ -37,4 +37,4 @@ Keys:
       ctor(self, editor, kwargs, from_deserialized)  -- hexm/client/ui/windows/custom_hud_editor/editor/custom_hud_edit_command.lua:19-26
       can_merge(self, editor, new_kwargs)  -- hexm/client/ui/windows/custom_hud_editor/editor/custom_hud_edit_command.lua:40-40
       disable_merge(self)  -- hexm/client/ui/windows/custom_hud_editor/editor/custom_hud_edit_command.lua:45-47
-  get_command_class: function
+  get_command_class: function(command_type)  -- hexm/client/ui/windows/custom_hud_editor/editor/custom_hud_edit_command.lua:215-217

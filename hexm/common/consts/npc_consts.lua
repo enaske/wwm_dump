@@ -7,17 +7,17 @@ Keys:
   NPC_WORK_PRIORITY_INVALID: number
   B_TP_EVENT_DAILY: number
   MENKE_NPC_SPACE_STATE_TYPE_INDUSTRY_EMPTY: number
-  get_default_max_npc_rest: function
+  get_default_max_npc_rest: function(npc_no)  -- hexm/common/consts/npc_consts.lua:1006-1009
   RELATION_PARENT: number
   WANFA_UNLOCK_AUDITION: string
-  get_npc_age: function
+  get_npc_age: function(server_entity)  -- hexm/common/consts/npc_consts.lua:376-392
   NPC_INTERACT_EVENT_BAISHI: number
   NPC_RELATION_HOMETOWN: number
   RELATION_SIBLING: number
   DEBUG_SWITCH: boolean
   NPC_MISSION_STATE_DOING: number
-  get_team_avatars: function
-  get_npc_attr_talent_data: function
+  get_team_avatars: function(space, npc)  -- hexm/common/consts/npc_consts.lua:994-996
+  get_npc_attr_talent_data: function(attr_no)  -- hexm/common/consts/npc_consts.lua:394-421
   TYPE_JUDGE_ALL: number
   MENKE_NPC_SPACE_STATE_TYPE_HOMELAND_EMPLOY_PADDING: number
   NPC_CLONE_TYPE_XDZ: number
@@ -28,18 +28,18 @@ Keys:
   NPC_RELATION_COUPLES: number
   RELATION_DISCIPLE: number
   NPC_WORK_STATE_REST_WAITING: number
-  get_npc_model_attr: function
+  get_npc_model_attr: function(role_info)  -- hexm/common/consts/npc_consts.lua:653-670
   RELATION_STRANGE: number
   RELATION_ENSHENYIZHONG: number
   NPC_MSG_TYPE_WUZI: number
   NPC_RELATION_LIKE: number
   MENKE_NPC_SPACE_STATE_TYPE_IN_PLAYER_BAG: number
-  get_world_owner: function
-  get_default_npc_rest: function
+  get_world_owner: function(space)  -- hexm/common/consts/npc_consts.lua:990-992
+  get_default_npc_rest: function(npc_no)  -- hexm/common/consts/npc_consts.lua:1001-1004
   RELATION_ACQUAINTANCE: number
   BEHAVIOR_DAILY: number
   NPC_MSG_TYPE_RELATION: number
-  get_role_id_and_hostnum: function
+  get_role_id_and_hostnum: function(entity_id)  -- hexm/common/consts/npc_consts.lua:615-622
   NPC_KIDNAP_STATE_PADDING: number
   MON_TYPE_FIXED_MULTI: number
   UTILITY_DEL_ALL: number

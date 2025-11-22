@@ -3,10 +3,10 @@ Type: table
 ================================================================================
 
 Keys:
-  get_node_class: function
-  get_all_node_classes: function
-  actionline_node: function
-  reg_node_class: function
+  get_node_class: function(type_name)  -- hexm/common/actionline/graph/node.lua:112-114
+  get_all_node_classes: function()  -- hexm/common/actionline/graph/node.lua:116-118
+  actionline_node: function(cls)  -- hexm/common/actionline/graph/node.lua:107-110
+  reg_node_class: function(cls)  -- hexm/common/actionline/graph/node.lua:100-105
   Node: class <Node>
     Functions:
       get_input_port_by_name(cls, name)  -- hexm/common/actionline/graph/node.lua:92-94
@@ -24,4 +24,4 @@ Keys:
       has_port_data(self, name)  -- hexm/common/actionline/graph/node.lua:54-56
       connect(self, src_port, end_node, end_port)  -- hexm/common/actionline/graph/node.lua:33-41
       get_input_port_list(cls)  -- hexm/common/actionline/graph/node.lua:84-86
-  create_node: function
+  create_node: function(node_type)  -- hexm/common/actionline/graph/node.lua:120-126

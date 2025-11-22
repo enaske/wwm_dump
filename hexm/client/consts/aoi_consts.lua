@@ -4,7 +4,7 @@ Type: table
 
 Keys:
   FRAME_LIMIT: number
-  is_strategy: function
+  is_strategy: function(strategy, target_strategy)  -- hexm/client/consts/aoi_consts.lua:74-76
   X_SIZE: number
   IMMEDIATE_ENTER_CB: number
   ENTER_AOI: number

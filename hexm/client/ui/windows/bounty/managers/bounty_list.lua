@@ -22,7 +22,7 @@ Keys:
       generate_client_data(self)  -- hexm/client/ui/windows/bounty/managers/bounty_list.lua:221-235
       generate_client_bounties(self, npc_ids, lv2_type, option_id)  -- hexm/client/ui/windows/bounty/managers/bounty_list.lua:237-269
       generate_bounties(self, data)  -- hexm/client/ui/windows/bounty/managers/bounty_list.lua:180-219
-  get_page_limit: function
+  get_page_limit: function()  -- hexm/client/ui/windows/bounty/managers/bounty_list.lua:23-28
   PecuniaryList: class <PecuniaryList>
     Functions:
       check_level(self, player_model)  -- hexm/client/ui/windows/bounty/managers/bounty_list.lua:309-313

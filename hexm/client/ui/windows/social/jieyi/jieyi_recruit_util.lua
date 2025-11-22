@@ -7,17 +7,17 @@ Keys:
   DIRECTED_SORT_ICON: string
   LEVEL2_TAB_POST: string
   SORT_KEY_POST_MEMBER_COUNT: string
-  is_jieyi_request_valid: function
+  is_jieyi_request_valid: function(avatar, ID)  -- hexm/client/ui/windows/social/jieyi/jieyi_recruit_util.lua:494-501
   SORT_KEY_MODE_DEC: number
   SORT_BY_FILTER: list
   BUTTON_TALK_TO_LEADER: dict
   SORT_KEY_PRE_RESPOND_COUNT: string
   SORT_KEY_MODE_INVALID: number
   BUTTON_UNPOST_INFO: dict
-  jieyi_invite_data: function
+  jieyi_invite_data: function()  -- hexm/client/ui/windows/social/jieyi/jieyi_recruit_util.lua:614-632
   PLAYER_MODES: list
   BUTTON_GOTO_RECRUIT: dict
-  is_done_post_info: function
+  is_done_post_info: function()  -- hexm/client/ui/windows/social/jieyi/jieyi_recruit_util.lua:480-483
   CONTENT_MODE_TO_WTYPE: dict
   ITEM_SELECT_RELATE: string
   EVENT_JIEYI_RECRUIT_DEL: string
@@ -43,13 +43,13 @@ Keys:
       get_filter(self, content_mode)  -- hexm/client/ui/windows/social/jieyi/jieyi_recruit_util.lua:555-557
       __tp_call__(klass, ...)  -- hexm/common/util/singleton.lua:11-20
   BUTTON_RECRUIT_REQUEST: dict
-  check_enable_invite: function
+  check_enable_invite: function()  -- hexm/client/ui/windows/social/jieyi/jieyi_recruit_util.lua:634-640
   EVENT_PRETEAM_UPDATE: string
   LEVEL1_TAB_SINGLE: string
   BUTTON_RESPOND_RECRUIT: dict
   BUTTON_EXIT_PRE_RECRUIT: dict
   NON_RECRUIT_PLAYER: string
-  _temp_fix_jieyi_rankings: function
+  _temp_fix_jieyi_rankings: function(rankings, members)  -- hexm/client/ui/windows/social/jieyi/jieyi_recruit_util.lua:642-660
   BUTTON_ADD_FRIEND: dict
   BUTTON_INVITE_PRE_RECRUIT: dict
   POST_RECRUIT_MODE: string

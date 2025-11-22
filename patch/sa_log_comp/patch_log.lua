@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  get_check_ssd: function
+  get_check_ssd: function()  -- patch/sa_log_comp/patch_log.lua:16-21
   PATCH_SUCCESS: number
   PATCH_START: number
   PATCH_FAIL: number

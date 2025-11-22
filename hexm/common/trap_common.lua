@@ -32,6 +32,6 @@ Keys:
       ctor(self, trap_type)  -- hexm/common/trap_common.lua:38-40
       is_random_onlookers_trap(self)  -- hexm/common/trap_common.lua:62-64
       is_gymnastics_trigger_trap(self)  -- hexm/common/trap_common.lua:50-52
-  get_trap_tag_by_trap_type: function
+  get_trap_tag_by_trap_type: function(trap_type)  -- hexm/common/trap_common.lua:145-153
   _reload_all: boolean
   COMMON_TRAP_TAG_CACHE: dict

@@ -4,8 +4,8 @@ Type: table
 
 Keys:
   NPC_FILTER_STOP_REASON: string
-  get_spring_festival_fake_avatar_creation_task_id: function
-  get_npc_max: function
+  get_spring_festival_fake_avatar_creation_task_id: function(avatar_id)  -- hexm/client/entities/local/npc_members/imp_spring_festival_parade_leader.lua:20-22
+  get_npc_max: function()  -- hexm/client/entities/local/npc_members/imp_spring_festival_parade_leader.lua:24-30
   NpcMember: class <NpcMember>
     Functions:
       spring_festival_parade_client_navigate(self, navigate)  -- hexm/client/entities/local/npc_members/imp_spring_festival_parade_leader.lua:340-393

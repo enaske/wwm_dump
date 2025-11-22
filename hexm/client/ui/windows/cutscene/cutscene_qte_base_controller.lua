@@ -42,7 +42,7 @@ Keys:
       register_main_player_op(self)  -- hexm/client/ui/windows/cutscene/cutscene_qte_base_controller.lua:693-695
       process_player_qte_result(self, is_success)  -- hexm/client/ui/windows/cutscene/cutscene_qte_base_controller.lua:697-708
       init(self, kwargs)  -- hexm/client/ui/windows/cutscene/cutscene_qte_base_controller.lua:683-691
-  get_qte_ctrl_and_view: function
+  get_qte_ctrl_and_view: function(kwargs)  -- hexm/client/ui/windows/cutscene/cutscene_qte_base_controller.lua:726-790
   Skill_MOBILE_VIEW_TO_TYPE: dict
   QteClickMobileV3Controller: class <QteClickMobileV3Controller>
     Functions:

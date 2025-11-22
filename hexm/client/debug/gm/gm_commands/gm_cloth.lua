@@ -14,7 +14,7 @@ Keys:
   aix: number
   dpy: number
   lix: number
-  open_debug_panel: function
+  open_debug_panel: function()  -- hexm/client/debug/gm/gm_commands/gm_cloth.lua:429-435
   stif_ver: number
   dpz: number
   stret_she: number
@@ -30,7 +30,7 @@ Keys:
   ady: number
   wind_intensity: number
   liz: number
-  open_soft_bone_monitor_panel: function
+  open_soft_bone_monitor_panel: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
   aiy: number
   dpx: number
   aird: number
@@ -39,9 +39,9 @@ Keys:
   cpl_ben: number
   show_anim_pos: boolean
   ldy: number
-  open_cloth_debug: function
+  open_cloth_debug: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
   stifm_hor: number
-  open_soft_bone_manager_panel: function
+  open_soft_bone_manager_panel: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
   add_cloth_model: string
   friction: number
   stifm_ver: number

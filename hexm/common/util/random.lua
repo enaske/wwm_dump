@@ -24,4 +24,4 @@ Keys:
       ctor(self)  -- hexm/common/util/random.lua:84-86
       recycle_relatest_sample(self)  -- hexm/common/util/random.lua:131-133
       new(...)  -- =[C]
-  get_around_sample_2D: function
+  get_around_sample_2D: function(pos, max_range, min_range)  -- hexm/common/util/random.lua:67-80

@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  parse_jz_rule_desc: function
+  parse_jz_rule_desc: function(rule_id)  -- hexm/client/ui/windows/school/main_page/school_rule_side_page.lua:25-35
   SchoolRuleSidePage: class <SchoolRuleSidePage>
     Functions:
       close(self)  -- hexm/client/ui/windows/school/main_page/school_rule_side_page.lua:56-63

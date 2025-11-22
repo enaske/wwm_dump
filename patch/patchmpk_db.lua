@@ -9,7 +9,7 @@ Keys:
   SQL_CREATE_META_DB: string
   DB_BACKUP_FILENAME: string
   SQL_CREATE_PAK_DB: string
-  delete_db_file: function
+  delete_db_file: function(with_backup)  -- patch/patchmpk_db.lua:40-47
   PatchMpkDB: class <PatchMpkDB>
     Functions:
       forward_single_mpk_bg_info_cursor(self, index, cb)  -- patch/patchmpk_db.lua:268-273

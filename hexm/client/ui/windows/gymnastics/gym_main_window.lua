@@ -23,7 +23,7 @@ Keys:
       init_sequence_block_id(self)  -- hexm/client/ui/windows/gymnastics/gym_main_window.lua:421-421
       ctor(self)  -- hexm/client/ui/windows/gymnastics/gym_main_window.lua:370-374
       after_load(self)  -- hexm/client/ui/windows/gymnastics/gym_main_window.lua:376-383
-  gen_key_config: function
+  gen_key_config: function(pc, ps, xbox)  -- hexm/client/ui/windows/gymnastics/gym_main_window.lua:28-34
   GymMainController: class <GymMainController>
     Functions:
       init(self, kwargs)  -- hexm/client/ui/windows/gymnastics/gym_main_window.lua:261-287

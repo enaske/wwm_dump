@@ -3,8 +3,8 @@ Type: table
 ================================================================================
 
 Keys:
-  GetCinematicsSoundManager: function
-  binary_search: function
+  GetCinematicsSoundManager: function()  -- hexm/client/entities/local/component/cutscene/CinematicsSoundImp.lua:351-358
+  binary_search: function(replay_list, target_time)  -- hexm/client/entities/local/component/cutscene/CinematicsSoundImp.lua:12-26
   CinematicsSoundManager: class <CinematicsSoundManager>
     Functions:
       cutscene_register_sound(self, sound_data)  -- hotfix_20251115-064527:51-133

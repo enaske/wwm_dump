@@ -4,7 +4,7 @@ Type: table
 
 Keys:
   SKILL_ID_ARCHER_SHOOT_FAST: number
-  is_aimable_target: function
+  is_aimable_target: function(avatar, target, mf_id)  -- hexm/common/consts/arrow_consts.lua:111-113
   SKILL_ID_LEAVE_AIR_MODE_JUMP_BACK: number
   AIM_TYPE_NONE: number
   ARROW_PANEL_AIR: number
@@ -36,7 +36,7 @@ Keys:
   AIM_MODE_FAST: number
   ARROW_TAG_MODE: string
   BT_ACTIVE_FLAG: string
-  get_arrows_data: function
+  get_arrows_data: function(space_no)  -- hexm/common/consts/arrow_consts.lua:157-163
   RADIAN_CANCEL_LOCK: string
   EQUIP_WEAPON_NOT_ENOUGH: number
   AIM_MODE_NORMAL: number
@@ -50,7 +50,7 @@ Keys:
   ARROW_ATTACH_BASEBONE: string
   HIT_TYPE_NO_WEAK_ENEMY: number
   SKILL_ID_CANCEL_SKILL_NEWBEI: number
-  get_aim_target_type: function
+  get_aim_target_type: function(avatar, target, mf_id)  -- hexm/common/consts/arrow_consts.lua:84-109
   AIM_TYPE_INTERACT: number
   HORSE_FORBID_SHOOT_CHANGE_HAND: string
   (1 more keys)

@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  get_leader_id: function
+  get_leader_id: function()  -- hexm/client/ui/windows/hud/invitation_room_hud_window.lua:60-65
   VIEW_MODE_FIGHT: string
   INTER: number
   TEAM_APPLY_BTN_KEY_ID: number

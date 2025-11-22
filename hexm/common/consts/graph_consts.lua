@@ -29,7 +29,7 @@ Keys:
   VARIABLE_TYPE_VECTOR3: number
   G_BATTLE_MOTION_TYPE_TELEKINESIS: number
   G_BATTLE_MOTION_TYPE_MOJIN: number
-  transfer_value_str: function
-  pre_process_value: function
+  transfer_value_str: function(var_type_str, value_str)  -- hexm/common/consts/graph_consts.lua:109-126
+  pre_process_value: function(_type, value)  -- hexm/common/consts/graph_consts.lua:86-94
   VARIABLE_SET_FUNC_MAP: dict
   VARIABLE_TYPE_FLOATLIST: number

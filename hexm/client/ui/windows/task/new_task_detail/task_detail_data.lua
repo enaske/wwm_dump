@@ -5,9 +5,9 @@ Type: table
 Keys:
   SORT_FLAG_DISTANCE: number
   STATE_NAME_MAP: list
-  sort_by_flags: function
+  sort_by_flags: function(a, b, sort_flags)  -- hexm/client/ui/windows/task/new_task_detail/task_detail_data.lua:606-615
   SHOW_MODE_GROUP_STATE_MAP: list
-  sort_get_value: function
+  sort_get_value: function(sort_flag, data)  -- hexm/client/ui/windows/task/new_task_detail/task_detail_data.lua:600-604
   SORT_FLAG_STATE: number
   SORT_FLAG_REGION: number
   TaskDetailData: class <TaskDetailData>
@@ -36,13 +36,13 @@ Keys:
       get_task_item_type(self, task_no)  -- hexm/client/ui/windows/task/new_task_detail/task_detail_data.lua:247-253
       append_task_item_data_by_group(self, task_list_func, group_list, avt, tab_no, group_key)  -- hexm/client/ui/windows/task/new_task_detail/task_detail_data.lua:182-212
   GROUP_TITLE_FUNC_MAP: dict
-  calc_target_position: function
+  calc_target_position: function(pos_info)  -- hexm/client/ui/windows/task/new_task_detail/task_detail_data.lua:587-598
   SORT_GET_VALUE_FUNC_MAP: dict
   STATE_FLAG_NOT_FETCHED: number
   SORT_FLAG_TYPE: number
-  get_group_title: function
+  get_group_title: function(sort_flag, val)  -- hexm/client/ui/windows/task/new_task_detail/task_detail_data.lua:630-634
   SORT_FLAG_DEFAULT: number
   STATE_FLAG_DOING: number
   STATE_FLAG_WAIT: number
-  sort_get_distance: function
+  sort_get_distance: function(task_no)  -- hexm/client/ui/windows/task/new_task_detail/task_detail_data.lua:564-585
   STATE_FLAG_FINSHED: number

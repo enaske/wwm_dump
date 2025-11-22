@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  cmp_buff_priority: function
+  cmp_buff_priority: function(buff1, buff2)  -- hexm/client/ui/windows/hangdang/doctor_card_game/doctor_therapy_buff_controller.lua:11-22
   DoctorTherapyBuffController: class <DoctorTherapyBuffController>
     Functions:
       get_reflect_buff(self)  -- hexm/client/ui/windows/hangdang/doctor_card_game/doctor_therapy_buff_controller.lua:206-215

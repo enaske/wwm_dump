@@ -61,7 +61,7 @@ Keys:
       ctor(self, params, director)  -- hexm/client/entities/local/player_avatar_members/imp_fashion_show.lua:229-240
       destroy_object(self)  -- hexm/client/entities/local/player_avatar_members/imp_fashion_show.lua:319-324
       start(self)  -- hexm/client/entities/local/player_avatar_members/imp_fashion_show.lua:273-275
-  get_action_clz: function
+  get_action_clz: function(action_type)  -- hexm/client/entities/local/player_avatar_members/imp_fashion_show.lua:560-570
   ACTION_CLZ_MAP: dict
   ActionTeamShow: class <ActionTeamShow>
     Functions:

@@ -14,7 +14,7 @@ Keys:
   BATCH_MAX_NUM: number
   CHANGE_TYPE_FRIEND: number
   CHANGE_TYPE_BLACK: number
-  is_valid_entity_id: function
+  is_valid_entity_id: function(raw_str)  -- hexm/common/consts/friend_consts.lua:62-68
   CD_INVISIBLE: number
   BAN_OTHER_APPLY: string
   friend_fetch_fields: list

@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  record_gacha_continuous_time: function
+  record_gacha_continuous_time: function(pool_id, draw_times)  -- hexm/client/entities/server/player_avatar_members/imp_gacha.lua:20-34
   PlayerAvatarMember: class <PlayerAvatarMember>
     Functions:
       gacha_pull_cb(self, e_c, extra)  -- hexm/client/entities/server/player_avatar_members/imp_gacha.lua:37-59

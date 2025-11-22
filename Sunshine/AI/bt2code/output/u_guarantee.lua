@@ -3,54 +3,54 @@ Type: table
 ================================================================================
 
 Keys:
-  n02410100_CheckBlackboard: function
-  n012_Parallel: function
-  n02_CBTAlwaysSequenceNode: function
-  n024200_CBTAlwaysSequenceNode: function
-  n000_CBTAlwaysSequenceNode: function
-  n02321_Nop: function
+  n02410100_CheckBlackboard: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:536-545
+  n012_Parallel: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:166-174
+  n02_CBTAlwaysSequenceNode: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:228-242
+  n024200_CBTAlwaysSequenceNode: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:728-736
+  n000_CBTAlwaysSequenceNode: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:35-46
+  n02321_Nop: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:380-384
   TREE_NODES_NUM: number
-  n02410110_CheckBlackboard: function
-  n0240_CheckBlackboard: function
-  n02410111_Nop: function
-  n027_Pause: function
-  n023_CBTAlwaysSequenceNode: function
-  n0004_CBTAlwaysSequenceNode: function
-  n0003_SetBlackboard: function
-  n024101021_PlayAnimAction: function
+  n02410110_CheckBlackboard: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:665-674
+  n0240_CheckBlackboard: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:467-476
+  n02410111_Nop: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:676-680
+  n027_Pause: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:778-782
+  n023_CBTAlwaysSequenceNode: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:317-326
+  n0004_CBTAlwaysSequenceNode: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:96-103
+  n0003_SetBlackboard: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:85-94
+  n024101021_PlayAnimAction: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:617-652
   TREE_NAME: string
-  n0_CBTAlwaysSequenceNode: function
-  n02322_CBTIfElseNode: function
-  n022_PlayAnimAction: function
-  n02320_CheckBlackboard: function
-  n00_PassNode: function
-  n024101121_PopBlackboard: function
-  n011_CBTAlwaysSequenceNode: function
-  n024101010_PlayAnimAction: function
-  n0120_WaitRandom: function
-  n0241011_CBTIfElseNode: function
-  n023220_CheckBlackboard: function
-  n0001_GetEntityAttr: function
-  n024101_CBTAlwaysSequenceNode: function
-  n0210_ExecuteBtree: function
-  n02420_CBTAlwaysSequenceNode: function
-  n0242000_RandomFromBlackboard: function
-  n02410102_CBTAlwaysSequenceNode: function
-  n0110_ExecuteBtree: function
-  n0232_CBTIfElseNode: function
-  n025_Wait: function
-  n024101020_RandomFromBlackboard: function
-  n0241010_CBTIfElseNode: function
+  n0_CBTAlwaysSequenceNode: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:11-20
+  n02322_CBTIfElseNode: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:386-395
+  n022_PlayAnimAction: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:280-315
+  n02320_CheckBlackboard: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:369-378
+  n00_PassNode: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:22-33
+  n024101121_PopBlackboard: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:701-708
+  n011_CBTAlwaysSequenceNode: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:148-155
+  n024101010_PlayAnimAction: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:556-591
+  n0120_WaitRandom: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:176-182
+  n0241011_CBTIfElseNode: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:654-663
+  n023220_CheckBlackboard: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:397-406
+  n0001_GetEntityAttr: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:59-72
+  n024101_CBTAlwaysSequenceNode: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:515-523
+  n0210_ExecuteBtree: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:271-278
+  n02420_CBTAlwaysSequenceNode: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:719-726
+  n0242000_RandomFromBlackboard: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:738-750
+  n02410102_CBTAlwaysSequenceNode: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:593-601
+  n0110_ExecuteBtree: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:157-164
+  n0232_CBTIfElseNode: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:358-367
+  n025_Wait: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:761-769
+  n024101020_RandomFromBlackboard: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:603-615
+  n0241010_CBTIfElseNode: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:525-534
   NODE_DATA_CACHE: table <UnknownInstance>
-  n020_CBTAlwaysSequenceNode: function
-  n01_CBTAlwaysSequenceNode: function
-  n0231_GetTableValue: function
-  n0121_PlayAnimAction: function
-  n0241000_CheckTimer: function
-  n0232211_ShowBillboardTextNode: function
-  n013_ReturnToParentTree: function
-  n02410112_CBTAlwaysSequenceNode: function
-  n0002_SetBlackboard: function
-  n023222_Nop: function
-  n0100_GetEntityAIData: function
+  n020_CBTAlwaysSequenceNode: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:244-251
+  n01_CBTAlwaysSequenceNode: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:114-124
+  n0231_GetTableValue: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:343-356
+  n0121_PlayAnimAction: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:184-219
+  n0241000_CheckTimer: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:506-513
+  n0232211_ShowBillboardTextNode: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:432-448
+  n013_ReturnToParentTree: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:221-226
+  n02410112_CBTAlwaysSequenceNode: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:682-690
+  n0002_SetBlackboard: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:74-83
+  n023222_Nop: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:450-454
+  n0100_GetEntityAIData: function()  -- Sunshine/AI/bt2code/output/u_guarantee.lua:135-146
   (1 more keys)

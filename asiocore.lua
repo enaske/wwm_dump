@@ -3,12 +3,12 @@ Type: table
 ================================================================================
 
 Keys:
-  get_props_profile_period: function
-  get_default_zstd_compress_level: function
-  get_class: function
-  b64decode: function
-  set_kcp_sync_magic: function
-  get_kcp_vginfo: function
+  get_props_profile_period: function(...)  -- =[C]
+  get_default_zstd_compress_level: function(...)  -- =[C]
+  get_class: function(...)  -- =[C]
+  b64decode: function(...)  -- =[C]
+  set_kcp_sync_magic: function(...)  -- =[C]
+  get_kcp_vginfo: function(...)  -- =[C]
   udp_ping: class <udp_ping>
     Functions:
       ping(...)  -- =[C]
@@ -18,8 +18,8 @@ Keys:
       set_count(...)  -- =[C]
       get_timeout(...)  -- =[C]
       new(...)  -- =[C]
-  get_lua_callback_execute_stats: function
-  get_string_indexes: function
+  get_lua_callback_execute_stats: function(...)  -- =[C]
+  get_string_indexes: function(...)  -- =[C]
   setting: class <setting>
     Functions:
       get_dist_aoi(...)  -- =[C]
@@ -52,20 +52,20 @@ Keys:
       get_enable_zstd(...)  -- =[C]
       set_area_map_bucket_hint(...)  -- =[C]
       get_pos_ignore(...)  -- =[C]
-  get_prop_index: function
-  get_tcp_keepcnt: function
-  get_timer_info: function
-  set_login_key: function
-  get_fec_grade_symbol_len: function
-  set_tcp_keepcnt: function
-  get_snd_share_count: function
+  get_prop_index: function(...)  -- =[C]
+  get_tcp_keepcnt: function(...)  -- =[C]
+  get_timer_info: function(...)  -- =[C]
+  set_login_key: function(...)  -- =[C]
+  get_fec_grade_symbol_len: function(...)  -- =[C]
+  set_tcp_keepcnt: function(...)  -- =[C]
+  get_snd_share_count: function(...)  -- =[C]
   KCP_FEC_REED_SOLOMON: number
-  set_snd_share_count: function
-  stamp: function
-  kcp_set_poll_interval: function
-  set_default_zstd_compress_level: function
-  set_max_frame_us: function
-  enabled_pos_unreliable: function
+  set_snd_share_count: function(...)  -- =[C]
+  stamp: function(...)  -- =[C]
+  kcp_set_poll_interval: function(...)  -- =[C]
+  set_default_zstd_compress_level: function(...)  -- =[C]
+  set_max_frame_us: function(...)  -- =[C]
+  enabled_pos_unreliable: function(...)  -- =[C]
   bhttps_client: class <bhttps_client>
     Functions:
       get_keep_alive(...)  -- =[C]
@@ -109,27 +109,27 @@ Keys:
       set_local_ip(...)  -- =[C]
       get_buffer_size(...)  -- =[C]
       get_local_ip(...)  -- =[C]
-  get_classes: function
-  set_prop_index: function
-  set_fec_max_level: function
-  get_kcp_ignore_socket_error: function
-  get_thread_num: function
-  get_props_profile_result: function
-  set_kcp_ignore_socket_error: function
-  get_fec_switch: function
-  start_worker_delay_timer: function
-  revision: function
-  get_fec_max_level: function
-  set_kcp_newstyle_handshake: function
-  get_debug_rpc: function
-  set_fec_rate: function
-  set_fec_switch: function
-  set_thread_num: function
-  get_kcp_sync_magic: function
-  _debug_only_do_not_call_it_crashes_: function
+  get_classes: function(...)  -- =[C]
+  set_prop_index: function(...)  -- =[C]
+  set_fec_max_level: function(...)  -- =[C]
+  get_kcp_ignore_socket_error: function(...)  -- =[C]
+  get_thread_num: function(...)  -- =[C]
+  get_props_profile_result: function(...)  -- =[C]
+  set_kcp_ignore_socket_error: function(...)  -- =[C]
+  get_fec_switch: function(...)  -- =[C]
+  start_worker_delay_timer: function(...)  -- =[C]
+  revision: function(...)  -- =[C]
+  get_fec_max_level: function(...)  -- =[C]
+  set_kcp_newstyle_handshake: function(...)  -- =[C]
+  get_debug_rpc: function(...)  -- =[C]
+  set_fec_rate: function(...)  -- =[C]
+  set_fec_switch: function(...)  -- =[C]
+  set_thread_num: function(...)  -- =[C]
+  get_kcp_sync_magic: function(...)  -- =[C]
+  _debug_only_do_not_call_it_crashes_: function(...)  -- =[C]
   IS_CLIENT_ONLY: number
-  time: function
-  get_fec_rate: function
+  time: function(...)  -- =[C]
+  get_fec_rate: function(...)  -- =[C]
   area: class <area>
     Functions:
       get_id(...)  -- =[C]
@@ -182,6 +182,6 @@ Keys:
       owner(...)  -- =[C]
       get_scopeno(...)  -- =[C]
       get_space(...)  -- =[C]
-  add_timer: function
-  set_props_profile_period: function
+  add_timer: function(...)  -- =[C]
+  set_props_profile_period: function(...)  -- =[C]
   (1 more keys)

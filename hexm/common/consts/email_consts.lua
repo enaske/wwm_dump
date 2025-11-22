@@ -28,7 +28,7 @@ Keys:
   QUDAO_SINGLE_HOSTNUM: list
   DB_QUERY_MAIL_TYPES: list
   TRAN_EMAIL: number
-  get_request_cross_interval: function
+  get_request_cross_interval: function(init_completed)  -- hexm/common/consts/email_consts.lua:137-143
   DB_STATE_PENDING: number
   EMAIL_CONTENT_ARGS_TYPE_ORIGIN: string
   EMAIL_TIMER_GLOBAL_MAIL_PROCESS: string

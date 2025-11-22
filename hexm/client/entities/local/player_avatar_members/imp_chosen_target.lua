@@ -21,7 +21,7 @@ Keys:
       on_player_remove(self, entity)  -- hexm/client/entities/local/player_avatar_members/imp_chosen_target.lua:676-683
       _handle_other_player_enter_range(self, entity_id, str_flag, trigger_info)  -- hexm/client/entities/local/player_avatar_members/imp_chosen_target.lua:639-651
       set_target(self, entity)  -- hexm/client/entities/local/player_avatar_members/imp_chosen_target.lua:750-761
-  is_smart_ai_npc: function
+  is_smart_ai_npc: function(entity)  -- hexm/client/entities/local/player_avatar_members/imp_chosen_target.lua:22-24
   PlayerTargetInteract: class <PlayerTargetInteract>
     Functions:
       init_scene_interact(self, data)  -- hexm/client/entities/local/player_avatar_members/imp_chosen_target.lua:784-788

@@ -30,8 +30,8 @@ Keys:
       add_region_polygon_unit(self, engine_rid, pos_list, region_height)  -- hexm/client/manager/region_manager.lua:81-96
       get_rgid_to_rids_map(self)  -- hexm/client/manager/region_manager.lua:197-199
       add_region_unit_cuboid(self, engine_rid, pos_list)  -- hexm/client/manager/region_manager.lua:98-112
-  __form_region_data_list: function
-  __convert_point_list_to_vector3_list: function
+  __form_region_data_list: function(region_data_table)  -- hexm/client/manager/region_manager.lua:29-42
+  __convert_point_list_to_vector3_list: function(point_list)  -- hexm/client/manager/region_manager.lua:17-27
   RegionManager: class <RegionManager>
     Functions:
       get_region_set(self, space_no)  -- hexm/client/manager/region_manager.lua:656-668

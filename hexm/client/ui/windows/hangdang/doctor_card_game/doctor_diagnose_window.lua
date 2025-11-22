@@ -10,7 +10,7 @@ Keys:
       set_disease_no(self, disease_no)  -- hexm/client/ui/windows/hangdang/doctor_card_game/doctor_diagnose_window.lua:47-47
       is_special_disease(self)  -- hexm/client/ui/windows/hangdang/doctor_card_game/doctor_diagnose_window.lua:51-51
       new(...)  -- =[C]
-  cmp_buff: function
+  cmp_buff: function(x, y)  -- hexm/client/ui/windows/hangdang/doctor_card_game/doctor_diagnose_window.lua:33-40
   DoctorDiagnoseWindow: class <DoctorDiagnoseResultWindow>
     Functions:
       process_view_replace_rule(self, view_cls)  -- hexm/client/ui/windows/hangdang/doctor_card_game/doctor_diagnose_window.lua:794-796

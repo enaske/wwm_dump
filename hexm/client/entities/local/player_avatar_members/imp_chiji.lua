@@ -8,7 +8,7 @@ Keys:
   CHIJI_TUTORIAL_MODE_DETAILED: number
   DYING_TRACE_NO: number
   DYING_HUD_VX_TAG: string
-  get_chiji_spectator_env_group: function
+  get_chiji_spectator_env_group: function()  -- hexm/client/entities/local/player_avatar_members/imp_chiji.lua:51-53
   DYING_TRACE_GUIDE_PERIOD: number
   CHIJI_TUTORIAL_MODE_SIMPLE: number
   CHIJI_SPECTATOR_OPEN_WINDOWS: dict

@@ -41,11 +41,11 @@ Keys:
       start(self, graph)  -- hexm/common/actionline/nodes/branch_sync_nodes.lua:1652-1663
   ConditionListenCue: class <ConditionListenCue>
     Functions:
-      reboot(self, graph, kwargs)  -- hexm/common/actionline/nodes/branch_sync_nodes.lua:820-823
       on_cue_callback(self, graph, d)  -- hexm/common/actionline/nodes/branch_sync_nodes.lua:793-804
+      reboot(self, graph, kwargs)  -- hexm/common/actionline/nodes/branch_sync_nodes.lua:820-823
+      start(self, graph)  -- hexm/common/actionline/nodes/branch_sync_nodes.lua:761-779
       ctor(self)  -- hexm/common/actionline/nodes/branch_sync_nodes.lua:749-758
       release(self, context)  -- hexm/common/actionline/nodes/branch_sync_nodes.lua:781-791
-      start(self, graph)  -- hexm/common/actionline/nodes/branch_sync_nodes.lua:761-779
   ListenCue: class <ListenCue>
     Functions:
       on_cue_callback(self, graph, d)  -- hexm/common/actionline/nodes/branch_sync_nodes.lua:715-727
@@ -72,10 +72,10 @@ Keys:
   DistanceBranch: class <DistanceBranch>
     Functions:
       check_dis(self, context, entity)  -- hexm/common/actionline/nodes/branch_sync_nodes.lua:1001-1049
+      check_request_reboot(self, entity)  -- hexm/common/actionline/nodes/branch_sync_nodes.lua:977-993
       reboot(self, graph, kwargs)  -- hexm/common/actionline/nodes/branch_sync_nodes.lua:1051-1057
       start(self, graph)  -- hexm/common/actionline/nodes/branch_sync_nodes.lua:959-970
       ctor(self)  -- hexm/common/actionline/nodes/branch_sync_nodes.lua:949-957
-      check_request_reboot(self, entity)  -- hexm/common/actionline/nodes/branch_sync_nodes.lua:977-993
       on_timeout(self, context, entity, sync_id)  -- hexm/common/actionline/nodes/branch_sync_nodes.lua:996-999
   AttackResultBranch: class <AttackResultBranch>
     Functions:

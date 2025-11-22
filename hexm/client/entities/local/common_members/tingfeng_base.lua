@@ -8,8 +8,8 @@ Keys:
   STROKE_TAG_FILTER: instance
   _default_init_data_false: dict
   CONST_LISTEN_TAG_CONFIG_SQUENCE: dict
-  init_const_data: function
-  tingfeng_get_listen_tag_color: function
+  init_const_data: function()  -- hexm/client/entities/local/common_members/tingfeng_base.lua:22-44
+  tingfeng_get_listen_tag_color: function(color_seq)  -- hexm/client/entities/local/common_members/tingfeng_base.lua:454-470
   CONST_TINGFENG_DATA: dict
   TingfengBase: class <TingfengBase>
     Functions:

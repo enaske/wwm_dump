@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  randrangef: function
+  randrangef: function(rng, l, r)  -- hexm/common/combat/damage_manager.lua:1254-1259
   DamageManager: class <DamageManager>
     Functions:
       _record_calc_env(self, attacker, name, env)  -- hexm/common/combat/damage_manager.lua:798-842
@@ -37,5 +37,5 @@ Keys:
       _filter_targets_by_dir(self, cal_yaw, calc_id, targets)  -- hexm/common/combat/damage_manager.lua:143-179
       error(self, msg, ...)  -- hexm/common/combat/damage_manager.lua:269-271
       check_final_ratio(self, target, result_id, context, adjust_params)  -- hexm/common/combat/damage_manager.lua:645-672
-  gen_default_context: function
+  gen_default_context: function(attacker, cal_id, skill_id, identifier)  -- hexm/common/combat/damage_manager.lua:1227-1252
   CONFIG_TABLES: table <UnknownInstance>

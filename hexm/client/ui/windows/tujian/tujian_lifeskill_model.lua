@@ -72,4 +72,4 @@ Keys:
       ctor(self, unlock_type_id, outside_skill)  -- hexm/client/ui/windows/tujian/tujian_lifeskill_model.lua:271-275
       get_unlock_material_list(self)  -- hexm/client/ui/windows/tujian/tujian_lifeskill_model.lua:293-295
       get_unlock_jianghu_skill_list(self)  -- hexm/client/ui/windows/tujian/tujian_lifeskill_model.lua:297-299
-  get_left_skill_level_by_school_no: function
+  get_left_skill_level_by_school_no: function(school_no)  -- hexm/client/ui/windows/tujian/tujian_lifeskill_model.lua:384-392

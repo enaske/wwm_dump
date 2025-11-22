@@ -23,7 +23,7 @@ Keys:
     Functions:
       setup_page(self, page_data)  -- hexm/client/ui/windows/map_new/map_ui/marker_filter_side_page.lua:48-56
       init(self, kwargs)  -- hexm/client/ui/windows/map_new/map_ui/marker_filter_side_page.lua:44-46
-  plugin_show_state_check: function
+  plugin_show_state_check: function(plugin_id, max_progress)  -- hexm/client/ui/windows/map_new/map_ui/marker_filter_side_page.lua:347-366
   FILTER_MODE_CHIJI: number
   MarkerFilterSidePage: class <MarkerFilterSidePage>
     Functions:

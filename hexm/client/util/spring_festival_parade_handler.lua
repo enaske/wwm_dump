@@ -4,19 +4,19 @@ Type: table
 
 Keys:
   SLOGAN_TYPE_HALF_PRESET: number
-  get_spring_festival_parade_prop: function
-  get_spring_festival_parade_slogan_speaker: function
-  get_spring_festival_parade_state: function
-  get_leader_npc: function
-  get_spring_festival_parade_slogan_txt: function
-  get_leader_npc_serial_no: function
+  get_spring_festival_parade_prop: function()  -- hexm/client/util/spring_festival_parade_handler.lua:53-59
+  get_spring_festival_parade_slogan_speaker: function()  -- hexm/client/util/spring_festival_parade_handler.lua:84-95
+  get_spring_festival_parade_state: function()  -- hexm/client/util/spring_festival_parade_handler.lua:61-68
+  get_leader_npc: function()  -- hexm/client/util/spring_festival_parade_handler.lua:46-51
+  get_spring_festival_parade_slogan_txt: function()  -- hexm/client/util/spring_festival_parade_handler.lua:75-82
+  get_leader_npc_serial_no: function()  -- hexm/client/util/spring_festival_parade_handler.lua:37-44
   SLOGAN_TYPE_NOT_PRESET: number
-  get_leader_slogan_next_start_ts: function
-  check_spring_festival_parade_enable: function
-  check_spring_festival_parade_space: function
-  check_player_in_spring_festival_parade: function
-  get_all_slogan_follower_ids: function
-  check_is_slogan_follower: function
+  get_leader_slogan_next_start_ts: function()  -- hexm/client/util/spring_festival_parade_handler.lua:70-73
+  check_spring_festival_parade_enable: function()  -- hexm/client/util/spring_festival_parade_handler.lua:21-28
+  check_spring_festival_parade_space: function()  -- hexm/client/util/spring_festival_parade_handler.lua:30-35
+  check_player_in_spring_festival_parade: function(player_id)  -- hexm/client/util/spring_festival_parade_handler.lua:109-112
+  get_all_slogan_follower_ids: function()  -- hexm/client/util/spring_festival_parade_handler.lua:114-126
+  check_is_slogan_follower: function(player_id)  -- hexm/client/util/spring_festival_parade_handler.lua:128-138
   SpringFestivalParadeHandler: class <SpringFestivalParadeHandler>
     Functions:
       get_parade_slogan_speaker(self)  -- hexm/client/util/spring_festival_parade_handler.lua:268-270
@@ -57,5 +57,5 @@ Keys:
       _get_follower_slogan_no(self)  -- hexm/client/util/spring_festival_parade_handler.lua:322-328
       check_in_pure_local_mode(self)  -- hexm/client/util/spring_festival_parade_handler.lua:185-195
       parade_local_slogan_loop(self)  -- hexm/client/util/spring_festival_parade_handler.lua:241-250
-  get_spring_festival_parade_member_ids: function
+  get_spring_festival_parade_member_ids: function()  -- hexm/client/util/spring_festival_parade_handler.lua:97-107
   SLOGAN_TYPE_TOTAL_PRESET: number

@@ -3,33 +3,33 @@ Type: table
 ================================================================================
 
 Keys:
-  merge_property: function
-  check_english_char: function
-  check_chinese_char: function
-  check_roman_number_char: function
-  get_text_length: function
-  convert_dict_to_table: function
-  eval_no_excepthook: function
-  get_oversea_text_length: function
-  utf8len: function
-  convert_list_to_table: function
-  eid2oid: function
-  eval_hotfix: function
-  check_latin_char: function
-  _sift_down: function
-  get_python_type_recursive: function
-  compare_event_params: function
-  test_custom_heap: function
-  custom_heap_push: function
-  get_char_length: function
-  property_set_flag: function
-  _sift_up: function
-  all_bits: function
-  property_flags_cancel_persistent: function
-  check_korean_char: function
-  pop_property: function
-  check_extended_latin_char: function
-  json_dumps: function
+  merge_property: function(dst, src, change_flag, match_flag)  -- hexm/common/util/util.lua:84-113
+  check_english_char: function(code)  -- hexm/common/util/util.lua:676-680
+  check_chinese_char: function(code)  -- hexm/common/util/util.lua:632-642
+  check_roman_number_char: function(code)  -- hexm/common/util/util.lua:658-661
+  get_text_length: function(text)  -- hexm/common/util/util.lua:724-737
+  convert_dict_to_table: function(dict_data)  -- hexm/common/util/util.lua:553-569
+  eval_no_excepthook: function(expr, env, scope_name)  -- hexm/common/util/util.lua:467-482
+  get_oversea_text_length: function(text)  -- hexm/common/util/util.lua:694-707
+  utf8len: function(input)  -- hexm/common/util/util.lua:609-629
+  convert_list_to_table: function(list_data)  -- hexm/common/util/util.lua:571-586
+  eid2oid: function(entity_id)  -- hexm/common/util/util.lua:12-17
+  eval_hotfix: function(expr, env, scope_name)  -- hexm/common/util/util.lua:447-465
+  check_latin_char: function(code)  -- hexm/common/util/util.lua:671-674
+  _sift_down: function(heap, startpos, pos)  -- hexm/common/util/util.lua:302-322
+  get_python_type_recursive: function(attr)  -- hexm/common/util/util.lua:32-55
+  compare_event_params: function(data, design_data)  -- hexm/common/util/util.lua:493-550
+  test_custom_heap: function()  -- hexm/common/util/util.lua:349-391
+  custom_heap_push: function(heap, item)  -- hexm/common/util/util.lua:268-274
+  get_char_length: function(char)  -- hexm/common/util/util.lua:682-692
+  property_set_flag: function(cls, flag)  -- hexm/common/util/util.lua:73-82
+  _sift_up: function(heap, pos)  -- hexm/common/util/util.lua:324-347
+  all_bits: function(d)  -- hexm/common/math/bmath.lua:70-81
+  property_flags_cancel_persistent: function(cls)  -- hexm/common/util/util.lua:57-71
+  check_korean_char: function(code)  -- hexm/common/util/util.lua:653-656
+  pop_property: function(dst, prop)  -- hexm/common/util/util.lua:115-121
+  check_extended_latin_char: function(code)  -- hexm/common/util/util.lua:663-669
+  json_dumps: function(d, indent)  -- hexm/common/util/util.lua:588-607
   Dict: class <Dict>
     Functions:
       __index(self, k)  -- hexm/common/util/util.lua:174-176
@@ -48,11 +48,11 @@ Keys:
       contains(self, k)  -- hexm/common/util/util.lua:206-208
       get(self, k, v)  -- hexm/common/util/util.lua:198-200
       new(...)  -- =[C]
-  get_bit: function
-  toCustomType: function
-  to_dict: function
-  valid_number: function
-  eval: function
+  get_bit: function(d, index)  -- hexm/common/math/bmath.lua:36-46
+  toCustomType: function(data)  -- hexm/common/util/util.lua:144-163
+  to_dict: function(t)  -- hexm/common/util/util.lua:256-265
+  valid_number: function(v)  -- hexm/common/util/util.lua:19-30
+  eval: function(expr, env, scope_name)  -- hexm/common/util/util.lua:431-445
   CODE_CACHE: table <UnknownInstance>
     Functions:
       17d1077f1c67466b21a44999c395725fadbd469e53522e99bcd0e5f91032f65e(...)  -- hotfix_20251118-205558
@@ -80,6 +80,11 @@ Keys:
       d3085bd343f15696bb5e813a879cb65f17053b81e7d2783f9cf5ab7dd77c859e(...)  -- hotfix_20251118-205114
       26e7f575e0eecbcd89fd9c6ec30a1582b54646a2bde1fb2b398bd80972e148e6(...)  -- hotfix_20251115-213457
       267287f5c7f4da2bd18210738c8e0eefc919cc05ea66fa591373ba119f992436(...)  -- hotfix_20251117-163524
+      871361c2b59b2c4621082dfe9d52244a3468388cdb1d617e5cae57a9f3c0eb4a(...)  -- return dict(pc=0x10, xbox=0x5C, ps=0x5C)
+      10724289aae8bf0daefe38c20a4f9ef2135bceb66a1a7efcabf87b5eb1f59126(...)  -- hotfix_20251116-172603
+      339(...)  -- return 339
+      340(...)  -- return 340
+      341(...)  -- return 341
       211(...)  -- return 211
       30d017c3f31ddb78a8a9f1d0e8706c019ff80ac0d2eeab75e945556726632a88(...)  -- hotfix_20251115-103659
       31590d9da6f5a9ec7b0ba150054c65a0fcb96587108532078126a898444136b8(...)  -- hotfix_20251118-183526
@@ -100,15 +105,10 @@ Keys:
       dccd7ead6ecac81eb1ccf206eaa649fe1c69f83d00dbd675e4b33ae2b81f2e9e(...)  -- hotfix_20251114-190958
       9c2135519cce198080fd73265ca1dcdd2317311b7ecb3943530c20fc42bb6e20(...)  -- hotfix_20251120-144119
       739d5a13df41ccaffbcb16e6859e52e4f8cc3d261f18cbe629acbc1079e42f89(...)  -- hotfix_20251115-220022
-      7434e383c1d136f72699d8395a9edbbfd698254dd41c0e83c05e6d29e3a8eb4f(...)  -- hotfix_20251116-163225
-      31d8b2f24de89ebadb0e7d89161c0deea42d61080ea7c8143be124ff528a39af(...)  -- hotfix_20251114-184215
-      0de64c492fd43c3684fb3679465c67cf8cdf5f49c8244e5117708b915c201668(...)  -- hotfix_20251122-161905
-      9c1865ae0dae896943f7b440ff7872db768608e02ee523540dde9d6d43672c2b(...)  -- hotfix_20251121-152248
-      08a9743256d77f4746063064335564c72ee2bc4c356f5f88ab34a4e3435b8db1(...)  -- hotfix_20251115-000443
-  get_avatars: function
-  method: function
-  set_bit: function
-  check_japanese_char: function
-  exec: function
-  custom_heap_pop: function
-  ensure_table: function
+  get_avatars: function()  -- hexm/common/util/util.lua:484-486
+  method: function(func, ins)  -- hexm/common/util/util.lua:397-401
+  set_bit: function(d, index, bit_value)  -- hexm/common/math/bmath.lua:49-68
+  check_japanese_char: function(code)  -- hexm/common/util/util.lua:644-651
+  exec: function(expr, env, scope_name)  -- hexm/common/util/util.lua:431-445
+  custom_heap_pop: function(heap, idx)  -- hexm/common/util/util.lua:276-300
+  ensure_table: function(data)  -- hexm/common/util/util.lua:123-142

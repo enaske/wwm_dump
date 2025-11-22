@@ -9,7 +9,7 @@ Keys:
   E_QUES_LIKEUNLIKE: number
   TAG_TYPE_XIUWEI: number
   STAGE_SHOW_RES: number
-  get_next_priority_name_tags: function
+  get_next_priority_name_tags: function(cur_priority)  -- hexm/common/consts/wenshi_answer_consts.lua:90-110
   SYNC_ANS_STAT_TIME: number
   E_ANS_STAT_NOTIFY: number
   E_DRINK_TEA: number
@@ -20,7 +20,7 @@ Keys:
   E_SEND_TEA: number
   STATE_IDLE: number
   STAGE_ANSWER: number
-  is_in_answer_game: function
+  is_in_answer_game: function(avatar)  -- hexm/common/consts/wenshi_answer_consts.lua:85-88
   E_PAIR_SUCC: number
   TAG_TYPE_UPVOTE: number
   QUESTION_CATE_MATH: number
@@ -48,6 +48,6 @@ Keys:
   E_ANSWER_QUESTION: number
   E_START_PAIR_MATCH: number
   E_GET_PLAYER_LIST: number
-  get_id_by_weight: function
+  get_id_by_weight: function(ques_ids, ques_weights, pick_num, can_repeat)  -- hexm/common/consts/wenshi_answer_consts.lua:112-167
   E_LEAVE_ANSWER: number
   TAG_TYPE_ACHIEVEMENT: number

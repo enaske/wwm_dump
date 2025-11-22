@@ -5,7 +5,7 @@ Type: table
 Keys:
   BTN_MODE_MENU: number
   BTN_TYPE_DRAGON_INN: number
-  restart_fuben: function
+  restart_fuben: function()  -- hexm/client/ui/windows/home/home_tip_controller/home_tip_consts.lua:94-109
   BTN_TYPE_LUNJIAN: number
   CLICK_BUBBLE_FLOAT: string
   BTN_TYPE_NORMAL: number
@@ -24,7 +24,7 @@ Keys:
   BTN_TYPE_FENBAO_DONWNLOAD: number
   BTN_TYPE_TOOLBAR_DRAGON_ARENA_WATCH_QUEUE: number
   BTN_TYPE_TOOLBAR_CLUB_BOSS_AND_ARENA: number
-  get_btn_controller_clz: function
+  get_btn_controller_clz: function(btn_key)  -- hexm/client/ui/windows/home/home_tip_controller/home_tip_consts.lua:76-92
   BTN_MODE_NORMAL: number
   BTN_TYPE_TOOLBAR_CLUB_WATCH_QUEUE: number
   BTN_TYPE_TOOLBAR: number

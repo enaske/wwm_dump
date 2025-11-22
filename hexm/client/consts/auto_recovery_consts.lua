@@ -14,9 +14,9 @@ Keys:
   RECOVERY_BAG_TYPE2ATTR_NAME: dict
   STUFF_BAG_PAGE_FOOD: number
   E_SHOW_AUTO_RECOVERY_EDIT_PAGE: string
-  get_curr_auto_recovery_stuff: function
+  get_curr_auto_recovery_stuff: function()  -- hexm/client/consts/auto_recovery_consts.lua:15-31
   AUTO_RECOVERY_LIMIT_BATTLE_PASS_BUY: number
-  get_recovery_type_by_joystick_index: function
+  get_recovery_type_by_joystick_index: function(index)  -- hexm/client/consts/auto_recovery_consts.lua:41-48
   UNLOCK_ID: number
   AUTO_RECOVERY_LIMIT_DRUG_LEVEL_UP_RECOVER: number
   SKILL_SLOT_NO: number
@@ -30,4 +30,4 @@ Keys:
   RECOVER_LIMIT_MODE_INIT: number
   AUTO_RECOVERY_LIMIT_ENTER_RECOVER: number
   AUTO_RECOVERY_LIMIT_DEAD_RECOVER: number
-  is_stuff_equipped: function
+  is_stuff_equipped: function(stuff_no, avatar)  -- hexm/client/consts/auto_recovery_consts.lua:33-39

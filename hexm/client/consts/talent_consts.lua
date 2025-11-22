@@ -6,29 +6,29 @@ Keys:
   TALENT_POINT_NAME_DICT: dict
   TALENT_BATTLE_REWARD: string
   BATTLE_TALENT_SCORE_NO: number
-  check_node_unlock: function
-  check_node_group_up_state: function
+  check_node_unlock: function(node_id)  -- hexm/client/consts/talent_consts.lua:75-103
+  check_node_group_up_state: function(node_group_id)  -- hexm/client/consts/talent_consts.lua:128-149
   TALENT_TYPE_ZG: number
-  check_boss_talent_is_lock: function
+  check_boss_talent_is_lock: function()  -- hexm/client/consts/talent_consts.lua:71-73
   TALENT_TYPE_XJ: number
-  get_node_group_cur_level: function
-  get_talent_node_view_and_controller: function
+  get_node_group_cur_level: function(node_id)  -- hexm/client/consts/talent_consts.lua:105-113
+  get_talent_node_view_and_controller: function(icon_type)  -- hexm/client/consts/talent_consts.lua:151-171
   NODE_STATE_UNLOCK: number
   NODE_STATE_ACTIVATED: number
   TALENT_POINT_RED_POINT: string
   TALENT_ICON_DICT: dict
   TALENT_TYPE_BASE: number
   TALENT_POINT_RED_POINT_DICT: dict
-  refresh_talent_point_name_dict: function
-  check_battle_talent_is_lock: function
+  refresh_talent_point_name_dict: function()  -- hexm/client/consts/talent_consts.lua:173-179
+  check_battle_talent_is_lock: function()  -- hexm/client/consts/talent_consts.lua:67-69
   ROTATION_SIZE: number
   NODE_STATE_CLOSED: number
-  check_talent_is_lock: function
+  check_talent_is_lock: function()  -- hexm/client/consts/talent_consts.lua:63-65
   TALENT_RED_POINT_BOSS_REWARD: string
   TALENT_POINT_ICON_DICT: dict
   BASE_TALENT_SCORE_NO: number
   NODE_STATE_COLOR: dict
-  check_before_node_unlock: function
+  check_before_node_unlock: function(node_id)  -- hexm/client/consts/talent_consts.lua:115-126
   TALENT_RED_POINT_BOSS_UNLOCK: string
   NODE_SPLENDOR_STATE_COLOR: dict
   NODE_STATE_LOCKED: number

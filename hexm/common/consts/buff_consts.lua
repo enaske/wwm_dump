@@ -5,14 +5,14 @@ Type: table
 Keys:
   BUFF_SHOW_LIMIT_BOSS: number
   ERR_OK: number
-  forbid_buff_op_deque: function
+  forbid_buff_op_deque: function(sys_d)  -- hexm/common/consts/buff_consts.lua:182-187
   ERR_ADD_NOT_READY: number
   SPEC_JUDGE_BY_CLS: string
   IMMUNE_BY_GROUP: number
   CHANGE_FACE: string
   LOADING_OVER_CLEAR_BUFFS: list
   MIN_DURATION: number
-  is_fake_remove_buff_mark: function
+  is_fake_remove_buff_mark: function(buff_no)  -- hexm/common/consts/buff_consts.lua:202-204
   ERR_ADD_DEAD: number
   CALC_CAUSE_CHANGE_SUM: string
   MAX_BUFF_NUM: number
@@ -30,10 +30,10 @@ Keys:
   GM_BNO_INVINCIBLE: number
   ERR_ADD_ARG_DURATION: number
   SAME_TH_MUL: number
-  is_client_buff: function
+  is_client_buff: function(sys_d)  -- hexm/common/consts/buff_consts.lua:189-200
   SHOW_OWN_CLIENT: number
   K_HUMANPRO_MAX_RATE: string
-  genID: function
+  genID: function(buff_no, fromid)  -- hexm/common/consts/buff_consts.lua:7-11
   SAME_TH_DICT_MUL: number
   ABR_CORR_PRO: string
   TH_RUNTIME_MAP: dict
@@ -51,6 +51,6 @@ Keys:
   ERR_ADD_SYS_D: number
   IMMUNE_BY_CONTROL_PRIORITY: number
   IMMUNE_CONTROL_BY_STATE: number
-  get_th_flag_bag: function
+  get_th_flag_bag: function(th)  -- hexm/common/consts/buff_consts.lua:165-175
   ERR_ADD_PROB: number
   (1 more keys)

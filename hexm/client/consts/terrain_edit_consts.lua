@@ -35,5 +35,5 @@ Keys:
   CheckTypeMove: number
   CheckErrorUnableSpace: number
   TOOL_SMOOTH: number
-  get_terrain_tool_name: function
+  get_terrain_tool_name: function(tool_id)  -- hexm/client/consts/terrain_edit_consts.lua:57-63
   EditTypeShapeLift: number

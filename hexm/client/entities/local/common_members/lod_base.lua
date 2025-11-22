@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  debug_get_logic_lod_data: function
+  debug_get_logic_lod_data: function(ecs_id)  -- hexm/client/entities/local/common_members/lod_base.lua:100-131
   LodBase: class <LodBase>
     Functions:
       get_logic_lod_level(self)  -- hexm/client/entities/local/common_members/lod_base.lua:69-76

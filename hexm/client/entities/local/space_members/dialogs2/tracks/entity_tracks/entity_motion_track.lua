@@ -40,8 +40,8 @@ Keys:
       _pause_graph(self)  -- hexm/client/entities/local/space_members/dialogs2/tracks/entity_tracks/entity_motion_track.lua:857-863
       pause(self, curr_time)  -- hexm/client/entities/local/space_members/dialogs2/tracks/entity_tracks/entity_motion_track.lua:838-847
       stop_transform(self)  -- hexm/client/entities/local/space_members/dialogs2/tracks/entity_tracks/entity_motion_track.lua:771-791
-  calc_dest_pos: function
-  calc_yaw_from_pos: function
+  calc_dest_pos: function(frame, pos_data)  -- hexm/client/entities/local/space_members/dialogs2/tracks/entity_tracks/entity_motion_track.lua:23-43
+  calc_yaw_from_pos: function(pos)  -- hexm/client/entities/local/space_members/dialogs2/tracks/entity_tracks/entity_motion_track.lua:73-87
   EntityTeleportFrame: class <EntityTeleportFrame>
     Functions:
       triggered(self)  -- hexm/client/entities/local/space_members/dialogs2/tracks/entity_tracks/entity_motion_track.lua:615-644
@@ -71,7 +71,7 @@ Keys:
       get_position_by_time(self, time)  -- hexm/client/entities/local/space_members/dialogs2/tracks/entity_tracks/entity_motion_track.lua:402-416
       frame_mode_pause_at_time(self, time)  -- hexm/client/entities/local/space_members/dialogs2/tracks/entity_tracks/entity_motion_track.lua:398-400
   EntityMotionTrack: class <EntityMotionTrack>
-  calc_dest_yaw: function
+  calc_dest_yaw: function(frame, actor_pos, yaw_data)  -- hexm/client/entities/local/space_members/dialogs2/tracks/entity_tracks/entity_motion_track.lua:45-71
   EntityTurnSpan: class <EntityTurnSpan>
     Functions:
       skip_reset_trigger_in(self)  -- hexm/client/entities/local/space_members/dialogs2/tracks/entity_tracks/entity_motion_track.lua:325-327

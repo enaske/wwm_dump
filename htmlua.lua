@@ -9,5 +9,5 @@ Keys:
       node(...)  -- =[C]
       nodecount(...)  -- =[C]
       ipairs(...)  -- =[C]
-  deleteparser: function
-  newparser: function
+  deleteparser: function(...)  -- =[C]
+  newparser: function(...)  -- =[C]

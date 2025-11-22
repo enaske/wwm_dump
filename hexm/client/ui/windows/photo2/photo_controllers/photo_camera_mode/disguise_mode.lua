@@ -5,10 +5,10 @@ Type: table
 Keys:
   draw_max_dist: number
   PAINTING_IMAGE_HEIGHT: number
-  get_npc_entities_in_view: function
+  get_npc_entities_in_view: function(center_filter_dist)  -- hexm/client/ui/windows/photo2/photo_controllers/photo_camera_mode/disguise_mode.lua:333-391
   HEIGHT_RATIO: number
   LOCK_BONE_NAME: string
-  _check_pos_in_view: function
+  _check_pos_in_view: function(screen_w, screen_h, inv_camera_matrix, pos, edge_ratio)  -- hexm/client/ui/windows/photo2/photo_controllers/photo_camera_mode/disguise_mode.lua:303-327
   default_color: list
   draw_min_dist: number
   lock_color: list
@@ -39,4 +39,4 @@ Keys:
       _on_camera_rotate(self, raw_input, func_info, proxy_input)  -- hexm/client/ui/windows/photo2/photo_controllers/photo_camera_mode/disguise_mode.lua:130-132
   PAINTING_IMAGE_WIDTH: number
   camera_max_dist: number
-  _sort_entity_list: function
+  _sort_entity_list: function(el1, el2)  -- hexm/client/ui/windows/photo2/photo_controllers/photo_camera_mode/disguise_mode.lua:329-331

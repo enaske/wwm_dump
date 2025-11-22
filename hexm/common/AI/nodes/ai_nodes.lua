@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  RegisterAINode: function
+  RegisterAINode: function(cls, node_name)  -- hexm/common/AI/nodes/ai_nodes.lua:13-21
   AIDebugNodes: dict
   AINode: class <AINode>
     Functions:
@@ -29,5 +29,5 @@ Keys:
       ctor(self, owner, node_data, parent_node, ai_branch, cur_ai_file)  -- hexm/common/AI/nodes/ai_nodes.lua:35-42
       get_space_entity(self, eid, need_local)  -- hexm/common/AI/nodes/ai_nodes.lua:153-165
       finish(self, state)  -- hexm/common/AI/nodes/ai_nodes.lua:55-76
-  RegisterAIDebugNode: function
+  RegisterAIDebugNode: function(cls, node_name)  -- hexm/common/AI/nodes/ai_nodes.lua:23-31
   AINodes: dict

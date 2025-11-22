@@ -8,7 +8,7 @@ Keys:
       selection_manager_on_selected(self, is_selected)  -- hexm/client/ui/windows/stuff_museum/item_info/stuff_museum_book_detail_window.lua:559-568
       update_content(self, key, data)  -- hexm/client/ui/windows/stuff_museum/item_info/stuff_museum_book_detail_window.lua:548-553
       on_button_clicked(self)  -- hexm/client/ui/windows/stuff_museum/item_info/stuff_museum_book_detail_window.lua:555-557
-  calc_stuff_museum_point_text: function
+  calc_stuff_museum_point_text: function(model_list)  -- hexm/client/ui/windows/stuff_museum/item_info/stuff_museum_book_detail_window.lua:571-591
   StuffMuseumBookTabController: class <StuffMuseumBookTabController>
     Functions:
       on_selected(self, key)  -- hexm/client/ui/windows/stuff_museum/item_info/stuff_museum_book_detail_window.lua:663-671
@@ -21,7 +21,7 @@ Keys:
       try_select_content_tab(self)  -- hexm/client/ui/windows/stuff_museum/item_info/stuff_museum_book_detail_window.lua:537-539
       try_select_comment_tab(self)  -- hexm/client/ui/windows/stuff_museum/item_info/stuff_museum_book_detail_window.lua:541-543
       get_comment_text_node(self)  -- hexm/client/ui/windows/stuff_museum/item_info/stuff_museum_book_detail_window.lua:532-535
-  get_envelope_full_text: function
+  get_envelope_full_text: function(envelope_no, envelope_sysd)  -- hexm/client/ui/windows/stuff_museum/item_info/stuff_museum_book_detail_window.lua:614-632
   StuffMuseumBookContentItemController: class <StuffMuseumBookContentItemController>
     Functions:
       update_content(self, key, data)  -- hexm/client/ui/windows/stuff_museum/item_info/stuff_museum_book_detail_window.lua:681-702
@@ -57,7 +57,7 @@ Keys:
       clear_all_buttons(self)  -- hexm/client/ui/windows/stuff_museum/item_info/stuff_museum_book_detail_window.lua:247-252
       register_show_detail_button(self, is_show)  -- hexm/client/ui/windows/stuff_museum/item_info/stuff_museum_book_detail_window.lua:472-484
       check_listview_visible(self)  -- hexm/client/ui/windows/stuff_museum/item_info/stuff_museum_book_detail_window.lua:385-409
-  get_book_full_text: function
+  get_book_full_text: function(book_no, book_sysd)  -- hexm/client/ui/windows/stuff_museum/item_info/stuff_museum_book_detail_window.lua:593-612
   StuffMuseumBookDetailWindow: class <StuffMuseumBookDetailWindow>
     Functions:
       get_comment_model(self)  -- hexm/client/ui/windows/stuff_museum/item_info/stuff_museum_book_detail_window.lua:50-53

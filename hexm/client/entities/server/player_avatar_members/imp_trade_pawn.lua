@@ -3,8 +3,8 @@ Type: table
 ================================================================================
 
 Keys:
-  gen_price_day_diff: function
-  gen_price_msgs: function
+  gen_price_day_diff: function(sno, price_hist)  -- hexm/client/entities/server/player_avatar_members/imp_trade_pawn.lua:182-204
+  gen_price_msgs: function(sno, price_hist, rnd)  -- hexm/client/entities/server/player_avatar_members/imp_trade_pawn.lua:152-180
   PlayerAvatarMember: class <PlayerAvatarMember>
     Functions:
       rpc_club_pawn_price_rank_back(self, err, sno, data)  -- hexm/client/entities/server/player_avatar_members/imp_trade_pawn.lua:48-86

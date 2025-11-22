@@ -25,4 +25,4 @@ Keys:
       set_disease(self, disease_no, is_present, is_known)  -- hexm/client/ui/windows/hangdang/doctor_card_game/doctor_diagnose_disease_controller.lua:89-105
       select(self, is_forced)  -- hexm/client/ui/windows/hangdang/doctor_card_game/doctor_diagnose_disease_controller.lua:171-184
   DISEASE_SLOTS: number
-  get_unknown_disease_name: function
+  get_unknown_disease_name: function()  -- hexm/client/ui/windows/hangdang/doctor_card_game/doctor_diagnose_disease_controller.lua:22-28

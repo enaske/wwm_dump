@@ -16,13 +16,13 @@ Keys:
       enable_dialog_buffs(self, enable)  -- hexm/client/entities/local/player_avatar_members/gameplays/region_game/region_game_base.lua:466-481
       start_complete_show(self)  -- hexm/client/entities/local/player_avatar_members/gameplays/region_game/region_game_base.lua:398-425
       init_game(self, kwargs)  -- hexm/client/entities/local/player_avatar_members/gameplays/region_game/region_game_base.lua:359-377
-  to_vector3: function
-  get_gameplay_storyline: function
-  get_region_game_handler_by_id: function
-  require_client_handler_cls: function
+  to_vector3: function(pos)  -- hexm/client/entities/local/player_avatar_members/gameplays/region_game/region_game_config.lua:102-114
+  get_gameplay_storyline: function(game_id)  -- hexm/client/entities/local/player_avatar_members/gameplays/region_game/region_game_config.lua:23-32
+  get_region_game_handler_by_id: function(game_id)  -- hexm/client/entities/local/player_avatar_members/gameplays/region_game/region_game_config.lua:53-76
+  require_client_handler_cls: function(path)  -- hexm/client/entities/local/player_avatar_members/gameplays/region_game/region_game_config.lua:42-51
   TRACE_DEFAULT_OUTER_RADIUS: number
-  get_server_game_cls: function
+  get_server_game_cls: function(game_id)  -- hexm/client/entities/local/player_avatar_members/gameplays/region_game/region_game_config.lua:35-40
   region_game_server: table <UnknownInstance>
-  require_region_game_server: function
-  get_belong_comp: function
-  to_list: function
+  require_region_game_server: function()  -- hexm/client/entities/local/player_avatar_members/gameplays/region_game/region_game_config.lua:19-21
+  get_belong_comp: function(belong_type)  -- hexm/client/entities/local/player_avatar_members/gameplays/region_game/region_game_config.lua:78-83
+  to_list: function(value)  -- hexm/client/entities/local/player_avatar_members/gameplays/region_game/region_game_config.lua:85-100

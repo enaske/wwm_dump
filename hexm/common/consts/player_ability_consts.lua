@@ -5,9 +5,9 @@ Type: table
 Keys:
   PLAY_ABILITY_FLOAT_HEIGHT_MIN: number
   PLAYER_ABILITY_HINT_MAX_COUNT: number
-  value_func_item_recovery_limit: function
+  value_func_item_recovery_limit: function(avt, limit_no_list)  -- hexm/common/consts/player_ability_consts.lua:49-58
   PLAYER_ABILITY_COUNT_PROTECT_TIME: number
-  external_func_item_limit: function
+  external_func_item_limit: function(avt, limit_no_list)  -- hexm/common/consts/player_ability_consts.lua:37-47
   PLAYER_ABILITY_MARSH: number
   SYSD_DESC_HEADERS: table
   PLAYER_ABILITY_RIDE_BACKSEAT: number

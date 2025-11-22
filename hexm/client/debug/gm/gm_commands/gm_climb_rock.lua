@@ -4,4 +4,4 @@ Type: table
 
 Keys:
   _reload_all: boolean
-  gm_forbid_ground_enter_climb: function
+  gm_forbid_ground_enter_climb: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58

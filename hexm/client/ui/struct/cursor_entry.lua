@@ -63,7 +63,7 @@ Keys:
       reset_unfocused_opacity(self)  -- hexm/client/ui/struct/cursor_entry.lua:1059-1064
       set_parent(self, p)  -- hexm/client/ui/struct/cursor_entry.lua:663-665
   DIRECT_POS_WEIGHT: dict
-  calc_distance: function
+  calc_distance: function(src_node, target_node, direct, type)  -- hexm/client/ui/struct/cursor_entry.lua:93-141
   CursorEntryNode: class <CursorEntryNode>
     Functions:
       _handle_entry_float_close(self, win, reason)  -- hexm/client/ui/struct/cursor_entry.lua:301-305
@@ -98,7 +98,7 @@ Keys:
       get_center_pos(self)  -- hexm/client/ui/struct/cursor_entry.lua:321-323
       get_button(self)  -- hexm/client/ui/struct/cursor_entry.lua:356-358
       is_node_in_direction(self, node, direct)  -- hexm/client/ui/struct/cursor_entry.lua:333-349
-  check_pos_in_very_direction: function
+  check_pos_in_very_direction: function(src_node, target_node, direct)  -- hexm/client/ui/struct/cursor_entry.lua:39-91
   DIRECT_TO_ANCHOR: dict
   CursorNodeInterface: class <CursorNodeInterface>
     Functions:

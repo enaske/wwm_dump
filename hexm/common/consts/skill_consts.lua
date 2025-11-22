@@ -42,13 +42,13 @@ Keys:
   SKILL_SENSOR_SELF_POS_FLAG_EXIST: number
   SLOT_TYPE_BAIYE_ULTIMATE_SKILL: number
   SLOT_TYPE_SUB_KONGFU_ICON: number
-  get_ui_color_ui_word: function
+  get_ui_color_ui_word: function(skill_no)  -- hexm/common/consts/skill_consts.lua:609-632
   gameplay_idx_to_slot_no: dict
   SLOT_TYPE_QISHU_RECOVER: number
   PVE_IDENTITY_ATK: number
   SLOT_TYPE_MOBILE_QISHU_WEAK: number
   RESOURCE_TYPE_CONSUME: number
-  try_get_specific_qishu_slot_no: function
+  try_get_specific_qishu_slot_no: function(slot_mode_d, idx)  -- hexm/common/consts/skill_consts.lua:657-672
   QISHU_SLOT_NO: list
   SKILL_STATE_PRE: string
   SLOT_TYPE_MOBILE_LOCK: number

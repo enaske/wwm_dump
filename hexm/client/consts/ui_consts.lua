@@ -32,8 +32,8 @@ Keys:
   STATE_NONE: number
   GLBLEND_TYPE_DST_COLOR: number
   OPTION_HCENTER: number
-  generate_jump_map_by_position: function
-  init_platform_const: function
+  generate_jump_map_by_position: function(views, is_grid_layout)  -- hexm/client/consts/ui_consts.lua:301-356
+  init_platform_const: function(platform)  -- hexm/client/consts/ui_consts.lua:224-236
   OPTION_LEFT_BOTTOM: number
   STATE_HOVER: number
   GLBLEND_TYPE_DST_ALPHA: number

@@ -57,12 +57,12 @@ Keys:
       get_primitive_count(self)  -- patch/sa_log_comp/base_log.lua:186-188
   script_log_keys_has_inited: boolean
   MacAddress: string
-  update_acsdk_info: function
+  update_acsdk_info: function()  -- patch/sa_log_comp/base_log.lua:448-452
   PerformanceInfo: table <UnknownInstance>
   script_log_cache: table <UnknownInstance>
   total_mem_size: string
   common_keys_has_inited: boolean
-  init_common_keys_value: function
+  init_common_keys_value: function()  -- patch/sa_log_comp/base_log.lua:440-444
   IpInfo: string
   acsdk_info_has_inited: boolean
   _device_model: string
@@ -71,13 +71,13 @@ Keys:
   ScriptLog: class <ScriptLog>
     Functions:
       get_dict(self)  -- patch/sa_log_comp/base_log.lua:428-435
-  get_total_mem: function
-  get_device_model: function
-  refresh_performance_info: function
+  get_total_mem: function()  -- patch/sa_log_comp/base_log.lua:219-226
+  get_device_model: function()  -- patch/sa_log_comp/base_log.lua:190-204
+  refresh_performance_info: function()  -- patch/sa_log_comp/base_log.lua:473-490
   FirstUdid: string
   common_keys_value_cache: table <UnknownInstance>
-  init_basic_keys_value: function
-  update_script_log_keys: function
+  init_basic_keys_value: function()  -- patch/sa_log_comp/base_log.lua:464-471
+  update_script_log_keys: function()  -- patch/sa_log_comp/base_log.lua:423-427
   acsdk_cheat_check: class <acsdk_cheat_check>
     Functions:
       get_dict(self)  -- patch/sa_log_comp/base_log.lua:455-462

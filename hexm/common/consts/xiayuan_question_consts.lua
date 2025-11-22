@@ -4,7 +4,7 @@ Type: table
 
 Keys:
   EVENT_XIAYUAN_ANSWER: number
-  get_week_score_and_count: function
+  get_week_score_and_count: function(avatar)  -- hexm/common/consts/xiayuan_question_consts.lua:27-37
   XIAYUAN_ANS_WAIT_QUEATION: number
   EVENT_XIAYUAN_QUESTION: number
   EVENT_XIAYUAN_FINISH: number
@@ -16,5 +16,5 @@ Keys:
   XIAYUAN_ANS_ANWSER_QUEATION: number
   TIMEOUT_TIMER_KEY: string
   CHOICE_TEXTS: list
-  get_score_top_limit: function
+  get_score_top_limit: function(avatar)  -- hexm/common/consts/xiayuan_question_consts.lua:39-60
   XIAYUAN_ANS_FINISH: number

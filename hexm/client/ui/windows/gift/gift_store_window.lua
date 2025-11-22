@@ -28,4 +28,4 @@ Keys:
       ctor(self, view)  -- hexm/client/ui/windows/gift/gift_store_window.lua:34-36
       get_page_controller_clz(self)  -- hexm/client/ui/windows/gift/gift_store_window.lua:38-40
   TabId: dict
-  set_view_by_player_model: function
+  set_view_by_player_model: function(view, model, is_recent_send)  -- hexm/client/ui/windows/gift/gift_store_window.lua:359-402

@@ -6,7 +6,7 @@ Keys:
   E_BATTLE_STATE: number
   TYPE_LOSER: number
   E_BATTLE_PREPARE: number
-  get_day_refresh_delay: function
+  get_day_refresh_delay: function()  -- hexm/common/consts/baiye_arena_consts.lua:45-51
   E_BEGIN_BATTLE: number
   _reload_all: boolean
   FAC_RED: number

@@ -24,6 +24,6 @@ Keys:
   MOBILE_SPECIAL_BOSS_FIGHT_HIDE_DISTANCE: number
   HIDE_BILLBOARD: number
   CommonHideReason: class <CommonHideReason>
-  old_hide_name_to_hide_type: function
+  old_hide_name_to_hide_type: function(name)  -- hexm/client/consts/hide_entity_consts.lua:95-101
   OLD_HIDE_SCENE_NODE: string
   OLD_HIDE_EFFECT: string

@@ -7,7 +7,7 @@ Keys:
   SCENE_DELAY: number
   SCENE_DOWNLOAD_PATCH_FAILED: number
   SCENE_PATCHING_CANCELED: number
-  detect: function
+  detect: function(scenetype, detect_model)  -- patch/netdetecter.lua:205-230
   MOBILE_TYPE: string
   SCENE_PAYMENT_SUCCESS: number
   GAME_STAGE: string
@@ -46,7 +46,7 @@ Keys:
   USER_ID: string
   SERVER_PORT: string
   CHANNEL_NAME: string
-  detect_init: function
+  detect_init: function()  -- patch/netdetecter.lua:193-203
   PATCH_CHECK_RESULT: string
   PATCH_FINISH_TIME: string
   PATCH_URL: string

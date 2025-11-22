@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  get_need_hit_wall_detect: function
+  get_need_hit_wall_detect: function(d)  -- hexm/common/base/beat_back_hit_wall_base.lua:21-31
   BeatBackHitWall: class <BeatBackHitWall>
     Functions:
       _on_post_behit_set_hit_wall_enable(self, e, d)  -- hexm/common/base/beat_back_hit_wall_base.lua:82-91

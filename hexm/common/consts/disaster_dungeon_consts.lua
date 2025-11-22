@@ -28,5 +28,5 @@ Keys:
   DISASTER_PUT_DOWN_NPC: number
   DISASTER_EVALUATION_FAILED: number
   DISASTER_TEAM_ICON_MAP: dict
-  get_disaster_dungeon_pos_info: function
-  get_disaster_team_icon: function
+  get_disaster_dungeon_pos_info: function(team_index, player_index)  -- hexm/common/consts/disaster_dungeon_consts.lua:50-54
+  get_disaster_team_icon: function(team_index)  -- hexm/common/consts/disaster_dungeon_consts.lua:59-64

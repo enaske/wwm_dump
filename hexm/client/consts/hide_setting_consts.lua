@@ -11,4 +11,4 @@ Keys:
   HIDE_SETTING_OTHER_AVT: number
   HIDE_SETTING_CLUB: number
   HIDE_AVT_SETTING_REASON: string
-  get_avatars_by_hide_type: function
+  get_avatars_by_hide_type: function(hide_type)  -- hexm/client/consts/hide_setting_consts.lua:30-36

@@ -18,7 +18,7 @@ Keys:
   CFloat: class <CFloat>
     Functions:
       try_parse_param(self, s)  -- hexm/client/debug/gm/gm_components.lua:85-87
-  get_gm_item_by_tag: function
+  get_gm_item_by_tag: function(tag)  -- hexm/client/debug/gm/gm_components.lua:9-17
   GMParam: class <GMParam>
     Functions:
       try_parse_param(self, s)  -- hexm/client/debug/gm/gm_components.lua:32-34

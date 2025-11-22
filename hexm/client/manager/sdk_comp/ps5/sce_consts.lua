@@ -24,7 +24,7 @@ Keys:
   SCE_COMMON_DIALOG_RESULT_USER_CANCELED: number
   CREATE_PLAYER_SESSION: string
   SCE_SHARE_CAPTURE_VIDEO_CLIP_PARAM_MODE_ABSOLUTE: number
-  block_list_api_uri: function
+  block_list_api_uri: function()  -- hexm/client/manager/sdk_comp/ps5/sce_consts.lua:244-246
   SCE_NP_COMMERCE_DIALOG_MODE_CHECKOUT: number
   BLOCK_LIST_URI: string
   SCE_COMMON_DIALOG_STATUS_INITIALIZED: number

@@ -6,9 +6,9 @@ Keys:
   TRANSFER_NORMAL_SAME_BELONG_TYPE: number
   MODE_SINGLE: number
   ENTER_SPACE_REASON_AVATAR_DISASTER: string
-  get_nine_grid_ids: function
+  get_nine_grid_ids: function(grid_key)  -- hexm/common/consts/space_consts.lua:90-116
   TRANS_REASON_SETTING_RESET: number
-  get_grid_index_with_y: function
+  get_grid_index_with_y: function(pos)  -- hexm/common/consts/space_consts.lua:158-164
   TRANS_REASON_BUILDING_AREA: number
   SPACE_LOAD_TYPE_NONE: number
   TRANS_REASON_SERVER: number
@@ -17,7 +17,7 @@ Keys:
   TRANS_REASON_REGION_EVENT: number
   TRANS_REASON_DIFF_SPACE: number
   TRANSFER_NORMAL_BIG_MODE_TYPE: number
-  get_grid_index_by_id: function
+  get_grid_index_by_id: function(grid_id)  -- hexm/common/consts/space_consts.lua:166-174
   SP_GROUP_DEACTIVE: number
   SPACE_LOAD_TYPE_TELEPORT: number
   TRANS_REASON_LIMIT_SYS: number
@@ -31,7 +31,7 @@ Keys:
   SPACE_LOAD_TYPE_CHANGE_LINE: number
   TRANSFER_NORMAL_SAME_SPACE_TYPE: number
   TRANS_REASON_MODE_SINGLE: number
-  grid_3_to_2: function
+  grid_3_to_2: function(grid_id)  -- hexm/common/consts/space_consts.lua:58-68
   TRANS_REASON_FISHING_CONTEST: number
   TRANS_REASON_TEAM_FOLLOW: number
   MODE_FENGYUN: number
@@ -49,8 +49,8 @@ Keys:
   GRID_SIZE_Y: number
   STUB_TIME_INTERVAL_HUIWU: number
   GRID_SIZE: number
-  get_nine_grid_ids_by_pos_with_y: function
+  get_nine_grid_ids_by_pos_with_y: function(pos)  -- hexm/common/consts/space_consts.lua:134-148
   SP_GROUP_UPDATE: number
-  get_grid_id_with_y: function
+  get_grid_id_with_y: function(pos)  -- hexm/common/consts/space_consts.lua:82-88
   TRANS_REASON_ROOM_RECALL: number
   (1 more keys)

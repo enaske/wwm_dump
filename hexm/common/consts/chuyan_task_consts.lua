@@ -7,4 +7,4 @@ Keys:
   EVENT_TASK_EVENT: number
   EVENT_TASK_REWARD: number
   EVENT_TASK_REWARD_ALL: number
-  get_chuyan_season: function
+  get_chuyan_season: function(now)  -- hexm/common/consts/chuyan_task_consts.lua:13-27

@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  Instance: function
+  Instance: function()  -- char_editor2/game_character/game_character.lua:109-111
   GameCharacter: class <GameCharacter>
     Functions:
       GetGraphRuningState(self, actorID, graphID, nodeIndex, nodePath)  -- char_editor2/game_character/game_character.lua:52-67

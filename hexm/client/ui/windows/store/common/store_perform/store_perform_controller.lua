@@ -4,7 +4,7 @@ Type: table
 
 Keys:
   VIDEO_TYPE_ONCE: number
-  get_perform_column_value: function
+  get_perform_column_value: function(sys_d, column_key)  -- hexm/client/ui/windows/store/common/store_perform/store_perform_controller.lua:26-31
   StorePerformController: class <StorePerformController>
     Functions:
       show_studio_atmo(self, sys_d)  -- hexm/client/ui/windows/store/common/store_perform/store_perform_controller.lua:1022-1025

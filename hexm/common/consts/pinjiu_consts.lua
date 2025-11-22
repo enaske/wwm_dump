@@ -10,7 +10,7 @@ Keys:
   PINJIU_STATE_BET: number
   _reload_all: boolean
   PINJIU_STATE_BE_INVITING: number
-  get_pinjiu_stage_no_by_serial_id: function
+  get_pinjiu_stage_no_by_serial_id: function(avatar, space_no, serial_id, entity_no)  -- hexm/common/consts/pinjiu_consts.lua:44-67
   PINJIU_WIN: number
   PINJIU_TARGET_TYPE_SERVER_NPC: number
   PINJIU_LOSE: number

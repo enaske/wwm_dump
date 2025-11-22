@@ -3,9 +3,9 @@ Type: table
 ================================================================================
 
 Keys:
-  VLC_METHOD: function
-  vlc_method_decorator: function
-  vlc_method_explict: function
+  VLC_METHOD: function()  -- hexm/client/ui/view/view_logic_component/view_logical_component_base.lua:242-244
+  vlc_method_decorator: function(t, fname, func)  -- hexm/client/ui/view/view_logic_component/view_logical_component_base.lua:213-234
+  vlc_method_explict: function(t, fname)  -- hexm/client/ui/view/view_logic_component/view_logical_component_base.lua:236-240
   VLC_CLASSES: dict
   ViewLogicComponentBase: class <ViewLogicComponentBase>
     Functions:

@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  register_event_method: function
+  register_event_method: function(event)  -- hexm/client/entities/server/player_avatar_members/anim_action/anim_action_handlers/base_handler.lua:15-20
   BaseHandler: class <BaseHandler>
     Functions:
       index(self)  -- hexm/client/entities/server/player_avatar_members/anim_action/anim_action_handlers/base_handler.lua:57-59

@@ -12,4 +12,4 @@ Keys:
   GUARD_STATE_PROCESS: number
   GUARD_BATTLE_TYPE_MULTI: number
   GUARD_NEED_REFRESH_STATES: list
-  get_treasure_dungeon_space_no: function
+  get_treasure_dungeon_space_no: function()  -- hexm/common/consts/treasure_guard_consts.lua:22-31

@@ -10,11 +10,11 @@ Keys:
   NO_REWARD_NOT_RIGHT_TAVERN: number
   PLAY_INDEX_DINNER: number
   QUERY_TARGET_SYS_TAVERN: number
-  dinner_wanfa_gadge_limit: function
+  dinner_wanfa_gadge_limit: function(wanfa_no)  -- hexm/common/consts/gang_industry_consts.lua:103-110
   gang_industry_col: string
-  dinner_wanfa_times_limit: function
+  dinner_wanfa_times_limit: function(wanfa_no)  -- hexm/common/consts/gang_industry_consts.lua:113-120
   TAVERN_AUTH: number
-  dinner_play_index: function
+  dinner_play_index: function()  -- hexm/common/consts/gang_industry_consts.lua:64-66
   BOX_FULL: number
   NO_REWARD_WRONG_TIME: number
   GANG_EVENT_DINNER_ID: number

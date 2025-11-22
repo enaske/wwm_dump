@@ -13,8 +13,8 @@ Keys:
       run(self, timeline)  -- hexm/common/actionline/timeline/frame.lua:22-23
       new(...)  -- =[C]
   CameraChannelKeyframe: class <CameraChannelKeyframe>
-  actionline_frame: function
-  get_frame_class: function
+  actionline_frame: function(cls)  -- hexm/common/actionline/timeline/frame.lua:32-35
+  get_frame_class: function(frame_type)  -- hexm/common/actionline/timeline/frame.lua:37-39
   CameraShakeKeyframe: class <CameraShakeKeyframe>
   CircleGraphKeyframe: class <CircleGraphKeyframe>
     Functions:
@@ -28,9 +28,9 @@ Keys:
       on_timeline_end(self, e, d, entity)  -- hexm/common/actionline/timeline/frame.lua:157-167
       run(self, timeline)  -- hexm/common/actionline/timeline/frame.lua:134-155
       _timeline_end(self, entity)  -- hexm/common/actionline/timeline/frame.lua:169-178
-  reg_frame_class: function
-  create_frame: function
-  get_all_frame_classes: function
+  reg_frame_class: function(cls)  -- hexm/common/actionline/timeline/frame.lua:26-30
+  create_frame: function(frame_data, setting)  -- hexm/common/actionline/timeline/frame.lua:45-52
+  get_all_frame_classes: function()  -- hexm/common/actionline/timeline/frame.lua:41-43
   EventGraphKeyframe: class <EventGraphKeyframe>
     Functions:
       run_graph(self, timeline, d)  -- hexm/common/actionline/timeline/frame.lua:273-300

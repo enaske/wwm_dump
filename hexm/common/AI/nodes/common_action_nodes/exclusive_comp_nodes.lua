@@ -26,7 +26,7 @@ Keys:
     Functions:
       ctor(self, owner, node_data, parent_node, runner)  -- hexm/common/AI/nodes/common_action_nodes/exclusive_comp_nodes.lua:436-439
       run(self)  -- hexm/common/AI/nodes/common_action_nodes/exclusive_comp_nodes.lua:441-445
-  drop_private_interact_component: function
+  drop_private_interact_component: function(ai_node, comp_bb_key)  -- hexm/common/AI/nodes/common_action_nodes/exclusive_comp_nodes.lua:415-431
   LoadPrivateInteractComponent: class <LoadPrivateInteractComponent>
     Functions:
       finish_clear(self, state)  -- hexm/common/AI/nodes/common_action_nodes/exclusive_comp_nodes.lua:139-144

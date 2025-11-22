@@ -10,6 +10,6 @@ Keys:
       new(...)  -- =[C]
   NODE_METAS: table <UnknownInstance>
   BasePortMeta: class <BasePortMeta>
-  reg_node_meta: function
+  reg_node_meta: function(cls)  -- hexm/common/actionline/graph/node_port_meta.lua:26-28
   BaseArrayPortMeta: class <BaseArrayPortMeta>
-  get_node_meta: function
+  get_node_meta: function(meta_type)  -- hexm/common/actionline/graph/node_port_meta.lua:30-32

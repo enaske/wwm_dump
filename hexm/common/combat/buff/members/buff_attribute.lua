@@ -29,7 +29,7 @@ Keys:
       attr_get_rand_dict(self)  -- hexm/common/combat/buff/members/buff_attribute.lua:124-133
       _formula_attr_rand_refresh(self)  -- hexm/common/combat/buff/members/buff_attribute.lua:68-101
       new(...)  -- =[C]
-  buff_rand_attr_sync_show: function
+  buff_rand_attr_sync_show: function(self, bd)  -- hexm/common/combat/buff/members/buff_attribute.lua:44-52
   BuffAttrTransformHandler: class <BuffAttrTransformHandler>
     Functions:
       __new_component__(self, kwargs)  -- hexm/common/combat/buff/members/buff_attribute.lua:143-145

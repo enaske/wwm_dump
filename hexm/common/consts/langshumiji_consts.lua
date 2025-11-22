@@ -30,5 +30,5 @@ Keys:
   VALUE_UP_TYPE: number
   SWITCH_STATE_2: number
   MIJI_FINISH_LIST: list
-  clue_is_watch_complete_type: function
+  clue_is_watch_complete_type: function(clue_id)  -- hexm/common/consts/langshumiji_consts.lua:48-56
   MIJI_UNLOCK_WEIGHT: number

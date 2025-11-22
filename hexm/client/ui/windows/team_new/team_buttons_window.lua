@@ -3,8 +3,8 @@ Type: table
 ================================================================================
 
 Keys:
-  get_func_list_by_mode_no: function
-  get_button_visible_by_button_no: function
+  get_func_list_by_mode_no: function(button_mode_no, entity_id, callback)  -- hexm/client/ui/windows/team_new/team_buttons_window.lua:582-587
+  get_button_visible_by_button_no: function(button_mode_no, entity_id)  -- hexm/client/ui/windows/team_new/team_buttons_window.lua:528-540
   TeamHudButtonsFloatController: class <TeamHudButtonsFloatController>
     Functions:
       set_player_state(self)  -- hexm/client/ui/windows/team_new/team_buttons_window.lua:428-440
@@ -35,7 +35,7 @@ Keys:
       set_team_player_state_item(self, data)  -- hexm/client/ui/windows/team_new/team_buttons_window.lua:467-498
       update_content(self, key, data)  -- hexm/client/ui/windows/team_new/team_buttons_window.lua:448-466
       set_detail_action(self, detail_action)  -- hexm/client/ui/windows/team_new/team_buttons_window.lua:499-510
-  get_button_visible_by_button_no_data_back: function
+  get_button_visible_by_button_no_data_back: function(data)  -- hexm/client/ui/windows/team_new/team_buttons_window.lua:542-580
   TeamButtonListController: class <TeamButtonListController>
     Functions:
       choose_btn_type(self, data)  -- hexm/client/ui/windows/team_new/team_buttons_window.lua:32-46

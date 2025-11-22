@@ -3,15 +3,15 @@ Type: table
 ================================================================================
 
 Keys:
-  band: function
-  rshift: function
-  ror: function
-  bnot: function
-  bswap: function
-  bxor: function
-  tobit: function
-  arshift: function
-  lshift: function
-  tohex: function
-  rol: function
-  bor: function
+  band: function(...)  -- =[C]
+  rshift: function(...)  -- =[C]
+  ror: function(...)  -- =[C]
+  bnot: function(...)  -- =[C]
+  bswap: function(...)  -- =[C]
+  bxor: function(...)  -- =[C]
+  tobit: function(...)  -- =[C]
+  arshift: function(...)  -- =[C]
+  lshift: function(...)  -- =[C]
+  tohex: function(...)  -- =[C]
+  rol: function(...)  -- =[C]
+  bor: function(...)  -- =[C]

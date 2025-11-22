@@ -29,11 +29,11 @@ Keys:
       set_lv_text(self, lv_text, bg_color, is_right_bottom)  -- hexm/client/ui/view/view_logic_component/head_icon_vlc.lua:308-327
       try_load_kongfu_type_view(self)  -- hexm/client/ui/view/view_logic_component/head_icon_vlc.lua:330-338
       set_head_icon(self, head_no, is_circle, body_type, entity_id, specific_node, extra_effects, force_reset, is_gray, force_color)  -- hexm/client/ui/view/view_logic_component/head_icon_vlc.lua:428-529
-  set_head_bg_by_pic: function
-  is_dup_decompose_head: function
-  has_custom_head_bg: function
-  get_head_extra_vx_name: function
-  extract_last_part: function
-  load_tianzai_head_vx: function
+  set_head_bg_by_pic: function(image_bg, pid, hostnum)  -- hexm/client/ui/view/view_logic_component/head_icon_vlc.lua:86-94
+  is_dup_decompose_head: function(stuff_no)  -- hexm/client/ui/view/view_logic_component/head_icon_vlc.lua:109-117
+  has_custom_head_bg: function()  -- hexm/client/ui/view/view_logic_component/head_icon_vlc.lua:96-107
+  get_head_extra_vx_name: function(entity_id)  -- hexm/client/ui/view/view_logic_component/head_icon_vlc.lua:40-63
+  extract_last_part: function(str_input)  -- hexm/client/ui/view/view_logic_component/head_icon_vlc.lua:65-72
+  load_tianzai_head_vx: function(view, vx_anim)  -- hexm/client/ui/view/view_logic_component/head_icon_vlc.lua:32-38
   BODYTYPE_TO_COLUMN: table <UnknownInstance>
-  get_head_bg: function
+  get_head_bg: function(head_no)  -- hexm/client/ui/view/view_logic_component/head_icon_vlc.lua:74-84

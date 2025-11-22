@@ -3,14 +3,14 @@ Type: table
 ================================================================================
 
 Keys:
-  _collect_declared_listens: function
-  DisableDeclaredListen: function
-  RemoveDeclaredListen: function
+  _collect_declared_listens: function(cls, with_additional_comps)  -- hexm/client/util/listenable.lua:428-447
+  DisableDeclaredListen: function(cls, channel_name, event, cbname)  -- hexm/client/util/listenable.lua:417-422
+  RemoveDeclaredListen: function(cls, channel_name, event, cbname)  -- hexm/client/util/listenable.lua:394-414
   CH_DATA: string
-  DeclareListenCommon: function
-  forbidden_scope_destroy: function
+  DeclareListenCommon: function(cls, event, cbname)  -- hexm/client/util/listenable.lua:479-481
+  forbidden_scope_destroy: function()  -- hexm/client/util/listenable.lua:243-245
   CH_CUE: string
-  DeclareListen: function
+  DeclareListen: function(cls, channel_name, event, cbname)  -- hexm/client/util/listenable.lua:372-392
   Listenable: class <Listenable>
     Functions:
       scope_on_G_input(self, scope_id)  -- hexm/client/util/listenable.lua:635-637
@@ -63,8 +63,8 @@ Keys:
       scope_on_global(self, dispatcher_ref, scope_id)  -- hexm/client/util/listenable.lua:113-115
       listen_on_external(self, another_listenable, channel_name, event, cbname, ...)  -- hexm/client/util/listenable.lua:82-86
       remove_all_listens(self, keep_sticky)  -- hexm/client/util/listenable.lua:179-191
-  DeclareListenData: function
-  DeclarativeListenHost: function
+  DeclareListenData: function(cls, event, cbname)  -- hexm/client/util/listenable.lua:483-485
+  DeclarativeListenHost: function(cls, with_additional_comps)  -- hexm/client/util/listenable.lua:424-426
   CH_COMMON: string
-  _merge_declared_listens: function
-  DeclareListenCue: function
+  _merge_declared_listens: function(cls, idx, listens_all)  -- hexm/client/util/listenable.lua:449-473
+  DeclareListenCue: function(cls, event, cbname)  -- hexm/client/util/listenable.lua:487-489

@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  EXTEND_NODE_INPUT_PORTS: function
+  EXTEND_NODE_INPUT_PORTS: function(node, nodePorts)  -- SunshineSDK/Storyline/Node.lua:16-30
   ActionNode: class <ActionNode>
     Functions:
       base_node_handle_entity_create(self, e, d)  -- SunshineSDK/Storyline/Node.lua:334-337
@@ -28,7 +28,7 @@ Keys:
   EventNode: class <EventNode>
     Functions:
       ctor(self)  -- SunshineSDK/Storyline/Node.lua:446-448
-  EXTEND_NODE_OUTPUT_PORTS: function
+  EXTEND_NODE_OUTPUT_PORTS: function(node, nodePorts)  -- SunshineSDK/Storyline/Node.lua:31-45
   Node: class <Node>
     Functions:
       GetDebugData(self, stage)  -- SunshineSDK/Storyline/Node.lua:172-178

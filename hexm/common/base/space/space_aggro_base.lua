@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  check_npc_by_alert_range: function
+  check_npc_by_alert_range: function(tnpc, aggro_entity, notify_info)  -- hexm/common/base/space/space_aggro_base.lua:268-290
   SpaceAggroBase: class <SpaceAggroBase>
     Functions:
       remove_npc_aggro_chain(self, npc)  -- hexm/common/base/space/space_aggro_base.lua:95-113

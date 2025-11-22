@@ -148,4 +148,4 @@ Keys:
   CommonValueKeyTextItem: class <CommonValueKeyTextItem>
     Functions:
       set_content(self, key, value, tip_icon, tip_content)  -- hexm/client/ui/windows/side_page_v2/item_controllers/common/common_list_item.lua:1450-1468
-  common_set_stuff_with_cn_num: function
+  common_set_stuff_with_cn_num: function(data)  -- hexm/client/ui/windows/side_page_v2/item_controllers/common/common_list_item.lua:768-826

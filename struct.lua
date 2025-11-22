@@ -3,6 +3,6 @@ Type: table
 ================================================================================
 
 Keys:
-  pack: function
-  unpack: function
-  size: function
+  pack: function(...)  -- =[C]
+  unpack: function(...)  -- =[C]
+  size: function(...)  -- =[C]

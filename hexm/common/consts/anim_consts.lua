@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  pack_ai_anim_data: function
+  pack_ai_anim_data: function(anim_data)  -- hexm/common/consts/anim_consts.lua:142-157
   THERAPY_ANIM_TYPE_PLAY: number
   ACTION_TRANSIENT_SPEED_MODE_LINEAR: string
   BONE_FILTER_ANIM: string
@@ -13,7 +13,7 @@ Keys:
   SUFFIX_SLOT_GUISE_TOPS: number
   ACTION_PLAYBACK_SPEED_MODE_PARABOLA: string
   UPPER_FULL_ANIM: string
-  get_warmup_weapon_anim_list: function
+  get_warmup_weapon_anim_list: function(body_type, weapon_no, weapon_suffix)  -- hexm/common/consts/anim_consts.lua:115-128
   ANIM_PATH_CHAR_BODY: dict
   POSE_ANIM_STAGE_LOOP: string
   ACTION_LEAD_FLAG_END: number
@@ -40,11 +40,11 @@ Keys:
   ACTION_PLAYBACK_SPEED_MODE_DECAY: string
   FOLLOW_ANIM_TYPE_DEFAULT: number
   SUFFIX_SLOT_MULTI_LANG: number
-  unpack_ai_anim_data: function
-  pack_anim_vars: function
+  unpack_ai_anim_data: function(anim_data)  -- hexm/common/consts/anim_consts.lua:159-173
+  pack_anim_vars: function(raw)  -- hexm/common/consts/anim_consts.lua:290-304
   FOLLOW_ANIM_TYPE_BUNDLE: number
   ACTION_LEAD_FLAG_BEGIN: number
-  unpack_anim_vars: function
+  unpack_anim_vars: function(packed)  -- hexm/common/consts/anim_consts.lua:306-316
   POSE_ANIM_STAGE_OUT: string
   ANIM_SPECIAL_BASE_GRAPH: string
   SUFFIX_SLOT_GUISE_HAIR: number

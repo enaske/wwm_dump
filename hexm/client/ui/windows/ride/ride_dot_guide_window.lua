@@ -12,7 +12,7 @@ Keys:
     Functions:
       get_controller_clz(self)  -- hexm/client/ui/windows/ride/ride_dot_guide_window.lua:163-165
       init(self, kwargs)  -- hexm/client/ui/windows/ride/ride_dot_guide_window.lua:167-170
-  has_horse: function
+  has_horse: function(dot_id, sort)  -- hexm/client/ui/windows/ride/ride_dot_guide_window.lua:14-26
   HorseItemController: class <HorseItemController>
     Functions:
       update_content(self, key, data)  -- hexm/client/ui/windows/ride/ride_dot_guide_window.lua:56-67

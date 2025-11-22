@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  get_class: function
+  get_class: function()  -- hexm/client/entities/local/room_entity_members/guise_effect/imp_guise_effect_handler_peacock.lua:6-12
   ImpGuiseEffectHandlerPeacockVersion2: class <ImpGuiseEffectHandlerPeacockVersion2>
     Functions:
       reset_view_visible_tag(self)  -- hexm/client/entities/local/room_entity_members/guise_effect/imp_guise_effect_handler_peacock.lua:18-20

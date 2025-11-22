@@ -3,10 +3,10 @@ Type: table
 ================================================================================
 
 Keys:
-  calc_ref_samples: function
+  calc_ref_samples: function(ref_points, interval)  -- hexm/client/ui/windows/gymnastics/gym_qte_window.lua:27-40
   RESULT_VX: list
-  calc_errors: function
-  calc_ref_points: function
+  calc_errors: function(touch_samples, ref_samples)  -- hexm/client/ui/windows/gymnastics/gym_qte_window.lua:42-95
+  calc_ref_points: function(rela_positions, root_view)  -- hexm/client/ui/windows/gymnastics/gym_qte_window.lua:15-25
   GymQteWindow: class <GymQteWindow>
     Functions:
       ctor(self, kwargs)  -- hexm/client/ui/windows/gymnastics/gym_qte_window.lua:568-572

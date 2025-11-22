@@ -28,4 +28,4 @@ Keys:
       selection_manager_on_selected(self, is_select)  -- hexm/client/ui/windows/common/tip_off_window.lua:342-345
       update_content(self, key, data)  -- hexm/client/ui/windows/common/tip_off_window.lua:323-336
       on_click_option(self)  -- hexm/client/ui/windows/common/tip_off_window.lua:338-340
-  gm_open_tip_off_window: function
+  gm_open_tip_off_window: function()  -- hexm/client/ui/windows/common/tip_off_window.lua:375-383

@@ -3,7 +3,7 @@ Type: table
 ================================================================================
 
 Keys:
-  get_group_number: function
+  get_group_number: function()  -- hexm/common/uwsgi_manager_members/imp_likeunlike.lua:14-16
   UwsgiManagerMember: class <UwsgiManagerMember>
     Functions:
       like_get_topic(self, hostnum, topic_id, uuid, cb, fromid, ex)  -- hexm/common/uwsgi_manager_members/imp_likeunlike.lua:20-37

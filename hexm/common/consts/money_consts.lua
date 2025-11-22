@@ -11,7 +11,7 @@ Keys:
   MONEY_TONGBAO_ZHOU: number
   MONEY_YUANBAO: number
   MONEY_TONGBAO_SONG: number
-  is_common_token: function
+  is_common_token: function(money_type)  -- hexm/common/consts/money_consts.lua:67-70
   MONEY_DUANMOQIAN: number
   MONEY_LEISURE: number
   MONEY_ICON_STUFF: table <UnknownInstance>
@@ -41,5 +41,5 @@ Keys:
   DEC_YUANBAO_BANG_ONLY: number
   MONEY_YINGSHENG: number
   MONEY_CLUB_BATTLE: number
-  is_eco_type: function
+  is_eco_type: function(money_type)  -- hexm/common/consts/money_consts.lua:61-64
   MONEY_ALIAS: dict

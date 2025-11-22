@@ -70,7 +70,7 @@ Keys:
       ctor(self, owner, patrol_id, group_id, extra)  -- hexm/common/base/group_patrol/group_patrol_follow.lua:1205-1208
       reset_entity_with_follow_offset(self, entity, follow_target, offset_x, offset_z)  -- hexm/common/base/group_patrol/group_patrol_follow.lua:1253-1269
       set_entity_follow_offset(self, queue_pos_index, entity, leader_agent)  -- hexm/common/base/group_patrol/group_patrol_follow.lua:1210-1251
-  get_can_navigate_target: function
+  get_can_navigate_target: function(entity, center, radius)  -- hexm/common/base/group_patrol/group_patrol_follow.lua:21-43
   GPFollowLeaderQueue: class <GPFollowLeaderQueue>
   FOLLOW_TO_TARGET_ENGITY_TICK_INTERVAL_FAST: number
   FOLLOW_TO_TARGET_TRY_GET_ENTITY_MAX_CNT: number

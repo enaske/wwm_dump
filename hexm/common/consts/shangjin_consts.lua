@@ -10,18 +10,18 @@ Keys:
   FACTION_BE_FETCH: number
   FACTION_WANFA_SHANGJIN: number
   E_PVP_SHANGJIN_BE_START: number
-  is_shangjin_xs_no: function
+  is_shangjin_xs_no: function(option_id)  -- hexm/common/consts/shangjin_consts.lua:46-48
   SHANGJIN_BE_START: number
   E_PVP_SHANGJIN_END: number
   E_ENTER_ROOM: number
   REASON_SHANGJIN_DISARM: string
   E_PVP_SHANGJIN_START: number
   REASON_SHANGJIN_GAOGUAN: string
-  is_player_xs_no: function
+  is_player_xs_no: function(xs_no)  -- hexm/common/consts/shangjin_consts.lua:40-44
   OPTION_ID: number
   ABILITY_RESAON_BE_FETCHER: string
   ABILITY_RESAON_FETCHER: string
-  is_shangjin_type: function
+  is_shangjin_type: function(sj_t)  -- hexm/common/consts/shangjin_consts.lua:50-53
   SHANGJIN_DIS_MESSAGE: string
   E_PVP_SHANGJIN_FETCH: number
   FACTION_FETCHER: number

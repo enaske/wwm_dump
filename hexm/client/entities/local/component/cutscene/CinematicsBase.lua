@@ -69,8 +69,8 @@ Keys:
   DEFAULT_GUID: instance
   ENTITY_INVISIBLE_REASON: string
   CUE_CINEMATICS_RECRUIT_PERFORMER: number
-  DataToStr: function
-  JsonLoadsStr: function
+  DataToStr: function(data, ignoreDicts)  -- hexm/client/entities/local/component/cutscene/CinematicsBase.lua:39-51
+  JsonLoadsStr: function(text)  -- hexm/client/entities/local/component/cutscene/CinematicsBase.lua:53-55
   CUE_CINEMATICS_DISMISS_PERFORMER: number
   CUE_CINEMATICS_ENABLE_SKIP: number
   EMPTY_MODEL_SET: table

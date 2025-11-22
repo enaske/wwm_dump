@@ -3,8 +3,8 @@ Type: table
 ================================================================================
 
 Keys:
-  RegisterDynamicComponentMeta: function
-  RegisterComponentMetaWatcher: function
+  RegisterDynamicComponentMeta: function(name, meta)  -- SunshineSDK/Meta/ComponentMeta.lua:20-22
+  RegisterComponentMetaWatcher: function(watcher)  -- SunshineSDK/Meta/ComponentMeta.lua:9-11
   DefComponentMeta: class <DefComponentMeta>
     Functions:
       Serialize(self)  -- SunshineSDK/Meta/ComponentMeta.lua:103-107
@@ -21,7 +21,7 @@ Keys:
       ctor(self, func, name)  -- SunshineSDK/Meta/ComponentMeta.lua:112-116
       GetComponentMeta(self, parent)  -- SunshineSDK/Meta/ComponentMeta.lua:118-128
       new(...)  -- =[C]
-  GetComponentMeta: function
+  GetComponentMeta: function(key)  -- SunshineSDK/Meta/ComponentMeta.lua:133-135
   ComponentMeta: class <ComponentMeta>
     Functions:
       MultiComponents(self)  -- SunshineSDK/Meta/ComponentMeta.lua:42-44
@@ -31,7 +31,7 @@ Keys:
       GetName(self)  -- SunshineSDK/Meta/ComponentMeta.lua:30-32
       AllowedComponents(self)  -- SunshineSDK/Meta/ComponentMeta.lua:34-36
       new(...)  -- =[C]
-  RegisterComponentMeta: function
+  RegisterComponentMeta: function(name, meta)  -- SunshineSDK/Meta/ComponentMeta.lua:13-18
   ComponentMetas: table <UnknownInstance>
   DynamicComponentMetas: table <UnknownInstance>
-  GetDynamicComponentMeta: function
+  GetDynamicComponentMeta: function(key)  -- SunshineSDK/Meta/ComponentMeta.lua:138-140

@@ -3,12 +3,12 @@ Type: table
 ================================================================================
 
 Keys:
-  unpack_gp_kill_monster_map_marker_id: function
+  unpack_gp_kill_monster_map_marker_id: function(map_marker_id)  -- hexm/client/entities/local/player_avatar_members/imp_gameplay_task.lua:77-83
   COLOR_WHITE: string
-  pack_gp_kill_monster_map_marker_id: function
-  gp_task_get_default_notify_icon: function
-  gp_task_get_notify_reward: function
-  gp_task_get_notify_des_text_color: function
+  pack_gp_kill_monster_map_marker_id: function(task_no, serial_no)  -- hexm/client/entities/local/player_avatar_members/imp_gameplay_task.lua:73-75
+  gp_task_get_default_notify_icon: function(task_id)  -- hexm/client/entities/local/player_avatar_members/imp_gameplay_task.lua:86-91
+  gp_task_get_notify_reward: function(task_id)  -- hexm/client/entities/local/player_avatar_members/imp_gameplay_task.lua:93-105
+  gp_task_get_notify_des_text_color: function(task_id)  -- hexm/client/entities/local/player_avatar_members/imp_gameplay_task.lua:115-117
   PlayerAvatarMember: class <PlayerAvatarMember>
     Functions:
       _on_gp_kill_monster_task_add(self, task_no, task_table_data)  -- hexm/client/entities/local/player_avatar_members/imp_gameplay_task.lua:425-433
@@ -54,13 +54,13 @@ Keys:
       _on_gp_survive_player_tracer_vx_change(self, val)  -- hexm/client/entities/local/player_avatar_members/imp_gameplay_task.lua:412-423
       _gp_task_process_custom_notify(self, task_id, task_prop, icon, icon_color, title, desc, extra_info)  -- hexm/client/entities/local/player_avatar_members/imp_gameplay_task.lua:730-758
       _gp_task_handle_space_data(self, event, data)  -- hexm/client/entities/local/player_avatar_members/imp_gameplay_task.lua:292-298
-  gp_task_get_notify_des_icon_color: function
+  gp_task_get_notify_des_icon_color: function(task_id)  -- hexm/client/entities/local/player_avatar_members/imp_gameplay_task.lua:111-113
   COLOR_BG_MAP: dict
-  get_gp_kill_monster_task_required_entity_nos: function
-  check_gp_kill_monster_need_kill_by_entity_no: function
+  get_gp_kill_monster_task_required_entity_nos: function(task_table_data)  -- hexm/client/entities/local/player_avatar_members/imp_gameplay_task.lua:16-28
+  check_gp_kill_monster_need_kill_by_entity_no: function(task_table_data)  -- hexm/client/entities/local/player_avatar_members/imp_gameplay_task.lua:12-14
   COLOR_YELLOW: string
-  get_gp_kill_monster_task_entity_nos_progress_not_done: function
-  get_gp_kill_monster_map_marker_required_serial_no: function
-  check_gp_kill_monster_serial_no_valid: function
+  get_gp_kill_monster_task_entity_nos_progress_not_done: function(task_no)  -- hexm/client/entities/local/player_avatar_members/imp_gameplay_task.lua:57-71
+  get_gp_kill_monster_map_marker_required_serial_no: function(task_table_data)  -- hexm/client/entities/local/player_avatar_members/imp_gameplay_task.lua:30-44
+  check_gp_kill_monster_serial_no_valid: function(serial_no)  -- hexm/client/entities/local/player_avatar_members/imp_gameplay_task.lua:46-55
   COLOR_RED: string
-  gp_task_get_notify_des_icon: function
+  gp_task_get_notify_des_icon: function(task_id)  -- hexm/client/entities/local/player_avatar_members/imp_gameplay_task.lua:107-109

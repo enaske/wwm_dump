@@ -56,7 +56,7 @@ Keys:
     Functions:
       update_content(self, key, data)  -- hexm/client/ui/windows/home/home_entry/home_entry_top_controller.lua:470-484
       handle_open_float_window(self)  -- hexm/client/ui/windows/home/home_entry/home_entry_top_controller.lua:486-499
-  _try_set_special_key: function
+  _try_set_special_key: function(self, data, key_text, callback)  -- hexm/client/ui/windows/home/home_entry/home_entry_top_controller.lua:636-659
   TAG_TO_NAME: dict
   NAME_INFO: dict
   HomeEntryTopRightMenuItem: class <HomeEntryTopRightMenuItem>

@@ -15,7 +15,7 @@ Keys:
   curr_cloth_model: string
   soft_radius_offset: number
   global_shape_matching: number
-  open_hair_debug: function
+  open_hair_debug: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
   iteration_count: number
   gravity_scale: number
   wind_speed: number
@@ -25,6 +25,6 @@ Keys:
   hair_physics_factor: number
   show_soft_bone: boolean
   input_flamen_vpath: string
-  open_debug_panel2: function
+  open_debug_panel2: function()  -- hexm/client/debug/gm/gm_commands/gm_hair_physics.lua:210-214
   debug_draw: boolean
   show_control_bone: boolean

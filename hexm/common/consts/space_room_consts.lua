@@ -8,7 +8,7 @@ Keys:
   TRANFER_ID_WANFA_LOADING: number
   TRANFER_ID_COOP_TO_SINGLE: number
   ROOM_CUST_TAG_ADD: number
-  get_default_apply_msg: function
+  get_default_apply_msg: function()  -- hexm/common/consts/space_room_consts.lua:267-269
   NOT_TEAM_LEADER: number
   OWNER_BE_CALL: number
   ROOM_WANFA_OVER: number
@@ -16,7 +16,7 @@ Keys:
   GET_WANFA_AUTH: number
   TEAM_JUDIAN_ONE: number
   ADD_WANFA_AUTH_BY_HOSTER: number
-  get_main_player_invite_msg: function
+  get_main_player_invite_msg: function()  -- hexm/common/consts/space_room_consts.lua:262-265
   ERR_REMIND_START: number
   YEZIXI: number
   ENTER_STATE_DISABLE: number
@@ -32,7 +32,7 @@ Keys:
   QUIT_TEAM: number
   NOT_ROOM_OWNER: number
   EDIT_DEAD: number
-  room_check_show_result: function
+  room_check_show_result: function(time, online_point)  -- hexm/common/consts/space_room_consts.lua:325-332
   ROOM_WANFA_DES: number
   INTER_TIME: number
   DOUDIZHU: number

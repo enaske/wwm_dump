@@ -7,7 +7,7 @@ Keys:
   EVENT_TASK_EVENT: number
   TASK_TYPE_CHUYAN: number
   _reload_all: boolean
-  get_jieyuan_task_id: function
+  get_jieyuan_task_id: function(jid, task_id)  -- hexm/common/consts/relation_task_consts.lua:17-19
   EVENT_TASK_REWARD: number
   TASK_TYPE_JIEYUAN: number
   REFRESH_TYPE_NEVER: number
