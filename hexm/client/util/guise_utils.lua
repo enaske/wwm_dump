@@ -53,4 +53,46 @@ Keys:
   get_all_view_nos_only_sex: function(only_sex)  -- hexm/client/util/guise_utils.lua:1656-1659
   get_level_text_color_from_view_no: function(view_no)  -- hexm/client/util/guise_utils.lua:127-133
   get_item_id_by_view_no: function(view_no)  -- hexm/client/util/guise_utils.lua:590-603
-  (1 more keys)
+  get_real_guise_model_no_list: function(guise_model_no)  -- hexm/client/util/guise_utils.lua:1103-1120
+  get_zhijing_models: function(studio_no)  -- hexm/client/util/guise_utils.lua:695-703
+  calc_guise_object_pos: function(data, num_list, pos)  -- hexm/client/util/guise_utils.lua:135-164
+  show_entity_xray_effect: function(entity, state, val)  -- hexm/client/util/guise_utils.lua:338-357
+  check_gadge_exists: function(gadge_id)  -- hexm/client/util/guise_utils.lua:253-260
+  get_sew_style_out_dye_presets: function(ex)  -- hexm/client/util/guise_utils.lua:1675-1684
+  restore_pos_val: function(res_pos, entity, hard_point)  -- hexm/client/util/guise_utils.lua:1018-1031
+  get_view_part_anim_name_and_prefix: function(guise_sys_d)  -- hexm/client/util/guise_utils.lua:1370-1378
+  check_guise_data_same: function(guise_data_1, guise_data_2)  -- hexm/client/util/guise_utils.lua:1468-1493
+  get_real_attach_pos_val: function(pos_val, entity, hard_point)  -- hexm/client/util/guise_utils.lua:1002-1016
+  get_env_studio_model_nos: function(view_no)  -- hexm/client/util/guise_utils.lua:810-821
+  body_type_convert_hard_check: function()  -- hexm/client/util/guise_utils.lua:1909-1929
+  show_fenghuazhi_tips_window: function(pos, anchor, title, content)  -- hexm/client/util/guise_utils.lua:605-621
+  show_entity_out_line: function(entity, state, effect_no, effect_color_list)  -- hexm/client/util/guise_utils.lua:280-335
+  get_fenbao_default_model_nos: function()  -- hexm/client/util/guise_utils.lua:1544-1564
+  get_sew_model_nos: function(view_no, body_type)  -- hexm/client/util/guise_utils.lua:784-808
+  is_attach_mode_1: function(view_no, view_sysd)  -- hexm/client/util/guise_utils.lua:1501-1511
+  body_type_convert_is_first_time: function()  -- hexm/client/util/guise_utils.lua:1789-1796
+  is_mesh_wear_point: function(wear_point)  -- hexm/client/util/guise_utils.lua:1495-1499
+  get_guise_item_icon: function(stuff_data, body_type)  -- hexm/client/util/guise_utils.lua:676-690
+  check_model_list_replace_pc_model: function(model_no_list, check_showroom, check_main_player, check_showroom_main_player)  -- hexm/client/util/guise_utils.lua:1333-1342
+  get_all_accessory_model_list: function(view_no, ex)  -- hexm/client/util/guise_utils.lua:1047-1053
+  get_guise_name_by_view_no_and_body_type: function(view_no, body_type)  -- hexm/client/util/guise_utils.lua:641-655
+  one_click_use_stuff: function(stuff_no)  -- hexm/client/util/guise_utils.lua:1408-1454
+  check_wearing_exists: function(wear_id)  -- hexm/client/util/guise_utils.lua:242-250
+  get_stuff_data_from_view_no: function(view_no)  -- hexm/client/util/guise_utils.lua:115-117
+  get_type_by_genid: function(item_id, shared_bag)  -- hexm/client/util/guise_utils.lua:64-71
+  model_scale_by_position_id: function(wps_info, model_scale_list)  -- hexm/client/util/guise_utils.lua:82-89
+  get_fenbao_default_dressing: function()  -- hexm/client/util/guise_utils.lua:1525-1541
+  get_fashion_config_hide_showroom_info: function(fashion_config_id)  -- hexm/client/util/guise_utils.lua:360-369
+  check_overlap_with_other_character: function(pos, other_character_poses, x_range)  -- hexm/client/util/guise_utils.lua:228-239
+  decode_real_guise_mode_no_to_model_no: function(real_guise_mode_no)  -- hexm/client/util/guise_utils.lua:1122-1130
+  get_ride_all_mode_nos_only_has_guise_view_no: function(ride_show_id)  -- hexm/client/util/guise_utils.lua:889-896
+  get_fenghua_iworld_all_lights: function(space_cxx)  -- hexm/client/util/guise_utils.lua:623-639
+  FENBAO_DEFAULT_DRESSING: dict
+  get_all_guise_view_model_no: function(stuff_no, body_type, diff_sex_suit_all)  -- hexm/client/util/guise_utils.lua:848-887
+  body_type_convert_regret_start_confirm_window: function()  -- hexm/client/util/guise_utils.lua:1833-1847
+  get_suit_sex_diff_view_nos: function(suit_no, my_body_type)  -- hexm/client/util/guise_utils.lua:942-965
+  get_fenghua_world_level_and_weather_name: function(id)  -- hexm/client/util/guise_utils.lua:1686-1692
+  change_dressing_info_sex: function(dressing_info, cur_sex, another_sex)  -- hexm/client/util/guise_utils.lua:1758-1786
+  get_guise_list_from_view_item: function(view_item, sex)  -- hexm/client/util/guise_utils.lua:1055-1057
+  support_position_has_mesh_check: function(view_no)  -- hexm/client/util/guise_utils.lua:1694-1713
+  get_weapon_models: function(stuff_no)  -- hexm/client/util/guise_utils.lua:705-742

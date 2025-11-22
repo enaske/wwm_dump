@@ -58,11 +58,11 @@ Keys:
       add_camera_create_listener(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/GameLevelNodesPart2.lua:68-72
   GameLevelListenRegionNode: class <GameLevelListenRegionNode>
     Functions:
+      Release(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/GameLevelNodesPart2.lua:1183-1185
+      _clear_listener(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/GameLevelNodesPart2.lua:1160-1165
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/GameLevelNodesPart2.lua:1136-1145
       _on_trigger_region(self, e, d)  -- Sunshine/Storyline/StorylineNode/ClientNode/GameLevelNodesPart2.lua:1167-1181
       Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/GameLevelNodesPart2.lua:1147-1158
-      _clear_listener(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/GameLevelNodesPart2.lua:1160-1165
-      Release(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/GameLevelNodesPart2.lua:1183-1185
-      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/GameLevelNodesPart2.lua:1136-1145
   GameLevelClientClearEffectNode: class <GameLevelClientClearEffectNode>
     Functions:
       ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/GameLevelNodesPart2.lua:779-789

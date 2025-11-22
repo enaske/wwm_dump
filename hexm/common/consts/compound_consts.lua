@@ -53,4 +53,20 @@ Keys:
   COMPOUND_RECIPE_OPEN_SELECT: string
   LOCK_ENERGY: number
   NOT_ANVIL_RIGHT: number
-  (1 more keys)
+  ERROR_ANVIL_PUT_IN_WATER: number
+  fix_product_stuff: string
+  ERROR_ANVIL_PUT_STATE: number
+  NOT_ABILITY: number
+  FULL_BAG: number
+  MATERIAL_CHECK_FAIL: number
+  ERROR_ANVIL_CHOOSE: number
+  NOT_ANVIL_EX: number
+  NOT_ANVIL: number
+  COMPOUND_RECIPE_INFO_STUFF_CHANGE: string
+  NPC_COMPOUND_START: string
+  HAS_UNLOCK_FLAG: number
+  fix_product_num: string
+  NPC_COMPOUND_RECEIVE: string
+  LOCK_STUFF: number
+  LOCK_EXPERIENCE: number
+  ERROR_HANDBOOK_NO: number

@@ -53,4 +53,189 @@ Keys:
   SETTING_MOBILE_AIM_CAMERA_NONLINEAR_VELOCITY_MODE_Y_RATE: string
   SETTING_JOYSTICK_MOTION_RATE: string
   SETTING_CCMINI_ENHANCE_BG: string
-  (1 more keys)
+  EXTRA_RENDER_SETTINGS: list
+  SETTING_MOBILE_AIM_CAMERA_CONTROL_MODE: string
+  SETTING_CCMINI_CAPTURE_TYPE: string
+  SETTING_XUANSHANG_PUBLISH: string
+  SETTING_JOYSTICK_CAMERA_Y_REVERSE: string
+  SETTING_GUIDE_MODE: string
+  UPSAMPLING_TYPE_FSR: number
+  SETTING_REFLEX: string
+  MOVE_TYPE: number
+  SETTING_MOBILE_CONTROL_TYPE: string
+  SETTING_CONTROLLER_SPEAKER_SET: string
+  setting_get: function(setting_key)  -- hexm/client/manager/setting/setting_config.lua:643-649
+  SETTING_REMOTE_TIP_VISIBLE: string
+  SETTING_APPEARANCE_SECOND_PASSWORD: string
+  SETTING_MOBILE_AIM_CAMERA_LINEAR_VELOCITY_MODE_Y_RATE: string
+  UPSAMPLING_TYPE_XESS: number
+  SETTING_SOCIAL_MODE: string
+  SETTING_MOBILE_AVATAR_LOD1_FORBIDDEN_IOS: string
+  _get_voice_output_config: function(setting_key)  -- hexm/client/manager/setting/setting_config.lua:476-482
+  SETTING_STUFF_SECOND_PASSWORD: string
+  SETTING_BUILDING_FREE_CAMERA_SPEED: string
+  SETTING_FOOD_AUTO_REPLACE: string
+  SETTING_FSR: string
+  SETTING_FULL_SCREEN: string
+  SETTING_HUD_BRIGHTNESS: string
+  SETTING_JOYSTICK_PRESET: string
+  SETTING_MAIN_WEAPON_HIDE: string
+  SETTING_JOYSTICK_CAMERA_Y_RATE: string
+  SETTING_MOBILE_NORMAL_LINEAR_VELOCITY_MODE_X_RATE: string
+  SETTING_GIFT_SECOND_PASSWORD: string
+  SETTING_SKILL_DISPLAY: string
+  SETTING_SWAP_JOYSTICK_LR: string
+  SETTING_PARRY_ASSIST: string
+  SETTING_CHAT_SHOW: string
+  SETTING_MOBILE_NPC_DENSITY: string
+  SETTING_FRAME_INSERTION: string
+  SETTING_PA_MON_NORMAL: string
+  SETTING_JOYSTICK_GYROSCOPE_MODE: string
+  post_setting: function(setting_key)  -- hexm/client/manager/setting/setting_config.lua:659-665
+  SETTING_CAMERA_MOVE_MODE: string
+  check_is_render_setting: function(setting_key)  -- hexm/client/manager/setting/setting_config.lua:792-805
+  SETTING_SCREEN_SELECT: string
+  SETTING_TRANSLATION: string
+  SETTING_PLAY_MODE: string
+  SETTING_XESS: string
+  SETTING_VSYNC_SWITCH: string
+  SETTING_GUILD_NOTIFY: string
+  SETTING_CONTROLLER_KEY: string
+  SETTING_PAGE_GRAPHICS: number
+  SETTING_CONFIG_LOCAL: dict
+  SETTING_CAMERA_ZOOM_CONFIG: string
+  SETTING_TEMPORAL_ANTI_ALIASING: string
+  SETTING_UPSAMPLING_TYPE: string
+  SETTING_JOYSTICK_CAMERA_X_REVERSE: string
+  SETTING_JOYSTICK_CAMERA_X_RATE: string
+  SETTING_RAY_TRACING_LEVEL: string
+  SETTING_CCMINI_PLAY_BACKGROUND: string
+  SETTING_ATTACK_OTHERS_BUILDING_ENABLE: string
+  SETTING_JOYSTICK_MOTION_ENABLE: string
+  SETTING_FAST_SHOOT: string
+  SETTING_FUMO_AUTO_REPLACE: string
+  get_real_difficulty: function(play_mode, difficulty_mode, guide_mode, social_mode)  -- hexm/client/manager/setting/setting_config.lua:739-745
+  SETTING_MOTION_BLUR: string
+  SETTING_MAP_INFO: string
+  SETTING_HDR: string
+  SETTING_COOP_GUEST_ATTACK_BUILDING_ENABLE: string
+  SETTING_PRIORITIZE_SCREEN_CENTER_TARGETS: string
+  SETTING_TYPE_RANGE_VALUE_NEW: number
+  SETTING_FLY_SKILL: string
+  SETTING_MONSTER_LOCK: string
+  DISABLE_RESET: dict
+  _get_resource_level_config: function(setting_key)  -- hexm/client/manager/setting/setting_config.lua:428-466
+  SETTING_RAY_TRACING: string
+  SETTING_SIGN_DEAD_REPORT: string
+  SETTING_FRIEND_APPLY_TIP: string
+  SETTING_RENDER_LEVEL: string
+  SETTING_MOBILE_IMMERISVE_MODE_ON: string
+  SETTING_DRUG_AUTO_REPLACE: string
+  SETTING_CHILD_ENABLE_SHARE: string
+  SETTING_AUTO_OPEN_MODELS_REPLAY: string
+  EDIT_STATE_CONFLICT: number
+  SETTING_MOBILE_MULTI_AVATAR_SHOW_NUMBER_IOS: string
+  EDIT_STATE_MODIFIED: number
+  SETTING_CAMERA_X_REVERSE: string
+  SETTING_CCMINI_SCALE_GAME_SOUND: string
+  SETTING_TAB_NOTIFY: string
+  SETTING_CHAT_HUD: string
+  SETTING_TYPE_PATH_SET: number
+  SETTING_VOICE_AUTO: string
+  SETTING_MOBILE_GYROSCOPE_Y_INVERTED: string
+  SETTING_KEYBOARD_PRESET: string
+  SETTING_INVITE_BATTLE_SPARRING: string
+  SETTING_JOYSTICK_GYROSCOPE_Y_INVERTED: string
+  SETTING_MOBILE_AIM_CAMERA_LINEAR_VELOCITY_MODE_X_RATE: string
+  SETTING_MOBILE_FLUTTER: string
+  SETTING_JOYSTICK_DISK: string
+  SETTING_MOBILE_MULTI_AVATAR_SHOW_MODE: string
+  SETTING_TYPE_MINOR_MODE: string
+  SETTING_IMAGE_STORAGE_PATH: string
+  SETTING_SKILL_APPROACH: string
+  SETTING_BUILDING_ADSORB: string
+  SETTING_CHILD_PROTECT_UNKNOWN_MESSAGE: string
+  SETTING_SEARCH_NOTIFY: string
+  SETTING_CCMINI_CHANGE_VOICE: string
+  SETTING_CHILD_ENABLE_CCMINI: string
+  SETTING_MOBILE_AVATAR_SHOW_SAME_MODEL_ANDROID: string
+  SETTING_MOBILE_MULTI_AVATAR_SHOW_NUMBER_ANDROID: string
+  SETTING_DIFFICULTY: string
+  SETTING_TYPE_PATH_SELECT: number
+  SETTING_LANGUAGE: string
+  UPSAMPLING_TYPE_DLSS: number
+  SETTING_RED_POINT_STYLE: string
+  SETTING_CCMINI_CAPTURE_VOL: string
+  SETTING_CCMINI_MIC_VOL_SCALE_WHEN_ENHANCE_BG: string
+  SYS_TYPE: number
+  SETTING_PLAYER_LOCK: string
+  SETTING_RECORD_VIDEO_GAME: string
+  SETTING_SWAP_JOYSTICK_AB: string
+  SETTING_ALLOW_OTHERS_ADD_FRIEND: string
+  SETTING_TRANSACTION_SECOND_PASSWORD: string
+  SETTING_PARENT_ALLOW_OTHERS_ADD_FRIEND: string
+  SETTING_FSR_INSERTION: string
+  SETTING_MOBILE_NORMAL_NONLINEAR_VELOCITY_MODE_X_RATE: string
+  SETTING_MOBILE_GYROSCOPE_MODE: string
+  SETTING_DLSS: string
+  check_is_banned_tips: function(setting_key)  -- hexm/client/manager/setting/setting_config.lua:747-766
+  SETTING_FRAME_RATE_LIMIT: string
+  SETTING_MOBILE_GYROSCOPE_RATE: string
+  SETTING_RECORD_VIDEO_GAME_HUOGUO: string
+  SETTING_AUTO_OPEN_VIRTUAL_REPLAY: string
+  SETTING_CCMINI_CAPTURE_EXE: string
+  SETTING_PA_BOSS_DANGER: string
+  SETTING_PA_BOSS_NORMAL: string
+  SETTING_RECORD_VIDEO_PATH: string
+  SETTING_TYPE_MINOR_MODE_CHAT: string
+  SETTING_CCMINI_SOUND_VOL: string
+  SETTING_TYPE_MINOR_MODE_COMMENT: string
+  EDIT_STATE_UNUSABLE: number
+  SETTING_SCREEN_SIZE: string
+  BUILDING: number
+  SETTING_FUNC_MAP: dict
+  SETTING_FRAME_EXTRAPOLATION: string
+  setting_default: function(setting_key)  -- hexm/client/manager/setting/setting_config.lua:651-657
+  get_setting_choices_lock_state: function(setting_key)  -- hexm/client/manager/setting/setting_config.lua:541-629
+  SETTING_MOBILE_AVATAR_SHOW_SAME_MODEL_IOS: string
+  SETTING_RESOURCE_LEVEL: string
+  SETTING_REALTIME_SUNLIGHT: string
+  SETTING_RECORD_VIDEO_AUTO_OPEN: string
+  _get_translate_setting_config: function(setting_key)  -- hexm/client/manager/setting/setting_config.lua:496-506
+  SETTING_CAMERA_MOVESPEED_Y: string
+  SETTING_TYPE_SELECT_LIST_NEW: number
+  SETTING_PC_KEY: string
+  SETTING_PA_MON_DANGER: string
+  SETTING_JOYSTICK_AIM_CAMERA_X_RATE: string
+  get_setting_items_by_platform: function(setting_key)  -- hexm/client/manager/setting/setting_config.lua:807-842
+  SETTING_JOYSTICK_IMMERISVE_MODE_ON: string
+  SETTING_HARMTEXT_MODE: string
+  COMBAT_TYPE: number
+  SETTING_TYPE_MINOR_MODE_GAMEPLAY: string
+  SETTING_STICK_WALL: string
+  SETTING_JOYSTICK_GYROSCOPE: string
+  SETTING_CHANGE_SECOND_PASSWORD: string
+  SETTING_PC_IMMERSIVE_MODE_ON: string
+  SETTING_ENVELOPE_RED_POINT: string
+  SETTING_TAB_KEYS: string
+  _get_language_setting_config: function(setting_key)  -- hexm/client/manager/setting/setting_config.lua:484-494
+  check_minor_sub_last: function(sys_id)  -- hexm/client/manager/setting/setting_config.lua:769-783
+  SETTING_AUTO_SELECT_TARGET: string
+  SETTING_JOYSTICK_AIM_CAMERA_Y_RATE: string
+  SETTING_STATIC_ENTITY_ATTACK_ENABLE: string
+  check_platform: function(setting_key)  -- hexm/client/manager/setting/setting_config.lua:686-698
+  SETTING_JOYSTICK_TYPE: string
+  SETTING_ATTACK_OWNED_BUILDING_ENABLE: string
+  SETTING_CCMINI_MIC_VOL: string
+  KEY_TYPE_TO_NAME: dict
+  SETTING_POWER_SAVING: string
+  SETTING_TYPE_JUMP_NEW: number
+  get_setting_config: function(setting_key)  -- hexm/client/manager/setting/setting_config.lua:524-536
+  SETTING_DELETE_SECOND_PASSWORD: string
+  setting_set: function(setting_key)  -- hexm/client/manager/setting/setting_config.lua:635-641
+  SETTING_MOBILE_AIM_CAMERA_NONLINEAR_VELOCITY_MODE_X_RATE: string
+  SETTING_MOBILE_NORMAL_LINEAR_VELOCITY_MODE_Y_RATE: string
+  SETTING_MOBILE_HIDE_INVISIBLE_BILLBOARD: string
+  platform_map: dict
+  SETTING_AUDIO: string
+  _get_mobile_control_config: function(setting_key)  -- hexm/client/manager/setting/setting_config.lua:468-474

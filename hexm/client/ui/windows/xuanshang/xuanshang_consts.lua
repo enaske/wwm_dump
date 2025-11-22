@@ -53,4 +53,39 @@ Keys:
   XS_DAILY_NUM_RATE: number
   XS_HEAD_COLOR_OFFLINE: list
   XS_PUBLISH_REWARD_MODE: number
-  (1 more keys)
+  XS_DISASTER_DAILY_STATE_FETCHED: number
+  get_xs_remain_time: function(xs_id)  -- hexm/client/ui/windows/xuanshang/xuanshang_consts.lua:183-203
+  XS_PUBLISH_ITEM_TYPE_LIMIT: number
+  XS_TYPE_DISASTER: number
+  kill_data_get_target_id: function(task_data)  -- hexm/client/ui/windows/xuanshang/xuanshang_consts.lua:259-266
+  XS_PUBLISH_ITEM_TYPE_DESC: number
+  get_yajin_data_by_xs_no: function(xs_no)  -- hexm/client/ui/windows/xuanshang/xuanshang_consts.lua:167-180
+  XS_DETAIL_ITEM_TYPE_WUXIAN: number
+  XS_PUBLISH_ITEM_TYPE_WUXIAN: number
+  kill_data_get_space_no: function(task_data)  -- hexm/client/ui/windows/xuanshang/xuanshang_consts.lua:272-274
+  XS_TYPE_JIANGHU: number
+  XS_VIEW_CONTENT_TYPE_HEAD: number
+  get_social_task_description: function(extra_data)  -- hexm/client/ui/windows/xuanshang/xuanshang_consts.lua:307-309
+  XS_TYPE_GANG: number
+  XS_VIEW_CONTENT_TYPE_STUFF: number
+  XS_VIEW_CONTENT_TYPE_DISEASE: number
+  XS_PUBLISH_ITEM_TYPE_KILL_REASON: number
+  XS_TYPE_SHANGJIN: number
+  check_xs_type_unlock: function(xs_type)  -- hexm/client/ui/windows/xuanshang/xuanshang_consts.lua:115-122
+  XS_PUBLISH_TRACE_MODE: number
+  XS_CHOUSHA_NPC: number
+  XS_PUBLISH_BATTLE_MODE: number
+  XS_V2_DIFFICULT_OUTRANGE_LEVEL: number
+  get_player_model: function(player_id, callback)  -- hexm/client/ui/windows/xuanshang/xuanshang_consts.lua:280-284
+  XS_PUBLISH_ITEM_TYPE_STUFF: number
+  get_difficulty_filter_list: function()  -- hexm/client/ui/windows/xuanshang/xuanshang_consts.lua:141-149
+  fetch_random_num_from_list: function(xs_list, max_num)  -- hexm/client/ui/windows/xuanshang/xuanshang_consts.lua:242-255
+  XS_TYPE_2_DISASTER: number
+  XS_DISASTER_DAILY_STATE_COMPLETE: number
+  XS_PUBLISH_ITEM_TYPE_KILL_TARGET: number
+  XS_HEAD_COLOR_ONLINE: list
+  XS_GANG_TYPE_LIST: list
+  XS_DETAIL_WINDOW_TYPE_MY_ACCEPTED: number
+  XS_MANAGER_PUBLISH: number
+  get_xs_published_time: function(xs_id)  -- hexm/client/ui/windows/xuanshang/xuanshang_consts.lua:206-213
+  XS_TYPE_2_NORMAL: number

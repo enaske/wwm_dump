@@ -53,4 +53,14 @@ Keys:
   QUANFU_RANK_VERSION_COL: string
   TAG1_DISASTER: string
   get_tag1_and_tag2_by_rank_name: function(rank_name)  -- hexm/common/consts/dynamic_rank_consts.lua:129-136
-  (1 more keys)
+  get_single_follow_music_no_by_tag2: function(tag2)  -- hexm/common/consts/dynamic_rank_consts.lua:85-91
+  QUANFU_RANK_SYNC_CYCLE_RANDOM_DELAY: number
+  QUANFU_RANK_SYNC_CYCLE: number
+  get_quanfu_rank_doc_name_by_tag2: function(version, tag1, tag2)  -- hexm/common/consts/dynamic_rank_consts.lua:187-190
+  TAG1_TAG2_FORMAT: string
+  QUANFU_RANK_COL_NUM_PER_TAG1: number
+  get_rank_name_by_key: function(key)  -- hexm/common/consts/dynamic_rank_consts.lua:116-118
+  DYNAMIC_RANK_SNAPSHOT_NAME_TAG2: string
+  DYNAMIC_RANK_SYMBOL: string
+  get_recall_conf_no_by_tag2: function(tag2)  -- hexm/common/consts/dynamic_rank_consts.lua:55-58
+  QUANFU_RANK_DATA_COL: string

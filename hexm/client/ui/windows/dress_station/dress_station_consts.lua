@@ -53,4 +53,23 @@ Keys:
   SUB_TAB_TO_NAME: dict
   APPLY_GOTO_FACE: number
   PUBLISH_TITLE_CONTENT: number
-  (1 more keys)
+  get_dress_station_name: function()  -- hexm/client/ui/windows/dress_station/dress_station_consts.lua:16-18
+  T_ALREADY_FOLLOW: number
+  PUBLISH_TODAY_LIMIT_FULL: number
+  PUBLISH_TITLE: number
+  APPLY_DRESS_FASHION: number
+  T_HOT_TOTAL: string
+  convert_heat_num_to_str: function(num)  -- hexm/client/ui/windows/dress_station/dress_station_consts.lua:34-45
+  generate_artwork_code: function(artwork_id)  -- hexm/client/ui/windows/dress_station/dress_station_consts.lua:206-208
+  APPLY_ONLY_DRESS: number
+  TAB_TO_NAME: dict
+  ICON_RATIO_TO_VALUE: dict
+  PUBLISH_TODAY_LIMIT: number
+  TAB_MINE: number
+  T_RECOMMEND: string
+  RPC_TIME_KEY: string
+  APPLY_SAME_STYLE: number
+  NO_DATA_AVALILABLE: string
+  PUBLISH_SUCCESS_TIP: number
+  get_station_thumb_size: function()  -- hexm/client/ui/windows/dress_station/dress_station_consts.lua:379-381
+  T_NEWEST: string

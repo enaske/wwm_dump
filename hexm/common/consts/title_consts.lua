@@ -53,4 +53,26 @@ Keys:
   has_title_equipped: function(avt)  -- hexm/common/consts/title_consts.lua:350-353
   get_title_is_equip: function(tid, avt)  -- hexm/common/consts/title_consts.lua:346-348
   get_equipped_title_count: function(avt, title_type)  -- hexm/common/consts/title_consts.lua:355-367
-  (1 more keys)
+  get_title_sys_consts: function(key, default)  -- hexm/common/consts/title_consts.lua:264-266
+  get_all_titles: function()  -- hexm/common/consts/title_consts.lua:272-274
+  get_title_last_days: function(tid, avt)  -- hexm/common/consts/title_consts.lua:396-399
+  title_is_diy: function(tid)  -- hexm/common/consts/title_consts.lua:268-270
+  ACT_DEL: number
+  E_EQUIP_TITLE: number
+  uwsgi_get_tid_text: function(equips, equip_info)  -- hexm/common/consts/title_consts.lua:194-210
+  get_title_can_unlock: function(tid, avt)  -- hexm/common/consts/title_consts.lua:378-394
+  show_tid_text: function(show_tid, avt)  -- hexm/common/consts/title_consts.lua:170-188
+  REASON_STUFF: string
+  get_title_unlock_stuff: function(tid)  -- hexm/common/consts/title_consts.lua:374-376
+  UNLOCK_TYPE_TUDII: number
+  get_all_titles_dict: function()  -- hexm/common/consts/title_consts.lua:276-278
+  get_title_expired_time: function(tid, avt)  -- hexm/common/consts/title_consts.lua:312-315
+  title_equip_title_check: function(idx, tid)  -- hexm/common/consts/title_consts.lua:152-168
+  get_title_switch_time: function(avt)  -- hexm/common/consts/title_consts.lua:290-298
+  R_LOGIN_DEADLINE: string
+  title_is_unlock: function(avt)  -- hexm/common/consts/title_consts.lua:413-429
+  title_has_been_seen: function(tid, avt)  -- hexm/common/consts/title_consts.lua:251-258
+  E_UNEQUIP_TITLE: number
+  get_all_equipped_title: function(avt)  -- hexm/common/consts/title_consts.lua:369-372
+  DEFINE_TITLE_NEXT_SET_CD: function(avt, tid)  -- hexm/common/consts/title_consts.lua:138-147
+  make_avt_from_uwsgi_data: function(data)  -- hexm/common/consts/title_consts.lua:212-220

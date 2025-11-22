@@ -53,4 +53,24 @@ Keys:
   DIANDANG_START_CHOOSE_CLUB: string
   REQUIRE_STUFF_STATE_ERROR: number
   JISHOU_MY_FAVOR_ITEM_START_IDX: number
-  (1 more keys)
+  get_trade_forbid_lock_back_common_info: function(fanhuan_time, back_money_type, back_money_num)  -- hexm/client/ui/windows/trade_new/trade_consts.lua:234-241
+  check_is_ride_type: function(item_no)  -- hexm/client/ui/windows/trade_new/trade_consts.lua:127-131
+  TRADE_JISHOU_STUFF_TYPE_8: number
+  get_trade_buy_show_text_info: function(cost_num, stuff_name, stuff_num, show_max_owner_limit)  -- hexm/client/ui/windows/trade_new/trade_consts.lua:254-271
+  set_price_info_with_top_text: function(view, price)  -- hexm/client/ui/windows/trade_new/trade_consts.lua:273-304
+  TRADE_JISHOU_RIGHT_BASE_INFO: list
+  TRADE_JISHOU_STUFF_TYPE_5: number
+  TRADE_LONG_VIEW_SIZE: list
+  get_trade_search_history: function()  -- hexm/client/ui/windows/trade_new/trade_consts.lua:153-155
+  REQUIRE_NUM_ERROR: number
+  DIANDANG_CHOOSE_CLUB: string
+  TOP_TAB_INDEX_TO_LEFT_TAB: dict
+  TRADE_SELL_SPECIAL_STUFF_YU: number
+  TRADE_SELL_SPECIAL_MONEY: number
+  TRADE_STORE_UNLOCK_WANFA_ID: number
+  get_trade_forbid_lock_rich_first_special_info: function(ff_type)  -- hexm/client/ui/windows/trade_new/trade_consts.lua:168-187
+  REQUIRE_STUFF_REPEAT: number
+  TRADE_JISHOU_STUFF_TYPE_2: number
+  TOP_TAB_INDEX_TO_LEFT_ICON: dict
+  report_market_show_stuff_info: function(show_stuff_list, request_state_list, request_id, index, rec_type)  -- hexm/client/ui/windows/trade_new/trade_consts.lua:456-469
+  del_trade_search_history: function(search_content)  -- hexm/client/ui/windows/trade_new/trade_consts.lua:145-151

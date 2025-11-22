@@ -62,4 +62,30 @@ Keys:
   POST_RECRUIT_LEADER: string
   SINGLE_RECRUIT_MODE: string
   SORT_KEY_MODE_INC: number
-  (1 more keys)
+  BUTTON_CANCEL_REQUEST: dict
+  PLAYER_MODE_TO_AVAILABLE_CONTENT_MODES: dict
+  get_available_content_mode: function(player_state)  -- hexm/client/ui/windows/social/jieyi/jieyi_recruit_util.lua:437-439
+  LEFT_NON_ITEM_MODE: string
+  BUTTON_NOTIFY_PRE_RECRUIT: dict
+  LEFT_UNOPERATE_MODE: string
+  valid_jieyi_request_count: function(avatar)  -- hexm/client/ui/windows/social/jieyi/jieyi_recruit_util.lua:503-512
+  BUTTON_SHOW_INFO: dict
+  BUTTON_CREATE_JIEYI: dict
+  PRE_RECRUIT_LEADER: string
+  SORT_KEY_POST_LEVEL: string
+  get_jieyi_preteam: function(cb)  -- hexm/client/ui/windows/social/jieyi/jieyi_recruit_util.lua:490-492
+  LEFT_OPERATE_MODE: string
+  BUTTON_TALK_TO_LEADER_ALT: dict
+  CONTENT_LIMIT_SHOW: number
+  CONTENT_MODES: list
+  _reload_all: boolean
+  BUTTON_INVITE_SINGLE: dict
+  is_done_jieyi_recruit: function()  -- hexm/client/ui/windows/social/jieyi/jieyi_recruit_util.lua:485-488
+  EVENT_JIEYI_RECRUIT_INFO: string
+  BUTTON_FILTER: dict
+  check_cache_data: function(data)  -- hexm/client/ui/windows/social/jieyi/jieyi_recruit_util.lua:662-686
+  LEVEL1_TAB_GROUP: string
+  BUTTON_POST_INFO: dict
+  get_operate_bar_datas: function(controller, left_mode, item_mode)  -- hotfix_20251114-195136:675-749
+  BUTTON_REQUEST_LIST: dict
+  PRE_RECRUIT_MODE: string

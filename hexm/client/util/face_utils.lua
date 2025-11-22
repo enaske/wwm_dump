@@ -53,4 +53,15 @@ Keys:
   change_old_data_sv: function(data)  -- hexm/client/util/face_utils.lua:235-249
   get_spark_type: function(spark_data, spark_type)  -- hexm/client/util/face_utils.lua:702-723
   get_random_face_skeleton_data: function()  -- hexm/client/util/face_utils.lua:1320-1335
-  (1 more keys)
+  change_str_data_to_int: function(str_data)  -- hexm/client/util/face_utils.lua:133-155
+  change_read_test_data_state: function(state)  -- hexm/client/util/face_utils.lua:725-727
+  read_json: function()  -- hexm/client/util/face_utils.lua:729-741
+  only_use_makeup_face_data: function(avatar, new_face_data, ori_face_data)  -- hexm/client/util/face_utils.lua:1152-1167
+  get_offset_xy_val: function(x, y, makeup_data)  -- hexm/client/util/face_utils.lua:605-609
+  get_random_makeup_data: function(body_type)  -- hexm/client/util/face_utils.lua:1337-1439
+  urlEncode: function(s)  -- hexm/client/util/face_utils.lua:162-165
+  set_rough_body: function(body_model, cur_skin_type)  -- hexm/client/util/face_utils.lua:438-446
+  connect_lr_face_data: function(face_data, face_data_info, connect_cb)  -- hexm/client/util/face_utils.lua:769-782
+  get_main_player_school_hair: function(school_no)  -- hexm/client/util/face_utils.lua:785-787
+  get_hair_path_by_face_data: function(data)  -- hexm/client/util/face_utils.lua:830-841
+  set_spark_switch_data: function(headModel, spark_data)  -- hexm/client/util/face_utils.lua:1519-1528

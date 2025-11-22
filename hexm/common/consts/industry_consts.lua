@@ -59,4 +59,59 @@ Keys:
   INDUSTRY_TYPE_MANAGE: number
   INDUSTRY_UNLOCK_TYPE_HOME_LEVEL: number
   REDIS_SYNC_CD: number
-  (1 more keys)
+  TAVERN_DINING_STATEM_CLEAN: string
+  INDUSTRY_GUESTS_NPC_MAX_NUM: number
+  SYSTEM_GUILD_INDUSTRY_FILE_NAME: string
+  get_prosperity: function(homeworld, area_id)  -- hexm/common/consts/industry_consts.lua:365-386
+  SPECIAL_INDUSTRY_VALUE_SET_FUNC_MAP: dict
+  get_employee_max: function(homeworld, area_id)  -- hexm/common/consts/industry_consts.lua:584-594
+  get_hw_level_by_prosperity: function(v)  -- hexm/common/consts/industry_consts.lua:425-446
+  INDUSTRY_NO_SPACE: number
+  TRANSPORTS_STATE_TRANSPORTING_TARGET: number
+  INDUSTRY_UNLOCK_TYPE_PRE: number
+  TAVERN_DINING_STATEM_STATE_IDLE: string
+  INDUSTRY_NO_TAVERN: number
+  FROZEN_FUNDS_RECODE_PAGE_NUM: number
+  EMPLOYEE_WORK_STATE_REST: number
+  EMPLOYEE_WORK_STATE_ASSIST: number
+  COURIERS_BEHAVIOR_STATE_XIEHUO: string
+  get_all_daily_values: function(homeworld, area_id)  -- hexm/common/consts/industry_consts.lua:310-334
+  get_total_prosperity: function(homeworld)  -- hexm/common/consts/industry_consts.lua:411-422
+  is_collect_house_industry: function(industry_no)  -- hexm/common/consts/industry_consts.lua:48-53
+  TRANSPORTS_STATEM_STATE_FROM_TO: string
+  EMPLOYEE_WORK_STATE_WORK: number
+  get_area_industry_no: function(ainfo)  -- hexm/common/consts/industry_consts.lua:285-291
+  TAVERN_DINING_STATEM_ORDER_FOOD: string
+  INDUSTRY_NO_POSTHOUSE: number
+  TAVERN_DINING_STATEM_GUEST_ARRIVE: string
+  INDUSTRY_TYPE_OTHER: number
+  get_industry_recipes_sys_d: function(industry_no, recipe_id)  -- hexm/common/consts/industry_consts.lua:199-207
+  INDUSTRY_FUNC_COLLECT: number
+  COURIERS_BEHAVIOR_STATE_BACK_ZHUANGHUO: string
+  INDUSTRY_NO_FREE_SPACE: number
+  transports_is_stopped: function(transport_state)  -- hexm/common/consts/industry_consts.lua:140-145
+  COLLECT_STOP_NO_WARE_HOUSE: number
+  transports_is_transporting: function(transport_state)  -- hexm/common/consts/industry_consts.lua:164-169
+  TAVERN_DINING_STATEM_FETCH_FOOD: string
+  TRANSPORTS_STATE_BLOCK: number
+  get_guests_flow_per_hour: function(homeworld, area_id)  -- hexm/common/consts/industry_consts.lua:685-688
+  COLLECT_STOP_EMPLOYEE_ENERGY_LIMIT: number
+  TRANSPORTS_STATE_TRANSPORTING_BACK: number
+  get_industry_recipe_types_sys_d: function(industry_no, recipe_type)  -- hexm/common/consts/industry_consts.lua:210-218
+  get_industry_compound_porducts_num: function(recipe_no)  -- hexm/common/consts/industry_consts.lua:271-280
+  get_industry_recipes_dict: function(industry_no)  -- hexm/common/consts/industry_consts.lua:221-232
+  INDUSTRY_DEFAULT: number
+  TRANSPORTS_STATE_STOP_LACK_STUFFS: number
+  TRANSPORTS_STATE_STOP_NO_EMPLOYEE: number
+  SPECIAL_INDUSTRY_VALUE_GET_FUNC_MAP: dict
+  EMPLOYEE_WORK_STATE_FREE: number
+  INDUSTRY_TYPE_FREE_BLANK: number
+  COLLECT_STOP_CANNOT_STORE: number
+  get_industry_level: function(homeworld, area_id)  -- hexm/common/consts/industry_consts.lua:541-552
+  get_industry_no: function(homeworld, area_id)  -- hexm/common/consts/industry_consts.lua:555-566
+  TRANSPORTS_STATEM_STATE_TO_FROM: string
+  get_guests_flow_params: function(homeworld, area_id)  -- hexm/common/consts/industry_consts.lua:602-644
+  TAVERN_DINING_STATEM_WAITER_ARRIVE: string
+  get_industry_name: function(industry_no, area_no)  -- hexm/common/consts/industry_consts.lua:55-70
+  COLLECT_STOP_LACK_EMPLOYEE: number
+  get_prosperity_by_type: function(homeworld, industry_type)  -- hexm/common/consts/industry_consts.lua:389-408

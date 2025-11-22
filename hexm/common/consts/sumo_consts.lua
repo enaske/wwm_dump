@@ -53,4 +53,35 @@ Keys:
   get_relate_entity_no: function(point_id)  -- hexm/common/consts/sumo_consts.lua:385-389
   is_ty_game: function(game_key)  -- hexm/common/consts/sumo_consts.lua:59-61
   ERR_IN_GAME: number
-  (1 more keys)
+  SUMO_TIP_YELLOW_COLOR: list
+  sumo_is_action_enhanced: function(action_id, avatar)  -- hexm/common/consts/sumo_consts.lua:119-128
+  GAME_PVP_SUMO: string
+  sumo_avatar_base_prop: function(avatar)  -- hexm/common/consts/sumo_consts.lua:108-117
+  PVP_STATE_GAMING: number
+  GAME_COOP: string
+  PVP_STATE_LOADING: number
+  PVP_EVENT_CLOSE_RESULT_WINDOW: number
+  get_other_pid: function()  -- hexm/common/consts/sumo_consts.lua:481-491
+  SUMO_VX_MAPPING: dict
+  PVP_STATE_LEAVE: number
+  PVP_EVENT_FINISH_LOADING: number
+  get_player_point: function(point_id, is_master, stage_pos, stage_yaw)  -- hexm/common/consts/sumo_consts.lua:411-426
+  SUMO_READY_FLAG_PDATA: string
+  get_player_anim_in_point: function(point_id, is_master)  -- hexm/common/consts/sumo_consts.lua:451-456
+  PVP_STATE_READY: number
+  TOY_POINT_ID: number
+  GAME_GATHER: string
+  sumo_is_gameplay_locked: function(avt, gameplay_id, host_no)  -- hexm/common/consts/sumo_consts.lua:351-355
+  sumo_get_action_anim: function(action_master, action_slave, is_win)  -- hexm/common/consts/sumo_consts.lua:366-383
+  is_sumo_guide_finish: function()  -- hexm/common/consts/sumo_consts.lua:458-466
+  calc_damage: function(attacker_sysd, attacker)  -- hexm/common/consts/sumo_consts.lua:280-288
+  ATTENTION_KEYS: list
+  get_enemy_npc_sid: function(game_id, point_id, is_guide)  -- hexm/common/consts/sumo_consts.lua:502-507
+  get_sumo_prop: function(name)  -- hexm/common/consts/sumo_consts.lua:493-499
+  STATE_PREPARE: number
+  SUMO_READY_FLAG_WAIT: string
+  GAME_BOAT: string
+  sumo_prop: function(avatar)  -- hexm/common/consts/sumo_consts.lua:93-106
+  get_boat_player_point: function(point_id, is_master)  -- hexm/common/consts/sumo_consts.lua:435-448
+  SLAVER_DAMAGE: string
+  get_point_group: function(point_id)  -- hexm/common/consts/sumo_consts.lua:428-431

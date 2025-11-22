@@ -53,4 +53,11 @@ Keys:
   XIUWEI_EXPLORE: number
   RECOMMEND_TYPE_TONGYOU: number
   RECOMMEND_TAG_FUNC: dict
-  (1 more keys)
+  get_recommend_order: function(recommend_tag, recommend_value)  -- hexm/client/consts/player_recommend_consts.lua:249-265
+  get_recommend_info: function(recommend_class, extra_info, player_data, match_id)  -- hexm/client/consts/player_recommend_consts.lua:83-128
+  RECOMMEND_TAG_INTELLIGENCE_GHOST: number
+  RECOMMEND_ORDER_COOP: number
+  RECOMMEND_TAG_INTELLIGENCE_FRIEND: number
+  XIUWEI_TRADE4: number
+  RECOMMEND_TYPE_FRIEND: number
+  COMMON_BASE_TAG: number

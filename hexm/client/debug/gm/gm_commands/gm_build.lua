@@ -53,4 +53,20 @@ Keys:
   free_building_enable_lb_debug_draw: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
   dis_blueprint_comp_by_no: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
   debug_show_building_grid_area: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
-  (1 more keys)
+  show_building_valid_rule_shape: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  dismiss_home_space: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  building_blueprint_enable_merged_model: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  get_home_space_id: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  show_prefab_comps_status: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  debug_print_main_player_grid_data: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  debug_show_ladder_space_check: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  bp_design_set_comp_is_foundation: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_add_nearest_bp_stuffs: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  building_blueprint_process_set_enabled: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_free_building_export_bp_in_design_space: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  build_delete_all: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  debug_show_rope_debug_draws: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_free_building_transfer_prefab_to_blueprint: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_free_building_export_bp_from_prefab_in_design_space: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  interactcom_test_simple_entity: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  enable_debug_photo_building_debug_show: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58

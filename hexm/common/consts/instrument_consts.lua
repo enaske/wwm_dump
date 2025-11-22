@@ -53,4 +53,49 @@ Keys:
   HALF_NOTE_IDX: list
   HALF_NOTE_COUNT: number
   CUSTOM_SONG_STUFF_SUBTYPE: number
-  (1 more keys)
+  get_line_idx: function(origin_idx, use_half_key)  -- hexm/common/consts/instrument_consts.lua:279-283
+  half_idxes: function()  -- hexm/common/consts/instrument_consts.lua:165-168
+  KEYBOARD_MODE_36: number
+  KEYBOARD_MODE_21: number
+  NOTE_MODE_SIMPLE: number
+  ADMIRE_CD: number
+  client_check_before_gameplay: function(instrument_id, rhythm_game_id)  -- hexm/common/consts/instrument_consts.lua:361-377
+  SOUND_SYNC_FOBID: number
+  SOUND_SYNC_ENABLE: number
+  LISTEN_TRACE_NO: number
+  is_using_classic_note: function()  -- hexm/common/consts/instrument_consts.lua:189-192
+  get_instruments_by_multiplay_no: function(no)  -- hexm/common/consts/instrument_consts.lua:30-42
+  INSTRUMENT_STATE_WATING_FOLLOW: number
+  INSTRUMENT_STATE_RESULT: number
+  SETTING_NOTE_MODE: string
+  FREE_CAM_ENABLE: number
+  FOLLOW_MODE_MUL: number
+  SYS_SONG_STUFF_SUBTYPE: number
+  MUSIC_TYPE_PRISON: number
+  is_half_key: function(origin_idx)  -- hexm/common/consts/instrument_consts.lua:206-210
+  INSTRUMENT_STATE_FOLLOW: number
+  get_column_idx_with_half_note: function(origin_idx)  -- hexm/common/consts/instrument_consts.lua:212-220
+  MODE_PLAY: number
+  BLACKOUT_FADE_TIME: number
+  SONG_STUFF_TYPE: number
+  check_weapon_height_diff: function(attach_no)  -- hexm/common/consts/instrument_consts.lua:391-426
+  MODE_PLAYBACK: number
+  NATURAL_NOTE_COUNT: number
+  MODE_EDIT: number
+  get_custom_song_stuffs: function()  -- hexm/common/consts/instrument_consts.lua:69-72
+  FOLLOW_MODE_PRISON: number
+  INSTRUMENT_SETTING_CONF: dict
+  HALF_NOTE_NUMBER: list
+  keyboard_id_by_natural_half_idx: function(natural_idx, half_idx)  -- hexm/common/consts/instrument_consts.lua:285-291
+  is_half_key_column: function(row_idx)  -- hexm/common/consts/instrument_consts.lua:194-196
+  INSTRUMENT_GU: number
+  is_half_key_sharp: function(half_column_idx)  -- hexm/common/consts/instrument_consts.lua:198-204
+  SETTING_SOUND_SYNC_MINE: string
+  FOLLOW_MODE_SINGLE: number
+  MODE_TYPE_SZYY: number
+  INSTRUMENT_STATE_WATING_FREEPLAY: number
+  PLAYER_KEY_LIMIT: number
+  STUFF_NO: number
+  SETTING_SHOW_GANG: string
+  STUFF_NUM_LIMIT: number
+  check_playing_rhythm_follow: function(pid)  -- hexm/common/consts/instrument_consts.lua:452-458

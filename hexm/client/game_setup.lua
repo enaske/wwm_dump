@@ -68,4 +68,11 @@ Keys:
   setup_game_play: function()  -- hexm/client/game_setup.lua:701-752
   setup_profile: function()  -- hexm/client/game_setup.lua:840-848
   setup_io: function()  -- hexm/client/game_setup.lua:412-442
-  (1 more keys)
+  setup_console: function()  -- hexm/client/game_setup.lua:444-452
+  setup_formula: function()  -- hexm/client/game_setup.lua:952-959
+  setup_building_filepicker: function()  -- hexm/client/game_setup.lua:1012-1018
+  setup_character: function()  -- hexm/client/game_setup.lua:965-969
+  setup_G_pre: function()  -- hexm/client/game_setup.lua:72-81
+  setup_video_filepicker: function()  -- hexm/client/game_setup.lua:1004-1010
+  setup_hex_stats: function()  -- hexm/client/game_setup.lua:850-880
+  setup_debug: function()  -- hexm/client/game_setup.lua:527-558

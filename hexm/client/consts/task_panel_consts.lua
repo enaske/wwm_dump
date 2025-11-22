@@ -41,7 +41,6 @@ Keys:
   PRIORITY_YANHUA: number
   PRIORITY_ORDER: number
   WANFA_ANSWER: number
-  TASK_ITEM_CONTROLLER_DICT: dict
   WANFA_GYMNASTICS: number
   TASK_BTN_3: number
   PRIORITY_CHIJI_GAMEPLAY_TASK: number
@@ -53,4 +52,25 @@ Keys:
   ITEM_LIST: number
   WANFA_MULTI_MWZX: number
   WANFA_JUDIAN: number
-  (1 more keys)
+  PRIORITY_GYMNASTICS: number
+  TASK_HUD_BUTTON_MAX_NUM: number
+  TASK_HUD_COMMON_KEY_DICT: dict
+  TASK_BTN_1: number
+  PRIORITY_PAINTING_BOAT: number
+  PRIORITY_PRISON: number
+  ITEM_SUB_ENTRY: number
+  TASK_CD_PANEL_GP: number
+  generate_hud_module_dict: function()  -- hexm/client/consts/task_panel_consts.lua:113-224
+  get_task_item_view: function(item_type)  -- hexm/client/consts/task_panel_consts.lua:267-269
+  PRIORITY_MULTI_MWZX: number
+  TASK_HUD_MODULE_DICT: dict
+  TASK_TRACK_MODULE: number
+  ITEM_TITLE: number
+  PANEL_OPERATION_BTN: number
+  WANFA_MULTI_ARCHERY: number
+  ITEM_HINT_MODE_FINISH: number
+  get_task_panel_config: function(key, default)  -- hexm/client/consts/task_panel_consts.lua:278-280
+  PRIORITY_CHIJI_BETRAYER: number
+  TASK_COMMON_MODULE: number
+  PRIORITY_ANSWER: number
+  TASK_ITEM_VIEW_DICT: dict

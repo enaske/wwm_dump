@@ -53,4 +53,6 @@ Keys:
   FETCH_GLOBAL_MAIL_INTERVAL: list
   SA_LOG_OP_TYPE_SEND: number
   GLOBAL_MAIL_RECEIVE: number
-  (1 more keys)
+  GLOBAL_MAIL_LOAD_NUM_LIMIT: number
+  EMAIL_ITEM_KEY: dict
+  EMAIL_OP_CD: number

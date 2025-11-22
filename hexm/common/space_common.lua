@@ -104,4 +104,74 @@ Keys:
   is_client_space: function(space_no)  -- hexm/common/space_common.lua:178-181
   get_space_name: function(space_no)  -- hexm/common/space_common.lua:59-66
   is_task_sp_recall_space: function(spaceno)  -- hexm/common/space_common.lua:676-679
-  (1 more keys)
+  is_auto_destroy: function(space_no)  -- hexm/common/space_common.lua:215-218
+  TRANSFER_CONFIG_NO_TO_BIGWORLD: number
+  is_battleguide: function(space_no)  -- hexm/common/space_common.lua:277-280
+  is_baiye_arena: function(spaceno)  -- hexm/common/space_common.lua:360-363
+  get_invalid_space_tag: function()  -- hexm/common/space_common.lua:162-169
+  is_school_arrest_space: function(spaceno)  -- hexm/common/space_common.lua:424-427
+  is_gear_edit_space: function(spaceno)  -- hexm/common/space_common.lua:448-451
+  is_disaster_xinshou_dungeon: function(spaceno)  -- hexm/common/space_common.lua:564-567
+  is_sep_line: function(space_no)  -- hexm/common/space_common.lua:209-212
+  is_guard_dungeon: function(spaceno)  -- hexm/common/space_common.lua:586-590
+  is_dragon_arena: function(spaceno)  -- hexm/common/space_common.lua:365-367
+  in_newbie_dungeon: function(spaceno)  -- hexm/common/space_common.lua:693-697
+  is_building_blueprint_space: function(spaceno)  -- hexm/common/space_common.lua:543-546
+  is_mojin_space: function(spaceno)  -- hexm/common/space_common.lua:374-377
+  is_huiwu_battle: function(spaceno)  -- hexm/common/space_common.lua:346-349
+  get_parent_space: function(spaceno)  -- hexm/common/space_common.lua:143-148
+  is_rpc_fb_space: function(space_no)  -- hexm/common/space_common.lua:245-254
+  is_expedition: function(space_no)  -- hexm/common/space_common.lua:262-265
+  is_mindlake_main_space: function(spaceno)  -- hexm/common/space_common.lua:538-541
+  is_tianji_space: function(spaceno)  -- hexm/common/space_common.lua:523-526
+  is_world_wanfa_space: function(spaceno)  -- hexm/common/space_common.lua:518-521
+  is_dragon_inn_space: function(spaceno)  -- hexm/common/space_common.lua:533-536
+  get_space_online_space: function(spaceno)  -- hexm/common/space_common.lua:688-691
+  is_map_edit_space: function(spaceno)  -- hexm/common/space_common.lua:442-445
+  is_jz_prepare: function(spaceno)  -- hexm/common/space_common.lua:406-409
+  is_same_map: function(space_info1, space_info2)  -- hexm/common/space_common.lua:94-117
+  is_luandou_space: function(spaceno)  -- hexm/common/space_common.lua:460-463
+  is_card_competition_space: function(spaceno)  -- hexm/common/space_common.lua:681-684
+  is_school_arrest_wait_space: function(spaceno)  -- hexm/common/space_common.lua:430-433
+  is_yunbiao_space: function(space_no)  -- hexm/common/space_common.lua:300-303
+  get_ctrl_owner_id: function(ctrl_info)  -- hexm/common/space_common.lua:1888-1898
+  is_xinshou_dungeon: function(spaceno)  -- hexm/common/space_common.lua:659-661
+  is_task_recall_space: function(spaceno)  -- hexm/common/space_common.lua:671-674
+  is_prison_dungeon: function(spaceno)  -- hexm/common/space_common.lua:592-596
+  is_main_world: function(space_no)  -- hexm/common/space_common.lua:172-175
+  TRANSFER_CONFIG_NO_TO_HOMEWORLD: number
+  is_team_dungeon: function(space_no)  -- hexm/common/space_common.lua:305-308
+  get_space_type_by_space_no: function(space_no)  -- hexm/common/space_common.lua:79-92
+  is_single_dungeon: function(space_no)  -- hexm/common/space_common.lua:315-318
+  get_space_max_num: function(space_no)  -- hexm/common/space_common.lua:239-242
+  is_valid_pos: function(pos)  -- hexm/common/space_common.lua:40-51
+  is_gang_tavern_space: function(spaceno)  -- hexm/common/space_common.lua:503-506
+  set_ctrl_owner_id: function(ctrl_info, owner_id)  -- hexm/common/space_common.lua:1900-1907
+  is_related: function(spaceno1, spaceno2)  -- hexm/common/space_common.lua:699-708
+  need_space_data_entity: function(spaceno)  -- hexm/common/space_common.lua:553-556
+  is_multi_player_gathering_point_space: function(spaceno)  -- hexm/common/space_common.lua:639-642
+  is_drama: function(space_no)  -- hexm/common/space_common.lua:289-292
+  is_huiwu_wanfa_space: function(spaceno)  -- hexm/common/space_common.lua:356-358
+  need_space_snapshot_persistent: function(spaceno)  -- hexm/common/space_common.lua:558-562
+  is_explore_space: function(spaceno)  -- hexm/common/space_common.lua:492-495
+  MAGIC_RECAP_HOMEWORLD_SPACENO: number
+  is_watch_play_boss_space: function(spaceno)  -- hexm/common/space_common.lua:384-387
+  is_subspace: function(space_no)  -- hexm/common/space_common.lua:227-230
+  is_qiepian_taiji_space: function(spaceno)  -- hexm/common/space_common.lua:667-669
+  check_space_same: function(space_no1, space_no2, task_no)  -- hexm/common/space_common.lua:712-733
+  SPACE_TAG_CACHE: dict
+  is_unobstructed_space: function(space_no)  -- hexm/common/space_common.lua:221-224
+  is_npc_banquet_wanfa_space: function(spaceno)  -- hexm/common/space_common.lua:454-457
+  is_disaster_dungeon_space: function(spaceno)  -- hexm/common/space_common.lua:569-572
+  is_gang_build_space: function(spaceno)  -- hexm/common/space_common.lua:498-501
+  SPACE_MODEL_TO_CONFIG_NO: dict
+  get_space_num: function(space_no)  -- hexm/common/space_common.lua:233-236
+  _reload_all: boolean
+  is_client_homeworld_space: function(spaceno)  -- hexm/common/space_common.lua:481-490
+  is_chiji_space: function(spaceno)  -- hexm/common/space_common.lua:649-652
+  is_room_judian_space: function(spaceno)  -- hexm/common/space_common.lua:654-657
+  is_main_homeworld: function(spaceno)  -- hexm/common/space_common.lua:466-470
+  is_prison_youjie_space: function(spaceno)  -- hexm/common/space_common.lua:379-382
+  is_single_dungeon_zone: function(space_no)  -- hexm/common/space_common.lua:320-323
+  need_grid_manager_space: function(space_no)  -- hexm/common/space_common.lua:199-202
+  is_mindlake_training_space: function(spaceno)  -- hexm/common/space_common.lua:528-531

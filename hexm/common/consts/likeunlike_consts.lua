@@ -53,4 +53,10 @@ Keys:
   LOGIN_DISPATCH_TOPICS: list
   TOPIC_COMBAT_SYS_PLAN: number
   TOPIC_BOWU: number
-  (1 more keys)
+  TOPIC_WAY_MAJIANG: number
+  TABLE_ID_TO_SERVER_ID: dict
+  TOPIC_WAY_BAIYE_ARENA_WIN: number
+  TOPIC_MOJIN: number
+  TOPIC_WAY_ROOM_JUDIAN: number
+  TOPIC_WAY_MULTI_MWZX: number
+  TOPIC_WAY_LANGZHONG: number

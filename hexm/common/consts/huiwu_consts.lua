@@ -53,4 +53,21 @@ Keys:
   E_ROUND_BATTLE_END: number
   E_PREPARE: number
   ERR_NOT_IN_MAP_REPLY: number
-  (1 more keys)
+  _reload_all: boolean
+  PREPARE_PREPARE: number
+  ERR_NOT_IN_WORLD: number
+  ERR_QIECUO_OTHER_TEAM_TYPE: number
+  ERR_NOT_IN_TEAM: number
+  get_before_time: function()  -- hexm/common/consts/huiwu_consts.lua:90-93
+  STATE_BATTLE: string
+  HINT_IN_QIECUO: number
+  HINT_TARGET_TEAM_NOT_IN_MAIN_SCENE: number
+  E_GET_RESULT_IN_PVP_BATTLE: number
+  ERR_NOT_IN_BATTLE: number
+  STATE_PREPARE: string
+  get_end_time: function()  -- hexm/common/consts/huiwu_consts.lua:124-127
+  ERR_HAS_MAP: number
+  ERR_IN_CD: number
+  ERR_TEAM_LIMIT: number
+  E_NAI_LEAVE_SPACE: number
+  ERR_OTHER_IN_BLACKLIST: number

@@ -53,4 +53,8 @@ Keys:
   FUNC_WATCH_FACE_ENTER: number
   KEY_TIP: number
   FUNC_ALT_HIDE_MOUSE: number
-  (1 more keys)
+  FUNC_MYSTERY_QISHU_IN: number
+  FUNC_SWIM_TO_DIVING: number
+  SIMPLE_NORMAL: number
+  FUNC_DISASTER_MUGUN: number
+  FUNC_KEY_SETTING: number

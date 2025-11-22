@@ -53,4 +53,12 @@ Keys:
   JIANGHU_SKILL_BATTLE: number
   get_skill_item: function(avatar, skill_no)  -- hexm/common/consts/jianghu_skill_consts.lua:35-38
   JIANGHU_SKILL_EQUIP_MODE_ALL_IN_MANY: number
-  (1 more keys)
+  SKILL_SLOT_HANGDANG: number
+  JIANGHU_SKILL_CONDITION_YINLV_ONE_QS_LEVEL_2: number
+  JIANGHU_SKILL_CONDITION_YINLV_FIRST_BATTLE_QS: number
+  JIANGHU_SKILL_QINGGONG: number
+  check_can_unequip_qs: function(avatar, slot_k)  -- hexm/common/consts/jianghu_skill_consts.lua:220-231
+  JIANGHU_SKILL_EQUIP_MODE_ALL: number
+  SKILL_LIMIT_TYPE_DUNGEON: number
+  check_study_five_qs: function(avatar)  -- hexm/common/consts/jianghu_skill_consts.lua:129-136
+  JIANGHU_SKILL_BATTLE_NUM_LIMIT: number

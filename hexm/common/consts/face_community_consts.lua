@@ -53,4 +53,23 @@ Keys:
   TYPE_TEAM: number
   MSG_TYPE_ZAN: number
   PLAN_TAG_PHOTO_METEOR_SHOWER: number
-  (1 more keys)
+  TYPE_RECOIN: number
+  PLAN_TAG_CUSTOM_VIDEO: number
+  PLAN_TAG_3D_NAMECARD: number
+  TYPE_JIAYE: number
+  PLAN_TAG_LICENSE: number
+  PLAN_TAG_PHOTO_GROUP: number
+  UGC_SHOW_LIST: list
+  TYPE_DESIGNER: number
+  PLAN_TAG_CAMERA_LIMIT_ACTIVITY: number
+  PLAN_TAG_DYE_HAIR_JIANBIAN: number
+  TYPE_CAMERA: number
+  TYPE_ALL: number
+  SORT_TYPE_HOT_TODAY: number
+  PLAN_TAG_CAMERA: number
+  RECENT_USE_FACE_PLAN_NUM: number
+  MSG_TYPE_MARK: number
+  TYPE_FACE: number
+  OFFICIAL_TYPE: number
+  PLAN_TAG_DYE_CLOTH: number
+  TYPE_DYE: number

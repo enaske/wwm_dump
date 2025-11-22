@@ -53,4 +53,58 @@ Keys:
   _reload_all: boolean
   ANIMAL_CHICKEN_INTERACT_RELATIONS: list
   CAMP_2_FACTION: dict
-  (1 more keys)
+  ALL_ROAD: list
+  P_ABILITY_REASON: string
+  MATCH_MODE: number
+  set_op_status: function(status, flag)  -- hexm/common/consts/baiye_consts.lua:148-150
+  NOTICE_BOSS_RID: number
+  MODE_WIN_FACAI_END: number
+  remove_op_status: function(status, flag)  -- hexm/common/consts/baiye_consts.lua:153-155
+  NEUTRAL_BOSS_SID: number
+  NOTICE_BOSS_DEAD: number
+  TRUCK_SKILL_SLOT: number
+  AOI_AVATAR_LIMIT: number
+  NOTICE_BOSS_WILL_REFRESH: number
+  BLUE_CAMP: number
+  get_base_camp: function(camp)  -- hexm/common/consts/baiye_consts.lua:37-39
+  SPACE_NO: number
+  ROAD_NOT: number
+  BAIYE_ENEMY_HALO_TYPE: number
+  NOTICE_BOSS_NOW_REFRESH: number
+  ACHIEVEMENT_MAIN_TYPE_ID: number
+  NOTICE_PK_PLAYER_CHEER: number
+  has_op_status: function(status, flag)  -- hexm/common/consts/baiye_consts.lua:157-159
+  MAX_RANK_SCORE_HIGH: number
+  BOSS_SPAWN_NOTICE_ID: number
+  OP_CAN_PREPARE_WALL: number
+  LIKE_TARGET: string
+  FACTION_WANFA_ID: string
+  ROLE_SHOP_NPC_1: number
+  NOTICE_COMMANDER_USE_SKILL: number
+  ROLE_PALYER: number
+  FACTION_RED_CAMP: number
+  ROLE_E: number
+  STAR_PK_AHEAD_NOTICE_TIME: number
+  ROLE_WILD: number
+  MODE_LOSS_OTHER: number
+  ULTIMATE_SLOT_MODE: number
+  BOSS_SPAWN_IDX: list
+  MAX_RANK_SCORE_LOW: number
+  STATUS_FACAI_TREE_INTERACT: number
+  NOTICE_FACAI_NEAR_GOAL: number
+  NOTICE_PK_PLAYER_WIN: number
+  IMPACT_HIT_LIST: list
+  BLUE_FACAI_TREE_SID: number
+  ROLE_BOSS: number
+  OP_CAN_DISBAND_WALL: number
+  P_ABILITY_WALL_NO: number
+  POS_TO_WALL_POS: number
+  ROLE_TOWER: number
+  POS_TO_BORN_POS: number
+  AI_AVTS_TO_CENTER: number
+  FACTION_STAR_CAMP_RED: number
+  BAIYE_OWN_HALO_TYPE: number
+  RED_GOOSE_SID: number
+  FACTION_BLUE_CAMP: number
+  make_rank_score: function(high, low)  -- hexm/common/consts/baiye_consts.lua:170-175
+  MAX_HISTORY_COUNT: number

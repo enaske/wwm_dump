@@ -53,4 +53,10 @@ Keys:
   lunjian_get_dmg_static: function(static, pids)  -- hexm/common/consts/lunjian_consts.lua:352-373
   _lunjian_xs_get_publish_data: function(avt)  -- hexm/common/consts/lunjian_consts.lua:90-96
   sid2wanfa_id: function(sid)  -- hexm/common/consts/lunjian_consts.lua:402-411
-  (1 more keys)
+  get_season_version: function(ts, season)  -- hexm/common/consts/lunjian_consts.lua:105-130
+  IOS_WIN_LUNJIAN1V1: number
+  is_lunjian_team_id: function(game_id)  -- hexm/common/consts/lunjian_consts.lua:75-81
+  IOS_2V2_WIN: number
+  lunjian_get_last_season_time: function()  -- hexm/common/consts/lunjian_consts.lua:387-400
+  LUNJIAN_11: number
+  LUNJIAN_33: number

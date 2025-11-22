@@ -53,4 +53,5 @@ Keys:
   enable_behit_sound_debug: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
   auto_test_skills_start: function()  -- hexm/client/debug/gm/gm_commands/gm_skill.lua:1054-1083
   auto_test_skills_value: number
-  (1 more keys)
+  _start_auto_fire_skill: function()  -- hexm/client/debug/gm/gm_commands/gm_skill.lua:1144-1193
+  debug_harmtext_anim_key: number

@@ -53,4 +53,7 @@ Keys:
   n0111101_CBTIfElseNode: function()  -- Sunshine/AI/bt2code/output/yinghuochong_idle.lua:592-601
   n00_NPassNode: function()  -- Sunshine/AI/bt2code/output/yinghuochong_idle.lua:21-30
   n0001_SetVariableAction: function()  -- Sunshine/AI/bt2code/output/yinghuochong_idle.lua:54-63
-  (1 more keys)
+  n011110020_ChangeSpeed: function()  -- Sunshine/AI/bt2code/output/yinghuochong_idle.lua:569-576
+  n01111_DistanceDecorator: function()  -- Sunshine/AI/bt2code/output/yinghuochong_idle.lua:457-488
+  n01111001_CBTAlwaysSequenceNode: function()  -- Sunshine/AI/bt2code/output/yinghuochong_idle.lua:526-534
+  n01111002_CBTAlwaysSequenceNode: function()  -- Sunshine/AI/bt2code/output/yinghuochong_idle.lua:559-567

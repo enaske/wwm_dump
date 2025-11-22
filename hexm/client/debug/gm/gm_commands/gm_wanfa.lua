@@ -53,4 +53,54 @@ Keys:
   expedition_show_fire: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
   gm_unlock_region: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
   gm_common_set_use_avatar_info: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
-  (1 more keys)
+  gm_clear_region_game_records: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gen_gm_sumo_pve_teleport_list: function()  -- hexm/client/debug/gm/gm_commands/gm_wanfa.lua:1156-1162
+  gm_disguise_to_npc: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_ghost_profile_test: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_fast_start_consume_chess: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_photo_yirong_callback: function(guid, result, pack)  -- hexm/client/debug/gm/gm_commands/gm_wanfa.lua:853-874
+  gm_print_region_cell_url: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  expedition_finish_target: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_debug_wanfa_sumo_event: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_shefu_check_topic_sensitive: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  expedition_unlock: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_photo_bake_callback: function(result)  -- hexm/client/debug/gm/gm_commands/gm_wanfa.lua:876-880
+  gm_fast_start_chess_manual: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_scale_pitch_pot_circle: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_sttg_change_week_no: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_rotate_entity_print_direction: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_debug_wanfa_sumo_add_tipo: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_test_treasure_lock_game: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_lock_region: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_check_dynamic_world_npc_density: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_yezixi_pve_teleport: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_test_huarongdao_game: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_simulate_telekinesis_success: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  skip_ride_storyline: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_open_face_photo_window: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_common_chess_fast_lose: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_create_ailab_model_by_index: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_open_xsfb_profile_test: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_common_end_ghost_record: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_unlock_disguise_wanfa: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_add_npc_amity: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  try_add_bake_texture: function(entity)  -- hexm/client/debug/gm/gm_commands/gm_wanfa.lua:287-313
+  gm_consume_shefu_set_topic_index: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_open_police_gm_window: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_fast_start_consume_shefu: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  cancel_langya_region_event: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_taiyuetai_env_change: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_rank_shefu_data: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_debug_wanfa_yezixi_set_npc_wait_time: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_crane_game_stop_print_status: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_close_check_dynamic_world_npc_density_around: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  porridge_add_flag: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_debug_wanfa_yezixi_monitor: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_shefu_set_point: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_common_set_only_use_default_info: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_teleport_nearest_ghost_entity: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_attach_npc: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_check_dynamic_world_npc_density_part: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_set_drink: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_rotate_entity_set_direction: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  pause_biaoqing: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58

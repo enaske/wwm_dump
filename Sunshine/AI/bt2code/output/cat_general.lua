@@ -53,4 +53,41 @@ Keys:
   n00006_SendEventAction: function()  -- Sunshine/AI/bt2code/output/cat_general.lua:760-779
   n000041_SetBlackboard: function()  -- Sunshine/AI/bt2code/output/cat_general.lua:697-706
   n00003001_Nop: function()  -- Sunshine/AI/bt2code/output/cat_general.lua:335-339
-  (1 more keys)
+  n0001112_Wait: function()  -- Sunshine/AI/bt2code/output/cat_general.lua:1024-1032
+  n00003012_ExecuteBtree: function()  -- Sunshine/AI/bt2code/output/cat_general.lua:524-531
+  n00002211_SetBlackboard: function()  -- Sunshine/AI/bt2code/output/cat_general.lua:240-249
+  n0000300_CBTIfElseNode: function()  -- Sunshine/AI/bt2code/output/cat_general.lua:312-321
+  n000012_ReceiveEventDecorator: function()  -- Sunshine/AI/bt2code/output/cat_general.lua:99-116
+  n0000301012_CBTIfElseNode: function()  -- Sunshine/AI/bt2code/output/cat_general.lua:461-470
+  NODE_DATA_CACHE: table <UnknownInstance>
+  n0000301011_DirectFaceToTargetAction: function()  -- Sunshine/AI/bt2code/output/cat_general.lua:448-459
+  n00003000_Compare: function()  -- Sunshine/AI/bt2code/output/cat_general.lua:323-333
+  n00001202_Pause: function()  -- Sunshine/AI/bt2code/output/cat_general.lua:161-165
+  entry: string
+  n000030101_CBTIfElseNode: function()  -- Sunshine/AI/bt2code/output/cat_general.lua:429-438
+  n0000400_NavigateTo3DAction: function()  -- Sunshine/AI/bt2code/output/cat_general.lua:583-621
+  n00002210_ExecuteBtree: function()  -- Sunshine/AI/bt2code/output/cat_general.lua:231-238
+  n000112_Pause: function()  -- Sunshine/AI/bt2code/output/cat_general.lua:1034-1038
+  n0001100_DistanceDecorator: function()  -- Sunshine/AI/bt2code/output/cat_general.lua:824-855
+  n00002213_Pause: function()  -- Sunshine/AI/bt2code/output/cat_general.lua:272-276
+  n000111_CBTIfElseNode: function()  -- Sunshine/AI/bt2code/output/cat_general.lua:888-897
+  n00021_ReceiveWanFaEvent: function()  -- Sunshine/AI/bt2code/output/cat_general.lua:1056-1072
+  n00010_Nop: function()  -- Sunshine/AI/bt2code/output/cat_general.lua:797-801
+  n000110_CBTAlwaysSequenceNode: function()  -- Sunshine/AI/bt2code/output/cat_general.lua:814-822
+  n000111120_PlayAnimAction: function()  -- Sunshine/AI/bt2code/output/cat_general.lua:950-985
+  n0000_CBTAlwaysSequenceNode: function()  -- Sunshine/AI/bt2code/output/cat_general.lua:45-59
+  n0000120_CBTAlwaysSequenceNode: function()  -- Sunshine/AI/bt2code/output/cat_general.lua:118-127
+  n0000220_Compare: function()  -- Sunshine/AI/bt2code/output/cat_general.lua:207-217
+  n00003002_ReceiveEventDecorator: function()  -- Sunshine/AI/bt2code/output/cat_general.lua:341-358
+  n00003010_CBTAlwaysSequenceNode: function()  -- Sunshine/AI/bt2code/output/cat_general.lua:379-387
+  n00004012_CBTIfElseNode: function()  -- Sunshine/AI/bt2code/output/cat_general.lua:655-664
+  n00003011_SendEventAction: function()  -- Sunshine/AI/bt2code/output/cat_general.lua:503-522
+  n00011111_Nop: function()  -- Sunshine/AI/bt2code/output/cat_general.lua:934-938
+  n000010_Compare: function()  -- Sunshine/AI/bt2code/output/cat_general.lua:81-91
+  n00020_Nop: function()  -- Sunshine/AI/bt2code/output/cat_general.lua:1050-1054
+  n00_CBTAlwaysSequenceNode: function()  -- Sunshine/AI/bt2code/output/cat_general.lua:25-32
+  n000030100_NavigateTo3DAction: function()  -- Sunshine/AI/bt2code/output/cat_general.lua:389-427
+  n00003010121_DirectFaceToTargetAction: function()  -- Sunshine/AI/bt2code/output/cat_general.lua:484-495
+  n0001101_ReceiveEventDecorator: function()  -- Sunshine/AI/bt2code/output/cat_general.lua:863-880
+  n00011010_Pause: function()  -- Sunshine/AI/bt2code/output/cat_general.lua:882-886
+  n00003010120_Compare: function()  -- Sunshine/AI/bt2code/output/cat_general.lua:472-482

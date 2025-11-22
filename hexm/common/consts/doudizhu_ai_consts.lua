@@ -53,4 +53,8 @@ Keys:
   DOUBLE: number
   get_min_card: function(cards)  -- hexm/common/consts/doudizhu_ai_consts.lua:61-72
   SINGLE_SEQ: number
-  (1 more keys)
+  C_TWO: number
+  C_LITTLE_KING: number
+  CP_DOUBLE_SEQ: string
+  get_bigger_seq: function(hand_cards, min_card, seq_length, per)  -- hexm/common/consts/doudizhu_ai_consts.lua:247-261
+  CP_TRIBBLE_SEQ: string

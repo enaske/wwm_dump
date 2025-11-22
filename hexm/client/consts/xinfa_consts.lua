@@ -53,4 +53,85 @@ Keys:
   BTN_KEY_UPGRADE_UPRANK: string
   TEXT_TAKEOFF_XINFA: number
   XINFA_RED_NAME_CAN_LINGWU: string
-  (1 more keys)
+  MODE_SWITCH: number
+  XINFA_NO_ORIGINAL: number
+  get_equipped_xinfa_list_data: function()  -- hexm/client/consts/xinfa_consts.lua:880-909
+  XINFA_RED_NAME_FINISH_NEW: string
+  ensure_xinfa_red_points: function()  -- hexm/client/consts/xinfa_consts.lua:747-757
+  is_xinfa_complete: function(stage)  -- hexm/client/consts/xinfa_consts.lua:259-261
+  XINFA_RANK_CAN_ACTIVE: number
+  XINFA_STAR_TO_COLOR_COMBAT: list
+  XINFA_STAGE_TO_COLOR_2: dict
+  XINFA_HAS_ORIGINAL: number
+  slot_set: function(cur_plan, target_slot_idx, xinfa_id)  -- hexm/client/consts/xinfa_consts.lua:821-841
+  XINFA_RED_NAME_CAN_UPRANK: string
+  escape_pattern: function(str)  -- hexm/client/consts/xinfa_consts.lua:1061-1063
+  SLOT_STATE_LOCK: number
+  MODE_UPGRADE: number
+  XINFA_CLUE_RED_POINT_NAME: string
+  get_xinfa_uprank_attr_effect_describe: function(attr_effect_id)  -- hexm/client/consts/xinfa_consts.lua:647-664
+  ATTR_MODE_DYNAMIC: number
+  XINFA_STAR_TO_SQUARE_BG_PINZHI: list
+  can_xinfa_uprank_by_world_lv: function(xinfa_id, target_rank)  -- hexm/client/consts/xinfa_consts.lua:700-709
+  XINFA_RANK_ACTIVED: number
+  get_xinfa_sorted_list: function()  -- hexm/client/consts/xinfa_consts.lua:414-421
+  XINFA_STUDY_UNITY_ORIGINAL: number
+  FROM_TYPE_COMPLETE_WINDOW: number
+  DRAG_ITEM_TAG_SLOT: number
+  get_xinfa_liupai_info: function(xinfa_id)  -- hexm/client/consts/xinfa_consts.lua:584-594
+  XINFA_RED_NONE: number
+  get_xinfa_stuff_related_liupai_id: function(stuff_no)  -- hexm/client/consts/xinfa_consts.lua:1066-1078
+  STAGE_TO_STR: dict
+  TEXT_LINGWU_XIAOHAO: number
+  is_xinfa_original: function(xinfa_stage)  -- hexm/client/consts/xinfa_consts.lua:263-265
+  TEXT_NEED_TUPO: number
+  BTN_KEY_XINFA_TAKEOFF: string
+  BTN_KEY_OVERVIEW_XINFA_UPGRADE: string
+  XINFA_RANK_CANNOT: number
+  get_xinfa_advanced_id: function(xinfa_id, xinfa_rank)  -- hexm/client/consts/xinfa_consts.lua:1025-1027
+  TEXT_TUPO_XINFA: number
+  BTN_KEY_UPGRADE_LINGWU: string
+  get_red_point_image: function()  -- hexm/client/consts/xinfa_consts.lua:787-790
+  get_xinfa_uprank_redpoint_key: function(xinfa_id)  -- hexm/client/consts/xinfa_consts.lua:773-785
+  XINFA_STAGE_TO_COLOR: dict
+  XINFA_TYPE_INITIATIVE: number
+  get_skill_name_icon_desc: function(skill_id)  -- hexm/client/consts/xinfa_consts.lua:564-582
+  get_xinfa_stuff_describe_str: function(stuff_no, describe_str)  -- hexm/client/consts/xinfa_consts.lua:923-960
+  calc_xinfa_sort_value: function(xinfa_list)  -- hexm/client/consts/xinfa_consts.lua:506-531
+  XINDE_STAR_TO_STUFF_BG_PIC: dict
+  EVENT_CLICK_XINFA_SLOT: string
+  get_xinfa_rank_stage_name: function(rank)  -- hexm/client/consts/xinfa_consts.lua:238-251
+  EVENT_CLICK_XINFA_ITEM: string
+  ATTR_MODE_FIXED: number
+  xinfa_cmp_lingwu: function(xinfa_a, xinfa_b)  -- hexm/client/consts/xinfa_consts.lua:321-412
+  get_xinfa_passive_skill_brief_desc: function(xinfa_id, convert_to_normal_text)  -- hexm/client/consts/xinfa_consts.lua:993-1023
+  XINFA_UNLOCK_CONFIG_ID: number
+  XINFA_RED_CONSUME_TYPE_LIST: list
+  get_xinfa_resume_info: function(xinfa_id)  -- hexm/client/consts/xinfa_consts.lua:679-690
+  xinfa_cmp_m7: function(xinfa_a, xinfa_b)  -- hexm/client/consts/xinfa_consts.lua:279-319
+  RANK_RESET_FROM_UPGRADE_PAGE: number
+  BTN_KEY_XINFA_SWITCH: string
+  FROM_TYPE_SYSTEM_OVERVIEW: number
+  SPEICAL_STUFF_LIUPAI_MAP: dict
+  convert_xinfa_desc_from_richtext_to_normal: function(raw_str, label_color_style)  -- hexm/client/consts/xinfa_consts.lua:1029-1059
+  BTN_KEY_OVERVIEW_XINFA_SWITCH: string
+  BTN_KEY_UPGRADE_CLUE: string
+  XINFA_NO_SPLINTER: number
+  FROM_TYPE_SYSTEM_UPGRADE: number
+  XINFA_STAR_TO_SLOT_BG_PIC: dict
+  get_xinfa_rank_reset_return: function(xinfa_id, rank)  -- hexm/client/consts/xinfa_consts.lua:253-257
+  check_all_xinfa_unlocked: function()  -- hexm/client/consts/xinfa_consts.lua:712-740
+  BTN_KEY_XINFA_STUDY: string
+  get_xinfa_star_texture: function(star)  -- hexm/client/consts/xinfa_consts.lua:596-598
+  DRAG_ITEM_TAG_XINFA: number
+  XINFA_RED_LINGWU_FINISH: number
+  slot_swap: function(cur_plan, lhs_slot_idx, rhs_slot_idx)  -- hexm/client/consts/xinfa_consts.lua:803-819
+  get_xinfa_uprank_attr_effect_text_list: function(attr_id_data)  -- hexm/client/consts/xinfa_consts.lua:617-645
+  TEXT_EQUIP_XINFA: number
+  BTN_KEY_XINFA_UPGRADE: string
+  is_improve_xinfa_red_point: function(red_type)  -- hexm/client/consts/xinfa_consts.lua:33-35
+  BTN_KEY_XINFA_FILTER: string
+  XINFA_RED_NAME_LIST: string
+  XINFA_TYPE_PASSIVE: number
+  XINFA_STAGE: list
+  get_xinfa_effect_text: function(xinfa_id, sep)  -- hexm/client/consts/xinfa_consts.lua:600-615

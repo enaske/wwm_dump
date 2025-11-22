@@ -5,10 +5,10 @@ Type: table
 Keys:
   HomeAbilityLimitFloatWindow: class <HomeAbilityLimitFloatWindow>
     Functions:
-      init(self, kwargs)  -- hexm/client/ui/windows/home/home_ability_limit_float_window.lua:33-45
       before_create(kwargs)  -- hexm/client/ui/windows/home/home_ability_limit_float_window.lua:20-26
       on_touch_blank(self)  -- hexm/client/ui/windows/home/home_ability_limit_float_window.lua:47-51
       ctor(self)  -- hexm/client/ui/windows/home/home_ability_limit_float_window.lua:28-31
+      init(self, kwargs)  -- hexm/client/ui/windows/home/home_ability_limit_float_window.lua:33-45
       start_close_process(self)  -- hexm/client/ui/windows/home/home_ability_limit_float_window.lua:53-57
   HomeAbilityLimitFloatController: class <HomeAbilityLimitFloatController>
     Functions:

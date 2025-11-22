@@ -10,9 +10,9 @@ Keys:
   SkillSelectTargets: class <SkillSelectTargets>
     Functions:
       calc_targets(self, graph)  -- hexm/common/actionline/nodes/target_nodes.lua:98-164
-      gen_targets(self, pos_list, dir_list, dyn_target_pos, attacker, target, context, targets_prior, ignore_targets, targets_back)  -- hexm/common/actionline/nodes/target_nodes.lua:166-194
       reboot(self, graph, d)  -- hexm/common/actionline/nodes/target_nodes.lua:78-96
       ctor(self)  -- hexm/common/actionline/nodes/target_nodes.lua:34-50
+      gen_targets(self, pos_list, dir_list, dyn_target_pos, attacker, target, context, targets_prior, ignore_targets, targets_back)  -- hexm/common/actionline/nodes/target_nodes.lua:166-194
       start(self, graph)  -- hexm/common/actionline/nodes/target_nodes.lua:52-76
   SelectSummon: class <SelectSummon>
     Functions:

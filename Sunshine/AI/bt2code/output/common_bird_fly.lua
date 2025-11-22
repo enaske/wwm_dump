@@ -53,4 +53,40 @@ Keys:
   n003021010_SetVariableAction: function()  -- Sunshine/AI/bt2code/output/common_bird_fly.lua:574-583
   n002601_CBTIfElseNode: function()  -- Sunshine/AI/bt2code/output/common_bird_fly.lua:313-322
   n007_SetBlackboard: function()  -- Sunshine/AI/bt2code/output/common_bird_fly.lua:938-947
-  (1 more keys)
+  n0026010_CollisionDecorator: function()  -- Sunshine/AI/bt2code/output/common_bird_fly.lua:324-348
+  n0027_GetIntermediatePosListTowardsOnePoint: function()  -- Sunshine/AI/bt2code/output/common_bird_fly.lua:385-394
+  entry: string
+  n0041003_GetIntermediatePosListTowardsOnePoint: function()  -- Sunshine/AI/bt2code/output/common_bird_fly.lua:802-811
+  n0041004_ListAppend: function()  -- Sunshine/AI/bt2code/output/common_bird_fly.lua:813-819
+  NODE_DATA_CACHE: table <UnknownInstance>
+  n0026011_Nop: function()  -- Sunshine/AI/bt2code/output/common_bird_fly.lua:356-360
+  n0_BirdSafeguard: function()  -- Sunshine/AI/bt2code/output/common_bird_fly.lua:11-18
+  n001_CBTAlwaysSequenceNode: function()  -- Sunshine/AI/bt2code/output/common_bird_fly.lua:44-55
+  n0022_SetVariableAction: function()  -- Sunshine/AI/bt2code/output/common_bird_fly.lua:216-225
+  n0026012_TriggerAIEvent: function()  -- Sunshine/AI/bt2code/output/common_bird_fly.lua:362-369
+  n0012_GetTargetRandomPos: function()  -- Sunshine/AI/bt2code/output/common_bird_fly.lua:91-116
+  n00302_CBTWhileNode: function()  -- Sunshine/AI/bt2code/output/common_bird_fly.lua:516-524
+  n004100_CBTAlwaysSequenceNode: function()  -- Sunshine/AI/bt2code/output/common_bird_fly.lua:755-769
+  n00260_CBTAlwaysSequenceNode: function()  -- Sunshine/AI/bt2code/output/common_bird_fly.lua:293-301
+  n0041000_ChangeSpeed: function()  -- Sunshine/AI/bt2code/output/common_bird_fly.lua:771-778
+  n0030110_CollisionDecorator: function()  -- Sunshine/AI/bt2code/output/common_bird_fly.lua:469-493
+  n003011_CBTIfElseNode: function()  -- Sunshine/AI/bt2code/output/common_bird_fly.lua:458-467
+  n0030111_Nop: function()  -- Sunshine/AI/bt2code/output/common_bird_fly.lua:501-505
+  n0041007_SetBlackboard: function()  -- Sunshine/AI/bt2code/output/common_bird_fly.lua:871-880
+  n003020_Nop: function()  -- Sunshine/AI/bt2code/output/common_bird_fly.lua:526-530
+  n0028_ListAppend: function()  -- Sunshine/AI/bt2code/output/common_bird_fly.lua:396-402
+  n002_CBTAlwaysSequenceNode: function()  -- Sunshine/AI/bt2code/output/common_bird_fly.lua:177-192
+  n0041001_SetVariableAction: function()  -- Sunshine/AI/bt2code/output/common_bird_fly.lua:780-789
+  n002600_Wait: function()  -- Sunshine/AI/bt2code/output/common_bird_fly.lua:303-311
+  n00302111_CBTAlwaysSequenceNode: function()  -- Sunshine/AI/bt2code/output/common_bird_fly.lua:648-657
+  n003_CBTAlwaysSequenceNode: function()  -- Sunshine/AI/bt2code/output/common_bird_fly.lua:404-411
+  n003021112_Wait: function()  -- Sunshine/AI/bt2code/output/common_bird_fly.lua:681-689
+  n0010_GetEntityAttr: function()  -- Sunshine/AI/bt2code/output/common_bird_fly.lua:57-70
+  n00302110_CBTAlwaysSequenceNode: function()  -- Sunshine/AI/bt2code/output/common_bird_fly.lua:617-625
+  n00141_CBTAlwaysSequenceNode: function()  -- Sunshine/AI/bt2code/output/common_bird_fly.lua:159-166
+  n00_CBTAlwaysSequenceNode: function()  -- Sunshine/AI/bt2code/output/common_bird_fly.lua:20-35
+  n0026_Parallel: function()  -- Sunshine/AI/bt2code/output/common_bird_fly.lua:283-291
+  n004_CBTWhileNode: function()  -- Sunshine/AI/bt2code/output/common_bird_fly.lua:691-699
+  n004110_GetRandomFleeTargetPosition: function()  -- Sunshine/AI/bt2code/output/common_bird_fly.lua:892-909
+  n00411_CBTAlwaysSequenceNode: function()  -- Sunshine/AI/bt2code/output/common_bird_fly.lua:882-890
+  n00410060_GetEntityAttr: function()  -- Sunshine/AI/bt2code/output/common_bird_fly.lua:845-858

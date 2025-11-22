@@ -53,4 +53,11 @@ Keys:
   get_cat_3_sys_d_by_build_no: function(build_no)  -- hexm/common/misc/building_misc.lua:621-624
   get_cat_3: function(build_no)  -- hexm/common/misc/building_misc.lua:604-607
   prepare_fb_to_bp: function(fbs)  -- hexm/common/misc/building_misc.lua:299-311
-  (1 more keys)
+  get_bp_prefab_interacts: function(name, re_id, offset)  -- hexm/common/misc/building_misc.lua:209-220
+  get_cat_2_sys_d: function(build_no)  -- hexm/common/misc/building_misc.lua:631-634
+  get_bp_prefab_num: function(name)  -- hexm/common/misc/building_misc.lua:251-259
+  pos_add: function(pos1, pos2)  -- hexm/common/misc/building_misc.lua:640-642
+  get_area_center_pos_yaw: function(ainfo)  -- hexm/common/misc/building_misc.lua:111-113
+  get_cat_3_by_build_sys_d: function(build_sys_d)  -- hexm/common/misc/building_misc.lua:609-611
+  get_prefab_interacts: function(no, name, re_id, offset)  -- hexm/common/misc/building_misc.lua:182-207
+  get_position_by_building_id: function(building_id, space_no)  -- hexm/common/misc/building_misc.lua:694-709

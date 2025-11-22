@@ -53,4 +53,35 @@ Keys:
   gm_reset_combat_resource: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
   gm_remove_buff: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
   gm_enable_player_collision: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
-  (1 more keys)
+  rm_buff: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_no_cd: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_show_combat_info: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_push_slot: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_ironman: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  _gm_show_invincible_trigger_monitor: function()  -- hexm/client/debug/gm/gm_commands/gm_combat.lua:1238-1271
+  get_boss_test_data: function(boss_data)  -- hexm/client/debug/gm/gm_commands/gm_combat.lua:1582-1600
+  gm_super_ob: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_enable_predict_parry: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_imbattle: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_set_faction: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_add_buff: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_check_buff_table_key: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_ai_avatar_immortal: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_ai_avatar_mortal: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_set_fuen_camp: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_storyboard_push_speed: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  show_buff: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_become_powerful2: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_set_sp_calc: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_show_damage_panel_calc_history: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_change_weapon_link: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_add_damage: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  show_gm_test_boss: function()  -- hexm/client/debug/gm/gm_commands/gm_combat.lua:1647-1688
+  gm_show_damage_panel_player: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_show_buff_panel: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_set_stealthy_no: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_set_nature: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_open_behit_window: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_show_player_collision_box: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_entities_immortal: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_swap_ctrl_and_alt: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58

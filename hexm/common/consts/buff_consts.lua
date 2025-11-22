@@ -53,4 +53,45 @@ Keys:
   IMMUNE_CONTROL_BY_STATE: number
   get_th_flag_bag: function(th)  -- hexm/common/consts/buff_consts.lua:165-175
   ERR_ADD_PROB: number
-  (1 more keys)
+  CALC_CAUSE_CHANGE_MUL: string
+  SHOW_SERVER_ONLY: number
+  SHOW_EX_RAND_ATTR: string
+  SAME_TH_COUNT: number
+  IMMUNE_BY_CONTROL_PROTECT: number
+  SHIELD_VALUE: string
+  TH_COMMON_MAP: dict
+  RES_MAX_R: string
+  SAME_TH_ADD: number
+  ERR_ADD_CONTROL: number
+  TH_DICT_FLAG: number
+  IMMUNE_CONTROL_BOSS: number
+  _reload_all: boolean
+  UNLOCK_COMBO_LEVEL: string
+  SHOW_ALL_CLIENTS: number
+  SELF_RESOURCE_LOCK_LOWER_LIMIT: string
+  IMMUNE_BY_NO: number
+  GM_BNO_IMMORTAL: number
+  PASSIVE_CLEAR_LEAVE_SPACE: number
+  Feature: table <UnknownInstance>
+  K_HUMANPRO_MAX: string
+  SAME_TH_NEW: number
+  PASSIVE_CLEAR_TRANSFER: number
+  FAKE_REMOVE_FIRST: dict
+  BUFF_CONTROL_CAN_JIE: number
+  BUFF_SHOW_LIMIT_MONSTER: number
+  PASSIVE_MARK_MODE_REPLACE: number
+  RTYPE_CANCEL: number
+  RTYPE_TIME_END: number
+  ERR_ADD_IMMUNE: number
+  SAME_TH_DICT_ADD: number
+  RTYPE_NORMAL: number
+  SELF_RESOURCE_COST_CHANGE: string
+  BUFF_SHOW_LIMIT_MULTI_BOSS: number
+  BUFF_SHOW_LIMIT_PLAYER: number
+  RTYPE_DESTROY_EV: number
+  JUDGE_MODE_OWNER: number
+  PASSIVE_CLEAR_DEAD: number
+  CALC_SUFFER_CHANGE_MUL: string
+  HIT_NUM_AFFECT: string
+  RES_MAX_V: string
+  CALC_SUFFER_CHANGE_SUM: string

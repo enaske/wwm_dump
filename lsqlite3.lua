@@ -53,4 +53,35 @@ Keys:
   SAVEPOINT: number
   DROP_TEMP_INDEX: number
   ANALYZE: number
-  (1 more keys)
+  DROP_TEMP_VIEW: number
+  DROP_TEMP_TABLE: number
+  INTERRUPT: number
+  UPDATE: number
+  CREATE_TEMP_TRIGGER: number
+  SELECT: number
+  NOTFOUND: number
+  DROP_INDEX: number
+  DROP_TEMP_TRIGGER: number
+  CREATE_TRIGGER: number
+  DROP_VIEW: number
+  CANTOPEN: number
+  NULL: number
+  PROTOCOL: number
+  FLOAT: number
+  open: function(...)  -- =[C]
+  ATTACH: number
+  ERROR: number
+  INTEGER: number
+  ABORT: number
+  NOMEM: number
+  TOOBIG: number
+  OPEN_CREATE: number
+  NOTADB: number
+  OPEN_PRIVATECACHE: number
+  OK: number
+  DONE: number
+  OPEN_SHAREDCACHE: number
+  FORMAT: number
+  READ: number
+  REINDEX: number
+  READONLY: number

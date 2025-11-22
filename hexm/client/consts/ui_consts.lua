@@ -53,4 +53,79 @@ Keys:
   UI_PRIORITY_CLOUD_X_MOBILE: number
   STYLE_PRIORITY_MAX: number
   GLBLEND_TYPE_ONE: number
-  (1 more keys)
+  OPTION_BOTTOM: number
+  SCREEN_ORIENTATION_NONE: number
+  GLBLEND_TYPE_ONE_MINUS_SRC_COLOR: number
+  OPTION_RIGHT: number
+  CURSOR_RSTICK_SCROLL: number
+  GLBLEND_TYPE_ONE_MINUS_CONSTANT_COLOR: number
+  ENABLE_RED_POINT_IMPROVEMENT: boolean
+  CACHE_TYPE_WITH_SOUL: number
+  BAR_NO_FOCUS: number
+  PLATFORM_TYPE: string
+  HOTKEY_COMBINE_TYPE_AND: number
+  get_pos_info_by_view: function(view)  -- hexm/client/consts/ui_consts.lua:256-262
+  TEXTFIELD_UIRETURN_KEYDEFAULT: number
+  CHOOSE_TYPE_GRID: number
+  UI_SOUND_BUTTON_CLOSE: number
+  VIEW_TYPE_TIP: number
+  CURSOR_LSTICK_MOVE: number
+  CURSOR_TREE_JUMP_DEFAULT: number
+  ALIGN_LEFT: number
+  ALIGN_VERTICAL: number
+  ENABLE_CONTROLLER_CACHE: boolean
+  GLBLEND_TYPE_ONE_MINUS_CONSTANT_ALPHA: number
+  TRIGGER_TYPE_CONFIRM: number
+  ENABLE_WHOLE_VIEW_CACHE: boolean
+  DAMPPED_OSCILLATION_TAG: number
+  TEXTFIELD_UIRETURN_KEYSEND: number
+  TRIGGER_TYPE_HOTKEY: number
+  ALIGN_RB_TO_RT: number
+  GLBLEND_TYPE_SRC_COLOR: number
+  OPTION_HAUTO: number
+  CURSOR_LSTICK_SCROLL: number
+  CHOOSE_TYPE_VERTICAL: number
+  VIEW_TYPE_FULLSCREEN_OPACITY: number
+  PLATFORM_PAD: string
+  BAR_CURSOR_ENTRY: number
+  ENABLE_VIEW_ATTRS_DATA: boolean
+  STYLE_PRIORITY_HIGH: number
+  TRIGGER_TYPE_FOCUS: number
+  HOTKEY_COMBINE_TYPE_OR: number
+  ALIGN_RT_TO_LT: number
+  BUTTON_RESULT_POSITIVE: number
+  HUD_GROUP_NODE_DATA: dict
+  column_distance: function(node_1, node_2)  -- hexm/client/consts/ui_consts.lua:264-283
+  CURSOR_TREE_JUMP_DIRECT_UP_DOWN: number
+  PLATFORM_IS_MOBILE_CONSOLE: boolean
+  ALIGN_RIGHT: number
+  UI_SOUND_BUTTON_CLICK: number
+  TRIGGER_TYPE_TOUCH: number
+  ALIGN_LB_TO_LT: number
+  is_in_middle_ray: function(node_x, node_y)  -- hexm/client/consts/ui_consts.lua:285-299
+  STATE_SELECT: number
+  UI_PRIORITY_MOUSE_STATE: number
+  CURSOR_TREE_JUMP_ONLY_AB: number
+  convert_tuple3_256_to_color4_1: function(t, alpha)  -- hexm/client/consts/ui_consts.lua:238-241
+  ALIGN_MASK_SHIFT: number
+  OPTION_VCENTER: number
+  ALIGN_HORIZONTAL: number
+  CURSOR_RSTICK_MOVE: number
+  PLATFORM_IS_PC: boolean
+  BAR_PERSIST: number
+  PLATFORM_IS_MOBILE: boolean
+  OPTION_DEFAULT: number
+  PLATFORM_PC: string
+  OPTION_CENTER_BOTTOM: number
+  generate_jump_map_by_ccs_config: function(view, controllers)  -- hexm/client/consts/ui_consts.lua:243-254
+  ALIGN_TOP: number
+  ALIGN_RB_TO_LB: number
+  FOCUS_AS_CLICK: number
+  ALIGN_LB_TO_RB: number
+  ALIGN_BOTTOM: number
+  PLATFORM_IS_PAD: boolean
+  SCREEN_ORIENTATION_LEFT: number
+  CURSOR_KEY_MOVE: number
+  TEXTFIELD_UIRETURN_KEYDONE: number
+  AttrTypeScale: number
+  ENABLE_MARKER_IMPROVEMENT: boolean

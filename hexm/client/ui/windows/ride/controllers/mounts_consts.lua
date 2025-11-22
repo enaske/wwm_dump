@@ -53,4 +53,12 @@ Keys:
   try_focus_horse_rob: function(avt)  -- hexm/client/ui/windows/ride/controllers/mounts_consts.lua:272-275
   check_horse_filter: function(data, filter_rules)  -- hexm/client/ui/windows/ride/controllers/mounts_consts.lua:297-305
   mount_filter_is_shop: function(data, value)  -- hexm/client/ui/windows/ride/controllers/mounts_consts.lua:311-313
-  (1 more keys)
+  MOUNTS_SORT_COMPARE_FUNC: table <UnknownInstance>
+  MOUNT_SORT_LATEST: number
+  MOUNTS_GROUP_TEMP: number
+  get_ordered_temporary_horses: function(avt)  -- hexm/client/ui/windows/ride/controllers/mounts_consts.lua:132-140
+  MOUNT_FILTER_IS_OWN: number
+  try_focus_horse_tame: function(avt)  -- hexm/client/ui/windows/ride/controllers/mounts_consts.lua:230-270
+  MOUNT_UPGRADE_VX_COLOR: dict
+  MOUNTS_FILTER_RULE_MAP: table <UnknownInstance>
+  mount_sort: function(a, b, sort_rules)  -- hexm/client/ui/windows/ride/controllers/mounts_consts.lua:365-385

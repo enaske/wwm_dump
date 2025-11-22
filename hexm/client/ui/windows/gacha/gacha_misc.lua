@@ -53,4 +53,13 @@ Keys:
   _oversea_get_gacha_pull_items: function(pool_id, draw_times)  -- hexm/client/ui/windows/gacha/gacha_misc.lua:272-305
   get_left_time_str_by_ts: function(end_time_ts)  -- hexm/client/ui/windows/gacha/gacha_misc.lua:549-559
   check_is_gacha_sid: function(sid)  -- hexm/client/ui/windows/gacha/gacha_misc.lua:53-60
-  (1 more keys)
+  set_is_skip_set_cost_stuff: function(is_skip)  -- hexm/client/ui/windows/gacha/gacha_misc.lua:1043-1047
+  gacha_pull_notputback: function(pool_id, draw_times)  -- hexm/client/ui/windows/gacha/gacha_misc.lua:804-845
+  get_no_putback_times_and_cost: function(pool_id)  -- hexm/client/ui/windows/gacha/gacha_misc.lua:999-1010
+  record_gacha_shop_red: function(pool_id)  -- hexm/client/ui/windows/gacha/gacha_misc.lua:460-471
+  show_oversea_gacha_confirm: function(pool_id, draw_times)  -- hexm/client/ui/windows/gacha/gacha_misc.lua:718-802
+  has_get_all_reward: function(pool_id)  -- hexm/client/ui/windows/gacha/gacha_misc.lua:983-985
+  check_gacha_preview_open: function(preview_id)  -- hexm/client/ui/windows/gacha/gacha_misc.lua:653-656
+  get_is_skip_set_cost_stuff: function()  -- hexm/client/ui/windows/gacha/gacha_misc.lua:1049-1051
+  _play_gacha_cutscene_and_show_result: function(pool_id, stars, rewards, new_rewards, de_rewards, left_times, pool_ids)  -- hexm/client/ui/windows/gacha/gacha_misc.lua:862-926
+  show_legend_show_window: function(cb)  -- hexm/client/ui/windows/gacha/gacha_misc.lua:127-134

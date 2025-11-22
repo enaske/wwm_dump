@@ -53,4 +53,12 @@ Keys:
   ACTION_HEAVY_ATTACK_INDEX: number
   ALL_SKILLS: list
   ACTION_REMOVE_CONTROL_INDEX: number
-  (1 more keys)
+  SLOT_QISHU_1: number
+  ACTION_DEFENCE_STILL_INDEX: number
+  LAB_DEFENCE_STILL: number
+  ACTION_FLY_INDEX: number
+  SLOT_ZHANSHA: number
+  ALL_SKILL_INDEX_DICT: dict
+  SLOT_REMOVE_CONTROL: number
+  reverse_transform: function(x, z, scene_data, is_round_map)  -- hexm/common/base/ai_avatar/mnn/game_utils.lua:120-128
+  ALL_MAGIC_FIELDS: list

@@ -53,4 +53,27 @@ Keys:
   VX_COMPONENT_MAP: dict
   BOTTOM_LOADING_BAR: number
   ZORDER_CD: number
-  (1 more keys)
+  _reload_all: boolean
+  RIGHT_TOP_RECOMMEND: number
+  ZORDER_NUMBER: number
+  LEFT_TOP_BTN: number
+  ZORDER_CHOOSE_FRAME: number
+  COMPONENT_VIEW_MAP: dict
+  LIFE_WEAPON_VX: number
+  STAR_BG_WITH_BORDER: number
+  SPECIAL_VX_NEW_STUFF: number
+  CENTER_ICON_LOCK_WITH_BG: number
+  CENTER_ICON_BAN: number
+  CENTER_ICON_LOCK: number
+  RIGHT_TOP_TEXT: number
+  ZORDER_IMAGE_COLOR_FRAME: number
+  ZORDER_MASK: number
+  LEFT_TOP_ICON: number
+  LEFT_BOTTOM_CHECKBOX: number
+  CENTER_ICON_POSUN: number
+  LEFT_TOP_TEXT: number
+  RIGHT_TOP_TRACK_ICON: number
+  RIGHT_TOP_CORNER_ICON: number
+  COMMON_VX: number
+  STUFF_NAME: number
+  LEFT_TOP_DRUG_TEXT: number

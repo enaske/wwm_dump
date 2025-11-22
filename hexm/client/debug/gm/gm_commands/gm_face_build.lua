@@ -53,4 +53,8 @@ Keys:
   gm_test_pick_modifier: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
   gm_npc_face_build: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
   face_test_fov_camera_val: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
-  (1 more keys)
+  _open_read_test_data: boolean
+  gm_export_face_json_data: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_export_makeup_room2: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  is_open_read_test_data: function()  -- hexm/client/debug/gm/gm_commands/gm_face_build.lua:848-850
+  remove_attachment: function(e)  -- hexm/client/debug/gm/gm_commands/gm_face_build.lua:638-647

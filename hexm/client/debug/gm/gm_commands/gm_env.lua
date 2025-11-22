@@ -53,4 +53,39 @@ Keys:
   resume_time: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
   allow_select_hide_hex_model: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
   enabled_debug_show_sward_pos: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
-  (1 more keys)
+  HexModelHideTest: boolean
+  allow_select_hex_model: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  debug_Effect_Levels: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  burn_grass_2: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  editor_set_weather_id: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  print_weather_change: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_rm_interactcom_near: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  set_in_water: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  enabled_debug_show_burn_grass_effect_pos: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_mark_destruct_model: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  touch_end_callback: function(event, data)  -- hexm/client/debug/gm/gm_commands/gm_env.lua:917-932
+  play_wind: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  set_tod: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  enable_diving: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_show_last_hide_hex_model: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  skip_weather_lerp: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_photo_render_config: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_enable_st: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  test_create_radiation: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_disable_st: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_show_all_hide_hex_model: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  set_player_camera_yaw: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_create_local_interactcom_near: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_get_weather_humidity_offset: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  test_body_temperature_anim: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_get_weather_temp_offset: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  debug_active_biomes: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  set_time: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  enabled_debug_show_cut_grass_effect_pos: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  graph_variables_load_config: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  editor_set_volumn: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_disable_effect_level: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  debug_GetSceneAverageLuminance: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  convert_coord: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_enable_effect_level: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  reload_space_iworld: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58

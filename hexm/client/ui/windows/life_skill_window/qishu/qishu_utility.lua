@@ -53,4 +53,40 @@ Keys:
   get_qishu_update_item_datas: function(qishu_id, current_level, current_section, is_breakthrought, use_advanced_stuff)  -- hexm/client/ui/windows/life_skill_window/qishu/qishu_utility.lua:305-374
   is_qishu_locked_and_equipped: function(checked_qishu_id)  -- hexm/client/ui/windows/life_skill_window/qishu/qishu_utility.lua:901-921
   get_all_equipped_qishu_ids: function(specified_type)  -- hexm/client/ui/windows/life_skill_window/qishu/qishu_utility.lua:878-899
-  (1 more keys)
+  get_qishu_skill_describe_text: function(qishu_id, qishu_level, qishu_section)  -- hexm/client/ui/windows/life_skill_window/qishu/qishu_utility.lua:1146-1186
+  set_qishu_preview_view: function(view, qishu_ids)  -- hexm/client/ui/windows/life_skill_window/qishu/qishu_utility.lua:1529-1571
+  get_qishu_next_breakthrough_lv: function(qishu_id, level, bigger_than_lv)  -- hexm/client/ui/windows/life_skill_window/qishu/qishu_utility.lua:291-303
+  get_chinese_level_name: function(level)  -- hexm/client/ui/windows/life_skill_window/qishu/qishu_utility.lua:281-284
+  get_section_sysd: function(qishu_id, level, section)  -- hexm/client/ui/windows/life_skill_window/qishu/qishu_utility.lua:64-66
+  refresh_can_update_qishu_checked: function()  -- hexm/client/ui/windows/life_skill_window/qishu/qishu_utility.lua:639-653
+  get_equipped_qishu_ids: function(qishu_type)  -- hexm/client/ui/windows/life_skill_window/qishu/qishu_utility.lua:1331-1346
+  get_unlocked_da_qinggong: function()  -- hexm/client/ui/windows/life_skill_window/qishu/qishu_utility.lua:1310-1314
+  get_advanced_stuff_info: function(current_stuff_no, all_stuff_list, need_count)  -- hexm/client/ui/windows/life_skill_window/qishu/qishu_utility.lua:436-458
+  enough_to_breakthrough: function(qishu_id, cur_level, cur_section)  -- hexm/client/ui/windows/life_skill_window/qishu/qishu_utility.lua:523-560
+  set_qishu_update_red_point_checked: function(qishu_id, refresh_lv)  -- hexm/client/ui/windows/life_skill_window/qishu/qishu_utility.lua:627-631
+  set_qishu_resource_show_view_mobile: function(progress_bar)  -- hexm/client/ui/windows/life_skill_window/qishu/qishu_utility.lua:1274-1285
+  get_max_seciton: function(qishu_id, level)  -- hexm/client/ui/windows/life_skill_window/qishu/qishu_utility.lua:513-521
+  is_nu_yi_qishu: function(qishu_id)  -- hexm/client/ui/windows/life_skill_window/qishu/qishu_utility.lua:162-166
+  get_qishu_update_red_point_checked: function(qishu_id)  -- hexm/client/ui/windows/life_skill_window/qishu/qishu_utility.lua:622-625
+  get_qishu_usage_richtext_str: function(qishu_id, slot_idx, is_new_get)  -- hexm/client/ui/windows/life_skill_window/qishu/qishu_utility.lua:1460-1517
+  has_can_update_qishu: function(type, exclude_qishu_ids)  -- hexm/client/ui/windows/life_skill_window/qishu/qishu_utility.lua:812-841
+  has_empty_slot: function(qishu_type)  -- hexm/client/ui/windows/life_skill_window/qishu/qishu_utility.lua:995-1015
+  get_new_qishu_ids: function(type, subtype)  -- hexm/client/ui/windows/life_skill_window/qishu/qishu_utility.lua:967-985
+  refresh_enough_to_breakthrough_checked: function()  -- hexm/client/ui/windows/life_skill_window/qishu/qishu_utility.lua:661-675
+  no_qishu_equipped: function(qishu_type)  -- hexm/client/ui/windows/life_skill_window/qishu/qishu_utility.lua:797-810
+  get_breakthrough_attr: function()  -- hexm/client/ui/windows/life_skill_window/qishu/qishu_utility.lua:235-254
+  reach_can_update_limit: function(qishu_id, level, section)  -- hexm/client/ui/windows/life_skill_window/qishu/qishu_utility.lua:508-511
+  get_can_update_qishu_types: function(only_equipped, check_red_point)  -- hexm/client/ui/windows/life_skill_window/qishu/qishu_utility.lua:728-778
+  get_unlocked_qishu_ids: function(qishu_type, qishu_subtype)  -- hexm/client/ui/windows/life_skill_window/qishu/qishu_utility.lua:1642-1662
+  get_sorted_qishu_types: function()  -- hexm/client/ui/windows/life_skill_window/qishu/qishu_utility.lua:26-33
+  check_slots_has_any_qishu: function(qishu_type, slot_list)  -- hexm/client/ui/windows/life_skill_window/qishu/qishu_utility.lua:1689-1710
+  get_first_unlocked_qishu: function(qishu_type)  -- hexm/client/ui/windows/life_skill_window/qishu/qishu_utility.lua:1573-1610
+  get_qishu_equip_mode: function(qishu_id)  -- hexm/client/ui/windows/life_skill_window/qishu/qishu_utility.lua:82-86
+  get_image_list_by_keys: function(key_ids)  -- hexm/client/ui/windows/life_skill_window/qishu/qishu_utility.lua:1379-1400
+  get_can_update_qishu_subtypes: function(type)  -- hexm/client/ui/windows/life_skill_window/qishu/qishu_utility.lua:844-876
+  get_qishu_update_need_stuff_infos: function(qishu_id, current_level, current_section, is_breakthrought, use_advanced_stuff)  -- hexm/client/ui/windows/life_skill_window/qishu/qishu_utility.lua:376-434
+  get_qishu_key_ids: function(qishu_id, slot_idx)  -- hexm/client/ui/windows/life_skill_window/qishu/qishu_utility.lua:1402-1424
+  get_qishu_map_ids_by_qishu_id: function(qishu_id)  -- hexm/client/ui/windows/life_skill_window/qishu/qishu_utility.lua:1445-1458
+  is_temp_qishu: function(qishu_id)  -- hexm/client/ui/windows/life_skill_window/qishu/qishu_utility.lua:1520-1525
+  get_equip_corner_marker_visiblity: function(qishu_id)  -- hexm/client/ui/windows/life_skill_window/qishu/qishu_utility.lua:1287-1291
+  get_lv_sysd: function(qishu_id, level)  -- hexm/client/ui/windows/life_skill_window/qishu/qishu_utility.lua:60-62

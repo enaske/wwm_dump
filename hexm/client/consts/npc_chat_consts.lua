@@ -53,4 +53,7 @@ Keys:
   set_player_new_nickname: function(nickname, pinyin)  -- hexm/client/consts/npc_chat_consts.lua:146-146
   get_or_set_npc_chat_audio_setting: function()  -- hexm/client/consts/npc_chat_consts.lua:206-213
   get_npc_voice_red_num: function()  -- hexm/client/consts/npc_chat_consts.lua:219-224
-  (1 more keys)
+  set_player_new_nickname_pinyin: function(pinyin)  -- hexm/client/consts/npc_chat_consts.lua:148-148
+  get_player_nickname: function()  -- hexm/client/consts/npc_chat_consts.lua:124-124
+  get_npc_nickname_pinyin: function(aid)  -- hexm/client/consts/npc_chat_consts.lua:142-142
+  check_forbid_ai_chat: function()  -- hexm/client/consts/npc_chat_consts.lua:49-51

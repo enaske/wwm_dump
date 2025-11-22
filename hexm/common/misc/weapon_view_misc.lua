@@ -53,4 +53,8 @@ Keys:
   CLASS_A: number
   _random_hsv_offset: function(hsv_range_conf)  -- hexm/common/misc/weapon_view_misc.lua:658-666
   check_sno_repeated: function(sno)  -- hexm/common/misc/weapon_view_misc.lua:735-740
-  (1 more keys)
+  _normalized_hsv: function(hsv)  -- hexm/common/misc/weapon_view_misc.lua:617-629
+  calc_total_quality: function(qualities)  -- hexm/common/misc/weapon_view_misc.lua:358-364
+  QUALITY_GOLD: number
+  get_weapon_sys_d: function(view_no)  -- hexm/common/misc/weapon_view_misc.lua:688-706
+  get_pic_by_viewno: function(view_no, suit_id)  -- hexm/common/misc/weapon_view_misc.lua:810-857

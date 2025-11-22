@@ -53,4 +53,16 @@ Keys:
   get_curio_extra_config: function(curio_no)  -- hexm/client/consts/notify_message_consts.lua:300-316
   get_bowu_reasearch_extra_config: function(k, num)  -- hexm/client/consts/notify_message_consts.lua:215-224
   get_ever_know_clue_extra_config: function(jw_id)  -- hexm/client/consts/notify_message_consts.lua:336-340
-  (1 more keys)
+  NOTIFY_SYS_MESSAGE_RD: string
+  MODE_SHOW_TYPE_SINGLE_GAMEPLAY: number
+  NOTIFY_REPLY_SETTING_NAME: string
+  parse_notify_message: function(config_id, message_data, stuff_config, text_config)  -- hexm/client/consts/notify_message_consts.lua:130-153
+  get_anim_extra_config: function(anim_no)  -- hexm/client/consts/notify_message_consts.lua:371-377
+  is_from_removed_sign_road: function(message)  -- hexm/client/consts/notify_message_consts.lua:56-69
+  MODE_SHOW_TYPE_MULTI_ACTIVITY: number
+  NOTIFY_TYPE_ACTIVITY: number
+  get_task_progress_unlock_extra_config: function(unlock_type, class_no, group_no, chapter_no)  -- hexm/client/consts/notify_message_consts.lua:454-477
+  get_stuff_sys_msg_config: function(...)  -- hexm/client/consts/notify_message_consts.lua:433-452
+  get_region_game_pursue_extra_config: function(player_name, pid, hostnum)  -- hexm/client/consts/notify_message_consts.lua:528-535
+  get_theater_game_extra_config: function(bowu_no, scene_no, info)  -- hexm/client/consts/notify_message_consts.lua:380-389
+  get_world_view_new_npc_unlock: function(npc_id)  -- hexm/client/consts/notify_message_consts.lua:521-526

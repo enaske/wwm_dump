@@ -53,4 +53,70 @@ Keys:
   TAG_BASE_TRAP_BIT: number
   TAG_MAIN_COMPOSITION_ITEM: number
   SUBTYPE_CONSUME_NPC: number
-  (1 more keys)
+  TAG_COMMON_PLAY: number
+  TAG_SUB_GROUP_BUILDING: number
+  TAG_MAIN_PLAYER: number
+  TAG_BASE_MAGIC_FIELD_BIT: number
+  TAG_TREASURE_BOX: number
+  TYPE_SPACE_INTERACT: number
+  SUBTYPE_COLLECT_TREE: number
+  TAG_BASE_LOCAL_ENTITY_BIT: number
+  TAG_MAIN_AIRWALL_BIT: number
+  TYPE_RIDE: number
+  SUBTYPE_GROUP_BUILDING: number
+  TAG_OTHER_PLAYER: number
+  TAG_IDLER_NPC_BIT: number
+  TYPE_NPC_COLLECT: number
+  TAG_MAIN_RIDE_BIT: number
+  TAG_SHOP: number
+  TYPE_AIRWALL: number
+  TYPE_NPC: number
+  TAG_TASK_NPC_BIT: number
+  TAG_MAIN_INTERACT_BIT: number
+  SUBTYPE_SIMPLE_BUILDING: number
+  SUBTYPE_TASK_NPC: number
+  TAG_RADIATION_BIT: number
+  TAG_FOLIAGE_BIT: number
+  TAG_VEHICLE: number
+  TAG_INTERACT_COMPONENT: number
+  SUBTYPE_TREASURE_BOX: number
+  USE_NEW_TAG_SYSTEM: boolean
+  is_client_interactcom_by_sid: function(spaceno, sid)  -- hexm/common/consts/tag_consts.lua:373-385
+  TAG_AI_AVATAR: number
+  TAG_RADIATION: number
+  TAG_BUILDING: number
+  TAG_MAIN_BASE_POINT_BIT: number
+  TAG_NONE: number
+  TAG_LAND: number
+  TAG_SHOP_BIT: number
+  BASE_TYPE_BIT: number
+  main_type: function(type_bit)  -- hexm/common/consts/tag_consts.lua:116-118
+  TAG_TRAP: number
+  TAG_SUB_ROBOT_NPC_BIT: number
+  MAIN_TYPE_BIT: number
+  TAG_MAIN_SPACE_INTERACT: number
+  TYPE_FOLIAGE: number
+  TAG_SUB_SMALL_BOSS_BIT: number
+  TYPE_BUILDING: number
+  TAG_PET_DOG_NPC_BIT: number
+  TAG_MAIN_DESTRUCT_BIT: number
+  TAG_BASE_OTHER_PLAYER_BIT: number
+  TAG_SUB_BOSS_BIT: number
+  TAG_SPACE_DATA: number
+  TYPE_PORRIDGE_SHOP: number
+  TAG_SUB_NORMAL_MONSTER_BIT: number
+  TAG_NPC: number
+  TAG_INTERACT_COMPONENT_BIT: number
+  TAG_CONSUME_NPC_BIT: number
+  is_server_interactcom_by_sid: function(spaceno, sid)  -- hexm/common/consts/tag_consts.lua:359-371
+  TAG_MAIN_AIAVT_BIT: number
+  SUBTYPE_ELITE_MONSTER: number
+  SUBTYPE_COLLECT_MINE: number
+  SUBTYPE_BUILDING_BLUEPRINT: number
+  TAG_AI_AVATAR_BIT: number
+  SUBTYPE_COLLECT_GRASS: number
+  SUBTYPE_NORMAL_MONSTER: number
+  MAINTYPE_NORMAL_INTERACTCOM: number
+  SUBTYPE_SMALL_BOSS: number
+  TAG_BUILDING_HOUSE: number
+  TAG_MAGIC_FILED: number

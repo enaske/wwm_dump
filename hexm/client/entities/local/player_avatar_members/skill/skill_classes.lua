@@ -53,4 +53,52 @@ Keys:
   _get_building_cancel: function()  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:526-531
   _get_building_fill: function()  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:547-552
   _get_choose_arrow_pc: function()  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:34-39
-  (1 more keys)
+  OLD_CONTROLLERS_TO_NEW_CONTROLLERS: dict
+  _get_auto_recovery_mobile: function()  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:148-154
+  SLOT_TYPE_TO_CLASSES: dict
+  _get_ride_off_mobile: function()  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:381-385
+  _get_ride_jump_mobile: function()  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:428-432
+  _get_archer_active_skill_pc: function()  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:227-234
+  _get_zaotang_pc: function()  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:258-263
+  _get_fishing_choose_bait_mobile: function()  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:367-372
+  _get_baiye_wall_pc: function()  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:291-298
+  _get_change_speed_swim_rush_pc: function()  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:116-121
+  _get_gameplay_lunpan_mobile: function()  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:603-608
+  _get_ride_invite_mobile: function()  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:507-511
+  get_upper_clz_name: function(path)  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:985-992
+  HANDLER: string
+  _get_telekinesis_lock_mobile: function()  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:485-490
+  _get_archer_shoot_pc: function()  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:83-87
+  _get_fishing_empty_pc: function()  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:265-269
+  _get_baiye_ultimate_skill_pc: function()  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:300-306
+  UI_STYLE_TO_CONTROLLERS: dict
+  require_object_class: function(class_type, script_name, class_name)  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:831-836
+  _get_qishu_battle_pc: function()  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:164-171
+  _get_arrow_zhishui_config_mobile: function()  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:352-358
+  _get_auto_combo_mobile: function()  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:499-505
+  _get_slot_change_speed_and_roll_mobile: function()  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:387-394
+  _get_probe_pc: function()  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:182-188
+  get_ccs_path_by_ui_style: function(ui_style)  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:880-900
+  _get_explore_mobile: function()  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:470-475
+  _get_ladder_change_side_mobile: function()  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:513-517
+  _get_defence_pc: function()  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:221-225
+  _get_leave_hold_carriage_mobile: function()  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:492-497
+  _get_change_speed_and_roll_pc: function()  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:109-114
+  _get_building_add_or_delete: function()  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:519-524
+  _get_building_rotate: function()  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:533-538
+  _get_auto_recovery_chiji_pc: function()  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:140-146
+  _get_normal_skill_pc: function()  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:59-66
+  _get_granny_race_pc: function()  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:197-203
+  _get_lingyunta_mobile: function()  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:571-577
+  _get_prison_parade_throw: function()  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:308-312
+  get_class_by_info: function(class_type, class_info, model_id, index, ccs_path)  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:927-940
+  _get_big_fly_mobile: function()  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:617-622
+  require_slot_classes: function(func_type, model_id, slot_mode_no, index)  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:902-925
+  require_base_class: function(class_type, model_id, index, window_ccs)  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:838-878
+  _get_fly_pc: function()  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:95-100
+  _get_probe_mobile: function()  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:421-426
+  _get_normal_change_speed_and_roll_mobile: function()  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:454-461
+  _get_stop_anim_action_pc: function()  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:251-256
+  _get_building_recycle: function()  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:540-545
+  _get_ride_invite_pc: function()  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:271-275
+  _get_granny_race_mobile: function()  -- hexm/client/entities/local/player_avatar_members/skill/skill_classes.lua:634-640

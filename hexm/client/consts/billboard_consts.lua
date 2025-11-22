@@ -53,4 +53,41 @@ Keys:
   PRIORITY_INTERACT_COMP_STATUS: number
   REASON_VISIBLE: number
   ALIGNMENT_RIGHT: number
-  (1 more keys)
+  BILLBOARD_LEVEL_WANFA_2: string
+  get_node_sys_d: function(node_no)  -- hexm/client/consts/billboard_consts.lua:151-166
+  BUBBLE_SPEECH_TEXT_OFFSET: list
+  COND_OFFWAR: string
+  DEFAULT_TEXT_CCS: string
+  BILLBOARD_LEVEL_BASE_RESOURCE_BUFF: string
+  DIRECT_CENTER: number
+  BILLBOARD_GROUP_NPC_BANQUET: string
+  REASON_POSITION: number
+  REASON_SIZE: number
+  BILLBOARD_GROUP_FLYING_DANCE: string
+  BILLBOARD_GROUP_GUESS_WORD: string
+  RESOUCE_NEED_REFRESH: list
+  BUBBLE_SPEECH_FONT_WIDTH: number
+  BILLBOARD_GROUP_NORMAL_BASE: string
+  REASON_ANCHOR_POINT: number
+  COND_WAR_HATE_ASPIRINE: string
+  REASON_SIBLING_ORDER: number
+  DIRECT_NONE: number
+  BILLBOARD_GROUP_NPC_AUCTION: string
+  COND_WAR_NOHATE: string
+  PROGRESS_DIRECT_VERTICAL: number
+  BILLBOARD_LEVEL_POPO: string
+  reverse_color: function(color_256)  -- hexm/client/consts/billboard_consts.lua:138-140
+  BILLBOARD_GROUP_YANSHI_BATTLE: string
+  BILLBOARD_GROUP_SELECT_PEACE: string
+  BILLBOARD_GROUP_BAIYE_BATTLE: string
+  BILLBOARD_LEVEL_BASE_REACTION: string
+  DEFAULT_IMAGE_CCS: string
+  BUBBLE_SPEECH_FONT_SIZE: number
+  BILLBOARD_GROUP_DISEASE_SEARCH: string
+  DIRECT_HORIZONTAL: number
+  DEFAULT_BONE_NAME: string
+  COND_WAR_HATE: string
+  BUBBLE_SPEECH_FONT_COLOR: list
+  BILLBOARD_LEVEL_BASE_SKILL_BAR: string
+  BUBBLE_SPEECH_BODY_BG_SCALE9: list
+  get_priority: function(flag)  -- hexm/client/consts/billboard_consts.lua:130-132

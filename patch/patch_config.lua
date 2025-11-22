@@ -53,4 +53,53 @@ Keys:
   is_ps_package: function()  -- patch/patch_config.lua:136-139
   is_outer: boolean
   patch_host: string
-  (1 more keys)
+  is_dashen_slice: function()  -- patch/patch_config.lua:167-178
+  is_douyin_cloud: function()  -- patch/patch_config.lua:193-200
+  PT_SPECIAL: string
+  md5_ssl: boolean
+  is_steam_package: function()  -- patch/patch_config.lua:126-129
+  is_douyin_slice: function()  -- patch/patch_config.lua:180-191
+  Pre: boolean
+  is_svn_branch_publish: function()  -- patch/patch_config.lua:505-507
+  review_version: number
+  PT_CLOOD_TISHEN: string
+  PT_KOC: string
+  config_dict: table <UnknownInstance>
+  PATCH_VIDEO: string
+  is_android_review: function()  -- patch/patch_config.lua:229-231
+  ignore_patch: boolean
+  get_slice_tag: function()  -- patch/patch_config.lua:215-223
+  PT_CLOUD: string
+  patch_cocos_inited: boolean
+  create_logging_tag: function()  -- patch/patch_log.lua:35-40
+  is_review: boolean
+  PATCH_VIDEO_SIZE: list
+  refresh_review_config: function(review_dict, is_review)  -- patch/patch_config.lua:284-303
+  is_oversea: function()  -- patch/patch_config.lua:92-119
+  PT_JINGLING: string
+  distribution_tag: string
+  PT_PINGSHEN: string
+  is_fashao_package: function()  -- patch/patch_config.lua:211-213
+  is_inner: boolean
+  patch_list_file: string
+  patch_md5_file: string
+  md5_host: string
+  review_file: string
+  PT_OBT: string
+  patch_md5_prefix: string
+  PT_UE_EN: string
+  patch_port: number
+  enable_low2_config: function(b_enabled)  -- patch/patch_config.lua:313-325
+  netease_host: boolean
+  logf: function(fmt, ...)  -- patch/patch_config.lua:483-485
+  is_ios_review: function()  -- patch/patch_config.lua:225-227
+  is_hmt: function()  -- patch/patch_config.lua:333-335
+  is_ml_fenbao: function()  -- patch/patch_config.lua:337-341
+  is_epic_package: function()  -- patch/patch_config.lua:131-134
+  enable_bg_patch: boolean
+  PT_NORMAL: string
+  PT_HMT: string
+  set_download_speed_limit: function(limit)  -- patch/patch_config.lua:327-331
+  PT_BANSHU: string
+  PT_LQA: string
+  is_pc_package: function()  -- patch/patch_config.lua:121-124

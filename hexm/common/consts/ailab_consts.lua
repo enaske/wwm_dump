@@ -53,4 +53,6 @@ Keys:
   MODEL_GEN_STATE_UPLOAD_FAIL: number
   MODEL_GEN_STATE_REVIEW_SUCCESS: number
   MODEL_GEN_STATE_FAIL: number
-  (1 more keys)
+  HEAD_MODE_RANDOM: number
+  AIAVT_RES_ATTR_TEMP: list
+  WANFA_CHIJI: number

@@ -33,10 +33,10 @@ Keys:
   UI_TYPE_DEFLECTION: number
   RiposteQTEHudWindow: class <RiposteQTEHudWindow>
     Functions:
-      destroy_object(self)  -- hexm/client/ui/windows/hud/riposte_qte_hud_window.lua:71-74
       trigger_riposte_qte_end(self, skill_info)  -- hexm/client/ui/windows/hud/riposte_qte_hud_window.lua:67-69
-      ctor(self)  -- hexm/client/ui/windows/hud/riposte_qte_hud_window.lua:50-61
       trigger_riposte_qte(self, skill_info)  -- hexm/client/ui/windows/hud/riposte_qte_hud_window.lua:63-65
+      destroy_object(self)  -- hexm/client/ui/windows/hud/riposte_qte_hud_window.lua:71-74
+      ctor(self)  -- hexm/client/ui/windows/hud/riposte_qte_hud_window.lua:50-61
   MobileRiposteQTEHudController: class <MobileRiposteQTEHudController>
     Functions:
       set_hotkey_info(self)  -- hexm/client/ui/windows/hud/riposte_qte_hud_window.lua:337-347

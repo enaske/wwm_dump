@@ -53,4 +53,17 @@ Keys:
   get_patchmpk_db: function()  -- patch/patch_context.lua:269-280
   last_bg_version: string
   has_fenbao_patchlist: function(pkg_name)  -- patch/patch_context.lua:129-132
-  (1 more keys)
+  patch_conf: dict
+  get_patch_level: function()  -- patch/patch_context.lua:89-91
+  sound_type: string
+  mappingVersion: string
+  is_patch_finish: function(pkg_name)  -- patch/patch_context.lua:231-233
+  patchmpk_db: instance
+  review_dict: dict
+  patchlist_info: dict
+  enable_stage_compact: boolean
+  ignoreLevelList: table <UnknownInstance>
+  performance_level: instance
+  get_patch_waiting_list: function()  -- patch/patch_context.lua:199-201
+  stage: string
+  pkg_size_info: dict

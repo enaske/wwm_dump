@@ -74,8 +74,8 @@ Keys:
       start(self, graph)  -- hexm/common/actionline/nodes/effect_nodes.lua:494-514
   CreateMountEffect: class <CreateMountEffect>
     Functions:
-      decode_effect(self, context, eff_str)  -- hexm/common/actionline/nodes/effect_nodes.lua:291-297
       play_effect(self, context, entity, target, effect_str)  -- hexm/common/actionline/nodes/effect_nodes.lua:299-341
       play_mount_effect(self, effect, context)  -- hexm/common/actionline/nodes/effect_nodes.lua:254-289
       ctor(self)  -- hexm/common/actionline/nodes/effect_nodes.lua:206-217
+      decode_effect(self, context, eff_str)  -- hexm/common/actionline/nodes/effect_nodes.lua:291-297
       start(self, graph)  -- hexm/common/actionline/nodes/effect_nodes.lua:219-252

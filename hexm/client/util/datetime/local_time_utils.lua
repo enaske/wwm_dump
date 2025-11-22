@@ -53,4 +53,16 @@ Keys:
   _get_contact_formatted_str: function(type, args)  -- hexm/client/util/datetime/local_time_utils.lua:1978-2013
   _convert_single_time: function(time_str, timezone_diff_hours)  -- hexm/client/util/datetime/local_time_utils.lua:697-751
   _adjust_month_day_for_loop_time_cross_day: function(month_str, day_str, day_offset)  -- hexm/client/util/datetime/local_time_utils.lua:1689-1782
-  (1 more keys)
+  SHOW_LOCAL: boolean
+  _format_single_nature_time: function(time_data, timezone_diff_hours)  -- hexm/client/util/datetime/local_time_utils.lua:1060-1120
+  _format_day_list: function(day_str)  -- hexm/client/util/datetime/local_time_utils.lua:1256-1298
+  _format_time_only_from_nature_time: function(time_data, timezone_diff_hours)  -- hexm/client/util/datetime/local_time_utils.lua:1028-1054
+  _adjust_date_for_cross_day: function(time_data, day_offset)  -- hexm/client/util/datetime/local_time_utils.lua:1491-1534
+  CROSS_TAG: string
+  _get_wday_str: function(wday_num, use_abbr)  -- hexm/client/util/datetime/local_time_utils.lua:1927-1931
+  _format_time_part: function(converted_time)  -- hexm/client/util/datetime/local_time_utils.lua:993-1022
+  proc_nature_time_str: function(time_str)  -- hexm/client/util/datetime/local_time_utils.lua:255-301
+  MINUTES_PER_DAY: number
+  _convert_loop_time_with_timezone: function(time_components, timezone_offset, is_dst)  -- hexm/client/util/datetime/local_time_utils.lua:411-429
+  _adjust_day_for_loop_time_cross_day: function(day_str, day_offset, use_next_format)  -- hexm/client/util/datetime/local_time_utils.lua:1613-1682
+  _get_timestamp_from_parsed_times: function(parsed_times)  -- hexm/client/util/datetime/local_time_utils.lua:1832-1845

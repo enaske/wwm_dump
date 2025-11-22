@@ -53,4 +53,52 @@ Keys:
   EVENT_JIEYI_PRETEAM_APPLY_REPLY: string
   EVENT_JIEYI_PRETEAM_APPLY_NOTIFY: string
   get_jieyi_rank: function(avatar_id)  -- hexm/common/consts/jieyi_consts.lua:147-155
-  (1 more keys)
+  E_JIEYI_LESS_TEAM_SIZE: number
+  is_jieyi_leader: function(avatar_id)  -- hexm/common/consts/jieyi_consts.lua:168-170
+  JIEYI_PLAYER_WTRPE: string
+  get_jieyi_member_range: function()  -- hexm/common/consts/jieyi_consts.lua:52-55
+  EVENT_JIEYI_PRETEAM_APPLY_REPLY_NOTIFY: string
+  ERR_OTHER_HAS_JOIN_PRETEAM: number
+  JY_NOTIFY_SHARE_ID: number
+  JIEYI_PRETEAM_WTYPE: string
+  JIEYI_RECUIT_DELE: string
+  get_jieyi_sysd: function()  -- hexm/common/consts/jieyi_consts.lua:26-28
+  E_JIEYI_NOT_EXIST: number
+  JY_INVITE_SHARE_ID: number
+  JIEYI_CMD_CHANGE_PICT: string
+  JIEYI_WAIGUAN_EDIT: string
+  check_team_valid_if_quit: function()  -- hexm/common/consts/jieyi_consts.lua:143-145
+  is_jieyi_id: function(avatar, ID)  -- hexm/common/consts/jieyi_consts.lua:62-72
+  E_JIEYI_NEED_TEAM: number
+  EVENT_JIEYI_ADD_COIN: string
+  H72_FIND_JIEYI: string
+  EVENT_JIEYI_CREATE_PICTURE: string
+  EVENT_JIEYI_CREATE_FINISH: string
+  EVENT_JIEYI_CREATE_CONFIRM: string
+  EVENT_JIEYI_POST_INFO: string
+  EVENT_JIEYI_INTERRUPT: string
+  is_jieyi_request_id: function(avatar, ID)  -- hexm/common/consts/jieyi_consts.lua:87-93
+  ERR_JIEYI_TEAM_INVITATIONS: number
+  get_jieyi_level_by_coin: function(jieyi_coin_total)  -- hexm/common/consts/jieyi_consts.lua:113-126
+  E_JIEYI_ERR_PAR: number
+  _reload_all: boolean
+  E_JIEYI_HAS_OTHER: number
+  get_jieyi_position_and_yaw: function(rank_index)  -- hexm/common/consts/jieyi_consts.lua:172-178
+  EVENT_INVITE_BTN_CLICK_GOTO_RECRUIT_TAB: string
+  E_JIEYI_NOT_IN_NEAR: number
+  EVENT_JIEYI_CREATE: string
+  E_JIEYI_NOT_LEADER: number
+  ERR_CD: number
+  EVENT_JIEYI_MEM_ADD: string
+  EVENT_JIEYI_CREATE_END: string
+  EVENT_JIEYI_PRETEAM_UPDATE: string
+  EVENT_JIEYI_PRETEAM_CREATE: string
+  get_jieyi_num: function()  -- hexm/common/consts/jieyi_consts.lua:138-141
+  get_jieyi_preteam_rank: function(avatar_id)  -- hexm/common/consts/jieyi_consts.lua:157-166
+  EVENT_JIEYI_MEM_DEL: string
+  EVENT_JIEYI_CHANGE: string
+  JIEYI_CMD_CHANGE_TEXT: string
+  jieyi_update_check: function(cmd, op_cd)  -- hexm/common/consts/jieyi_consts.lua:30-50
+  JY_REQUEST_SHARE_ID: number
+  JIEYI_RECUIT_POST: string
+  E_JIEYI_HAS_OTHER2: number

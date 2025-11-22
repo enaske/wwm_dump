@@ -53,4 +53,47 @@ Keys:
   active_interact_check_common: function(avatar, act_board)  -- hexm/common/misc/interact_misc.lua:1327-1467
   get_common_mat_id: function(act_board)  -- hexm/common/misc/interact_misc.lua:1241-1263
   CURD_ENTITY_TYPE_PT: number
-  (1 more keys)
+  get_available_active_ways: function(interact_comp, player_id, comp_id_list)  -- hexm/common/misc/interact_misc.lua:18-32
+  interact_common_process_private_avatar_event: function(comp, data)  -- hexm/common/misc/interact_misc.lua:1019-1024
+  get_common_mat_id_by_conditions: function(entity_no, active_way_no)  -- hexm/common/misc/interact_misc.lua:1265-1271
+  get_entity_interact_sysd: function(eno)  -- hexm/common/misc/interact_misc.lua:748-754
+  get_active_interact_duration: function(sys_d, entity_d)  -- hexm/common/misc/interact_misc.lua:845-864
+  get_client_interact_save_type: function(space_no, serial_id, ins_d)  -- hexm/common/misc/interact_misc.lua:1034-1040
+  get_target_comp_status: function(space, comp_eid, active_way_no)  -- hexm/common/misc/interact_misc.lua:940-957
+  interact_comp_reset_active_cnt: function(comp)  -- hexm/common/misc/interact_misc.lua:1578-1582
+  get_comp_eid_by_index: function(index, serial_id)  -- hexm/common/misc/interact_misc.lua:1857-1867
+  interact_get_aoi_layer_config: function(aoi_layer)  -- hexm/common/misc/interact_misc.lua:905-913
+  get_interact_cost_stuffs: function(act_board)  -- hexm/common/misc/interact_misc.lua:1208-1239
+  check_static_entity_sid_is_interact: function(space_no, sid)  -- hexm/common/misc/interact_misc.lua:1122-1144
+  get_all_relation_no_list: function(relations)  -- hexm/common/misc/interact_misc.lua:437-446
+  interact_comp_get_comp_by_config_no: function(interact_comp, config_no)  -- hexm/common/misc/interact_misc.lua:538-546
+  get_active_interact_duration_by_anim_data: function(anim_data)  -- hexm/common/misc/interact_misc.lua:866-868
+  active_interact_result_need_edit_comp: function(act_board)  -- hexm/common/misc/interact_misc.lua:1561-1568
+  check_can_set_interact_comp_active_way2avatars: function(space, entity_id, comp_eid, active_way_nos)  -- hexm/common/misc/interact_misc.lua:975-1017
+  get_comp_itm_relation_change_info: function(comp_itm, change_way, param, trigger_id)  -- hexm/common/misc/interact_misc.lua:291-310
+  check_comp_has_status: function(comp, status_no)  -- hexm/common/misc/interact_misc.lua:460-472
+  get_comp_info_available_active_ways: function(comp_info, player_id)  -- hexm/common/misc/interact_misc.lua:34-115
+  get_serial_id_by_iworld_static_entity_id: function(comp_eid)  -- hexm/common/misc/interact_misc.lua:1831-1833
+  get_interact_reward_no: function(act_board)  -- hexm/common/misc/interact_misc.lua:1273-1307
+  get_entity_no_reborn_ts_data: function(entity_no)  -- hexm/common/misc/interact_misc.lua:1951-1954
+  get_active_interact_start_result_duration: function(sys_d, entity_d)  -- hexm/common/misc/interact_misc.lua:816-834
+  get_all_possible_active_ways: function(entity_no)  -- hexm/common/misc/interact_misc.lua:117-158
+  get_relation_change_info: function(relation_no, change_way, param)  -- hexm/common/misc/interact_misc.lua:357-421
+  get_comp_owner_by_comp: function(comp)  -- hexm/common/misc/interact_misc.lua:520-528
+  create_ins_reborn_cache_map: function(bit_set_data, tbl)  -- hexm/common/misc/interact_misc.lua:1906-1918
+  active_interact_start_edit_comp: function(comp, active_way_no, pid)  -- hexm/common/misc/interact_misc.lua:1525-1559
+  _change_interact_comp_active_way2avatars: function(entity_id, comp, active_way_nos, is_set)  -- hexm/common/misc/interact_misc.lua:959-973
+  get_interact_reward_info: function(entity_no, space_no, sid)  -- hexm/common/misc/interact_misc.lua:1715-1750
+  get_foliage_reward_info: function(tag, space_no)  -- hexm/common/misc/interact_misc.lua:1752-1765
+  get_info_from_bit_id: function(bit_id)  -- hexm/common/misc/interact_misc.lua:1771-1773
+  get_serial_id_by_ins_comp_eid: function(comp_eid)  -- hexm/common/misc/interact_misc.lua:1811-1825
+  get_comp_type_by_index: function(index)  -- hexm/common/misc/interact_misc.lua:1845-1855
+  create_ins_entity_bit_id: function(serial_id, reborn_ts)  -- hexm/common/misc/interact_misc.lua:1767-1769
+  query_condition_entity_nos: function(comp, entity_nos)  -- hexm/common/misc/interact_misc.lua:1966-1968
+  horse_try_auto_pickup: function(entity_ids)  -- hexm/common/misc/interact_misc.lua:1990-2005
+  check_is_task_related_active_interact: function(comp_type, serial_id, entity_no, active_way_no)  -- hexm/common/misc/interact_misc.lua:890-903
+  send_salog: function(log_dict)  -- hexm/common/misc/interact_misc.lua:1902-1904
+  filter_reborn_ts: function(data)  -- hexm/common/misc/interact_misc.lua:1941-1949
+  get_interact_save_info: function(space, data)  -- hexm/common/misc/interact_misc.lua:493-518
+  get_entity_ins_d: function(space, comp_type, serial_id)  -- hexm/common/misc/interact_misc.lua:576-611
+  event_check_need_send_to_server: function(space_no, serial_id, ins_d)  -- hexm/common/misc/interact_misc.lua:1026-1032

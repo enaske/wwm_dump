@@ -53,4 +53,23 @@ Keys:
   Character: number
   VisualGraphModule: number
   Mesh: number
-  (1 more keys)
+  BlendShape: number
+  Level: number
+  LodMesh: number
+  Texture: number
+  PhysicsRBTemplate: number
+  Folder: number
+  Animation: number
+  Sound: number
+  ClothAnim: number
+  Skin: number
+  PointCloud: number
+  LodModel: number
+  LodGroup: number
+  Wave: number
+  SHVolume: number
+  GeometryCache: number
+  Flamenco: number
+  VisualGraphSystem: number
+  PVSSunShadow: number
+  VehicleSystem: number

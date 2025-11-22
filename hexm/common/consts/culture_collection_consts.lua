@@ -53,4 +53,9 @@ Keys:
   RHYTHM_GAME_PHASE_GAMING: number
   RHYTHM_GAME_BEFORE_START_MATCH_START: string
   RHYTHM_GAME_BEFORE_START_VOTE_FINISH: string
-  (1 more keys)
+  RHYTHM_GAME_BEFORE_START_VOTE_FAILED: string
+  RHYTHM_GAME_BEFORE_START_SPACE_ERR: string
+  check_team_member: function(avt, target_id)  -- hexm/common/consts/culture_collection_consts.lua:111-132
+  get_interest_skill_value: function(avatar)  -- hexm/common/consts/culture_collection_consts.lua:177-182
+  RHYTHM_GAME_BEFORE_START_CORP_MODE: string
+  get_szyy_no_by_npc_no: function(npc_no)  -- hexm/common/consts/culture_collection_consts.lua:142-149

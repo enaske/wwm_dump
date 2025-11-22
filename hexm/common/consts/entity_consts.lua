@@ -53,4 +53,13 @@ Keys:
   DESTROY_REASON_INS_ENTITY_FORCE: number
   EScriptEntityState: instance
   EEntityLimitGroup: instance
-  (1 more keys)
+  EEntityState: instance
+  EEntityLayer: instance
+  ENT_DESTROY_DELAY: number
+  LOD_GROUP_ID_AVATAR: number
+  ENTITY_SKILL_END: string
+  ENTITY_ANIM_END: string
+  ENT_DESTROY_FORCE_IMMEDIATE: number
+  ENT_CRT_DEFAULT_DELAY: number
+  ENT_DESTROY_DEFAULT: number
+  DESTROY_REASON_WANFA: number

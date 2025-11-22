@@ -53,4 +53,25 @@ Keys:
   get_share_default_tab: function(share_id)  -- hexm/client/consts/share_consts.lua:186-189
   FRIEND_EXTRA_TEAM: number
   SOCIAL_YIXIN: number
-  (1 more keys)
+  SHARE_DRESS_STATION: number
+  SOCIAL_PLATFORM_GODLIKE: number
+  FRIEND_EXTRA_XUANHU: number
+  set_share_default_tab: function(share_id, tab)  -- hexm/client/consts/share_consts.lua:181-184
+  SOCIAL_PLATFORM_LINE_GAME: number
+  SHARE_TYPE_INVITE: number
+  SHARE_PHOTO_HANDLER_NAME_LIST: list
+  SHARE_COOP_TAB: number
+  SOCIAL_PLATFORM_KUAISHOU: number
+  get_recommend_rule_func: function(rule)  -- hexm/client/consts/share_consts.lua:159-161
+  SHARE_INVITATION_FRIEND: number
+  SOCIAL_PLATFORM_FACEBOOK: number
+  SOCIAL_PLATFORM_TIKTOK: number
+  SHARE_FACE: number
+  SHARE_CHANNEL_ICON: dict
+  SOCIAL_PLATFORM_WHATSAPP: number
+  FRIEND_EXTRA_CLUB_INVITATION: number
+  SHARE_CD: number
+  SHARE_RECOMMEND_TAB: number
+  SOCIAL_FACEBOOK: number
+  FRIEND_EXTRA_WORLD_LV: number
+  SHARE_SIDE_FACE: number

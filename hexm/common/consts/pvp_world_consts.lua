@@ -53,4 +53,72 @@ Keys:
   HEAVEN_TYPE_CAP: number
   E_CRIME_WITNESS: number
   HEAVEN_TYPE_1: number
-  (1 more keys)
+  E_AI_WITNESS_TAOPAO_OVER: number
+  POLICE_FAIL_REGION: string
+  FACTION_WANFA_POLICE_NPC: number
+  OFFICIAL_NONE: number
+  POLILCE_FAIL_PRIORITY: string
+  MODE_SP_FACTION: number
+  NPC_STATE_CALLPOLICE: number
+  P_ALLY: number
+  NPC_FRIEND_FACTION: number
+  AI_WITNESS_TAOPAO_OVER: string
+  E_CHASE_BEGIN: number
+  POLICE_WANFA_FACTION_KEY: string
+  MODE_PEACE: number
+  REASON_ESCAPE: number
+  E_CHASE_OPEN: number
+  POLICE_STEP_CHASE: number
+  P_CLOSE: number
+  AI_WITNESS_JUMP_UTILITY: string
+  E_MODE_CHANGE: number
+  E_WITNESS_BRIBES: number
+  WITNESS_PREVENT_DEBATE: number
+  is_in_chase_step: function(step_no)  -- hexm/common/consts/pvp_world_consts.lua:96-99
+  E_POLICE_LEAVE_CIRCKE_FAILE: number
+  WITNESS_PREVENT_AI_PROCESS: number
+  E_AI_WITNESS_BILLBOARD_CHANGE: number
+  MODE_FREE: number
+  WITNESS_NPC_BEGIN_ESCAPE: number
+  AI_WITNESS_CALLPOLICE_SUCCESS: string
+  OFFICIAL_ESCAPE: number
+  crime_get_police_pos: function(avt)  -- hexm/common/consts/pvp_world_consts.lua:249-279
+  CRIME_TAG_STEAL: number
+  NPC_STATE_WITNESS: number
+  E_POLICE_CHASE_LEVEL_UP: number
+  POLICE_REGION_SPECIFIC: number
+  HEAVEN_TYPE_0: number
+  arrest_token_no: function()  -- hexm/common/consts/pvp_world_consts.lua:222-224
+  AI_WITNESS_ESCAPE: string
+  NPC_STATE_NONE: number
+  HEAVEN_TYPE_SJ: number
+  BRIBES_ENTER_AI: string
+  HEAVEN_TYPE_2: number
+  CRIME_TAG_ROB: number
+  EVENT_METHOD: dict
+  E_CHASE_CIRCLE_CLOSE: number
+  WITNESS_PREVENT_BRIBES: number
+  P_INTIMATE: number
+  E_PRO_CHANGE: number
+  CRIME_WITNESS: number
+  CRIME_TAG_KILL: number
+  CRIME_TAG_VANDALISM: number
+  FACTION_WANFA_POLICE_AVT: number
+  E_PRE_CRIMEING: number
+  E_CD_EXTEND: number
+  CRIME_REWARD: number
+  HEAVEN2CONF: dict
+  E_WITNESS_END: number
+  P_GUIDE: number
+  type_is_pre_crime: function(type)  -- hexm/common/consts/pvp_world_consts.lua:200-202
+  AI_U_WITNESS_ESCAPE: string
+  _pvp_world_judge_cd: function(avt, mode_num)  -- hexm/common/consts/pvp_world_consts.lua:239-247
+  E_CRIMING: number
+  K_ANL: number
+  POLICE_STEP_AFTER_CHASE_SUCCEED: number
+  WITNESS_NPC_STOP_ESCAPE: number
+  REASON_CRIME: number
+  POLICE_FAIL_SPACE: string
+  get_crime_grade: function(avt)  -- hexm/common/consts/pvp_world_consts.lua:204-220
+  MODE_FLAG: string
+  TAG_BAOGUAN_FILTER: number

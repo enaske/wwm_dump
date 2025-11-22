@@ -53,4 +53,38 @@ Keys:
   reload_all: boolean
   IGNORE_GAME_MERGE_TYPES: list
   SOCIAL_GAME_TAG_OTHER: number
-  (1 more keys)
+  SOCIAL_GAME_CONTROLLER_TYPE_LUNJIAN: number
+  TIME_NOTICE_MODE_MULTI: number
+  GAME_TYPE_SZYY: number
+  get_game_controller_clz: function(ctrl_type)  -- hexm/client/ui/windows/tianxia_baixiao/social_game/social_game_consts.lua:279-281
+  GAME_MATE_PRISON_PARADE: number
+  GAME_MATE_DEBATE: number
+  DYNAMIC_GAME_TIME_FUNC: dict
+  MULTIGUARD_REWARD_STATUS_FINISH: number
+  GAME_LOCK_CHECK_FUNC: dict
+  DYNAMIC_GAME_TIME_FETCH_INTERVAL: number
+  MULTIGUARD_REWARD_STATUS_LOCK: number
+  GAME_TIME_STATE_NOTICE: number
+  GAME_TIME_STATE_OPEN: number
+  GAME_TYPE_CHIJI: number
+  MULTIGUARD_REWARD_STATUS_NORMAL: number
+  TAG_DATA_GEN_FUNC: dict
+  GAME_TYPE_WEEK_FUBEN: number
+  TIME_NOTICE_MODE_SINGLE: number
+  SOCIAL_GAME_TAG_JUDIAN: number
+  SOCIAL_GAME_CONTROLLER_TYPE_NORMAL: number
+  GAME_MATE_PAINT_BOAT_BUILD: number
+  MULTI_GUARD_SHIJIAN_LAST_BOSS_REWARD_RED_POINT_NAME: string
+  check_in_multi_guard_dungeon: function()  -- hexm/client/ui/windows/tianxia_baixiao/social_game/social_game_consts.lua:428-436
+  GAME_MATE_CUSTOM_MODEL: dict
+  SOCIAL_GAME_COMBAT_TAGS: list
+  SOCIAL_GAME_CONTROLLER_TYPE_MOJIN: number
+  check_game_sort_level: function(game_id, game_sysd)  -- hexm/client/ui/windows/tianxia_baixiao/social_game/social_game_consts.lua:199-208
+  get_game_controller_type: function(game_tag, game_model)  -- hexm/client/ui/windows/tianxia_baixiao/social_game/social_game_consts.lua:258-271
+  check_fuben_sort_level: function(game_id, game_sysd)  -- hexm/client/ui/windows/tianxia_baixiao/social_game/social_game_consts.lua:164-176
+  check_fuben_lock_state: function(game_id)  -- hexm/client/ui/windows/tianxia_baixiao/social_game/social_game_consts.lua:113-124
+  _get_fuben_sort_level: function(fuben_id)  -- hexm/client/ui/windows/tianxia_baixiao/social_game/social_game_consts.lua:186-192
+  _check_fuben_lock_state: function(fuben_id)  -- hexm/client/ui/windows/tianxia_baixiao/social_game/social_game_consts.lua:126-130
+  GAME_TYPE_MAHJONG: number
+  SOCIAL_GAME_CONTROLLER_TYPE_WEEK_FUBEN: number
+  GAME_TYPE_DEBATE: number

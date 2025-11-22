@@ -3,8 +3,6 @@ Type: table
 ================================================================================
 
 Keys:
-  GetCinematicsSoundManager: function()  -- hexm/client/entities/local/component/cutscene/CinematicsSoundImp.lua:351-358
-  binary_search: function(replay_list, target_time)  -- hexm/client/entities/local/component/cutscene/CinematicsSoundImp.lua:12-26
   CinematicsSoundManager: class <CinematicsSoundManager>
     Functions:
       cutscene_register_sound(self, sound_data)  -- hotfix_20251115-064527:51-133
@@ -25,4 +23,5 @@ Keys:
       _get_duration(self, sound_sys_d, key)  -- hotfix_20251115-064527:35-47
       _on_sound_speed_changed(self, v)  -- hexm/client/entities/local/component/cutscene/CinematicsSoundImp.lua:342-344
   AUDIO_ID_CHINESE: number
-  CastManagerInstance: instance
+  GetCinematicsSoundManager: function()  -- hexm/client/entities/local/component/cutscene/CinematicsSoundImp.lua:351-358
+  binary_search: function(replay_list, target_time)  -- hexm/client/entities/local/component/cutscene/CinematicsSoundImp.lua:12-26

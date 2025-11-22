@@ -53,4 +53,11 @@ Keys:
   gm_show_npc_logic_lod: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
   gm_show_npc_logic_lod_hex_model: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
   _record_char_primitive: function()  -- hexm/client/debug/gm/gm_commands/gm_npc_statistics.lua:1387-1484
-  (1 more keys)
+  gm_log_sound_cue_culling: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_stop_all_npc_physics: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_show_npc_position_in_range: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_enable_entity_count_limit: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_show_npc_logic_lod_is_moving: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_record_char_primitive_data: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_monitor_nearby_npc_count: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_get_npc_count_in_range: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58

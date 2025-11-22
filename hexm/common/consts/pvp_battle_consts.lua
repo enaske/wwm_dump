@@ -53,4 +53,24 @@ Keys:
   LAB_SKILL: number
   LAB_BEGIN_SAVE_DEAER: number
   E_REMOVE_BARRIER: number
-  (1 more keys)
+  DISORDER_BATTLE_STORYLINE: string
+  E_PREPARE: number
+  LAB_INTERACT_CHECK: number
+  C_PREPARE_STATE_INIT: number
+  E_PVP_PREPARE_RACE_CARD_CLICK: number
+  LAB_END_SAVE_DEAER: number
+  PVP_PREPARE_EMPTY_PLAYER_ID_START: string
+  PREPARE_NOT_PREPARE: number
+  lab_no_sync_action: dict
+  STATE_BATTLE: string
+  AIAVT_BALANCE: number
+  PVP_BATTLE_JZ: number
+  LAB_RUN: number
+  LAB_LOCK_TARGET: number
+  STATE_PREPARE: string
+  E_PVP_PREPARE_END_TIME: number
+  E_GET_PREPARE: number
+  E_GIVE_UP: number
+  C_PREPARE_STATE_WAIT_OTHER: number
+  C_PREPARE_STATE_ELIMINATE: number
+  LAB_VOICE_FEEDBACK: number

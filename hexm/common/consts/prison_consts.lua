@@ -53,4 +53,42 @@ Keys:
   get_out_prison_disease: function(evil_value)  -- hexm/common/consts/prison_consts.lua:205-218
   prison_get_remain_youjie_time: function(avt)  -- hexm/common/consts/prison_consts.lua:524-538
   get_prison_material_proc_goal: function()  -- hexm/common/consts/prison_consts.lua:220-227
-  (1 more keys)
+  NPC_INTERACT_TRANSFER: number
+  RESCUE_STAGE_END: number
+  E_CONCERT_UPDATE_LIKE: number
+  PRISON_BACK_DEFAULT_MULTI_SPACE_NO: number
+  PERFORMANCE_TEMPLATE_DETAIL: string
+  BEG_MATERIAL: number
+  get_proc_material_content: function(total_num)  -- hexm/common/consts/prison_consts.lua:271-301
+  RESCUE_STAGE_CHANGE: number
+  PRISON_GP_STATE_IN_PROCESS: number
+  PERFORMANCE_TEMPLATE_TITLE: string
+  PRISON_GP_MATERIAL_PROC: number
+  RESCUE_STAGE_PVE: number
+  RESCUE_IDENTITY_PRISONER: number
+  RESCUE_IDENTITY_RESCUER: number
+  DONATE_MATERIAL: number
+  PRISON_GP_MATERIAL_EXCHANGE: number
+  PERFORMANCE_TEMPLATE_LIST: string
+  OP_REJECT: number
+  EXCHANGE_MATERIAL: number
+  CONCERT_STAGE_SHOW: number
+  CONCERT_STAGE_SETTLE: number
+  E_CONCERT_SHOW_END: number
+  REASON_EXPIRE: number
+  REASON_CANCEL: number
+  PRISON_GP_PAY_PANETLY: number
+  RESCUE_STAGE_PVP: number
+  get_prison_proc_build_by_material: function(material_id)  -- hexm/common/consts/prison_consts.lua:235-243
+  MATERIAL_PROC_RECOMMEND_PLAYER_NUM: number
+  get_imprison_left_time: function(avt)  -- hexm/common/consts/prison_consts.lua:159-167
+  get_prison_instrument_reduce_imprison_time: function(rank)  -- hexm/common/consts/prison_consts.lua:453-457
+  OP_ACCEPT: number
+  get_evil_value_reduce_num: function(avt, delta_time)  -- hexm/common/consts/prison_consts.lua:184-203
+  get_prison_group_chat_nickname: function(crime_no, seq_num)  -- hexm/common/consts/prison_consts.lua:469-506
+  prison_get_remain_youjie_time_by_data: function(youjie_start_ts, extra_times)  -- hexm/common/consts/prison_consts.lua:540-550
+  PRISON_BACK_DEFAULT_SINGLE_SPACE_NO: number
+  YOUJIE_FRIEND: number
+  YOUJIE_JIEYI: number
+  CONCERT_STAGE_PREPARE: number
+  get_punish_level: function(evil_value)  -- hexm/common/consts/prison_consts.lua:126-146

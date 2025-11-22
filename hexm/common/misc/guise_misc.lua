@@ -53,4 +53,50 @@ Keys:
   btconvert_ignore: function(view_no, sys_d)  -- hexm/common/misc/guise_misc.lua:1729-1753
   check_all_guise_received: function(avt)  -- hexm/common/misc/guise_misc.lua:1724-1726
   calc_single_collect_reward_progress: function(avt, owned_num)  -- hexm/common/misc/guise_misc.lua:654-667
-  (1 more keys)
+  check_suit_visible: function(suit_no, suit_d)  -- hexm/common/misc/guise_misc.lua:635-650
+  get_available_body_type: function(dressing)  -- hexm/common/misc/guise_misc.lua:452-465
+  get_real_edit_data_with_system_data: function(view_no, body_type, scale, position, rotation)  -- hexm/common/misc/guise_misc.lua:1593-1631
+  get_bag_view_count: function(avatar, view_no)  -- hexm/common/misc/guise_misc.lua:322-327
+  get_locked_base_hairs: function(avatar)  -- hexm/common/misc/guise_misc.lua:185-193
+  calc_btconvert_dye_cost_return: function(avt, is_first_time)  -- hexm/common/misc/guise_misc.lua:1849-1876
+  get_timelimit_dye_stuffs: function(avt)  -- hexm/common/misc/guise_misc.lua:1896-1910
+  calc_suit_collect_reward_progress: function(avt, owned_num)  -- hexm/common/misc/guise_misc.lua:697-710
+  get_owned_suits: function(avatar)  -- hexm/common/misc/guise_misc.lua:500-520
+  get_original_color_theme_name: function(view_no, part_id)  -- hexm/common/misc/guise_misc.lua:1356-1364
+  get_weapon_recoin_infos: function(view_no, view_id, avatar, recoin_view_ids, weapon_qualities, recoin_dyeing_list, recoin_color_theme)  -- hexm/common/misc/guise_misc.lua:1467-1472
+  get_suit_progress: function(avt, suit_no, args)  -- hexm/common/misc/guise_misc.lua:721-744
+  get_weapon_recoin_effect_info: function(view_no, view_id, body_type, weapon_qualities, recoin_dyeing_list, color_theme_name, recoin_view_ids, effect_suffix)  -- hexm/common/misc/guise_misc.lua:1227-1354
+  get_free_wps: function(guise_prop, view_no, sew_style)  -- hexm/common/misc/guise_misc.lua:98-116
+  get_view_and_point_by_suit_no: function(suit_no, body_type)  -- hexm/common/misc/guise_misc.lua:1061-1068
+  check_view_stuff_reach_limit: function(avt, stuff_no)  -- hexm/common/misc/guise_misc.lua:384-397
+  get_suit_is_unlock: function(avt, suit_no)  -- hexm/common/misc/guise_misc.lua:746-749
+  get_support_wps: function(view_no, sew_style)  -- hexm/common/misc/guise_misc.lua:119-125
+  OWN_TYPE_EASEBAR: number
+  get_suit_num: function(avt, suit_no)  -- hexm/common/misc/guise_misc.lua:366-381
+  get_weapon_view_category: function(weapon_no)  -- hexm/common/misc/guise_misc.lua:1481-1486
+  get_wear_info_by_suit_no: function(suit_no, body_type)  -- hexm/common/misc/guise_misc.lua:1070-1093
+  calc_dressing_fashion_score: function(avatar)  -- hexm/common/misc/guise_misc.lua:988-995
+  WEAPON2WP: dict
+  gen_weapon_recoin_ex: function(view_no, body_type, ex_or_plan, kwargs)  -- hexm/common/misc/guise_misc.lua:1119-1159
+  get_recent_collect_suits: function(avt)  -- hexm/common/misc/guise_misc.lua:825-977
+  check_view_owned: function(avatar, view_no, include_trial)  -- hexm/common/misc/guise_misc.lua:289-301
+  get_single_collected_total: function(avt)  -- hexm/common/misc/guise_misc.lua:618-633
+  check_view_is_whole_position_type: function(view_no)  -- hexm/common/misc/guise_misc.lua:195-203
+  check_show_time: function(time_tuple)  -- hexm/common/misc/guise_misc.lua:1659-1668
+  get_other_body_type_view_nos: function(avatar)  -- hexm/common/misc/guise_misc.lua:565-575
+  _get_owned_suit_cnt: function(view_no2cnt, body_type, suit_stuff_no)  -- hexm/common/misc/guise_misc.lua:420-441
+  check_cloth_color_advance: function(S, V)  -- hexm/common/misc/guise_misc.lua:1023-1040
+  check_guise_item_show: function(item_d, view_no)  -- hexm/common/misc/guise_misc.lua:1682-1707
+  get_suit_collected_total: function(avt)  -- hexm/common/misc/guise_misc.lua:678-694
+  get_slot_capacity: function(prop, slot_type)  -- hexm/common/misc/guise_misc.lua:42-44
+  LARGE_NUM: number
+  OWN_TYPE_SELF: number
+  get_avatar_weapon_view_equips: function(avatar)  -- hexm/common/misc/guise_misc.lua:1475-1478
+  get_my_owned_weapon_categorys: function()  -- hexm/common/misc/guise_misc.lua:1488-1523
+  OWN_TYPE_PAINTBOAT: number
+  _check_view_stuff_reach_limit: function(view_no2cnt, stuff_no)  -- hexm/common/misc/guise_misc.lua:399-409
+  get_id_by_No: function(avatar, view_no)  -- hexm/common/misc/guise_misc.lua:305-319
+  findout_btconvert_views: function(avt)  -- hexm/common/misc/guise_misc.lua:1788-1798
+  _check_view_body_type: function(body_type, view_no)  -- hexm/common/misc/guise_misc.lua:467-497
+  check_slot_full: function(prop, slot_type)  -- hexm/common/misc/guise_misc.lua:46-58
+  get_using_wps: function(view_no, wear_point, sew_style)  -- hexm/common/misc/guise_misc.lua:128-141

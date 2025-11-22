@@ -53,4 +53,21 @@ Keys:
   E_CLEAR_OUTTIME_APPLY: number
   E_SET_MEMBER_POS: number
   E_KICK: number
-  (1 more keys)
+  E_PAUSE_FOLLOW: number
+  _reload_all: boolean
+  E_MEMBER_INFO_UPDATE: number
+  E_MIGRATE: number
+  E_REAL_LOGOUT: number
+  ROLE_LEADER: number
+  E_INVITE_NOTIFY: number
+  E_DEAL_INVITE: number
+  E_AUTO_TEAM: number
+  OP_ACCEPT: string
+  ROLE_MEMBER: number
+  E_SET_AUTO_MATCH: number
+  E_REFUSE_APPLY_LEADER: number
+  E_INIT: number
+  E_TONGGAO_IN_TEAM: number
+  E_APPLY: number
+  E_STOP_FOLLOWED: number
+  E_DELETE_SOME_APPLYS: number

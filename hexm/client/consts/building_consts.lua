@@ -53,4 +53,131 @@ Keys:
   BUILD_CREATE_INDUSTRY: string
   UNI_RULE_BLOCKED: string
   EDIT_STATUS_HP_LOWER_THAN_50: number
-  (1 more keys)
+  SIZE_TYPE_ROOF: number
+  ARROW_BOTTOM: string
+  FREE_BUILDING_CAMERA_MODE_NORMAL: string
+  UNI_RULE_PLAYER_NOT_IN_REGION: string
+  BUILDING_CAT2_BLUEPRINT_SYS: number
+  BUILDING_TYPE_NORMAL: number
+  BUILD_FREE_BUILDING_BIRD: string
+  FREE_BUILDING_ADSORB_EFFECT: number
+  UNI_RULE_INDUSTRY_FUNCTION_NUM_MAX: string
+  RULE_TYPE_ESCORT_COLLISION: number
+  UNI_RULE_OK: string
+  UNI_RULE_TOO_HIGH: string
+  SIZE_TYPE_LADDER: number
+  BUILD_COLLISION_TYPE_INDOOR: number
+  BATCH_RULE_UNDER_TERRAIN: string
+  building_set_stuff_icon_count: function(stuff_icon, build_no)  -- hexm/client/consts/building_consts.lua:293-322
+  open_put_workbench_confirm_window: function(build_no)  -- hexm/client/consts/building_consts.lua:543-583
+  BATCH_ARROW_INDEXES: list
+  RULE_TYPE_TERRAIN: number
+  POS_RELATION_ABOVE: number
+  FREE_BUILDING_CAMERA_MODE_BIRD: string
+  TOOL_BAR_MODE_YANSHI_BATTLE: number
+  EDIT_STATUS_PREVIEW_VALID: number
+  UNI_RULE_OUT_OF_REGION: string
+  ROTATE_CHANGE_YAW: number
+  BATCH_RULE_NOT_ENOUGH_STUFFS: string
+  UNI_RULE_IN_BLUEPRINT_BOUNDING_BOX: string
+  UNI_RULE_HIT_PLAYER: string
+  UNI_RULE_UNEXPECTED: string
+  UNI_RULE_CANNOT_BE_VALID: string
+  UNI_RULE_IS_STATIC: string
+  UNI_RULE_OUT_OF_COLLECT_AREA_LIMITS: string
+  EDIT_STATUS_HP_LOWER_THAN_20: number
+  EDIT_STATUS_ADSORB_UNFILLED_BP_COMP: number
+  check_near_building_workbench_by_build_no: function(build_no)  -- hexm/client/consts/building_consts.lua:442-459
+  UNI_RULE_NOT_BUILDER: string
+  CAMERA_FLAG_NORMAL: string
+  UNI_RULE_NO_CHUNK_MANGER: string
+  EDIT_STATUS_NONE: number
+  EDIT_STATUS_PREVIEW_INVALID: number
+  UNI_RULE_OUT_OF_INDUSTRY_AREA_LIMITS: string
+  GAMEPLAY_RULE_CABLE_BRIDGE: string
+  CLUB_RULE_UNLOCK_LEVEL: string
+  BUILDING_CAT2_MACHINE: number
+  UNI_RULE_TIP_NO_OVERLAPPED_TOTALLY: number
+  RULE_TYPE_BUILDING_AROUND: number
+  CAMERA_MODE_NORMAL: string
+  UNI_RULE_OUT_OF_BLUEPRINT: string
+  UNI_RULE_TIP_NO_HIT_PLAYER: number
+  BUILD_COLLISION_TYPE: number
+  RULE_CHECK_TYPE_VALID: string
+  RULE_TYPE_HEIGHT: number
+  GAMEPLAY_RULE_IN_ESCORT: string
+  RULE_TYPE_REGION: number
+  SUB_TYPE_NORMAL: number
+  RULE_TYPE_WATER: number
+  HALF_PI: number
+  POS_RELATION_BELOW: number
+  FREE_BUILDING_MODE_NORMAL: string
+  revise_ladder_pitch_by_model_info: function(build_no, trans)  -- hexm/client/consts/building_consts.lua:585-612
+  RULE_TYPE_BUILDING_NOT_AROUND: number
+  DRAGGING_FROM_BUILD_BAG: string
+  SUB_TYPE_ROOM: number
+  LADDER_RULE_BLOCKED: string
+  UNI_RULE_IM_FORBID: string
+  COCOS_WINDOW_TYPE_NORMAL: number
+  GAMEPLAY_RULE_RENT_HOUSE: string
+  UNI_RULE_BP_DESIGN_INVALID: string
+  CAMERA_FLAG_BIRD_BP_PREVIEW: string
+  WORKBENCH_BUILD_NO: number
+  POS_RELATION_RIGHT: number
+  UNI_RULE_BP_IN_MAIN_WORLD: string
+  EDIT_STATUS_PREVIEW_CANNOT_PLACE: number
+  FREE_BUILDING_CAMERA_NORMAL: string
+  BUILDING_ACTIVE_SLOTS: list
+  COCOS_WINDOW_TYPE_FREE_BUILD_DELETE: number
+  BUILDING_NOT_INACTIVE_SLOTS: list
+  DRAGGING_FROM_LAUNCHER_STUFF: string
+  BUILDING_HAMMER_WEAPON_SLOT: number
+  SUB_TYPE_SIMPLE: number
+  FREE_BUILDING_BATCH_ARRANGE_SOUND: number
+  FREE_BUILDING_CAMERA_MODE_FREE: string
+  FREE_BUILDING_MODE_DELETE: string
+  building_get_stuff_count: function(build_no)  -- hexm/client/consts/building_consts.lua:281-291
+  BAR_ITEM_MODE_TERRAIN_TOOL: string
+  BUILDING_TYPE_ROOM: number
+  UNI_RULE_NO_PERMISSION: string
+  FREE_BUILDING_BIRD_CAMERA_BP_PREVIEW: string
+  FREE_BUILDING_MODE_PREVIEW: string
+  FREE_BUILDING_BIRD_CAMERA_NORMAL: string
+  is_blueprint_build_no: function(build_no)  -- hexm/client/consts/building_consts.lua:526-531
+  BUILD_COLLISION_TYPE_WITHOUT_CAMERA_COLLIDER: number
+  FAST_BUILD_INPUT_FUNC_ID: number
+  FREE_BUILDING_DELETE_SOUND: number
+  FREE_BUILDING_FREE_CAMERA_TAG: string
+  UNI_RULE_INDUSTRY_FUNCTION_NUM_MIN: string
+  POS_RELATION_BACK: number
+  try_open_building_craft_window: function(build_no)  -- hexm/client/consts/building_consts.lua:418-440
+  ROTATE_YAW_PIXEL: number
+  COCOS_WINDOW_TYPE_FREE_BUILD: number
+  ARROW_LEFT: string
+  EDIT_STATUS_BLUEPRINT_HITTED: number
+  BUILDING_TYPE_BLUEPRINT_COMP: number
+  FREE_BUILD_DELETE_EFFECT: number
+  CAMERA_FLAG_BIRD_BP_SELECT_AREA: string
+  UNI_RULE_ONLY_FILL_BP_COMP: string
+  UNI_RULE_MODEL_IN_LOADING: string
+  UNI_RULE_BP_DESIGN_COUNT_LIMIT: string
+  open_building_recipe_window: function(build_no)  -- hexm/client/consts/building_consts.lua:533-541
+  try_open_building_access: function(build_no)  -- hexm/client/consts/building_consts.lua:390-416
+  FREE_BUILDING_BIRD_CAMERA_BP_SELECT_AREA: string
+  POS_RELATION_NONE: number
+  EDIT_STATUS_BLUEPRINT_FILLED: number
+  EDIT_STATUS_IN_PREVIEW: dict
+  BUILDING_CAT2_BLUEPRINT: number
+  BUILDING_TYPE_BLUEPRINT: number
+  UNI_RULE_TIPS: dict
+  BLUEPRINT_DESIGN_SPACE_EDIT: number
+  CONT_GROUP_LADDER: string
+  BUILDING_FREE_CAMERA_TAG: string
+  EDIT_STATUS_IN_BLUEPRINT_AREA: number
+  FREE_BUILDING_SET_EFFECT: number
+  STATUS_BAR_PRIORITY_NORMAL: number
+  COCOS_WINDOW_TYPE_TERRAIN: number
+  STATUS_BAR_PRIORITY_EDITING: number
+  BAR_ITEM_MODE_STUFF: string
+  LB_RULE_CANNOT_PUT: string
+  ARROW_TOP: string

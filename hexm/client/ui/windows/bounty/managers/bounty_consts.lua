@@ -53,4 +53,21 @@ Keys:
   GUARANTEE_BOUNTY_SEND_TO_PUBLISHER: number
   PUBLISHER_BOUNTY_SEND_TO_FRIENDS: number
   PUBLISH_TEMPLATE_STUFF: number
-  (1 more keys)
+  PUBLISH_TEMPLATE_TITLE: number
+  LV2_EXPLORE: number
+  LV2_MULTI_GUARD: number
+  PUBLISH_TEMPLATE_TARGET: number
+  LV1_TAG_TEXT: list
+  get_drop_down_template: function(title, callback, options, curr_selection)  -- hexm/client/ui/windows/bounty/managers/bounty_consts.lua:129-131
+  IS_RECORDED: number
+  IS_EXPIRED: number
+  LV2_TOWER: number
+  get_self_template: function(bounty, callback)  -- hexm/client/ui/windows/bounty/managers/bounty_consts.lua:144-173
+  FINISH_BOUNTY_SEND_TO_PUBLISHER: number
+  GIVEUP_BOUNTY_SEND_TO_PUBLISHER: number
+  get_npc_no_by_npc_id: function(npc_id)  -- hexm/client/ui/windows/bounty/managers/bounty_consts.lua:200-205
+  LV2_TOGETHER: number
+  LV1_TOWER: number
+  SELF_TEMPLATE_KONG: number
+  LV2_THERAPY: number
+  get_self_level: function(bounty)  -- hexm/client/ui/windows/bounty/managers/bounty_consts.lua:189-198

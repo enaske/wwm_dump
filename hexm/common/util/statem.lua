@@ -35,11 +35,11 @@ Keys:
       curr_state_name(self)  -- hexm/common/util/statem.lua:133-136
   StateTreeNode: class <StateTreeNode>
     Functions:
-      clear_sub_statem(self)  -- hexm/common/util/statem.lua:264-273
-      curr_sub_state_name(self)  -- hexm/common/util/statem.lua:286-290
-      init_sub_statem(self, states_config)  -- hexm/common/util/statem.lua:257-262
       pre_leave(self, enter_state_name)  -- hexm/common/util/statem.lua:298-300
+      clear_sub_statem(self)  -- hexm/common/util/statem.lua:264-273
+      leave(self)  -- hexm/common/util/statem.lua:302-305
+      curr_sub_state(self)  -- hexm/common/util/statem.lua:292-296
       ctor(self)  -- hexm/common/util/statem.lua:252-255
       change_to_sub_state(self, sub_state_name, state_data)  -- hexm/common/util/statem.lua:275-284
-      curr_sub_state(self)  -- hexm/common/util/statem.lua:292-296
-      leave(self)  -- hexm/common/util/statem.lua:302-305
+      init_sub_statem(self, states_config)  -- hexm/common/util/statem.lua:257-262
+      curr_sub_state_name(self)  -- hexm/common/util/statem.lua:286-290

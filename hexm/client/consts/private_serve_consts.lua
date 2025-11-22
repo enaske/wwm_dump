@@ -53,4 +53,4 @@ Keys:
   E_REMOVE_EMPLOYEE: string
   MENKE_HISTORY_NEED_NAME: dict
   get_wenshi_private_serve_need_xw: function(wuxian_no)  -- hexm/common/consts/private_serve_consts.lua:83-96
-  (1 more keys)
+  SERVE_TYPE_YANSHI: number

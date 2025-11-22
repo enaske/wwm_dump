@@ -53,4 +53,20 @@ Keys:
   E_WUDAO_ONE_BATTLE_END: string
   PVP_BUFENG: number
   APPLY_WUDAO: number
-  (1 more keys)
+  LANGZHONG_ATTEND: number
+  get_pvp_camp: function(avatar)  -- hexm/common/consts/identity_pvp_consts.lua:172-193
+  get_identity_pvp_doctor_medicine_stall_sys_d: function(avatar)  -- hexm/common/consts/identity_pvp_consts.lua:223-230
+  MATCH: number
+  PVP_LANGZHONG_MATERIALS_NEED_NUMS: number
+  PVP_JIESUAN_ONE_BATTLE_END: number
+  PVP_JIESUAN_HALFWAY: number
+  WUDAO_PID_KEY: string
+  RES_ATTR_EVIL: string
+  HOSTNPC_START_DIALOG: number
+  PVP_YUESHI: number
+  is_identity_baiye: function(avatar)  -- hexm/common/consts/identity_pvp_consts.lua:130-132
+  PVP_NOTIFY_EVENT_WUDAO_BE_HIT_1: number
+  LANGZHONG: number
+  PVP_NOTIFY_EVENT_LANGZHONG_MEDICINE_ON_BOUGHT: number
+  is_in_battle_pvp: function(avatar)  -- hexm/common/consts/identity_pvp_consts.lua:197-219
+  PVP_ANYING: number

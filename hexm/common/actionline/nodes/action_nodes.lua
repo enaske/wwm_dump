@@ -64,12 +64,12 @@ Keys:
   MotionCtrl: class <MotionCtrl>
     Functions:
       get_default_target(self, context, entity)  -- hexm/common/actionline/nodes/action_nodes.lua:1307-1316
-      start(self, graph)  -- hexm/common/actionline/nodes/action_nodes.lua:1207-1246
       set_motion_variables(self, entity, variables, debug)  -- hexm/common/actionline/nodes/action_nodes.lua:1269-1305
       reboot(self, graph, kwargs)  -- hexm/common/actionline/nodes/action_nodes.lua:1248-1267
       get_pos_yaw(self, context)  -- hexm/common/actionline/nodes/action_nodes.lua:1318-1405
       ctor(self)  -- hexm/common/actionline/nodes/action_nodes.lua:1188-1205
       get_entity_bone_pos(self, context, entity)  -- hexm/common/actionline/nodes/action_nodes.lua:1408-1427
+      start(self, graph)  -- hexm/common/actionline/nodes/action_nodes.lua:1207-1246
       check_need_calc(self, entity, context)  -- hexm/common/actionline/nodes/action_nodes.lua:1429-1450
   GetJoystickInputDir: class <GetJoystickInputDir>
     Functions:

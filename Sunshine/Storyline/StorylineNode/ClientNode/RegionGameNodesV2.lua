@@ -31,11 +31,11 @@ Keys:
   to_list: function(value)  -- hexm/client/entities/local/player_avatar_members/gameplays/region_game/region_game_config.lua:85-100
   ActivateInteractionByWeatherTimeNode: class <ActivateInteractionByWeatherTimeNode>
     Functions:
-      check_weather_time(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodesV2.lua:333-350
-      clear_timer(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodesV2.lua:352-357
-      check_tick(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodesV2.lua:320-331
       Release(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodesV2.lua:359-361
+      check_weather_time(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodesV2.lua:333-350
       Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodesV2.lua:311-318
+      check_tick(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodesV2.lua:320-331
+      clear_timer(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodesV2.lua:352-357
   StartChallengeNode: class <StartChallengeNode>
     Functions:
       clear_all(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodesV2.lua:487-504

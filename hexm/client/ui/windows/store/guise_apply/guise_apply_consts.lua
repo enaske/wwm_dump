@@ -53,4 +53,9 @@ Keys:
   GROUP_FASHION: string
   STATE_CAN_BUY: number
   CART_CAN_APPLY: number
-  (1 more keys)
+  construct_guise_data_fashion: function(fashion, select_info)  -- hexm/client/ui/windows/store/guise_apply/guise_apply_consts.lua:200-229
+  get_guise_dressing_price_data: function(guise_data_dressing, target_dressing_data)  -- hexm/client/ui/windows/store/guise_apply/guise_apply_consts.lua:463-536
+  get_dress_available_dye_preset_no: function(avatar, view_no)  -- hexm/client/ui/windows/store/guise_apply/guise_apply_consts.lua:595-611
+  GROUP_TO_TITLE: dict
+  get_fashion_owned_state: function(avatar, fashion_no)  -- hexm/client/ui/windows/store/guise_apply/guise_apply_consts.lua:759-774
+  construct_guise_apply_cart_items: function(guise_data, waiguan_data)  -- hexm/client/ui/windows/store/guise_apply/guise_apply_consts.lua:356-379

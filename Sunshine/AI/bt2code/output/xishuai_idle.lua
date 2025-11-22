@@ -53,4 +53,6 @@ Keys:
   n00_NPassNode: function()  -- Sunshine/AI/bt2code/output/xishuai_idle.lua:21-30
   n0110011000_CheckTargetDis: function()  -- Sunshine/AI/bt2code/output/xishuai_idle.lua:433-446
   n011002_SetBlackboard: function()  -- Sunshine/AI/bt2code/output/xishuai_idle.lua:555-564
-  (1 more keys)
+  entry: string
+  n0001_SetVariableAction: function()  -- Sunshine/AI/bt2code/output/xishuai_idle.lua:53-62
+  n01100110010_ChangeSpeed: function()  -- Sunshine/AI/bt2code/output/xishuai_idle.lua:458-465

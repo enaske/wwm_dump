@@ -53,4 +53,11 @@ Keys:
   HOME_LEFT_SHOW_MODE_GUILD_BONUS: string
   TOTAL_REDPOINT: string
   HOME_LEFT_SHOW_MODE_THEATER: string
-  (1 more keys)
+  HOME_LEFT_SHOW_MODE_NEIGONG: string
+  HOME_LEFT_SHOW_MODE_NIL: string
+  UNLOCK_ENDING: number
+  SHOW_END_DRAW_LINE_DELAY: number
+  IMG_TYPE_LIST: list
+  get_region_collect_progress: function(avt, group_no)  -- hexm/client/consts/task_progress_consts.lua:145-182
+  COMMENT_END_PREFIX: string
+  HOME_LEFT_SHOW_MODE_ORDER: string

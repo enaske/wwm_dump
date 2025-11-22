@@ -53,4 +53,15 @@ Keys:
   TAG_CHAT_ROOM_LISTEN: string
   team_tag_list: function(target)  -- hexm/common/consts/player_recommend_consts.lua:185-191
   TAG_FRIEND: string
-  (1 more keys)
+  recent_srv2pri: function(tag)  -- hexm/common/consts/player_recommend_consts.lua:98-101
+  tongyou_weekly_key_to_tag: function(week_key, week_time)  -- hexm/common/consts/player_recommend_consts.lua:163-165
+  _reload_all: boolean
+  TAG_TONGYOU: string
+  tag_friend_update: function(avatar, key, value)  -- hexm/common/consts/player_recommend_consts.lua:139-149
+  LZ_LIKE_WEEKLY_KEY: string
+  data_to_level_true: function(tag, value)  -- hexm/common/consts/player_recommend_consts.lua:266-269
+  data_to_level_value: function(tag, value)  -- hexm/common/consts/player_recommend_consts.lua:276-279
+  RECENTLY_TAG_ZHIGE: string
+  TAG_PERSISTENT: dict
+  _val_index_to_level: function(tag, value, index_list)  -- hexm/common/consts/player_recommend_consts.lua:228-247
+  TAG_CLUB_PLAYER: string

@@ -53,4 +53,4 @@ Keys:
   space_room_get_player_list: function()  -- hexm/client/consts/invitation_mode_consts.lua:213-218
   COLOR_GRAY: string
   space_room_get_player_info: function(pid)  -- hexm/client/consts/invitation_mode_consts.lua:198-204
-  (1 more keys)
+  FORBID_MODE_ERRCODE: dict

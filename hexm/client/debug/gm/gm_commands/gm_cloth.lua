@@ -53,4 +53,8 @@ Keys:
   old_cloth_meshes: list
   cpl_hor: number
   adz: number
-  (1 more keys)
+  constraint_debug_draw: boolean
+  liy: number
+  show_colliders: boolean
+  stif_ben: number
+  show_control_bone: boolean

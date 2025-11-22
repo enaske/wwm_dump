@@ -53,4 +53,16 @@ Keys:
   n000111410110_PlayAnimAction: function()  -- Sunshine/AI/bt2code/output/fish_game_npc.lua:666-701
   n0_CBTAlwaysSequenceNode: function()  -- Sunshine/AI/bt2code/output/fish_game_npc.lua:11-19
   n00011141_TimeOut: function()  -- Sunshine/AI/bt2code/output/fish_game_npc.lua:474-486
-  (1 more keys)
+  n000111410101_Parallel: function()  -- Sunshine/AI/bt2code/output/fish_game_npc.lua:563-571
+  n000111410111_Parallel: function()  -- Sunshine/AI/bt2code/output/fish_game_npc.lua:703-711
+  n000_CBTAlwaysSequenceNode: function()  -- Sunshine/AI/bt2code/output/fish_game_npc.lua:39-47
+  n0001114101011_WaitRandom: function()  -- Sunshine/AI/bt2code/output/fish_game_npc.lua:610-616
+  n0001114101110_PlayAnimAction: function()  -- Sunshine/AI/bt2code/output/fish_game_npc.lua:713-748
+  n0001114010_PlayAnimAction: function()  -- Sunshine/AI/bt2code/output/fish_game_npc.lua:437-472
+  n000111410102_PlayAnimAction: function()  -- Sunshine/AI/bt2code/output/fish_game_npc.lua:618-653
+  n000111410100_PlayAnimAction: function()  -- Sunshine/AI/bt2code/output/fish_game_npc.lua:526-561
+  n00012120_Probability: function()  -- Sunshine/AI/bt2code/output/fish_game_npc.lua:936-944
+  n00010100_CBTAlwaysSequenceNode: function()  -- Sunshine/AI/bt2code/output/fish_game_npc.lua:190-197
+  n00012110_Pause: function()  -- Sunshine/AI/bt2code/output/fish_game_npc.lua:921-925
+  n000111410_CBTWhileNode: function()  -- Sunshine/AI/bt2code/output/fish_game_npc.lua:488-496
+  n0001115_PlayAnimAction: function()  -- Sunshine/AI/bt2code/output/fish_game_npc.lua:795-830

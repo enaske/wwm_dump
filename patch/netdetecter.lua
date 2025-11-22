@@ -53,4 +53,48 @@ Keys:
   FILE_NUM: string
   SERVER_IP: string
   FILE_MD5_RESULT: string
-  (1 more keys)
+  SCENE_SIGIN_SUCCESS: number
+  SCENE_APP_VISIT_FAILED: number
+  USER_NAME: string
+  UPLOAD_DOMAIN: string
+  SCENE_VOICE_ABNORMAL: number
+  SCENE_URL_CONNECTIVITY_UNREACHABLE: number
+  SCENE_SIGIN_FAILED: number
+  NETWORK_TYPE: string
+  CPU_CLOCKSPEED: string
+  DETECT_OPEN: boolean
+  SCENE_PATCH_FAILED_EXTEND_START: number
+  SCENE_PATCH_FAILED_EXTEND_END: number
+  Product: string
+  SCENE_LOCATION: string
+  SCENE_PATCH_SUCCESS_EXTEND_END: number
+  SCENE_DOWNLOAD_SERVER_LIST_SUCCESS: number
+  MEM_TOTAL: string
+  FACES: string
+  PATCH_VERSION: string
+  PATCHLIST_URL: string
+  TIME_COST: string
+  ACCOUNT: string
+  VOICE_DOWNLOAD: string
+  SCENE_DOWNLOAD_PATCH_SUCCESS: number
+  NEED_DOWNLOAD_SIZE: string
+  LogOpen: boolean
+  DOWNLOAD_NEWPATCH: string
+  DOWNLOAD_ID: string
+  SCENE_INITIAL_FAILED: number
+  detect_set_prop: function(prop_dict)  -- patch/netdetecter.lua:175-191
+  SCENE_DOWNLOAD_SERVER_LIST_CANCELED: number
+  DNSUP_DOMAIN: string
+  SCENE_COLLECTION_NORMAL: number
+  PRE_PATCH_SIZE: string
+  ERROR_LOG: string
+  SCENE_GAME_SLOWNESS: number
+  VOICE_TRANSLATE: string
+  SCENE_DOWNLOAD_PATCH_CANCELED: number
+  UNZIP: string
+  TRANSID: string
+  OS_VERSION: string
+  CPU_MODEL: string
+  OS: string
+  VOICE_UPLOAD: string
+  PLAY_STAGE: string

@@ -53,4 +53,21 @@ Keys:
   WEATHER_PRIORITY_DUNGEON: number
   WEATHER_PRIORITY_MAP: dict
   PRIORITY_GAMEPLAY: number
-  (1 more keys)
+  get_region_weather_random_info: function()  -- hexm/client/consts/weather_consts.lua:176-178
+  WEATHER_PRIORITY_RENDER_OPTION: number
+  WEATHER_UNLOCK_NO: number
+  check_keep_weather: function(old, new)  -- hexm/client/consts/weather_consts.lua:118-132
+  WEATHER_PRIORITY_REGION_KEEP: number
+  WEATHER_BIGWORLD_SPACE_NO: number
+  calc_world_region_center_position: function(spaceno, region_no)  -- hexm/client/consts/weather_consts.lua:184-197
+  get_weather_local_effect_list: function(weather_id)  -- hexm/client/consts/weather_consts.lua:164-166
+  WEATHER_EFFECT_TYPE_NORMAL: number
+  get_region_weather_map_show_config: function(weather_num)  -- hexm/client/consts/weather_consts.lua:180-182
+  WEATHER_TAG_LOCK: string
+  show_render_monitor_content: function()  -- hexm/client/consts/weather_consts.lua:398-438
+  check_change_weather_immediately: function(old, new)  -- hexm/client/consts/weather_consts.lua:74-114
+  get_region_weather_intersection: function(region_no1, region_no2, spaceno)  -- hexm/client/consts/weather_consts.lua:226-232
+  WEATHER_PRIORITY_SPACE: number
+  WEATHER_PRIORITY_WATER: number
+  WEATHER_PRIORITY_STORYLINE: number
+  MAIN_WEATHER_SNOW: number

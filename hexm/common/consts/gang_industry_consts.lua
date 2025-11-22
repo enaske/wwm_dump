@@ -53,4 +53,13 @@ Keys:
   DINNER_WANFA_SERVING: number
   DINNER_WANFA_PINJIU: number
   DINNER_DISHES_PREFECT: number
-  (1 more keys)
+  GANG_BUILD_QTE_PERFECT: number
+  DINNER_SPACE_NO: number
+  dinner_wanfa_cooldown: function(wanfa_no)  -- hexm/common/consts/gang_industry_consts.lua:123-130
+  DINNER_TAVERN_QUERY_START: number
+  UPGRADE_LACK_SEARCH_POINT: number
+  STATE_PREPARE_OPEN: number
+  STATE_OPENING: number
+  DISH_COOKING: number
+  STATE_UNOPEN: number
+  DINNER_WANFA_COOKING: number

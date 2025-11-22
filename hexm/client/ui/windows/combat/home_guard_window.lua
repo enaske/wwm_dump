@@ -6,11 +6,11 @@ Keys:
   ITEM_STATE_CHANGE: dict
   HomeGuardWindow: class <HomeGuardWindow>
     Functions:
-      remove_targets_by_type(self, alert_type)  -- hexm/client/ui/windows/combat/home_guard_window.lua:61-63
-      remove_target_by_eid(self, eid)  -- hexm/client/ui/windows/combat/home_guard_window.lua:57-59
-      target_alert_full(self, eid)  -- hexm/client/ui/windows/combat/home_guard_window.lua:65-67
-      ctor(self)  -- hexm/client/ui/windows/combat/home_guard_window.lua:47-51
       player_enter_combat(self, eid)  -- hexm/client/ui/windows/combat/home_guard_window.lua:69-71
+      remove_targets_by_type(self, alert_type)  -- hexm/client/ui/windows/combat/home_guard_window.lua:61-63
+      target_alert_full(self, eid)  -- hexm/client/ui/windows/combat/home_guard_window.lua:65-67
+      remove_target_by_eid(self, eid)  -- hexm/client/ui/windows/combat/home_guard_window.lua:57-59
+      ctor(self)  -- hexm/client/ui/windows/combat/home_guard_window.lua:47-51
       add_target(self, eid, kwargs)  -- hexm/client/ui/windows/combat/home_guard_window.lua:53-55
   ITEM_STATE_WHITE: number
   HomeGuardItemBase: class <HomeGuardItemBase>

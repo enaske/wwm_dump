@@ -53,4 +53,15 @@ Keys:
   get_score_by_pid: function(pid)  -- hexm/client/ui/windows/granny_race/granny_race_consts.lua:438-457
   get_player_nums: function()  -- hexm/client/ui/windows/granny_race/granny_race_consts.lua:242-244
   get_nick_name_by_pid: function(pid)  -- hexm/client/ui/windows/granny_race/granny_race_consts.lua:198-205
-  (1 more keys)
+  _reload_all: boolean
+  get_player_info: function()  -- hexm/client/ui/windows/granny_race/granny_race_consts.lua:181-187
+  get_stop_game_time_ts: function()  -- hexm/client/ui/windows/granny_race/granny_race_consts.lua:306-311
+  check_end_game_by_pid: function(pid)  -- hexm/client/ui/windows/granny_race/granny_race_consts.lua:407-412
+  get_success_round: function()  -- hexm/client/ui/windows/granny_race/granny_race_consts.lua:400-404
+  POINT_MAX: number
+  get_z_skill_time: function()  -- hexm/client/ui/windows/granny_race/granny_race_consts.lua:323-326
+  check_is_reverse_show_area: function()  -- hexm/client/ui/windows/granny_race/granny_race_consts.lua:385-398
+  SECOND_HALF_TICK: number
+  check_is_cheat: function(pid)  -- hexm/client/ui/windows/granny_race/granny_race_consts.lua:421-425
+  check_is_reverse_moving: function()  -- hexm/client/ui/windows/granny_race/granny_race_consts.lua:372-383
+  get_self_index: function(pid)  -- hexm/client/ui/windows/granny_race/granny_race_consts.lua:253-266

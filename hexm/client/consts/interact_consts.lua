@@ -53,4 +53,4 @@ Keys:
   show_interact_monitor_content: function()  -- hexm/client/consts/interact_consts.lua:152-180
   TALK_OPTION_TYPE_NPC_BEHAVIOR: string
   START_CALLBACK: number
-  (1 more keys)
+  DEBUG_STEP_LOG: list

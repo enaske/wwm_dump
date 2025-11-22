@@ -53,4 +53,60 @@ Keys:
   get_wanfa_dict_by_happy_type: function(wf_type)  -- hexm/client/consts/room_consts.lua:580-587
   check_players_condition: function(pid, hostnum, condition_ids, callback)  -- hexm/client/consts/room_consts.lua:1412-1423
   check_in_cur_wf_region: function(player_pos)  -- hexm/client/consts/room_consts.lua:1046-1059
-  (1 more keys)
+  XIAJI: number
+  set_wf_map_tracing_nor: function(data)  -- hexm/client/consts/room_consts.lua:1238-1284
+  DEAD_TAG_2: number
+  MAPTRACING_GUEST_TO_NAME: dict
+  get_pos_from_region_list: function(region)  -- hexm/client/consts/room_consts.lua:1009-1022
+  SOURCE_REASON_WF: string
+  check_wf_valid: function(wf_type)  -- hexm/client/consts/room_consts.lua:1381-1410
+  FENG_SHUI: number
+  get_recommend_wanfa_listinfo: function()  -- hexm/client/consts/room_consts.lua:723-746
+  TIANGONG: number
+  get_wf_can_map_tracing: function(wf_type, wf_sid)  -- hexm/client/consts/room_consts.lua:1286-1294
+  SUMO: number
+  check_tianyake_marker: function(marker_id)  -- hexm/client/consts/room_consts.lua:1340-1367
+  SIZHUYAYUN: number
+  get_random_happy_game_pos: function(wf_type)  -- hexm/client/consts/room_consts.lua:950-966
+  LINE_1: number
+  HAPPY_GAME_TYPE: number
+  check_done_and_not_repeat: function(wf_type, wf_sid)  -- hexm/client/consts/room_consts.lua:932-939
+  get_cur_wanfa_name: function()  -- hexm/client/consts/room_consts.lua:824-831
+  BATTLE_WANFA_TYPE: list
+  find_near_combine_wanfa_by_region: function(pos)  -- hexm/client/consts/room_consts.lua:233-272
+  JUDIAN: number
+  wanfa_sort_compare: function(wanfa_dict1, wanfa_dict2)  -- hexm/client/consts/room_consts.lua:447-457
+  check_is_rec: function(wf_type, wf_sid)  -- hexm/client/consts/room_consts.lua:862-872
+  get_rel_go_id: function(wf_type, wf_sid)  -- hexm/client/consts/room_consts.lua:833-860
+  TOUCH_CAT: number
+  COOP_SHARE_ID: number
+  get_wf_can_map_tracing_real: function(wf_type, wf_sid)  -- hexm/client/consts/room_consts.lua:1296-1338
+  check_is_tracing: function(wf_type, wf_sid)  -- hexm/client/consts/room_consts.lua:874-881
+  WANFA_TYPE_TO_REGION_COLLECT: dict
+  set_happy_game_trace_by_wanfa_no: function(wanfa_no)  -- hexm/client/consts/room_consts.lua:1188-1195
+  HAPPY_GAME: number
+  HUASHU: number
+  DEAD_TAG_3: number
+  pos_is_unlock: function(pos)  -- hexm/client/consts/room_consts.lua:347-356
+  DEAD_TAG_1: number
+  CURIO_EQUIP: number
+  get_share_sys_d: function(sid)  -- hexm/client/consts/room_consts.lua:1431-1444
+  get_wanfa_pos: function(wf_type, wf_sid)  -- hexm/client/consts/room_consts.lua:1061-1072
+  TREASURE_GUARD: number
+  get_leaf_elements: function(input_list, output_list)  -- hexm/client/consts/room_consts.lua:217-231
+  get_recommend_wanfa: function(avatar)  -- hexm/client/consts/room_consts.lua:372-444
+  SOURCE_REASON_CARD: string
+  find_near_combine_wanfa: function(avatar, pos)  -- hexm/client/consts/room_consts.lua:182-215
+  REASON_TOPIC: string
+  fill_all_wanfa_list_info_by_type: function(info)  -- hexm/client/consts/room_consts.lua:504-526
+  JUDIAN_SHOU: number
+  MAPTRACING_TO_NAME: dict
+  set_wf_map_tracing_happy: function(data)  -- hexm/client/consts/room_consts.lua:1208-1236
+  MAP_TRS_OK: number
+  check_has_tracing: function()  -- hexm/client/consts/room_consts.lua:941-948
+  check_wf_in_cd: function(wf_type, wf_sid)  -- hexm/client/consts/room_consts.lua:1177-1186
+  get_cur_wanfa: function()  -- hexm/client/consts/room_consts.lua:748-775
+  BATTLE_GAME: number
+  wanfa_ever_done: function(avatar, wf_type, wf_sid)  -- hexm/client/consts/room_consts.lua:294-335
+  find_near_combine_wanfa_one: function(data)  -- hexm/client/consts/room_consts.lua:590-676
+  get_dead_reason: function()  -- hexm/client/consts/room_consts.lua:691-721

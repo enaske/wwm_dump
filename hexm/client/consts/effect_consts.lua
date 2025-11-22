@@ -53,4 +53,20 @@ Keys:
   ParamTypeUint8: string
   ParamTypeTransform: string
   E_TAG_WEAPON: number
-  (1 more keys)
+  create_particle_object_by_path: function(effect_path, ientity)  -- hexm/client/consts/effect_consts.lua:118-128
+  BIT_BOSS: number
+  PRIORITY_DEFAULT: number
+  ParamTypeVector4: string
+  BIT_NPC: number
+  get_finest_lod_index: function(entity)  -- hexm/client/consts/effect_consts.lua:326-332
+  COUNT_ALARM_UPLOAD_URL: string
+  get_priority_by_tag: function(tag)  -- hexm/client/consts/effect_consts.lua:321-324
+  refresh_bit_interested: function()  -- hexm/client/consts/effect_consts.lua:300-310
+  BIT_INTERACT: number
+  BIT_MAIN_PLAYER: number
+  EParticleEvent_Bylife: number
+  EParticleEvent_ByTime: number
+  E_TAG_OTHER: number
+  ParamTypeVector3: string
+  create_particle_object: function(effect_no, ientity)  -- hexm/client/consts/effect_consts.lua:110-116
+  COUNT_ALARM_UPLOAD_DISTANCE: number

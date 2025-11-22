@@ -250,4 +250,11 @@ Keys:
     Functions:
       ctor(self)  -- hexm/common/actionline/nodes/logic_nodes.lua:4657-4660
       start(self, graph)  -- hexm/common/actionline/nodes/logic_nodes.lua:4662-4668
-  (1 more keys)
+  DestroySummonByTag: class <DestroySummonByTag>
+    Functions:
+      ctor(self)  -- hexm/common/actionline/nodes/logic_nodes.lua:3022-3025
+      start(self, graph)  -- hexm/common/actionline/nodes/logic_nodes.lua:3027-3036
+  GetSavedBBValue: class <GetSavedBBValue>
+    Functions:
+      ctor(self)  -- hexm/common/actionline/nodes/logic_nodes.lua:4766-4769
+      start(self, graph)  -- hexm/common/actionline/nodes/logic_nodes.lua:4771-4779

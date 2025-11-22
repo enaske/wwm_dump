@@ -53,4 +53,11 @@ Keys:
   refresh_costume_tag_view: function(view, table_data, table_type)  -- hexm/client/ui/utils/ui_util.lua:769-783
   calculate_text_width_offset: function(text, lang_code, custom_width_map, base_offset, max_offset)  -- hexm/client/ui/utils/ui_util.lua:970-983
   get_split_inter: function(num)  -- hexm/client/ui/utils/ui_util.lua:31-43
-  (1 more keys)
+  save_is_first_time_one_day: function(key)  -- hexm/client/ui/utils/ui_util.lua:59-63
+  show_oversea_costume_tag_by_stuff_no: function(view, stuff_no)  -- hexm/client/ui/utils/ui_util.lua:689-702
+  show_oversea_costume_tag_by_qishu_config: function(view, style_id)  -- hexm/client/ui/utils/ui_util.lua:819-821
+  get_window_debug_info: function(window)  -- hexm/client/ui/utils/ui_util.lua:273-281
+  generate_and_set_richtext: function(richtext_ctrl, show_text, token_id, token_consume, size, font_name, blank, font_color)  -- hexm/client/ui/utils/ui_util.lua:283-296
+  get_node_textures_debug_info: function(node)  -- hexm/client/ui/utils/ui_util.lua:178-201
+  get_view_clz_by_name: function(view_name)  -- hexm/client/ui/utils/ui_util.lua:66-85
+  aabb_union: function(a, b)  -- hexm/client/ui/utils/ui_util.lua:393-407

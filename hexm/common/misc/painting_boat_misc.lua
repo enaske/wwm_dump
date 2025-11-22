@@ -53,4 +53,54 @@ Keys:
   get_public_navigation_pattern: function(avatar)  -- hexm/common/misc/painting_boat_misc.lua:731-739
   AUCTION_FILTER_UNJOINED_OPENING: number
   get_assist_reward_no: function(avatar)  -- hexm/common/misc/painting_boat_misc.lua:1560-1575
-  (1 more keys)
+  check_river_sightseeing_type_can_request: function(type)  -- hexm/common/misc/painting_boat_misc.lua:1577-1579
+  get_all_auction_uuids: function()  -- hexm/common/misc/painting_boat_misc.lua:460-476
+  get_navigation_auction_avatar_name: function(auction_data, pid)  -- hexm/common/misc/painting_boat_misc.lua:329-334
+  get_cur_navigation_auction_data: function(auction_data)  -- hexm/common/misc/painting_boat_misc.lua:423-458
+  get_party_vehicle: function(avatar)  -- hexm/common/misc/painting_boat_misc.lua:1004-1014
+  INVITE_TEAM: number
+  INVITE_RECENT_CONTACT: number
+  get_party_start_ts: function(avatar)  -- hexm/common/misc/painting_boat_misc.lua:938-945
+  clear_config_data_handler: function()  -- hexm/common/misc/painting_boat_misc.lua:1159-1162
+  get_navigation_invite_pid_by_tag: function(avatar, tag, cb)  -- hexm/common/misc/painting_boat_misc.lua:847-904
+  get_party_system_npc_config_no: function(avatar)  -- hexm/common/misc/painting_boat_misc.lua:1048-1054
+  small_game_check_bet: function(avt, game_id, bet_index)  -- hexm/common/misc/painting_boat_misc.lua:1357-1381
+  format_auction_down_time: function(ts)  -- hexm/common/misc/painting_boat_misc.lua:552-555
+  small_game_start_func: function(game_id)  -- hexm/common/misc/painting_boat_misc.lua:1352-1355
+  get_new_navigation_pattern_name: function(my_patterns, nav_type)  -- hexm/common/misc/painting_boat_misc.lua:805-832
+  is_get_master_gift: function(avatar)  -- hexm/common/misc/painting_boat_misc.lua:929-936
+  is_auction_auto: function(avatar, uuid)  -- hexm/common/misc/painting_boat_misc.lua:766-769
+  get_river_config: function(river_id, head, default)  -- hexm/common/misc/painting_boat_misc.lua:1153-1157
+  get_party_boat_name: function(avatar)  -- hexm/common/misc/painting_boat_misc.lua:1016-1026
+  debug_get_fake_boat_building_data: function()  -- hexm/common/misc/painting_boat_misc.lua:1386-1408
+  has_free_party_request: function(avatar)  -- hexm/common/misc/painting_boat_misc.lua:1120-1123
+  has_painting_boat: function(avatar)  -- hexm/common/misc/painting_boat_misc.lua:670-673
+  get_river_sightseeing_position: function(server_avatar, cb)  -- hexm/common/misc/painting_boat_misc.lua:207-292
+  get_free_party_request_info: function(avatar)  -- hexm/common/misc/painting_boat_misc.lua:1107-1118
+  get_navigation_pattern: function(avatar, key)  -- hexm/common/misc/painting_boat_misc.lua:741-748
+  get_painting_boat_river_sightseeing_auction_data: function(avatar, cb, last_data)  -- hexm/common/misc/painting_boat_misc.lua:478-532
+  get_party_reward_no: function(system_npc_config_no)  -- hexm/common/misc/painting_boat_misc.lua:1068-1079
+  check_party_auction_uuid: function(avatar, uuid)  -- hexm/common/misc/painting_boat_misc.lua:989-1002
+  check_current_has_river_sightseeing: function()  -- hexm/common/misc/painting_boat_misc.lua:982-987
+  get_all_building_painting_boat: function(obj, cb)  -- hexm/common/misc/painting_boat_misc.lua:1454-1511
+  get_navigation_tail: function(auction_data, hug)  -- hexm/common/misc/painting_boat_misc.lua:565-579
+  clear_r_s_keep_info: function()  -- hexm/common/misc/painting_boat_misc.lua:1183-1188
+  has_navigation_pattern: function(avatar)  -- hexm/common/misc/painting_boat_misc.lua:665-668
+  get_nearest_next_navigation_auction: function(auction_data_dict)  -- hexm/common/misc/painting_boat_misc.lua:397-421
+  pre_check_pattern_save: function(avatar, saving_pattern)  -- hexm/common/misc/painting_boat_misc.lua:834-845
+  cal_boat_pos_by_data: function(painting_boat_data, spaceno, navi_points)  -- hexm/common/misc/painting_boat_misc.lua:21-110
+  check_is_main_player: function(pid_hostnum, pid, hostnum)  -- hexm/common/misc/painting_boat_misc.lua:911-917
+  INVITE_FRIEND: number
+  AUCTION_INTRO_SP: number
+  get_default_boat_id: function(avatar)  -- hexm/common/misc/painting_boat_misc.lua:1125-1131
+  get_next_add_build_stuff_secs: function()  -- hexm/common/misc/painting_boat_misc.lua:1190-1205
+  SCORE_NO_PAINTING_BOAT: number
+  get_cur_navigation_info: function(cb)  -- hexm/common/misc/painting_boat_misc.lua:601-663
+  get_navigation_auction_avatar_hostnum: function(auction_data, pid)  -- hexm/common/misc/painting_boat_misc.lua:322-327
+  get_score_reward_by_auction_price: function(price)  -- hexm/common/misc/painting_boat_misc.lua:1610-1620
+  get_painting_boat_system_open_ts: function(start_ts)  -- hexm/common/misc/painting_boat_misc.lua:1304-1341
+  SMALL_GAME_START_FUNC: dict
+  get_painting_boat_owner_id: function()  -- hexm/common/misc/painting_boat_misc.lua:1513-1519
+  get_auction_price_cd: function(avatar, uuid)  -- hexm/common/misc/painting_boat_misc.lua:786-794
+  get_navigation_auction_data: function(avatar, uuid, cb, last_data)  -- hexm/common/misc/painting_boat_misc.lua:294-300
+  get_navigation_local_data: function(avatar)  -- hexm/common/misc/painting_boat_misc.lua:1081-1096

@@ -53,4 +53,13 @@ Keys:
   EVENT_PHOTO_FINISH: string
   E_PHOTO_TASK_NOT_FINISH: number
   EVENT_TASK_PHOTO: string
-  (1 more keys)
+  EVENT_ASK_FOR_REAL_NAME: string
+  EVENT_CHAT: string
+  EVENT_DROP: string
+  E_FETCH_TASK_SELF_NUM_LIMIT: number
+  RPC_CD: number
+  E_SEARCH_NUM_LIMIT: number
+  E_ENTER_SPACE_TEAM_LIMIT: number
+  E_PRAY_NUM_LIMIT: number
+  E_ASK_FOR_REAL_NAME: number
+  US_TYPE: number

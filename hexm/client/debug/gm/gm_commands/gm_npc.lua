@@ -53,4 +53,70 @@ Keys:
   gm_create_npc_near: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
   gm_create_all_npc: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
   gm_set_npc_HP: function(npc_no, mp_value)  -- hexm/client/debug/gm/gm_commands/gm_npc.lua:1396-1398
-  (1 more keys)
+  gm_hex_entity_id: number
+  _tick_lod3: number
+  gm_create_local_npc_near: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_clear_ai_loaded: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_random_npc_snatch_force_fail: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_test_npc_role_state_attr: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  anim_neck_rotate: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_aiavt_nav: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_npc_companion_event: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_create_multi_local_npc: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  _lod2_dist: number
+  enable_fixed_entity: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  switch_low_res: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_bind_relation_npc_to_npc: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_kill_npc: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_scan_jammed_node: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_send_event_to_near_npc: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_ue_pk_boss2: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_create_cloned_npc: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_destroy_near_npc: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_cnpc: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  _f2_ticking_num: list
+  stop_all_npc_ai: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_show_distance_e: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_stop_ai: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_npc_change_bstate: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_clear_local_db: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_npc_show_sight_draw: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_query_npc_role_state_attr: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_create_soul_npc_near: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_create_npc_by_model_no_file: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  _lod2_max_cnt: number
+  gm_bind_relation_avatar_to_npc: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_utility_check_npc_virtual: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_spawn_lifecycle_add_npc: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_get_npc_attr: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_random_npc_kidnap: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_stats_npc_lod: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_random_npc_snatch_force_succ: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  start_all_npc_ai: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_create_npc: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_create_local_serial_npc: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  switch_low_world: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_show_serial_id: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  _show_lod1: boolean
+  gm_ue_pk_boss1: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  load_npc_get_window: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_hide_npc_lod2_parts: function(hide)  -- hexm/client/debug/gm/gm_commands/gm_npc.lua:2631-2638
+  clear_crowd_circle: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_npc_dye: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_set_foot_fit_sim_level: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_kill_spec_npc: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  scan_entity_by_config: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_utility_check_design_config: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_create_all_combine_npc: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  switch_weakpoint_debug: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_hide_all_entity: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  _on_screen_draw: boolean
+  check_all_npc_battle: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_get_npc_aggros: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  show_crowd_circle: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  set_npc_limit_num: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  _show_lod2: boolean
+  gm_random_npc_add_stuff: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_near_npc_play_anim: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  gm_utility_point_info: function(...)  -- hexm/client/debug/gm/gm_commands/gm_oversea.lua:53-58
+  _show_lod4: boolean

@@ -53,4 +53,13 @@ Keys:
   ZORDER_BASE: number
   LAYER_POPUP_HIGH: number
   ZORDER_DESKTOP_MID: number
-  (1 more keys)
+  ZORDER_MID: number
+  ZORDER_GUIDER: number
+  TAG_DIALOGS: number
+  ZORDER_NORMAL_BG: number
+  LAYER_PHOTO_SHOW: number
+  TAG_INPUT: number
+  LAYER_NET_CONFIRM: number
+  ZORDER_CONFIRM: number
+  LAYER_NORMAL_HIGH: number
+  LAYER_CG: number

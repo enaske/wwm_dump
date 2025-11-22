@@ -53,4 +53,25 @@ Keys:
   GRID_DIS_SIMPLE_BUILD_INIT_RB: number
   GRID_DS: number
   DIS_MAX: number
-  (1 more keys)
+  WORLD_META_CACHE_TIME: number
+  gen_fb_id_by_raw_id: function(chunk_type, chunk_key, raw_id)  -- hexm/common/consts/build_grid_consts.lua:294-296
+  calc_grid_dis: function(key1, key2)  -- hexm/common/consts/build_grid_consts.lua:254-258
+  CHUNK_TYPE_GRID: number
+  calc_lod_by_dis_list: function(lod_dis_list, old_dis, new_dis)  -- hexm/common/consts/build_grid_consts.lua:260-280
+  LOD_LEVEL_0: number
+  EMPTY_GROUP_DATA: dict
+  OP_TYPE_INC_PACK: number
+  grid_index_to_key: function(group_index)  -- hexm/common/consts/build_grid_consts.lua:122-139
+  KEY_BP_DELETE: string
+  LOD_DESTROY: number
+  pos_free_area_no: function(pos)  -- hexm/common/consts/build_grid_consts.lua:236-243
+  DATABASE_BP: string
+  LAND_DIS_LIST: list
+  KEY_AREA_UPDATE: string
+  LOD_LEVEL_2: number
+  get_around_grid_keys: function(grid_key, dis)  -- hexm/common/consts/build_grid_consts.lua:203-218
+  FBINT: boolean
+  DATA_MODEL_FB: string
+  MAIN_WORLD_ID: string
+  OP_TYPE_INC: number
+  LOD_ENTITY: number

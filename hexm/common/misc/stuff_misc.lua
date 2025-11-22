@@ -53,4 +53,43 @@ Keys:
   get_obtain_ts: function(itm)  -- hexm/common/misc/stuff_misc.lua:373-375
   get_stuff_by_bag_and_ID: function(avatar, bag, ID)  -- hexm/common/misc/stuff_misc.lua:585-587
   bag_get_itemv_by_type: function(bag, typ, subtype)  -- hexm/common/misc/stuff_misc.lua:590-601
-  (1 more keys)
+  get_stuff_trade_state: function(itm)  -- hexm/common/misc/stuff_misc.lua:1730-1750
+  create_item_from_bd: function(bd, bag)  -- hexm/common/misc/stuff_misc.lua:335-365
+  get_stuff_icon_by_No: function(no, force_use_normal, force_use_body_type)  -- hexm/common/misc/stuff_misc.lua:1954-1982
+  EQUIP_TYPE2SLOT_CONF: dict
+  is_guest_can_submit_item: function(stuff_no, sys_d)  -- hexm/common/misc/stuff_misc.lua:293-317
+  get_legend_stuff_perform_types: function(stuff_no)  -- hexm/common/misc/stuff_misc.lua:242-250
+  _check_tp_use_limit: function(avatar, itm, sys_d)  -- hexm/common/misc/stuff_misc.lua:1151-1178
+  is_task_game_item: function(stuff_no, sys_d)  -- hexm/common/misc/stuff_misc.lua:271-277
+  is_sub_mission_item: function(stuff_no, sys_d)  -- hexm/common/misc/stuff_misc.lua:263-269
+  get_chest_reward_no: function(stuff_no, body_type)  -- hexm/common/misc/stuff_misc.lua:211-225
+  get_bag_by_No: function(owner, No, raw)  -- hexm/common/misc/stuff_misc.lua:508-522
+  get_stuff_by_ID: function(avatar, ID)  -- hexm/common/misc/stuff_misc.lua:564-583
+  get_temp_bag_count: function(owner)  -- hexm/common/misc/stuff_misc.lua:534-541
+  CAP_PER_EXPAND: number
+  get_neigong_note_exp_by_No: function(no)  -- hexm/common/misc/stuff_misc.lua:319-325
+  get_bag_by_bag_no: function(owner, bag_no, raw)  -- hexm/common/misc/stuff_misc.lua:449-469
+  calc_transform_res: function(from_itms, pattern, batch_num, to_No)  -- hexm/common/misc/stuff_misc.lua:1766-1866
+  get_stuff_category_text: function(stuff_no)  -- hexm/common/misc/stuff_misc.lua:198-208
+  check_can_add_to_bags: function(owner, bag_nos, raw)  -- hexm/common/misc/stuff_misc.lua:1523-1542
+  gang_cook_get_stuffs_by_No: function(stuff_no)  -- hexm/common/misc/stuff_misc.lua:1684-1696
+  get_item_by_No: function(avatar, No)  -- hexm/common/misc/stuff_misc.lua:745-759
+  check_item_fb: function(No, sys_d)  -- hexm/common/misc/stuff_misc.lua:128-140
+  get_items_by_No_from_bag: function(No, bag)  -- hexm/common/misc/stuff_misc.lua:777-791
+  get_item_sys_d_ex: function(No, exclude_show)  -- hexm/common/misc/stuff_misc.lua:87-126
+  MODE_SUBMIT_TYPE: table <UnknownInstance>
+  get_end_day: function(itm)  -- hexm/common/misc/stuff_misc.lua:1021-1026
+  get_tp_stuff_limit_sysd: function(avatar)  -- hexm/common/misc/stuff_misc.lua:1120-1127
+  get_expand_item: function(owner, iid)  -- hexm/common/misc/stuff_misc.lua:1042-1044
+  get_stuff_type: function(stuff_no)  -- hexm/common/misc/stuff_misc.lua:236-240
+  gang_cook_get_stuff_count_by_No: function(stuff_no)  -- hexm/common/misc/stuff_misc.lua:1719-1721
+  gang_cook_get_stuff_by_ID: function(stuff_id)  -- hexm/common/misc/stuff_misc.lua:1698-1713
+  get_transverse_stuff_icon_by_No: function(no, force_use_normal, force_use_body_type)  -- hexm/common/misc/stuff_misc.lua:1984-2001
+  check_tp_valid_func_nos: function(avatar)  -- hexm/common/misc/stuff_misc.lua:1129-1149
+  check_have_enough_stuff: function(avatar, stuff_no, stuff_num)  -- hexm/common/misc/stuff_misc.lua:1752-1764
+  is_task_share_item: function(stuff_no, sys_d)  -- hexm/common/misc/stuff_misc.lua:279-284
+  calc_itms_inherit_ex: function(from_itms, out_bd)  -- hexm/common/misc/stuff_misc.lua:1868-1921
+  gang_cook_get_stuff_no: function(stuff_id)  -- hexm/common/misc/stuff_misc.lua:1715-1717
+  get_bag_no_by_No: function(No, sys_d)  -- hexm/common/misc/stuff_misc.lua:501-505
+  get_item_sys_d: function(No, exclude_show)  -- hexm/common/misc/stuff_misc.lua:44-84
+  get_stuffs_count_by_No: function(avatar, stuff_no_list, raw)  -- hexm/common/misc/stuff_misc.lua:702-722

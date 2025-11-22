@@ -53,4 +53,14 @@ Keys:
   ui_set_wuxue_template: function(wuxue_templates, kongfu_list)  -- hexm/common/misc/wuxue_misc.lua:552-572
   get_wuxue_tianfu_skill_data: function(kongfu_id)  -- hexm/common/misc/wuxue_misc.lua:1063-1066
   get_newcommer_kongfu: function(equip_type, kongfu_id)  -- hexm/common/misc/wuxue_misc.lua:387-392
-  (1 more keys)
+  get_wuxue_chuxin_icon_by_equip_type: function(equip_type)  -- hexm/common/misc/wuxue_misc.lua:200-202
+  get_wuxue_tianfu_progress_str: function(progress, percent_type)  -- hexm/common/misc/wuxue_misc.lua:612-634
+  get_ceil_lv: function(kongfu_id)  -- hexm/common/misc/wuxue_misc.lua:168-173
+  get_wuxue_slot_skillset_id: function(wuxue_id, ui_index)  -- hexm/common/misc/wuxue_misc.lua:845-885
+  check_all_wuxue_unlock: function()  -- hexm/common/misc/wuxue_misc.lua:1189-1203
+  get_liupai_id: function(kongfu_id)  -- hexm/common/misc/wuxue_misc.lua:269-271
+  check_liupai_lable_state: function(lable_template, wuxue_id, neigong_id, is_neigong_template)  -- hexm/common/misc/wuxue_misc.lua:287-304
+  get_passive_skill_progress: function(kongfu, passive_skill_id, cb)  -- hexm/common/misc/wuxue_misc.lua:636-779
+  get_wuxue_school_no: function(kongfu_id)  -- hexm/common/misc/wuxue_misc.lua:241-243
+  get_weapon_type_menu: function()  -- hexm/common/misc/wuxue_misc.lua:981-995
+  get_wuxue_base_skills: function(kongfu_id, sysd)  -- hexm/common/misc/wuxue_misc.lua:123-130

@@ -76,4 +76,38 @@ Keys:
   TYPE_HIDE_MATERIAL: string
   PRIORITY_BUILDING_BLUEPRINT: number
   COLORIZE_TYPE_CONTROLLER_MAP: dict
-  (1 more keys)
+  FLAG_DISSOLVE: string
+  TYPE_GRAY: string
+  PRIORITY_ENTITY_MANAGER: number
+  FLAG_BEHIT: string
+  PRIORITY_BASE_DEFAULT: number
+  PRIORITY_BEING_TASK_TRACE_TARGET: number
+  TYPE_DISSOLVE: string
+  ColorizeDissolve: table <UnknownInstance>
+    Functions:
+      _setup_normal_dissolve(owner, params)  -- hexm/client/entities/local/component/colorize/colorize_dissolve.lua:66-73
+      _on_colorize_over_callback(owner, params)  -- hexm/client/entities/local/component/colorize/colorize_dissolve.lua:52-64
+      setup_colorize_display(owner, params)  -- hexm/client/entities/local/component/colorize/colorize_dissolve.lua:13-41
+      _setup_normal_dissolve_model(owner, params)  -- hexm/client/entities/local/component/colorize/colorize_dissolve.lua:75-81
+      _setup_dir_dissolve(owner, params)  -- hexm/client/entities/local/component/colorize/colorize_dissolve.lua:101-107
+      cancel_colorize_display(owner, params)  -- hexm/client/entities/local/component/colorize/colorize_dissolve.lua:43-50
+      _setup_normal_dissolve_hexmodel(owner, params)  -- hexm/client/entities/local/component/colorize/colorize_dissolve.lua:83-99
+  FLAG_ENFORCE_INTERACT_LIGHT: string
+  ColorizeHighlight: table <UnknownInstance>
+    Functions:
+      _set_highlight_1(owner, params)  -- hexm/client/entities/local/component/colorize/colorize_highlight.lua:26-43
+      setup_colorize_display(owner, params)  -- hexm/client/entities/local/component/colorize/colorize_highlight.lua:12-20
+      _unset_highlight(owner, params)  -- hexm/client/entities/local/component/colorize/colorize_highlight.lua:93-95
+      cancel_colorize_display(owner, params)  -- hexm/client/entities/local/component/colorize/colorize_highlight.lua:22-24
+      _set_highlight_2(owner, params)  -- hexm/client/entities/local/component/colorize/colorize_highlight.lua:45-63
+      _set_highlight(owner, params)  -- hexm/client/entities/local/component/colorize/colorize_highlight.lua:65-91
+  PRIORITY_WEATHER_EFFECT: number
+  TYPE_SCAN_MATERIAL: string
+  FLAG_IMP_HIDE_ENTITY: string
+  FLAG_ON_START_INTERACTING: string
+  FLAG_GRAY: string
+  FLAG_DEBATE_BATTLE: string
+  PRIORITY_FORBID_LOWER_THAN_BATTLE: number
+  FLAG_BASE_DEFUALT: string
+  PRIORITY_CHOSEN_TARGET: number
+  TYPE_HIGHLIGHT: string

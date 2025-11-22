@@ -53,4 +53,6 @@ Keys:
   POSE_ANIM_STAGE_SUB_IN_SAME_MAIN_OLD_OUT: string
   POSE_ANIM_STAGE_SUB_IN_MAIN_IN: string
   ANIM_VARS: list
-  (1 more keys)
+  ANIM_BASE_GRAPH: string
+  ANIM_DEFAULT_TIME: number
+  BASE_WEAPON_RELOAD_ANIM_LIST: list

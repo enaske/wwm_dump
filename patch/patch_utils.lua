@@ -53,4 +53,35 @@ Keys:
   delete_file: function(filepath)  -- patch/patch_utils.lua:120-122
   check_file_exist_in_patch: function(filepath)  -- patch/patch_utils.lua:92-94
   is_dashen_cloud_game: function()  -- patch/patch_utils.lua:644-650
-  (1 more keys)
+  refresh_lang: function()  -- patch/patch_utils.lua:505-512
+  check_file_exist_in_package: function(filepath)  -- patch/patch_utils.lua:96-98
+  get_config_dict: function(filename, from_package)  -- patch/patch_utils.lua:233-250
+  CheckIsHigh2: function()  -- patch/patch_utils.lua:905-909
+  copy_file: function(src_full_patch, dst_full_path)  -- patch/patch_utils.lua:652-659
+  MPKINFO_INDEX_TO_KIND: table <UnknownInstance>
+  is_ps4: function()  -- patch/patch_utils.lua:41-43
+  cloud_game_init_file_dir: string
+  get_patch_context: function()  -- patch/patch_utils.lua:398-400
+  MPKINFO_KIND_TO_INDEX: table <UnknownInstance>
+  get_package_resource_version_info: function()  -- patch/patch_utils.lua:597-611
+  detect_patch_list_succeed: function(detail)  -- patch/patch_utils.lua:566-586
+  delete_dir_in_patch: function(dir)  -- patch/patch_utils.lua:789-803
+  check_file_exist: function(filepath)  -- patch/patch_utils.lua:105-118
+  send_detect: function(data)  -- patch/patch_utils.lua:559-564
+  is_ps5: function()  -- patch/patch_utils.lua:37-39
+  is_android: function()  -- patch/patch_utils.lua:33-35
+  updateProgress: function(percent, param)  -- patch/patch_utils.lua:276-312
+  get_file_content: function(filename, gettype)  -- patch/patch_utils.lua:331-342
+  parse_mpkinfo_name: function(full_mpkinfo_filename)  -- patch/patch_utils.lua:745-752
+  try_save_default_lang: function()  -- patch/patch_utils.lua:514-522
+  get_locale_name: function()  -- patch/patch_utils.lua:717-729
+  terminate: function(msg)  -- patch/patch_utils.lua:537-546
+  onPatchAlertVanilla: function(...)  -- patch/patch_utils.lua:525-526
+  _is_hdd: boolean
+  get_sys_language: function()  -- patch/patch_utils.lua:441-453
+  get_lower_patchlist: function(patchlist, patchlist_map)  -- patch/patch_utils.lua:344-353
+  is_ps: function()  -- patch/patch_utils.lua:45-47
+  stringizeSize: function(size)  -- patch/patch_utils.lua:252-263
+  clear_mpk_entry_index: function(filepath)  -- patch/patch_utils.lua:588-594
+  create_repair_file: function(reason)  -- patch/patch_utils.lua:528-534
+  check_file_exist_in_bg_patch: function(filepath)  -- patch/patch_utils.lua:100-103

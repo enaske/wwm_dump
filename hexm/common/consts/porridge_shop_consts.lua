@@ -53,4 +53,10 @@ Keys:
   SHOP_NO_TASK: number
   OVER_MAX_MEDICINE: number
   ADD_WATCH_NPC: string
-  (1 more keys)
+  ERR_LOCK_MEDICINE: number
+  PORRIDGE_XS: string
+  ERR_SHOP_LIMIT: number
+  ERR_SHOP_POSITION: number
+  ALREADY_INTERACT: number
+  REWARD_TIMES_MAX: number
+  CREATE_SHOP: string

@@ -186,11 +186,11 @@ Keys:
       Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:1282-1286
   CreateServerVehicleNode: class <CreateServerVehicleNode>
     Functions:
-      cancel_listener(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:1625-1634
-      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:1591-1615
+      on_vehicle_create(self, event, vehicle_id)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:1617-1623
       ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:1580-1589
       Release(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:1636-1641
-      on_vehicle_create(self, event, vehicle_id)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:1617-1623
+      cancel_listener(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:1625-1634
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:1591-1615
   LocalRotateYawNode: class <LocalRotateYawNode>
     Functions:
       get_start_yaw(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:1379-1390
@@ -247,4 +247,29 @@ Keys:
     Functions:
       ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:2359-2364
       Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:2366-2372
-  (1 more keys)
+  OpenListenToWindNode: class <OpenListenToWindNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:239-244
+      Release(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:261-265
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:246-259
+  SetVehicleParamsNode: class <SetVehicleParamsNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:1713-1720
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:1722-1730
+  RegisterDistanceNode: class <RegisterDistanceNode>
+    Functions:
+      clear_all(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:1548-1554
+      SetTriggerData(self, triggerData)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:1494-1501
+      Release(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:1564-1566
+      base_node_handle_entity_create(self, e, d)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:1556-1562
+      gen_tid(self, entity_id)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:1523-1525
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:1503-1521
+      handle_in_range(self, tid, state)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:1538-1546
+      register_distance(self, entity, tid)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:1527-1536
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:1489-1492
+  VehicleAutoNavigateNode: class <VehicleAutoNavigateNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:1909-1919
+      Release(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:1947-1952
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:1921-1936
+      navi_callback(self, is_succ)  -- Sunshine/Storyline/StorylineNode/ClientNode/RegionGameNodes.lua:1938-1945

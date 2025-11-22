@@ -31,9 +31,9 @@ Keys:
       Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/InteractProcessNodes.lua:125-130
   InteractProcessWaitEndExecBeginNode: class <InteractProcessWaitEndExecBeginNode>
     Functions:
-      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/InteractProcessNodes.lua:885-888
       ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/InteractProcessNodes.lua:880-883
       Release(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/InteractProcessNodes.lua:897-899
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/InteractProcessNodes.lua:885-888
       _clear(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/InteractProcessNodes.lua:890-895
   InteractProcessLeaveStateNode: class <InteractProcessLeaveStateNode>
     Functions:
@@ -42,9 +42,9 @@ Keys:
   InteractProcessHandleCueResultNode: class <InteractProcessHandleCueResultNode>
     Functions:
       handle_pick_up(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/InteractProcessNodes.lua:626-670
-      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/InteractProcessNodes.lua:569-577
       handle_cue_ahead_action(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/InteractProcessNodes.lua:718-768
       Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/InteractProcessNodes.lua:579-600
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/InteractProcessNodes.lua:569-577
       handle_put_down(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/InteractProcessNodes.lua:672-716
       handle_cue_result(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/InteractProcessNodes.lua:602-624
   InteractProcessReadTableNode: class <InteractProcessReadTableNode>
@@ -55,8 +55,8 @@ Keys:
   InteractProcessHideOtherEntityNode: class <InteractProcessHideOtherEntityNode>
     Functions:
       ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/InteractProcessNodes.lua:803-806
-      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/InteractProcessNodes.lua:808-819
       Release(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/InteractProcessNodes.lua:821-826
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/InteractProcessNodes.lua:808-819
   InteractProcessSelectStateNode: class <InteractProcessSelectStateNode>
     Functions:
       ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/InteractProcessNodes.lua:415-417
@@ -95,7 +95,7 @@ Keys:
       Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/InteractProcessNodes.lua:846-850
   InteractProcessWaitEndExecNode: class <InteractProcessWaitEndExecNode>
     Functions:
-      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/InteractProcessNodes.lua:914-917
       ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/InteractProcessNodes.lua:909-912
       Release(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/InteractProcessNodes.lua:926-928
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/InteractProcessNodes.lua:914-917
       _clear(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/InteractProcessNodes.lua:919-924

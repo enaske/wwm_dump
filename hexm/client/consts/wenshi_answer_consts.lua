@@ -53,4 +53,6 @@ Keys:
   STATE_IDLE: number
   STAGE_ANSWER: number
   E_GET_PLAYER_LIST: number
-  (1 more keys)
+  get_id_by_weight: function(ques_ids, ques_weights, pick_num, can_repeat)  -- hexm/common/consts/wenshi_answer_consts.lua:112-167
+  E_LEAVE_ANSWER: number
+  OP_REJECT: number

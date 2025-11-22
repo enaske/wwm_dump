@@ -53,4 +53,29 @@ Keys:
   get_extra_data: function(branch_no, option_no)  -- hexm/client/ui/windows/dialog_branches/branch_consts.lua:171-175
   BRANCH_EMPTY_DIALOG_NO: number
   get_choice_tip_text: function(branch_no)  -- hexm/client/ui/windows/dialog_branches/branch_consts.lua:659-675
-  (1 more keys)
+  BRANCH_END_OPEN_STORYLINE: number
+  BRANCH_END_SHADOW_PLAY: number
+  get_extra_bottom_text: function(branch_no, option_no)  -- hexm/client/ui/windows/dialog_branches/branch_consts.lua:464-472
+  is_follow_type_stay: function(state)  -- hexm/client/ui/windows/dialog_branches/branch_consts.lua:704-706
+  BRANCH_STATE_CONTINUE_WITH_DIALOG: number
+  get_icon: function(branch_no, option_no)  -- hexm/client/ui/windows/dialog_branches/branch_consts.lua:495-502
+  get_branch_info: function(branch_no, option_no)  -- hexm/client/ui/windows/dialog_branches/branch_consts.lua:521-644
+  check_play_refuse_dialog: function(branch_no, option_no)  -- hexm/client/ui/windows/dialog_branches/branch_consts.lua:402-406
+  meet_condition_complete_task: function(branch_no, option_no)  -- hexm/client/ui/windows/dialog_branches/branch_consts.lua:321-333
+  check_visible_special: function(branch_no, option_no)  -- hexm/client/ui/windows/dialog_branches/branch_consts.lua:251-259
+  BRANCH_LOCKED: number
+  is_option_visible: function(branch_no, option_no)  -- hexm/client/ui/windows/dialog_branches/branch_consts.lua:215-238
+  BRANCH_END_TASK_SUBMIT: number
+  BRANCH_OPTION_PRIORITY_NORMAL: number
+  get_option_hide_type: function(branch_no, option_no)  -- hexm/client/ui/windows/dialog_branches/branch_consts.lua:422-424
+  BRANCH_END_PLAY_DIALOG: number
+  BRANCH_FINISH_FETCH_TASK: number
+  is_leave_style: function(branch_no, option_no)  -- hexm/client/ui/windows/dialog_branches/branch_consts.lua:655-657
+  CHOICE_FUNC_MAP: dict
+  BRANCH_STATE_FINISH: number
+  has_option_selected: function(branch_no, option_no)  -- hexm/client/ui/windows/dialog_branches/branch_consts.lua:431-436
+  is_option_locked: function(branch_no, option_no)  -- hexm/client/ui/windows/dialog_branches/branch_consts.lua:177-213
+  get_extra_right_text: function(branch_no, option_no)  -- hexm/client/ui/windows/dialog_branches/branch_consts.lua:454-462
+  meet_common_condition: function(branch_no, option_no)  -- hexm/client/ui/windows/dialog_branches/branch_consts.lua:286-298
+  CHOICE_TYPE_SPECIAL: number
+  BRANCH_FINISH_ROB_HORSE: number

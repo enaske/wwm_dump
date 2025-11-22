@@ -53,4 +53,61 @@ Keys:
   equip_interact_stuff: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:1009-1021
   set_recovery_food: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:587-606
   stove_select_mat: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:1212-1226
-  (1 more keys)
+  temp_bag_fetch: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:720-729
+  check_func_use_limit: dict
+  get_from_warehouse: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:650-660
+  try_use_firework: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:1777-1817
+  focus_big_map_mmm_store: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:1414-1423
+  batch_use_stuff_with_confirm: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:1562-1573
+  store_to_expedition_warehouse: function(d)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:662-687
+  goto_function: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:1169-1180
+  body_type_convert_stuff_use: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:866-890
+  put_sign: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:1159-1163
+  compose_stuff: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:318-341
+  stuff_museum_interact: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:1509-1545
+  npc_ask_for_stuff_by_qishu: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:1485-1507
+  npc_ask_for_stuff_by_telekinesis: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:1461-1483
+  put_build_to_quick_launcher: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:1595-1598
+  unset_recovery_food: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:608-623
+  club_produce_seek_help: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:1836-1863
+  func_map: dict
+  open_envelope: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:26-36
+  open_book: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:708-718
+  check_use_limit: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:56-77
+  start_play_instrument: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:1425-1433
+  decompose_xinfa_stuff: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:1133-1141
+  on_like_click: function(self, msg)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:1165-1167
+  gem_combine: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:1405-1412
+  use_stuff_by_way_no: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:577-585
+  sell_bp_stuff: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:1325-1333
+  check_use_weapon_stuff: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:366-406
+  head_portrait_unlock: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:892-914
+  blueprint_preview: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:238-254
+  decompose_stuff: function(data, decompose_count)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:1110-1131
+  put_out_building_from_build_tab: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:1376-1395
+  check_func_cd: dict
+  open_chuanyin_page: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:1874-1878
+  batch_use_stuff: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:1553-1560
+  identity_pvp_baitie_equip: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:773-782
+  use_bp_stuff: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:1309-1323
+  area_token_exchange: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:1702-1712
+  check_out_curio_clues: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:1451-1459
+  sell_stuff: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:1248-1259
+  identity_pvp_baitie_watch: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:767-771
+  put_on_building_stuff: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:1261-1286
+  npc_send_gift: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:936-952
+  do_send_gift: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:1929-1935
+  recycle_expired_stuff: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:1888-1910
+  place_gameplay_entry_item: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:1947-1966
+  place_river_lamp: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:1870-1872
+  equip_arrow_stuff: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:1397-1403
+  opne_jieyuan_concentric_knot: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:1866-1868
+  put_out_bp_stuff: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:1288-1307
+  do_goose_release: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:1937-1945
+  open_school_invitation_mail: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:1819-1826
+  get_stuff_from_carriage: function(d)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:1627-1654
+  npc_role_snatch_stuff: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:823-864
+  perview_bp_stuff: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:1335-1348
+  convert_stuff_use_resolve_reward: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:505-545
+  anim_action_play: function(data)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:200-214
+  prison_stuff_donate: function(stuff_info)  -- hexm/client/ui/windows/bag/stuff_button_function.lua:1580-1583

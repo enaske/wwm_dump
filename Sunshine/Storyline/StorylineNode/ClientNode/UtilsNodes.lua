@@ -59,10 +59,10 @@ Keys:
   ControlLocalWeatherNode: class <ControlLocalWeatherNode>
     Functions:
       _exit(self, output)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3618-3634
-      _clear(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3606-3616
-      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3566-3576
       Release(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3636-3638
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3566-3576
       Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3578-3604
+      _clear(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3606-3616
   DebugLogNode: class <DebugLogNode>
     Functions:
       ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:41-44
@@ -246,4 +246,346 @@ Keys:
       ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4727-4731
       Release(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4744-4746
       Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4733-4742
-  (1 more keys)
+  SetGraphVariableNode: class <SetGraphVariableNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4001-4011
+      Release(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4043-4051
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4013-4041
+  AdjustYawNode: class <AdjustYawNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2129-2133
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2135-2144
+  FetchTaskNode: class <FetchTaskNode>
+    Functions:
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2758-2774
+      gen_input_ports(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2725-2734
+      generate_extra(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2745-2756
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2738-2743
+  PauseBaseShichenNode: class <PauseBaseShichenNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2915-2918
+      Release(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2926-2930
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2920-2924
+  SetGameSpeedNode: class <SetGameSpeedNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2262-2267
+      Release(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2278-2282
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2269-2276
+  ModelReplaceTriggerNode: class <ModelReplaceTriggerNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4212-4216
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4218-4223
+  AllowInterruptStateListNode: class <AllowInterruptStateListNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3531-3533
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3535-3548
+  CameraPushPivotCameraNode: class <CameraPushPivotCameraNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:1368-1374
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:1376-1389
+  CreateLocalAirWallNode: class <CreateLocalAirWallNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:786-789
+      Release(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:816-818
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:791-802
+      _clear(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:804-814
+  SummonHorseNode: class <SummonHorseNode>
+    Functions:
+      clear(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:1028-1033
+      Release(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:1035-1041
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:936-959
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:961-1011
+      _real_ride_on_end(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:1020-1026
+      on_ride_on_end(self, event, data)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:1013-1018
+  SetPlayerPosNode: class <SetPlayerPosNode>
+    Functions:
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3721-3726
+  CutscenePreloadResource: class <CutscenePreloadResource>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4094-4101
+      Release(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4117-4121
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4103-4115
+  CameraPushFollowCameraNode: class <CameraPushFollowCameraNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:1294-1302
+      Release(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:1320-1328
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:1304-1318
+  ControlLocalShichenNode: class <ControlLocalShichenNode>
+    Functions:
+      _exit(self, output)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2902-2908
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2858-2868
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2870-2891
+      Release(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2893-2900
+  EquipArrowNode: class <EquipArrowNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2462-2465
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2467-2474
+  NormalAttachNode: class <NormalAttachNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:1833-1842
+      get_trans_mat(self, entity, parent_entity)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:1888-1890
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:1844-1886
+  RideStateOpNode: class <RideStateOpNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:1049-1054
+      Release(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:1087-1097
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:1056-1085
+  GotoFunctionNode: class <GotoFunctionNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3973-3976
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3978-3984
+  ClientRemoveEntityNode: class <ClientRemoveEntityNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2803-2808
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2810-2831
+  ClientCreateLocalNpcBySerialListNode: class <ClientCreateLocalNpcBySerialListNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:283-289
+      Release(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:321-334
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:291-319
+  CheckPlayerStateNode: class <CheckPlayerStateNode>
+    Functions:
+      Release(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4965-4970
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4936-4943
+      on_player_state_changed(self, e, d)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4955-4963
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4945-4953
+  ChangeNormalSkillPanel: class <ChangeNormalSkillPanel>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2699-2701
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2703-2706
+  BreakSkillNode: class <BreakSkillNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2597-2604
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2606-2629
+  TaskClueTalkNode: class <TaskClueTalkNode>
+    Functions:
+      _talk_clue_on_task_finish(self, e, d)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4461-4466
+      _clear_talk_clue_timer(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4468-4475
+      Release(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4496-4498
+      clear(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4477-4494
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4387-4406
+      start_clue_dialog(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4443-4458
+      _add_talk_clue_timer(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4421-4441
+      _talk_clue_on_task_fetch(self, e, d)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4414-4419
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4374-4385
+      init_data(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4408-4412
+  GetPlayerRelativeTargetPos: class <GetPlayerRelativeTargetPos>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3771-3777
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3779-3792
+  PlayJoystickMotionSoundNode: class <PlayJoystickMotionSoundNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4559-4562
+      Release(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4571-4572
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4564-4569
+  IsTeamLeaderNode: class <IsTeamLeaderNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3834-3836
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3838-3843
+  RefreshSkillGameplayHandlersNode: class <RefreshSkillGameplayHandlersNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2668-2670
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2672-2680
+  SkillModePushOrPopNode: class <SkillModePushOrPopNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2038-2044
+      Release(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2062-2071
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2046-2060
+  StartGuidePeriodNode: class <StartGuidePeriodNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2326-2330
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2332-2338
+      Release(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2340-2347
+  IsInFyzbModeNode: class <IsInFyzbModeNode>
+    Functions:
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4981-4986
+  CloseUINode: class <CloseUINode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3736-3739
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3741-3751
+  ClientCreateNpcByTeamMemberNode: class <ClientCreateNpcByTeamMemberNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:537-543
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:556-600
+      Release(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:545-547
+      _clear(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:549-554
+  CheckWearPointUsedNode: class <CheckWearPointUsedNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4919-4922
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4924-4928
+  ForbidInputNode: class <ForbidInputNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3109-3113
+      Release(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3127-3131
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3115-3125
+  UIHideModeEnableNode: class <UIHideModeEnableNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3075-3080
+      Release(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3094-3098
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3082-3092
+  ShichenClockNode: class <ShichenClockNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3001-3005
+      Release(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3013-3015
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3007-3011
+  ClientPlayScreenEffectNode: class <ClientPlayScreenEffectNode>
+    Functions:
+      _exit(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2575-2582
+      Release(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2584-2586
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2513-2524
+      _on_screen_effect_over(self, effect_entity)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2556-2560
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2526-2554
+      _clear(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2562-2573
+  FyzbDisableBillboardNode: class <FyzbDisableBillboardNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4995-4998
+      Release(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:5006-5010
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:5000-5004
+  ListenCloseUIByGuidNode: class <ListenCloseUIByGuidNode>
+    Functions:
+      _exit(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:158-165
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:174-180
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:143-149
+      on_ui_close(self, event, data)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:182-186
+      Release(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:167-172
+      _clear(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:151-156
+  ListenCloseUIByNameNode: class <ListenCloseUIByNameNode>
+    Functions:
+      _exit(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3415-3422
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3429-3435
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3397-3403
+      on_ui_close(self, event, data)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3437-3442
+      Release(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3424-3427
+      _clear(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3405-3413
+  PushScenarioNode: class <PushScenarioNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3054-3058
+      Release(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3065-3067
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3060-3063
+  EntityHexPathLauncherRunNode: class <EntityHexPathLauncherRunNode>
+    Functions:
+      on_entity_created(self, event, data, nav_params)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:1725-1731
+      clear_listener(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:1745-1750
+      navi_callback(self, is_success, errcode)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:1752-1762
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:1608-1637
+      Release(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:1733-1743
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:1639-1723
+  PlaySpecialAnimNode: class <PlaySpecialAnimNode>
+    Functions:
+      on_anim_end(self, event, data)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3353-3359
+      leave_node(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3361-3373
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3295-3307
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3309-3351
+      Release(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3375-3377
+      _clear(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3379-3388
+  NavigateToNode: class <NavigateToNode>
+    Functions:
+      on_auto_navigate_finished(self, is_arrived)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4645-4653
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4603-4618
+      Release(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4655-4660
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4620-4643
+  TrackTaskNode: class <TrackTaskNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2784-2787
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2789-2794
+  JoinGuildNode: class <JoinGuildNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3703-3706
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3708-3711
+  CreateLocalHorseNode: class <CreateLocalHorseNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:854-872
+      on_horse_created(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:904-916
+      Release(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:918-927
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:873-902
+  JumpPositionNode: class <JumpPositionNode>
+    Functions:
+      clear_listener(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:235-240
+      create_listener(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:228-233
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:197-203
+      on_transfer_finish(self, event, data)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:223-226
+      Release(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:242-244
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:205-221
+  AllowInterruptStateNode: class <AllowInterruptStateNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3512-3517
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3519-3522
+  ActivateAndEquipLifeWeapon: class <ActivateAndEquipLifeWeapon>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2413-2416
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2418-2432
+  ShowRemoteGuardNode: class <ShowRemoteGuardNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4857-4865
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4867-4911
+  CheckTeamMemberInAOINode: class <CheckTeamMemberInAOINode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3856-3859
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3861-3889
+  AttachEntityNode: class <AttachEntityNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:1782-1790
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:1792-1822
+  TeamSizeQualifiedNode: class <TeamSizeQualifiedNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3904-3907
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3909-3920
+  DressEquipNode: class <DressEquipNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3038-3042
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:3044-3047
+  HideRoadSignNode: class <HideRoadSignNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4754-4757
+      Release(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4768-4772
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4759-4766
+  UnSetGraphVariableNode: class <UnSetGraphVariableNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4066-4072
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4074-4086
+  ClientRemoveLocalNpcBySerialGroupNode: class <ClientRemoveLocalNpcBySerialGroupNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:499-503
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:505-525
+  ClientCreateLocalNpcBySerialGroupNode: class <ClientCreateLocalNpcBySerialGroupNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:385-390
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:392-410
+  StaticEntityResetModelNode: class <StaticEntityResetModelNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4322-4325
+      Release(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4353-4363
+      _on_static_entity_recover(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4339-4351
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4327-4337
+  PreloadPivotNode: class <PreloadPivotNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4578-4581
+      Release(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4590-4595
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:4583-4588
+  ListenBuffNode: class <ListenBuffNode>
+    Functions:
+      clear(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2214-2219
+      base_node_handle_entity_create(self, e, d)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2221-2225
+      Release(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2209-2212
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2156-2167
+      _on_op_buff(self, event, data)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2203-2207
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2169-2201
+  GetEntityNode: class <GetEntityNode>
+    Functions:
+      Release(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:1274-1276
+      _clear(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:1267-1272
+      handle_create_entity_by_no(self, e, d)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:1257-1265
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:1210-1218
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:1220-1249
+      handle_create_entity_by_serial(self, e, d)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:1251-1255
+  EquipQishuNode: class <EquipQishuNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2482-2487
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2489-2503
+  ControlTimeIsDayNode: class <ControlTimeIsDayNode>
+    Functions:
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:2840-2845
+  RemoveLocalTrapNode: class <RemoveLocalTrapNode>
+    Functions:
+      ctor(self)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:758-762
+      Start(self, context)  -- Sunshine/Storyline/StorylineNode/ClientNode/UtilsNodes.lua:764-776

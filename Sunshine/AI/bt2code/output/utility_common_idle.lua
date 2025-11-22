@@ -53,4 +53,41 @@ Keys:
   n00210100_CBTIfElseNode: function()  -- Sunshine/AI/bt2code/output/utility_common_idle.lua:862-871
   n00110_CBTAlwaysSequenceNode: function()  -- Sunshine/AI/bt2code/output/utility_common_idle.lua:439-449
   n0011020_CheckPoseAnimStage: function()  -- Sunshine/AI/bt2code/output/utility_common_idle.lua:497-504
-  (1 more keys)
+  n0011031_CBTAlwaysSequenceNode: function()  -- Sunshine/AI/bt2code/output/utility_common_idle.lua:585-592
+  n000111010010_LoadDynamicCompMesh: function()  -- Sunshine/AI/bt2code/output/utility_common_idle.lua:292-303
+  n002101_ReceiveEventDecorator: function()  -- Sunshine/AI/bt2code/output/utility_common_idle.lua:834-851
+  n001_CBTWhileNode: function()  -- Sunshine/AI/bt2code/output/utility_common_idle.lua:404-412
+  n00110212_Nop: function()  -- Sunshine/AI/bt2code/output/utility_common_idle.lua:542-546
+  n000000_GetEntityAIData: function()  -- Sunshine/AI/bt2code/output/utility_common_idle.lua:65-76
+  NODE_DATA_CACHE: table <UnknownInstance>
+  n0021010022_Wait: function()  -- Sunshine/AI/bt2code/output/utility_common_idle.lua:953-961
+  n0011032110_StartDialog: function()  -- Sunshine/AI/bt2code/output/utility_common_idle.lua:666-684
+  n00110310_StartDialog: function()  -- Sunshine/AI/bt2code/output/utility_common_idle.lua:594-612
+  n0001110100000_SetBlackboard: function()  -- Sunshine/AI/bt2code/output/utility_common_idle.lua:224-233
+  n00010_CheckIsPreload: function()  -- Sunshine/AI/bt2code/output/utility_common_idle.lua:104-108
+  n0001110100001_SetBlackboard: function()  -- Sunshine/AI/bt2code/output/utility_common_idle.lua:235-244
+  n0001_CBTIfElseNode: function()  -- Sunshine/AI/bt2code/output/utility_common_idle.lua:93-102
+  n000112_Pause: function()  -- Sunshine/AI/bt2code/output/utility_common_idle.lua:392-396
+  n0011000_Pause: function()  -- Sunshine/AI/bt2code/output/utility_common_idle.lua:470-474
+  n002100_ReceiveEventDecorator: function()  -- Sunshine/AI/bt2code/output/utility_common_idle.lua:809-826
+  n001100_ReceiveEventDecorator: function()  -- Sunshine/AI/bt2code/output/utility_common_idle.lua:451-468
+  n002_CBTWhileNode: function()  -- Sunshine/AI/bt2code/output/utility_common_idle.lua:764-772
+  n00012_Pause: function()  -- Sunshine/AI/bt2code/output/utility_common_idle.lua:398-402
+  n001101_Wait: function()  -- Sunshine/AI/bt2code/output/utility_common_idle.lua:476-484
+  n0030_ExecuteBtreeByUtility: function()  -- Sunshine/AI/bt2code/output/utility_common_idle.lua:992-1000
+  n00110321_CBTIfElseNode: function()  -- Sunshine/AI/bt2code/output/utility_common_idle.lua:636-645
+  n0001111_Pause: function()  -- Sunshine/AI/bt2code/output/utility_common_idle.lua:386-390
+  n0001110110_CBTAlwaysSequenceNode: function()  -- Sunshine/AI/bt2code/output/utility_common_idle.lua:355-363
+  n0011032211_WatchEntityNode: function()  -- Sunshine/AI/bt2code/output/utility_common_idle.lua:750-762
+  n0001110_CBTWhileNode: function()  -- Sunshine/AI/bt2code/output/utility_common_idle.lua:145-153
+  n00011100_Nop: function()  -- Sunshine/AI/bt2code/output/utility_common_idle.lua:155-159
+  n0021000_Pause: function()  -- Sunshine/AI/bt2code/output/utility_common_idle.lua:828-832
+  n0000_PassNode: function()  -- Sunshine/AI/bt2code/output/utility_common_idle.lua:42-53
+  entry: string
+  n00011101101_LoadDynamicCompMesh: function()  -- Sunshine/AI/bt2code/output/utility_common_idle.lua:373-384
+  n001103212_Wait: function()  -- Sunshine/AI/bt2code/output/utility_common_idle.lua:686-694
+  n001102_CBTIfElseNode: function()  -- Sunshine/AI/bt2code/output/utility_common_idle.lua:486-495
+  n0021010_CBTAlwaysSequenceNode: function()  -- Sunshine/AI/bt2code/output/utility_common_idle.lua:853-860
+  n002101000_NpcDialogSelect: function()  -- Sunshine/AI/bt2code/output/utility_common_idle.lua:873-881
+  n0021010021_StartDialog: function()  -- Sunshine/AI/bt2code/output/utility_common_idle.lua:933-951
+  n00210_CBTAlwaysSequenceNode: function()  -- Sunshine/AI/bt2code/output/utility_common_idle.lua:799-807

@@ -53,4 +53,43 @@ Keys:
   ERR_CANNOT_UPGRADE: number
   ERR_ADVERSITY_HAS_DO_HS: number
   ERR_NO_ADVERSITY: number
-  (1 more keys)
+  TYPE_DEBATE: number
+  E_PVP_BATTLE_JUDGE_AI: string
+  ERR_IS_THIS_DECK: number
+  E_MIX_MATCH_RESULT: string
+  STATE_READY: number
+  E_PVP_BATTLE_REV_MSG: string
+  E_START_BATTLE: string
+  E_GUIDE_FINISH: string
+  E_AI_CHAT_CHAT: string
+  ERR_CHAT_TIME_OUT: number
+  ROLE2MATCH_RANK: dict
+  ERR_CHAT_ERROR: number
+  STATE_FIGHTING: number
+  E_USE_CARD: string
+  ERR_NOT_CAN_QUICK_START: number
+  ERR_OP_IN_FIGHT: number
+  REPLAY_CODE_TO_ERRCODE: dict
+  ERR_AI_TIMEOUT: number
+  BUFF_FUNCS_RM: dict
+  E_PVP_BATTLE_SEND_MSG: string
+  E_PVP_BATTLE_TURN_RESULT: string
+  ERR_PLAY_NOT_DEBATE: number
+  ERR_OTHER_WANFA: number
+  E_QUICK_BATTLE: string
+  E_GET_REWARD: string
+  E_AI_BATTLE_OVER: string
+  ERR_CHAT_BUSY: number
+  MATCH_CTRL_RAND: number
+  E_AI_BATTLE_CHAT: string
+  DEBATE_JIEHUO: number
+  E_END_BATTLE: string
+  ERR_CHAT_REPLY_WAIT: number
+  MATCH_AILAB: number
+  E_ABANDON_CARD: string
+  MATCH_PVP: number
+  E_AI_BATTLE_START: string
+  RESPONSE_SENSITIVE: number
+  E_PVP_BATTLE_MATCH_TIME_OUT: string
+  ST_WAIT_MSG: number
+  E_DEBATE_LEAVE: string

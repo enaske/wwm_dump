@@ -53,4 +53,5 @@ Keys:
   FENBAO_SRC_TYPE_WAIGUAN: number
   FENBAO_TAB_PRELOAD: number
   FENBAO_RED_POINT_RELOGIN: string
-  (1 more keys)
+  FENBAO_ITEM_TYPE_EXTEND: number
+  FENBAO_TAB_EXTEND: number

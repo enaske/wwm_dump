@@ -53,4 +53,29 @@ Keys:
   UUID_CONF_ID: number
   SA_ERR_DATA: number
   FIRE_WORKS_TYPE_1: number
-  (1 more keys)
+  METHOD_REDBAG: string
+  get_firework_aution_range: function(ts, is_max)  -- hexm/common/consts/firework_consts.lua:435-439
+  UUID_TAG: string
+  FIRE_WORKS_TYPE_2: number
+  check_is_anim_action_firework: function(stuff_no)  -- hexm/common/consts/firework_consts.lua:580-582
+  RANDOM_MY_FRIEND_TXT: number
+  SA_SET_AUTO: number
+  RANDOM_OTHER_ONLINE_PLAYER_TXT: number
+  SA_BIDING_FAIL: number
+  HISTORY_SIZE: number
+  CUSTOM_TXT_SHOW_TYPE: number
+  NOTIFY_NUM: number
+  is_in_max_auction_time: function(ts)  -- hexm/common/consts/firework_consts.lua:398-409
+  METHOD_MSG: string
+  is_in_aution_time: function(ts)  -- hexm/common/consts/firework_consts.lua:386-396
+  CHARGETEST_FIREWORK_TYPE_NEW_YEAR: number
+  FIREWORK_INTERACT_STATUS_FIRE: number
+  FIRE_WORKS_TYPE_3: number
+  SYSTEM_TXT_SHOW_TYPE: number
+  NOTIFY_DELAY: number
+  get_cur_period_firework_type: function()  -- hexm/common/consts/firework_consts.lua:464-473
+  get_uuid: function()  -- hexm/common/consts/firework_consts.lua:90-95
+  get_chargetest_info: function(ts)  -- hexm/common/consts/firework_consts.lua:207-233
+  RANDOM_MY_TXT: number
+  check_is_xiannvbang_firework: function(stuff_no)  -- hexm/common/consts/firework_consts.lua:572-574
+  get_auction_title_no: function(rank)  -- hexm/common/consts/firework_consts.lua:584-586

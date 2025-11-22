@@ -53,4 +53,4 @@ Keys:
   get_activity_left_time_str: function(activity_data)  -- hexm/client/ui/windows/activity/activity_center_consts.lua:266-269
   ACTIVITY_PLACEMENT_BAG: number
   zhenshou_reward_check: function(activity_id)  -- hexm/client/ui/windows/activity/activity_center_consts.lua:59-76
-  (1 more keys)
+  check_task_unlock: function(task_id)  -- hexm/client/ui/windows/activity/activity_center_consts.lua:271-286

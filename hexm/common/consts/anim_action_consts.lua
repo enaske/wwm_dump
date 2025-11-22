@@ -53,4 +53,23 @@ Keys:
   ANIM_ACTION_STATUS_TEAM_CAN_JOIN: dict
   ANIM_ACTION_MULTI_FOLLOW_LEADER: number
   ANIM_ACTION_STATUS_ACTIVE_LEAVE: number
-  (1 more keys)
+  ANIM_ACTION_END: string
+  ANIM_ACTION_CANCEL_INVITE: string
+  ANIM_ACTION_PASSIVE_LEAVE: string
+  ANIM_ACTION_STATUS_JOIN: number
+  ANIM_ACTION_PLAY_ANIM: string
+  ANIM_ACTION_LEAVE_STATUS: dict
+  REASON_STUFF: number
+  ANIM_ACTION_INVITE_RESULT: string
+  FAKE_AVATAR_BODY_TYPE2ENTITY_NO: table <UnknownInstance>
+  UNLOCK_PERMANENT: number
+  get_anim_sysd_filter: function(anim_no, filter, default)  -- hexm/common/consts/anim_action_consts.lua:120-123
+  ANIM_ACTION_FORCE_LEAVE: string
+  ANIM_ACTION_STATUS_PASSIVE_LEAVE: number
+  ANIM_ACTION_STATUS_READY: number
+  ANIM_ACTION_FILTER_TYPE_RECENT: number
+  ANIM_ACTION_STATUS_JOIN_CHECK: number
+  get_handler_clz_by_name: function(handler_name)  -- hexm/common/consts/anim_action_consts.lua:134-140
+  ANIM_ACTION_FILTER_TYPE_SINGLE: number
+  ANIM_ACTION_TONGYOU_WANFA_NO: number
+  get_anim_node_sysd: function(anim_node_no)  -- hexm/common/consts/anim_action_consts.lua:125-127

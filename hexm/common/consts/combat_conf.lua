@@ -53,4 +53,23 @@ Keys:
   DOMAIN_CIRCLE: number
   ATK_CRI_HEAL: number
   ENTER_BATTLE_BY_PLAYER: number
-  (1 more keys)
+  RES_RESUME_BUFF: number
+  BEHIT_MOVE_POST: number
+  ATK_BASH_DMG: number
+  CAL_FEATURE_HIT_ADD_BUFF: number
+  BATCH_UPGRADE_QISHU: number
+  RE_JINGYUAN_KILL_HIT: number
+  RES_CONSUME_SKILL: number
+  BEHIT_RIGHT: number
+  BATTLE_TYPE_PVP: number
+  RE_JINGYUAN_KILL_PERF_DODGE: number
+  ENTER_BATTLE_BEHIT: number
+  HIT_WALL_DETECT_DELAY: number
+  TYPE_FORCE_CUSTOM_HIT: number
+  DamageFlag: dict
+  BEHIT_MID: number
+  RES_CONSUME_BEHIT: number
+  Res: table <UnknownInstance>
+  BEHIT_BACK: number
+  CAL_FEATURE_STOP_FRAME: number
+  BF_STAGE_STATE_CUTSCENE: number

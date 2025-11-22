@@ -53,4 +53,17 @@ Keys:
   TREE_NAME: string
   n0313_Probability: function()  -- Sunshine/AI/bt2code/output/small_dog_idle.lua:644-653
   n0312_AddTargetAction: function()  -- Sunshine/AI/bt2code/output/small_dog_idle.lua:634-642
-  (1 more keys)
+  n031_CBTAlwaysSequenceNode: function()  -- Sunshine/AI/bt2code/output/small_dog_idle.lua:584-596
+  n010110011_Parallel: function()  -- Sunshine/AI/bt2code/output/small_dog_idle.lua:286-294
+  n03142_Nop: function()  -- Sunshine/AI/bt2code/output/small_dog_idle.lua:842-846
+  n042_NavigateTo3DAction: function()  -- Sunshine/AI/bt2code/output/small_dog_idle.lua:923-961
+  n031301_TurningAction: function()  -- Sunshine/AI/bt2code/output/small_dog_idle.lua:703-720
+  n03_CBTWhileNode: function()  -- Sunshine/AI/bt2code/output/small_dog_idle.lua:563-571
+  n031302_PlayAnimAction: function()  -- Sunshine/AI/bt2code/output/small_dog_idle.lua:722-757
+  n03150_CheckTargetDis: function()  -- Sunshine/AI/bt2code/output/small_dog_idle.lua:859-872
+  n031300_PlayAnimAction: function()  -- Sunshine/AI/bt2code/output/small_dog_idle.lua:666-701
+  n010110012_PlayAnimAction: function()  -- Sunshine/AI/bt2code/output/small_dog_idle.lua:357-392
+  n040_CheckTargetDis: function()  -- Sunshine/AI/bt2code/output/small_dog_idle.lua:902-915
+  n01011_CBTAlwaysSequenceNode: function()  -- Sunshine/AI/bt2code/output/small_dog_idle.lua:136-143
+  n01010_Nop: function()  -- Sunshine/AI/bt2code/output/small_dog_idle.lua:130-134
+  n03151_SetBlackboard: function()  -- Sunshine/AI/bt2code/output/small_dog_idle.lua:874-883

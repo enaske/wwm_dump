@@ -53,4 +53,51 @@ Keys:
   ACTION_READY: number
   ACTIVE_INTERACT_STEP_PRE_RESULT: number
   ACTIVE_INTERACT_STEP_RESULT: number
-  (1 more keys)
+  ACTION_RUNNING: number
+  CHANGE_WAY_SYNC_SERIAL_ENTITY: number
+  COMP_PRIVATE_TYPE_NONE: number
+  process_need_call_start: function(process_type)  -- hexm/common/consts/interact_component_consts.lua:187-189
+  COMP_TYPE_IWORLD_STATIC_ENTITY_MATCH_PATTERN: string
+  CHANGE_WAY_TIMEOUT: number
+  COMBINE_MODE_ST_AFTER: string
+  WAY_NO_NPC_STUFF: number
+  COMP_EID_POSTFIX: string
+  CHANGE_WAY_OTHER_COMP_RELATION_CHANGED: number
+  COMP_TYPE_INS_ENTITY_PREFIX: string
+  NPC_INTERACTING_FLAG_BRANCH_SELECT: string
+  COMP_TYPE_INS_STATIC_ENTITY_PREFIX: string
+  is_type_static_entity: function(comp_type)  -- hexm/common/consts/interact_component_consts.lua:141-143
+  WAY_TYPE_SPECIAL: number
+  CHANGE_WAY_SUB_GAMEPLAY_CHANGED: number
+  CHANGE_WAY_OTHER_COMP_STATUS_CHANGED: number
+  NPC_INTERACTING_FLAG_DIALOG: string
+  COMP_TYPE_IWORLD_STATIC_ENTITY: number
+  RELATION_TYPE_TURRET_PLAYER_BULLET: number
+  WAY_TYPE_INDEPENDENT_FROM_CONFIG: number
+  RELATION_TRANSITION_DESTROY: number
+  is_iworld_static_entity: function(comp_type)  -- hexm/common/consts/interact_component_consts.lua:161-163
+  MASK_INS_COMP_TYPE: number
+  STATUS_DESTROYED: number
+  ACTIVE_INTERACT_STEP_NONE: number
+  process_need_call_result: function(process_type)  -- hexm/common/consts/interact_component_consts.lua:191-193
+  COMP_TYPE_PREFIX: list
+  is_type_local_npc: function(comp_type)  -- hexm/common/consts/interact_component_consts.lua:145-147
+  COMBINE_MODE_ST_PATH_TABLE_KEY: list
+  WAY_TYPE_INDEPENDENT_FROM_CUSTOM: number
+  RELATION_FORBID: dict
+  COMBINE_MODE_ST_START: string
+  RELATION_TYPE_EMPTY: number
+  FORCE_SAVE_TYPE_ALL: number
+  MASK_COMP_TYPE: number
+  RELATION_TYPE_TEMP_WEAPON: number
+  ACTIVE_INTERACT_STEP_PRE_START: number
+  RELATION_TYPE_SITDOWN: number
+  process_need_call_end: function(process_type)  -- hexm/common/consts/interact_component_consts.lua:199-201
+  NPC_INTERACTING_FLAG_WANWU_INTERACT: string
+  CHANGE_WAY_IDENTIFIER: number
+  SIMULATE_INTERACT_TYPE_WUSHI: number
+  PROGRESS_CALL_RESULT: number
+  SIMULATE_INTERACT_TYPE_TELEKINESIS: number
+  ACTIVE_INTERACT_STEP_START: number
+  RELATION_TYPE_NORMAL: number
+  CHANGE_WAY_MOVE: number

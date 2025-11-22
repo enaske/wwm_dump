@@ -53,4 +53,8 @@ Keys:
   POST_CONTENT_CACHE: dict
   RECOMMEND_CONFIG: dict
   is_redpoint_recommend_changed: function(cur_post_dict, last_posts)  -- hexm/client/ui/windows/login/login_post/login_post_consts.lua:550-561
-  (1 more keys)
+  POST_ITEM_TYPE_IMG: number
+  split_by_line: function(content, split_count)  -- hexm/client/ui/windows/login/login_post/login_post_consts.lua:613-644
+  check_post_language: function(language_str)  -- hexm/client/ui/windows/login/login_post/login_post_consts.lua:248-264
+  set_post_red_point_data: function(post_name, param)  -- hexm/client/ui/windows/login/login_post/login_post_consts.lua:576-582
+  get_post_data_by_name_cb: function(succ, request, replay, post_name, callback)  -- hexm/client/ui/windows/login/login_post/login_post_consts.lua:179-186

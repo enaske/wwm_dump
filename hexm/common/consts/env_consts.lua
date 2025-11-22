@@ -53,4 +53,34 @@ Keys:
   calc_temperature_id: function(temperature)  -- hexm/common/consts/env_consts.lua:261-271
   NO_BODY_POISON: number
   NO_ENV_ORDEAL_FEAR: number
-  (1 more keys)
+  body_condition_get_res_value_by_id: function(res_id)  -- hexm/common/consts/env_consts.lua:404-434
+  get_show_line_by_body_id: function(body_id)  -- hexm/common/consts/env_consts.lua:436-445
+  ENV_ORDEAL_REASON_IN_DOOR: number
+  get_temperature_min: function(avatar)  -- hexm/common/consts/env_consts.lua:254-258
+  get_temperature_max: function(avatar)  -- hexm/common/consts/env_consts.lua:247-251
+  get_moisture_max: function(avatar)  -- hexm/common/consts/env_consts.lua:212-216
+  get_breath_max: function(avatar)  -- hexm/common/consts/env_consts.lua:139-149
+  ENV_ORDEAL_REASON_WEATHER: number
+  NO_BODY_RES_LIST: list
+  ENV_ORDEAL_TYPE_TOXIC: number
+  get_concentration: function(avatar)  -- hexm/common/consts/env_consts.lua:66-68
+  NO_DRUNK: number
+  get_env_attr_id: function(env_no, avatar)  -- hexm/common/consts/env_consts.lua:340-345
+  body_condition_safe_get_value: function(curr_num, max_num)  -- hexm/common/consts/env_consts.lua:393-401
+  ENV_ORDEAL_REASON_REGION: number
+  NO_TEMPERATURE: number
+  get_value_func: dict
+  NO_RES_TO_BODY_ID: dict
+  NO_BODY_FEAST: number
+  E_CHANGE_FEAST: number
+  get_drunkfeeling_id: function(avatar)  -- hexm/common/consts/env_consts.lua:114-131
+  NO_BODY_BREATH: number
+  calc_moisture_id: function(moisture)  -- hexm/common/consts/env_consts.lua:219-229
+  DEF_ORDEAL_MAP: dict
+  NO_BODY_COLD: number
+  get_drunkfeeling_max: function(avatar)  -- hexm/common/consts/env_consts.lua:101-111
+  ENV_ORDEAL_TYPE_HOT: number
+  get_concentration_id: function(avatar)  -- hexm/common/consts/env_consts.lua:78-93
+  NO_FEAST: number
+  ENV_ORDEAL_REASON_WATER: number
+  BUFF_K: dict

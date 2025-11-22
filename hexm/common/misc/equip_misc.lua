@@ -53,4 +53,9 @@ Keys:
   get_slot_equip: function(avatar, equip_slot, equip_type, raw)  -- hexm/common/misc/equip_misc.lua:866-881
   get_idt_equip_bag: function(avatar)  -- hexm/common/misc/equip_misc.lua:906-920
   get_total_base_attrs_by_equip_info: function(equip_info)  -- hexm/common/misc/equip_misc.lua:1131-1161
-  (1 more keys)
+  get_enhance_max_level: function(No, equip_sys_d)  -- hexm/common/misc/equip_misc.lua:432-438
+  check_equip_forge_lock: function()  -- hexm/common/misc/equip_misc.lua:988-991
+  get_all_equip_attrs: function(slot2equip, slot2lv)  -- hexm/common/misc/equip_misc.lua:179-246
+  get_active_suit_suffix: function(slot2equip)  -- hexm/common/misc/equip_misc.lua:298-321
+  get_equip_extra_score: function(equip)  -- hexm/common/misc/equip_misc.lua:1196-1209
+  get_dressed_equip: function(avatar, equip_type, equip_subtype)  -- hexm/common/misc/equip_misc.lua:804-835

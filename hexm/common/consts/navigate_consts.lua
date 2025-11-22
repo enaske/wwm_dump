@@ -53,4 +53,12 @@ Keys:
   MAX_TILES: number
   CLIENT_NAVIGATE_CYCLE_ROAD: string
   ROAD_POINT_TYPE_EMPTY: number
-  (1 more keys)
+  encode_road_flag: function(exclude, include)  -- hexm/common/consts/navigate_consts.lua:50-54
+  POLYFLAGS_BORDER: number
+  NAVIGATE_MIN_DIS_SQUARE: number
+  NAVIGATE_MIDDLE_ITERS: number
+  POLYFLAGS_JUMP_DOWN: number
+  CLIENT_FOLLOW_TO_ENT: string
+  ROAD_POINT_TYPE_INNER: number
+  IS_CONNECTED_MAX_ITERS: number
+  FLAG_SERVER_NAVIGATE: string

@@ -53,4 +53,27 @@ Keys:
   INDUSTRY_LAND_STATE_TASK: number
   INDUSTRY_LAND_STATE_BLANK: number
   INDUSTRY_LAND_TAG_NORMAL: string
-  (1 more keys)
+  get_countdown_format_str: function(target_ts)  -- hexm/client/consts/industry_land_consts.lua:245-257
+  check_land_industry_front_unlock: function(spaceno, industry_id, param)  -- hexm/client/consts/industry_land_consts.lua:281-289
+  INDUSTRY_LAND_TAG_AUCTION: string
+  get_show_like_num: function()  -- hexm/client/consts/industry_land_consts.lua:342-344
+  INDUSTRY_LAND_BIGWORLD_SPACENO: number
+  INDUSTRY_LAND_AREA_SHOW_STATE_RED: number
+  INDUSTRY_LAND_STATE_FREE_DIVIDED: number
+  INDUSTRY_LAND_AREA_BLUE_EFFECT: number
+  INDUSTRY_CANT_LIKE_STATES: list
+  INDUSTRY_UNLOCK_TYPE_FRONT: number
+  calc_land_building_compensation: function(buildings)  -- hexm/client/consts/industry_land_consts.lua:172-180
+  INDUSTRY_LAND_XUANSHANG_NO: number
+  INDSUTRY_LAND_STATE_AUCTION_JOIN: number
+  INDUSTRY_SPACENO_TAG_TO_MODEL_CLZ: dict
+  INDUSTRY_LAND_HOMEWORLD_SPACENO: number
+  INDUSTRY_UNLOCK_TYPE_TASK: number
+  INDUSTRY_LAND_UNLOCK_NO: number
+  get_industry_level_sysd: function(industry_no, level)  -- hexm/client/consts/industry_land_consts.lua:232-234
+  INDUSTRY_LAND_TAG_FREE: string
+  get_industry_sysd: function(industry_no)  -- hexm/client/consts/industry_land_consts.lua:228-230
+  INDUSTRY_LAND_STATE_ILLEGAL_REPORTED: number
+  INDUSTRY_LAND_NOTIFY_AUCTION_PAY: number
+  get_renewal_overdue_now_ts: function(ts_expire)  -- hexm/client/consts/industry_land_consts.lua:328-336
+  INDUSTRY_LAND_AREA_SHOW_STATE_NONE: number

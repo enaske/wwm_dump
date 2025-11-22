@@ -53,4 +53,29 @@ Keys:
   get_aim_target_type: function(avatar, target, mf_id)  -- hexm/common/consts/arrow_consts.lua:84-109
   AIM_TYPE_INTERACT: number
   HORSE_FORBID_SHOOT_CHANGE_HAND: string
-  (1 more keys)
+  AIM_MODE_NONE: number
+  WEAPON_ATTACH_GROUP: number
+  SPEC_TYPE_AUTO_AIM: number
+  ARROW_ATTACH_BONE_RIGHT_HAND: string
+  BT_PASSIVE_COMMON_KEY: string
+  AIM_POSTURE_SCENE_QUERY_START_OFFSET: number
+  ARROW_ALLOW_SHOOT_TYPE_ALL: number
+  ARCHER_SHOOT_SKILL_SET: dict
+  BT_ACTIVE_BIT: number
+  BT_PASSIVE_RIDE_KEY: string
+  EQUIP_WEAPON_BOW_RPC_EQUIPPING: number
+  ENTER_ARROW_MODE_DISABLE_TOAST: dict
+  ZHISHUI_QISU_ID: number
+  ARROW_TYPE_WOODEN: number
+  ARROW_TYPE_POISON: number
+  get_arrow_sys_d_rep: function(arrow_id)  -- hexm/common/consts/arrow_consts.lua:194-211
+  EQUIP_WEAPON_ALREADY: number
+  SKILL_ID_ROLLING_SKILL: number
+  SKILL_ID_CANCEL_SKILL: number
+  ARROW_TYPE_FIRE: number
+  SKILL_ID_ARCHER_SHOOT_FLY_FAST: number
+  check_zhishui_unlock: function(avatar, space_no)  -- hexm/common/consts/arrow_consts.lua:165-174
+  check_can_equip: function(arrow_id, space_no)  -- hexm/common/consts/arrow_consts.lua:182-192
+  ARROW_TAG_AIM: string
+  ZHISHUI_DISABLE_TEXT_NO: number
+  EQUIP_WEAPON_RPC_EQUIPPING: number

@@ -53,4 +53,20 @@ Keys:
   CAT_HAIR: number
   CAT2POINT: dict
   CAT_CLOAK: number
-  (1 more keys)
+  check_dyeing_preset_contains: function(avatar, guise_id, preset_no)  -- hexm/common/misc/guise_dyeing_misc.lua:757-760
+  GUISE_DYEING_POINT_TOP: number
+  CAT_TOP: number
+  GUISE_DYEING_POINT_CLOAK: number
+  get_bag_guise: function(avatar, guise_id)  -- hexm/common/misc/guise_dyeing_misc.lua:279-297
+  is_guise_owned: function(avatar, guise_id)  -- hexm/common/misc/guise_dyeing_misc.lua:411-413
+  get_dyeing_preset_cost: function(avatar, point_no, guise_id)  -- hexm/common/misc/guise_dyeing_misc.lua:709-755
+  GUISE_DYEING_POINT_HAIR: number
+  get_bag_guise_no: function(avatar, guise_id)  -- hexm/common/misc/guise_dyeing_misc.lua:317-327
+  get_dye_cost_num: function(view_no, sys_d)  -- hexm/common/misc/guise_dyeing_misc.lua:98-102
+  get_dressing_dyeing_preset_no: function(avatar, point_no)  -- hexm/common/misc/guise_dyeing_misc.lua:236-242
+  CAT_BOTTOM: number
+  get_area2raw_from_ex: function(ex)  -- hexm/common/misc/guise_dyeing_misc.lua:252-261
+  check_dyeing_free: function(avatar, stuff_no)  -- hexm/common/misc/guise_dyeing_misc.lua:699-707
+  get_bag_guise_dyeing_cover: function(avatar, guise_id, preset_no)  -- hexm/common/misc/guise_dyeing_misc.lua:372-376
+  check_dyeing_preset_unlocked: function(avatar, point_no, guise_id, preset_no)  -- hexm/common/misc/guise_dyeing_misc.lua:779-791
+  get_area2raw_from_view_item: function(view_item)  -- hexm/common/misc/guise_dyeing_misc.lua:263-265

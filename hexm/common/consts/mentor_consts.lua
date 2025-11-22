@@ -53,4 +53,38 @@ Keys:
   E_MENTOR_POST_FAIL: number
   MENTOR_MASTER_BACKGROUND_EDIT: number
   EVENT_MENTOR_ADD_COIN: string
-  (1 more keys)
+  E_MENTOR_NOT_EXIST: number
+  H72_FIND_TUDI: string
+  EVENT_MENTOR_CREATE_START: string
+  EVENT_MENTOR_RECEIVE_APPLY: string
+  BAISHI_REQUEST_STATE_HUIYUE: number
+  EVENT_GRADUATE_FOR_MENTOR: string
+  E_MENTOR_MENTOR_LACK_LEVEL: number
+  EVENT_MENTOR_POST_INFO: string
+  BAISHI_REQUEST_STATE_ORIGIN: number
+  check_is_qualified_student: function(avatar)  -- hexm/common/consts/mentor_consts.lua:91-103
+  EVENT_MENTOR_CREATE_CONFIRM: string
+  EVENT_MENTOR_DELETE_PRE: string
+  E_MENTOR_HAS_JIEQI: number
+  E_MENTOR_IS_MY_STUDENT: number
+  get_students_num: function(avatar)  -- hexm/common/consts/mentor_consts.lua:105-107
+  EVENT_GRADUATE_CALLBACK: string
+  EVENT_MENTOR_CREATE: string
+  EVENT_COME_TO_GRADUATE: string
+  H72_FIND_MENTOR: string
+  E_MENTOR_STUDENT_LACK_LEVEL: number
+  EVENT_GRADUATE_FOR_STUDENT: string
+  E_MENTOR_IS_MY_MENTOR: number
+  E_MENTOR_GRADUATE_STUDENT_LACK_LEVEL: number
+  EVENT_MENTOR_POST_DEL: string
+  check_is_qualified_mentor: function(avatar)  -- hexm/common/consts/mentor_consts.lua:79-88
+  EVENT_MENTOR_EMAIL: string
+  E_MENTOR_REACH_DAILY_LIMIT: number
+  EVENT_MENTOR_REPLY_APPLY: string
+  EVENT_MENTOR_CANCEL_APPLY: string
+  MENTOR_EVENT_SPECIAL: list
+  EVENT_MENTOR_DELETE_PRE_NOTIFY: string
+  mentor_expire_time: function()  -- hexm/common/consts/mentor_consts.lua:45-48
+  E_MENTOR_IS_BREAK_IN_WAIT: number
+  E_MENTOR_HAS_GRADUATED: number
+  EVENT_MENTOR_REMIND_MENTEE: string

@@ -245,4 +245,16 @@ Keys:
     Functions:
       ctor(self, owner, node_data, parent_node, runner)  -- hexm/common/AI/nodes/common_action_nodes/combat_nodes.lua:1233-1237
       run(self)  -- hexm/common/AI/nodes/common_action_nodes/combat_nodes.lua:1239-1258
-  (1 more keys)
+  SyncDeadAction: class <SyncDeadAction>
+    Functions:
+      ctor(self, owner, node_data, parent_node, runner)  -- hexm/common/AI/nodes/common_action_nodes/combat_nodes.lua:1148-1155
+      run(self)  -- hexm/common/AI/nodes/common_action_nodes/combat_nodes.lua:1157-1178
+      finish_clear(self, state)  -- hexm/common/AI/nodes/common_action_nodes/combat_nodes.lua:1180-1184
+  ApplyMagicField: class <ApplyMagicField>
+    Functions:
+      ctor(self, owner, node_data, parent_node, runner)  -- hexm/common/AI/nodes/common_action_nodes/combat_nodes.lua:998-1002
+      run(self)  -- hexm/common/AI/nodes/common_action_nodes/combat_nodes.lua:1004-1017
+  CheckBeParryCount: class <CheckBeParryCount>
+    Functions:
+      ctor(self, owner, node_data, parent_node, runner)  -- hexm/common/AI/nodes/common_action_nodes/combat_nodes.lua:2113-2120
+      run(self)  -- hexm/common/AI/nodes/common_action_nodes/combat_nodes.lua:2122-2138

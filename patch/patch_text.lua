@@ -53,4 +53,36 @@ Keys:
   DOWNLOADING_TIP: string
   LAUNCHER_UPDATE_PKG_TEXT: string
   STORAGE_PERMISSION_REFUSE_TEXT: string
-  (1 more keys)
+  DISTRIBUTION_TAG_TO_PKG_HINT: table <UnknownInstance>
+  DOWNLOAD_CLICK: string
+  INITIALIZING: string
+  SKIP_PATCH_TEXT: string
+  REVIEW_WRONG_PRE_KEY: string
+  COMPACT_FILE_TEXT_3: string
+  FASHAO_NOT_ENOUGH_SPACE_TEXT: string
+  HOTFIX_FAIL_TEXT: string
+  REVIEW_WRONG_NB_KEY: string
+  ENGINE_TIP: string
+  UPDATE_TIP: string
+  RESOURCE_TIP: string
+  NOT_ENOUGH_SPACE_TEXT: string
+  BAD_NETWORK_TEXT: string
+  FETCH_LOCAL_FILE_TEXT: string
+  PROCESS_NAME: string
+  TEST_END_TIP: string
+  TEST_END_TEXT: string
+  NETWORK_TIP: string
+  GAMING_TEXT: string
+  CLEAR_CORRUPT_FAIL_TEXT: string
+  NOT_FASHAO_VERIFY_LOCAL_FILE_FAIL_TEXT: string
+  CLEAN_FILE: string
+  FETCH_HOTFIX_FILE: string
+  DOWNLOAD: string
+  PATCH_DOWNLOAD_NOTIFY_TITLE: string
+  FASHAO_VERIFY_LOCAL_FILE_FAIL_TEXT: string
+  STORAGE_PERMISSION_TEXT: string
+  LAUNCHER_REVIEW_FAIL_TEXT: string
+  refresh_texts: function()  -- patch/patch_text.lua:257-271
+  FETCH_DOWNLOAD_TEXT: string
+  LAUNCHER_DATABASE_ERROR_TEXT: string
+  LOAD_GAME_TEXT: string

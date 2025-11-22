@@ -80,31 +80,31 @@ Keys:
       d3085bd343f15696bb5e813a879cb65f17053b81e7d2783f9cf5ab7dd77c859e(...)  -- hotfix_20251118-205114
       26e7f575e0eecbcd89fd9c6ec30a1582b54646a2bde1fb2b398bd80972e148e6(...)  -- hotfix_20251115-213457
       267287f5c7f4da2bd18210738c8e0eefc919cc05ea66fa591373ba119f992436(...)  -- hotfix_20251117-163524
-      871361c2b59b2c4621082dfe9d52244a3468388cdb1d617e5cae57a9f3c0eb4a(...)  -- return dict(pc=0x10, xbox=0x5C, ps=0x5C)
-      10724289aae8bf0daefe38c20a4f9ef2135bceb66a1a7efcabf87b5eb1f59126(...)  -- hotfix_20251116-172603
-      339(...)  -- return 339
-      340(...)  -- return 340
-      341(...)  -- return 341
-      211(...)  -- return 211
       30d017c3f31ddb78a8a9f1d0e8706c019ff80ac0d2eeab75e945556726632a88(...)  -- hotfix_20251115-103659
       31590d9da6f5a9ec7b0ba150054c65a0fcb96587108532078126a898444136b8(...)  -- hotfix_20251118-183526
       fcc724cc7c5fc494a601b1c3a1f9f7578e98977833aa818443e2f98427da1fa5(...)  -- hotfix_20251116-170047
       d2ab8562f20d5bdd77e0240ca3036292b5b2b4f51ef4fb6880f3eb6741e1e978(...)  -- hotfix_20251118-011705
       06ba82bbe0237d88791ef2ccefc8730e340c2a90bda61b2cddbc0bb107bf3a63(...)  -- hotfix_20251118-221543
       aa8ed1cc2c4293085db4cd89c9031c60509981f191df3ee2af1c87a7aecd9710(...)  -- hotfix_20251114-230519
-      8c0b760d3d6b2c0df906a18a3ec39a9c3aa8b8df3ec77934de9d4f4b84909225(...)  -- hotfix_20251117-193522
       c53f2dcd350984ca203d7a5b07249d1fad60988b41eea81f1cbdf185b88d62da(...)  -- hotfix_20251116-164302
       1cdf1da01c8b4374a86d45ef252c352609bb410013c0689391c38ee2d774109e(...)  -- hotfix_20251120-193452
       6d58ca8e99c5da85faf7707b7fc47cb699ab7ba2dd9e5809ee01af33a01cf4b2(...)  -- hotfix_20251115-064527
       3306aac244d3bcadc1d1971a039005c5b524bc4c8511bc65b25add0a76b92dd3(...)  -- hotfix_20251119-155636
-      2300053(...)  -- return 2300053
-      156(...)  -- return 156
       25cd5c15b5b6de49a90365306d2168b8db2a9ebc19bc9d6fddde33efbaa5f760(...)  -- hotfix_20251114-164339
-      DebateBattleSettleVictoryWindow(...)  -- return DebateBattleSettleVictoryWindow
+      2300053(...)  -- return 2300053
       fd030f0e596fdb79598e93ec0e05cc672dc809fe5645e6fa2b67fa202a7a04d4(...)  -- return G.net:get_avatar().recommend_wanfa.final_reward == 1
       dccd7ead6ecac81eb1ccf206eaa649fe1c69f83d00dbd675e4b33ae2b81f2e9e(...)  -- hotfix_20251114-190958
       9c2135519cce198080fd73265ca1dcdd2317311b7ecb3943530c20fc42bb6e20(...)  -- hotfix_20251120-144119
       739d5a13df41ccaffbcb16e6859e52e4f8cc3d261f18cbe629acbc1079e42f89(...)  -- hotfix_20251115-220022
+      7434e383c1d136f72699d8395a9edbbfd698254dd41c0e83c05e6d29e3a8eb4f(...)  -- hotfix_20251116-163225
+      31d8b2f24de89ebadb0e7d89161c0deea42d61080ea7c8143be124ff528a39af(...)  -- hotfix_20251114-184215
+      0de64c492fd43c3684fb3679465c67cf8cdf5f49c8244e5117708b915c201668(...)  -- hotfix_20251122-161905
+      9c1865ae0dae896943f7b440ff7872db768608e02ee523540dde9d6d43672c2b(...)  -- hotfix_20251121-152248
+      08a9743256d77f4746063064335564c72ee2bc4c356f5f88ab34a4e3435b8db1(...)  -- hotfix_20251115-000443
+      06b9a9a2684a9ea08f7190db7a4ed65fb6511ab2c1bc79b5c555842aeeb11174(...)  -- hotfix_20251118-211137
+      3afa6c1f25ef35e4db95e7d90fbe524bf91f392c05b0ef366e6910a941f4c421(...)  -- hotfix_20251121-220719
+      1997ed60729b56f7b47380982ec387787d71262218c7481e531b8b15a19d6198(...)  -- hotfix_20251114-173935
+      60b021d7d13b48da8f5cab0b294129535934d3c0dd3018361a638a40cc712ee8(...)  -- hotfix_20251116-182544
   get_avatars: function()  -- hexm/common/util/util.lua:484-486
   method: function(func, ins)  -- hexm/common/util/util.lua:397-401
   set_bit: function(d, index, bit_value)  -- hexm/common/math/bmath.lua:49-68

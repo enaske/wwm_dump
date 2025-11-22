@@ -53,4 +53,22 @@ Keys:
   get_daka_progress_level: function()  -- hexm/client/consts/huajian_consts.lua:84-95
   get_huajian_score_by_reward_no: function(reward_no)  -- hexm/client/consts/huajian_consts.lua:274-285
   spot_has_no_task: function(spot_no)  -- hexm/client/consts/huajian_consts.lua:97-102
-  (1 more keys)
+  HUJIAN_SPOT_STATE_FINISH: number
+  get_hujian_spot_tips_vx: function(spot_no)  -- hexm/client/consts/huajian_consts.lua:119-122
+  is_huajian_wanfa_unlock: function(wanfa_no)  -- hexm/client/consts/huajian_consts.lua:247-254
+  get_huajian_weekly_task_count: function()  -- hexm/client/consts/huajian_consts.lua:256-258
+  get_challenge_unlock: function(challenge_id)  -- hexm/client/consts/huajian_consts.lua:349-352
+  get_huajian_wanfa_finished_count: function(wanfa_no)  -- hexm/client/consts/huajian_consts.lua:235-245
+  HUAJIAN_WEEKLY_TASK: number
+  open_huajian_score_tips: function(button)  -- hexm/client/consts/huajian_consts.lua:331-347
+  get_spot_daka_unlock: function(spot_no)  -- hexm/client/consts/huajian_consts.lua:199-202
+  WANFA_FINISH_COLOR: list
+  get_spot_finish_unlock: function(spot_no)  -- hexm/client/consts/huajian_consts.lua:359-362
+  FLOWER_MAX_REWARD_LEVEL: number
+  weekly_task_comp: function(a, b)  -- hexm/client/consts/huajian_consts.lua:420-428
+  get_weekly_task_order: function(a)  -- hexm/client/consts/huajian_consts.lua:403-418
+  get_huajian_spot_all_task_count: function(config_no)  -- hexm/client/consts/huajian_consts.lua:291-295
+  is_huajian_unlock: function()  -- hexm/client/consts/huajian_consts.lua:397-400
+  get_hujian_wanfa_count: function(wanfa_no)  -- hexm/client/consts/huajian_consts.lua:168-176
+  WANFA_LOCK_COLOR: list
+  get_huajian_collect_count: function(config_no)  -- hexm/client/consts/huajian_consts.lua:260-262

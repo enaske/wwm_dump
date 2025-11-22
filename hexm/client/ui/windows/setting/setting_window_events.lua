@@ -53,4 +53,18 @@ Keys:
   btn_open_hint: string
   get_is_all_key_origin: function(is_console, is_building)  -- hexm/client/ui/windows/setting/setting_window_events.lua:309-343
   check_same_list: function()  -- hexm/client/ui/windows/setting/setting_window_events.lua:152-154
-  (1 more keys)
+  PLATFORM_MOBILE_PAD: number
+  PLATFORM_PC: number
+  setting_platform_check: function(platform)  -- hexm/client/ui/windows/setting/setting_window_events.lua:468-484
+  PLATFORM_CONST_TO_NUM: dict
+  event_pc_edit_set_up_key: string
+  event_pc_edit_set_down_key: string
+  event_joystick_console_type_focused: string
+  event_pc_edit_hover: string
+  get_origin_key_map: function(map_id)  -- hexm/client/ui/windows/setting/setting_window_events.lua:225-250
+  event_console_edit_maintype_clicked: string
+  get_key_dict_by_map_dict: function(keymap)  -- hexm/client/ui/windows/setting/setting_window_events.lua:278-307
+  PLATFORM_PC_MID_STEAM: number
+  get_is_origin_key: function(map_id, cur_keymaps)  -- hexm/client/ui/windows/setting/setting_window_events.lua:184-222
+  get_joystick_now_dict: function()  -- hexm/client/ui/windows/setting/setting_window_events.lua:134-149
+  event_pc_edit_change_key_clicked: string

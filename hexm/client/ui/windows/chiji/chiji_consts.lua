@@ -53,4 +53,76 @@ Keys:
   BAG_FROM_TYPE_NORMAL: number
   is_item_tag_sources: function(item_tag)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:163-168
   E_CLICK_OTHER_ITEM: string
-  (1 more keys)
+  get_first_empty_slot: function(loot_item_type, bag_slots_info, temp_bag_slots_info, avatar, with_temp_bag)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:1497-1527
+  get_first_slot_idx_for_loot_type: function(loot_item_type)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:1536-1541
+  get_chiji_active_handler_priority: function(handlers, chiji_interact_priority_sys_d)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:2114-2129
+  BAG_FROM_TYPE_LEGACY: number
+  E_CLICK_BAG_ITEM: string
+  OWNER_BY_CMP: number
+  chiji_get_bag_valid_slots_nums: function()  -- hexm/client/ui/windows/chiji/chiji_consts.lua:816-823
+  unpack_legacy_loot_item_type: function(client_data)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:485-491
+  SLOT_IDX_TO_TABLE_IDX: dict
+  get_mark_item_no: function(marker_data)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:1051-1063
+  construct_stuffs_data_by_legacy_drops: function(legacy_comp_id)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:415-466
+  ITEM_TAG_QISHU: number
+  get_slot_table_idx: function(slot_idx)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:137-140
+  get_bag_slots_info_qishu: function(avatar)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:1423-1444
+  get_loot_item_type_by_stuff_no: function(stuff_no)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:542-571
+  ITEM_TAG_LEGACY: number
+  get_curr_loot_item_type_slot_idx_for_compare: function(loot_item_type, src_comp_no, src_item_tag)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:1742-1837
+  chiji_pickup_comp_from_bag: function(item_tag, item_data, slot_id, is_temp_bag, is_drag)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:626-688
+  ITEM_TAG_EQUIP: number
+  get_first_empty_slot_armor: function(loot_item_type, bag_slots_info, temp_bag_slots_info, avatar, with_temp_bag)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:1607-1616
+  is_item_tag_free_sources: function(item_tag)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:170-172
+  get_bag_slots_info: function(loot_item_type, avatar)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:1353-1367
+  get_chiji_bag_items_cnt: function(stuff_no)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:2099-2111
+  set_icon_xinfa_info: function(self, stuff_icon_data)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:1879-1901
+  is_item_tag_temp_bag: function(item_tag)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:174-179
+  chiji_get_related_skill_id: function(stuff_no)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:869-886
+  ITEM_TAG_FREE_SOURCES: table
+  CHIJI_DEFAULT_DRUG_STUFF_NO: number
+  get_sorted_temp_bag_slots_info: function(equip_slots_info)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:1306-1340
+  is_qishu_already_equipped: function(avatar, qishu_id)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:888-896
+  is_loot_type_equips_generally: function(loot_item_type)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:146-148
+  get_bag_slots_info_xinfa: function(avatar)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:1401-1421
+  ITEM_TAG_XINFA: number
+  PICK_TYPE_NONE: number
+  pack_legacy_pick_up_client_data: function(loot_item_type, comp_no, stuff_no, stuff_cnt)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:469-471
+  get_bag_slots_info_weapon: function(avatar)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:1369-1399
+  get_first_empty_slot_xinfa: function(loot_item_type, bag_slots_info, temp_bag_slots_info, avatar, with_temp_bag)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:1569-1592
+  get_slot_idx_with_same_loot_item_group: function(src_comp_no)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:1204-1249
+  chiji_drug_stuff_cmp: function(stuff_no_a, stuff_no_b)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:1067-1078
+  get_mark_state: function(item_tag, item_data, chiji_bag_model)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:937-966
+  is_stuff_marked: function(all_stuff_mark, entity_id, stuff_item_id)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:968-1008
+  CHIJI_FLOAT_HOVER_ON_DELAY: number
+  get_mark_pic: function(mark_owner_info)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:1038-1049
+  ITEM_TAG_TEMP_BAG: table
+  chiji_fujin_stuff_cmp: function(item_tag, chiji_bag_model, item_data_a, item_data_b)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:1110-1183
+  chiji_show_loot_to_teammates: function(comp_no)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:2028-2096
+  chiji_stuff_use: function(stuff_id, stuff_no)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:1185-1202
+  ITEM_TAG_STORE: number
+  E_HOVER_BAG_ITEM: string
+  LOOT_TYPE_TO_FIRST_SLOT_IDX: dict
+  construct_stuffs_data_by_store_stuffs: function(store_npc_id, shop_id)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:494-540
+  get_first_empty_slot_bow: function(loot_item_type, bag_slots_info, temp_bag_slots_info, avatar, with_temp_bag)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:1618-1627
+  chiji_quick_stuff_item_cmp: function(item_a, item_b)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:1080-1108
+  is_stuff_chiji_drug: function(stuff_no)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:1950-1956
+  OWNER_BY_BAG: number
+  is_loot_type_can_stack_up: function(loot_item_type)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:150-153
+  get_bag_slots_info_bow: function(avatar)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:1468-1487
+  GET_FIRST_EMPTY_SLOT: dict
+  can_loot_lhs_replace_rhs: function(comp_data_lhs, comp_data_rhs, loot_item_type)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:1721-1740
+  GET_BAG_SLOTS_INFO: dict
+  get_mark_owner_info: function(mark_data)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:1010-1036
+  construct_interact_loot_stuff_data: function(comp_id)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:1961-1985
+  is_loot_type_normal_items: function(loot_item_type)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:159-161
+  get_temp_bag_slots_info: function(loot_item_type)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:1265-1304
+  is_loot_item_can_auto_pick_with_empty_slot: function(comp_data, bag_slots_info, temp_bag_slots_info)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:1629-1675
+  PICK_NONE_REASON_UNIQUE: number
+  chiji_get_comp_no_from_slot_id: function(loot_item_type, slot_id, is_temp_bag)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:573-624
+  is_loot_type_equips: function(loot_item_type)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:142-144
+  get_bag_slots_info_armor: function(avatar)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:1446-1466
+  generate_item_id: function(prefix, item_tag, real_key)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:181-183
+  chiji_unmark_stuff_helper: function(mark_id)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:933-935
+  SLOT_REPLACE_FROM_INTERACT: number
+  get_chiji_stuff_icon_data: function(item_data)  -- hexm/client/ui/windows/chiji/chiji_consts.lua:185-301

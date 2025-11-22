@@ -53,4 +53,7 @@ Keys:
   ui_format_time_str: function(ts)  -- hexm/client/ui/windows/map_new/map_ui/collect/collect_util.lua:752-756
   get_nearest_n_pos_form_player: function(pos_list, order_n, avatar)  -- hexm/client/ui/windows/map_new/map_ui/collect/collect_util.lua:383-397
   check_space_show_num_or_ts: function(space_no)  -- hexm/client/ui/windows/map_new/map_ui/collect/collect_util.lua:1055-1058
-  (1 more keys)
+  refresh_monster_judian_locations_ts: function(entity_nos, judian_no, pos_item)  -- hexm/client/ui/windows/map_new/map_ui/collect/collect_util.lua:722-733
+  get_collection_marker_id: function(item_no, raw_gorup_index, space_no)  -- hexm/client/ui/windows/map_new/map_ui/collect/collect_util.lua:272-274
+  NO_COLLECT_LOCATION: number
+  get_collection_drop: function(item_no, space_no, special_type)  -- hexm/client/ui/windows/map_new/map_ui/collect/collect_util.lua:926-949

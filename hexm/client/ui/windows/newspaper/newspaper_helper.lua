@@ -72,4 +72,14 @@ Keys:
   VOTE_NAME: dict
   get_random_suitable: function()  -- hexm/client/ui/windows/newspaper/newspaper_helper.lua:664-677
   get_tab_page_by_news_id: function(contribute_id)  -- hexm/client/ui/windows/newspaper/newspaper_helper.lua:1357-1375
-  (1 more keys)
+  TAB_ALL: number
+  get_guess_day_data: function(days_before)  -- hexm/client/ui/windows/newspaper/newspaper_helper.lua:693-697
+  get_doufu_data: function(tab_id, page, idx)  -- hexm/client/ui/windows/newspaper/newspaper_helper.lua:1322-1355
+  get_guess: function(days_before)  -- hexm/client/ui/windows/newspaper/newspaper_helper.lua:749-782
+  set_news_like: function(data)  -- hexm/client/ui/windows/newspaper/newspaper_helper.lua:818-850
+  gm_doufu_info: function()  -- hexm/client/ui/windows/newspaper/newspaper_helper.lua:1398-1424
+  get_old_select_info: function()  -- hexm/client/ui/windows/newspaper/newspaper_helper.lua:699-709
+  find_one_type_in_daily_news: function(daily_news_data, type, tab, need_ex_self)  -- hexm/client/ui/windows/newspaper/newspaper_helper.lua:1121-1178
+  like_num: function(dianzan_view, id)  -- hexm/client/ui/windows/newspaper/newspaper_helper.lua:852-867
+  TYPE_PLAYER_S: number
+  VOTE_WAIT: number

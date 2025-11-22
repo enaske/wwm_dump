@@ -53,4 +53,7 @@ Keys:
   EX_BUFFS: string
   _reload_all: boolean
   LIMIT_MODE_RECORD: number
-  (1 more keys)
+  NOTE_NO_TIP: number
+  reward_data_cmp: function(a, b)  -- hexm/common/consts/reward_consts.lua:120-139
+  TIPS_SHOW: number
+  NOTE_CENTER_WINDOW_AND_TIP: number

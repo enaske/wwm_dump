@@ -53,4 +53,23 @@ Keys:
   RICH_COLOR_YELLOW: list
   get_first_daily_news_id: function(conf_no)  -- hexm/common/consts/newspaper_consts.lua:117-119
   RICH_COLOR_NOR: list
-  (1 more keys)
+  CONTRIBUTE_STATUS_REVIEW_PASSED: number
+  status_can_operate: function(status)  -- hexm/common/consts/newspaper_consts.lua:258-262
+  LOCAL_DB_STAT_LIKE_CNT: string
+  LOCAL_DB_STAT_POST_GLOBAL_CNT: string
+  get_goto_post_text: function()  -- hexm/common/consts/newspaper_consts.lua:312-317
+  MAX_DAY_OFFSET: number
+  INTERACTION_TYPE_VOTE: number
+  NEWSPAPER_SECTION_HUAJIAN: number
+  post_history_sort_ts: function(a, b)  -- hexm/common/consts/newspaper_consts.lua:346-348
+  get_baodi_news_id: function(conf_no)  -- hexm/common/consts/newspaper_consts.lua:121-123
+  get_interaction_option_arr: function(itype, conf_no)  -- hexm/common/consts/newspaper_consts.lua:137-162
+  NEWSPAPER_TYPES: list
+  NEWSPAPER_SECTION_1_AND_2: number
+  post_history_sort_normal: function(a, b)  -- hexm/common/consts/newspaper_consts.lua:334-344
+  DISAGREE_TO_OTHER_ZHY: number
+  _reload_all: boolean
+  post_history_sort_like_lower: function(a, b)  -- hexm/common/consts/newspaper_consts.lua:352-354
+  POST_TAG_STATUS_VERIFYING: number
+  get_today_posted_count: function(avt)  -- hexm/common/consts/newspaper_consts.lua:184-189
+  newspaper_qa_shuffle: function(option_arr, seed)  -- hexm/common/consts/newspaper_consts.lua:165-174

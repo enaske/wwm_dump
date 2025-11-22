@@ -53,4 +53,10 @@ Keys:
   generate_next_ad_id: function()  -- hexm/client/consts/space_loader_consts.lua:292-308
   SPACE_LOADING_LUNJIAN_TYPE: number
   SPACE_LOAD_NORMAL_MODE_CHANGE_HOMEWORLD: number
-  (1 more keys)
+  check_force_random_background: function(config_no)  -- hexm/client/consts/space_loader_consts.lua:249-267
+  get_transfer_short_cutscene: function()  -- hexm/client/consts/space_loader_consts.lua:282-284
+  check_newbie_space: function()  -- hexm/client/consts/space_loader_consts.lua:388-396
+  get_map_info_sysd: function(spaceno)  -- hexm/client/consts/space_loader_consts.lua:82-86
+  check_ad_type: function(loading_type)  -- hexm/client/consts/space_loader_consts.lua:331-342
+  generate_normal_bg_ids: function(config_no)  -- hexm/client/consts/space_loader_consts.lua:310-329
+  SPACE_LOADING_SHORT_TYPE_NONE: number

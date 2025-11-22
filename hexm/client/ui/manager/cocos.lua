@@ -53,4 +53,13 @@ Keys:
   init_cloud_notch_offset: function(has_cutout, cutout_width)  -- hexm/client/ui/manager/cocos.lua:92-113
   get_notch_offset_from_cutout_width: function(cutout)  -- hexm/client/ui/manager/cocos.lua:115-120
   PRELOAD_PLIST: boolean
-  (1 more keys)
+  MONITOR_IS_TAILAR: boolean
+  load_common_texture: function()  -- hexm/client/ui/manager/cocos.lua:441-459
+  get_ui_texture_size: function(texture_name)  -- hexm/client/ui/manager/cocos.lua:534-541
+  get_external_image_size: function(full_path)  -- hexm/client/ui/manager/cocos.lua:543-547
+  set_trajectory_save_path_with_clip_rect: function(key, path, max_width, max_height)  -- hexm/client/ui/manager/cocos.lua:620-623
+  load_styles_by_data: function()  -- hexm/client/ui/manager/cocos.lua:653-699
+  fixed_patch_video_position: function(scale)  -- hexm/client/ui/manager/cocos.lua:256-269
+  cocos_error_callback: function(ret, msg)  -- hexm/client/ui/manager/cocos.lua:386-392
+  init: function()  -- hexm/client/ui/manager/cocos.lua:122-206
+  get_text_bound_box: function(text, font_size)  -- hexm/client/ui/manager/cocos.lua:345-347
