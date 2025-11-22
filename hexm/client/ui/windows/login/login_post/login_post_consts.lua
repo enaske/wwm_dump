@@ -1,0 +1,56 @@
+Module: hexm.client.ui.windows.login.login_post.login_post_consts
+Type: table
+================================================================================
+
+Keys:
+  RECOMMEND_LEVEL_REDPOINT: number
+  get_post_red_point_data: function
+  RECOMMEND_TYPE_3: string
+  POST_TYPE_WANFA: string
+  POST_TYPE_GAME: string
+  get_recommend_level: function
+  get_post_data_by_name: function
+  RED_POINT_RECORD: string
+  login_post_host: string
+  _analysis_one_line: function
+  on_fetch_content_try_preload_img: function
+  RED_POINT_POST_LIST: string
+  POST_ITEM_TYPE_IMG_BANNER2: number
+  RECOMMEND_TYPE_1: string
+  RED_POINT_NAME: string
+  analysis_post_list_data: function
+  POST_TYPE_V2_IMG: string
+  POST_ITEM_TYPE_IMG_BANNER: number
+  RECOMMEND_TYPE_2: string
+  PLATFORM_CHECK_FUNC: dict
+  POST_TYPE_V2_JSON: string
+  insert_splited_text: function
+  check_redpoint_recommend_changed: function
+  get_post_list: function
+  POST_TYPE_ITER_INFO: string
+  POST_ITEM_TYPE_TEXT: number
+  POST_TYPE_BANNER: string
+  POST_LIST_CACHE: list
+  try_preload_img: function
+  refresh_post_red_point: function
+  RECOMMEND_LEVEL_NONE: number
+  check_post_channel: function
+  CACHE_VALID_TIME: number
+  RECOMMEND_LEVEL_ALWAYS: number
+  post_preload_fp_texture: function
+  process_post_red_point_data: function
+  RECOMMEND_TYPE_4: string
+  preload_get_post_data_by_seq: function
+  post_port: number
+  refresh_post_red_point_cb: function
+  POST_TYPE_STOP_SERVER: string
+  AUTO_OPEN_GRAY_NAME: string
+  LOGIN_COMPACT_OPEN_FLAG: string
+  POST_TYPE_WEEK_VER: string
+  do_preload_fp_texture: function
+  analysis_post_data_by_json: function
+  POST_LIST_CACHE_TIME: number
+  POST_CONTENT_CACHE: dict
+  RECOMMEND_CONFIG: dict
+  is_redpoint_recommend_changed: function
+  (1 more keys)

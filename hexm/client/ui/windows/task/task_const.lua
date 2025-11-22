@@ -1,0 +1,56 @@
+Module: hexm.client.ui.windows.task.task_const
+Type: table
+================================================================================
+
+Keys:
+  TASK_DETAIL_FAIL: number
+  qiyu_get_region_name: function
+  TASK_PLOT_RECAP_ICON: string
+  E_MAIN_WINDOW_CHASE_TASK: string
+  TASK_DETAIL_RED_TEXT_COLOR: string
+  check_task_doing: function
+  get_task_space: function
+  COOP_TIP_COLOR_RED: string
+  check_task_hide: function
+  OPEN_RENDER_NODE_PATCH_TEXTURE: boolean
+  E_MAIN_WINDOW_UPDATE_TASK_PROGRESS: string
+  check_task_finish: function
+  check_need_download_fenbao: function
+  get_online_target_by_task_no: function
+  check_task_precondition_task_finished: function
+  COOP_TIP_COLOR_YELLOW: string
+  E_MAIN_WINDOW_FINISH_TASK: string
+  E_TASK_BOT_END: string
+  HOME_TASK_SUBMIT_STUFF_ITEM: string
+  check_task_forbid: function
+  get_online_target_by_online_group: function
+  TASK_DETAIL_ORANGE_TEXT_COLOR: string
+  TASK_PANEL_STATE_RESIDENT_EMPTY: number
+  check_group_is_qiyu: function
+  calc_task_failed_delay: function
+  add_main_window_func: function
+  get_task_show_tab: function
+  get_task_precondition_task: function
+  get_task_target: function
+  LISTVIEW_ITEM_MARGIN: number
+  get_task_tab_name: function
+  TASK_PANEL_STATE_RESIDENT_NORMAL: number
+  TASK_DETAIL_RED_BG_COLOR: string
+  TIP_CASE_SELF_OTHERS: number
+  check_task_wait_fetch: function
+  TASK_PANEL_STATE_RESIDENT_REFETCH: number
+  INSERT_TYPE_INIT: number
+  GP_START_TIP_NO: number
+  check_task_online_open_advanced: function
+  TASK_IS_DOING: number
+  report_task_hud_salog: function
+  TASK_PANEL_STATE_TEMP_INVALID: number
+  TIP_CASE_SELF_ONLY: number
+  TIP_CASE_BE_SHARED: number
+  TASK_ONLINE_STATE_NOT_FETCHED: number
+  E_MAIN_WINDOW_FETCH_TASK: string
+  guest_online_get_show_task: function
+  try_start_fenbao_download: function
+  COLOR_STR: list
+  TASK_GUIDE_MODE_EASY: number
+  (1 more keys)

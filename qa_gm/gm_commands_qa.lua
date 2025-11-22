@@ -1,0 +1,48 @@
+Module: qa_gm.gm_commands_qa
+Type: table
+================================================================================
+
+Keys:
+  show_guanqia_transfer: function
+  guise_chuan: function
+  unlock_qc_region: function
+  get_waiguan_camera_avatar_info: function
+  unlock_mszx: function
+  unlock_bsyt: function
+  guise_dsj_chuan: function
+  guise_dsj_tuo_wp: function
+  unlock_season: function
+  unlock_change_lz: function
+  qa_check_entity: function
+  set_waiguan_camera_avatar_info: function
+  guise_tuo: function
+  unlock_home: function
+  guise_dsj_tuo: function
+  unlock_lz_region: function
+  gm_dc_fetch_account_bpo: function
+  unlock_jty: function
+  guise_sew: function
+  unlock_farm: function
+  unlockwulinlu: function
+  qa_curr_region: function
+  _reload_all: boolean
+  unlockkaifeng: function
+  unlock_ymg_region: function
+  unlock_broken_lz: function
+  enable_debug: function
+  gm_unlock_telekinesis_move: function
+  check_act_data: function
+  unlock_mcjz: function
+  unlock_bjs: function
+  rewards: function
+  guise_dyeing_by_cjson: function
+  act_data_check: function
+  qa_on_region: function
+  unlock_bjs2: function
+  gm_dc_fetch_account: function
+  hide_waiguan_ui: function
+  hide_weapon_room: function
+  qa_print_ability_limit: function
+  st_running: function
+  showroom_taozhuang: function
+  unlock_hexi: function

@@ -1,0 +1,56 @@
+Module: patch.patch_texts.en
+Type: table
+================================================================================
+
+Keys:
+  LAUNCHER_BAD_NETWORK_TEXT: string
+  FETCH_FILELIST_TEXT: string
+  UPDATE_PKG_IOS_TEXT: string
+  LAUNCHER_HOTFIX_FAIL_TEXT: string
+  ENGINE_UPDATE_TEXT: string
+  FETCH_FAIL_TEXT: string
+  CHECK_LOCAL_FILE_TEXT: string
+  FASHAO_NOT_ENOUGH_SPACE_TEXT: string
+  RESOURCE_LOADING_COMPLETE: string
+  REVIEW_FAIL_TEXT: string
+  DATABASE_ERROR_TEXT: string
+  REPAIR_TEXT: string
+  VERIFY_LOCAL_FILE_FAIL_TEXT: string
+  PATCH_DOWNLOAD_NOTIFY_CONTENT: string
+  UNSORTED_MPK_TEXT: string
+  CELLULAR_DATA: string
+  NOT_FASHAO_COMPACT_FAIL_TEXT: string
+  CLEAR_CORRUPT_FAIL_TEXT: string
+  COMPACT_FILE_TEXT: string
+  UPDATE_PKG_TEXT: string
+  DOWNLOAD_EXPER_TEXT: string
+  KEEP_ALIVE_TIP: string
+  UPDATE_PKG: string
+  COMPACT_FILE_TEXT_2: string
+  FETCH_VERSION_INFO_TEXT: string
+  DOWNLOADING_PATCH: string
+  START_DOWNLOAD_TEXT: string
+  FASHAO_COMPACT_FAIL_TEXT: string
+  VALIDATING_DATABASE: string
+  DOWNLOAD_SIZE_TIP: string
+  COMPACT_FAIL_TEXT: string
+  FETCH_REVIEW_INFO: string
+  DOWNLOADING_TEXT: string
+  LOAD_GAME_TEXT: string
+  REVIEW_WRONG_PRE_KEY: string
+  FETCH_DOWNLOAD_TEXT: string
+  SHADER_TEXT: string
+  FENBAO_NOT_ENOUGH_SPACE_TEXT: string
+  REVIEW_WRONG_NB_KEY: string
+  REWARD_TEXT_1: string
+  VERIFY_LOCAL_FILE_TEXT: string
+  HOTFIX_FAIL_TEXT: string
+  UPDATE_VERSION_TIP: string
+  DOWNLOADING_TIP: string
+  LAUNCHER_UPDATE_PKG_TEXT: string
+  STORAGE_PERMISSION_REFUSE_TEXT: string
+  FETCH_HOTFIX_TEXT: string
+  DOWNLOAD_CLICK: string
+  INITIALIZING: string
+  SKIP_PATCH_TEXT: string
+  (1 more keys)

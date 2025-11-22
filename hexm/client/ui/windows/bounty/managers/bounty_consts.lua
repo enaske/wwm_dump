@@ -1,0 +1,56 @@
+Module: hexm.client.ui.windows.bounty.managers.bounty_consts
+Type: table
+================================================================================
+
+Keys:
+  PUBLISHER: number
+  LV2_REVENGE: number
+  LV1_RETRACE: number
+  LV1_FIGHT: number
+  LV2_GUARD: number
+  FILTER_VALUE: number
+  get_common_share_extra_data: function
+  get_target_level: function
+  IS_PUBLISHED: number
+  LV1_REVENGE: number
+  LV2_STRONGHOLD: number
+  LV2_RETRACE: number
+  FILTER_ONLY_LOCAL: number
+  SELF_TEMPLATE_PLAYER: number
+  LV1_MISSING: number
+  FETCHER: number
+  FETCH_BOUNTY_SEND_TO_PUBLISHER: number
+  LV2_FIGHT: number
+  LV1_STAMINA: number
+  LV1_PECUNIARY: number
+  LV1_EXPLORE: number
+  FILTER_ALL: number
+  LV2_DEFAME: number
+  LV1_BUSINESS: number
+  LV1_TOGETHER: number
+  TARGET: number
+  get_info_template: function
+  PUBLISH_TEMPLATE_TEXTFIELD: number
+  PUBLISH_TEMPLATE_SWITCH: number
+  transfer_target_string: function
+  set_full_reward: function
+  SELF_TEMPLATE_TITLE_SMALL: number
+  PUBLISH_TEMPLATE_INFO: number
+  get_lv1_ids_sorted_by_mode: function
+  PUBLISH_TEMPLATE_KONG: number
+  LV2_PECUNIARY: number
+  LV1_WILD_BOSS: number
+  IS_COMPLETED: number
+  LV2_WILD_BOSS: number
+  SELF_TEMPLATE_TITLE_BIG: number
+  PUBLISH_TEMPLATE_DROP_DOWN: number
+  get_cost_token_template: function
+  MODE_TO_LV1_TAG: dict
+  IS_FETCHED: number
+  SELF_TEMPLATE_DESCRIPTION: number
+  SELF_TEMPLATE_TARGET: number
+  get_title_template: function
+  GUARANTEE_BOUNTY_SEND_TO_PUBLISHER: number
+  PUBLISHER_BOUNTY_SEND_TO_FRIENDS: number
+  PUBLISH_TEMPLATE_STUFF: number
+  (1 more keys)

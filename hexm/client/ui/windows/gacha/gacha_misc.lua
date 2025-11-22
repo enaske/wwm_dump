@@ -1,0 +1,56 @@
+Module: hexm.client.ui.windows.gacha.gacha_misc
+Type: table
+================================================================================
+
+Keys:
+  refresh_gacha_preview_pool_red: function
+  do_pull_check: function
+  can_get_period_rwd: function
+  show_bind_pool_item_gain_way: function
+  NOTPUTBACK_POOL: number
+  gacha_relate_activity_red: function
+  UP_POOL: number
+  check_gacha: function
+  gacha_success: function
+  gacha_stage_reward_red: function
+  NORMAL_POOL: number
+  _noputback_get_gacha_pull_items_: function
+  refresh_gacha_stage_reward_red: function
+  try_open_legend_show_window: function
+  gacha_shop_red: function
+  do_real_pull: function
+  check_is_no_return_gacha: function
+  check_gacha_money_enough: function
+  get_left_time_str: function
+  play_no_return_video: function
+  show_res_win: function
+  get_period_left_time_str: function
+  get_main_pool_id: function
+  SPRING_POOL: number
+  gacha_preview_item_red: function
+  get_suit_reward_id: function
+  gacha_free_draw_red: function
+  is_gacha_again: boolean
+  try_reopen_all_gacha_windows: function
+  get_relate_activity_id: function
+  _get_gacha_pull_items: function
+  get_no_putback_pool_video: function
+  gacha_preview_red: function
+  gacha_pull: function
+  refresh_all_gacha_preview_red: function
+  record_gacha_preview: function
+  get_link_pool_id: function
+  _get_oversea_gacha_video_no: function
+  get_gacha_pull_items: function
+  QUALITY_BG: dict
+  buy_item_and_do_pull: function
+  check_gacha_stuff_enough: function
+  is_finish_no_putback: function
+  buy_bind_pool_item: function
+  get_all_opening_period: function
+  get_period_pull_progress: function
+  get_all_pool_id: function
+  _oversea_get_gacha_pull_items: function
+  get_left_time_str_by_ts: function
+  check_is_gacha_sid: function
+  (1 more keys)

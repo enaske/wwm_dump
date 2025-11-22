@@ -1,0 +1,51 @@
+Module: hexm.common.misc.antique_misc
+Type: table
+================================================================================
+
+Keys:
+  antique_set_check_same_dynasty: function
+  is_surplus_antique: function
+  get_anitque_set_type_count: function
+  check_has_progress_rewards: function
+  check_achievements_complete: function
+  npc_bid_random_amount: function
+  ANTIQUE_FAKE: number
+  is_qh_antique_set_full: function
+  get_antique_set_datas: function
+  antique_set_check_same_antiques: function
+  get_antique_set_type_count: function
+  value_rule_match: function
+  get_antique_set: function
+  get_recommended_antique_set_info: function
+  SET_TYPE_SAME_DYNASTY_AND_SHAPE: number
+  SET_TYPE_SAME_ANTIQUE: number
+  has_qh_antique_set_full: function
+  check_diff_relation: function
+  get_antique_set_statistic_data: function
+  get_item_cmp_code: function
+  _get_recommend_set_impl: function
+  form_ds_key: function
+  get_antique_item_datas: function
+  SORTED_SET_TYPE_LIST: list
+  get_antique_set_statistic_data_only_real: function
+  SET_TYPE_ALL_DYNASTY_SAME_SHAPE: number
+  STAGE_PAYMENT: string
+  antique_set_check_all_dynasty_same_shape: function
+  decode_ds_key: function
+  STAGE_NOTICING: string
+  get_need_antique_nos: function
+  get_value_info: function
+  cmp_val: function
+  STAGE_BIDDING: string
+  check_achievement_ok: function
+  ANTIQUE_REAL: number
+  SET_TYPE_TO_COUNT: dict
+  SET_TYPE_SAME_SHAPE: number
+  get_affixs_pool: function
+  SET_TYPE_SAME_DYNASTY: number
+  get_surplus_anitique_nos: function
+  antique_set_check_same_dynasty_same_shape: function
+  get_current_auction_pool: function
+  antique_set_check_same_shape: function
+  ANTIQUE_UNDEFINED: number
+  calc_value: function

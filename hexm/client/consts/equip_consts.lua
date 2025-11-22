@@ -1,0 +1,56 @@
+Module: hexm.client.consts.equip_consts
+Type: table
+================================================================================
+
+Keys:
+  FLOAT_BUTTON_INHERIT: number
+  BAPTIZE_MATERIAL_SPEC_ATTR: number
+  get_slot_equip_by_bag_equip: function
+  FLOAT_BUTTON_SALE: number
+  check_baptize_attr_recommend: function
+  common_equip_sort: function
+  FLOAT_BUTTON_TEMP_BAG_RETAKE: number
+  CUR_EQUIP_FUNC_BTNS: list
+  FLOAT_BUTTON_DECOMPOSE: number
+  FLOAT_BUTTON_DEPOSIT: number
+  SLOT_MAIN_WEAPON: number
+  FLOAT_BUTTON_ARMORY: number
+  FLOAT_BUTTON_NPC_STUFF_TELEKINESIS: number
+  get_armory_equips_score: function
+  SLOT_LIFE_WEAPONS: list
+  SLOT_ARROW: number
+  SLOT_FISH_ROD: number
+  FLOAT_TYPE_ARMORY: number
+  check_armory_state: function
+  EQUIP_TYPE_CUFF: number
+  BAPTIZE_ATTR_STAR_COLOR_MAP: dict
+  get_cur_unlock_armory_num: function
+  FLOAT_TYPE_COMPARE_SLOT: number
+  get_armory_liupai_attrs: function
+  FLOAT_BUTTON_WUXUE_REPLACE_SUB: number
+  ERR_EQUIP_STAR_LIMIT: number
+  FLOAT_BUTTON_UPGRADE: number
+  calc_equip_decompose_result: function
+  FLOAT_TYPE_WUXUE_SLOT: number
+  FLOAT_TYPE_NPC_BAG: number
+  get_armory_equips_in_bag: function
+  ERR_LOCK_MONEY: number
+  check_equip_baptize_have_exp_attr: function
+  BAPTIZE_LEVEL_NAME: list
+  gen_recommend_armory_equip: function
+  SLOT_CLOTH_ARMOR: number
+  check_suit_in_tracing: function
+  E_EQUIP_ARMORY_CHANGED: string
+  FLOAT_BUTTON_ENHANCE: number
+  SLOT_TROUSER_ARMOR: number
+  FLOAT_BUTTON_EQUIP_ACCESS: number
+  EQUIP_TYPE_NECKLACE: number
+  get_armory_page_name: function
+  get_equip_name: function
+  get_equip_suffix_data: function
+  check_in_all_armory: function
+  FLOAT_BUTTON_DRESS: number
+  SLOT_ARMORS: list
+  parse_baptize_attr: function
+  FLOAT_BUTTON_EXPEDITION_STORE_TO_WAREHOUSE: number
+  (1 more keys)

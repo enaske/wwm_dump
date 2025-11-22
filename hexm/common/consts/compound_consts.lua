@@ -1,0 +1,56 @@
+Module: hexm.common.consts.compound_consts
+Type: table
+================================================================================
+
+Keys:
+  STATE_FORGE_OTHER: number
+  NPC_COMPOUND_STOP: string
+  NOT_UNLOCK: number
+  IS_IN_COMPOUND: number
+  RECIPE_STATE_DOING: number
+  COMPOUND_START_MAKE: string
+  LACK_MAT: number
+  NOT_OUTPUT_ITEM: number
+  RECIPE_STATE_DONE: number
+  STATE_IDLE: number
+  LOCK_VITALITY: number
+  WIND_HIGH_CHECK_ERR: number
+  ERR_RECIPE_NOT_UNLOCK: number
+  ERR_AUTO_STUFF: number
+  NOT_BAG: number
+  HUMI_HIGH_CHECK_ERR: number
+  RECIPE_STATE_PAUSE: number
+  TEMP_HIGH_CHECK_ERR: number
+  _reload_all: boolean
+  RECIPE_STATE_NOT_DO: number
+  HUMI_LOW_CHECK_ERR: number
+  HAS_UNLOCK_LOOK_FLAG: number
+  RECIPE_STATE_PREPARE: number
+  COMPOUND_RECIPE_END_COMPOUND: string
+  ERROR_LACK_MATERIAL: number
+  LOCK_ABILITY: number
+  NOT_MATERIAL: number
+  STATE_PAUSE: number
+  NPC_COMPOUND_SUC: string
+  TEMP_LOW_CHECK_ERR: number
+  NPC_COMPOUND_READY: string
+  CRAFT_LV_LIMIT: number
+  COMPOUND_RECIPE_MAKE_ABILITY_CHANGE: string
+  STUFF_IN_CD: number
+  IN_MAKING_ERR: number
+  COMPOUND_QUALITY_REFRESH: string
+  COMPOUND_SHOW_ITEM: string
+  IS_NOT_IN_COMPOUND: number
+  compound_handler_config: dict
+  NPC_COMPOUND_ABORT: string
+  STATE_WAIT_FETCH: number
+  STATE_FORGE: number
+  WIND_LOW_CHECK_ERR: number
+  COMPOUND_RECIPE_STUFF_SELECT: string
+  STATE_FORGE_OTHER_FETCH: number
+  NOT_NPC: number
+  COMPOUND_RECIPE_OPEN_ACCESS: string
+  COMPOUND_RECIPE_OPEN_SELECT: string
+  LOCK_ENERGY: number
+  NOT_ANVIL_RIGHT: number
+  (1 more keys)

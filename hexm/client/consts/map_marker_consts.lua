@@ -1,0 +1,56 @@
+Module: hexm.client.consts.map_marker_consts
+Type: table
+================================================================================
+
+Keys:
+  WULIN_FENGYUN: number
+  CHIJI_SANGHUNLIN_SHOP: number
+  CLUB_BATTLE_CHEER: number
+  ESCORT_BUILD_PLATFORM: number
+  GAMEPLAY_PLUGIN: number
+  TAVERN_COOK_WANFA: number
+  TREASURE_PLAY: number
+  CLUB_BATTLE_BOSS: number
+  GANG_DRINK: number
+  CHIJI_SANGHUNLIN_POS: number
+  CLUB_BATTLE_CAMP: number
+  GAMEPLAY_JUDIAN: number
+  PAINTING_BOAT_BUILDING: number
+  GAMEPLAY_EVENT_NEIGONG_LOCATION: number
+  WEATHER_NORMAL: number
+  TRACE_EFFECT_ENABLE_CHECKER: dict
+  GAMEPLAY_SINGLE_WANFA_ENTRY: number
+  DOUDIZHU_GAME: number
+  ESCORT_HORSE: number
+  MENTOR_NPC: number
+  MERIT_STELE: number
+  RUYINGSUIXING: number
+  INTERACT_TRACE: number
+  CLUB_BATH_PLUGIN: number
+  PAINTING_BOAT_WANFA_TRACK: number
+  GAMEPLAY_DUNGEON_CLUE: number
+  CLUB_CREATE_PLUGIN: number
+  PAINTING_BOAT: number
+  PRIVATE_WORKBENCH: number
+  GAMEPLAY_EVENT_DRAGON_INN: number
+  GAMEPLAY_STRONGHOLD: number
+  DISGUISE_SHOP: number
+  SINGLE_WORLD_BOSS: number
+  MOJIN_SUBMIT: number
+  TIANQUAN_RUNNING_LEADER: number
+  SPACE_INS_ENTITY: number
+  FREE_MARKER_TYPE_ROAD_SIGN: number
+  CLUB_JOIN_PLUGIN: number
+  STUFF_TRACE: number
+  FLYING_DANCE: number
+  GAMEPLAY_TAG_INS_ENTITY: number
+  NPC_BAG: number
+  FREE_MARKER_TYPE_SHITU: number
+  GAMPLEY_SHOP: number
+  FREE_MARKER_TYPE_SHITU_ORI_ID: string
+  JLM_HFSR: number
+  WEATHER_SUPER: number
+  FOLK_SUMO: number
+  JIEYUAN_WANFA: number
+  MULTI_GUARD: number
+  (1 more keys)

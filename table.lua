@@ -1,0 +1,39 @@
+Module: table
+Type: table
+================================================================================
+
+Keys:
+  indexof: function
+  values: function
+  urlencode: function
+  intersection: function
+  deepcopy: function
+  unpack: function
+  to_dict_or_list: function
+  any: function
+  to_dict: function
+  map: function
+  move: function
+  insert: function
+  concat: function
+  reverse: function
+  extend: function
+  merge: function
+  concat_array: function
+  lk_to_dict: function
+  sort: function
+  keyof: function
+  keys: function
+  clear: function
+  pack: function
+  pop: function
+  is_list: function
+  remove: function
+  nums: function
+  setdefault: function
+  slice: function
+  filter: function
+  to_list: function
+  all: function
+  reduce: function
+  copy: function

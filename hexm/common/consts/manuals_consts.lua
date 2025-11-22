@@ -1,0 +1,47 @@
+Module: hexm.common.consts.manuals_consts
+Type: table
+================================================================================
+
+Keys:
+  GEOGRAPHY_EVALUATION_UNQUALIFY: number
+  uwsgi_get_by_no: string
+  GEOGRAPHY_EVALUATION_COMMON_PERFECT: number
+  cNormalExtend: number
+  E_GET_GEOGRAPHY_PERFECT_REWARD: number
+  uwsgi_clear_all: string
+  SPACE_LIMIT: number
+  LOCK_POINT: number
+  BOWU_NEW_HAND_UNLOCK: number
+  REWARD_STATE_CAN_GET: number
+  SHICHEN_LIMIT: number
+  E_CLEAR_ALL_DATA: number
+  E_UNLOCK_ALL_ITEMS: number
+  uwsgi_get_by_type: string
+  E_ITEM_RED_POINT: number
+  GEOGRAPHY_EVALUATION_PERFECT: number
+  UNLOCK_SUC: number
+  E_NEW_ITEM_NUM_ADD: number
+  E_ADD_RECORD_NUM: number
+  HAS_REWARDED: number
+  _reload_all: boolean
+  REWARD_STATE_NOT_REACH: number
+  ERROR_NO: number
+  ENTITY_INFO_PC_KEY: number
+  E_GET_SUB_REWARD: number
+  ALLREADY_UNLOCK: number
+  GEOGRAPHY_EVALUATION_ORDINARY: number
+  UNLOCK_WAY_FIGHT: number
+  REWARD_STAGE_RECEIVED: number
+  GEOGRAPHT_F_TYPE: number
+  GEOGRAPHY_EVALUATION_EXCELLENT: number
+  AREA_LIMIT: number
+  E_STUDY_LV_UP: number
+  ENTITY_INFO_CHECK_LENGTH: number
+  WEATHER_LIMIT: number
+  E_HAVE_MANU_DATA: number
+  E_ADD_BROESE_HIS: number
+  E_GET_ITEM_REWARD: number
+  E_UNLOCK_NEW_ITEM: number
+  GEOGRAPHY_TYPE: number
+  E_GET_REWARD: number
+  HAVE_UNLOCK: number

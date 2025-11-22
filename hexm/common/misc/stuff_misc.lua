@@ -1,0 +1,56 @@
+Module: hexm.common.misc.stuff_misc
+Type: table
+================================================================================
+
+Keys:
+  get_fix_length_stuff_name: function
+  check_can_add_stuffs: function
+  get_adaption_stuff_icon_by_No: function
+  is_expired: function
+  get_bag: function
+  get_equipped_saddle_ids: function
+  get_bag_by_stuff_ID: function
+  get_mode_owner_bag: function
+  get_neigong_id_by_note_stuff_No: function
+  is_suit_stuff: function
+  get_ts_sale_lock: function
+  MAX_EXPAND_NUM: number
+  get_items_by_ID: function
+  get_stuffs_by_No: function
+  is_task_item: function
+  adjust_expand_cap: function
+  get_stuff_count_by_No: function
+  get_stuff_cd: function
+  get_num_by_No: function
+  bag_get_itemv_by_No: function
+  check_stuff_enough: function
+  get_send_stuffs_by_entity_no: function
+  adjust_capacity: function
+  get_items_by_No: function
+  get_num_by_No_from_bag: function
+  check_stuff_limit: function
+  get_item_name: function
+  gang_cook_get_stuff_count_by_ID: function
+  get_baitan_stuff_items: function
+  get_temp_bag: function
+  get_bag_expand_cost: function
+  check_can_resolve: function
+  get_items_by_No_prefixes: function
+  get_exchange_expand_times_cost: function
+  check_can_use: function
+  get_end_state: function
+  saddlebag_calc_expand_load: function
+  _check_stuff_cd: function
+  check_use_level: function
+  get_equiped_num: function
+  WANFA_BAG_MODE_BOTH: number
+  get_stuff_access_no: function
+  stuff_no_length: number
+  filter_bag_ids: function
+  get_num_stuffs_by_No: function
+  get_stuff_base_type: function
+  is_item_initialized: function
+  get_obtain_ts: function
+  get_stuff_by_bag_and_ID: function
+  bag_get_itemv_by_type: function
+  (1 more keys)

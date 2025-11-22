@@ -1,0 +1,44 @@
+Module: hexm.common.consts.bot_consts
+Type: table
+================================================================================
+
+Keys:
+  TASK_BOT: number
+  E_BOT_FOLLOW_FOLLOW_ARBIT_TO_CC: number
+  E_BOT_FOLLOW_STATE_ARBIT_TO_FIGHT: number
+  E_BOT_TASK_TO_ARBIT: number
+  E_BOT_FOLLOW_FOLLOW_TO_TRANSMIT: number
+  E_BOT_LEVEL_BOT_TO_COMMON: number
+  E_BOT_FOLLOW_STATE_TO_ARBITER: number
+  E_BOT_END_FIGHT: number
+  E_BOT_TASK_ARBIT_TO_NAVI: number
+  E_BOT_DUNGEON_ARBIT_TO_SIMPLE_KILLBOSS: number
+  E_BOT_FOLLOW_FOLLOW_ARBIT_TO_UU: number
+  bot_events_reverse: dict
+  E_BOT_TASK_TO_STOP: number
+  E_BOT_NAVIGATE: number
+  E_BOT_DUNGEON_ARBIT_TO_COMPLEX_KILLBOSS: number
+  E_BOT_QUERY_TEAM_LEADER_STATE_DATA: number
+  bot_events: dict
+  E_BOT_DUNGEON_ARBIT_TO_KILLMONSTER: number
+  FOLLOW_BOT: number
+  E_BOT_FOLLOW_FOLLOW_ARBIT_TO_UC: number
+  SERVER_FOLLOW_BOT: number
+  NO_BOT: number
+  DUNGEON_BOT: number
+  E_BOT_FIGHT: number
+  LEVEL_BOT: number
+  E_BOT_FOLLOW_FOLLOW_TO_NAVI_DIFF_SCENE: number
+  E_BOT_FOLLOW_FOLLOW_ARBIT_TO_CU: number
+  E_BOT_FOLLOW_FOLLOW_TO_NAVI_SAME_SCENE_CAN_TRANSMIT: number
+  E_BOT_DUNGEON_ARBIT_TO_GOTRAP: number
+  E_BOT_FOLLOW_STATE_ARBIT_TO_FOLLOW: number
+  BTREE_NONE: string
+  E_BOT_DUNGEON_TO_ARBIT: number
+  E_BOT_QUERY_ENTITY_POS: number
+  E_BOT_FOLLOW_FOLLOW_TO_NAVI_SAME_SCENE_CANT_TRANSMIT: number
+  E_BOT_DUNGEON_ARBIT_TO_STOP: number
+  E_BOT_LEVEL_BOT_TO_FIGHT: number
+  E_BOT_TASK_ARBIT_TO_STOP: number
+  E_BOT_TASK_ARBIT_TO_INTERACT: number
+  E_BOT_DUNGEON_ARBIT_TO_NAVI: number

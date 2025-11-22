@@ -1,0 +1,56 @@
+Module: hexm.client.consts.huajian_consts
+Type: table
+================================================================================
+
+Keys:
+  get_weekly_task_target_text: function
+  HUAJIAN_DAKA_WANFA: number
+  get_weekly_score_upper_limit: function
+  DAKA_PROGRESS_MAX_REWARD_LEVEL: number
+  HUAJIANJI_CHALLENGE_FINISHED: number
+  SPOT_STATE_DANKA_COLOR: list
+  can_start_flying_dance: function
+  get_huajian_score_info: function
+  set_weekly_task_unlock: function
+  HUAJIAN_COLLECT_WANFA: number
+  get_hujian_spot_unlock_vx: function
+  get_huajian_score_level: function
+  get_weekly_task_unlock: function
+  check_huajian_spot_tips: function
+  get_huajian_score_value: function
+  get_flower_collect_detail_unlock: function
+  set_flower_collect_detail_unlock: function
+  set_hujian_spot_finish_vx: function
+  goto_wanfa_page: function
+  set_spot_finish_unlock: function
+  DAKA_REWARD_RED_POINT: string
+  get_hujian_spot_state: function
+  YOUSHANG_LEVEL_REWARD_RED_POINT: string
+  HUAJIANJI_CHALLENGE_GETREWARD: number
+  set_flower_collect_unlock: function
+  HUAJIANJI_CHALLENGE_UNFINISHED: number
+  set_hujian_spot_tips_vx: function
+  HUJIAN_SPOT_STATE_PROGRESS: number
+  get_hujian_wanfa_data_list: function
+  get_all_huajian_spot_count: function
+  get_hujianji_challenge_state: function
+  get_flower_paper_collection_level: function
+  get_flower_collect_unlock: function
+  HUJIAN_SPOT_STATE_LOCK: number
+  FLOWER_REWARD_RED_POINT: string
+  get_challenge_target_text: function
+  SPOT_STATE_FINISH_COLOR: list
+  is_huajian_spot_all_reward: function
+  get_huajian_score_type: function
+  set_challeng_unlock: function
+  is_flying_dance_valid: function
+  WANFA_DATA_LIST: list
+  get_hujian_spot_finish_vx: function
+  set_spot_daka_unlock: function
+  SPOT_STATE_UNDAKA_COLOR: list
+  is_flower_collect_max_level: function
+  get_huajian_reward_score_by_weekly_task: function
+  get_daka_progress_level: function
+  get_huajian_score_by_reward_no: function
+  spot_has_no_task: function
+  (1 more keys)

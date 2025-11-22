@@ -1,0 +1,56 @@
+Module: hexm.common.consts.chat_consts
+Type: table
+================================================================================
+
+Keys:
+  WORLD_MSG_RECEIVE_TYPE_SERVER: number
+  GROUP_EXPEDITION_WAREHOUSE_FETCH: number
+  pack_chat_msg_dict: function
+  GROUP_STATE_NORMAL: number
+  SYSTEM_CHANNEL: string
+  GROUP_MEMBER_KICK: string
+  HISTORY_TEAM_CHAT_CACHE_EXPIRE_TS: number
+  E_SEND_MESSAGE: number
+  create_group_notify: string
+  CHAT_MAX_LEN: number
+  deal_group_apply_notify: string
+  deal_group_talk_apply_bat: string
+  QUEUE_TIMER_GAP: number
+  SPECIAL_ROOM_TAGS: dict
+  ROAD_SIGN_CHANNEL: string
+  CHAT_MODEL_MSG_INSERT: string
+  TEAM_CHANNEL: string
+  MSG_SHANE_PRIVATE: string
+  change_group_expire_ts: string
+  CHAT_RED_POINT: number
+  CHAT_TEAM_HISTORY: string
+  MSG_COOP_RESULT: string
+  ChatRoomTypeLifetime: number
+  DOUDIZHU_CHANNEL: string
+  ChatRoomRankTypePopularity: number
+  dismiss_group: string
+  ChatRoomRankTypeTime: number
+  ERR_CHAT_GROUP_IN_TARGET_BLACK: number
+  get_msg_npc_data: function
+  ChairTypeQueue: number
+  ERR_PERSON_CHAT_WORDS_TOO_LONG: number
+  TEAM_HUD_CHANNEL: string
+  ERR_CHUANYIN_USE_FORBID_SPACE: number
+  MSG_TALK_HONGBAO: string
+  chat_num_to_data_field: dict
+  get_is_in_prison_group: function
+  CR_SPACE_ROOM_TAG_PAINTING_BOAT: number
+  HUAFANG_CHANNEL: string
+  UNREAD_MSG_NUM: number
+  PERSON_CHANNEL: string
+  GROUP_EXPEDITION_BP_PUT_OUT: number
+  SCHOOL_CHANNEL: string
+  GROUP_CHANNEL: string
+  MSG_SHARE_STUFF: string
+  MSG_GROUP_TS: string
+  ZHAO_MU_CHANNEL: string
+  GUILD_PVP_CHANNEL: string
+  ERR_CHAT_TOO_QUICK: number
+  DEFAULT_VOICE_CHANGE: number
+  PITCH_POT_CHANNEL: string
+  (1 more keys)

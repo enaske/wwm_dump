@@ -1,0 +1,40 @@
+Module: hexm.client.util.common_condition
+Type: table
+================================================================================
+
+Keys:
+  check_hanghui_id: function
+  check_interact_relation_id: function
+  check_get_enough_item: function
+  check_enter_school: function
+  is_target_body_type: function
+  check_logic_exp: function
+  check_player_in_disguise: function
+  check_own_enough_equip: function
+  check_is_disease: function
+  check_during_disaster: function
+  check_view_wear_position: function
+  is_server_condition_finish: function
+  check_owned_views: function
+  check_is_huashu_finish: function
+  check_have_boat: function
+  check_has_buff_no: function
+  check_exec_func: function
+  check_system_unlock: function
+  check_level: function
+  check_reward_can_receive: function
+  check_entity_in_region: function
+  check_get_enough_currency_item: function
+  check_finish_task: function
+  check_npc_kill_reward: function
+  check_curio_get_all_clue: function
+  check_weared_views: function
+  check_player_disguise: function
+  check_disaster_identity_camp: function
+  check_name_to_func: dict
+  check_activity_is_open: function
+  check_current_weather: function
+  check_get_enough_sum_item: function
+  check_current_time: function
+  check_common_condition: function
+  check_view_position: function

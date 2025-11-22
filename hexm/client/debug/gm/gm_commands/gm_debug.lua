@@ -1,0 +1,56 @@
+Module: hexm.client.debug.gm.gm_commands.gm_debug
+Type: table
+================================================================================
+
+Keys:
+  debug_draw_SpecularColor: function
+  enable_clothes: function
+  show_avatar_preview: function
+  debug_set_monitor_alpha: function
+  get_table_abandon_data: function
+  _hide_ui: boolean
+  debug_draw_WireSolid: function
+  _hide_billboard: boolean
+  set_zhiwu_dis: function
+  _hide_model: boolean
+  gm_wander_scene: function
+  enable_weapon_recoin_shader_params_check: function
+  debug_draw_WireSketch: function
+  interact_putdown_show: function
+  debug_show_client_region: function
+  gm_switch_pc_lowlow: function
+  cloth_vert_anim_perf_test: function
+  debug_enable_ori_world: function
+  toggle_use_create_par_strategy: function
+  test_vert_anim_entities: list
+  start_test_bot: function
+  gm_log_player_track_change_interval: function
+  show_nine_grid: function
+  debug_disable_crouch_region_check: function
+  hide_billboard: function
+  gm_show_current_hex_region: function
+  debug_set_monitor_size: function
+  show_utility_debug: function
+  debug_open_ai_monitor: function
+  gm_clear_not_preload_npc: function
+  debug_anim: function
+  gm_show_hex_region: function
+  hide_hud: function
+  export_storyline_debug_data: function
+  hide_terrain: function
+  debug_draw_None: function
+  _hide_gm_btn: boolean
+  _show_report: boolean
+  disable_diving_region_check: function
+  render_doc: function
+  debug_enable_missing_resource_statics: function
+  freeze_camera: function
+  _freeze_camera: boolean
+  test_cloth_perf: boolean
+  use_remote_desktop_mouse_speed: function
+  pvd_discon: function
+  show_avatar_preview_window: function
+  debug_show_hunter_ui: function
+  gm_enable_writer: function
+  debug_show_server_region: function
+  (1 more keys)

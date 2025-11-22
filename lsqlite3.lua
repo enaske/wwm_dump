@@ -1,0 +1,56 @@
+Module: lsqlite3
+Type: table
+================================================================================
+
+Keys:
+  open_memory: function
+  DROP_VTABLE: number
+  complete: function
+  MISMATCH: number
+  OPEN_NOMUTEX: number
+  CREATE_TEMP_TABLE: number
+  ALTER_TABLE: number
+  PRAGMA: number
+  DETACH: number
+  CREATE_TABLE: number
+  OPEN_FULLMUTEX: number
+  CREATE_VIEW: number
+  CREATE_TEMP_INDEX: number
+  OPEN_URI: number
+  NOLFS: number
+  OPEN_READONLY: number
+  INSERT: number
+  MISUSE: number
+  backup_init: function
+  CREATE_TEMP_VIEW: number
+  PERM: number
+  RANGE: number
+  DROP_TABLE: number
+  OPEN_READWRITE: number
+  ROW: number
+  INTERNAL: number
+  CREATE_VTABLE: number
+  BUSY: number
+  FUNCTION: number
+  BLOB: number
+  DROP_TRIGGER: number
+  CORRUPT: number
+  FULL: number
+  LOCKED: number
+  lversion: function
+  CREATE_INDEX: number
+  TEXT: number
+  OPEN_MEMORY: number
+  SCHEMA: number
+  __newindex: function
+  IOERR: number
+  CONSTRAINT: number
+  open_ptr: function
+  DELETE: number
+  version: function
+  TRANSACTION: number
+  EMPTY: number
+  SAVEPOINT: number
+  DROP_TEMP_INDEX: number
+  ANALYZE: number
+  (1 more keys)

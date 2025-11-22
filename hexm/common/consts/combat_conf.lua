@@ -1,0 +1,56 @@
+Module: hexm.common.consts.combat_conf
+Type: table
+================================================================================
+
+Keys:
+  parse_behit_data: function
+  ATK_ABR_DMG: number
+  HIT_WALL_DETECT_WAIT_TIME: number
+  RE_JINGYUAN_KILL_BTHIT: number
+  get_atk_type: function
+  RE_JINGYUAN_KILL_PARRY: number
+  BEHIT_POST: number
+  TYPE_IMPACT_HIT: number
+  BEHIT_END: number
+  BATTLE_TYPE_PVE: number
+  BATTLE_TYPE_PVE_BOSS: number
+  pack_behit_data: function
+  ICE_STAGE_NORMAL: number
+  ICE_STAGE_BROKEN: number
+  CAL_FEATURE_HIT_SKL_RELOAD: number
+  ENTER_BATTLE_DAMAGE_TARGET: number
+  RES_RESUME_BUFF_REVERT: number
+  CAL_FEATURE_HITEFFECTS: number
+  HIT_INFO: list
+  BATCH_UPGRADE_WUKU: number
+  BATCH_UPGRADE_XINFA: number
+  RES_RESUME_STUFF_BUFF: number
+  CAL_FEATURE_CUSTOM_BUFF: number
+  ENTER_BATTLE_DAMAGE_TARGET_PLAYER: number
+  BATCH_UPGRADE_KONGFU: number
+  TYPE_CUSTOM_HIT: number
+  pack_bone_collision_data: function
+  get_bayonet_anim: function
+  unpack_bone_collision_data: function
+  RE_JINGYUAN_KILL_WEAKPOINT: number
+  _pack_bone_sub_info: function
+  DOMAIN_FAN: number
+  _unpack_bone_sub_info: function
+  BEHIT_FRONT: number
+  ENTER_BATTLE_AGGRO: number
+  RE_JINGYUAN_KILL_SNEAK: number
+  gm_try_show_damage_panel: function
+  CAL_FEATURE_HIT_SKL_RELOAD_HURT: number
+  BEHIT_LEFT: number
+  BF_STAGE_STATE_START: number
+  DOMAIN_RECT: number
+  ATK_CRI_DMG: number
+  BATCH_UPGRADE_EQUIP: number
+  BF_STAGE_STATE_INIT: number
+  ENTER_BATTLE_BEHIT_BY_PLAYER: number
+  RE_JINGYUAN_KILL_ENEMY: number
+  BATCH_UPGRADE_DIEYIN: number
+  DOMAIN_CIRCLE: number
+  ATK_CRI_HEAL: number
+  ENTER_BATTLE_BY_PLAYER: number
+  (1 more keys)

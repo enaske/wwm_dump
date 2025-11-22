@@ -1,0 +1,56 @@
+Module: hexm.common.consts.porridge_shop_consts
+Type: table
+================================================================================
+
+Keys:
+  ERR_OK: number
+  COOK_TIMES_MAX: number
+  COOK_COMPLETE_FERFECT: string
+  COOK_OVERLOAD: number
+  ERR_NAME_HAS_SENSITIVE: number
+  PLEASE_INPUT_SLOG: number
+  ERR_DATA: number
+  MAX_SHOP_NUM: number
+  CHANGE_OPEN_STATE: string
+  SHOP_LOCK_NPC_MONEY: number
+  ERR_PUT_TIMES_MAX: number
+  ERR_NO_GANG: number
+  COOK_COMPLETE_NORMAL: string
+  CHANGE_INTRODUCE: string
+  GET_WORLD_PRO: string
+  PORRIDGE_XS_TYPE: number
+  SHOP_EXIST: number
+  NOT_YOUR_GANG: number
+  REDUCE_RISE_AND_FIREWOOD: string
+  ADD_WORLD_PRO: string
+  SHOP_ERROR_MONEY_WATCH_NPC: number
+  SERVE_TIMES_MAX: number
+  E_FETCH_XS: string
+  OVER_MAX_FIREWOOD: number
+  END_SHOP: string
+  SHOP_CREATE_FAILED: number
+  SHOP_ERROR_MONEY_CREATE_SHOP: number
+  SHOP_NOT_EXIST: number
+  GET_SHOP_DATA: string
+  ADD_RISE_AND_FIREWOOD: string
+  NO_DISASTER: number
+  NOT_WATCH_NPC: number
+  SHOP_LOCK_MONEY: number
+  ERR_SPACE: number
+  ERR_LOCK_FIREWOOD: number
+  MAX_SHOP_SPACE: number
+  OVER_MAX_RICE: number
+  ERR_LOCK_RISE: number
+  FIRE_WATCH_NPC: string
+  AI_REGION_ID: number
+  SERVE_TASK_DUP: number
+  AI_CTRL_ID: number
+  ERR_OK_PUT_SHOP: number
+  CANNOT_INTERACT: number
+  ERR_MAX_SHOP: number
+  GENARATE_RANDOM_NPC: string
+  SHOP_ERROR_MONEY: number
+  SHOP_NO_TASK: number
+  OVER_MAX_MEDICINE: number
+  ADD_WATCH_NPC: string
+  (1 more keys)

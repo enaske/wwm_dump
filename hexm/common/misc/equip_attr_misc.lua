@@ -1,0 +1,43 @@
+Module: hexm.common.misc.equip_attr_misc
+Type: table
+================================================================================
+
+Keys:
+  random_tone_affix_val: function
+  get_equip_repair_info: function
+  get_equip_enhance_money_cost: function
+  get_equip_enhance_slot_d: function
+  calc_toning_props_by_exp: function
+  get_equip_attrs: function
+  tone_determin_random_affix: function
+  parse_affix_attr: function
+  toning_init_affixes: function
+  PURPLE: number
+  calc_tone_affix_critical: function
+  toning_random_affix: function
+  get_all_idt_equip_attrs: function
+  consume_affix_criticals: function
+  get_equip_affix_attrs: function
+  BLUE: number
+  list2cval: function
+  calc_tone_critical_exp: function
+  get_equip_slot_enhance_attr: function
+  get_equip_enhance_prop_cost: function
+  GOLD: number
+  random_equip_base_attrs: function
+  add_affix_criticals: function
+  get_affix_quality_range: function
+  tone_affix_calc_quality: function
+  cval2list: function
+  toning_check_lv: function
+  MAX: number
+  get_equip_enhance_attr_add: function
+  get_idt_equip_attrs: function
+  get_equip_base_attrs: function
+  calc_toning_lv: function
+  random_equip_suit_affix: function
+  get_affix_min_max: function
+  calc_equip_toning_exp: function
+  GREEN: number
+  calc_enhance_average_lv: function
+  calc_toning_cost: function

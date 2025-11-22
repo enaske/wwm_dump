@@ -1,0 +1,38 @@
+Module: hexm.common.consts.weapon_consts
+Type: table
+================================================================================
+
+Keys:
+  LIFE_WEAPON_ARROW: number
+  WEAPON_SHUIXIU: number
+  WEAPON_MODE_EMPTY: number
+  WEAPON_MODE_LIFEWEAPON: number
+  LIFE_WEAPON_PANEL: list
+  WEAPON_CLASS_BATTLE: number
+  WEAPON_TANGDAO: number
+  LINK_MODE_PRIORITY_FOLLOW: number
+  WEAPON_MODE_SKILL: number
+  LIFE_WEAPON_FISHING: number
+  WEAPON_MODE_BOW: number
+  WEAPON_CLASS_LIFE: number
+  WEAPON_MODE_NONE: number
+  LINK_MODE_PRIORITY_GAMEPLAY: number
+  WEAPON_DRAW: number
+  WEAPON_RETRACT: number
+  WEAPON_NIL: number
+  WEAPON_MODE_TEMP: number
+  WEAPON_MODE_INSTRUMENT: number
+  WEAPON_SLOT_BOW_WEAPON: string
+  LINK_MODE_AUTO_FLAG: string
+  WEAPON_CLASS_BOW: number
+  WEAPON_MODE2SLOT_NAME: dict
+  WEAPON_MODE_GAMEPLAY: number
+  LINK_MODE_PRIORITY_ARCHER_AIM: number
+  LINK_MODE_PRIORITY_DEFAULT: number
+  WEAPON_MODE2PROP_NAME: dict
+  LINK_MODE_PRIORITY_IGNORE_FORBID: number
+  WEAPON_CHANGQIANG: number
+  WEAPON_CLASS_INTERACT: number
+  LIFE_WEAPON_SUBTYPE_LIST: list
+  BUILDING_HAMMER_SUBTYPE: number
+  LINK_MODE_PRIORITY_GRAPH_FORBID: number

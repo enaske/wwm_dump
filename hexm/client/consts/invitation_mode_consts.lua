@@ -1,0 +1,56 @@
+Module: hexm.client.consts.invitation_mode_consts
+Type: table
+================================================================================
+
+Keys:
+  COLOR_WHITE: list
+  space_room_get_enter_state: function
+  FORBID_MODE_POLICE_WANFA: string
+  get_coop_game_handler: function
+  OWN_WORLD_NAME: string
+  CONFIRM_TYPE_ENTER_WANFA: number
+  get_teammate_state: function
+  self_is_leader: function
+  set_head_info: function
+  self_is_plunger: function
+  COOP_GAME_SUMO_PVP: number
+  COOP_GAME_SZYY_DOUBLE: number
+  space_room_get_cust_msg_info: function
+  CONFIRM_TYPE_INVITE: number
+  FORBID_MODE_FUNC: dict
+  get_player_state_button_mode: function
+  space_room_get_leader_info: function
+  STATE_IN_MMO_MODE: number
+  coop_match_handle_szyy: function
+  pure_in_coop: function
+  space_room_get_room: function
+  get_coop_match_handler: function
+  COOP_MATCH_HANDLERS: dict
+  coop_match_handle_sumo: function
+  check_coop_level_unlock: function
+  STATE_IN_SINGLE_MODE: number
+  QINGHE_FENBAO: number
+  FORBID_MODE_WITNESS_WANFA: string
+  STATE_OFFLINE: number
+  get_invitation_ui_is_main_player_tab: function
+  COOP_GAME_HANDLERS: dict
+  COOP_GAME_SHEFU_COOP: number
+  STATE_IN_INVITATION_MODE: number
+  get_player_state_coop: function
+  space_room_get_players_info: function
+  UNLOCK_CONDITION: number
+  space_room_get_player_info_list: function
+  BUTTON_MODE_NO_BY_STATE: dict
+  coop_match_handle_shefu: function
+  get_player_state: function
+  FORBID_MODE_DUNGEON_WANFA: string
+  TEAM_MAX_COUNT: number
+  CONFIRM_TYPE_ENTER_ROOM: number
+  is_coop_member: function
+  COLOR_GREEN: string
+  space_room_check_is_leader: function
+  coop_game_handle_shefu: function
+  space_room_get_player_list: function
+  COLOR_GRAY: string
+  space_room_get_player_info: function
+  (1 more keys)

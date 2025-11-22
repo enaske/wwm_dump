@@ -1,0 +1,56 @@
+Module: hexm.common.consts.jianghu_skill_consts
+Type: table
+================================================================================
+
+Keys:
+  get_jianghu_skill_sys_d: function
+  JIANGHU_SKILL_EVENT_LV_UP: string
+  JIANGHU_SKILL_SUB_TYPE_DA_QINGGONG: number
+  JIANGHU_SKILL_EVENT_NOTICE_COMMON_CONDITION: string
+  SKILL_SLOT_JIANGHU_WUXUE: number
+  check_one_qs_level_2: function
+  jianghu_skill_condition_do_check: function
+  LEVELUP_REQ_TYPE_STUFFS: number
+  SKILL_JIANGHU_WUXUE_NAME: string
+  gen_skill_id: function
+  get_skill_sys_d: function
+  jianghu_skill_check_up_stuff: function
+  check_first_battle_qs: function
+  JIANGHU_SKILL_PLACE_TYPE_AWARD: number
+  LEVELUP_REQ_TYPE_COND: number
+  can_equip_jianghu_skill: function
+  check_jianghu_skill_unlock: function
+  SKILL_LIMIT_TYPE_LUNJIAN: number
+  JIANGHU_SKILL_MODE_NORMAL: number
+  L2_EFFECT_PROPS: dict
+  JIANGHU_SKILL_EVENT_SECTION_UP: string
+  SKILL_SLOT_QISHU: number
+  JIANGHU_SKILL_MODE_TP: number
+  get_equipped_jianghu_skills_by_function_type: function
+  SKILL_HANGDANG_NAME: string
+  check_has_qinggong_jianghu_skill: function
+  get_slot_skill_id: function
+  ALL_SKILL_SLOTS: list
+  SKILL_HANGDANG_CLASS: list
+  check_can_equip_qs: function
+  JIANGHU_SKILL_CONDITION_FUNC: dict
+  get_slot_fight_skill_id: function
+  JIANGHU_SKILL_EVENT_RESET_ATTR: string
+  JIANGHU_SKILL_EVENT_TIP: string
+  JIANGHU_SKILL_PLACE_TYPE_TIP: number
+  JIANGHU_SKILL_EVENT_UNEQUIP: string
+  JIANGHU_SKILL_EVENT_EQUIP: string
+  _reload_all: boolean
+  JIANGHU_SKILL_EQUIP_MODE_ALL_IN_ONE: number
+  is_skill_max_level: function
+  JIANGHU_SKILL_EVENT_UNLOCK: string
+  JIANGHU_SKILL_MODE_WANFA: number
+  SKILL_LIMIT_TYPE_JUDIAN: number
+  JIANGHU_SKILL_BATTLE_NUM_INIT: number
+  SKILL_JIANGHU_WUXUE_CLASS: list
+  get_qs_type_key: function
+  JIANGHU_SKILL_CONDITION_YINLV_STUDY_FIVE_QS: number
+  JIANGHU_SKILL_BATTLE: number
+  get_skill_item: function
+  JIANGHU_SKILL_EQUIP_MODE_ALL_IN_MANY: number
+  (1 more keys)

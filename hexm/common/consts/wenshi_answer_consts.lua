@@ -1,0 +1,53 @@
+Module: hexm.common.consts.wenshi_answer_consts
+Type: table
+================================================================================
+
+Keys:
+  E_SYNC_ANS_PLAY_DATA: number
+  E_PAIR_INVITE_DEAL_NOTIFY: number
+  STAGE_WAIT_NEXT: number
+  E_QUES_LIKEUNLIKE: number
+  TAG_TYPE_XIUWEI: number
+  STAGE_SHOW_RES: number
+  get_next_priority_name_tags: function
+  SYNC_ANS_STAT_TIME: number
+  E_ANS_STAT_NOTIFY: number
+  E_DRINK_TEA: number
+  NEXT_STAGE_MAP: dict
+  E_UPDATE_ANS_RANK: number
+  STATE_IN_ANSWER: number
+  E_PAIR_INVITE_NOTIFY: number
+  E_SEND_TEA: number
+  STATE_IDLE: number
+  STAGE_ANSWER: number
+  is_in_answer_game: function
+  E_PAIR_SUCC: number
+  TAG_TYPE_UPVOTE: number
+  QUESTION_CATE_MATH: number
+  STAGE_NOT_START: number
+  E_PAIR_INVITE: number
+  E_DEAL_PAIR_INVITE: number
+  E_FIRST_ANS: number
+  OP_REJECT: number
+  _reload_all: boolean
+  E_JOIN_ANSWER: number
+  REWARD_LIVENESS_UNREACH: number
+  E_RECEIVE_TEA: number
+  E_WAIT_DRINK_TEA: number
+  E_LEAVE_PAIR_MATCH: number
+  E_ANSWER_STAGE_CHANGE: number
+  OP_ACCEPT: number
+  REWARD_LIVENESS_RECEIVED: number
+  TAG_TYPE_BODY_TYPE: number
+  E_QUIT_PAIR: number
+  E_GET_LIVENESS_REWARD: number
+  REWARD_LIVENESS_RECEIVE: number
+  TAG_TYPE_COMMON: number
+  E_ANS_END: number
+  NEXT_STAGE_MAP_INDUCTION: dict
+  E_ANSWER_QUESTION: number
+  E_START_PAIR_MATCH: number
+  E_GET_PLAYER_LIST: number
+  get_id_by_weight: function
+  E_LEAVE_ANSWER: number
+  TAG_TYPE_ACHIEVEMENT: number

@@ -1,0 +1,56 @@
+Module: hexm.client.ui.windows.store.guise_apply.guise_apply_consts
+Type: table
+================================================================================
+
+Keys:
+  get_dressing_item_dyeing_cost: function
+  get_curr_selected_guise: function
+  get_dress_dye_presets: function
+  BTN_KEY_HIDE_UI: string
+  construct_guise_sid_data: function
+  STATE_LOCKED: number
+  GROUP_WEAPON_DRESSING: string
+  get_dress_weapon_recoin_view_ids: function
+  get_select_info_from_guise_data: function
+  construct_target_waiguan_data: function
+  get_dress_weapon_attr: function
+  is_dyeing_stuff_direct_buy: function
+  get_fashion_slot_data: function
+  construct_guise_sid_data_dressing: function
+  construct_cart_items_dressing: function
+  GROUP_DRESSING: string
+  E_CHECK_ONE_GROUP: string
+  get_dress_dye_presets_by_id: function
+  get_select_dye_slot_conflicts: function
+  CART_CANNOT_BUY: number
+  construct_guise_data: function
+  GUISE_APPLY_FASHION_CONFIG_NO: number
+  get_dress_weapon_recoin_dyeing_list: function
+  e_c_2_state: dict
+  get_stuff_owned_state: function
+  STATE_CAN_EXCHANGE: number
+  ALL_GROUPS: list
+  PREPROCESS_DATA_REASON_BODY_TYPE_VIEW: number
+  BTN_KEY_HIDE_FASHION: string
+  PREPROCESS_DATA_REASON_BODY_TYPE_DYE: number
+  get_guise_dye_data: function
+  get_dress_weapon_ex: function
+  is_state_can_select: function
+  get_guise_apply_open_cart_sids: function
+  get_view_owned_state: function
+  open_unlock_fashion_window: function
+  construct_guise_data_dressing: function
+  STATE_HAVE: number
+  stuff_no2sid: function
+  dress_has_available_dye_slots: function
+  CART_CAN_BUY: number
+  E_SELECT_ITEM: string
+  is_state_can_use_for_rpc: function
+  FASHION_TEAM: number
+  get_init_dress_target_dye_no: function
+  FASHION_SOLO: number
+  BTN_KEY_BUY_AND_APPLY: string
+  GROUP_FASHION: string
+  STATE_CAN_BUY: number
+  CART_CAN_APPLY: number
+  (1 more keys)

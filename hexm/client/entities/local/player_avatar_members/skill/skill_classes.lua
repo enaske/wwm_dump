@@ -1,0 +1,56 @@
+Module: hexm.client.entities.local.player_avatar_members.skill.skill_classes
+Type: table
+================================================================================
+
+Keys:
+  _get_fishing_choose_bait_pc: function
+  _get_defence_mobile: function
+  _get_qishu_lunpan_mobile: function
+  _get_yiwu_pc: function
+  _get_ladder_jump_pc: function
+  _get_common_gameplay_pc: function
+  _get_fly_mobile: function
+  _get_archer_active_skill_mobile: function
+  _get_normal_change_speed_and_roll_pc: function
+  _get_qishu_gameplay_pc: function
+  UI_VIEW: string
+  _get_granny_race_special_pc: function
+  _get_sensor_skill_pc: function
+  require_ui_main_classes: function
+  get_mobile_common_skill_config: function
+  UI_CTRL: string
+  _get_ladder_jump_mobile: function
+  _get_prison_parade_throw_mobile: function
+  _get_arrow_zhishui_config_pc: function
+  require_manager_module: function
+  _get_cloud_slice_taiji_mobile: function
+  _get_fishing_config_mobile: function
+  _get_ride_jump_pc: function
+  _get_fishing_pc: function
+  _get_baiye_ultimate_skill_mobile: function
+  _get_granny_race_special_mobile: function
+  MODEL: string
+  _get_archer_shoot_mobile: function
+  _get_lingyunta_pc: function
+  _get_quick_trigger_skill_mobile: function
+  _get_default_skill_pc: function
+  BASE_CLASSES: dict
+  _get_stop_anim_action_mobile: function
+  _get_change_speed_swim_rush_mobile: function
+  _get_change_speed_ride_mobile: function
+  _get_choose_arrow_mobile: function
+  _get_sensor_skill_mobile: function
+  SLOT_TYPE_TO_CLASSES_PC: dict
+  _get_change_speed_pc: function
+  OLD_CCS_TO_NEW_CCS: dict
+  _get_normal_skill_mobile: function
+  _get_auto_recovery_pc: function
+  _get_qishu_weak_mobile: function
+  _get_fishing_accelerate_hook_mobile: function
+  _get_auto_recovery_chiji_mobile: function
+  _get_ride_off_pc: function
+  _get_lock_mobile: function
+  _get_building_cancel: function
+  _get_building_fill: function
+  _get_choose_arrow_pc: function
+  (1 more keys)

@@ -1,0 +1,56 @@
+Module: hexm.client.ui.windows.trade_new.trade_consts
+Type: table
+================================================================================
+
+Keys:
+  TRADE_JISHOU_STUFF_TYPE_6: number
+  DIANDANG_LEFT_TAB_DIANDANG: number
+  TRADE_SELL_SPECIAL_STUFF: number
+  REQUIRE_OVERTIME: number
+  get_trade_history_show_info: function
+  TRADE_GET_MONEY_RED_POINT_ID: number
+  LEFT_TAB_INDEX_TO_LEFT_ICON: dict
+  TRADE_STORE_UNLOCK_RED_POINT_ID: number
+  init_weapon_skin_slot_info: function
+  TRDE_TAB_TO_RED_POINT_INFO: dict
+  get_weapon_model_show_data_by_ex: function
+  TRADE_JISHOU_STUFF_TYPE_7: number
+  get_trade_forbid_lock_del_common_info: function
+  get_gongshi_left_time_str: function
+  TRADE_SHORT_VIEW_SIZE: list
+  TRADE_JISHOU_STUFF_TYPE_1: number
+  DIANDANG_LEFT_TAB_RECALL: number
+  TRADE_JISHOU_STUFF_TYPE_4: number
+  TRADE_STORE_TOTAL_RED_ID: number
+  save_trade_search_history: function
+  TRADE_JISHOU_RIGHT_CLOTH_INFO: list
+  JISHOU_LEFT_TAB_SELL: number
+  JISHOU_LEFT_TAB_WEAPON: number
+  get_trade_up_back_tip_rich_text_info: function
+  TRADE_JISHOU_STUFF_TYPE_3: number
+  AUTO_DIANDANG_FUNC_ID: number
+  DIANDANG_LEFT_TAB_BUY: number
+  JISHOU_LEFT_TAB_SHICHANG: number
+  on_request_stuff_list_back: function
+  JISHOU_LEFT_TAB_TO_ICON: dict
+  report_click_stuff_info: function
+  TRADE_SPECIAL_VIEW_SIZE: list
+  DIANDANG_LEFT_TAB_TO_ICON: dict
+  check_is_weapon_type: function
+  JISHOU_LEFT_TAB_CLOTH: number
+  REQUIRE_REC_TYPE_SEARCH: number
+  get_weapon_show_data_by_ex: function
+  get_trade_forbid_lock_rich_common_info: function
+  REQUIRE_REC_TYPE_RECOMMEND: number
+  REQUIRE_RIGHT: number
+  AUTO_JISHOU_FUNC_ID: number
+  get_trade_forbid_lock_rich_second_common_info: function
+  update_weapon_skin_slot_info: function
+  JISHOU_LEFT_TAB_STUFF: number
+  REQUIRE_PARSE_ERROR: number
+  TOP_TAB_JISHOU_IDX: number
+  TOP_TAB_DIANDANG_IDX: number
+  DIANDANG_START_CHOOSE_CLUB: string
+  REQUIRE_STUFF_STATE_ERROR: number
+  JISHOU_MY_FAVOR_ITEM_START_IDX: number
+  (1 more keys)

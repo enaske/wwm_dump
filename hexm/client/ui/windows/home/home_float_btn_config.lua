@@ -1,0 +1,56 @@
+Module: hexm.client.ui.windows.home.home_float_btn_config
+Type: table
+================================================================================
+
+Keys:
+  get_player_team_apply_config: function
+  get_chat_type_common_button_config: function
+  check_danmu_open: function
+  TEAM_INVITE_LIST_BTN: number
+  check_waiguan_request_borrow: function
+  check_cancel_tank: function
+  START_PINJIU_GAME: number
+  get_chatroom_button: function
+  SEND_GIFT: number
+  check_can_unforbid_chat_in_chat_room: function
+  social_limit_btn_list: list
+  check_jieyi_invite_pre_team: function
+  check_club_invite: function
+  show_btn_in_dragon_inn_relation: function
+  SPACE_ROOM_APPLY: number
+  check_show_invite: function
+  check_can_kict_out_in_wanfa_room: function
+  check_chat_room_member_voice_baned: function
+  team_func: dict
+  check_show_disease: function
+  SPACE_ROOM_INVITE: number
+  friend_func: dict
+  INVITE_STUDENT: number
+  DEBATE_BATTLE_BTN: number
+  get_chatroom_voice_type: function
+  DEBATE_BATTLE_SPECTATOR_BTN: number
+  TEAM_AUTO_MATCH: number
+  CHAT_FAST: number
+  check_chat_room_member_mic_open: function
+  check_show_personal_homepage: function
+  TEAM_CANCEL_AUTO_MATCH: number
+  check_chat_room_voice_open: function
+  check_wanfa_send_msg: function
+  check_chat_room_voice_type_free: function
+  check_club_edit_post: function
+  check_can_invite_jieyuan: function
+  can_remove_master: function
+  check_is_coop_guest: function
+  check_is_show_near: function
+  BLACK_DELETE: number
+  TEAM_RECALL_ALL_BTN: number
+  SCHOOL_CHASE_BTN: number
+  check_group_voice_open: function
+  get_friend_button: function
+  CHAT_MSG_SEND_BTN: number
+  check_not_console: function
+  check_scholar_answer_invite: function
+  PRISON_MATERIAL_EXCHANGE: number
+  check_chat_room_show_favorite: function
+  check_chat_room_voice_forbid: function
+  (1 more keys)

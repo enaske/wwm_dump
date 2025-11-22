@@ -1,0 +1,46 @@
+Module: hexm.client.entities.local.anim_state.anim_state_consts
+Type: table
+================================================================================
+
+Keys:
+  LAYER_COMMON_ANIM: string
+  LAYER_FACIAL: string
+  LAYER_SKILL: string
+  LAYER_NOOP_PRIORITY: dict
+  PRIORITY_DIALOG: number
+  LAYER_DIALOG: string
+  OTHER_ANIM: string
+  FLAG_ANIM_CTRL_NOOP_LAYER: string
+  RUN: string
+  PRIORITY_UPPER_ANIM_GAME_LEVEL_PLAY_ANIM: number
+  IDLE: string
+  BLEND_GRAPH_LAYERS: dict
+  PRIORITY_NOOP_LAYER_FULL: number
+  SPECIFIC_NOOP_TRANSIT_TIME: dict
+  E_S_RUN: string
+  ANIM_NAME_TO_STATE_NAME: dict
+  PRIORITY_UPPER_ANIM_INTERACT_PROCESS: number
+  E_S_TURN: string
+  PRIORITY_NOOP_LAYER_COMMON_ANIM: number
+  PRIORITY_COMMON_ANIM_INTERACT_RELATION: number
+  DEFAULT_NOOP_PRIORITY: number
+  LAYER_UPPER: string
+  E_S_NOOP: string
+  NOOP: string
+  PRIORITY_NOOP_LAYER_BEHIT: number
+  TURN: string
+  NOOP_LAYER_WHITE_LIST: dict
+  STATE_FLAG_DEFAULT: string
+  E_S_OTHER_ANIM: string
+  LAYER_COMMON_MOTION: string
+  E_S_IDLE: string
+  LAYER_NOOP_ANIM: dict
+  LAYER_FULL: string
+  STATE_EVENT_TO_STATE: dict
+  LAYER_SPECIAL_ANIM: string
+  LAYER_BEHIT_ADD: string
+  PRIORITY_UPPER_ANIM_INTERACT_RELATION: number
+  LAYER_BEHIT_CAMERACTRL: string
+  PRIORITY_DEFAULT: number
+  LAYER_BEHIT: string
+  PRIORITY_NOOP_LAYER_SKILL: number

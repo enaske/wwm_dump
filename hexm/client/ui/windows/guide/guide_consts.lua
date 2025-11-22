@@ -1,0 +1,56 @@
+Module: hexm.client.ui.windows.guide.guide_consts
+Type: table
+================================================================================
+
+Keys:
+  get_text_guide_rich_text_raw_data: function
+  get_all_platform_map_id: function
+  FINISH_MODE_KEY: string
+  PLATFORM_PHONE: number
+  check_guide_platform: function
+  is_guide_on_ride: function
+  UI_MODE_DIALOG1_POPO: number
+  OPTION_ITEM_VERTICAL_PADDING: number
+  UI_MODE_GROUP_FLOAT: number
+  ACTIVE_MODE_JOYSTICK: number
+  GUIDE_SOUND_FLOAT_OPEN: number
+  CHECK_AREA_TIME: number
+  UI_MODE_PC_KEY: number
+  ACTIVE_MODE_VIDEO: number
+  TUJIAN_TYPE_PICTURE: number
+  _get_rich_text_raw_data: function
+  IMAGE_TYPE_RTF: number
+  UI_MODE_DIALOG2_POPO: number
+  get_guide_image_height: function
+  get_picture_video_rich_text_raw_data: function
+  ACTIVE_MODE_KEY: number
+  KEY_KIND_MOUSE: string
+  GUIDE_PLATFORM_CONSOLE: number
+  get_image_rich_str: function
+  TIPS_VX_TYPE_CIRCLE: number
+  get_img_by_map_id: function
+  TUJIAN_BATTLE_RED_POINT: string
+  TUJIAN_RED_POINT_NAME: string
+  get_pc_key_end_raw_data: function
+  ACTIVE_MODE_CLICK_ANYWHERE: number
+  ACTIVE_MODE_WAIT_TIME: number
+  PANEL_NAME_DICT: dict
+  IMAGE_TYPE_MAP_ID: number
+  UI_MODE_GROUP_TEXT: number
+  get_pc_key_rich_text_raw_data: function
+  get_guide_period_reload_save: function
+  GUIDE_SOUND_TEXT_TIPS_OPEN: number
+  COMMON_VIDEO_WINDOW: string
+  SHOW_SPACE_MODES: dict
+  TIPS_VX_TYPE_BOX: number
+  UI_MODE_VIDEO: number
+  GUIDE_SOUND_TUJIAN_OPEN: number
+  KEY_KIND_JOSTICK: string
+  UI_MODE_EMPTY: number
+  ACTIVE_MODE_CLOSE_WAIT_: number
+  ACTIVE_MODE_CLICK_BEGIN: number
+  parse_text_content: function
+  ACTIVE_MODE_FINISH: number
+  OPTION_ITEM_PADDING: number
+  GUIDE_PC_KEY_FINISH: string
+  (1 more keys)

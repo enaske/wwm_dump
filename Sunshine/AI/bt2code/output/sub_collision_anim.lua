@@ -1,0 +1,56 @@
+Module: Sunshine.AI.bt2code.output.sub_collision_anim
+Type: table
+================================================================================
+
+Keys:
+  n000140030_CBTAlwaysSequenceNode: function
+  n0001302_Nop: function
+  n000130_CBTIfElseNode: function
+  n000140031011_CBTAlwaysSequenceNode: function
+  n00012020_PlayBoneFilterAnimAction: function
+  n00014003100_CBTAlwaysSequenceNode: function
+  n00014003101_CBTSwitchCaseNode: function
+  n0_SetupSightDecorator: function
+  n00013_CBTAlwaysSequenceNode: function
+  n0000211_CBTSwitchCaseNode: function
+  n00014000_ExitPoseAnim: function
+  n0001400_CBTAlwaysSequenceNode: function
+  n00012_CBTAlwaysSequenceNode: function
+  n00014002_PassNode: function
+  n0000212_CBTIfElseNode: function
+  n0001101_CBTAlwaysSequenceNode: function
+  n000120_CBTAlwaysSequenceNode: function
+  n0001200_SetVariableAction: function
+  n000140020_SendEventAction: function
+  n00011001_CBTAlwaysSequenceNode: function
+  n00002_CBTIfElseNode: function
+  n0001203_ApplyWatch: function
+  n0000_CBTAlwaysSequenceNode: function
+  n0001301_ApplyWatch: function
+  TREE_NAME: string
+  n00000_PassNode: function
+  n000140_SetValueDecorator: function
+  n0001400310_CBTSwitchCaseNode: function
+  n00012010_SetVariableAction: function
+  n0001400310110_SetAnimSuffixAction: function
+  n0001400310120_SetAnimSuffixAction: function
+  n0001400310131_SetBlackboard: function
+  n00003_Pause: function
+  n00011010_SetReactionEnableDecorator: function
+  n0001400310100_SetAnimSuffixAction: function
+  n00011011_ApplyWatch: function
+  n00011_CBTAlwaysSequenceNode: function
+  n0001400300_PlayAnimAction: function
+  n00011003_Pause: function
+  n0001000_ExitPoseAnim: function
+  n000110100_CBTAlwaysSequenceNode: function
+  n0001300_CheckPoseAnimStage: function
+  n00014003102_CBTAlwaysSequenceNode: function
+  n00002112_CBTAlwaysSequenceNode: function
+  n0001400310111_SetBlackboard: function
+  n000021120_NpcDialogSelect: function
+  n000020_CheckTimer: function
+  n000_Parallel: function
+  n00002120_CheckBlackboard: function
+  n00011000_SetVariableAction: function
+  (1 more keys)

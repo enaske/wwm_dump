@@ -1,0 +1,56 @@
+Module: hexm.common.misc.interact_misc
+Type: table
+================================================================================
+
+Keys:
+  concat_ins_comp_eid: function
+  active_interact_end_edit_comp_quick: function
+  get_comp_eid_by_comp: function
+  active_interact_check_stuffs: function
+  get_comp_type_sid_by_comp_eid: function
+  check_lock_by_sid: function
+  get_interact_ins_save_id: function
+  get_active_interact_start_result_duration_by_anim_data: function
+  gen_interact_id: function
+  get_ins_reborn_cache_map: function
+  get_status_change_time: function
+  get_status_change_no: function
+  get_comp_related_ins_d: function
+  interact_comp_change_active_cnt: function
+  check_mode_interact_all: function
+  has_relation_no: function
+  change_interact_comp_active_way2avatars: function
+  CURD_ENTITY_TYPE_NORMAL: number
+  filter_id_not_interact_all: function
+  get_ins_static_entity_comp_eid: function
+  get_interact_comp_save_data: function
+  check_interact_id: function
+  try_get_couple_no: function
+  active_interact_result_edit_comp: function
+  active_interact_end_edit_comp: function
+  get_iworld_static_entity_comp_eid: function
+  horse_get_treasure_info: function
+  active_interact_get_duration: function
+  query_aoi_interact: function
+  get_interact_comp_ins_prefix: function
+  send_server_log: function
+  check_comp_relation_need_migrate: function
+  check_comp_is_private_avatar: function
+  get_serial_id_by_ins_static_entity_id: function
+  get_ins_entity_comp_eid: function
+  get_active_interact_anim_data: function
+  check_telekinesis_can_send_simulate_rpc: function
+  get_active_interact_result_end_duration: function
+  active_interact_result_edit_comp_quick: function
+  get_transition_sys_d_by_No: function
+  interact_comp_clear_active_cnt: function
+  check_comp_is_private_other_avatar: function
+  get_all_avatar_relation_slots: function
+  get_interact_comp_by_comp: function
+  active_interact_start_need_edit_comp: function
+  get_entity_ins_position: function
+  check_comp_need_call_owner_load: function
+  active_interact_check_common: function
+  get_common_mat_id: function
+  CURD_ENTITY_TYPE_PT: number
+  (1 more keys)

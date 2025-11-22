@@ -1,0 +1,56 @@
+Module: Sunshine.AI.bt2code.output.touch_cat
+Type: table
+================================================================================
+
+Keys:
+  n014101_ReceiveWanFaEvent: function
+  n012_CBTWhileNode: function
+  n010_CBTWhileNode: function
+  n0130_Nop: function
+  n0100_Nop: function
+  n01110_CBTAlwaysSequenceNode: function
+  n01610_ReceiveEventDecorator: function
+  n014100_Compare: function
+  n01010014_PlayAnimAction: function
+  n016100_CBTAlwaysSequenceNode: function
+  n013_CBTWhileNode: function
+  n000_GetEntityAttr: function
+  n01010015_PlayAnimAction: function
+  n01712_AddInteractWay: function
+  TREE_NODES_NUM: number
+  n0171001_SetBlackboard: function
+  n01010016_Wait: function
+  n0181_ReceiveEventDecorator: function
+  n011100020110_RandomFromBlackboard: function
+  n01711_SetBlackboard: function
+  n001_GetTableValue: function
+  n0161_CBTAlwaysSequenceNode: function
+  n0190000_Compare: function
+  n00_CBTAlwaysSequenceNode: function
+  n01710_ReceiveEventDecorator: function
+  n01900012_Nop: function
+  n014_CBTWhileNode: function
+  n018_CBTWhileNode: function
+  n01110002_DistanceDecorator: function
+  n0111000200_GetTouchCatInfo: function
+  n0190_CBTAlwaysSequenceNode: function
+  n0191_Nop: function
+  n01611_SetBlackboard: function
+  n01110000_GetTouchCatInfo: function
+  n0190001_CBTIfElseNode: function
+  n010100100_Pause: function
+  TREE_NAME: string
+  n01110001_DistanceDecorator: function
+  n0_CBTAlwaysSequenceNode: function
+  n0111000_CBTAlwaysSequenceNode: function
+  n011101_Wait: function
+  n0121_ReceiveWanFaEvent: function
+  n01110002012_CBTAlwaysSequenceNode: function
+  n0151001_TurningAction: function
+  n0171_CBTAlwaysSequenceNode: function
+  n019000_CBTIfElseNode: function
+  n0110_Nop: function
+  n011100020120_RandomFromBlackboard: function
+  n0161000_AddInteractWay: function
+  n002_GetTableValue: function
+  (1 more keys)

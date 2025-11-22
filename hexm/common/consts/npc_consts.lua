@@ -1,0 +1,56 @@
+Module: hexm.common.consts.npc_consts
+Type: table
+================================================================================
+
+Keys:
+  SNATCH_STUFF_EVENT_RESULT_BATTLE: number
+  NPC_WORK_PRIORITY_INVALID: number
+  B_TP_EVENT_DAILY: number
+  MENKE_NPC_SPACE_STATE_TYPE_INDUSTRY_EMPTY: number
+  get_default_max_npc_rest: function
+  RELATION_PARENT: number
+  WANFA_UNLOCK_AUDITION: string
+  get_npc_age: function
+  NPC_INTERACT_EVENT_BAISHI: number
+  NPC_RELATION_HOMETOWN: number
+  RELATION_SIBLING: number
+  DEBUG_SWITCH: boolean
+  NPC_MISSION_STATE_DOING: number
+  get_team_avatars: function
+  get_npc_attr_talent_data: function
+  TYPE_JUDGE_ALL: number
+  MENKE_NPC_SPACE_STATE_TYPE_HOMELAND_EMPLOY_PADDING: number
+  NPC_CLONE_TYPE_XDZ: number
+  BEHAVIOR_INTERACT_TYPE_SEND_GIFT: number
+  NPC_RELATION_CHILDREN: number
+  RELATION_ADORE: number
+  NPC_INTERACT_AI_BLACKBOARD_FIGHT_TARGET: string
+  NPC_RELATION_COUPLES: number
+  RELATION_DISCIPLE: number
+  NPC_WORK_STATE_REST_WAITING: number
+  get_npc_model_attr: function
+  RELATION_STRANGE: number
+  RELATION_ENSHENYIZHONG: number
+  NPC_MSG_TYPE_WUZI: number
+  NPC_RELATION_LIKE: number
+  MENKE_NPC_SPACE_STATE_TYPE_IN_PLAYER_BAG: number
+  get_world_owner: function
+  get_default_npc_rest: function
+  RELATION_ACQUAINTANCE: number
+  BEHAVIOR_DAILY: number
+  NPC_MSG_TYPE_RELATION: number
+  get_role_id_and_hostnum: function
+  NPC_KIDNAP_STATE_PADDING: number
+  MON_TYPE_FIXED_MULTI: number
+  UTILITY_DEL_ALL: number
+  NPC_MSG_TYPE_JIANGHU_EVENT: number
+  RELATION_SHIBULIANGLI: number
+  ENABLE_MOBILE_IDLER_NPC_WARMUP_LOD_LEVELS: list
+  TYPE_JUDGE_DAILY: number
+  NPC_INTERACT_EVENT_SHIAI: number
+  NPC_INTERACT_AI_BSTATE_DIE: string
+  NPC_RELATION_TYPE_XUEYUAN: number
+  NPC_MISSION_TYPE_TASK: string
+  NPC_TYPE_CORE: number
+  MON_TYPE_ATMOS: number
+  (1 more keys)

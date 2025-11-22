@@ -1,0 +1,56 @@
+Module: hexm.client.debug.gm.gm_commands.gm_ui
+Type: table
+================================================================================
+
+Keys:
+  gm_hide_ui_only_show: function
+  gm_open_child_store_window: function
+  gm_stop_ui_replay: function
+  generate_common_rank_list: function
+  gm_show_cutscene_qte: function
+  debug_print_mouse: function
+  change_resolution: function
+  enable_fit_tail_screen: function
+  open_paifang_side_window: function
+  open_skillset: function
+  use_pc_ui: function
+  open_smapV3: function
+  debug_low_device: function
+  use_2d_bigmap: function
+  open_big_map_inertia: function
+  listview_adjust_panel: function
+  generate_qa_shortcuts_list: function
+  try_pop_new_camera: function
+  gm_toggle_gm_shortcuts: function
+  gm_debug_imulate_pc_16_9: function
+  load_bag_window: function
+  gm_simulate_mobile_window_width: function
+  load_gamma_setting_window: function
+  add_npc_event_map3d: function
+  obj_inspector: function
+  clear_wanfa_yugao: function
+  gm_show_ui_pos: function
+  gm_double_click_copy_text: function
+  open_gang_ui: function
+  open_dress_station_window: function
+  open_wanfa_yugao: function
+  debug_print_input: function
+  enter_gang_space: function
+  use_publish_mei_url: function
+  cocos_rendering_debug: function
+  gm_joystick_debug: function
+  is_use_2d_bigmap: function
+  open_com_showroom: function
+  gm_open_fullscreen_debug: function
+  clear_window_size: function
+  gm_simulate_btn_by_text: function
+  open_ux_window: function
+  open_realm_achievement_window: function
+  open_skillset_allocation: function
+  show_window_board: function
+  set_window_size: function
+  export_world_view_npc_pos_info: function
+  script_monitor_panel: function
+  GM_CUSTOM_COMMANDS: list
+  load_fenbao_lang_window: function
+  (1 more keys)

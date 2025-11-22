@@ -1,0 +1,51 @@
+Module: hexm.client.ui.windows.life_skill_window.qishu.qishu_consts
+Type: table
+================================================================================
+
+Keys:
+  QISHU_TYPE_COMMON_SUB_TYPE_PASSIVE: number
+  QISHU_TYPE_QINGGONG_SUB_TYPE_DA_QINGGONG: number
+  QISHU_DIANXUE: number
+  QISHU_EQUIPPED_ITEM_TYPE_2_AUTO_EFFECTIVE: number
+  get_contains_unlock_qishu_by_main_and_sub_type: function
+  QISHU_BATTLE_SLOT_NUM: number
+  ALL_QISHU_TYPES: list
+  QISHU_YINGGUANG_ID: number
+  EQUIP_MODE_MULTI_EQUIP_ONE_CAN_UNEQUIP: number
+  AUTO_EFFECTIVE_PASSIVE_BATTLE: number
+  QISHU_EQUIPPED_ITEM_TYPE_1_NORMAL: number
+  MAX_SECTION: number
+  QISHU_TYPE_BATTLE_SUB_TYPE_BOSS: number
+  TEST_EQUIPED_QISHU_LIST: list
+  QISHU_RELATED_RESOURCE: number
+  EVENT_REFRESH_TAB_RED_POINTS: string
+  QISHU_JIEKONG: number
+  SPECIAL_BATTLE_QISHU_TYPES: list
+  QISHU_TYPE_QINGGONG_SUB_TYPE_FYZB: number
+  MAX_LEVEL: number
+  get_unlock_qishu_list_by_main_and_sub_type: function
+  EQUIP_MODE_MULTI_CHOOSE_EQUIP_ONE: number
+  QISHU_TYPE_BATTLE: number
+  QISHU_TYPE_COMMON_SUB_TYPE_ACTIVE: number
+  QISHU_LISTEN: number
+  EQUIP_MODE_DEFAULT_ALL_EQUIP: number
+  QISHU_TYPE_COMMON: number
+  QISHU_TYPE_BATTLE_SUB_TYPE_POFANG: number
+  QISHU_EQUIPPED_ITEM_TYPE_3_SHOWING_DETAIL: number
+  QISHU_RED_POINT_NAME: string
+  is_valid_qishu_type: function
+  QISHU_TAB_MYSTERY: number
+  QISHU_TYPE_QINGGONG: number
+  QISHU_TYPE_BATTLE_SUB_TYPE_FANJI: number
+  EVENT_REFRESH_RED_POINT: string
+  QISHU_TAB_BATTLE_OR_LIFE: number
+  QISHU_TELEKINESIS: number
+  QISHU_TYPE_QINGGONG_SUB_TYPE_DIVE: number
+  AUTO_EFFECTIVE_FYZB: number
+  get_is_boss_qishu: function
+  QISHU_RELATED_RESOURCE_MAX: string
+  QISHU_TYPE_QINGGONG_SUB_TYPE_SHEN_FA: number
+  AUTO_EFFECTIVE_XIAO_QINGGONG: number
+  get_qishu_is_in_now_qishu_tab: function
+  QISHU_TYPE_BATTLE_SUB_TYPE_SOLVE_PUZZLE: number
+  get_test_qishu_equip_list: function

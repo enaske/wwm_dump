@@ -1,0 +1,47 @@
+Module: hexm.client.ui.windows.gang.gang_wanfa.gang_build_qte_consts
+Type: table
+================================================================================
+
+Keys:
+  BTN_CLICK_TYPE_LONG_PRESS: number
+  GANG_BUILD_QTE_GROUP_BGM_KEY: string
+  GANG_BUILD_QTE_NPC_FUNCTION_ID: number
+  COOK_QTE_ADD_SPICES_EVENT: string
+  ICON_FLAG: string
+  BTN_EXIST_TYPE_TEMP: number
+  ERRCODE_REWARD_FULL: number
+  ICON_WAIT_ID: number
+  BTN_EXIST_TYPE_ALWAYS: number
+  BUILD_QTE_SHOW_ID_VAR: string
+  STAGE_ENDING: number
+  QTE_PLAY_EVENT: string
+  STAGE_COUNTING: number
+  STAGE_REFRESH_RANK: number
+  COOK_QTE_END_ANIM_NAME: string
+  BUILD_QTE_PREPARE_ANIM_NAME: string
+  STAGE_START_LEVEL: number
+  get_button_info: function
+  ICON_PREPARE_ID: number
+  QTE_CHANGE_EVENT: string
+  COOK_QTE_PREPARE_ANIM_NAME: string
+  CAMERA_KEY_COOK_QTE: string
+  COOK_QTE_SELECT_SPICE_VAR: string
+  BUILD_QTE_END_ANIM_NAME: string
+  GANG_COOK_QTE_INTERACT_NO: number
+  GANG_BUILD_QTE_TRACE_TARGET: number
+  QTE_PREPARE_END_EVENT: string
+  get_build_qte_menke_npc_list: function
+  GANG_BUILD_QTE_BGM_KEY: string
+  GANG_BUILD_QTE_SHARE_ID: number
+  BTN_CLICK_TYPE_INSTANT: number
+  QTE_END_EVENT: string
+  BUILD_QTE_IS_HOST_VAR: string
+  GRADE_TO_SCORE: dict
+  GANG_COOK_QTE_BGM_KEY: string
+  STAGE_READY_GO: number
+  GANG_BUILD_QTE_PASSIVE_MODE_KEY: string
+  CAMERA_KEY_BUILD_QTE: string
+  STAGE_REFRESH_SCORE: number
+  GANG_COOK_QTE_BGM_NO: number
+  GANG_BUILD_QTE_INTERACT_NO: number
+  GANG_BUILD_QTE_BGM_NO: number

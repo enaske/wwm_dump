@@ -1,0 +1,9 @@
+Module: hexm.client.debug.gm.gm_commands.gm_story_qiyu
+Type: table
+================================================================================
+
+Keys:
+  _reload_all: boolean
+  gm_trigger_story_qiyu: function
+  gm_fetch_story_qiyu_task: function
+  gm_clear_story_qiyu: function

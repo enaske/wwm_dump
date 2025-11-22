@@ -1,0 +1,56 @@
+Module: Sunshine.AI.bt2code.output.sub_infight_surprise
+Type: table
+================================================================================
+
+Keys:
+  n01100_SetBlackboard: function
+  n030_CBTAlwaysSequenceNode: function
+  n030010_UpdateBlackboard: function
+  n030020_UpdateBlackboard: function
+  n0011_SetVariableAction: function
+  n0411_UtilityBehaviorAddByBB: function
+  n000_CBTAlwaysSequenceNode: function
+  n01201_SetBlackboard: function
+  n0020_SetBlackboard: function
+  n012_CBTAlwaysSequenceNode: function
+  n0410010_CheckTargetDis: function
+  TREE_NODES_NUM: number
+  n040003_TriggerAIEvent: function
+  n030012221100_SetBlackboard: function
+  n042011_ExecuteBtree: function
+  n03001222111_CBTAlwaysSequenceNode: function
+  n0300121_CBTAlwaysSequenceNode: function
+  n021_SetBlackboard: function
+  n03_CBTSwitchCaseNode: function
+  n03001211_SetBlackboard: function
+  n03001210_SetBlackboard: function
+  n042023_ExecuteBtree: function
+  n00_CBTSwitchCaseNode: function
+  n04100110_SetBlackboard: function
+  n042022_ExecuteBtree: function
+  n0300_CBTIfElseNode: function
+  n01_CBTSwitchCaseNode: function
+  n0120_Probability: function
+  n0300122211010_SetBlackboard: function
+  n03001222_CBTAlwaysSequenceNode: function
+  n03001222101_SetBlackboard: function
+  n0300122211_CBTSwitchCaseNode: function
+  n04100111_PopBlackboard: function
+  n01200_SetBlackboard: function
+  n0300122_CBTIfElseNode: function
+  n0010_SetBlackboard: function
+  n011_CBTAlwaysSequenceNode: function
+  n030012220_SetBlackboard: function
+  n0300122210_CBTAlwaysSequenceNode: function
+  n02_CBTSwitchCaseNode: function
+  n03001_CBTAlwaysSequenceNode: function
+  n0021_SetVariableAction: function
+  n04200_CheckPoseAnimStage: function
+  n030021_AddAlertValue: function
+  n030011_AddAlertValue: function
+  n03000_CheckTargetDis: function
+  n03001222100_SetBlackboard: function
+  n042010_ExecuteBtree: function
+  n0300122211011_SetBlackboard: function
+  n040002_ExecuteBtree: function
+  (1 more keys)

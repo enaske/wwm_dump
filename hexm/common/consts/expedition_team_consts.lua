@@ -1,0 +1,56 @@
+Module: hexm.common.consts.expedition_team_consts
+Type: table
+================================================================================
+
+Keys:
+  E_CHANGE_FOLLOW_STATE: number
+  E_ACCEPT_INVITATION: number
+  E_APPLY_NOTIFY: number
+  E_CHANGE_MEMBER_POS: number
+  E_KICK_NOTIFY: number
+  E_REFOLLOW: number
+  get_event_notify_id: function
+  E_CREATE: number
+  E_VOTE_NOTIFY: number
+  E_SET_FORBID: number
+  E_SET_TASK_DATA: number
+  E_CHAT_IN_TEAM: number
+  E_ENTER_SPACE: number
+  E_INVITE: number
+  E_ADD_MEMBERS: number
+  OP_REJECT_TIMEOUT: string
+  E_CHANGE_CAPACITY: number
+  E_CHANGE_LEADER: number
+  E_QUERY_TEAM_STATE: number
+  E_LOGOUT_NOTIFY: number
+  E_STOP_FOLLOW: number
+  E_CLEAR_APPLYS: number
+  E_FIND_MATCH_TEAM: number
+  E_LEAVE: number
+  E_FOLLOW: number
+  E_APPLY_OK: number
+  E_FETCH_APPLY: number
+  E_DEAL_INVITE_NOTIFY: number
+  E_REGISTER_MAILBOX: number
+  E_LOGIN: number
+  E_DEAL_APPLY: number
+  EVENT_NAME: dict
+  E_LOGIN_NOTIFY: number
+  E_APPLY_BECOME_LEADER: number
+  E_ACCEPT_INVITATION_NOTIFY: number
+  E_LEAVE_NOTIFY: number
+  E_AUTO_MATCH: number
+  E_CANCEL_MATCH: number
+  E_LOGOUT: number
+  E_APPLY_OK_NOTIFY: number
+  E_SET_LEVEL: number
+  OP_REJECT: string
+  E_REMOVE_TASK_DATA: number
+  E_FIND_TEAM_DATA: number
+  E_APPLY_REFUSE: number
+  E_FOLLOWED: number
+  E_FIND_RECOMMEND_PLAYERS: number
+  E_CLEAR_OUTTIME_APPLY: number
+  E_SET_MEMBER_POS: number
+  E_KICK: number
+  (1 more keys)

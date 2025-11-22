@@ -1,0 +1,56 @@
+Module: hexm.common.misc.wuxue_misc
+Type: table
+================================================================================
+
+Keys:
+  get_wuxue_feature_describe: function
+  get_wuxue_skills_key_info: function
+  get_wuxue_describe_by_id: function
+  ui_get_wuxue_item_data: function
+  split_wuxue_damage_data: function
+  get_wuxue_icon_by_id: function
+  get_wuxue_special_skills: function
+  check_attack_lable_state: function
+  ui_get_weapon_by_type: function
+  get_can_equipped_wuxue_by_slot: function
+  get_wuxue_by_slot: function
+  get_liupai_plan_id: function
+  get_wuxue_school_name: function
+  get_first_sub_wuxue: function
+  has_liupai: function
+  get_wuxue_sys_d: function
+  kongfu_pve_type: function
+  get_wuxue_weapon_type: function
+  wuxue_sort: function
+  get_wuxue_school_icon: function
+  get_type_liupai_wuxue: function
+  get_wuxue_type_by_id: function
+  get_wuxue_inherited_describe_by_id: function
+  get_wuxue_name_by_id: function
+  get_can_upgrade_wuxue: function
+  get_base_wuxue_skills_basic_info: function
+  WUXUE_UPGRADE_UNLOCK_RED: number
+  wuxue_has_skill: function
+  get_wuxue_short_describe_by_id: function
+  get_wuxue_liupai_attr_by_id: function
+  kongfu_pve_icon: function
+  get_wuxue_skills_attr_by_id: function
+  get_weapon_type_name: function
+  split_wuxue_skill_describe_str: function
+  check_liupai_forbidden: function
+  get_match_wuxue_by_id: function
+  clean_up_skillset_ui_data_cache: function
+  get_wuxue_upgrade_stuff: function
+  get_skill_map_id: function
+  get_weapon_suit_menu: function
+  get_wuxue_passive_skill_info: function
+  get_wuxue_talent_attr: function
+  combine_wuxue_damage_data: function
+  get_wuxue_talent_extra_attr: function
+  is_base_wuxue: function
+  get_wuxue_extra_skills: function
+  get_first_main_wuxue: function
+  ui_set_wuxue_template: function
+  get_wuxue_tianfu_skill_data: function
+  get_newcommer_kongfu: function
+  (1 more keys)

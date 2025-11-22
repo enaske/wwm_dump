@@ -1,0 +1,56 @@
+Module: hexm.client.G
+Type: table
+================================================================================
+
+Keys:
+  ui_platform_manager: instance
+  ENABLE_LOD_FOLLOW_MASTER: boolean
+  DEBUG_SHOW_MF: boolean
+  DEBUG_SKILL_WINDOW_USE_TILE: boolean
+  ENABLE_MOBILE_MMAP_TABLE_DATA: boolean
+  USE_ENGINE_LOAD_TM_ENTITY: boolean
+  ENABLE_FAKE_SERVER_DISPATCHER_LATCH: boolean
+  enable_fit_tail_screen: boolean
+  DEBUG_SHOW_PLANT_TRUNK: boolean
+  DEBUG_PRINT_SUNSHINE_LOG: boolean
+  ENABLE_AVATAR_LIMIT: boolean
+  USE_OLD_SPACE: boolean
+  on_created_dists: dict
+  debug_par_loader_list: list
+  platform_manager: instance
+  DEBUG_CLOUD_GAME: boolean
+  INTERACT_PROCESS_USE_STORYLINE: boolean
+  SKILL_INPUT_CACHE_ENABLED: boolean
+  PARKOUR_FORCE_LOAD_IMMEDIATE: boolean
+  NPC_SWAP_POPPING_FRAME_COUNT_GAP: number
+  ENABLE_ENV_SOUND_OPT: boolean
+  space_loader: instance
+  prefer_use_origin_table: boolean
+  DEBUG_USE_M_LOWLOW: boolean
+  HUD_EDIT_IN_TRIAL: boolean
+  gui_data_dispatcher: instance
+  ENABLE_MAIN_PLAYER_USE_PC: boolean
+  ENABLE_ECS: boolean
+  CREATE_DISSOLVE_TIME: number
+  bg_patcher: instance
+  export_error_by_mail: function
+  _not_in_painting_boat_wanfa_ts: number
+  GM_NPC_FORCE_LOW_LOD: boolean
+  ENABLE_COLLECT_CUR_ROLE_POS: boolean
+  sdk_manager: instance
+  INIT_NPC: number
+  ENABLE_LOGICLOD_SPEED: boolean
+  ENABLE_DISK_SHADOW_SWAP: boolean
+  ENABLE_AI_TRACE_NODE: boolean
+  GM_AI_GLOBAL_DISABLE_BLOCK_TASK_QUEUE: boolean
+  ENABLE_ENTITY_DESTROY_QUEUE_MOBILE: boolean
+  USE_OPT_FX: boolean
+  ENABLE_FIXED_ENTITY: boolean
+  DEBUG_USE_PROFILE_NPC: boolean
+  args_manager: instance
+  room_world_manager: instance
+  GM_USE_LISTEN_EFFECT: boolean
+  GM_FYZB_UNLOCK_ALL: boolean
+  LOCALE_HIDE_TEXT: boolean
+  entity_perf_manager: instance
+  (1 more keys)

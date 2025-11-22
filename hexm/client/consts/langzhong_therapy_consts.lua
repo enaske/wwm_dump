@@ -1,0 +1,23 @@
+Module: hexm.client.consts.langzhong_therapy_consts
+Type: table
+================================================================================
+
+Keys:
+  ERR_UNDIAGNOSABLE_NO_DISEASE: number
+  E_CALLBACK_DIAGNOSE_RESULT: string
+  ERR_UNDIAGNOSABLE_MISSING_TARGET: number
+  BLOCK_TASK_REWARD_STATE_ID: number
+  BLOCK_TASK_REWARD_FLAG: string
+  E_CALLBACK_REQUEST_PATIENT_RESPONSED: string
+  E_CALLBACK_THERAPY_START_FAIL: string
+  E_CALLBACK_MWZX_THERAPY_END: string
+  IDENTITY_NONE: number
+  ERR_UNDIAGNOSABLE_LACK_ATTR: number
+  E_CALLBACK_DIAGNOSE_INTERRUPT: string
+  E_CALLBACK_REQUEST_DOCTOR_RESPONSED: string
+  ERR_UNDIAGNOSABLE_DEAD: number
+  E_CALLBACK_THERAPY_END: string
+  E_CALLBACK_THERAPY_START_OK: string
+  E_CALLBACK_REQUEST_PATIENT_REQUESTED: string
+  IDENTITY_PATIENT: number
+  IDENTITY_DOCTOR: number

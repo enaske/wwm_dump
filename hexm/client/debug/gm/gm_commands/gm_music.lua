@@ -1,0 +1,41 @@
+Module: hexm.client.debug.gm.gm_commands.gm_music
+Type: table
+================================================================================
+
+Keys:
+  is_environment_debug_enable: function
+  gm_sound_show_event_info_with_text: function
+  gm_sound_print_last_combat_bgm: function
+  play_joystick_motion_sound: function
+  gm_reload_sound: function
+  enable_dynamic_sound_log: function
+  is_shrub_sound_debug_enable: function
+  gm_sound_print_event_info: function
+  test_contact_impulse: function
+  gm_sound_show_event_info: function
+  gm_debug_reverb_sound_switch: function
+  gm_backup_events: function
+  gm_stop_sound: function
+  gm_adjust_voicechange: function
+  gm_sound_enable_show_reverb_entity: function
+  disable_sound: function
+  is_click_indoor_debug: function
+  play_joystick_motion_sound_by_cue: function
+  gm_test_voicechange: function
+  test_river_sound: function
+  show_navimap: function
+  gm_sound_print_bgm_stack: function
+  gm_sound_enable_debug_way_point: function
+  gm_play_sound2: function
+  shrub_sound_debug: function
+  gm_select_voicechange: function
+  gm_sound_enable_graph_debug: function
+  disable_sound_async_load: function
+  gm_sound_enable_log: function
+  gm_sound_print_last_region_bgm: function
+  set_dynamic_sound_threshold: function
+  _reload_all: boolean
+  gm_export_region_sound: function
+  gm_play_sound: function
+  show_environment_sound_debug: function
+  gm_en_log: function

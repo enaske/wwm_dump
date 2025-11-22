@@ -1,0 +1,56 @@
+Module: hexm.client.ui.view.gen_view_extension.stuff_icon.stuff_icon_component_consts
+Type: table
+================================================================================
+
+Keys:
+  CENTER_ICON_ROBBED: number
+  CENTER_TOP_TAG: number
+  ZORDER_ADD_ICON: number
+  LEFT_TOP_MAIN_INSTRUMENT: number
+  LEFT_BOTTOM_ICON: number
+  RIGHT_TOP_RED_POINT: number
+  CENTER_TEXT_AWARD_LIMIT: number
+  LEFT_TOP_TITLE: number
+  REWARD_CAN_GET_RED_POINT_VX: number
+  SMALL_ADD_ICON: number
+  RIGHT_BOTTOM_ICON: number
+  EMPTY_EQUIP_SLOT: number
+  LEFT_TOP_CORNER_ICON: number
+  EQUIP_SET: number
+  CD: number
+  LEFT_TOP_CORNER_ICON_2: number
+  LEFT_TOP_ICON_2: number
+  CENTER_TOP_TEXT: number
+  RIGHT_BOTTOM_NUM_WITH_BG: number
+  RIGHT_BOTTOM_NUM: number
+  UPGRADE_RED_POINT_VX: number
+  ZORDER_BUTTON_STUFF: number
+  LEFT_TOP_LIUPAI: number
+  LEFT_TOP_HANGDANG_POINT: number
+  REWARD_GOLD_FRAME: number
+  SENCE_BG_WINDOWS: list
+  RIGHT_TOP_BTN: number
+  CENTER_ICON_CIRCLE: number
+  BADGE_TYPE: number
+  RIGHT_TOP_ARROW_ICON: number
+  CENTER_TOP_PRIORIT: number
+  CENTER_TEXT: number
+  ARMORY_STYLE_LEVEL: number
+  EQUIP_ADD_ICON: number
+  RIGHT_TOP_CHECK_BOX: number
+  LEFT_TOP_BUFF_LIST: number
+  TELEKINESIS_VX: number
+  ZORDER_IMAGE_BG: number
+  RIGHT_TOP_ICON: number
+  EQUIP_BAPTIZE_LEVEL: number
+  ZORDER_IMAGE_STUFF: number
+  CENTER_TEXT_2: number
+  CENTER_ICON: number
+  ZORDER_NECESSARY: number
+  ZORDER_RED_POINT: number
+  ZORDER_ABOVE_ALL: number
+  ZORDER_BELOW_ALL: number
+  VX_COMPONENT_MAP: dict
+  BOTTOM_LOADING_BAR: number
+  ZORDER_CD: number
+  (1 more keys)

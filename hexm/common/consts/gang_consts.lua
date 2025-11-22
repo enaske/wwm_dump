@@ -1,0 +1,56 @@
+Module: hexm.common.consts.gang_consts
+Type: table
+================================================================================
+
+Keys:
+  finish_gang_xs: string
+  ERR_NO_POST_LEFT: number
+  INITIAL_CREATE_JUYITING: string
+  ERR_FORBID_APPOINT_THE_AUTH: number
+  UNSET_POST_AUTH: number
+  GANG_GONGXIAN_OFFSET_MAIL_NO: number
+  already_select_area: number
+  ERR_EXPIRE_POSTER: number
+  ERR_NOT_GANG_XS: number
+  DEL_GANG_MOMENT: string
+  trigger_next_in_trigger_event: number
+  CHANGE_GANG_PURPOSE: string
+  ERR_NO_ENOUGH_MONEY_CREATE_GANG: number
+  ERR_NOT_MASTER_TAKE_PHOTO: number
+  ERR_DISMISS_GANG_IN_ERR_SPACE: number
+  GANG_RESIGN: string
+  ERR_NOT_SET_GANG_NAME: number
+  GANG_TRANSFER: string
+  GANG_MEMBERS_SORT_TYPE_POSITION: number
+  GET_GANG_WAREHOUSE_DATA: string
+  ERR_TRANSFER_TARGET_NOT_IN_GANG: number
+  master: number
+  gang_warehouse_module: string
+  ERR_INVALID_GANG_PHOTO_ID: number
+  UPDATE_GANG_AUTH: string
+  ERR_IN_GANG_INVITE_CD: number
+  gang_post_module: string
+  SET_POST_AUTH: number
+  ERR_EMPTY_GANG_APPLY_LIST: number
+  ERR_INVITED_AVATAR_LOW_LEVEL: number
+  CHANGE_GANG_MAIN_PAGE: string
+  APPLY_JOIN_GANG_BATCH: string
+  AVATAR_ENTER_GANG: string
+  ERR_INVALID_GANG_PROP: number
+  ERR_CHANGE_GANG_INDUSTRY_NOT_MASTER: number
+  ERR_COMMIT_STUFF_FULL: number
+  CHANGE_GANG_MAIN_PAGE_BUTTON: string
+  GET_DAILY_GANG_GONGXIAN: string
+  GANG_MEMBERS_SORT_TYPE_DEFAULT: number
+  gang_disaster: string
+  SA_LOG_OPTYPE_ENTER: number
+  ERR_CREATE_GANG_MEMBER_BEYOND_LIMIT: number
+  ERR_GANG_YUNBIAO_DIFF_GANG: number
+  gang_collection: string
+  ERR_NO_AUTH_OP: number
+  gang_construct: number
+  CREATE_OR_UPGRADE_GANG_BUILD: string
+  ERR_ONLY_GANG_MASTER_CHANGE_GANG_DATA: number
+  GET_GANG_LAND_INFO: string
+  ERR_CANNOT_UP_INDUS: number
+  (1 more keys)

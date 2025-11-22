@@ -1,0 +1,56 @@
+Module: hexm.common.consts.chiji_consts
+Type: table
+================================================================================
+
+Keys:
+  BT_EVENT_BUY_REVIVE: number
+  SETTLE_TYPE_EVAC: number
+  END_REASON_TIMEOUT: string
+  BT_EVENT_BOSS: number
+  MARK_POS: number
+  ty_id_by_mode: function
+  TS_MARK: string
+  BETRAY_TRANSFER_CONFIG_NO: number
+  INTERACT_DISCARD_NEED_EX: dict
+  LOOT_Q_PURPLE: number
+  health_config_no: function
+  DR_SP_LEAVE: string
+  SYNC_TAG_TM: number
+  MODE_DUOAI: number
+  P_STATE_BIT_LEAVE: number
+  AT_EMPTY: number
+  MAP_BETRAYER: number
+  rescue_duration: function
+  NTF_K_DYING: number
+  MAP_MARK: number
+  TYPE_MODE_SINGLE: list
+  BT_EVENT_MODE_BAN: dict
+  need_auto_pick: function
+  TM_DATA: dict
+  END_REASON_GAMEOVER: string
+  LOOT_T_BOW: number
+  P_SETTLE_STAGE_2: number
+  AI_LOW_HP: number
+  P_ABILITY_NO: number
+  P_STATE_BIT_CAN_REVIVE: number
+  MODE_CALC_MVP_SINGLE: list
+  P_STATE_SPECTATOR: number
+  DYING_BUFF: number
+  AT_NONE: number
+  LOOT_Q_BLUE: number
+  LOOT_T_WEAPON: number
+  AI_LIMIT_CUR: number
+  P_STATE_ALIVE: number
+  BETRAY_BUFF_NO: number
+  EVAC_STATE_RUNNING: number
+  INTERACT_DISCARD: dict
+  INTERACT_PICK_UP_CHECK: dict
+  binsi_res_id: function
+  check_is_dead_by_id: function
+  BT_EVENT_MALARIA: number
+  NTF_K_EVAC: number
+  SETTLE_TOKEN_TYPE: number
+  SD_BASE: string
+  MARK_BOSS: number
+  get_temp_bag_slot_id: function
+  (1 more keys)

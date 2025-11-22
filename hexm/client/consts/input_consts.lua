@@ -1,0 +1,56 @@
+Module: hexm.client.consts.input_consts
+Type: table
+================================================================================
+
+Keys:
+  ENV_ID_MOUSE_MOVE_ACTION: number
+  FREE_CAMERA_LEFT: string
+  INPUT_FUNC_ID_NUM_5: number
+  FUNC_BUTTON_NUM3: string
+  FUNC_BUTTON_UP1: string
+  ENV_GROUP_ID_MOJIN: number
+  ENV_ID_FISHING_QTE: number
+  PRESET_GROUP_JOYSTICK_NORMAL: number
+  INPUT_FUNC_ID_TAB_PREVIOUS: number
+  INPUT_FUNC_ID_BTN_NO: number
+  ENV_ID_EDITOR_BASE_SWALLOW: number
+  ENV_GROUP_BLACK_LIST_HUD: number
+  clear_input_key_log: function
+  FUNC_BUTTON_DOWN2: string
+  ENV_ID_STICK_WALL_CONSOLE: number
+  INPUT_MAP_ID_OPEN_BIG_MAP: number
+  FUNC_AUTO_NAVIGATE_START: string
+  ENV_ID_PLAY_INSTRUMENT: number
+  SUMMON_HORSE: string
+  FUNC_TO_KEY_INFO_TYPE_NORMAL: string
+  INPUT_FUNC_ID_TO_DIRECT_TAB_2: dict
+  FUNC_UI_CURSOR_L_STICK: string
+  MOUSE_STATE_MID: number
+  INPUT_MAP_ID_JOYSTICK_INTERACT: number
+  ENV_PRIORITY_COMMON_UI: number
+  MOUSE_STATE_RIGHT: number
+  FUNC_BUTTON_NUM7: string
+  INPUT_FUNC_ID_TAB_NEXT: number
+  FREE_CAMERA_FORWARD: string
+  FUNC_BUTTON_CLOSE: string
+  FUNC_MOVE_DOWN: string
+  ENV_ID_CHAT: number
+  FUNC_UI_CURSOR_LEFT: string
+  INPUT_MAP_ID_TASK_DETAIL: number
+  FUNC_FOCUS_TARGET: string
+  FUNC_UI_CURSOR_RIGHT: string
+  ENV_GROUP_ID_HUD: number
+  ENV_ID_DIANXUE: number
+  FUNC_CAMERA_ROTATE_LEFT: string
+  FUNC_BUTTON_CANCEL: string
+  FUNC_BUTTON_DOWN1: string
+  get_joystick_preset_key_mappings: function
+  PRESET_GROUP_JOYSTICK_EXCHANGE: number
+  ENV_ID_FYZB: number
+  INPUT_MAP_IDS_INTERACT: list
+  CURSOR_TAB: string
+  ENV_ID_BASE: number
+  INPUT_MAP_ID_JOYSTICK_ARROW: number
+  PRESET_SETTING_KEYBOARD_SIDE: number
+  FUNC_OPEN_MAP: string
+  (1 more keys)

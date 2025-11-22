@@ -1,0 +1,44 @@
+Module: hexm.client.debug.gm.gm_commands.gm_portal_render
+Type: table
+================================================================================
+
+Keys:
+  save_portal_rt: function
+  portal_check_dir: instance
+  AffiliatedOptions: dict
+  check_dir: function
+  check_weather_flag: number
+  change_portal_static: function
+  create_portal_model: function
+  enable_check_portal_dir: boolean
+  weather_element: list
+  create_portal: function
+  debug_portal: function
+  check_weather: function
+  set_portal_feature: function
+  portal_check_distance: number
+  check_frustum: function
+  portal_check_pos: instance
+  portal_models: dict
+  check_distance_flag: number
+  portal_in_portal: number
+  portal_model_map_vpath: string
+  enable_check_distance: boolean
+  enable_check_frustum: boolean
+  portal_model_map_key: string
+  AffiliatedOptionsUseForSaveRT: dict
+  enable_portal_in_portal: boolean
+  refresh_portal_render: function
+  set_portal_pos_check: function
+  enable_check_portal_weather: boolean
+  check_frustum_flag: number
+  close_portal: function
+  check_distance: function
+  delete_portal_model: function
+  read_portal_in_localdata: function
+  set_portal_in_portal: function
+  portal_model_id: number
+  portal_check_extend: instance
+  check_model_id: number
+  enable_show_portal_info: boolean
+  check_dir_flag: number

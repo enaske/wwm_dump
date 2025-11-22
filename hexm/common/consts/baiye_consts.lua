@@ -1,0 +1,56 @@
+Module: hexm.common.consts.baiye_consts
+Type: table
+================================================================================
+
+Keys:
+  ROLE_FACAI: number
+  STS_M_WALL_PREPARE: number
+  STS_M_FIGHT: number
+  REWARD_TYPE_SEASON_0: number
+  ROLE_SHOP_NPC_2: number
+  ROAD_UP: number
+  WALL_WIND_NO: number
+  RED_FACAI_TREE_SID: number
+  RED_CAMP: number
+  STS_M_STAR_PREPARE: number
+  NOTICE_WALL_DISMISS: number
+  NOTICE_PK_BUFF_ADD: number
+  BLUE_SWORD_SID: number
+  ROAD_DOWN: number
+  parse_broadcast_notice_content: function
+  AI_AVTS_TO_FIGHT: number
+  is_baiye_halo_effect_type: function
+  MODE_LOSS_FACAI_END: number
+  STS_M_STAR_FIGHT: number
+  NOTICE_DEAD_WITH_FACAI: number
+  OP_CAN_END_BATTLE: number
+  RED_SWORD__SID: number
+  NOTICE_PK_COMING_SOON: number
+  MIDDLE_CAMP: number
+  NOTICE_FACAI_CARRAY: number
+  BLUE_GOOSE_SID: number
+  STS_M_WALL_DISPLAY: number
+  ROAD_MIDDLE: number
+  AI_AVTS_TO_TOWER: number
+  MAX_PLAYER_NUM: number
+  POS_TO_SHOW_POS: number
+  BASE_TRAP_NO: number
+  MODE_WIN_E_NOT_KILLED: number
+  ROLE_SHOP_NPC_3: number
+  NOTICE_PK_PLAYER_ENTER: number
+  extrac_rank_score: function
+  NOTICE_PK_BATTLE_START: number
+  REG_MODE: number
+  MIDDLE_CAMP_X: number
+  ULTIMATE_SLOT_INDEX: number
+  is_base_camp: function
+  MODE_WIN_E_KILLED: number
+  FACTION_MIDDLE_CAMP_X: number
+  WALL_SKILL_SLOT_MODE: list
+  BOSS_REFRESH_AHEAD_NOTICE_TIME: number
+  FACTION_MIDDLE_CAMP: number
+  FACTION_STAR_CAMP_BLUE: number
+  _reload_all: boolean
+  ANIMAL_CHICKEN_INTERACT_RELATIONS: list
+  CAMP_2_FACTION: dict
+  (1 more keys)

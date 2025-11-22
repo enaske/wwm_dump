@@ -1,0 +1,56 @@
+Module: hexm.common.consts.consts
+Type: table
+================================================================================
+
+Keys:
+  POS_FLAG_FLY: number
+  MODE_TYPE_3: number
+  MODE_SINGLE: number
+  IDENTITY_WUDAO: number
+  FLY_SKILL_FIXED_CAMERA: number
+  BODY_TYPE_MALE: number
+  BODY_TYPE_FEMALE: number
+  BODY_TYPE_ZHENGTAI: number
+  DIFFICULTY_SWITCH_FORBID_ALL: number
+  COMPARE_DESIGN_SMALL: number
+  MODE_TYPE_1: number
+  COMPARE_EQUAL: number
+  FEMALE: number
+  SKILL_APPROACH_OFF: number
+  GENDER_OTHER: number
+  IN_WATER_NOT: number
+  _reload_all: boolean
+  IDENTITY_WENSHI: number
+  IN_WATER_DIVING: number
+  DIFFICULTY_NIGHTMARE: number
+  ENTER_BOSS_CHECK_REGION: number
+  PLAY_MODE_MMO: number
+  DIFFICULTY_MMO: number
+  COMPARE_DESIGN_BIG: number
+  BOSS_FIGHT_STAGE_NUM: number
+  SKILL_APPROACH_ON: number
+  TIMER_MODE_CANCEL: number
+  FENGYUN_MODE: number
+  ENTRUST_TYPE_XS_NORMAL: number
+  MOVE_INSITU_DIS: number
+  MALE: number
+  MODE_TYPE_5: number
+  MODE_COOP: number
+  PLAY_MODE_ACT: number
+  BOSS_FIGHT_FAILED_END: number
+  POS_PITCH_FLAG_GROUND: number
+  CHAT_SHOW_SOCIAL: number
+  DEFAULT_DATA: dict
+  PROGRAM_CONTAIN: number
+  DIFFICULTY_HARD: number
+  MODE_TYPE_2: number
+  SHOW_MOUSE_PRESS: number
+  JIANGHU_MODE: number
+  YIMENG_MODE: number
+  CHAT_SHOW_EXPLORE: number
+  BODY_TYPE_TO_CN_NAME: dict
+  FRAME_RATE_ID_TO_VALUE_MOBILE: dict
+  FRAME_RATE_LIMIT_ID_TO_VALUE_FOR_SETTING: dict
+  POS_PITCH_FLAG_DOWN: number
+  IDENTITY_LANGZHONG: number
+  (1 more keys)

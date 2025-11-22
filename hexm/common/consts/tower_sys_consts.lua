@@ -1,0 +1,52 @@
+Module: hexm.common.consts.tower_sys_consts
+Type: table
+================================================================================
+
+Keys:
+  get_tower_sys_layer_sys_d: function
+  check_tower_type_with_conf_no: function
+  get_liupai_tower_attr: function
+  REASON_BOCI_INFO_BY_CLIENT: number
+  check_is_hard_full: function
+  END_REASON_ABORT: number
+  check_publish_xs: function
+  check_liupai_kongfu: function
+  get_liupai_term_conf_no: function
+  remove_tower_sys_layer_buff: function
+  BOCI_MANAGER_STATUS_END: number
+  TYPE_TOWER_SYS_ACTIVITY_LAYER_PASS_ALL: number
+  REASON_BOCI_INFO_NEW_SUB_BOCI: number
+  END_REASON_WIN: number
+  get_tower_xs_item: function
+  REASON_BOCI_INFO_NONE: number
+  MAX_TOWER_TYPE_BITS: number
+  get_tower_type: function
+  get_xs_publish_cost: function
+  TYPE_TOWER_SYS_ACTIVITY_TOWER_PASS: number
+  get_tower_attr: function
+  is_tower_type_liupai: function
+  BOCI_MANAGER_STATUS_WAIT: number
+  check_is_all_star: function
+  REASON_BOCI_INFO_FAILED: number
+  TYPE_TOWER_SYS_ACTIVITY_GUIDE: number
+  TYPE_TOWER_SYS_ACTIVITY_GUIDE_REL: number
+  get_all_3_start_liupai_tower_type: function
+  get_basic_tower_info: function
+  add_tower_sys_layer_buff: function
+  get_xs_publish_max_level: function
+  END_REASON_LOSE: number
+  is_layer_conf_no_liupai: function
+  TYPE_TOWER_SYS_ACTIVITY_LAYER_PASS: number
+  get_reward_id: function
+  _reload_all: boolean
+  TYPE_TOWER_SYS_ACTIVITY_ALL_STARS_REL: number
+  is_star_condition_ok: function
+  BOCI_MANAGER_STATUS_RUNNING: number
+  TYPE_TOWER_SYS_ACTIVITY_ALL_STARS: number
+  check_tower_type_unlock: function
+  REASON_BOCI_INFO_BUFF_SELECT: number
+  get_next_conf_no: function
+  TYPE_TOWER_SYS_ACTIVITY_WUXUE_LEVEL: number
+  TOWER_TYPE_BASIC: number
+  MAX_STAR_BITS: number
+  TYPE_TOWER_SYS_ACTIVITY_TOWER_PASS_ALL: number

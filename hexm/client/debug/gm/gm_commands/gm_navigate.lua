@@ -1,0 +1,52 @@
+Module: hexm.client.debug.gm.gm_commands.gm_navigate
+Type: table
+================================================================================
+
+Keys:
+  is_show_ground: function
+  is_show_water: function
+  gm_debug_enable_navigate_lod1: function
+  is_show_middle_water: function
+  gm_show_navimesh_ground: function
+  gm_show_navimesh_water: function
+  gm_show_navimap: function
+  gm_enable_navigate_debug: function
+  gm_test_server_navi: function
+  is_show_inner_road_points: function
+  gm_show_inner_road_points: function
+  is_show_deep_water: function
+  is_show_other_points: function
+  gm_debug_enable_navigate_lod4: function
+  gm_main_print_navigate_info: function
+  gm_show_navimesh_road: function
+  is_show_navi_map: function
+  gm_show_navimesh_deep_water: function
+  gm_main_debug_navigate: function
+  gm_debug_enable_navigate_all_lod: function
+  is_show_road: function
+  gm_show_navimesh_other: function
+  is_show_vehicle_road_points: function
+  show_navipoints: function
+  gm_debug_enable_navigate_obstacle: function
+  gm_debug_enable_navigate_lod2: function
+  gm_refresh_navimap: function
+  is_show_human_road_points: function
+  gm_show_other_points: function
+  gm_show_dead_end_road_points: function
+  is_show_indoor: function
+  gm_ne_print_navigate_info: function
+  gm_show_vehicle_road_points: function
+  gm_test_set_mobile_navigate_node_arg: function
+  _show_navigate_lod_stats_panel: function
+  gm_show_navimesh_middle_water: function
+  is_show_dead_end_road_points: function
+  gm_stats_navigate_lod: function
+  gm_show_human_road_points: function
+  _close_navigate_lod_stats_panel: function
+  global_show_navi_points: boolean
+  gm_ne_debug_navigate: function
+  gm_debug_enable_navigate_lod3: function
+  gm_show_navimesh_indoor: function
+  is_show_other: function
+  gm_debug_enable_navigate_test: function
+  navi_points_entities: dict

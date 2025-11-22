@@ -1,0 +1,56 @@
+Module: hexm.common.consts.arrow_consts
+Type: table
+================================================================================
+
+Keys:
+  SKILL_ID_ARCHER_SHOOT_FAST: number
+  is_aimable_target: function
+  SKILL_ID_LEAVE_AIR_MODE_JUMP_BACK: number
+  AIM_TYPE_NONE: number
+  ARROW_PANEL_AIR: number
+  HORSE_FORBID_SHOOT_JUMP: string
+  SKILL_ID_ARCHER_SHOOT: number
+  SPEC_TYPE_BULLET_TIME: number
+  HIT_TYPE_NO_WEAK_INTERATC: number
+  ZHISHUI_AUTO_UNLOCK_SPACE: list
+  EQUIP_WEAPON_ARROW_RPC_EQUIPPING: number
+  EQUIP_WEAPON_BOW_NOT_ENOUGH: number
+  ARROW_PANEL_HORSE: number
+  ARROW_ALLOW_SHOOT_TYPE_IMMEDIATE: number
+  ZHISHUI_UNLOCK_TEXT_NO: number
+  BT_PASSIVE_FLAG: string
+  ARROW_TAG_XULI_TAG: string
+  HORSE_FORBID_SHOOT_ENV_SENSOR: string
+  ARROW_TAG_PANEL_AIR: string
+  SKILL_ID_HOLD_BOW_IN_FLY: number
+  ARROW_ALLOW_SHOOT_TYPE_CHARGE: number
+  HIT_TYPE_WEAK_INTERACT: number
+  ARROW_ATTACH_BONE_LEFT_HAND: string
+  ARCHER_AIM_SKILL_SET: dict
+  SPEC_TYPE_NONE: number
+  HIT_TYPE_WEAK_ENEMY: number
+  ARROW_TAG_SKILL: string
+  SKILL_ID_HOLD_BOW_IN: number
+  BT_PASSIVE_FLY_KEY: string
+  BT_PASSIVE_BIT: number
+  AIM_MODE_FAST: number
+  ARROW_TAG_MODE: string
+  BT_ACTIVE_FLAG: string
+  get_arrows_data: function
+  RADIAN_CANCEL_LOCK: string
+  EQUIP_WEAPON_NOT_ENOUGH: number
+  AIM_MODE_NORMAL: number
+  EQUIP_WEAPON_ARROW_NOT_ENOUGH: number
+  AIM_TYPE_ENEMY_TARGET: number
+  WEAPON_LINK_MODE_TACH: number
+  WEAPON_LINK_MODE_DETACH: number
+  SKILL_ID_ARCHER_SHOOT_FLY: number
+  ALLOW_ENTER_ARCHER_STATE: dict
+  SKILL_ID_CANCEL_SKILL_RIDING: number
+  ARROW_ATTACH_BASEBONE: string
+  HIT_TYPE_NO_WEAK_ENEMY: number
+  SKILL_ID_CANCEL_SKILL_NEWBEI: number
+  get_aim_target_type: function
+  AIM_TYPE_INTERACT: number
+  HORSE_FORBID_SHOOT_CHANGE_HAND: string
+  (1 more keys)

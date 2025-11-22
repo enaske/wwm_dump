@@ -1,0 +1,56 @@
+Module: hexm.client.debug.gm.gm_commands.gm_npc
+Type: table
+================================================================================
+
+Keys:
+  gm_goto_village: function
+  change_npc_get_window_model: function
+  show_bb_point: function
+  _tick_lod1: number
+  _lod3_dist: number
+  gm_set_npc_sight_enable: function
+  _lod1_dist: number
+  test_npc_death: function
+  gm_utility_force_plan: function
+  is_enable_fixed_entity: function
+  _tick_lod0: number
+  gm_set_npc_lock_zhenqi: function
+  _lod0_dist: number
+  _tick_lod2: number
+  gm_npc_aggro_battle: function
+  gm_c_select_npc: function
+  gm_utility_simulate_complete: function
+  debug_trace_ent: function
+  gm_debug_show_npc_head: function
+  gm_npc_instancing: function
+  gm_spawn_lifecycle_open: function
+  _f0_ticking_num: list
+  gm_utility_check_design_config_by_sid: function
+  gm_aiavt_use_skill_seq: function
+  gm_utility_force_sc: function
+  _gm_check_npc_config: function
+  gm_switch_enable_bulk: function
+  gm_cnpc_no_repeat_by_serial_id: function
+  gm_create_npc_do_behavior_at_once: function
+  gm_monitor_npc_view: function
+  _ticking_num_list: list
+  _lod3_max_cnt: number
+  _show_lod3: boolean
+  _enable_lod_stats_in_frustum: boolean
+  _show_lod0: boolean
+  gm_npc_select_mode: number
+  _ticking_num_max: list
+  gm_create_hex_entity: function
+  gm_create_local_npc: function
+  gm_npc_remove_sight_draw: function
+  _tick_lod4: number
+  _lod1_max_cnt: number
+  gm_aiavt_use_skill: function
+  gm_spawn_lifecycle_clear: function
+  gm_test_npc_apply_skill: function
+  gm_start_ai: function
+  _f1_ticking_num: list
+  gm_create_npc_near: function
+  gm_create_all_npc: function
+  gm_set_npc_HP: function
+  (1 more keys)

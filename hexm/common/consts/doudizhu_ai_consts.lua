@@ -1,0 +1,56 @@
+Module: hexm.common.consts.doudizhu_ai_consts
+Type: table
+================================================================================
+
+Keys:
+  hand_cards_convert: function
+  get_bigger_bomb: function
+  cards_all_sub_3: function
+  CP_TRIBBLE: string
+  OP_CHUPAI: number
+  TRIBBLE_ONE: number
+  OP_QIANGDIZHU: number
+  get_tribble: function
+  remove_from_cards: function
+  CP_DOUBLE: string
+  convert_to_color: function
+  OP_INVALID: number
+  CP_BOMB: string
+  TRIBBLE_TWO_SEQ: number
+  QUADRA_TWO_ONE: number
+  simple_fst_chupai: function
+  C_A: number
+  CP_SINGLE_SEQ: string
+  CP_SINGLE: string
+  cards_all_add_3: function
+  has_bomb: function
+  get_group_type: function
+  gen_card_list: function
+  OP_FANBEI: number
+  simple_chupai: function
+  get_all_bigger_group: function
+  has_seq: function
+  DOUBLE_SEQ: number
+  get_smallest_cards: function
+  has_king_bomb: function
+  QUADRA_TWO_TWO: number
+  TRIBBLE_SEQ: number
+  CP_TWO: string
+  _reload_all: boolean
+  TRIBBLE: number
+  TRIBBLE_TWO: number
+  INVALID: number
+  CP_KING_BOMB: string
+  get_bigger_double: function
+  count: function
+  BOMB: number
+  SINGLE: number
+  KING_BOMB: number
+  TRIBBLE_ONE_SEQ: number
+  get_bigger_single: function
+  C_BIG_KING: number
+  get_bigger_tribble: function
+  DOUBLE: number
+  get_min_card: function
+  SINGLE_SEQ: number
+  (1 more keys)

@@ -1,0 +1,56 @@
+Module: hexm.common.consts.hangdang_gouzai_consts
+Type: table
+================================================================================
+
+Keys:
+  ERR_BEYOND_THE_UPGRADE_SKILL: number
+  ERR_NO_PAINT: number
+  dec_attr_skill: number
+  xue_zhai_lei_lei: number
+  combat_leave: number
+  jimou_consume_inc_skill: number
+  ERR_AVATAR_HAVE_CLUE_GROUP_ID: number
+  immune_damage_skill: number
+  ERR_LOW_LEVEL_AUTO_GET_CLUE: number
+  dec_jimou_support_effective: number
+  negative_zhuoying_xs: number
+  magic_damage: number
+  ERR_AVATAR_NO_TASK: number
+  ERR_NOT_IN_EFFECTIVE_MAP: number
+  ERR_HAVE_LOCK_SKILL: number
+  ERR_NO_ENOUGH_JIMOU_RESOURCE: number
+  ERR_FORBID_LEAVE_JAIL: number
+  ERR_LEVEL_NOT_REQUERE: number
+  trigger_arrest: number
+  to_enemy: number
+  ERR_NO_CONTENT_IN_SHEET: number
+  ERR_NO_ENOUGH_YIXIN_RESOURCE: number
+  ERR_NEAR_END_POINT: number
+  ERR_LACK_STUFF_UNLOCK_SKILL: number
+  lan_sha_wu_gu: number
+  ERR_LACK_STUFF_UPGRADE_SKILL: number
+  trap_type: number
+  attr_cause_hp_inc: number
+  avatar_first_send_card: number
+  change_value_skill: number
+  add_attr_skill: number
+  dialog_clue_type: number
+  ERR_NO_CARDS: number
+  ERR_NPC_NO_PAINT_CLUE_ID: number
+  ERR_FORBID_SKILL: number
+  attr_cause_hp_dec: number
+  ERR_TRIGGER_EVENTS_TIMES_LIMIT: number
+  apply_immediate: list
+  first_send_card_skill_buff_id: number
+  ERR_NOT_UNLOCK_THE_SKILL: number
+  ERR_NO_GENZONG: number
+  send_card_in_sequence: number
+  physics_damage: number
+  ERR_NO_SEND_CARD: number
+  change_attr_skill: list
+  an_jian_shang_ren: number
+  ERR_IDENTITY_GRADE_AUTO_GET_CLUE: number
+  ERR_LOW_LEVEL_UNLOCK_SKILL: number
+  ERR_MUST_NOT_APPLY_SKILL: number
+  buff_type: number
+  (1 more keys)

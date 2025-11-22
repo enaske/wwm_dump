@@ -1,0 +1,56 @@
+Module: hexm.common.consts.events
+Type: table
+================================================================================
+
+Keys:
+  E_TASK_FINISH_CHECK_MWZX_TASK_COND: string
+  E_NEWSPAPER_LIKES_CNT: string
+  E_MF_DESTROY: string
+  E_IS_NPC_ANIM_PLAY: string
+  E_NPC_COMBAT_STAGE_CHANGE: string
+  E_SKILL_SENSOR: string
+  E_TASK_FINISH_SET_BUILDING: string
+  E_SKILL_PRE_CALC_MOTION: string
+  E_IS_ALERT_RETURN_FOLLOWER: string
+  E_SYNC_TEAM_EVENT: string
+  E_EXPEDITION_START_AID: string
+  E_SKILL_GAMEPLAY_GEDANG: string
+  E_INTERACT_COMP_RPC_CHECK_STATUS_RESULT: string
+  E_NEIGONG_UPGRADE: string
+  E_XIUWEI_ATTR_MODIFY: string
+  E_ENCHANT_WEAPON_TOUCH_WATER: string
+  E_INTERACT_COMP_STATUS_CHANGED_ZHENFA: string
+  E_BULLET_FINISH: string
+  E_BOSS_FIGHT_LEAVE: string
+  E_NPC_FINISH_BREAK_TASK: string
+  E_ZHANSHENYANG_STOP: string
+  E_SKILL_END: string
+  E_ACTIVE_INTERACT_END: string
+  E_SKILL_SET_BREAK_LV: string
+  E_UTILITY_MULTI_PLAY_READY: string
+  E_EXPEDITION_ASSISTANT_DEAD: string
+  E_NEWSPAPER_CONTRIBUTE_PUB: string
+  E_STORYLINE_FINISH: string
+  E_TOWER_SYS_NEXT_LAYER: string
+  E_PRE_REVIVE: string
+  E_AI_ENABLE_NAVI_JUMP: string
+  E_INTERACT_CLOSE_UI: string
+  E_JIREN_ZHENFA: string
+  E_RIDE_COMMON_CLOSE_REACT: string
+  E_NPC_BEHAVIOR_NEW: string
+  E_SKILL_MOVEPOST: string
+  E_BOSS_WANFA_HEICAISHEN_BACK: string
+  E_TOWER_SYS_PASS: string
+  E_NPC_DESTROY: string
+  E_CABLE_BRIDGE_BUILD: string
+  E_THROW: string
+  E_NPC_CROWD_HAPPEN: string
+  E_STORY_NORMAL_ACT_SUCCESS: string
+  E_ON_JIEXUE: string
+  E_BOSS_TRIGGER_EVENT: string
+  E_PTNPC_DEAD: string
+  E_TASK_UNLOCK_REGION: string
+  E_GGZ_ZHIREN_ALL_DEAD: string
+  E_ZHENQI_REPLY_MODIFY: string
+  E_BOSS_TIANYING_KILL_FENSHEN: string
+  (1 more keys)

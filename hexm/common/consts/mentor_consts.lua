@@ -1,0 +1,56 @@
+Module: hexm.common.consts.mentor_consts
+Type: table
+================================================================================
+
+Keys:
+  BAISHI_REQUEST_STATE_REFUSE: number
+  ERR_OK: number
+  E_MENTOR_GRADUATE_SHITU_LACK_LEVEL: number
+  MENTOR_STUDENT_BACKGROUND_EDIT: number
+  EVENT_MENTOR_CHANGE: string
+  EVENT_MENTOR_GRADUATE: string
+  APPLY_TYPE_SHOUTU: number
+  REFRESH_DELAY: number
+  format_students_info: function
+  E_MENTOR_HAS_APPLY: number
+  BAISHI_REQUEST_STATE_CHEHUI: number
+  EVENT_MENTOR_APPLY: string
+  EVENT_MENTOR_BECOME_MENTOR: string
+  EVENT_MENTOR_STUDENT_GRADUATE: string
+  E_MENTOR_APPLY_TUDI_LIMIT: number
+  EVENT_ADD_FAVOR: string
+  E_MENTOR_ERR_PAR: number
+  EVENT_MENTEE_REMIND_MENTOR: string
+  E_MENTOR_APPLY_MASTER_LIMIT: number
+  E_MENTOR_JIEQI_LACK_NUM: number
+  E_MENTOR_HAS_MENTOR: number
+  _reload_all: boolean
+  E_MENTOR_STUDENT_ENOUGH: number
+  EVENT_MENTOR_REC_REPLY_APPLY: string
+  EVENT_MENTOR_LEVEL: string
+  MENTOR_CREATE_EDIT: number
+  APPLY_TYPE_BAISHI: number
+  mentor_get_mentor_application_available_num: function
+  EVENT_MENTOR_GRADUATE_FINISH: string
+  EVENT_MENTOR_DELETE_SUCC: string
+  EVENT_MENTOR_CANCEL_APPLY_NOTIFY: string
+  EVENT_MENTOR_UPDATE: string
+  BAISHI_REQUEST_STATE_ACCEPT: number
+  DELETE_APPLY_TYPE_MENTOR: number
+  format_master_info: function
+  get_jieqi_remain_count_by_type: function
+  EVENT_MENTOR_CREATE_FINISH: string
+  E_MENTOR_STUDENT_HAS_GRADUATED: number
+  EVENT_MENTOR_REMOVE: string
+  EVENT_MENTOR_CREATE_PICTURE: string
+  E_MENTOR_DELETE_HAS_GRADUATED: number
+  mentor_ol_timer: function
+  DELETE_APPLY_TYPE_STUDENT: number
+  EVENT_MENTOR_BECOME_STUDENT: string
+  E_MENTOR_CREATE_HAS_GRADUATED: number
+  check_has_continue_relation: function
+  mentor_get_students_application_available_num: function
+  E_MENTOR_POST_FAIL: number
+  MENTOR_MASTER_BACKGROUND_EDIT: number
+  EVENT_MENTOR_ADD_COIN: string
+  (1 more keys)

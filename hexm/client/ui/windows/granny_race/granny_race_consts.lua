@@ -1,0 +1,56 @@
+Module: hexm.client.ui.windows.granny_race.granny_race_consts
+Type: table
+================================================================================
+
+Keys:
+  LIKE_TOPIC: number
+  need_show_base_count_down: function
+  get_use_skill_by_pid: function
+  get_mvp_pid: function
+  get_result_mul_title: function
+  get_granny_trace_no: function
+  get_granny_relation_no: function
+  get_horse_id: function
+  get_hostnum_by_pid: function
+  fmt_event: function
+  TARGET_KEY_START: string
+  get_stop_game_time_due_to: function
+  get_fmt_use_time_by_pid: function
+  get_target_by_pid: function
+  REVERSE_SHOWING: number
+  get_horse_skill_panel: function
+  get_process_info_by_pid: function
+  has_enough_time_to_push_camera: function
+  get_count_down: function
+  get_start_time: function
+  check_is_self_z_skill: function
+  get_gameplay_countdown_show_delay: function
+  get_granny_race_smap_icon: function
+  get_self_use_time: function
+  get_end_ts: function
+  get_target_key_by_pid: function
+  is_single: function
+  has_end_time: function
+  get_logic_score: function
+  SECOND_TICK: number
+  check_is_new_record: function
+  get_real_time_sort_pids: function
+  is_reverse: function
+  get_granny_score_UI: function
+  NUM_TO_STR: dict
+  get_result_mul_reward: function
+  can_use_skill: function
+  get_cur_points_info: function
+  get_gameplay_countdown_show_start_num: function
+  need_show_gameplay_count_down: function
+  get_percent_cur_round: function
+  is_in_granny_race_space: function
+  has_start_time: function
+  TARGET_KEY_END: string
+  get_granny_score: function
+  get_wait_time: function
+  get_horse_eid: function
+  get_score_by_pid: function
+  get_player_nums: function
+  get_nick_name_by_pid: function
+  (1 more keys)

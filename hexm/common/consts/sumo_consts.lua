@@ -1,0 +1,56 @@
+Module: hexm.common.consts.sumo_consts
+Type: table
+================================================================================
+
+Keys:
+  is_guide: function
+  get_enemy_no_by_pve_id: function
+  PVP_EVENT_OPEN_RESULT_WINDOW: number
+  STATE_END: number
+  sumo_slaver_ai_play_action: function
+  MASTER_DAMAGE: string
+  SLAVER_ENERGY: string
+  SUMO_TIP_WHITE_COLOR: list
+  PVP_STATE_INIT: number
+  NPC_ENEMY_KEY: string
+  ERR_WRONG_PARAMS: number
+  sumo_get_charge_action_id: function
+  sumo_is_gameplay_finished: function
+  PVP_STATE_END: number
+  ALL_ACTION_TYPES: list
+  ERR_NO_SLAVER: number
+  sumo_npc_base_prop: function
+  ACTION_DEFENSE: number
+  GAME_DUNGEON: string
+  GAME_RESULT_LEAVE: number
+  STATE_INIT: number
+  sumo_valid_actions_by_avatar: function
+  _reload_all: boolean
+  SUMO_READY_FLAG_TRANSFER: string
+  sumo_calc_action: function
+  is_attention_game: function
+  sumo_valid_actions: function
+  SUMO_READY_FLAG_ENEMY: string
+  MASTER_ENERGY: string
+  sumo_calc_anim: function
+  GAME_RESULT_DRAW: number
+  is_in_sumo_game: function
+  sumo_has_enhance_skill: function
+  GAME_RESULT_LOSE: number
+  _sumo_calc_damage: function
+  SUMO_READY_FLAG_MAKEUP: string
+  get_stage_point: function
+  TY_KEYS: list
+  sumo_ai_action: function
+  ACTION_ATTACK: number
+  delay_by_turn: function
+  GAME_RESULT_WIN: number
+  ACTION_CHARGE: number
+  STATE_GAMING: number
+  sumo_game_id: function
+  sumo_win_reward: function
+  check_can_start_sumo_game: function
+  get_relate_entity_no: function
+  is_ty_game: function
+  ERR_IN_GAME: number
+  (1 more keys)

@@ -1,0 +1,43 @@
+Module: hexm.common.consts.region_consts
+Type: table
+================================================================================
+
+Keys:
+  REGION_MAP_REGION: number
+  REGION_TP_W: number
+  LEGAL_REGION_STATE_ENTER: number
+  REGION_GROUP_INDUSTRY_COLLECT_AREA: number
+  is_in_legal_region: function
+  REGION_HEX_CAVE: number
+  get_curr_legal_forbid_leave_region: function
+  check_region_function: function
+  REGION_UNLOCK: number
+  REGION_LEGAL_AREA: number
+  DEVICE_INFO_OS_NAME_ANDROID: string
+  LEGAL_REGION_STATE_LEAVE: number
+  get_legal_region_check_config_list_by_space_no: function
+  filter_first_region: function
+  REGION_GANG_AREA: number
+  client_get_forbid_config_id: function
+  REGION_TRANSPORT_TO_RECORD_POINT: number
+  REGION_WATER_FALL: number
+  client_check_pos_is_valid: function
+  DEVICE_INFO_OS_NAME_WINDOWS: string
+  E_UNLOCK_REGION: number
+  _reload_all: boolean
+  region_check_legal_region_config_id: function
+  DEVICE_INFO_OS_NAME_MOBILE: list
+  REGION_TYPE_UNDERWORLD: number
+  REGION_GROUP_INDUSTRY_AREA: number
+  REGION_SYS_REGION: number
+  DEVICE_INFO_OS_NAME_IOS: string
+  REGION_UNIT_CUBOID: number
+  REGION_GANG_GRID_AREA: number
+  check_use_map_legal_region_info: function
+  REGION_UNIT_POLYGON: number
+  REGION_TYPE_NONE: number
+  REGION_TRANSPORT_TO_FIX_POINT: number
+  REGION_UNIT_EIGHT_POINT: number
+  REGION_LEGAL_SYSTEM: number
+  get_curr_legal_forbid_enter_region: function
+  format_region_name_list_by_region_set: function

@@ -1,0 +1,41 @@
+Module: hexm.common.consts.revive_consts
+Type: table
+================================================================================
+
+Keys:
+  REVIVE_NO_SINGLE_PVE_BATTLE_GIVE_UP: number
+  REVIVE_NO_CLUB_BATTLE_RETURN: number
+  REVIVE_NO_BACK_NORMAL: number
+  REVIVE_NO_HELP: number
+  REVIVE_NEAR: number
+  REVIVE_NO_LEVEL_BREAK_RESTART: number
+  REVIVE_POS_REGION: number
+  REVIVE_NO: number
+  REVIVE_POS_TAKS: number
+  REVIVE_POS_AUTO_LIST: list
+  REVIVE_IN_BACK_STORM: number
+  REVIVE_POS_AUTO: number
+  REVIVE_POS_ENTRANCE: number
+  REVIVE_NO_AUTO: number
+  REVIVE_NO_NEAR: number
+  REVIVE_SHOW_ST: number
+  REVIVE_IN_BACK_NORMAL: number
+  REVIVE_NO_REGION: number
+  REVIVE_POS_INPLACE: number
+  MULTI_BOSS_REVIVE_BLACKLIST: list
+  REVIVE_NO_SINGLE_PVE_BATTLE_RESTART: number
+  REVIVE_NO_STUFF: number
+  REVIVE_NO_ALL: number
+  REVIVE_NO_POST: number
+  REVIVE_NO_MAP: number
+  REVIVE_NO_FORCE: number
+  REVIVE_NO_BACK_STORM: number
+  REVIVE_IN_PLACE: number
+  AUTO_REVIVE_BLACKLIST: list
+  REVIVE_NEED_HELP: number
+  REVIVE_NO_HONGXIAN_RIVIVE: number
+  REVIVE_POS_OTHER: number
+  REVIVE_NO_LEVEL_BREAK_GIVE_UP: number
+  REVIVE_POS_POST: number
+  REVIVE_NO_PLACE: number
+  REVIVE_SHOW_NORMAL: number

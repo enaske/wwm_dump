@@ -1,0 +1,56 @@
+Module: hexm.common.misc.equip_misc
+Type: table
+================================================================================
+
+Keys:
+  check_can_quick_equip: function
+  is_worn: function
+  get_equip_prop: function
+  get_all_equip_item: function
+  get_equip_type_by_slot: function
+  get_equip_icon_by_no: function
+  get_total_base_attrs_by_equip: function
+  autofill_slot_enhance_preview: function
+  update_all_equip_attrs: function
+  get_equip_enhance_attr_by_slot: function
+  check_equip_armory_lock: function
+  get_slot_equip_score: function
+  check_equip_gem_lock: function
+  get_enhance_limit_sys_d: function
+  get_equip_ID_by_No: function
+  get_cur_equip_suffix_map: function
+  check_equip_baptize_lock: function
+  score_base: function
+  get_equip_type_by_wuxue_id: function
+  get_equip_num_by_no: function
+  get_equip_type_icon_by_type: function
+  check_equip_fit_aspiration_attr: function
+  get_average_enhance_attrs_add: function
+  check_equip_sys_lock: function
+  calc_wear_suit_lv: function
+  calc_autofill_equips_old: function
+  get_wuxue_by_equip_type: function
+  get_equip_name_by_id: function
+  get_equip_by_slot: function
+  get_bow_equip: function
+  calc_autofill_equips: function
+  get_bow_equip_bag: function
+  get_slot_group_by_No: function
+  get_equip_bag: function
+  get_equip_type_by_no: function
+  get_stuff_dressed_equip: function
+  get_equip_suit_attrs_add: function
+  compare_equip_score_with_cur: function
+  get_equip_enhance_attr: function
+  get_equip_long_icon_by_no: function
+  get_enhance_bonus_lv: function
+  equip_subtype_to_slot_id: function
+  get_arrow_equip: function
+  get_equips_by_no: function
+  get_equip_type_name_by_type: function
+  get_equip_by_ID: function
+  get_equip_enhance_level_by_slot: function
+  get_slot_equip: function
+  get_idt_equip_bag: function
+  get_total_base_attrs_by_equip_info: function
+  (1 more keys)

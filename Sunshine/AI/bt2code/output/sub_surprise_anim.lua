@@ -1,0 +1,56 @@
+Module: Sunshine.AI.bt2code.output.sub_surprise_anim
+Type: table
+================================================================================
+
+Keys:
+  n00110_Parallel: function
+  n001100_CBTAlwaysSequenceNode: function
+  n0013_CBTAlwaysSequenceNode: function
+  n0011001_CBTAlwaysSequenceNode: function
+  n00000_CBTAlwaysSequenceNode: function
+  n0012_CBTAlwaysSequenceNode: function
+  n000_CBTAlwaysSequenceNode: function
+  n001000_CBTAlwaysSequenceNode: function
+  n00_Parallel: function
+  n00142010111_SetBlackboard: function
+  n001203_ApplyWatch: function
+  TREE_NODES_NUM: number
+  n0002112_CBTAlwaysSequenceNode: function
+  n00110020_PlayBoneFilterAnimAction: function
+  n0011010_SetReactionEnableDecorator: function
+  n001101_CBTAlwaysSequenceNode: function
+  n001420_CBTAlwaysSequenceNode: function
+  n0001_WaitRandom: function
+  n00110010_SetVariableAction: function
+  n00021100_NpcDialogSelect: function
+  n0014200001_WaitRandom: function
+  TREE_NAME: string
+  n0_CBTAlwaysSequenceNode: function
+  n001_CBTSwitchCaseNode: function
+  n00140_ExitPoseAnim: function
+  n0014201_CBTAlwaysSequenceNode: function
+  n00020_CheckTimer: function
+  n0014201001_SetBlackboard: function
+  n001420101_CBTSwitchCaseNode: function
+  n001201_CBTAlwaysSequenceNode: function
+  n0002114_CBTAlwaysSequenceNode: function
+  n0012010_SetVariableAction: function
+  n00142010100_SetAnimSuffixAction: function
+  n001202_Parallel: function
+  n001200_SetVariableAction: function
+  n0010000_WaitRandom: function
+  n00022_Nop: function
+  n00110100_CBTAlwaysSequenceNode: function
+  n0011000_SetVariableAction: function
+  n0002113_CBTAlwaysSequenceNode: function
+  n000000_SetTimer: function
+  n00021_CBTAlwaysSequenceNode: function
+  n0012020_PlayBoneFilterAnimAction: function
+  n00142010121_SetBlackboard: function
+  n00142010110_SetAnimSuffixAction: function
+  n000210_SetTimer: function
+  n000211_CBTSwitchCaseNode: function
+  n0011003_Pause: function
+  n001101001_ExitPoseAnim: function
+  n001420001_PlayAnimAction: function
+  (1 more keys)

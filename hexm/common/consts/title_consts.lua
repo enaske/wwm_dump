@@ -1,0 +1,56 @@
+Module: hexm.common.consts.title_consts
+Type: table
+================================================================================
+
+Keys:
+  is_title_unlock: function
+  get_spine_resource: function
+  get_max_equip_count: function
+  is_title_time_limited: function
+  get_title_bone_and_displacement: function
+  get_title_raw_name: function
+  get_custom_title_name: function
+  REASON_WANFA: number
+  TITLE_RED_POINT: string
+  ERR_CODE: dict
+  UNLOCK_TYPE_XIALU: number
+  TIME_TYPE_STUFF_EXPIRE: number
+  TITLE_TYPE_SIDE: number
+  get_first_empty_title_slot: function
+  T_DAY_DURATION: number
+  E_UNLOCK_TITLE: number
+  SLOT_DEFAULT: number
+  _reload_all: boolean
+  ACT_ADD: number
+  get_title_view: function
+  get_rarity_color: function
+  equip_title_num_check: function
+  UNLOCK_TYPE_JIEYI: number
+  RPC_FREQ: number
+  use_stuff_unlock_title: function
+  R_DEADLINE: string
+  REASON_REWARD: string
+  get_cur_show_tid: function
+  T_FOREVER_UNLOCK: number
+  ACT_OUTTIME: number
+  is_in_show_title_time: function
+  TIME_TYPE_ABSOLUTE: number
+  get_title_sys_d: function
+  get_title_type: function
+  UNLOCK_TYPE_BAIYE: number
+  get_title_view_name: function
+  TIME_TYPE_RELATIVE: number
+  TIME_TYPE_FOREVER: number
+  title_see_decode: function
+  DEFINE_TITLE_PRECHECK: function
+  UNLOCK_TYPE_SHITU: number
+  DEFINE_TITLE_IN_CD: function
+  get_title_equip_index: function
+  TITLE_TYPE_NORMAL: number
+  REASON_DEFAULT: string
+  wanfa_title_sys: function
+  DEFINE_TITLE_ID: number
+  has_title_equipped: function
+  get_title_is_equip: function
+  get_equipped_title_count: function
+  (1 more keys)

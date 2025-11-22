@@ -1,0 +1,51 @@
+Module: hexm.common.consts.hupai_consts
+Type: table
+================================================================================
+
+Keys:
+  CARD_NO_3: number
+  END_GAME_SUB_REASON_DRUNK_DOUBT_FAIL: number
+  ACTION_FAIL_INVALID_ACTION_DATA: number
+  ACTION_SUCCESS: number
+  CARD_NO_1: number
+  STATE_END: number
+  STATE_GAME: number
+  ACTION_UNION_DOUBT: number
+  SYNC_START_GAME: number
+  SELECT_CARD_NO: dict
+  get_hupai_entity: function
+  ACTION_DOUBT: number
+  ACTION_GIVE_UP: number
+  ACTION_FAIL_INVALID_ACTION: number
+  END_GAME_REASON_DRUNK: number
+  ACTION_UNION_FOLLOW: number
+  ACTION_FAIL_FORBID_PLAY: number
+  GAME_KEY_SINGLE: string
+  STATE_PLAYER_DRUNK: number
+  SYNC_ROUND_START: number
+  STATE_INIT: number
+  STATE_PLAYER_LEAVE: number
+  ACTION_FIRST_PLAY: number
+  SYNC_ACTION: number
+  _reload_all: boolean
+  STATE_BET: number
+  CARD_TYPE: dict
+  END_GAME_SUB_REASON_LEAVE: number
+  SYNC_END_GAME: number
+  END_GAME_SUB_REASON_DRUNK_DOUBT_SUCCESS: number
+  STATE_PLAYER_POISON: number
+  PLAYER_NUM_RANGE_MIN: number
+  CARD_NO_2: number
+  CARD_TYPE_1: number
+  ACTION_UNION_FORBID: number
+  END_GAME_REASON_LEAVE: number
+  SINGLE_SPACE_NO: number
+  PLAY_NUM_MIN: number
+  GAME_KEY_GATHER: string
+  ACTION_UNION_FIRST: number
+  ACTION_FOLLOW_PLAY: number
+  PLAYER_NUM_RANGE_MAX: number
+  SYNC_TURN_STATR: number
+  PLAY_NUM_MAX: number
+  STATE_PLAYER_GAME: number
+  ACTION_FAIL_NOT_IN_GAME: number

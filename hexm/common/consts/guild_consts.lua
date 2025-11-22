@@ -1,0 +1,56 @@
+Module: hexm.common.consts.guild_consts
+Type: table
+================================================================================
+
+Keys:
+  get_guild_duty_no: function
+  MWZX_TYPE_NORMAL: number
+  get_village_finish_difficulty_no: function
+  ELECT_RESULT_FAIL: number
+  IS_GUILD_REGION_TEMPORARY: boolean
+  GUILD_AUTHORITY_VERIFY_REALM_IMPROVE: number
+  LEVEL_BG_FRAME: list
+  ELECT_UPDATE_CANDIDATE_RANK_TIME: number
+  MWZX_TYPE_DISASTER: number
+  GUILD_SKILL_EQUIP_TYPE_BUILDING: number
+  VERIFY_REWARD_STATE_RECEIVED: number
+  get_hangdang_xiuwei_attr_name: function
+  XUANHU_GUILD: number
+  GUILD_DUTY_TYPE_ZHUBU: number
+  GUILD_DUTY_TYPE_INVESTOR: number
+  ICON_BG_FRAME: list
+  GUILD_AUTHORITY_BUILDING_UNLOCK_OR_UPGRADE: number
+  GUILD_GAMEPLAY_BONUS: number
+  GUILD_ACTIVITY_IDS: list
+  get_village_discover_point: function
+  BONUS_WELFARE_LIMIT_NUM: number
+  get_village_process_reward_info: function
+  get_mwzx_discover_point: function
+  get_build_slot_unlock_level: function
+  GUILD_AUTHORITY_APPOINT_DUCHA: number
+  BONUS_WELFARE_PROP: number
+  ELECT_STAGE_END: number
+  APPLY_CAMPAIGN_STAGE_LIST: list
+  GUILD_DUTY_TYPE_LONGSHOU: number
+  ASSIST_APPLY_COND_LOGIC_NONE: number
+  GUILD_DB_COL: string
+  MWZX_LOW_LEVEL_BOSS: number
+  get_election_all_stage_time: function
+  get_mwzx_task_reward: function
+  MWZX_MODE_NORMAL: number
+  get_guild_skill_mwzx_addition: function
+  GUILD_AUTHORITY_ATTEND_UNDERCOVER_GAMEPLAY: number
+  REWARD_STATE_CAN_GET: number
+  ELECT_STAGE_ANNOUNCE: number
+  get_leader_skill_desc: function
+  GUILD_STAGE_NORMAL: number
+  MWZX_BOSS_LEVEL_2_TASK_NO_KEY: dict
+  GUILD_DX_SKILL_UPGRADE_IDENTITY_LEVEL: number
+  MWZX_HUASHU_BATTLE_TASK_TYPES: list
+  get_guild_skill_exp: function
+  REWARD_STATE_NOT_REACH: number
+  calc_guild_skill_total_score: function
+  MWZX_BOSS_LEVELS: list
+  GUILD_AUTHORITY_VERIFY_PERSONAL_UPGRADE: number
+  ASSIST_APPLY_COND_LOGIC_EQ: number
+  (1 more keys)

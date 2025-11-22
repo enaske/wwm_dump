@@ -1,0 +1,36 @@
+Module: patch.performance_config
+Type: table
+================================================================================
+
+Keys:
+  gdl_table_url: dict
+  DLSS_ID_TO_RENDER_NAME: dict
+  SCREEN_PIXELS_NUM_THRESHOLD_MIDDLE: number
+  FSR_ID_TO_RENDER_NAME: dict
+  SCREEN_SIZE_THRESHOLD_LOW: number
+  RENDER_OPTION_ANDROID_MIN_LEVEL: number
+  SCREEN_PIXELS_NUM_THRESHOLD_LOW: number
+  LEVEL_TO_PC_NAME: dict
+  SCREEN_PIXELS_NUM_THRESHOLD_HIGH: number
+  SCREEN_SIZE_THRESHOLD_HIGH: number
+  D3D12_CRASH_MAX_TIMES: number
+  LEVEL_TO_ANDROID_NAME: dict
+  CAMERA_MODE_RENDER_LEVEL: list
+  IOS_NAME_TO_LEVEL: dict
+  DIABLE_WHEN_D3D12_CRASH: boolean
+  RENDER_OPTION_PLATFORM_LEVEL_MAP: dict
+  IOS_DEVICE_LEVEL_NAME_TO_NUM: dict
+  PC_NAME_TO_LEVEL: dict
+  LEVEL_TO_IOS_NAME: dict
+  device_limit_result_tips: dict
+  ANDROID_DEVICE_LEVEL_NAME_TO_NUM: dict
+  CAMERA_MODE_RENDER_OPTIONS: dict
+  ANDROID_NAME_TO_LEVEL: dict
+  SCREEN_SIZE_THRESHOLD_MIDDLE: number
+  CONFIG_PLATFORM_MAP: dict
+  RENDER_OPTION_CONFIG_MAP: dict
+  XeSS_ID_TO_RENDER_NAME: dict
+  RENDER_OPTION_NAME_TO_LEVEL: dict
+  RENDER_NAME_TO_DLSS_ID: dict
+  RENDER_OPTION_MIN_LEVEL: number
+  RENDER_OPTION_IOS_MIN_LEVEL: number

@@ -1,0 +1,56 @@
+Module: hexm.common.consts.task_consts
+Type: table
+================================================================================
+
+Keys:
+  PLAYER_TASK_NONE: number
+  BOT_TASK_TYPE_GO_TO_PORRIDGE_SHOP: string
+  BOT_TASK_TYPE_GET_STUFF: string
+  TASK_SHOW_SUB_TIP: number
+  BOT_TASK_TYPE_HUASHU: string
+  HUIJUAN_STATE_FINISH: number
+  TASK_INVALID_HANDLE_ABANDON: number
+  HUIJUAN_STATE_UNLOCK: number
+  TASK_TYPE_IMG_COLOR_MAP: dict
+  TASK_INVALID_TYPE_OVERTIME: number
+  BOT_TASK_TYPE_INTERACT: string
+  TASK_TYPE_QIYU: number
+  CREATE_MODE_COUNT: number
+  TASK_FETCH_DOING: number
+  COMBINE_RETURN_STATUS_FETCH: number
+  BOT_TASK_TYPE_VICTIM_PORRIDGE: string
+  RECALL_TASK_ID_PRE: number
+  BOT_TASK_TYPE_ANSWER_QUESTION: string
+  TASK_TYPE_ZHIXIAN: number
+  is_plot_recap_task: function
+  SHOW_STYLE_DEFAULT: number
+  BOT_TASK_TYPE_DIALOG: string
+  TASK_INVALID_HANDLE_INVALID: number
+  BUFF_TYPE_FETCH_REMOVE: number
+  TASK_TYPE_IMG_MAP: dict
+  PLAYER_TASK_HAVE: number
+  TASK_INVALID_TYPE_STORY_LEAVE_SCENE: number
+  BUFF_TYPE_FINISH_REMOVE: number
+  TASK_TYPE_RICHANG: number
+  TASK_EFFECT_FINISH: number
+  TASK_TYPE_XUANSHANG: number
+  TASK_INVALID_REFRESH_TASK: number
+  TASK_PROGRESS_REWARD_UNLOCK: string
+  HUIJUAN_STATE_LOCKED: number
+  BUFF_TYPE_FINISH_ADD: number
+  BOT_TASK_TYPE_BUILD_HOSPITAL: string
+  has_finish_one_sub_task: function
+  BOT_TASK_TYPE_SUBMIT_MONEY: string
+  task_progress_check_ending_reward: function
+  TASK_PROGRESS_1: number
+  TASK_TYPE_ZHUXIAN: number
+  TASK_TRACK_DEFAULT_NPC_ADD_DIFF: number
+  TASK_EFFECT_RUNTIME: number
+  ONLINE_FINISH_SYNC_ALL: number
+  TASK_INVALID_TYPE_LOGOUT: number
+  TASK_INVALID_TYPE_LEAVE_SPACE: number
+  get_task_icon: function
+  TASK_CHAPTER_BEGIN: number
+  TASK_EFFECT_FETCH: number
+  BOT_TASK_TYPE_HELP_VICTIM: string
+  (1 more keys)

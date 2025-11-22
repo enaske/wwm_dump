@@ -1,0 +1,56 @@
+Module: hexm.client.consts.ui_consts
+Type: table
+================================================================================
+
+Keys:
+  CHOOSE_TYPE_NORMAL: number
+  STATE_DISABLED: number
+  PLATFORM_MOBILE: string
+  TRIGGER_TYPE_CLICK: number
+  SCREEN_ORIENTATION_RIGHT: number
+  GLBLEND_TYPE_SRC_ALPHA: number
+  CURSOR_TREE_JUMP_DIRECT_LEFT_RIGHT: number
+  CACHE_TYPE_WRAPPER: number
+  ENABLE_DEBUG_MODE: boolean
+  TRIGGER_TYPE_LONGPRESS: number
+  ALIGN_LT_TO_RT: number
+  UI_SOUND_BUTTON_FIRST_WIN_OPEN: number
+  STYLE_PRIORITY_NORMAL: number
+  TRIGGER_TYPE_HOVER: number
+  STATE_NORMAL: number
+  GLBLEND_TYPE_ZERO: number
+  CONFIRM_AS_CLICK: number
+  CUSTOM_ALIGNS: number
+  AttrTypeColor: number
+  GLBLEND_TYPE_ONE_MINUS_SRC_ALPHA: number
+  FOCUS_AS_HOVER: number
+  UI_SOUND_BUTTON_SECOND_WIN_OPEN: number
+  STYLE_PRIORITY_LOW: number
+  AttrTypeAlpha: number
+  GLBLEND_TYPE_ONE_MINUS_DST_ALPHA: number
+  GLBLEND_TYPE_ONE_MINUS_DST_COLOR: number
+  STATE_NONE: number
+  GLBLEND_TYPE_DST_COLOR: number
+  OPTION_HCENTER: number
+  generate_jump_map_by_position: function
+  init_platform_const: function
+  OPTION_LEFT_BOTTOM: number
+  STATE_HOVER: number
+  GLBLEND_TYPE_DST_ALPHA: number
+  BUTTON_RESULT_NEGATIVE: number
+  STATE_DOWN: number
+  VIEW_TYPE_FULLSCREEN_TRANSPARANT: number
+  VIEW_TYPE_FLOAT: number
+  PLATFORM_IS_MOBILE_OR_PAD: boolean
+  PLATFORM_MOBILE_CONSOLE: string
+  VIEW_TYPE_POPUP: number
+  TEXTFIELD_UIRETURN_KEYGO: number
+  VIEW_TYPE_HUD: number
+  UI_SOUND_BUTTON_THIRD_WIN_OPEN: number
+  ENABLE_VIEW_CACHE: boolean
+  UI_PRIORITY_GUIDE: number
+  CHOOSE_TYPE_ANGLE_LIMIT: number
+  UI_PRIORITY_CLOUD_X_MOBILE: number
+  STYLE_PRIORITY_MAX: number
+  GLBLEND_TYPE_ONE: number
+  (1 more keys)

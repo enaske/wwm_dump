@@ -1,0 +1,39 @@
+Module: hexm.client.consts.terrain_edit_consts
+Type: table
+================================================================================
+
+Keys:
+  EditTypeShapeSmoothBiHarmonic: number
+  EditTypeShapeFlat: number
+  TOOL_UNLIFT: number
+  EffectStatusEditing: number
+  CheckErrorRaycastNoting: number
+  CheckErrorExistTree: number
+  EditTypeShapeHollow: number
+  EffectStatusHidden: number
+  TOOL_ID_TO_NAME_TEXT_NO: dict
+  TOOL_LIFT: number
+  CheckErrorOutRange: number
+  CheckErrorNoTerrain: number
+  EffectStatusInvalid: number
+  CheckErrorNotHitTerrain: number
+  CheckTypeConfirm: number
+  EditTypeColorMixture: number
+  CheckErrorNoEditAccess: number
+  EditTypeColorOverlay: number
+  CheckErrorOK: number
+  EditTypeShapeSmoothHarmonic: number
+  ModifyTypeSmooth: number
+  ModifyTypeUp: number
+  CheckErrorTerrainBlockTag: number
+  EditTypeShapeLiftAbs: number
+  CheckErrorExistEntity: number
+  TOOL_SET_HEIGHT: number
+  CheckErrorOtherCollision: number
+  EffectStatusNormal: number
+  ModifyTypeDown: number
+  CheckTypeMove: number
+  CheckErrorUnableSpace: number
+  TOOL_SMOOTH: number
+  get_terrain_tool_name: function
+  EditTypeShapeLift: number

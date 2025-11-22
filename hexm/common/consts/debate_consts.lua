@@ -1,0 +1,56 @@
+Module: hexm.common.consts.debate_consts
+Type: table
+================================================================================
+
+Keys:
+  BASE_BATTLE_TYPE: number
+  E_CHOSE_DECK: string
+  BUFF_FUNCS_ADD: dict
+  E_PVP_BATTLE_MATCH_CANCEL: string
+  E_CHOSE_BATTLE_E: string
+  ERR_IS_IN_SILENT: number
+  DEBATE_ZHENGFENG: number
+  ERR_MATCH_TIME_OUT: number
+  STATE_IDLE: number
+  ERR_NO_DECK: number
+  ST_FIGHTING: number
+  ERR_IS_GAME_OVER: number
+  FACTION_NPC_CHAT: string
+  ERR_NO_REWARD: number
+  E_TURN_MSG: string
+  TYPE_PLAY: number
+  E_INVITE_BATTLE: string
+  ERR_LOCK_STUFF: number
+  _reload_all: boolean
+  ERR_NO_PREPARE_STATE: number
+  RANK_DEBATE_SELF2NEED: dict
+  TYPE_ANY: number
+  BUFF: number
+  ST_END_JUDGE: number
+  ERR_AI_REPLY_TIMEOUT: number
+  E_DEBATE_PREPARE: string
+  ERR_CHAT_SENSITIVE: number
+  E_UPGRADE_CARD: string
+  ERR_BAN_CHAT: number
+  E_WHETHER_ACCEPT_BATTLE: string
+  BUFF_NAME: dict
+  INTEREST_SKILL_ID: number
+  E_AI_CHAT_START: string
+  E_PRIORITY_INTERRUPT: string
+  ERR_CANNOT_AI_DEBATE_COOP_MODE: number
+  E_AI_CHAT_END: string
+  E_EF_CARD: string
+  E_AI_BATTLE_END: string
+  ERR_LOCK_XIUWEI: number
+  DEBUFF: number
+  E_AI_CHAT_OVER: string
+  ST_IDLE: number
+  ERR_AI_LOCK_RESOURCE: number
+  E_PVP_BATTLE_START: string
+  ERR_LOCK_POINT: number
+  ERR_NOT_CONFIG_DECK: number
+  E_CONFIG_CARD_DECK: string
+  ERR_CANNOT_UPGRADE: number
+  ERR_ADVERSITY_HAS_DO_HS: number
+  ERR_NO_ADVERSITY: number
+  (1 more keys)

@@ -1,0 +1,56 @@
+Module: hexm.client.debug.gm.gm_commands.gm_wanfa
+Type: table
+================================================================================
+
+Keys:
+  gm_open_common_qte: function
+  is_active_region_event: function
+  trigger_biaoqing: function
+  open_fall_detect: function
+  gen_gm_yezixi_pve_teleport_list: function
+  gm_photo_play_anim: function
+  gm_bake_yirong_texture: function
+  gm_common_chess_fast_win: function
+  gm_debug_wanfa_yezixi_event: function
+  gm_unlock_regions: function
+  gm_hoard_profiteer_quick_add_recommend: function
+  gm_common_upload_base_data: function
+  gm_debug_wanfa_yezixi_check_by_bpc_no: function
+  gm_teleport_and_replay: function
+  gm_disguise_end: function
+  active_region_event: function
+  gm_consume_shefu_end: function
+  debug_check_in_room: function
+  gm_fast_start_general_chess: function
+  gm_check_dynamic_world_npc_density_around: function
+  gm_shefu_check_sensitive: function
+  close_fall_detect: function
+  gm_simulate_telekinesis: function
+  gm_clear_unlock_regions: function
+  gm_show_region3_explore_items: function
+  gm_disguise_add_exp: function
+  gm_hoard_profiteer_add_bag_size: function
+  gm_show_ghost_record_history: function
+  gm_crane_game_start_print_status: function
+  gm_debug_wanfa_sumo_monitor: function
+  gm_begin_pitch_pot_quick: function
+  gm_get_region_upload_record: function
+  gm_clear_npc_tipsy: function
+  gm_close_common_qte: function
+  gm_hoard_profiteer_print_current_week_price: function
+  gm_sumo_pve_teleport: function
+  gm_lock_wanfa: function
+  gm_cable_debug: function
+  gm_simulate_telekinesis_fail: function
+  gm_common_start_ghost_replay: function
+  gm_common_set_region_hide: function
+  expedition_show_target: function
+  gm_consume_wanfa_transfer_to: function
+  gm_common_start_ghost_record: function
+  gm_common_set_is_virtual: function
+  gm_consume_shefu_send_question: function
+  yirong_flag: string
+  expedition_show_fire: function
+  gm_unlock_region: function
+  gm_common_set_use_avatar_info: function
+  (1 more keys)

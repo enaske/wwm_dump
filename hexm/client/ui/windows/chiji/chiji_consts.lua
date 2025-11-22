@@ -1,0 +1,56 @@
+Module: hexm.client.ui.windows.chiji.chiji_consts
+Type: table
+================================================================================
+
+Keys:
+  ITEM_TAG_QUICK_ITEM: number
+  PICK_TYPE_GET: number
+  chiji_discard_weapon: function
+  ITEM_TAG_SOURCES: table
+  SLOT_REPLACE_FROM_BAG: number
+  LOOT_T_TO_SLOT_IDS: dict
+  chiji_bag_has_space_for_quick_items: function
+  LOOT_TYPE_QUICK_ITEMS: table
+  set_icon_weapon_info: function
+  chiji_pickup_comp: function
+  need_show_loot_to_teammates_btn: function
+  construct_stuffs_data_by_fujin_drops: function
+  BAG_FROM_TYPE_STORE: number
+  COMP_NO_CUSTOM_TOKEN: number
+  PICK_NONE_REASON_PAUSED: number
+  get_chiji_drug_stuff_nos_set: function
+  E_HOVER_OTHER_ITEM: string
+  QUICK_ITEM_MAX: number
+  LOOT_TYPE_EQUIPS_GENERALLY: table
+  cmp_chiji_loot_interact_handler: function
+  unpack_legacy_pick_up_client_data: function
+  PICK_TYPE_REPLACE: number
+  is_loot_item_same_group: function
+  get_ui_star_from_chiji_star: function
+  ITEM_TAG_TEMP_WEAPON: number
+  LOOT_TYPE_CAN_STACK_UP: table
+  chiji_discard: function
+  is_loot_type_quick_items: function
+  ITEM_TAG_FUJIN: number
+  LOOT_TYPE_NORMAL_ITEMS: table
+  get_first_empty_slot_weapon: function
+  get_chiji_loot_ui_star: function
+  chiji_temp_bag_slot_exchange: function
+  add_btn_config_to_mobile_btn_data: function
+  get_first_empty_slot_qishu: function
+  ITEM_TAG_TEMP_XINFA: number
+  CHIJI_SUB_STORE_ID: number
+  LOOT_QUALITY_TO_COLOR_SHORT: dict
+  chiji_mark_stuff_helper: function
+  CHIJI_FLOAT_CLOSE_DELAY: number
+  TABLE_TO_EQUIP_SLOT_IDX: dict
+  get_replace_slot: function
+  PICK_NONE_REASON_BAG_FULL: number
+  construct_interact_stuff_ui_data: function
+  LOOT_TYPE_EQUIPS: table
+  PICK_NONE_REASON_RULE: number
+  PICK_NONE_REASON_ERROR: number
+  BAG_FROM_TYPE_NORMAL: number
+  is_item_tag_sources: function
+  E_CLICK_OTHER_ITEM: string
+  (1 more keys)

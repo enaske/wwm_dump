@@ -1,0 +1,56 @@
+Module: hexm.client.consts.private_serve_consts
+Type: table
+================================================================================
+
+Keys:
+  PRIVATE_SERVE_EMPLOYEE: number
+  IDENTITY_SERVE_TYPES: list
+  PRIVATE_SERVE_RECOMMEND_PAGE_LEN: number
+  MENKE_HISTORY_TITLE: dict
+  SERVE_TABS_CONFIG: dict
+  SERVE_TYPE_WENSHI: number
+  SERVE_ICON: dict
+  SERVE_TOTAL_TABS: list
+  SERVE_TYPE_ANYING: number
+  E_BECOME_EMPLOYER: string
+  EMPLOYER_STATE_UNLOCK: number
+  PRIVATE_SERVE_APPLY_EXPIRED_TIME: number
+  MAIN_TABS: list
+  SERVE_EMPLOYER_REWARD_DB_NAME: string
+  SERVE_TYPE_2_IDENTITY_ID: dict
+  E_EMPLOYEE_TIP_NUM_CHANGED: string
+  SERVE_TABS: list
+  E_REMOVE_EMPLOYER: string
+  get_same_kind_serve_types: function
+  PRIVATE_SERVE_EMPLOYER: number
+  PRIVATE_SERVE_APPLICANT_LIMIT_NUM: number
+  PRIVATE_SERVE_USE_HISTORY_LIMIT: number
+  EMPLOYER_STATE_EXPIRED: number
+  SERVE_TYPE_2_SALARY_KEY: dict
+  OP_REJECT: number
+  PRIVATE_SERVE_HISTORY_TAG: string
+  FIND_PRIVATE_SERVE_RECOMMEND_INTERVAL: number
+  SERVE_TYPE_XUANHU: number
+  E_EMPLOYER_SLOT_UNLOCK: string
+  _reload_all: boolean
+  E_SELECT_EMPLOYER_SLOT: string
+  EMPLOYER_STATE_HAVE_EMPLOYEE: number
+  EMPLOYER_STATE_NO_EMPLOYEE: number
+  get_employee_daily_salary: function
+  SERVE_BIG_ICON: dict
+  EMPLOYER_STATE_NO_LICENSE: number
+  OP_ACCEPT: number
+  UNLOCK_ID: number
+  E_SELECT_PAGE_TAB: string
+  EMPLOYEE_SERVE_RED_NAME: dict
+  PRIVATE_SERVE_APPLY_NUM_LIMIT: number
+  E_BECOME_EMPLOYEE: string
+  MENKE_HISTORY_NAME: dict
+  EMPLOYEE_PAGE_MODE: list
+  EMPLOYER_STATE_NORMAL: number
+  go_to_yahang: function
+  MAIN_TABS_CONFIG: dict
+  E_REMOVE_EMPLOYEE: string
+  MENKE_HISTORY_NEED_NAME: dict
+  get_wenshi_private_serve_need_xw: function
+  (1 more keys)

@@ -1,0 +1,56 @@
+Module: hexm.common.consts.al_consts
+Type: table
+================================================================================
+
+Keys:
+  RESULT_FILTER_CLIENT: number
+  SELECT_SELF_BACK: number
+  RES_MODE_CONTINUOUS: number
+  CAMERA_TYPE_FOLLOW: number
+  REF_CAMERA: number
+  SELECT_TARGET_BACK: number
+  REF_LOCAL: number
+  RESULT_LESS: number
+  YAW_TYPE_CENTER: number
+  FACE_TYPE_INSTANT: number
+  REF_CUSTOM_POSITION: number
+  FACE_TYPE_TURN: number
+  REF_SELF: number
+  ENABLE_MAIN_AL: number
+  DOVE_YAW_ENTITY: number
+  REF_TARGET: number
+  CAMERA_TYPE_KEYFRAME: number
+  EFFECT_TYPE_MOUNT: number
+  ACTIONLINE_TYPE_SKILL: number
+  REF_MAGIC_FIELD_TARGET: number
+  BUFF_TYPE_DEL: number
+  ALL_SIDES: number
+  DES_LOGIC_TARGET: number
+  DOVE_YAW_SELF: number
+  SELECT_SORT_RAND: number
+  SELECT_SORT_ASC: number
+  BULLET_TIME_CLEAR: number
+  DES_LOGIC_DOVE: number
+  YAW_TYPE_TARGET: number
+  MF_FILTER_FAN: number
+  BULLET_TIME_ENTER: number
+  REF_SELF_POSITION: number
+  RADIATION_CREATOR_TYPE_INTERACT_COMP_OWNER: number
+  MF_FILTER_NONE: number
+  RADIATION_CREATOR_TYPE_OWNER: number
+  REF_SELF_WEAPON: number
+  JOYSTICK_ON_YAW_DIRECTION: number
+  YAW_TYPE_CAMERA: number
+  LOCKMODE_UP_ON_SKILL: number
+  SELECT_WEIGHT_DIS: number
+  DES_LOGIC_SELF: number
+  ANIM_GRAPH_BASE: string
+  LOGIC_OP_AND: number
+  MF_FILTER_RECT: number
+  YAW_TYPE_JOYSTICK: number
+  SELECT_SELF_INCLUDE: number
+  GENERATE_BULLET_RANDOM: number
+  SELECT_SELF_EXCLUDE: number
+  REF_DOVE_DIRECTION: number
+  JOYSTICK_DIRECTION: number
+  (1 more keys)

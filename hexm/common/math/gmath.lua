@@ -1,0 +1,56 @@
+Module: hexm.common.math.gmath
+Type: table
+================================================================================
+
+Keys:
+  Rad2Deg: number
+  _obb_copy_rect: function
+  vector_add_by_yaw: function
+  clamp_yaw: function
+  vector_to_len: function
+  generate_cylinder_vertices: function
+  get_closet_yaw: function
+  length: function
+  is_in_circle: function
+  clamp: function
+  get_vector3_by_yaw_and_pitch: function
+  is_in_cylinder: function
+  face_to: function
+  get_projection_dis: function
+  get_even_points_on_cirlce: function
+  obb_collision_detect_only_yaw: function
+  is_close: function
+  get_random_points_in_fan: function
+  check_between_num: function
+  is_in_sphere: function
+  get_random_points_in_rect: function
+  length_2d: function
+  vector_add_by_bias_yaw: function
+  is_valid_num: function
+  get_points2d_of_regular_polygon: function
+  obb_3d_collision_detect: function
+  new: function
+  distance_2d_square: function
+  get_point_along_vector_by_len: function
+  yaw_diff: function
+  is_circle_intersect_box: function
+  obb_2d_totally_overlap_detect: function
+  calc_angle_diff: function
+  offset_with_dir: function
+  rotate_between_axis: function
+  get_points_in_square_fast: function
+  Deg2Rad: number
+  get_distance_point_to_line: function
+  get_symmetric_point_with_center: function
+  vector_is_valid: function
+  check_yaw_in_range: function
+  clamp_number: function
+  is_in_fan: function
+  distance_2d: function
+  vector_project_on_plane: function
+  distance_square: function
+  vector_project: function
+  list_to_vector3: function
+  is_transform_equal: function
+  polygon_cross_detect: function
+  (1 more keys)

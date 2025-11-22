@@ -1,0 +1,56 @@
+Module: hexm.common.misc.weapon_view_misc
+Type: table
+================================================================================
+
+Keys:
+  QUALITY_WHITE: number
+  random_val_with_accuracy: function
+  DIMENSION_FX: number
+  MAX_BEST_PLAN: number
+  DIMENSION_COLOR: number
+  P_KEY: string
+  unpack_ori_theme: function
+  DIMENSION_MODEL_3: number
+  get_ex_by_viewno: function
+  calc_fx_star: function
+  get_gold_slot_num: function
+  get_using_reroll_times: function
+  _get_plan_by_viewno: function
+  get_color_model_suit_id: function
+  generate_s_no: function
+  calc_reroll_cost: function
+  unpack_norm_theme: function
+  get_color_theme_name: function
+  DIMENSION2KEY: dict
+  _random_pick_hsv: function
+  random_base_hsv: function
+  SNO_REROLL_COST: number
+  new_dimension_star: function
+  DIMENSION_MODEL_2: number
+  class_a_random_star: function
+  unlock_new_slot: function
+  _color_star2index: function
+  random_channel_color: function
+  get_origin_hsv: function
+  pseudo_random_number: function
+  is_plan_better_than: function
+  check_origin_color_with_models: function
+  DIMENSION_MODEL_1: number
+  QUALITY_BLUE: number
+  calc_fashion_value: function
+  PLAN_INHERIT_KEYS: list
+  dimension_reroll_result: function
+  QUALITY_PURPLE: number
+  QUALITY_GREEN: number
+  check_use_origin: function
+  M_KEY: string
+  random_dimension_star: function
+  idx_with_offset: function
+  check_model_make_suit: function
+  CLASS_S: number
+  _norm_theme: function
+  _ori_theme: function
+  CLASS_A: number
+  _random_hsv_offset: function
+  check_sno_repeated: function
+  (1 more keys)

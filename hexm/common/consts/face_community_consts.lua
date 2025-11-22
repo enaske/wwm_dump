@@ -1,0 +1,56 @@
+Module: hexm.common.consts.face_community_consts
+Type: table
+================================================================================
+
+Keys:
+  TYPE_DYE_HAIR: number
+  PLAN_TAG_FACE: number
+  TYPE_JIAYE_LEVEL: number
+  PLAN_TAG_TEAM_SCENE: number
+  PLAN_TAG_DYE_HAIR_HIGHPRICE: number
+  PLAN_TAG_SOLO_SCENE: number
+  PLAN_TAG_PHOTO_DAKA: number
+  TYPE_MARKED_DESIGNER: number
+  PLAN_TAG_JIAYE_NURSING: number
+  PLAN_TAG_DYE_HAIR_TIAORAN: number
+  PLAN_TAG_MAKEUP: number
+  TYPE_CLUB: number
+  RPC_MIN_GAP: number
+  PLAN_TAG_DYE_HAIR_LOWPRICE: number
+  TYPE_FILM: number
+  NORMAL_TYPE: number
+  TYPE_TO_TAG: dict
+  PLAN_TAG_DYE_CLOTH_HIGHPRICE: number
+  TYPE_DRESSING: number
+  PLAN_TAG_JIAYE_HOUSE: number
+  _reload_all: boolean
+  PLAN_TAG_JIAYE_INN: number
+  PLAN_TAG_PHOTO_FANGWAITIANGONG: number
+  PLAN_TAG_LIANGZHOU_ACTIVITY: number
+  PLAN_TAG_CAMERA_HYJQ: number
+  MSG_TYPE_COMMENT: number
+  FACE_VIEW_DATA_KEY: string
+  SORT_TYPE_NEWEST: number
+  PLAN_TAG_DYE_CLOAK: number
+  SORT_TYPE_HOT_TOTAL: number
+  PLAN_TAG_DYE_CLOTH_LOWPRICE: number
+  PLAN_TAG_CAMERA_LIMIT_ACTIVITY_DRESS: number
+  PLAN_TAG_JIAYE_RESIDENCE: number
+  PLAN_TAG_CAMERA_SCALE: number
+  PLAN_TAG_DYE_TOP_CLOTH: number
+  TYPE_CUSTOM_VIDEO: number
+  PLAN_TAG_DYE_BOTTOM_CLOTH: number
+  ANONYMOUS_TYPE: number
+  PLAN_TAG_JIAYE_FLOATOPIA: number
+  PLAN_TAG_JIAYE_PORCELAIN: number
+  PLAN_TAG_CAMERA_PAUSE: number
+  PLAN_TAG_LY: number
+  SORT_TYPE_HOT_WEEKLY: number
+  SORT_TYPE_HOT_RECOMMEND_MIX: number
+  PLAN_TAG_WEAPON_RECOIN: number
+  SORT_TYPE_RECOMMEND: number
+  PLAN_TAG_JIAYE_WINERY: number
+  TYPE_TEAM: number
+  MSG_TYPE_ZAN: number
+  PLAN_TAG_PHOTO_METEOR_SHOWER: number
+  (1 more keys)

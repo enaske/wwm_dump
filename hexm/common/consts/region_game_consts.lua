@@ -1,0 +1,56 @@
+Module: hexm.common.consts.region_game_consts
+Type: table
+================================================================================
+
+Keys:
+  REGION_GAME_TJDL: number
+  REGION_GAME_PURSUE: number
+  region_game_need_create: function
+  REGION_GAME_NOT_FINISH: number
+  REGION_GAME_UPDATE_PROGRESS_COUNT: string
+  REGION_GAME_MMM_ROTATE_ENTITY: number
+  IS_DESTROYED_SHOW_COMPLETED: number
+  REGION_GAME_CHEST_FLY: number
+  RECALL_REGION_GAME_ID_ADDED: number
+  REWARD_NONE: number
+  get_interact_occupy_lock_tip: function
+  REGION_GAME_MMM_ZHANGXIN: number
+  REGION_GAME_MMM_HUASHU: number
+  REGION_GAME_MMM_FREEZE: number
+  region_game_get_radius: function
+  REGION_GAME_MMM_QUMO: number
+  REWARD_RECEIVED: number
+  get_game_player_distance: function
+  PROCESS_TYPE_AVT_RESV: number
+  REGION_GAME_MMM_HUAORNGDAO: number
+  REGION_GAME_SHOUCAINU: number
+  GAME_STATE_DONE: number
+  END_REGION_GAME_PANEL: string
+  REGION_GAME_PSBX: number
+  REGION_GAME_MMM_CUT_TREE: number
+  _reload_all: boolean
+  REGION_GAME_MMM_MIX_COLOR: number
+  REGION_GAME_BEAR_FIGHT: number
+  REGION_GAME_YANWO: number
+  REGION_GAME_MMM_DAQINGGONG: number
+  RESET_MODE_RESET: number
+  get_game_create_data: function
+  REGION_GAME_KZBX: number
+  GAME_STATE_INIT: number
+  REGION_GAME_QZBML: number
+  BELONG_TYPE_COMPOSITE: number
+  REGION_GAME_MMM_HEJIAN: number
+  get_game_type_config: function
+  REGION_GAME_TJLY: number
+  REWARD_LOCKED: number
+  TYPE_2_RECORD_KEY_DICT_LIST: dict
+  REGION_GAME_CHASE_MOUSE: number
+  REGION_GAME_MMM_XIWU: number
+  PROCESS_TIMEOUT_TIMES: number
+  REGION_GAME_MMM_GUIHUO: number
+  REWARD_NOT_RECEIVED: number
+  REGION_GAME_Fengwo: number
+  DEFAULT_INNER_RANGE: number
+  REGION_GAME_TIME_RUN: number
+  REGION_GAME_MMM_BALANCE: number
+  (1 more keys)

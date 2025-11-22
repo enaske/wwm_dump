@@ -1,0 +1,53 @@
+Module: hexm.client.consts.world_level_consts
+Type: table
+================================================================================
+
+Keys:
+  WORLD_LEVEL_POPUP_DELAY: number
+  get_next_world_level: function
+  check_tower_level_meet: function
+  WORLD_LEVEL_BACK_BACKED: number
+  get_level_limit: function
+  WORLD_LEVEL_UP_TOWER_LEVEL_LIMIT: number
+  get_world_role_level_limit: function
+  check_world_can_breakthrough_task: function
+  get_server_max_world_level: function
+  get_world_condition_level_meet: function
+  WORLD_LEVEL_UP_MAX_LEVEL: number
+  is_world_stamina_limit_inc: function
+  WORLD_LEVEL_UP_COLOR_RED: list
+  check_world_can_breakthrough: function
+  get_role_day_meet: function
+  WORLD_LEVEL_UP_COLOR_WHITE: list
+  WORLD_LEVEL_BACK_CD: number
+  check_player_role_day_meet: function
+  get_world_prop_change_list: function
+  get_world_level_up_state: function
+  get_world_prop_dict: function
+  check_player_level_meet: function
+  WORLD_LEVEL_BACK_BACKED_CD: number
+  get_world_stamina_limit: function
+  WORLD_LEVEL_BACK_READY: number
+  get_tower_info_no: function
+  WORLD_LEVEL_UP_BREAK_READY: number
+  world_level_get_version_name: function
+  get_world_level_back_state: function
+  check_world_upgrade_meet_condition: function
+  get_world_level_name: function
+  get_server_left_day_to_next_world_level: function
+  WORLD_LEVEL_BACK_INVISIBLE: number
+  WORLD_LEVEL_UP_COLOR_GREEN: list
+  get_world_upgrade_mission: function
+  WORLD_LEVEL_UP_PLAYER_LEVEL_LIMIT: number
+  get_tower_condition_limit: function
+  get_world_level_adjust_cd: function
+  get_tower_condition_string: function
+  get_kongfu_icon: function
+  get_world_level_back_tip: function
+  world_level_max_level: function
+  check_need_tower: function
+  get_world_level_limit_desc: function
+  is_world_level_in_back: function
+  get_world_level_reward_list: function
+  WORLD_LEVEL_UP_BREAK_LOCK: number
+  get_world_level_mini_name: function

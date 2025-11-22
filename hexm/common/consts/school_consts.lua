@@ -1,0 +1,56 @@
+Module: hexm.common.consts.school_consts
+Type: table
+================================================================================
+
+Keys:
+  SCHOOL_INVITATION_ZFY_3: string
+  SCHOOL_GUYUN: number
+  REP_3: number
+  ORDER_NM_WXZZ: number
+  WANFA_TANGZHU: number
+  SCHOOL_EVENT_TYPE_AVATAR: number
+  SCHOOL_TITLE_DEACON_FOREIGN: number
+  REP_8: number
+  SCHOOL_EVENT_STATUS: number
+  CHASE_FINISH_FLAG_FLEE: string
+  SCHOOL_WENJINGUAN: number
+  SCHOOL_EVENT_JOIN: number
+  ANNOUNCEMENT_MODE_SELF: number
+  SCHOOL_JIANGHU: number
+  SCHOOL_EVENT_TYPE_JL: number
+  SCH_TOT_REP_MAX: number
+  RULE_SCBL: string
+  SCH_STATE_SPACE_READY_PVP: number
+  SCHOOL_INVITATION_JLM_MAP: dict
+  CHIEF_SGT_DEFAULT: number
+  BLOOD_TYPE_NPC: number
+  SCHOOL_JIANGXIANG: number
+  SCHOOL_STATUS_CHIEF: number
+  SCHOOL_CHARM_MARRY: number
+  REP_10: number
+  LEARN_STATE_IDLE: string
+  STUFF_PARAM_3: string
+  SCHOOL_RANK_PREFIX_WEI_REP: string
+  school_ceremony_can_invite_tourist: function
+  SCHOOL_EVENT_TYPE_WX: number
+  SCHOOL_STATUS_ELDER: number
+  SCHOOL_TITLE_MASTER_FOREIGN: number
+  CEREMONY_STATE_OVER: string
+  SCHOOL_EVENT_QUIT: number
+  CEREMONY_STATE_TAKE: string
+  get_jl_level: function
+  SCHOOL_STATUS_INNER: number
+  SCHOOL_WJG_STATUS_LIST: list
+  SCHOOL_EVENT_TYPE_SANITY: number
+  FILED_STATUS: string
+  TITLE_DISMISS_SGT_OVERTIME: string
+  RULE_FZYS: string
+  SCHOOL_TITLE_DEACON_LEGAL: number
+  RPC_CHASE_INFO_BACK: string
+  WANFA_ZONGMEN: number
+  school_event_type_decode: function
+  CEREMONY_STATE_TRAP: list
+  SCHOOL_TITLE_PUPIL_INTERNAL: number
+  SCHOOL_KUANGLAN: number
+  CHASE_BILLBOARD_CHASED: string
+  (1 more keys)

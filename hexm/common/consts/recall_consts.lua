@@ -1,0 +1,39 @@
+Module: hexm.common.consts.recall_consts
+Type: table
+================================================================================
+
+Keys:
+  UNLOCKED_LEVELS: list
+  get_trial_achieve_num_by_conf_no: function
+  get_good_tiaoping_list: function
+  resume_avt_resource: function
+  get_trial_achieve_num: function
+  get_battle_skills_wuxue: function
+  LEVEL_SHILIAN: number
+  LEVEL_1: number
+  get_battle_skills_xinfa: function
+  level_transfer: function
+  get_battle_skills: function
+  TYPE_TRIAL_BOSS: number
+  get_trial_silver_medal_num: function
+  get_xs_recall_finish_coin_reward_num: function
+  get_trial_achieve_list: function
+  is_unlock_outer: function
+  is_in_recall: function
+  is_forbidden_inner: function
+  check_level: function
+  LEVEL_2: number
+  get_trial_gold_medal_num: function
+  check_trial_reward_phase: function
+  get_battle_skills_neigong: function
+  get_all_shilian_passed_recall_conf_no: function
+  TYPE_TRIAL: number
+  is_trial_conf_no: function
+  is_shilian_unlocked: function
+  is_forbidden_outer: function
+  get_battle_skills_qishu: function
+  get_task_end_2_conf_no_list: function
+  is_unlock_inner: function
+  TYPE_JUQING: number
+  ALL_LEVELS: list
+  LEVEL_3: number

@@ -1,0 +1,56 @@
+Module: hexm.client.ui.windows.dialog_branches.branch_consts
+Type: table
+================================================================================
+
+Keys:
+  get_extra_choice_lock_tip: function
+  BRANCH_VX_UNLOCK_RECORD: string
+  get_after_dialogs_by_before: function
+  CHOICE_TYPE_STORE: number
+  check_visible_custom: function
+  is_option_clicked: function
+  meet_condition_have_items: function
+  BRANCH_END_INTERACT_CD: number
+  check_have_visible_option: function
+  get_sys_d: function
+  BRANCH_END_RECORD: string
+  has_unlock_condition: function
+  BRANCH_END_GOTO_FUNC: number
+  DEFAULT_POPUP_BLOCK_ID: number
+  has_choice_time: function
+  BRANCH_RECORD: string
+  meet_condition_stuff_or_token: function
+  BRANCH_CLICKED: number
+  BRANCH_STATE_RESTART: number
+  BRANCH_START_TYPE_NORMAL: number
+  get_text: function
+  BRANCH_STATE_STAY_WITH_DIALOG: number
+  BRANCH_START_TYPE_TALK: number
+  BRANCH_STATE_CONTINUE: number
+  _reload_all: boolean
+  BRANCH_NORMAL: number
+  BRANCH_END_SCHOOL_ORDER: number
+  get_choice_type: function
+  check_locked_custom: function
+  BRANCH_STATE_STAY: number
+  get_talk_info: function
+  ITEM_VIEW_STYLE: dict
+  get_branch_follow_param: function
+  BRANCH_END_FINISH: number
+  DIALOG_BRANCH_NO: number
+  BRANCH_OPEN_RECORD: string
+  get_custom_style_data: function
+  check_visible_common_condition: function
+  get_item_view_style: function
+  get_image_and_color_by_token_id: function
+  has_refuse_dialog: function
+  BRANCH_OPTION_PRIORITY_CLICKED: number
+  BRANCH_END_TASK_FETCH: number
+  check_visible_selected: function
+  get_branch_pre_dialogs: function
+  OPTIONS_NUM_LIMIT: number
+  meet_condition_option_click: function
+  get_extra_data: function
+  BRANCH_EMPTY_DIALOG_NO: number
+  get_choice_tip_text: function
+  (1 more keys)

@@ -1,0 +1,53 @@
+Module: hexm.common.misc.chat_misc
+Type: table
+================================================================================
+
+Keys:
+  stuff_color_dict2: dict
+  try_check_anony_msg: function
+  hanzi_start: number
+  get_text_content_by_msg: function
+  try_change_person_msg_to_anony_msg: function
+  emotion_pattern_str: string
+  relation_friend: number
+  get_richtext_comp_by_msg: function
+  prison_intro_chat_msg: function
+  check_channel_join: function
+  get_and_limit_length_of_comp_list: function
+  get_text_and_color_by_relation: function
+  get_relation_to_target: function
+  relation_qianren: number
+  pvp_tomb_list_msg: function
+  get_richtext_comp_by_msg_and_limit_len: function
+  get_richtext_comp_by_msg_text_mode: function
+  prison_welcome_chat_msg: function
+  club_set_post_chat_msg: function
+  group_invite_chat_msg: function
+  relation_jieyi: number
+  relation_student: number
+  color_list_to_str: function
+  relation_jieyuan: number
+  get_relation_to_target_in_chat: function
+  prison_auto_chat_msg: function
+  chat_room_gift_msg: function
+  hanzi_count: number
+  relation_to_attr: dict
+  relation_none: number
+  relation_brother: number
+  stuff_color_dict: dict
+  relation_master: number
+  open_and_rescale_pic: function
+  get_text_and_color_by_relation_in_chat: function
+  relation_stranger: number
+  dragon_arena_broad: function
+  relation_npc: number
+  parse_raw_str_with_emotion_with_text_limit: function
+  get_text_by_args: function
+  is_stranger: function
+  get_text_and_color_by_relation_type: function
+  common_two_player_msg: function
+  parse_raw_str_with_emotion: function
+  get_and_limit_length_of_comp: function
+  get_club_submit_stuff_help_system_msg: function
+  get_is_forbid_by_channel: function
+  common_one_player_msg: function

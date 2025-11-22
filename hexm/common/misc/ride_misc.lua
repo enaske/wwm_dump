@@ -1,0 +1,48 @@
+Module: hexm.common.misc.ride_misc
+Type: table
+================================================================================
+
+Keys:
+  get_horse_tame_interest_skill_value: function
+  get_ride_tbl_data_by_horse_id: function
+  get_ride_base_data_id_by_args: function
+  get_now_horse_base_data: function
+  get_special_anim_action_sys_d_by_No: function
+  check_has_max_level_horse: function
+  generate_horse_dot: function
+  check_avatar_ride_is_horse: function
+  get_ride_tbl_data: function
+  get_ride_tbl_data_by_horse_no: function
+  check_add_temp_horse: function
+  ride_up_level_stuff_get_use_num: function
+  check_is_horse: function
+  check_horse_overlap: function
+  check_pos_can_put_horse: function
+  load_invite_window: function
+  get_horse_price: function
+  get_other_player_ride_up_level_stuff_left_num: function
+  check_has_horse: function
+  check_in_ride_bag: function
+  get_equip_horse_can_auto_pick_treasure: function
+  check_equip_horse_can_follow: function
+  get_horse_point_by_ID: function
+  check_equip_horse_has_find_treasure_skill: function
+  get_equip_horse_auto_pick_distance: function
+  can_give_back_horse: function
+  horse_backseat_is_open: function
+  get_attr_from_No: function
+  get_ride_item_by_ID: function
+  init_new_ride_item_bd: function
+  check_ride_status_behaviors_enable: function
+  new_get_fenghua_value: function
+  get_ride_item_by_No: function
+  has_temp_horse: function
+  get_fenghua_value: function
+  check_ride_category: function
+  ride_up_level_stuff_left_get_num: function
+  check_entity_horse_can_hold_guest: function
+  get_horse_point_by_data: function
+  check_ride_status_behavior_enable: function
+  get_horse_can_equip_with_max_point: function
+  get_ride_no_max_level: function
+  get_horse_name: function

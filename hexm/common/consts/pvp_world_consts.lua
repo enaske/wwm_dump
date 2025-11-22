@@ -1,0 +1,56 @@
+Module: hexm.common.consts.pvp_world_consts
+Type: table
+================================================================================
+
+Keys:
+  E_CHASE_PROGRESS_UP: number
+  WITNESS_PREVENT_KILL: number
+  AI_E_BRIBES_END: string
+  WITNESS_BRIBES: string
+  E_WITNESS_OPEN_SUCCESS: number
+  BRIBES_FAIL_RUN_AI: string
+  P_NEW_AVT: number
+  AI_U_WITNESS_BAOGUAN: string
+  CRIME_CAPTURING: number
+  POLILCE_FAIL_FIREWORK: string
+  K_NPC: number
+  CRIME_PRE: number
+  BRIBES_SUCCESS_RUN_AI: string
+  WITNESS_PREVENT_HIT: number
+  CRIME_NONE: number
+  P_NUM: number
+  CRIME_STATE_CAP_OPEN: number
+  CRIME_TAG_FIGHT: number
+  E_CHASE_RESTART: number
+  E_AI_WITNESS_CALLPOLICE_SUCCESS: number
+  OFFICIAL_CHASE: number
+  P_TEAM: number
+  FACTION_BAOGUAN_NPC: number
+  CRIME_STATE_LEVEL_UP: number
+  POLICE_STEP_PRECHASE: number
+  CRIME_PRISON: number
+  P_OPEN: number
+  FACTION_BAOGUAN_AVT: number
+  get_callback: function
+  get_pvp_world_sys_faction: function
+  AI_WITNESS_BILLBOARD_CHANGE: string
+  POLICE_STEP_AFTER_PRECHASE: number
+  REASON_TIME_OUT: number
+  _reload_all: boolean
+  E_POLICE_END: number
+  E_POLICE_ARREST: number
+  CRIME_STATE_CAP_COMMON: number
+  CRIME_TYPE_REWARD: number
+  CRIME_TAG_HUNT: number
+  P_POWER: number
+  REASON_KILL_ALL: number
+  K_AVT: number
+  E_JUSTIC_FROM_HEAVEN: number
+  TAG_WITNESS_FILTER: number
+  POLICE_STEP_AFTER_CHASE_FAILED: number
+  AI_U_POLICE_RUN: string
+  POLICE_REGION_COMMON: number
+  HEAVEN_TYPE_CAP: number
+  E_CRIME_WITNESS: number
+  HEAVEN_TYPE_1: number
+  (1 more keys)

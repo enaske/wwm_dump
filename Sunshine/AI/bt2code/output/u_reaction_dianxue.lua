@@ -1,0 +1,56 @@
+Module: Sunshine.AI.bt2code.output.u_reaction_dianxue
+Type: table
+================================================================================
+
+Keys:
+  n0102210010411_PlayAnimAction: function
+  n0102210011_CBTWhileNode: function
+  n0102321112030_CBTSequenceNode: function
+  n01023211120_CBTAlwaysSequenceNode: function
+  n010221001021_TurningAction: function
+  n010213031_CBTAlwaysSequenceNode: function
+  n0100110_AddAlertValue: function
+  n0102002_SetBlackboard: function
+  n0102130311_Wait: function
+  TREE_NODES_NUM: number
+  n010232110_CheckBlackboard: function
+  n01001_CBTIfElseNode: function
+  n0102220_CheckBlackboard: function
+  n010222121_ApplyWatch: function
+  n010222120_CBTAlwaysSequenceNode: function
+  n010232111202_SetTimer: function
+  n0110_ShowSubtitleNode: function
+  n010210_TurningAction: function
+  n0042_SetBlackboard: function
+  n01023211120300_NotNode: function
+  n010221001030_CBTIfElseNode: function
+  n0102221200_TurningAction: function
+  n010231_StartDialog: function
+  TREE_NAME: string
+  n0102210010300_CheckBlackboard: function
+  n0_CBTAlwaysSequenceNode: function
+  n010221001010_CBTAlwaysSequenceNode: function
+  n0102130_CBTAlwaysSequenceNode: function
+  n01010120_SetBlackboard: function
+  n0100111_SetBlackboard: function
+  n01000211_SetBlackboard: function
+  n01022100111_CBTIfElseNode: function
+  n01010_CBTIfElseNode: function
+  n010213_Parallel: function
+  n010101_CBTIfElseNode: function
+  n0102130310_TurningAction: function
+  n0102130301_CheckTargetDis: function
+  n010221001111_SetBlackboard: function
+  n0102321111_StartDialog: function
+  n0102321112_Parallel: function
+  n010232111201_PlayAnimAction: function
+  n0102210010302_Nop: function
+  n0100020_AddAlertValue: function
+  n010221_BBValueIsSetOn: function
+  n01022212_Parallel: function
+  n001_GetBasicReactionInfo: function
+  n010213030_CBTSequenceNode: function
+  n010232012_Wait: function
+  n0100010_ComputeNode: function
+  n0102000_SetBlackboard: function
+  (1 more keys)

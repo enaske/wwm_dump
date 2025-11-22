@@ -1,0 +1,56 @@
+Module: hexm.client.ui.windows.wardrobe.wardrobe_consts
+Type: table
+================================================================================
+
+Keys:
+  DEFAULT_POS_ID: number
+  D_LEFT: number
+  GUISE_TYPE_FASHI: number
+  STUDIO_TAGS: number
+  HAIR_ACC_HIDE_TYPE_1: number
+  MOBILE_RAYCAST_OFFSET: list
+  WEAPON_TYPE_SHUANGDAO: number
+  EDIT_ROTATION_Y: number
+  GUISE_VIEW_REASON_DEFAULT: string
+  GUISE_VIEW_PRIORITY_FENBAO_DOWNLOAD: number
+  OP_ROT_OBJECT: number
+  OP_MOVE_OBJECT: number
+  L_BTN_LIST: list
+  DEL: number
+  R_UNUSED_LIST: list
+  GUISE_TYPE_HAT: number
+  LEVEL_REWARD_RED_KEY: number
+  WARDROBE_FA_SHI_TYPE: number
+  DEFAULT_WEATHER_ID: number
+  WORKSHOP_WORK_TYPE_DYEING: number
+  EDIT: number
+  WEAPON_TYPE_JIAN: number
+  SINGLE_SLOT_DRESS_TYEP: list
+  WARDROBE_EQUIP_TYPE: number
+  POS_FRIEND_TYPE: number
+  EDIT_POS_Y: number
+  HAIR_POINT_ID: number
+  FENGHUALU_MAKEUP_TYPE: number
+  FASHION_TYPE_ENV: number
+  ALL_UNLOCK: number
+  OP_ROT_ROLE: number
+  OP_SCALE_TAG: number
+  TEAM_STATE: number
+  IDLE_EFFECT_POINT_ID: number
+  HAT_POINT_ID: number
+  BORROW_SCHEME: number
+  PLAYER_TEAMMATES_INDEX: number
+  QINJING_PAGE: number
+  NEXT: number
+  FENGHUALU_HUAFANG_TYPE: number
+  STUDIO_LIGHT: number
+  OP_MOVE_TAG: number
+  GUISE_VIEW_PRIORITY_DEFAULT: number
+  WEAPON_TYPE_MODAO: number
+  WEAPON_TYPE_SHENGBIAO: number
+  GUISE_TYPE_TO_RED_POINT_MAP: dict
+  BACKOUT_PUT_OBJECT: number
+  WARDROBE_TYPE_LIST: list
+  WARDROBE_DETAIL_GF_LIST: number
+  FASHION_TYPE_TO_RED_POINT_MAP: dict
+  (1 more keys)

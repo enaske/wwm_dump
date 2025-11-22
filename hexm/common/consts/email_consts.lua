@@ -1,0 +1,56 @@
+Module: hexm.common.consts.email_consts
+Type: table
+================================================================================
+
+Keys:
+  SEND_EMAIL: number
+  LOCAL_CACHE_SIZE: number
+  SA_LOG_OP_TYPE_START_FETCH_REWARD: number
+  EMAIL_TIMER_EMAIL_TIMING: string
+  PULL_EMAIL_NUM_LIMIT: number
+  EMAIL_INFO_DEFINE: dict
+  MAX_GLOBAL_MAIL_ONCE: number
+  SA_LOG_OP_TYPE_DELETE: number
+  SA_LOG_OP_TYPE_FETCH_REWARD: number
+  LOAD_DB_EMAIL_NUM_LIMIT: number
+  STATUS_READ_PRE: number
+  NPC_EMAIL: number
+  EMAIL_TIMER_GLOBAL_MAIL_TRY_INIT: string
+  SCHOOL_EMAIL: number
+  SA_LOG_OP_TYPE_SET_CANNOT_RE: number
+  SA_LOG_OP_TYPE_SET_CAN_RE: number
+  SA_LOG_OP_TYPE_FETCH_TASK: number
+  SA_LOG_OP_TYPE_START_FETCH_TASK: number
+  GLOBAL_MAIL_DELETE: number
+  FROM_TYPE_OVERLOAD_AWARD: number
+  SA_LOG_OP_TYPE_RECEIVE: number
+  STATUS_READ_TRUE: number
+  QUDAO_SINGLE_HOSTNUM: list
+  DB_QUERY_MAIL_TYPES: list
+  TRAN_EMAIL: number
+  get_request_cross_interval: function
+  DB_STATE_PENDING: number
+  EMAIL_CONTENT_ARGS_TYPE_ORIGIN: string
+  EMAIL_TIMER_GLOBAL_MAIL_PROCESS: string
+  EMAIL_CONTENT_ARGS_TYPE_METHOD: string
+  EMAIL_TIMER_EMAIL_EXPIRE: string
+  _reload_all: boolean
+  MAIL_REWARD_GET_ONCE: number
+  FROM_TYPE_NORMAL: number
+  Mail_Types: dict
+  SYS_EMAIL: number
+  GLOBAL_MAIL_READ: number
+  SA_LOG_OP_TYPE_COLLECT: number
+  GLOBAL_MAIL_RECEIVE_REWARD: number
+  DB_STATE_NULL: number
+  SA_LOG_OP_TYPE_READ: number
+  DB_STATE_READY: number
+  FRIEND_EMAIL: number
+  EMAIL_TIMER_EMAIL_PROCESS_REWARD: string
+  FROM_TYPE_GLOBAL: number
+  GUILD_EMAIL: number
+  EMAIL_CONTENT_ARGS_TYPE_TEXT_NO: string
+  FETCH_GLOBAL_MAIL_INTERVAL: list
+  SA_LOG_OP_TYPE_SEND: number
+  GLOBAL_MAIL_RECEIVE: number
+  (1 more keys)

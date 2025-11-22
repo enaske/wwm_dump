@@ -1,0 +1,48 @@
+Module: hexm.common.misc.shop_misc
+Type: table
+================================================================================
+
+Keys:
+  get_other_score_shop_stuff_has_buy_by_sid: function
+  check_item_on_sale: function
+  get_other_score_shop_stuff_remain_by_sid: function
+  get_cycle_battle_pass_end_ts: function
+  get_score_shop_stuff_limit_by_sid: function
+  get_valid_coupons: function
+  check_suit_can_add_to_cart: function
+  item_can_trade: function
+  check_view_list_owned: function
+  calc_real_price: function
+  check_can_add_to_cart: function
+  _cmp_prefer_unbind: function
+  has_realm_rank_no1: function
+  check_npcshop_buy: function
+  get_shop_cart_num: function
+  get_item_owned_num: function
+  get_weituo_shop_stuffs_by_sid: function
+  get_score_shop_stuff_remain_by_sid: function
+  _shop_stuff_sp_get_cnt_npc_entity: function
+  check_item_views_owned_limit: function
+  view_suit_no2sid: function
+  get_score_shop_stuff_has_buy_by_sid: function
+  get_other_score_shop_stuff_limit_by_sid: function
+  _cmp_prefer_bind: function
+  sid2fashion_nos: function
+  check_item_discount: function
+  check_item_unlocked: function
+  get_discount_expire_ts: function
+  check_suit_direct_buy: function
+  get_cost_stuff_ids: function
+  fashion_no2sid: function
+  check_item_on_top_sale: function
+  view_no2sid: function
+  get_item_owned_num_by_shop_sid: function
+  check_view_direct_buy: function
+  get_valid_coupon_cnt: function
+  sid2view_nos: function
+  get_cost_stuff_ids_by_sid: function
+  _shop_stuff_sp_add_cnt_npc_entity: function
+  check_item_buy: function
+  get_cycle_monthly_pass_end_ts: function
+  check_item_owned_limit: function
+  check_fashion_direct_buy: function

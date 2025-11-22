@@ -1,0 +1,56 @@
+Module: hexm.client.consts.level_bot_consts
+Type: table
+================================================================================
+
+Keys:
+  decode_pos_normal: function
+  JOYSTICKS_MOVE_MAP: dict
+  RECORD_TIMER_INTERVAL: number
+  BB_PRESSURE_BOT_EVENT: string
+  read_level_bot_record: function
+  OPERATION_TYPE_WAIT_CUTSCUENE: number
+  ERR_NO_CLEAR_SUB: number
+  OPERATION_TYPE_WAIT_LOADING: number
+  RESULT_SUBDIR: string
+  OPERATION_TYPE_SCREEN_SHOT: number
+  RECORD_HEADS: list
+  get_pos_from_npc_no: function
+  get_stack_idx_list: function
+  decode_random_circle_pos: function
+  CUSTOM_OPERATION_CHECK_TASK_HUD: string
+  ERR_RESOUT_CHECK: number
+  EXEC_FORBID_OUTPUT: string
+  OPERATION_TYPE_AOI: number
+  FIGHT_DEFAULT_RADIUS: number
+  _split_vector3: function
+  REASON_NO_UI_RECORD: string
+  REASON_TIME_OUT: string
+  RESULT_TYPE_REWARD: number
+  EXEC_RES_SUCC: number
+  RESULT_TYPE_LOAD_UI: number
+  REASON_RESULT_NO_TYPE: string
+  GO_TYPE_TRANSFER: string
+  REASON_BRANCE_TIMEOUT2: string
+  header_json_decodable: function
+  CHECK_UNDERGROUND_DELAY: number
+  POS_MODE_RANDOM_CIRCLE: string
+  REASON_INVALID_CHARACTER: string
+  get_pos_from_sid: function
+  POS_MODE_DEFAULT: string
+  RESULT_TYPE_TASK_FINISH: number
+  EXEC_RES_FAIL: number
+  REASON_NO_OP: string
+  RESULT_TYPE_CUSTOM: number
+  pos_apply_offset: function
+  get_record_file_list: function
+  OPERATION_TYPE_UI_SEQUENCE: number
+  save_level_bot_record: function
+  EXEC_RES_WARNING: number
+  REPLAY_RESULT_JSON_PATH: string
+  player_in_dialog: function
+  REASON_UPPER_WINDOW_NOT_CLOSED: string
+  fight_filter: function
+  OPERATION_TYPE_PRESSURE_BOT_EVENT: number
+  OPERATION_TYPE_FIGHT: number
+  FORBID_CLOSE_WINDOWS: table
+  (1 more keys)

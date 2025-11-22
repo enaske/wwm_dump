@@ -1,0 +1,56 @@
+Module: hexm.client.util.face_utils
+Type: table
+================================================================================
+
+Keys:
+  get_applique_and_scar: function
+  dump_old_face_data: function
+  urlDecode: function
+  change_int_data_to_str: function
+  get_textures_index: function
+  set_liangpian_color: function
+  construct_bake_param: function
+  get_suit_makeup_nos: function
+  get_face_makeup_data_by_body: function
+  set_spark_color: function
+  get_skin_gloss_val: function
+  SKIN_GLOSS_AND_COLOR: function
+  load_face_over_event: function
+  npc_makeup_bake: function
+  get_test_makeup_path: function
+  make_data: function
+  load_new_face_data: function
+  get_makeup_id_to_type_by_body: function
+  gen_npc_random_face_data: function
+  get_makeup_has_lr_id_by_body: function
+  get_create_face_data: function
+  dump_new_face_data: function
+  set_old_body: function
+  copy_dump_new_face_data: function
+  set_skin_color: function
+  get_slot_data_info: function
+  set_skin_gloss: function
+  dump_npc_face_data: function
+  get_slot_index: function
+  get_makeup_type: function
+  is_equal_compare_face_data: function
+  get_real_face_data_by_ai_generate_data: function
+  change_btn_state: function
+  remove_main_player_locked_makeup_ids: function
+  SPECIAL_SKIN_CHECK: function
+  set_eye_shader: function
+  set_spark_shader_data: function
+  get_eye_hsv_actual_val: function
+  get_makeup_ids_by_body: function
+  get_hsv_actual_val: function
+  only_use_makeup_combine_edit_face_dta: function
+  get_scale_xy_val: function
+  get_new_face_data: function
+  get_hsv_by_recommend_color_id: function
+  get_rotation_val: function
+  player_set_1Dor2D_face_data: function
+  import_ai_face_data: function
+  change_old_data_sv: function
+  get_spark_type: function
+  get_random_face_skeleton_data: function
+  (1 more keys)

@@ -1,0 +1,44 @@
+Module: hexm.client.ui.consts.touch_consts
+Type: table
+================================================================================
+
+Keys:
+  TOUCH_INDEX_MOUSE_R: number
+  TouchEvent: list
+  EVENT_QUICK_MOVE_LEFT: string
+  InputEvent: list
+  EVENT_LONG_PRESS_BEGAN: string
+  EVENT_QUICK_MOVE_DOWN: string
+  EVENT_QUICK_MOVE_RIGHT: string
+  EVENT_LONG_PRESS_MOVED: string
+  EVENT_CLICK_MOUSE_L: string
+  EVENT_MOVE_ENTER: string
+  EVENT_QUICK_END_UP: string
+  EVENT_QUICK_END_RIGHT: string
+  PROXY_TYPE_WIDGET: number
+  EVENT_MOVE_LEAVE: string
+  LONG_PRESS_MAX_LENGTH: number
+  QUICK_CLICK_MAX_INTERVAL: number
+  DOUBLE_CLICK_MAX_LENGTH: number
+  EVENT_MOVED: string
+  EVENT_ENDED: string
+  EVENT_QUICK_END_LEFT: string
+  LONG_PRESS_INTERVAL: number
+  EVENT_CLICK_MOUSE_R: string
+  CLICK_MAX_LEN: number
+  EVENT_DCLICK: string
+  _reload_all: boolean
+  EVENT_LONG_PRESS_TICK: string
+  EVENT_QUICK_CLICK: string
+  EVENT_LONG_PRESS_ENDED: string
+  TOUCH_INDEX_MOUSE_L: number
+  EVENT_CLICK: string
+  EVENT_QUICK_MOVE_UP: string
+  EVENT_CANCEL: string
+  LONG_PRESS_TICK_TIME: number
+  DOUBLE_CLICK_INTERVAL: number
+  EVENT_QUICK_END_DOWN: string
+  QUICK_MOVE_MAX_INTERVAL: number
+  PROXY_TYPE_SCREEN: number
+  EVENT_BEGAN: string
+  QUICK_MOVE_MIN_LENGTH: number

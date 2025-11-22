@@ -1,0 +1,56 @@
+Module: hexm.common.consts.env_consts
+Type: table
+================================================================================
+
+Keys:
+  ENV_ORDEAL_SP_COND_2_REASON: dict
+  get_temperature: function
+  get_feast: function
+  get_env_attr_value: function
+  NO_ENV_ORDEAL_POISON: number
+  TEMP_NONE: number
+  get_breath_id: function
+  get_value_max_func: dict
+  BUFF_K_RATE: dict
+  ENV_ORDEAL_REASON_WANFA: number
+  get_feast_max: function
+  BODY_NEED_SHOW_LINE: list
+  NO_BODY_TILI: number
+  NO_BODY_HOT: number
+  get_feast_id: function
+  ENV_ORDEAL_COND_NOT_IN_DOOR: number
+  get_moisture_id: function
+  NO_BODY_ORDEAL_LIST: list
+  ENV_ORDEAL_PRIOR_COMMON: number
+  NO2CHANGE_FUNC_NAME: dict
+  get_env_attr_max: function
+  get_env_ordeal_resource_id: function
+  _reload_all: boolean
+  get_breath: function
+  get_drunkfeeling: function
+  NO_BODY_JINGLI: number
+  ENV_ORDEAL_REASON_SWAMP: number
+  HUMANPRO_NO_MAX: number
+  NO_BODY_HEALTH: number
+  get_concentration_max: function
+  NO_BREATH: number
+  ENV_ORDEAL_COND_IN_WATER: number
+  ENV_ORDEAL_COND_IN_SWAMP: number
+  NO_BODY_FEAR: number
+  NO_CONCENTRATION: number
+  ENV_ORDEAL_PRIOR_WANFA: number
+  ENV_ORDEAL_REASON_SHICHEN: number
+  BREATH_TICK_TIME: number
+  get_moisture: function
+  NO_ENV_ORDEAL_COLD: number
+  ENV_ORDEAL_TYPE_MIND: number
+  get_temperature_id: function
+  ENV_ORDEAL_TYPE_COLD: number
+  NO_MOISTURE: number
+  FEAST_IDX: number
+  get_value_id_func: dict
+  NO_ENV_ORDEAL_HOT: number
+  calc_temperature_id: function
+  NO_BODY_POISON: number
+  NO_ENV_ORDEAL_FEAR: number
+  (1 more keys)

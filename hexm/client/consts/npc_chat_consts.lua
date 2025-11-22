@@ -1,0 +1,56 @@
+Module: hexm.client.consts.npc_chat_consts
+Type: table
+================================================================================
+
+Keys:
+  CHAT_VOICE_STATE_CONNECT: number
+  CHAT_VOICE_STATE_UNCONNECT: number
+  CHAT_MSG_PIC: number
+  get_chat_window: function
+  get_or_set_npc_nickname_and_pinyin: function
+  get_or_set_player_nickname_and_pinyin: function
+  get_npc_chat_audio_settng: function
+  CHAT_EVENT_SKILL: number
+  set_player_nickname_pinyin: function
+  CHAT_MSG_SYSTEM: number
+  get_player_new_nickname: function
+  set_npc_chat_audio_setting: function
+  get_npc_chat_default_audio_setting: function
+  CHAT_ENDING_GIFT: number
+  CHAT_TYPE_HIRE: number
+  CHAT_TYPE_TALK_ID_MAP: dict
+  CHAT_MSG_NORMAL: number
+  get_nickname_pinyin: function
+  handle_chat_interact_gift: function
+  get_player_default_nickname: function
+  get_talk_id_name: function
+  CHAT_EVENT_BEHIT: number
+  open_chat_window: function
+  CHAT_TYPE_CHAT: number
+  CHAT_MSG_VOICE: number
+  is_ai_3d_npc: function
+  get_player_nickname_pinyin: function
+  close_chat_window: function
+  get_or_set_player_new_nickname_and_pinyin: function
+  is_chat_talk: function
+  CHAT_TYPE_FRIEND: number
+  get_npc_default_nickname: function
+  CHAT_TYPE_HOMELAND: number
+  CHAT_VOICE_STATE_CONNECTING: number
+  CHAT_TYPE_CHATS: table
+  set_npc_voice_red_read: function
+  CHAT_EVENT_GIFT: number
+  is_chat_npc_select: function
+  is_chat_npc_voice: function
+  get_player_new_nickname_pinyin: function
+  set_npc_nickname_pinyin: function
+  CHAT_MSG_GIFT: number
+  is_npc_voice_unlock: function
+  set_npc_nickname: function
+  get_chat_gift_msg_id: function
+  CHAT_MSG_SHARE: number
+  get_npc_nickname: function
+  set_player_new_nickname: function
+  get_or_set_npc_chat_audio_setting: function
+  get_npc_voice_red_num: function
+  (1 more keys)

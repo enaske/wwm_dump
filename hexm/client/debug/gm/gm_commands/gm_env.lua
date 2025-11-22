@@ -1,0 +1,56 @@
+Module: hexm/client/debug/gm/gm_commands/gm_env
+Type: table
+================================================================================
+
+Keys:
+  resume_tod: function
+  gm_show_static_model_name: function
+  set_temperature: function
+  gm_get_temperature: function
+  get_player_yaw: function
+  unlock_shichen_weather: function
+  clear_gm_weather: function
+  editor_set_shichen: function
+  debug_open_weather_monitor: function
+  debug_open_render_monitor: function
+  convert_rad_degree: function
+  print_curr_shichen: function
+  _reload_all: boolean
+  show_static_name: function
+  _on_key_r_callback: function
+  gm_display_physics: function
+  print_res_info: function
+  print_weather_stack: function
+  debug_show_radiation_area: function
+  set_weather_by_id: function
+  CoordTransformManager: instance
+  editor_set_local_shichen: function
+  gm_debug_st: function
+  set_region_weather: function
+  set_weather_by_tag: function
+  clear_cut_grass_effect_pos: function
+  editor_set_shichen_speed: function
+  set_shichen: function
+  clear_weather_by_tag: function
+  print_weather: function
+  print_region_weather_info: function
+  gm_create_interactcom_near: function
+  gm_play_thunder: function
+  graph_variables_unload_config: function
+  gm_engine_create_rb: function
+  gm_set_shichen_speed: function
+  enable_sound_inactive: function
+  recover_shichen: function
+  get_terrain_material: function
+  get_camera_raycast_terrain_material: function
+  debug_open_hex_model_panel: function
+  hex_model_visible_test: function
+  debug_disable_biomes: function
+  debug_wind: function
+  set_graph_variable_enabled: function
+  show_static_name_dis: function
+  get_camera_yaw: function
+  resume_time: function
+  allow_select_hide_hex_model: function
+  enabled_debug_show_sward_pos: function
+  (1 more keys)

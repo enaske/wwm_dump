@@ -1,0 +1,42 @@
+Module: hexm.client.ui.red_point.red_point_consts
+Type: table
+================================================================================
+
+Keys:
+  get_red_point_by_unlock_id: function
+  RED_POINT_IMAGE_RED_WIDE: number
+  RED_POINT_IMAGE_TASK_ZHUX: number
+  RED_LIST_PROGRAM_TYPE: number
+  RED_POINT_IMAGE_BOX: number
+  update_task_red_point_image: function
+  RED_POINT_IMAGE_ARROW: number
+  is_red_point_unlock: function
+  MOBILE_RED_POINT_IMAGE: dict
+  get_coop_unlock_point_id_by_name: function
+  RED_UNLOCK_PROGRAM_TYPE: number
+  get_red_point_coop_by_unlock_id: function
+  RED_UNLOCK_POINT_COOP_PREFIX: string
+  get_unlock_text: function
+  is_server_red_point: function
+  is_normal_programmer_red_point: function
+  RED_POINT_IMAGE_TASK_QIYU: number
+  MOBILE_OVERSEA_RED_POINT_IMAGE: dict
+  RED_UNLOCK_POINT_PREFIX: string
+  is_list_red_point: function
+  RED_SERVER_PROGRAM_TYPE: number
+  RED_POINT_STYLE_TRADITION: number
+  RED_POINT_IMAGE: dict
+  get_red_point_info: function
+  OVERSEA_RED_POINT_IMAGE: dict
+  RED_POINT_IMAGE_XIN: number
+  is_coop_red_point_unlock: function
+  RED_POINT_IMAGE_RED: number
+  RED_POINT_IMAGE_WARNING: number
+  RED_POINT_STYLE_EXPLORE: number
+  RED_POINT_IMAGE_TASK_WANFA: number
+  RED_NORMAL_PROGRAM_TYPE: number
+  RED_POINT_IMAGE_TASK_ZHIX: number
+  is_init_red_point_type: function
+  update_platform_red_point_image: function
+  get_programmer_red_point_name: function
+  get_unlock_point_id_by_name: function

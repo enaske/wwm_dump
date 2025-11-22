@@ -1,0 +1,25 @@
+Module: hexm.common.consts.auto_recovery_consts
+Type: table
+================================================================================
+
+Keys:
+  AUTO_RECOVERY_LIMIT_JIEBEI_RECOVER: number
+  RECOVERY_STUFF_TYPE_DRUG: number
+  _reload_all: boolean
+  AUTO_RECOVERY_LIMIT_RESET_RECOVER: number
+  AUTO_RECOVERY_LIMIT_BATTLE_PASS_BUY: number
+  RECOVERY_BAG_TYPE2ATTR_NAME: dict
+  RECOVERY_STUFF_TYPE_FOOD: number
+  AUTO_RECOVERY_LIMIT_DRUG_LEVEL_UP_RECOVER: number
+  RECOVERY_STUFF_TYPE2BAG: dict
+  RECOVER_LIMIT_MODE_INIT: number
+  RECOVERY_STUFF_TYPES: dict
+  RECOVERY_STUFF_TYPE_FUMO: number
+  STUFF_BAG_PAGE_DRUG: number
+  STUFF_BAG_PAGE_FUMO: number
+  SET_RECOVERY_LIMIT_MODE: string
+  STUFF_BAG_PAGE_SPECIAL: number
+  STUFF_BAG_PAGE_FOOD: number
+  AUTO_RECOVERY_LIMIT_ENTER_RECOVER: number
+  AUTO_RECOVERY_LIMIT_DEAD_RECOVER: number
+  RECOVERY_STUFF_TYPE_SPECIAL: number

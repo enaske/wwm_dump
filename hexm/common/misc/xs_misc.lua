@@ -1,0 +1,41 @@
+Module: hexm.common.misc.xs_misc
+Type: table
+================================================================================
+
+Keys:
+  _xs_chousha_avt_preview_reward: function
+  _xs_towersys_progress: function
+  fetcher_get_xs_progress: function
+  publish_get_xs_progress: function
+  BB_FULL_REWARD_TYPE2_FUNC: dict
+  _xs_zhige_publish_cost: function
+  get_publish_cost: function
+  XS_PROGRESS_TYPE2_FUNC: dict
+  has_fetched_tansuodu_xs: function
+  _xs_shangjin_avt_preview_reward: function
+  avt_get_xs_progress: function
+  _xs_social_preview_reward: function
+  BB_FULL_REWARD_OPTION_FUNC: dict
+  XS_TYPE2_2_PUBLISH_COST: dict
+  _xs_social_publish_cost: function
+  get_xs_full_reward: function
+  _xs_recall_preview_reward: function
+  check_publish_social_token: function
+  _xs_recall_progress: function
+  _xs_tansuodu_preview_reward: function
+  publish_check: function
+  _xs_zhige_progress: function
+  _xs_shangjin_npc_preview_reward: function
+  _xs_towersys_preview_reward: function
+  xs_get_notify_ts: function
+  _xs_huashu_publish_cost: function
+  ZERO_ONE_PROGRESS_TYPE2_SET: dict
+  _xs_xuanhu_preview_reward: function
+  _xs_wenshi_preview_reward: function
+  _xs_social_progress: function
+  XS_TYPE2_2_PUBLISH_CHECK_FUNC: dict
+  _xs_zhige_preview_reward: function
+  _xs_xuanhu_publish_cost: function
+  _xs_recall_publish_cost: function
+  _xs_tansuodu_progress: function
+  get_xs_progress: function

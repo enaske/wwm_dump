@@ -1,0 +1,41 @@
+Module: hexm.client.ui.windows.tianxia_baixiao.social_game.multi_guard_utils
+Type: table
+================================================================================
+
+Keys:
+  is_single_boss_guard: function
+  get_multi_boss_reward_stage_getted_by_stage: function
+  is_zhouben: function
+  get_guard_locked_info: function
+  get_fuben_locked_info: function
+  is_fuben_has_next_fuben: function
+  is_multi_boss_guard: function
+  get_tongyou_wanfa_tag_by_game_id: function
+  get_fuben_first_pass_reward: function
+  check_curr_is_club_multi_guard: function
+  is_zhouben_reward_received: function
+  get_fuben_has_first_passed: function
+  set_fuben_skill_tip_view: function
+  get_fuben_id_by_team_target: function
+  get_match_setting: function
+  check_zhouben_all_boss_finished: function
+  is_zhouben_club_special_reward_received: function
+  get_last_space_no_by_guard_no: function
+  is_zhouben_club_special_reward_can_receive: function
+  check_multi_boss_reward_is_first: function
+  get_multi_boss_reward_stage_getted: function
+  set_shijian_last_boss_reward_red_point_status: function
+  get_guard_no_by_game_id: function
+  set_match_setting: function
+  get_guard_no_by_fuben_id: function
+  get_multi_boss_reward_getted_info: function
+  is_zhouben_club_special_reward_received_count: function
+  get_fuben_last_phase_fuben_sysd: function
+  is_guard_belong_to_past: function
+  check_zhouben_dungeon_finish: function
+  get_shijian_last_boss_reward_red_point_status: function
+  get_fuben_game_play_sysd_by_team_target: function
+  goto_multi_guard_main_page_by_guard_no: function
+  get_reward_nos_to_show_in_main: function
+  check_zhouben_club_special_reward_received_by_guard_no: function
+  get_fuben_all_boss_id: function

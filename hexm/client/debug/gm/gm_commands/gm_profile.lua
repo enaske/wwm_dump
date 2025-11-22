@@ -1,0 +1,50 @@
+Module: hexm.client.debug.gm.gm_commands.gm_profile
+Type: table
+================================================================================
+
+Keys:
+  UseHexRepo: function
+  _profile_lua: boolean
+  StopProfileAllWindowsMobile: function
+  EnableJankProfiler: function
+  ProfileSaveConfig: function
+  EanbleRemoteWatcher: function
+  cur_scope: number
+  ExportJankDataToFile: function
+  SaveJankDataAndReset: function
+  ProfileLua: function
+  emmy_lua: function
+  LocalProfilerEnable: function
+  gm_simulate_player_pos_track: function
+  _profile_mem: boolean
+  is_open_optick: function
+  _debug_cct: boolean
+  ProfilePhysics: function
+  gm_stop_record_scop_tag: function
+  ExportJankData: function
+  _emmy_lua: boolean
+  ProfileTransport: function
+  local_profiler_enable: boolean
+  _profile_ui: boolean
+  DebugCCT: function
+  _profile_physics: boolean
+  ProfileLuaMem: function
+  ApplyLocalProfilerScopeConfig: function
+  gm_profile_fps: function
+  _lrdb: boolean
+  ProfileAllWindowsMobile: function
+  ProfileMainThread: function
+  remote_watcher_enable: boolean
+  ProfileAllWindows: function
+  is_lrdb: function
+  gm_forbid_fashion_show: function
+  RemoteLuaDebug: function
+  _profile_lua_mem: boolean
+  gm_start_record_scop_tag: function
+  RemoteLuaDebugPycharm: function
+  CloseSuipianPhysics: function
+  ProfileMem: function
+  _profile_main_thread: boolean
+  ProfileUI: function
+  PrepareProfileAllWindowsMobile: function
+  LocalProfilerOutput: function

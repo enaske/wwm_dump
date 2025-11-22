@@ -1,0 +1,54 @@
+Module: hexm.common.misc.compound_misc
+Type: table
+================================================================================
+
+Keys:
+  check_compound_platform_is_discover: function
+  get_recipe_main_type: function
+  cpd_check_npc_status: function
+  get_recipe_sub_type: function
+  get_recipe_lack_stuffs: function
+  compound_get_stuffs_by_recipe_no: function
+  cpd_check_recipe_status: function
+  generate_preview_results: function
+  gang_cook_compound_compute_product_quality: function
+  cpd_get_recipe_main_type_sys: function
+  find_material_on_self_auto: function
+  compound_get_forge_level: function
+  sort_by_px: function
+  cpd_get_relative_off_pos: function
+  check_compound_handmade_platforms: function
+  get_recipe_stuff_no: function
+  cpd_get_npc_entity: function
+  cpd_get_npc_output: function
+  compound_all_materials_index_need: function
+  get_menu_recipes_by_apply_rank: function
+  compound_all_mats_need_by_out_stuff: function
+  compound_all_materials_need: function
+  compound_preview_result: function
+  compound_homeworld_materials: function
+  gang_cook_compound_preview_result: function
+  compound_get_max_possible_num: function
+  count_compound_stuff: function
+  check_feed_resource: function
+  cpd_get_npc_recipe: function
+  cpd_get_npc_id: function
+  get_compound_trace_marker_item: function
+  get_compound_trace_entity: function
+  check_compound_platform_types: function
+  cpd_get_doing_recipe: function
+  compound_can_forge_recipe: function
+  compound_all_stuff_nos: function
+  compound_get_buff_dec: function
+  cpd_hdbook_is_unlock: function
+  compound_check_recipe: function
+  get_menu_recipes_by_apply_type: function
+  compound_compute_product_quality: function
+  recipe_is_unlock: function
+  _compound_check_para_with_m: function
+  get_recipe_icon: function
+  recipe_can_unlock: function
+  check_compound_platforms: function
+  get_anvil_sys_d_by_entity: function
+  get_recipe_can_compound_num: function
+  compound_check_materials: function

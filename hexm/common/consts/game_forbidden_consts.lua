@@ -1,0 +1,39 @@
+Module: hexm.common.consts.game_forbidden_consts
+Type: table
+================================================================================
+
+Keys:
+  FOLLOW: string
+  FORBID_CLIENT_QUIT_TEAM: string
+  FORBID_SUMMON_SMART_NPC: string
+  AUTO_QUIT_TEAM: string
+  FORBID_CHAQI: string
+  CONF_NAME2FLAG: dict
+  FORBID_ANIM_ACTION: string
+  FORBID_BTN: string
+  FORBID_AUTO_MATCH: string
+  FORBID_BIG_FLY: string
+  FORBID_TRANSPORT: string
+  STRICT_CLIMB: string
+  _reload_all: boolean
+  FORBID_COOP: string
+  AUTO_KICK_TEAM: string
+  HIDE_INTERACT: string
+  TRANSFER_FOLLOW: string
+  FORBID_SHICHEN_CLOCK: string
+  FORBID_KICK: string
+  FORBID_SWITCH_SPACE: string
+  PARRY_COST_NL: string
+  FORBID_MATCH: string
+  FORBID_SWITCH_TEAM_SEP: string
+  TEAM: string
+  TRANSFER_CONFORM: string
+  FB_ERR_SHOW_OTHER: dict
+  FORBID_PHOTO: string
+  FORBID_INVITE: string
+  get_flag: function
+  RECALL: string
+  TRANSFER_BE_FOLLOW: string
+  FORBID_NAME2DEFAULT_ERR: dict
+  FORBID_ACCEPT: string
+  FORBID_INTERACT: string

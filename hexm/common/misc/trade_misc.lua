@@ -1,0 +1,40 @@
+Module: hexm.common.misc.trade_misc
+Type: table
+================================================================================
+
+Keys:
+  check_baitan_is_favor: function
+  get_cost_no: function
+  get_shenghe_left_ts: function
+  get_item_sys_d: function
+  get_money_in_shenghe: function
+  check_dcgm_forbid: function
+  get_stuff_info_from_expand_no: function
+  get_gongshi_left_ts: function
+  get_can_pawn_stuff_num: function
+  calc_tanwei_cost: function
+  check_forbid_is_pay: function
+  get_stuff_money_type: function
+  check_trade_forbidden: function
+  check_stuff_can_pawn: function
+  get_dcgm_forbid_need_pay_money: function
+  get_base_price: function
+  get_price_info_in_valid_scope: function
+  _get_sale_state: function
+  get_dcgm_money_back_type: function
+  get_stuff_expand_no: function
+  get_stall_name: function
+  get_freezechangming_amount: function
+  get_freezebaoqian_amount: function
+  check_baitan_order_is_expire: function
+  get_baitan_search_stuff: function
+  check_forbid_trade: function
+  get_dcgm_money_back_num: function
+  get_bank_capacity: function
+  get_price_info_by_stuff_no: function
+  get_money_can_draw: function
+  get_dcgm_forbid_money_fanhuan_time: function
+  get_dcgm_left_forbid_time: function
+  get_dcgm_money_back_left_time: function
+  get_sale_state: function
+  check_stuff_can_sell: function

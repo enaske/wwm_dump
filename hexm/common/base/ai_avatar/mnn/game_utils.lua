@@ -1,0 +1,56 @@
+Module: hexm.common.base.ai_avatar.mnn.game_utils
+Type: table
+================================================================================
+
+Keys:
+  transform: function
+  ACTION_CHARGE_ATTACK_INDEX: number
+  MAGIC_FIELD_EMPTY_INDEX: number
+  ACTION_SKILL_2_INDEX: number
+  ACTION_FLY_RUSH_INDEX: number
+  SLOT_LIST: list
+  ACTION_BREAK_DEFENCE_INDEX: number
+  ACTION_ROLL_INDEX: number
+  SLOT_ROLL: number
+  SLOT_CHARGE_ATTACK: number
+  SLOT_SKILL: number
+  ALL_RES: list
+  SLOT_FLY_RUSH: number
+  KONGFU_VECTOR_DICT: dict
+  ACTION_QISHU_2: number
+  SLOT_FLY_DOWN: number
+  SLOT_SKILL_2: number
+  LAB_NOOP: number
+  check_in_area: function
+  SLOT_ATTACK: number
+  SLOT_QISHU_2: number
+  SLOT_HEAVY_ATTACK: number
+  ACTION_ZHANSHA_INDEX: number
+  predict_magic_field_position_v2: function
+  ACTION_ATTACK_INDEX: number
+  ACTION_NAV_INDEX: number
+  ACTION_ARROW_INDEX: number
+  ACTIONS_NEED_DIRECTION: list
+  SLOT_HUAJIE: number
+  MOVE_DELTA: number
+  ALL_MAGIC_FIELDS_INDEX_DICT: dict
+  SLOT_FLY: number
+  BUFF_TO_INDEX_DICT: dict
+  ACTION_DEFENCE_INDEX: number
+  ACTION_COUNTER_ATTACK_INDEX: number
+  ACTION_EMPTY_INDEX: number
+  ACTION_RUN_INDEX: number
+  ACTION_HUAJIE_INDEX: number
+  normalized_diff_to_border: function
+  SLOT_BREAK_DEFENCE: number
+  ACTION_SWITCH_KONGFU_INDEX: number
+  ACTION_FLY_DOWN_INDEX: number
+  ACTION_QISHU_1: number
+  ACTION_SKILL_INDEX: number
+  NPC_ID_LIST: list
+  SLOT_COUNTER_ATTACK: number
+  normalize_position: function
+  ACTION_HEAVY_ATTACK_INDEX: number
+  ALL_SKILLS: list
+  ACTION_REMOVE_CONTROL_INDEX: number
+  (1 more keys)

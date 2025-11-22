@@ -1,0 +1,48 @@
+Module: hexm.client.ui.windows.hangdang.hangdang_consts
+Type: table
+================================================================================
+
+Keys:
+  TRAIN_WENSHI_ORDER_TO_CN_NAME: dict
+  MAIN_TAB_CTRL_MAP: dict
+  IDENTITY_YANSHI: number
+  TRAIN_DOCTOR_ORDER_LEVEL: string
+  TRAIN_PRE_DOCTOR_SKILL_ITEM: string
+  TRAIN_DOCTOR_ALL_ORDER_LIST: list
+  MAIN_TYPE_CARD_CONFIG: number
+  IDENTITY_ZHUOYING: number
+  TRAIN_DOCTOR_ORDER_QUALITY: string
+  IDENTITY_ICON: dict
+  TRAIN_DOCTOR_REFRESH_WINDOW: string
+  EMPTY_VIEW: number
+  MAIN_NEED_SHOW_TAB: list
+  MAIN_IDENTITY_TO_RP_NAME: dict
+  TRAIN_PRE_WENSHI_SKILL_ITEM: string
+  refresh_hangdang_text: function
+  SKILL_CLICK_GROUP: string
+  TRAIN_WENSHI_ORDER_COST: string
+  TRAIN_WENSHI_ORDER_LEVEL: string
+  MAIN_TYPE_ATTR: number
+  IDENTITY_WENSHI: number
+  MAIN_TYPE_CARD_UPGRADE: number
+  TRAIN_WENSHI_ORDER_QUALITY: string
+  SKILL_BUFENG_DRAG_SKILL: string
+  IDENTITY_XUANHU: number
+  TRAIN_DOCTOR_SKILL_ITEM: string
+  get_attr_name_by_id: function
+  TRAIN_WENSHI_ALL_ORDER_LIST: list
+  IDENTITY_ANYING: number
+  TRAIN_WENSHI_FILTER_ITEM: string
+  TRAIN_DOCTOR_ORDER_TO_CN_NAME: dict
+  MAIN_TYPE_COMPOUND: number
+  TRAIN_WENSHI_SKILL_ITEM: string
+  TRAIN_DOCTOR_ORDER_COST: string
+  TRAIN_WENSHI_REFRESH_WINDOW: string
+  IDENTITY_TO_ATTR_ID: dict
+  SKILL_DOCTOR_GROUP_ITEM: string
+  SKILL_BUFENG_DELETE_SKILL: string
+  MAIN_TYPE_TO_INFO: dict
+  TRAIN_DOCTOR_FILTER_ITEM: string
+  BAN_VIEW: number
+  SELECT_VIEW: number
+  SKILL_VIEW: number

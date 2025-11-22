@@ -1,0 +1,56 @@
+Module: hexm.common.consts.ride_consts
+Type: table
+================================================================================
+
+Keys:
+  ride_chemahang: number
+  RIDE_SPECIAL_TERRAIN: string
+  RIDE_RESOURCE_ENERGY: number
+  IS_ON_RIDE_GUEST: number
+  RIDE_NO_GUEST_ANIM: dict
+  RIDE_UP_SIMPLE_DIR: dict
+  RIDE_SPEED_RUN: number
+  RIDE_NAVIGATE_FINISH: number
+  RIDE_NAVIGATE_INTERRUPT: number
+  RIDE_TMR_RECOVER_ENERGY_IN_RIDE: string
+  RIDE_FORBID_BATTLE: dict
+  NEWBIE_RIDE_HIDE_UI_MODE_MOBILE: number
+  RIDE_RESOURCE_FEAR: number
+  RIDE_DO_EVENT_RIDE_AUTO_NAVIGATE: string
+  RIDE_NUM_CHANGE_REASON_COMMON_HORSE_PROCESS: string
+  HORSE_DRAWN_RELATE_TYPE_PASSENGER: number
+  RIDE_NUM_CHANGE_REASON_HORSE_TAME: string
+  RIDE_ATTACH_FOLLOW: number
+  RIDE_SWAMP: number
+  ride_backseat_pc_slot: number
+  HORSE_GUEST_INVITE_TYPE_FOLLOW: number
+  RIDE_RETURN_HORSE_NO_LIST: list
+  RIDE_NO_RIDEOFF_ANIM: dict
+  RIDE_STATUS_ROBBED: number
+  NEWBIE_RIDE_HIDE_UI_MODE: number
+  TIPS_TYPE_SPEED: number
+  ride_slot: number
+  RIDE_UP_TRANSIT_TIME: dict
+  RIDE_ENV_ID: number
+  _reload_all: boolean
+  RIDE_RACE_SKILL_GROUP_XUNZU: number
+  RIDE_NUM_CHANGE_REASON_SELL_HORSE: string
+  RIDE_DO_EVENT_TEMP_HORSE_TRANSFER: string
+  RIDE_STATUS2ERR: dict
+  RIDE_FORBID_FASTRIDE: dict
+  RIDE_NAVIGATE_TIMEOUT: number
+  RIDE_RACE_SKILL_GROUP_PATIENCE: number
+  rank_name_list: list
+  RIDE_RACE_SKILL_GROUP_JUMP: number
+  NPC_RIDE_CATEGORY: number
+  RIDE_NUM_CHANGE_REASON_TEMP_HORSE_TRANSFER: string
+  RIDE_INIT_GRAPH_KEYS: list
+  space_no: number
+  NEWBIE_RIDE_CATEGORY: number
+  RIDE_CATEGORY_NORMAL_HORSE: number
+  RIDE_STATUS_LOCKED: number
+  HORSE_CARRY_ARREST_RET_SUCCESS: number
+  RIDE_TIPS_UI_WIDTH: number
+  RIDE_SPEED_WALK: number
+  RIDE_DO_EVENT_RIDE_NPC_FORCE_RIDE_OFF_GUEST: string
+  (1 more keys)

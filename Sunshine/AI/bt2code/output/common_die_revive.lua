@@ -1,0 +1,53 @@
+Module: Sunshine.AI.bt2code.output.common_die_revive
+Type: table
+================================================================================
+
+Keys:
+  n003011_CBTIfElseNode: function
+  n003011100_CBTParallelNode: function
+  n0010_CheckBlackboard: function
+  n0020_CheckEntityTag: function
+  n0030011_SyncDeadAction: function
+  n001_CBTIfElseNode: function
+  n0040_AddInteractWay: function
+  n006_GetEntityAIData: function
+  n0021_ShowWeaponsAction: function
+  n0011_Nop: function
+  n00301110000_CBTAlwaysSequenceNode: function
+  n00811_DestroySelf: function
+  n0081_CBTAlwaysSequenceNode: function
+  n00820_Wait: function
+  n0030010_PopBlackboard: function
+  n003000_CheckBlackboard: function
+  n00810_Wait: function
+  n0030_CBTParallelDoneNode: function
+  n00821_ReviveAction: function
+  n0030111000_ReceiveEventDecorator: function
+  entry: string
+  n003010_Wait: function
+  n0030111_ChangeInteractWayDecorator: function
+  n002_CBTIfElseNode: function
+  n00300_CBTIfElseNode: function
+  TREE_NODES_NUM: number
+  n0030110_CheckBlackboard: function
+  n00301110_CBTAlwaysSequenceNode: function
+  n003011100000_AddInteractWay: function
+  NODE_DATA_CACHE: table <UnknownInstance>
+  n0012_SetWanfaFaction: function
+  TREE_NAME: string
+  n0030112_Nop: function
+  n000_ApplyWatch: function
+  n0_ChangeInteractWayDecorator: function
+  n003_NPassNode: function
+  n0022_Nop: function
+  n005_GetEntityAIData: function
+  n003002_SyncDeadAction: function
+  n008_CBTIfElseNode: function
+  n0080_CheckBlackboard: function
+  n00301_CBTAlwaysSequenceNode: function
+  n00_CBTAlwaysSequenceNode: function
+  n007_GetEntityAIData: function
+  n0030111001_Wait: function
+  n0082_CBTAlwaysSequenceNode: function
+  n003001_CBTAlwaysSequenceNode: function
+  n004_CBTAlwaysSequenceNode: function

@@ -1,0 +1,56 @@
+Module: hexm.client.ui.windows.ride.controllers.mounts_consts
+Type: table
+================================================================================
+
+Keys:
+  MOUNTS_SHOWROOM_SETTING_NO: number
+  MOUNT_SORT_RECOMMEND: number
+  MOUNT_LOAD_MODE: number
+  get_remain_capacity: function
+  get_equipped_id: function
+  MOUNT_UPGRADE_BG_COLOR: dict
+  MOUNT_FREE_MODE: number
+  MOUNT_FILTER_TYPE: number
+  MOUNTS_RED_LEVEL_PREFIX: string
+  calc_horse_fenghua_value: function
+  check_mounts_name_length: function
+  mount_cmp_score: function
+  check_in_random_list: function
+  MOUNT_SORT_SCORE: number
+  MOUNT_FILTER_IS_SHOP: number
+  calc_horse_point: function
+  get_ordered_formal_horses: function
+  generate_stuff_content_by_horse_id: function
+  MOUNTS_RED_TOTAL: string
+  get_horse_long_icon: function
+  mount_filter_is_own: function
+  get_sorted_skills: function
+  mount_cmp_quality_level: function
+  get_equipped_horse: function
+  mount_filter_horse_type: function
+  mount_cmp_recommend: function
+  MOUNTS_RED_FORMAL: string
+  MOUNT_SORT_QUALITY_LEVEL: number
+  get_capacity: function
+  MOUNTS_RED_LEVEL_UP: string
+  mount_sort_compare: function
+  SKILL_ADAPTIVE_WIDTH: number
+  mount_cmp_latest: function
+  MOUNTS_RED_TEMP: string
+  MOUNT_FILEER_IS_ROBBED: number
+  EMPTY_HORSE_TEXTURE_PATH: string
+  MOUNTS_GROUP_FORMAL: number
+  MOUNT_SALE_MODE: number
+  get_horse_icon: function
+  is_formal_empty: function
+  is_temp_empty: function
+  get_ordered_display_horses: function
+  check_is_equipped: function
+  horse_filter: function
+  check_multi_language: function
+  MOUNT_UPGRADE_BG_LIGHT_COLOR: dict
+  mount_filter_is_robbed: function
+  try_focus_horse_rob: function
+  check_horse_filter: function
+  mount_filter_is_shop: function
+  (1 more keys)

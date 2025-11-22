@@ -1,0 +1,56 @@
+Module: hexm.common.consts.jieyuan_pray_consts
+Type: table
+================================================================================
+
+Keys:
+  EVENT_ENTER_SPACE: string
+  PRAY_TIMER: string
+  SYS_MSG_CAN_REAL_NAME: number
+  SYS_MSG_FIRST_CHAT: number
+  US_TYPE_PRAY: number
+  E_TOTAL_CHAT_NUM_LIMIT: number
+  E_SEARCH_NO_PIDS: number
+  EVENT_REAL_NAME_CONFIRM: string
+  US_TYPE_DOUBLE_INSTANCE: number
+  E_ENTER_SPACE_TASK_LIMIT: number
+  STATE_CHAT: number
+  STATE_CHAT_CAN_UNLOCK: number
+  E_RPC_CD: number
+  E_ADD_FAVOR_LIMIT: number
+  STATE_CHAT_REAL_NAME: number
+  WTYPE: string
+  EVENT_ACT: string
+  EVENT_DROP_NOTIFY: string
+  SYS_MSG_FETCH_TASK: number
+  EVENT_ADD_FAVOR: string
+  EVENT_PRAY: string
+  E_SEARCH_PID_IN_CHAT: number
+  EVENT_FINISH_TASK: string
+  REFRESH_WEEKLY: number
+  REFRESH_DAILY: number
+  STATE_TASK_DOING: number
+  EVENT_SEARCH: string
+  E_PID_ALREADY_IN_TASK: number
+  EVENT_ASK_FOR_REAL_NAME_NOTIFY: string
+  STATE_TASK_REMOVE: number
+  EVENT_CAN_REAL_NAME: string
+  E_FETCH_TASK_OTHER_NUM_LIMIT: number
+  E_DROP_PID_NOT_EXIT: number
+  PID_NUM: number
+  TASK_XIEHOU: number
+  E_SEARCH_IN_CD: number
+  E_SENSITIVE_CHECK: number
+  EVENT_TASK_FETCH: string
+  _reload_all: boolean
+  SEARCH_TIMER: string
+  E_ADD_FAVOR_DIST_LIMIT: number
+  E_SEARCH_NEED_PRAY_FIRST: number
+  E_PID_ALREADY_TASK_LIMIT: number
+  TASK_PRAY: number
+  E_TO_PID_OFFLINE: number
+  STATE_TASK_FINISH: number
+  EVENT_TASK_REMOVE: string
+  EVENT_PHOTO_FINISH: string
+  E_PHOTO_TASK_NOT_FINISH: number
+  EVENT_TASK_PHOTO: string
+  (1 more keys)

@@ -1,0 +1,45 @@
+Module: hexm.client.ui.windows.home.home_tip_controller.home_tip_consts
+Type: table
+================================================================================
+
+Keys:
+  BTN_MODE_MENU: number
+  BTN_TYPE_DRAGON_INN: number
+  restart_fuben: function
+  BTN_TYPE_LUNJIAN: number
+  CLICK_BUBBLE_FLOAT: string
+  BTN_TYPE_NORMAL: number
+  BTN_TYPE_EAGLE_EYE: number
+  BTN_MODE_TOOLBAR: number
+  BTN_TEMPLATE_SETTING: dict
+  BTN_TYPE_FUBEN_LIGHT: number
+  BTN_TYPE_EVENT: number
+  CLICK_EXIT_BACK: string
+  CLICK_EXIT_CANCEL: string
+  BTN_TYPE_BUBBLE: number
+  CLICK_GONGLUE: string
+  BTN_TYPE_BUILD: number
+  BTN_TYPE_GONGLUE: number
+  BTN_TYPE_TOOLBAR_CLUB_ARENA_WATCH_QUEUE: number
+  BTN_TYPE_FENBAO_DONWNLOAD: number
+  BTN_TYPE_TOOLBAR_DRAGON_ARENA_WATCH_QUEUE: number
+  BTN_TYPE_TOOLBAR_CLUB_BOSS_AND_ARENA: number
+  get_btn_controller_clz: function
+  BTN_MODE_NORMAL: number
+  BTN_TYPE_TOOLBAR_CLUB_WATCH_QUEUE: number
+  BTN_TYPE_TOOLBAR: number
+  BTN_CONTROLLER_PATH_MAP: dict
+  CLICK_BUBBLE: string
+  BTN_TYPE_BANGPAI: number
+  BTN_TYPE_EXIT_ONLY: number
+  BTN_TYPE_TOOLBAR_MOJIN_BAG: number
+  BTN_TYPE_DISCOUNT: number
+  BTN_TYPE_TOOLBAR_CLUB: number
+  CLICK_EXIT: string
+  BTN_TYPE_TALK: number
+  CLICK_EXIT_EXIT: string
+  BTN_TYPE_WORK_POINT: number
+  BTN_TYPE_EXIT: number
+  BTN_TYPE_TOOLBAR_YANHUA: number
+  BTN_TYPE_TOOLBAR_TITLE: number
+  CLICK_BTN: string

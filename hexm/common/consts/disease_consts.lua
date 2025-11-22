@@ -1,0 +1,56 @@
+Module: hexm.common.consts.disease_consts
+Type: table
+================================================================================
+
+Keys:
+  DISEASE_REASON_BIRTH: number
+  REASON_CURE_BY_ENTER_WATER: string
+  PUSH_SPACE_DISEASE: string
+  EVOLUTINO_TYPE_DISEASE: number
+  DISEASE_REASON_METEOR_FALL: number
+  SPREAD_IN_THERAPY: number
+  PUSH_LANGHZONG_POSITION: string
+  SUSTAIN_HEAL_TYPE_IN_WATER: number
+  DISEASE_REASON_TIPSY: number
+  DISEASE_REASON_LANGZHONG_POISON: number
+  DISEASE_NEED_ATTRS: list
+  all_disease_type: list
+  DISEASE_REASON_CONCENTRATION: number
+  DISEASE_REASON_PARAM_4: number
+  DISEASE_REASON_HIT_XINMAI: number
+  DISEASE_TYPE_MUSCLE: number
+  adjust_evolution_pro: function
+  EVOLUTION_TYPE_BATTLE: number
+  DISEASE_REASON_FALL: number
+  REASON_CURE_BY_SELF_HEALING: string
+  DISEASE_REASON_ENV_ORDEAL: number
+  _reload_all: boolean
+  LZ_THERAPY_IDENTITY_DOCTOR: number
+  REASON_CURE_BY_QUICK_CURE: string
+  DISEASE_REASON_GYMNASTICS: number
+  DISEASE_REASON_FIGHT: number
+  MAX_HISTORY_DISEASE_NUM: number
+  EVOLUTINO_TYPE_BEHIT: number
+  REASON_CURE_BY_STORYLINE: string
+  REASON_CURE_BY_DCGM: string
+  SPREAD_PERSON: number
+  FLOWER_DISEASE_SPACE_NO: number
+  get_body_type_full_name: function
+  DISEASE_TYPE_UNKNOWN: number
+  DISEASE_TYPE_MIND: number
+  DISEASE_REASON_TEMPERATURE: number
+  DISEASE_REASON_BUFF: number
+  REASON_CURE_BY_SCHOOL_TIPSY: string
+  DISEASE_REASON_FOG: number
+  SPREAD_WORLD: number
+  REASON_CURE_BY_LANGZHONG: string
+  REASON_CURE_BY_WEITUO: string
+  EVOLUTION_TYPE_ALL: list
+  SPREAD_IN_BATTLE: number
+  DISEASE_REASON_MIAOSHANCHANSHI: number
+  DISEASE_REASON_NEIGONG_MISMATCH: number
+  DISEASE_TYPE_MERIDIAN: number
+  DISEASE_REASON_MOISTURE: number
+  DISEASE_REASON_EAT_POISONOUS_FOOD: number
+  PUSH_LANGZHONG_NUM: string
+  (1 more keys)

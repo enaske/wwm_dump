@@ -1,0 +1,56 @@
+Module: hexm.client.debug.gm.gm_commands.gm_face_build
+Type: table
+================================================================================
+
+Keys:
+  open_face_community: function
+  gm_export_face_picture_data: function
+  gm_get_hsv_val: function
+  open_select_girl: function
+  open_face_free_camera: function
+  load_mesh_sticker: function
+  clear_mesh_sticker: function
+  gm_face_makeup: function
+  get_cur_skin_color: function
+  open_ori_texture: function
+  gm_import_face_data: function
+  recover_face_data: function
+  sticker_dump_data: string
+  gm_export_makeup_tex_to_repo: function
+  _show_collision: boolean
+  sticker_prepared: boolean
+  random_create_face_data: function
+  face_test_free_camera_val: function
+  gm_get_makeup_id_and_path: function
+  gm_export_makeup: function
+  is_show_collision: function
+  show_entity_collision: function
+  is_open_face_community: function
+  test_mesh_sticker: function
+  gm_import_all_face_data: function
+  gm_close_face_build: function
+  gm_export_face_data: function
+  gm_export_makeup_room1: function
+  npc_face_translate_to_normal_face: function
+  gm_test_eye_texture: function
+  gm_test_sparkle: function
+  gm_load_face_data: function
+  gm_export_makeup_room4: function
+  gm_change_female_face: function
+  gm_get_makeup_id: function
+  gm_preview_makeup: function
+  gm_change_male_face: function
+  gm_real_export_makeup_tex: function
+  gm_open_face_window_has_main_player: function
+  gm_text_makeup: function
+  gm_open_face_build: function
+  dump_mesh_sticker: function
+  gm_face_sparkle: function
+  import_cur_color: function
+  open_read_test_data: function
+  _open_face_community: boolean
+  create_attachment: function
+  gm_test_pick_modifier: function
+  gm_npc_face_build: function
+  face_test_fov_camera_val: function
+  (1 more keys)

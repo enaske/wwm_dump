@@ -1,0 +1,56 @@
+Module: hexm.client.ui.red_point.red_point_func_config
+Type: table
+================================================================================
+
+Keys:
+  check_disaster_finish_bonus_red_point: function
+  check_hupai_limit_task_reward_red_point: function
+  check_guild_build_5_can_equip_leader_skill: function
+  check_rush_tower_chuancheng_exchange: function
+  check_disaster_dungeon_red_point: function
+  check_newspaper_paparazzi_level_red_point: function
+  check_equip_armory_enhance_state: function
+  check_bugan_reward_red: function
+  get_wushang_reward_can_receive: function
+  check_private_serve_employer_reward: function
+  check_world_unread_red_point: function
+  check_world_event_small_map: function
+  check_newspaper_vote_red_point: function
+  check_disease_sick_muscle: function
+  check_guild_build_4_can_equip_leader_skill: function
+  check_yanshi_card_upgrade_red_point: function
+  check_init_unread_email_num: function
+  check_achievement_reward_state: function
+  check_guild_build_1_can_equip_leader_skill: function
+  check_rush_tower_hard_all_3_star_red_point: function
+  check_xuanshang_small_map: function
+  check_club_gameplay_state: function
+  check_lunjian_daily_reward: function
+  check_longmen_inn_reward_new_point: function
+  check_chunjie_2025_suogugong_teshuqiqiao_redpoint: function
+  check_gameplay_entry_red_point: function
+  check_industry_homeworld_system_new_point: function
+  check_club_application_state: function
+  check_club_welfare_state: function
+  check_xuanshang_world_event_num: function
+  check_qishu_enough_to_breakthrough_red_point: function
+  check_chunjie_2025_zoumaguanhua_redpoint: function
+  check_kaifeng_region_guide_state: function
+  remain_order_reward: function
+  check_liupai_activity_new_unlock: function
+  get_bugan_season_activity: function
+  battle_pass_check_reward: function
+  check_mission_distribute_state_changed: function
+  init_check_suit_collected_simple_reward: function
+  check_mode_change_level_red_point: function
+  check_baishi_application: function
+  check_chunjie_2025_task_guide_redpoint: function
+  check_industry_bigworld_system_red_point: function
+  check_unconfirmed_team_num: function
+  check_chunjie_2025_naoxinchun_redpoint: function
+  check_trade_state_can_upgrade: function
+  check_trade_can_draw_money: function
+  check_month_pass_opened: function
+  check_chunjie_2025_huiyingjiqing_redpoint: function
+  check_recall_achievement_reward_receive: function
+  (1 more keys)

@@ -1,0 +1,41 @@
+Module: hexm.common.consts.climb_consts
+Type: table
+================================================================================
+
+Keys:
+  CLIMB_INPUT_WAIT: number
+  EPSILON: number
+  CLIMB_INNER_ENTER: number
+  CLIMB_INNER_FALL: number
+  CLIMB_ST_MOVE_UP: number
+  CLIMB_ST_JUMP: number
+  CLIMB_INPUT_CLOSE: number
+  CLIMB_INNER_RUN_DOWN: number
+  CLIMB_RUN_ALLOW_STATE_MAP: dict
+  CLIMB_ROCK_MODE: number
+  CLIMB_INNER_TRIED_IDLE: number
+  PI: number
+  CLIMB_ST_EXHAUST_END: number
+  CLIMB_INPUT_IMMEDIATE: number
+  CLIMB_INPUT_TRIGGED: number
+  CLIMB_INNER_PLATFORM: number
+  CLIMB_INNER_JUMP: number
+  CLIMB_INNER_RUN_UP: number
+  CLIMB_ST_STOP: number
+  CLIMB_FREE_MODE: number
+  CLIMB_TOP_LEFT: number
+  CLIMB_INNER_LEAVE: number
+  CLIMB_ST_IDLE: number
+  CLIMB_ST_MOVE_DOWN: number
+  CLIMB_INNER_EAVE: number
+  CLIMB_BOTTOM_RIGHT: number
+  CLIMB_INNER_IDLE: number
+  CLIMB_CONSUME_STATE_MAP: dict
+  is_in_fly_state: function
+  CLIMB_JUMP_ALLOW_STATE_MAP: dict
+  CLIMB_INNER_EAVE_TO_WALL: number
+  CLIMB_FALL_ALLOW_STATE_MAP: dict
+  CLIMB_BOTTOM_LEFT: number
+  CLIMB_IDLE_ALLOW_STATE_MAP: dict
+  CLIMB_TOP_RIGHT: number
+  CLIMB_HORI_YAW_MAP: dict

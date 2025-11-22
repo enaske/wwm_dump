@@ -1,0 +1,54 @@
+Module: hexm.common.consts.sale_consts
+Type: table
+================================================================================
+
+Keys:
+  ORDER_STATE_PEND_ON: number
+  TRADE_MONEY_COPPER: number
+  EXPIRE_SALE_BAITAN: number
+  FILTER_PRIORITY_SORT_TYPE_DESC: string
+  TRADE_ST_STUFF: number
+  COUNTER_WEEK_ORDER: string
+  DT_ANTI_JITTER: number
+  ORDER_STATE_DOING: number
+  SYS_SN_RECYCLE: string
+  TRADE_ST_CONF_STUFF: number
+  STATE_OUT: number
+  TRADE_RECYCLE_DELAY: list
+  SALE_PRICE_MAX: number
+  FILTER_PRIORITY_TYPE_PRICE: number
+  TTYPE2DT_EXPIRE_SALE: list
+  TRADE_ST2BANK_NAME: dict
+  TRADE_RECYCLE_END: number
+  TRADE_RECYCLE_DELAY_ON_RM: number
+  FILTER_PRIORITY_TYPE_TIMESTAMP: number
+  FILTER_PRIORITY_SORT_TYPE_ASC: string
+  ORDER_STATE_DONE: number
+  GET_GUIDING_PRICE_RETRY_TIME: number
+  TRADE_ST_TOKEN: number
+  TRADE_ST_CONF_BOTH: number
+  STATE_ON_SALE: number
+  TRADE_ST_CONF_TOKEN: number
+  FORBID_TYPE: table <UnknownInstance>
+  HISTORY_LIMIT: number
+  STATE_PEND_RESELL: number
+  STATE_PEND_UNSELL: number
+  TRADE_TYPE_JISHI: number
+  STATE_PEND_PEND_UNSELL: number
+  ORDER_STATE_PEND_OFF: number
+  STATE_UNKNOWN: number
+  TRADE_MONEY_SLIVER: number
+  FILTER_STATE_PUB: number
+  BUY_BID_COUNT_MAX: number
+  SELLER_ID_SYSTEM: string
+  FILTER_STATE_SALE: number
+  SCORE_TS_BULK_BITS: number
+  TRADE_TYPE_BAITAN: number
+  TRADE_BAITAN_ITEM_TYPE_WEAPON_VIEW_REROLL: number
+  FILTER_PRIORITY_TYPE_FENGHUA: number
+  EXPIRE_SALE_JISHI: number
+  DT_ORDER_RECHECK: number
+  TRADE_BUY_DELAY: number
+  STATE_PEND_SELL: number
+  SYS_SN_BALANCE: string
+  TRADE_FIND_SIZE_LIMIT: number

@@ -1,0 +1,56 @@
+Module: hexm.client.debug.gm.gm_commands.gm_skill
+Type: table
+================================================================================
+
+Keys:
+  behit_sound_replace: function
+  show_harm_text_edit: function
+  _stop_auto_fire_skill: function
+  qisu_list: list
+  harm_text_edit_argument: dict
+  opacity_item_meta: dict
+  gm_unlock_all_kongfu: function
+  gm_use_skill: function
+  debug_show_dist: function
+  show_main_player_statem: function
+  show_main_player_statem_window: function
+  show_spec_mf: function
+  switch_xinfa: function
+  harmtext_argument_meta: dict
+  pos_item_meta: dict
+  enalbe_monster_skill_debug: function
+  auto_test_qishu_start: function
+  scale_item_meta: dict
+  scale_sample_item_template: dict
+  gm_create_mf: function
+  debug_show_mf: function
+  switch_arrow_listen: function
+  edit_harm_text: function
+  on_set_harm_text_value_dict: function
+  hide_harm_text: function
+  open_fumo_main_page: function
+  pos_sample_item_template: dict
+  enalbe_skill_debug: function
+  gm_unlock_def_weapons: function
+  show_skill_window_skill_no: function
+  auto_test_skills_stop: function
+  reset_behit_sound_replace: function
+  set_timescale: function
+  skill_input_monitor_stop: function
+  wuxue_id_to_effect_ids: dict
+  test_harm_text: function
+  edit_harm_text_new: function
+  skill_input_monitor_start: function
+  kongfu_list: list
+  debug_open_skill_input_monitor_window: function
+  prepare_before_skill_fire: function
+  opacity_sample_item_template: dict
+  auto_test_skills: function
+  on_apply_harm_text_params: function
+  gm_use_skill_force: function
+  export_al: function
+  skill_slots: list
+  enable_behit_sound_debug: function
+  auto_test_skills_start: function
+  auto_test_skills_value: number
+  (1 more keys)

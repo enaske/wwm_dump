@@ -1,0 +1,56 @@
+Module: hexm.common.consts.common_building_consts
+Type: table
+================================================================================
+
+Keys:
+  ERR_BP_DESIGN_OVER_NUM: number
+  EVENT_GANG_CREATE_AREA_CB: number
+  ACCESS_ENTER_DELETE_MODE: number
+  EVENT_GANG_CREATE_AREA: number
+  ERR_LV_MAX: number
+  ERR_BUILD_LV_LIMIT: number
+  NO_HOMEWORLD_BUILDING: number
+  OP_GAP: number
+  ACCESS_BLUEPRINT_COMP_UNFILL_SELF: number
+  ACCESS_BLUEPRINT_COMP_UNFILL_OTHER: number
+  ERR_AREA_BE_TAKEN: number
+  EVENT_GANG_INDUS_UPGRADE: number
+  CLUB_COMPS_NUM_LIMIT: number
+  EVENT_GANG_FREE_BUILD: number
+  STATE_FINISH: number
+  ERR_NOT_HAS_GANG_AREA: number
+  ERR_NO_PAPER: number
+  BLUEPRINT_SPACE: number
+  ACCESS_FREE_BUILDING_DEL_OTHER: number
+  EVENT_BLUEPRINT_BAG_DEL: string
+  ERR_NOT_COMP: number
+  ERR_HAS_COMP: number
+  REASON_DEL_SPACE_INS_BUILD: number
+  STATE_BUILD_NO_SHADOW: number
+  EVENT_GANG_GET_AREA_INFO: number
+  ERR_AREA_LIMIT: number
+  BUILD_GAD_NUM: number
+  STATE_DESIGN: number
+  BP_SAVE_TIME_GAP: number
+  ACCESS_FREE_BUILDING_DEL_SELF: number
+  ERR_JYT_REPEAT: number
+  AREA_LIMIT: number
+  TAG_SYS: number
+  ERR_NOT_MAIN_WORLD: number
+  REASON_RPC_RM: number
+  ACCESS_BLUEPRINT_AUTO_BUILD: number
+  BP_COMPS_SAVE_NUM_LIMIT: number
+  ERR_NOT_GADGET: number
+  SHOUBAO_SPACE: number
+  ESCORT_STATE_BROKEN: number
+  REASON_AREA_RM: number
+  ERR_BUILD_NUM_LIMIT: number
+  EVENT_BLUEPRINT_ADD_PREFAB_BP_COMP: string
+  ERR_LOCK_CORE_COMP: number
+  BLUEPRINT_PREVIEW_SPACE: number
+  ACCESS_BLUEPRINT_DEL_OTHER: number
+  UNFILLED_COMP_STATUS_DEFAULT: number
+  EVENT_RM_BP_STUFF: string
+  GANG_SPACE_EX: number
+  GANG_XS_BP_DESIGN_NO: number
+  (1 more keys)

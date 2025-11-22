@@ -1,0 +1,56 @@
+Module: hexm.client.consts.industry_land_consts
+Type: table
+================================================================================
+
+Keys:
+  check_land_industry_task_unlock: function
+  INDUSTRY_LAND_NOTIFY_AUCTION_START: number
+  INDUSTRY_ENABLE_SHOW_STATE: list
+  get_map_marker_icon_param: function
+  INDUSTRY_LAND_STATE_REPAIR_RUNNING: number
+  calc_industry_land_renewal_cost: function
+  calc_land_area_cost: function
+  get_industry_land_toolbar_config_by_state: function
+  INDUSTRY_ENABLE_SPACE_SHOW_STATE: list
+  INDUSTRY_LAND_XUANSHANG_STATE_WAIT: number
+  INDUSTRY_LAND_STATE_STAGNANT: number
+  INDUSTRY_LAND_STATE_BUILDING_OTHER: number
+  get_build_area_sysd: function
+  INDUSTRY_UNLOCK_TYPE_SCALE: number
+  get_auction_show_day_ts: function
+  calc_land_maintain_cost_one_week: function
+  _reload_all: boolean
+  get_model_clz_by_tag: function
+  get_pay_the_balance_ts: function
+  INDUSTRY_LAND_STATE_BUILDING_SELF: number
+  INDUSTRY_LAND_XUANSHANG_STATE_RUN: number
+  get_industry_land_param_by_type: function
+  INDUSTRY_LAND_STATE_AUCTION_START: number
+  INDUSTRY_LAND_XUANSHANG_STATE_NONE: number
+  INDUSTRY_LAND_RED_POINT_EVENT_MAP: dict
+  INDUSTRY_LAND_STATE_AUCTION_WAIT: number
+  INDUSTRY_LAND_NOTIFY_AUCTION_BEHIND: number
+  get_industry_land_overdue: function
+  INDSUTRY_LAND_STATE_ILLEGAL: number
+  INDUSTRY_LAND_NOTIFY_AUCTION_SUCC: number
+  check_land_industry_scale_unlock: function
+  INDUSTRY_UNLOCK_TYPE_LIFE: number
+  gm_pack_industry_data: function
+  get_map_marker_icon_effect_param: function
+  INDUSTRY_LAND_STATE_REPAIR_WAIT: number
+  get_renewal_offset_ts: function
+  INDUSTRY_LAND_AREA_SHOW_STATE_BLUE: number
+  calc_land_building_cost: function
+  get_industry_functions_config: function
+  INDUSTRY_LAND_AREA_RED_EFFECT: number
+  INDUSTRY_UNLOCK_CHECK_FUNC_MAP: dict
+  INDUSTRY_LAND_STATE_AUCTION_SUCC: number
+  INDUSTRY_LAND_STATE_LOCKED: number
+  check_land_industry_life_unlock: function
+  INDUSTRY_LAND_TAG_BASE: string
+  _get_building_score: function
+  INDUSTRY_LAND_NOTIFY_AUCTION_FAIL: number
+  INDUSTRY_LAND_STATE_TASK: number
+  INDUSTRY_LAND_STATE_BLANK: number
+  INDUSTRY_LAND_TAG_NORMAL: string
+  (1 more keys)

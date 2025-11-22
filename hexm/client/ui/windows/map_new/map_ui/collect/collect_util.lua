@@ -1,0 +1,56 @@
+Module: hexm.client.ui.windows.map_new.map_ui.collect.collect_util
+Type: table
+================================================================================
+
+Keys:
+  get_target_marker_raw_data: function
+  parse_item_group_locations: function
+  SpecialNatural: number
+  MAX_SHOW_NUM: number
+  item_is_forbidden: function
+  SpecialMonster: number
+  ui_get_region_data: function
+  get_fish_locations: function
+  item_in_cur_scene: function
+  get_space_mode_name: function
+  get_monster_locations: function
+  get_monster_single_data: function
+  get_collection_item_icon: function
+  get_plant_reward: function
+  LocateFishNature: number
+  sort_locations: function
+  get_monster_multi_data: function
+  show_in_map: function
+  LocateMonster: number
+  debug_on_collection_num_changed: function
+  is_item_locked: function
+  item_get_space_no: function
+  item_has_location: function
+  LocateNormalNature: number
+  auto_get_location_type: function
+  get_fish_reward: function
+  refresh_normal_natural_locations_ts: function
+  get_nearest_discovered_marker_id: function
+  get_detail_sp_focus_item: function
+  refresh_monster_yingdi_locations_ts: function
+  map_check_marker_item_data: function
+  refresh_natural_plant_locations_ts: function
+  debug_get_region_data: function
+  ui_get_fresh_cd: function
+  region_cluster: function
+  get_natural_plant_locations: function
+  debug_check_ins_data: function
+  debug_region_not_match: function
+  get_normal_natural_locations: function
+  COLLECT_LOCATION_IN_CD: number
+  map_max_radius: number
+  item_space_list: list
+  LocatePlantTreeNature: number
+  get_yingdi_group_data: function
+  auto_get_special_type: function
+  get_sids_by_entity_nos: function
+  get_npc_reward: function
+  ui_format_time_str: function
+  get_nearest_n_pos_form_player: function
+  check_space_show_num_or_ts: function
+  (1 more keys)

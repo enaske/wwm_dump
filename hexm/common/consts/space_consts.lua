@@ -1,0 +1,56 @@
+Module: hexm.common.consts.space_consts
+Type: table
+================================================================================
+
+Keys:
+  TRANSFER_NORMAL_SAME_BELONG_TYPE: number
+  MODE_SINGLE: number
+  ENTER_SPACE_REASON_AVATAR_DISASTER: string
+  get_nine_grid_ids: function
+  TRANS_REASON_SETTING_RESET: number
+  get_grid_index_with_y: function
+  TRANS_REASON_BUILDING_AREA: number
+  SPACE_LOAD_TYPE_NONE: number
+  TRANS_REASON_SERVER: number
+  ENTER_SPACE_REASON_NPC_BANQUET_WANFA: string
+  TRANS_REASON_WANFA_PLACE: number
+  TRANS_REASON_REGION_EVENT: number
+  TRANS_REASON_DIFF_SPACE: number
+  TRANSFER_NORMAL_BIG_MODE_TYPE: number
+  get_grid_index_by_id: function
+  SP_GROUP_DEACTIVE: number
+  SPACE_LOAD_TYPE_TELEPORT: number
+  TRANS_REASON_LIMIT_SYS: number
+  TRANS_REASON_POST: number
+  SP_KIT_SERVER: number
+  TRANS_REASON_ROOM_FOLLOW: number
+  TRANS_REASON_MODE_FENGYUN: number
+  GRID_NPC_ENTITY: number
+  TICK_GRID_NUM: number
+  MODE_MULTI: number
+  SPACE_LOAD_TYPE_CHANGE_LINE: number
+  TRANSFER_NORMAL_SAME_SPACE_TYPE: number
+  TRANS_REASON_MODE_SINGLE: number
+  grid_3_to_2: function
+  TRANS_REASON_FISHING_CONTEST: number
+  TRANS_REASON_TEAM_FOLLOW: number
+  MODE_FENGYUN: number
+  TRANSFER_NORMAL_SHORT_TYPE: number
+  SP_KIT_REAL: number
+  TRANS_REASON_GM: number
+  TRANSFER_NORMAL_GM_TYPE: number
+  TRANS_REASON_TEAM_RECALL: number
+  CREATE_IDENTITY_PVP_STAGE_KEY: string
+  SPACE_LOAD_TYPE_SAME_MAP: number
+  TRANS_REASON_DIFF_MODE: number
+  TRANSFER_RAWCAST_LENGTH: number
+  TRANSFER_NORMAL_HOME_MODE_TYPE: number
+  TRANS_REASON_PLANE_GANG: number
+  GRID_SIZE_Y: number
+  STUB_TIME_INTERVAL_HUIWU: number
+  GRID_SIZE: number
+  get_nine_grid_ids_by_pos_with_y: function
+  SP_GROUP_UPDATE: number
+  get_grid_id_with_y: function
+  TRANS_REASON_ROOM_RECALL: number
+  (1 more keys)

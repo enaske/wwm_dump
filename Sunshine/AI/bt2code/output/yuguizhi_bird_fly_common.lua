@@ -1,0 +1,54 @@
+Module: Sunshine.AI.bt2code.output.yuguizhi_bird_fly_common
+Type: table
+================================================================================
+
+Keys:
+  n003011100_SetVariableAction: function
+  n003011110_SetVariableAction: function
+  n0030110_CBTAlwaysSequenceNode: function
+  n0030012012_ChangeSpeed: function
+  n00300_CBTWhileNode: function
+  n00300120_CBTWhileNode: function
+  n0030012010_ChangeSpeed: function
+  n00202_SetBlackboard: function
+  n00200_GetEntityAttr: function
+  n003011_CBTAlwaysSequenceNode: function
+  n0030012011_ChangeSpeed: function
+  n002_DistanceDecorator: function
+  TREE_NODES_NUM: number
+  n003001201_Probability: function
+  n00301102_SetBlackboard: function
+  n00301100_CheckBlackboard: function
+  n003001200_WaitRandom: function
+  NODE_DATA_CACHE: table <UnknownInstance>
+  n00205_PlayEffect: function
+  n0030_Parallel: function
+  n001_ApplyBuff: function
+  entry: string
+  n003000_WaitRandom: function
+  n0030010_ChangeSpeed: function
+  n0030111_Probability: function
+  n00_CBTAlwaysSequenceNode: function
+  n003011010_SetVariableAction: function
+  n00203_SetVariableAction: function
+  n00301110_CBTAlwaysSequenceNode: function
+  n0030012_Parallel: function
+  n00201_ChangeSpeed: function
+  n00204_PlayAnimAction: function
+  TREE_NAME: string
+  n003001_CBTAlwaysSequenceNode: function
+  n00300121_NaviWithHexPathLauncher: function
+  n00206_ApplyBuff: function
+  n0020_CBTAlwaysSequenceNode: function
+  n003011101_Wait: function
+  n00301101_CBTAlwaysSequenceNode: function
+  n003_CBTAlwaysSequenceNode: function
+  n000_EnableFlyingAction: function
+  n0030011_PlaySound: function
+  n00301111_CBTAlwaysSequenceNode: function
+  n003011112_Wait: function
+  n003010_Nop: function
+  n0_RegionGameInit: function
+  n003011111_SetVariableAction: function
+  n00301_CBTWhileNode: function
+  n003011011_Wait: function

@@ -1,0 +1,56 @@
+Module: hexm.client.consts.building_consts
+Type: table
+================================================================================
+
+Keys:
+  UNI_RULE_TOO_MANY_BUILDING: string
+  FREE_BUILDING_ADSORB_SOUND: number
+  check_near_building_workbench: function
+  UNI_RULE_OUT_OF_GANG_AREA: string
+  UNI_RULE_IN_JIEBEI_AREA: string
+  building_get_access_way: function
+  EDIT_STATUS_DELETING: number
+  RULE_TYPE_NO_BUILDING: number
+  RULE_CHECK_TYPE_PLACE: string
+  UNI_RULE_GRID_COUNT_LIMIT: string
+  STATUS_BAR_PRIORITY_PUT_OUT_BP_COMP: number
+  CAMERA_FLAG_FREE: string
+  is_yanshi_skill_build_no: function
+  EDIT_STATUS_BLUEPRINT_UNFILLED: number
+  COCOS_WINDOW_MAP: dict
+  BUILDING_CAT2_RECENTUSE: number
+  BP_SET_POS_SAMPLE_DIVIDE: number
+  BLUEPRINT_DESIGN_SPACE_PREVIEW: number
+  POS_RELATION_FRONT: number
+  EDIT_STATUS_NOT_IN_PROCESS_STEP: number
+  BAR_ITEM_MODE_DELETE: string
+  UNI_RULE_LADDER_PITCH: string
+  POS_RELATION_LEFT: number
+  BUILDING_TYPE_COMPOSITION: number
+  UNI_RULE_LADDER_IN_CLIMB: string
+  COCOS_WINDOW_TYPE_SINGLE: number
+  building_show_access_float: function
+  TOOL_BAR_MODE_FREE_BUILDING: number
+  EDIT_STATUS_TOO_FAR: number
+  CAMERA_MODE_BIRD: string
+  UNI_RULE_CANNOT_PLACE: string
+  CONT_GROUP_NORMAL: string
+  BUILDING_RAY_CAST_NO: number
+  BAR_ITEM_MODE_YANSHI: string
+  LADDER_RULE_AFFECT_EXISTED_LADDERS: string
+  UNI_RULE_OVERLAPPED_TOTALLY: string
+  UNI_RULE_NO_ACCESS: string
+  UNI_RULE_UNDER_TERRAIN_TOTALLY: string
+  FREE_BUILDING_SET_SOUND: number
+  EDIT_STATUS_AUTO_COMPOUND: number
+  ARROW_RIGHT: string
+  TOOL_BAR_MODE_TERRAIN_EDIT: number
+  BUILDING_CAT2_INDUSTRY_CORE: number
+  STATUS_BAR_PRIORITY_TERRAIN_TOOL: number
+  BAR_ITEM_MODE_BUTTON: string
+  CAMERA_MODE_FREE: string
+  get_building_name_with_star_color: function
+  BUILD_CREATE_INDUSTRY: string
+  UNI_RULE_BLOCKED: string
+  EDIT_STATUS_HP_LOWER_THAN_50: number
+  (1 more keys)

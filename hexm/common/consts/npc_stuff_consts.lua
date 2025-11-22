@@ -1,0 +1,56 @@
+Module: hexm.common.consts.npc_stuff_consts
+Type: table
+================================================================================
+
+Keys:
+  FORCE_BAG_TYPE: dict
+  ERROR_OK: number
+  KILL_SCORE_MAX_TIPS: number
+  INTERACT_SNATCH: number
+  INTERACT_TALK: number
+  counter_key: function
+  CHESS_WANFA_NO: number
+  get_npc_stuff_all_by_flag: function
+  direct_interact: function
+  INTERACT_KILL: number
+  check_monster_kill_reward: function
+  ALL_FLAG: number
+  BAG_TYPE_MONSTER: number
+  _stuff_unique_multi: function
+  get_npc_stuff_in_single_world: function
+  ERROR_WRONG_INTERACT: number
+  ALL_STUFF_TYPE: list
+  _unique_society_info: function
+  _stuff_normal: function
+  MULTI_OPEN_SPACE: list
+  get_vigilance_level: function
+  BAG_TYPE_NPC: number
+  UWSGI_HOUR_NO: string
+  is_monster_bag_type: function
+  _get_npc_stuff_data: function
+  is_kill_score_max: function
+  get_npc_stuff_all_in_single_world: function
+  ERROR_OBTAIN: number
+  real_check_npc_stuff_interact: function
+  _stuff_certain: function
+  MAP_MARK_KEY: dict
+  _stuff_rare: function
+  _check_stuff_valid: function
+  get_npc_stuff_in_multi_world: function
+  calc_success_vigilance_val: function
+  npc_no_key: function
+  _reload_all: boolean
+  INTERACT_STEAL: number
+  _rand_by_prob: function
+  VIGILANCE_STEAL_LIMIT_KEY: string
+  STUFF_NORMAL: number
+  get_value_real: function
+  BAG_TYPE_NIL: number
+  get_npc_stuff_current_by_flag: function
+  _unique_drop_rate: function
+  kill_reward_mode_as_coop: function
+  first_region_no: function
+  reward_select_by_first_region: function
+  xs_agent_or_avatar_id: function
+  KILL_DEFAULT_DROP_RATE: number
+  (1 more keys)

@@ -1,0 +1,39 @@
+Module: hexm.common.consts.friend_consts
+Type: table
+================================================================================
+
+Keys:
+  BATCH_DEAL_MAX_NUM: number
+  RECOMMEND_DEEP: number
+  send_msg_fields: list
+  SET_FRIEND_REMARK_CD: number
+  RECOMMEND_PULL_NUM: number
+  FRIEND_APPLY_REC: number
+  RECOMMEND_PULL_CD: number
+  CD_BIRTHDAY: number
+  BATCH_MAX_NUM: number
+  CHANGE_TYPE_FRIEND: number
+  CHANGE_TYPE_BLACK: number
+  is_valid_entity_id: function
+  CD_INVISIBLE: number
+  BAN_OTHER_APPLY: string
+  friend_fetch_fields: list
+  CD_RPC: number
+  FRIEND_APPLY_UNKOWN: number
+  FRIEND_APPLY_XUYING_REC: number
+  CHANGE_TYPE_ENEMY: number
+  EXFRIEND_EXPIRE: number
+  CD_REMARK: number
+  friend_update_fields: list
+  _reload_all: boolean
+  CHANGE_TYPE_FRIEND_DEL: number
+  CHECK_SAVE_DB_GAP: number
+  FRIEND_APPLY_BOND: number
+  CD_GROUP: number
+  EXFRIEND_NUM: number
+  NOTIFY_LIMIT: number
+  FRIEND_FETCH_CD: number
+  CD_APPLY_FRIEND: number
+  REAL_SAVE_DB_GAP: number
+  REAL_SAVE_DB_MAX_NUM: number
+  STUB_DATA: dict

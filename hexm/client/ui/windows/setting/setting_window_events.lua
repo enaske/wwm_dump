@@ -1,0 +1,56 @@
+Module: hexm.client.ui.windows.setting.setting_window_events
+Type: table
+================================================================================
+
+Keys:
+  PLATFORM_PC_MID_EPIC: number
+  PLATFORM_MOBILE_USE_JOYSTICK: number
+  PLATFORM_ALL: number
+  is_legal_key: function
+  event_console_edit_key_clicked: string
+  is_legal_press_key: function
+  PLATFORM_CONSOLE_PS: number
+  event_pc_edit_set_key_end: string
+  event_pc_edit_set_key_fail: string
+  PLATFORM_PC_LOW2: number
+  btn_search: string
+  btn_feedback: string
+  check_same_keys_at_once: function
+  get_package_num: function
+  event_pc_edit_change_mouse_clicked: string
+  btn_reset_position: string
+  event_joystick_console_func_clicked: string
+  event_joystick_console_data_changed: string
+  event_clicked_record_ceil: string
+  get_platform_type: function
+  check_same_key: function
+  PLATFORM_MOBILE_ANDROID: number
+  btn_goto: string
+  event_console_edit_select_button_focused: string
+  btn_home_feedback: string
+  check_same_console: function
+  btn_switch: string
+  PLATFORM_PC_MID: number
+  btn_player_center: string
+  console_joystick_type_8: number
+  console_joystick_type_4: number
+  check_setting_key_is_show: function
+  event_console_edit_select_button_hovered: string
+  event_console_edit_select_button_clicked: string
+  get_is_empty_key: function
+  btn_reset_setting: string
+  event_joystick_console_type_changed: string
+  PLATFORM_MOBILE_IOS: number
+  btn_select_drop_menu: string
+  PLATFORM_PC_MID_LAUNCHER: number
+  PLATFORM_MOBILE: number
+  check_same_mouse: function
+  btn_login_post: string
+  check_device_platform_condition: function
+  event_joystick_console_func_focused: string
+  PLATFORM_CONSOLE: number
+  get_pc_platform_num: function
+  btn_open_hint: string
+  get_is_all_key_origin: function
+  check_same_list: function
+  (1 more keys)

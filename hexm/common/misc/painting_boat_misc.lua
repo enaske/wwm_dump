@@ -1,0 +1,56 @@
+Module: hexm.common.misc.painting_boat_misc
+Type: table
+================================================================================
+
+Keys:
+  get_cur_navigation_auction_uuid: function
+  get_default_navigation_pattern: function
+  get_common_config: function
+  check_free_party_transfer_permission: function
+  get_free_party_config: function
+  has_join_auction: function
+  get_navigation_auction_final_price: function
+  get_system_navigation_data: function
+  check_party_expire_ts: function
+  get_private_navigation_pattern: function
+  get_private_party_pattern_id: function
+  owner_color_format: function
+  AUCTION_FILTER_FINISHED: number
+  get_party_river_id: function
+  SCORE_NO_PAINTING_BOAT_INFO_NO: number
+  INVITE_GROUP_TALK: number
+  get_party_expire_ts: function
+  in_self_boat_space: function
+  get_party_master: function
+  AUCTION_FILTER_JOINED_OPENING: number
+  get_party_type: function
+  get_navigation_auction_price_rule: function
+  get_auction_clock: function
+  get_pre_auction_r_s_config_id: function
+  get_r_s_keep_info: function
+  get_navigation_auction_is_finished: function
+  prase_pid_hostnum: function
+  get_avatar_boat: function
+  _get_all_special_open_ts: function
+  get_cur_space_boat_building_data: function
+  get_navigation_apply_cd: function
+  INVITE_CLUB_MEMBER: number
+  get_party_dock_id: function
+  get_nearest_special_open_data: function
+  get_navigation_auction_master_by_id: function
+  get_npc_no_by_conf_no: function
+  get_navigation_auction_data_filter: function
+  is_default_navigation_pattern: function
+  get_near_private_navigation_pattern_id: function
+  check_r_s_permission: function
+  _get_painting_boat_system_open_ts: function
+  get_party_progress: function
+  get_my_building_painting_boat: function
+  check_painting_boat_has_navigate: function
+  get_boat_name: function
+  get_auto_auction_max_price: function
+  check_vehicle_is_painting_boat: function
+  get_public_navigation_pattern: function
+  AUCTION_FILTER_UNJOINED_OPENING: number
+  get_assist_reward_no: function
+  (1 more keys)

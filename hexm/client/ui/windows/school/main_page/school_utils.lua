@@ -1,0 +1,40 @@
+Module: hexm.client.ui.windows.school.main_page.school_utils
+Type: table
+================================================================================
+
+Keys:
+  SCHOOL_RULE_TQ_ZYSC: number
+  get_school_rule_basic_info: function
+  SCHOOL_RULE_SGT_BSZG: number
+  get_jl_name: function
+  SCHOOL_RULE_TQ_FDBJ: number
+  SCHOOL_RULE_ZHY_GSML: number
+  form_tq_donation_marker_id: function
+  SCHOOL_RULE_ZHY_HZSQ: number
+  get_order_rewards: function
+  SCHOOL_RULE_QX_YMYJ: number
+  SCHOOL_RULE_JLM_QJSS: number
+  check_school_multiplayer_unlocked: function
+  get_jl_gameplay_sysd: function
+  SCHOOL_RULE_JLM_XNZS: number
+  get_qx_thank_text: function
+  get_reputation_level: function
+  SCHOOL_RULE_TQ_XGYD: number
+  SCHOOL_RULE_ZHY_QXML: number
+  SCHOOL_RULE_GY_XWJH: number
+  load_school_rule_side_page: function
+  SCHOOL_RULE_SGT_SGDZ: number
+  get_jl_info: function
+  SCHOOL_RULE_SGT_CXYZ: number
+  SCHOOL_RULE_GY_QZYJ: number
+  SCHOOL_RULE_JLM_YRQM: number
+  SCHOOL_RULE_TQ_SZZQ: number
+  SCHOOL_RULE_QX_YXJL: number
+  unload_school_rule_side_page: function
+  handle_rule_performance: function
+  SCHOOL_RULE_QX_BCBC: number
+  SCHOOL_RULE_GY_SJZG: number
+  get_qx_default_thank_text: function
+  get_jl_show_name: function
+  SCHOOL_RULE_QX_XYHZ: number
+  check_jl_below_limit: function

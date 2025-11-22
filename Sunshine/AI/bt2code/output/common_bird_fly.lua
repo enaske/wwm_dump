@@ -1,0 +1,56 @@
+Module: Sunshine.AI.bt2code.output.common_bird_fly
+Type: table
+================================================================================
+
+Keys:
+  n0014_CBTSwitchCaseNode: function
+  n00260100_Pause: function
+  n0011_GetRandomFleeTargetPosition: function
+  n00300_NaviWithHexPathLauncher: function
+  n0013_ChangeSpeed: function
+  n00301_CBTAlwaysSequenceNode: function
+  n003021111_SetVariableAction: function
+  n0030112_TriggerAIEvent: function
+  n00410061_TransferAction: function
+  n0030_Parallel: function
+  n0020_SetBlackboard: function
+  TREE_NODES_NUM: number
+  n004111_ExecuteBtree: function
+  n006_SetBlackboard: function
+  n001400_ChangeSpeed: function
+  n003021100_SetVariableAction: function
+  n003010_Wait: function
+  n0041_CBTSelectNode: function
+  n00302101_CBTAlwaysSequenceNode: function
+  n0041006_CBTAlwaysSequenceNode: function
+  n0040_CheckBlackboard: function
+  n0021_SetBlackboard: function
+  TREE_NAME: string
+  n0025_ListAppend: function
+  n000_EnableFlyingAction: function
+  n0030210_CBTAlwaysSequenceNode: function
+  n0030211_Probability: function
+  n00410_DistanceDecorator: function
+  n0024_GetIntermediatePosListTowardsOnePoint: function
+  n00301100_Pause: function
+  n0041005_NaviWithHexPathLauncher: function
+  n00261_NaviWithHexPathLauncher: function
+  n008_CBTAlwaysSequenceNode: function
+  n003021011_Wait: function
+  n003021_CBTAlwaysSequenceNode: function
+  n001410_ChangeSpeed: function
+  n0080_ChangeSpeed: function
+  n005_EnableFlyingAction: function
+  n00302100_CheckBlackboard: function
+  n0023_PlayAnimAction: function
+  n00140_CBTAlwaysSequenceNode: function
+  n003021110_SetVariableAction: function
+  n0082_RandomFleeTargetDis: function
+  n00302102_SetBlackboard: function
+  n003021101_Wait: function
+  n0081_SetVariableAction: function
+  n0041002_SetVariableAction: function
+  n003021010_SetVariableAction: function
+  n002601_CBTIfElseNode: function
+  n007_SetBlackboard: function
+  (1 more keys)

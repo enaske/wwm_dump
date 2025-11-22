@@ -1,0 +1,56 @@
+Module: hexm.client.debug.gm.gm_commands.gm_normal
+Type: table
+================================================================================
+
+Keys:
+  charge_sid_yysls.6battlepass01: function
+  charge_cdkey: function
+  gm_aiavt_skill_pg: function
+  draw_aiavt_move_range_cylinder: function
+  goto_button: function
+  gm_print_cutscene_pos: function
+  ai_lab_account_back: function
+  gm_unlock_one_title: function
+  gm_transfer_ignore_region2: function
+  set_tree_position: function
+  gm_all_aiavt_stop: function
+  gm_aiavt_get_qing: function
+  rhythm_main_window: function
+  set_lunjian_match_reset: function
+  set_lunjian_aiavt_sid: function
+  get_aiavt_skill_delay_id: function
+  crash: function
+  get_surround_tomb_comment: function
+  show_sync_time: function
+  set_aiavt_skill_delay_id: function
+  atime_c: function
+  refresh_model: function
+  gm_change_space_tick_timer: function
+  crime_big_world_info: function
+  show_event2: function
+  gm_aiavt_skill_gj_leave: function
+  close_anim_debug_info: function
+  set_aiavt_filter_debug: function
+  use_new_rag: function
+  gm_aiavt_move_random: function
+  gm_aiavt_client_control_to_client: function
+  start_dialogs: function
+  charge_sid_yysls.3000cmz.oversea: function
+  test_destruct_multi: function
+  gm_debug_collison_sound: function
+  lunjian_lose_ui: function
+  dump_rpc: function
+  reload_sunshine_prefab: function
+  gm_ailab_trunk: function
+  set_preserver_flag: function
+  crime_run_baoguan_ai: function
+  gm_aiavt_move_a: function
+  test_mian_player_model_scale: function
+  match_chiji_target_1: function
+  GM_CUTSCENE_HIDE_Render: function
+  forbid_witness_wanfa: function
+  gm_aiavt_map_to_player: function
+  gm_aiavt_create_ai_by_id: function
+  test_choose_server: function
+  gm_aiavt_skill_sb: function
+  (1 more keys)

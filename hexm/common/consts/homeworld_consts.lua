@@ -1,0 +1,49 @@
+Module: hexm.common.consts.homeworld_consts
+Type: table
+================================================================================
+
+Keys:
+  SYNC_BUILDING_FIELD_BASE: string
+  MODEL_WORLD_AUCTIONS_INFO_TAG: string
+  AREA_STATE_BARREN: number
+  EDIT_LOCK_MOVE: number
+  FINISH_REMODEL_NO_CHANGE: number
+  AREA_STATE_IN_FIX: number
+  AREA_STATE_STOP_RUNNING: number
+  HOME_TYPE_MAIN: number
+  UPGRADE_STATE_FINI_WAIT: number
+  RENOVATION_LOCK_EDIT: number
+  MODEL_BASE_INFO_TAG: string
+  OPEN_STATE_NORMAL: number
+  AREA_STATE_CAN_AUCTION: number
+  RENOVATION_LOCK_INTER_USING: number
+  FINISH_REMODEL_PART_CHANGE: number
+  UPGRADE_STATE_XS_WAIT: number
+  AREA_STATE_TASK: number
+  AREA_STATE_TO_AUCTION: number
+  RENOVATION_LOCK_UPGRADE: number
+  SYNC_BUILDING_FIELD_CONTENT: string
+  AREA_STATE_ILLEGAL: number
+  AREA_STATE_OTHERS: number
+  MODEL_AUCTIONS_INFO_TAG: string
+  OPEN_STATE_CLOSING: number
+  AREA_STATE_IN_AUCTION: number
+  AREA_ACTIVE_BY_AUCTION: number
+  AREA_STATE_CAN_FIX: number
+  UPGRADE_STATE_FINISH: number
+  SYNC_BUILDING_FIELD_OPEN_STATE: string
+  AREA_STATE_LOCKED: number
+  AREA_STATE_FIXING: number
+  EDIT_LOCK_DEL: number
+  UPGRADE_STATE_NONE: number
+  UPGRADE_STATE_XS_DOING: number
+  AREA_STATE_PEND_FIX: number
+  AREA_STATE_FORBID: number
+  OPEN_STATE_CLOSED: number
+  SYNC_BUILDING_FIELDS_ALL: list
+  _reload_all: boolean
+  MODEL_WORLD_BUILD_INFO_TAG: string
+  AREA_ACTIVE_BY_FIX: number
+  AREA_STATE_NORMAL: number
+  FINISH_REMODEL_ALL_CHANGE: number
+  AREA_STATE_RUNNING: number

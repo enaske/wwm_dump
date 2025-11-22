@@ -1,0 +1,56 @@
+Module: hexm.client.consts.school_consts
+Type: table
+================================================================================
+
+Keys:
+  SCHOOL_INVITATION_ZFY_3: string
+  SCHOOL_GUYUN: number
+  REP_3: number
+  ORDER_NM_WXZZ: number
+  WANFA_TANGZHU: number
+  SCHOOL_EVENT_TYPE_AVATAR: number
+  CHASE_FINISH_FLAG_FLEE: string
+  SCHOOL_WENJINGUAN: number
+  TRACE_ICON: string
+  SCHOOL_EVENT_JOIN: number
+  ANNOUNCEMENT_MODE_SELF: number
+  RULE_SCBL: string
+  BLOOD_TYPE_NPC: number
+  STUFF_PARAM_3: string
+  school_ceremony_can_invite_tourist: function
+  SCHOOL_EVENT_TYPE_WX: number
+  SCHOOL_JZ_RULE_ID: number
+  FILED_STATUS: string
+  RULE_FZYS: string
+  school_event_type_decode: function
+  SCHOOL_TITLE_PUPIL_INTERNAL: number
+  CHASE_BILLBOARD_CHASED: string
+  SCHOOL_RANK_PREFIX_WEI_REP: string
+  SCHOOL_EVENT_RULE: number
+  TOUSHI_GAME_SCUUESS: number
+  CHASE_BILLBOARD_CHALLENGE: string
+  get_jl_limit_section: function
+  SCHOOL_STATUS_NEED_RANK_SINGLE: list
+  TOUSHI_GAME_FAIL_MODE: number
+  SCHOOL_RULE_TYPE: list
+  SCH_STATE_WAIT_MAP_CAL: number
+  school_qingxi_get_own_drug: function
+  CHASE_BILLBOARD_CHASER: string
+  CEREMONY_STATE_START: string
+  TOUSHI_GAME_FAIL_GIVE_UP: number
+  get_cond_items_sum: function
+  CHIEF_SGT_DEFAULT: number
+  RULE_TYPE_WEEK: number
+  STUFF_PARAM_1: string
+  TITLE_DISMISS_SGT_CHALLENGE: string
+  SCH_STATE_SPACE_INIT: number
+  CHASE_FINISH_FLAG_DEFAULT: string
+  check_finish_task: function
+  SCHOOL_EVENT_TYPE_TITLE: number
+  get_auth_show_data: function
+  get_status_auth_side_path: function
+  SCHOOL_JL_PUNISH: number
+  LEARN_STATE_FIGHT: string
+  get_demote_status: function
+  RULE_KILL: string
+  (1 more keys)

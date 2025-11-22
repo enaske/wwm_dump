@@ -1,0 +1,56 @@
+Module: hexm.common.consts.priority_consts
+Type: table
+================================================================================
+
+Keys:
+  FREE_MUSIC: number
+  DISASTER_DUNGEON: number
+  POLICE: number
+  CHIJI_BETRAYER: number
+  ARENA: number
+  TANSUODU_XS: number
+  JRFQ: number
+  DUNGEON: number
+  LUNJIAN_3V3: number
+  APPLY_COOP: number
+  NPC_STUFF: number
+  HORSE_FOLLOW: number
+  ANIM_ACTION: number
+  PUMAI: number
+  PBW: number
+  TOWER_SYS: number
+  DIELUOHAN: number
+  INTERRUPT_LOGOUT: number
+  FISHING_CONTEST_PVP: number
+  INVITE_COOP: number
+  CHESS: number
+  JIEYU: number
+  BREAK_SELF: number
+  RECALL_SHILIAN: number
+  FENBAO_QINGHE: number
+  RIDING_TOGETHER: number
+  JL_GY: number
+  COMMON_MATCH: number
+  SNZD: number
+  CATCH_HORSE: number
+  DOUDIZHU: number
+  CONVERT_BODY_TYPE: number
+  JL_ZHY: number
+  XIAYUAN_ANS: number
+  AUTO_NAVIGATE: number
+  RULE_HS_JZ: number
+  BATTLE_GUIDE: number
+  FOLK_SUMO: number
+  HORSE_DRAWN: number
+  CARD_COMPETITION: number
+  ZUOZHEN: number
+  ORDER_CHALLENGE: number
+  DRAGON_ARENA: number
+  LUNJIAN_2V2: number
+  ORDER_SUIXING: number
+  PORRIDGE: number
+  BOSS_TRAIN: number
+  MATERIAL_PROC: number
+  PRISON_YOUJIE: number
+  SHEFU: number
+  (1 more keys)

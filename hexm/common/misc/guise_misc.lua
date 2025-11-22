@@ -1,0 +1,56 @@
+Module: hexm.common.misc.guise_misc
+Type: table
+================================================================================
+
+Keys:
+  DEFAULT_POS_ID: number
+  check_suit_collect_reward: function
+  check_view_is_trial: function
+  can_weapon_view_recapture: function
+  check_wear_point_used: function
+  check_hair_color_advance: function
+  can_weapon_item_recapture: function
+  HAIR_WP: number
+  get_other_body_type_suit_nos: function
+  get_view_weapon_dressing: function
+  suit_fenghua_map: dict
+  calc_suit_collect_progress: function
+  get_weapon_wps: function
+  get_weapon_view_equips_by_no: function
+  INHERIT_EX_KEYS: list
+  get_weapon_recoin_original_color_hsv: function
+  get_has_reward_collected_suits: function
+  mirror_edit_data_by_point: function
+  is_unisex_view: function
+  get_suit_trial_expire_ts: function
+  check_view_body_type: function
+  get_weapon_recoin_infos_by_params: function
+  get_weapon_recoin_infos_by_avatar: function
+  check_single_collect_reward: function
+  set_naked_default: function
+  is_weapon_recoin_all_part_different: function
+  calc_collect_progress: function
+  get_weapon_view_equips: function
+  is_legal_temp_view_buff: function
+  calc_view_dye_cost: function
+  CLOTH_WP: number
+  check_suit_owned: function
+  calc_btconvert_fashion_score_change: function
+  parse_guise_data_by_suit_no: function
+  check_guise_suit_forbidden: function
+  get_naked_default: function
+  IDLE_FX_WP: number
+  get_unisex_views: function
+  guise_item_reach_limit: function
+  NAKED_DEFAULT: dict
+  get_owned_suit_cnt: function
+  findout_btconvert_lost_views: function
+  get_suit_fenghua_value: function
+  get_item_by_viewno: function
+  calc_makeup_collect_progress: function
+  get_full_suits_from_view_nos: function
+  get_view_trial_expire_ts: function
+  btconvert_ignore: function
+  check_all_guise_received: function
+  calc_single_collect_reward_progress: function
+  (1 more keys)

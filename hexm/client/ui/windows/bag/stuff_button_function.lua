@@ -1,0 +1,56 @@
+Module: hexm.client.ui.windows.bag.stuff_button_function
+Type: table
+================================================================================
+
+Keys:
+  convert_stuff: function
+  use_stuff: function
+  temp_bag_throw: function
+  anim_action_collect: function
+  prison_stuff_beg: function
+  blueprint_create_stuff: function
+  blueprint_delete: function
+  blueprint_edit: function
+  prison_stuff_exchange: function
+  anim_action_uncollect: function
+  blueprint_putdown: function
+  build_draw_learn: function
+  weapon_item_recapture: function
+  compound_select_mat: function
+  stuff_open_change_face_draw_photo: function
+  preview_stuff_video: function
+  add_stuff_to_carriage: function
+  put_out_building_from_build_bag: function
+  put_out_bp_from_gang_bag_stuff: function
+  check_use_cd: function
+  weapon_guise_random_number: function
+  delete_bp_stuff: function
+  confirm_use_stuff: function
+  study_xinfa_stuff: function
+  jump_to_waiguan_zhoubian: function
+  npc_role_ask_for_stuff: function
+  discard_stuff: function
+  goto_function_with_stuff: function
+  store_to_warehouse: function
+  use_choice_chest: function
+  start_play_instrument_by_song_stuff: function
+  navigate_to_interact_comp: function
+  npc_role_ask_for_stuff_by_other: function
+  compound_unselect_mat: function
+  stuff_start_change_face_draw: function
+  get_from_expedition_warehouse: function
+  build_put_estate: function
+  npc_role_ask_for_stuff_by_debate: function
+  _reload_all: boolean
+  request_obtain_tool_stuff: function
+  blueprint_share: function
+  use_school_learn_stuff: function
+  identity_pvp_doctor_sale_medicine: function
+  stuff_museum_book_interact: function
+  precheck_use_firework: function
+  try_open_fishing_prepare_window: function
+  put_interact_comp: function
+  equip_interact_stuff: function
+  set_recovery_food: function
+  stove_select_mat: function
+  (1 more keys)

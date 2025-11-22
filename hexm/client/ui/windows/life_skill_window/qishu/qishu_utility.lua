@@ -1,0 +1,56 @@
+Module: hexm.client.ui.windows.life_skill_window.qishu.qishu_utility
+Type: table
+================================================================================
+
+Keys:
+  has_new_qishu_ids: function
+  get_nearest_breakthrough_qishu: function
+  get_qishu_map_ids_by_slot: function
+  get_complex_chinese_level_name: function
+  set_is_enough_to_breakthrough_checked: function
+  is_battle_slot_locked: function
+  get_equipped_da_qinggong: function
+  get_qishu_type_and_subtype: function
+  get_qishu_breakthrough_all_desc_data: function
+  get_qinggong_sub_type_name: function
+  get_qishu_skill_describe_text_brief: function
+  is_qishu_assist_solve: function
+  get_qishu_ids_by_type: function
+  clear_all_can_update_checked: function
+  set_qishu_resource_show_view: function
+  get_all_enough_to_breakthrough_qishu_ids: function
+  has_subtype: function
+  get_is_enough_to_breakthrough_checked: function
+  has_qishu_to_equip: function
+  check_all_qishu_unlocked: function
+  clear_all_enough_to_breakthrough_checked: function
+  get_richtext_image_str: function
+  get_qishu_subtype_by_id: function
+  get_qishu_id_by_slot_idx: function
+  get_qishu_all_info_by_id: function
+  get_has_new_qishu_qishu_subtypes: function
+  get_unlocked_count: function
+  get_qishu_skill_cost_text: function
+  reach_self_limit: function
+  can_qishu_display: function
+  should_hide_level_info: function
+  get_qishu_subtype_ui_order: function
+  reach_version_limit: function
+  get_all_enough_to_breakthrough_qishu_types: function
+  get_qishu_type_by_id: function
+  comp_qishu_in_type: function
+  get_qishu_basic_info: function
+  get_a_can_equip_qishu: function
+  qishu_use_square: function
+  get_has_new_qishu_qishu_types: function
+  get_qishu_type_map: function
+  get_level_breakthrough_property_diff_data: function
+  comp_qishu_in_sub_type: function
+  get_equipped_qishu: function
+  get_skill_level: function
+  get_qishu_assist_solve_id: function
+  battle_qs_first_unequipped_slot: function
+  get_qishu_update_item_datas: function
+  is_qishu_locked_and_equipped: function
+  get_all_equipped_qishu_ids: function
+  (1 more keys)

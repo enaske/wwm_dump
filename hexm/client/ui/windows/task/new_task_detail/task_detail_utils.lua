@@ -1,0 +1,50 @@
+Module: hexm.client.ui.windows.task.new_task_detail.task_detail_utils
+Type: table
+================================================================================
+
+Keys:
+  handle_open_level_detail: function
+  TASK_LIST_ITEM_DICT: dict
+  try_resume_plot_recap: function
+  handle_open_qiyu: function
+  is_task_plot_recap_unlocked: function
+  load_task_replay_home_side_page: function
+  TASK_DETAIL_ITEM_DICT: dict
+  check_can_load_task_replay: function
+  check_task_recall_supported: function
+  handle_open_comment: function
+  recommend_task_online_target: function
+  show_confirm_window_with_forbid_checkbox: function
+  check_task_recall_unlocked: function
+  get_task_plot_recap_button_view: function
+  handle_skip_btn_clicked: function
+  check_task_plot_recap_unlocked: function
+  check_is_multi_world: function
+  show_leave_task_confirm_window: function
+  is_task_cutscene_replay_unlocked: function
+  try_transfer_to_space: function
+  is_in_task_plot_recap: function
+  try_quit_coop_mode: function
+  try_pause_plot_recap: function
+  load_task_cutscene_replay_side_page: function
+  get_task_cutscene_replay_button_view: function
+  try_exit_plot_recap_world: function
+  get_task_no_by_wanfa_index: function
+  load_task_plot_recap_side_page: function
+  cancel_task_online_target: function
+  handle_focus_skipped_boss: function
+  _real_resume_plot_recap: function
+  show_task_space_confirm_window: function
+  try_continue_task: function
+  try_leave_task: function
+  start_task_online: function
+  handle_open_level_limit_sidepage: function
+  handle_open_progress: function
+  handle_share: function
+  load_task_plot_recap_detail_page: function
+  task_detail_list_adapter: function
+  task_detail_item_adapter: function
+  handle_open_skipped_boss: function
+  check_task_cutscene_replay_unlocked: function
+  check_is_single_world: function
+  try_transfer_by_no: function

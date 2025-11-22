@@ -1,0 +1,56 @@
+Module: hexm.client.ui.windows.map_new.map_consts
+Type: table
+================================================================================
+
+Keys:
+  WULIN_FENGYUN: number
+  MAP_SUB_WORLD_LOADED: string
+  TAVERN_COOK_WANFA: number
+  RUSH_TOWER: number
+  MAP_FOCUS_WORLD_POS: string
+  YINGZHICI: number
+  GAMEPLAY_JUDIAN: number
+  GAMEPLAY_EVENT_NEIGONG_LOCATION: number
+  WEATHER_NORMAL: number
+  MAP_ENTER_EFFECT_END: string
+  GAMEPLAY_SINGLE_WANFA_ENTRY: number
+  SCHOOL_GUIDE: number
+  MENTOR_NPC: number
+  MAP_DCLICK_POS: string
+  GAMEPLAY_DUNGEON_CLUE: number
+  PAINTING_BOAT: number
+  MAP_MODE_CHANGED: string
+  GAMEPLAY_ACTIVITY: number
+  GAMEPLAY_BUFENG_CLUE: number
+  MAP_MODE_CHANGE: string
+  GAMPLEY_SHOP: number
+  MAP_MODE_ESTATE: number
+  BLUE_PRINT_MARK: number
+  JIEYUAN_WANFA: number
+  JIEYI_NPC: number
+  MOJIN_SUBMIT: number
+  MAP_MODE_EXPLORE: number
+  HORSE_ICON: number
+  GANG_BUILD_QTE_WANFA: number
+  PRIVATE_WORKBENCH: number
+  GAMEPLAY_ENTITY_TRACE: number
+  SCHOOL_CEREMONY: number
+  ORDER_WFBR: number
+  GAMEPLAY_FUBEN_MARKER: number
+  MAP_MODES_CHANGED: string
+  ORDER_JRFQ_CENTER: number
+  MULTI_PLATFORM_CLOSE_MAP: string
+  ORDER_DRINK: number
+  MAP_ENTER_VX_EFFECT_END: string
+  INSTRUMENT_COLLECTION: number
+  MAP_FOCUS_MAP_POS: string
+  ORDER_WXZZ: number
+  MAP_CAMERA_DISTANCE_EFFECT: string
+  MIEFO: number
+  PHOTO_DAKA: number
+  ORDER_DAZUO: number
+  GAMEPLAY_FREE_MARKER: number
+  ORDER_SUIXING: number
+  GAMEPLAY_ENTRUST: number
+  GAMEPLAY_INDEX: number
+  (1 more keys)

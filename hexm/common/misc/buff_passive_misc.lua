@@ -1,0 +1,56 @@
+Module: hexm.common.misc.buff_passive_misc
+Type: table
+================================================================================
+
+Keys:
+  _ps_entity_check_weak: function
+  check_pre_cond: function
+  _effect_event_adj_dmg_by_tg_hp: function
+  _cond_trigger_immune_damage_sp2: function
+  _effect_event_reflect_dmg: function
+  _cond_trigger_skill_switch: function
+  _ps_entity_check_tg_yaw: function
+  _cond_trigger_hit_floating: function
+  _cond_trigger_skill_class_end: function
+  _cond_trigger_resource_accumulate: function
+  _cond_trigger_shield_break: function
+  _effect_event_steal_hp: function
+  _sub_effect_remove_or_dec_buff: function
+  _effect_trigger_add_random_buff: function
+  _effect_trigger_inherit_buff_add: function
+  _cond_trigger_hit_multi_cnt: function
+  _cond_trigger_add_jingyuan: function
+  _ps_entity_check_skill_id: function
+  _reg_trigger_parry: function
+  EFFECT_EVENT_MAP: dict
+  _cond_trigger_skill_class_start: function
+  _ps_entity_check_calcpoint_huajie: function
+  _ps_entity_check_entity_no: function
+  _effect_event_reduce_renxing: function
+  _effect_event_adj_formula_by_tg_num: function
+  _ps_entity_check_debuff_cnt: function
+  reg_passive_logic: function
+  _effect_event_no_consume_naili: function
+  _reg_trigger_attr: function
+  _reg_trigger_immune_damage_sp2: function
+  _sub_effect_remove_buff_for_owner: function
+  _ps_entity_check_is_fromid: function
+  _effect_trigger_dec_passive_cd: function
+  _ps_entity_check_calcpoint_class: function
+  _ps_entity_check_combat_resource: function
+  _get_pre_func: function
+  _reg_trigger_hp_add_buff: function
+  _sub_effect_add_buff_for_owner: function
+  _effect_trigger_get_buff_multi_charge: function
+  _ps_entity_check_calcpoint_jifei: function
+  _cond_trigger_on_buff_remove: function
+  _ps_entity_check_prob: function
+  _effect_trigger_add_buff_multi: function
+  _ps_entity_check_resource_naili: function
+  _effect_trigger_add_passive_mark: function
+  _effect_event_hurt_self: function
+  _effect_event_adj_heal: function
+  _ps_entity_check_behit_state: function
+  _sub_effect_remove_buff: function
+  TRIGGER_EVENT: dict
+  (1 more keys)

@@ -1,0 +1,56 @@
+Module: hexm.client.consts.room_consts
+Type: table
+================================================================================
+
+Keys:
+  get_happy_game_go_id: function
+  MAP_TRACE_OK: number
+  MAP_TRACE_NONE: number
+  SOURCE_REASON_UNKNOWN: string
+  get_share_id_by_wf_type: function
+  GAME_WANFA: list
+  find_nine_grid_keys: function
+  get_wanfa_list_info_by_type: function
+  check_oversea_forbid: function
+  BOSS: number
+  TOUHU: number
+  set_wf_map_tracing: function
+  LINE_2: number
+  check_wf_type_in_game: function
+  find_near_combine_wanfa_sort: function
+  get_space_tag_info: function
+  THYX_TYPE: number
+  IS_REGION_TABLE: dict
+  REGION_THEATER: number
+  check_need_repeat_challenge: function
+  check_type_is_happy_game: function
+  _reload_all: boolean
+  WANFA_TO_TABLE_NAME: dict
+  get_happy_game_wfno_2_wftype: function
+  COLLECT_WANFA_TYPE: list
+  HAPPY_GAME_SID: number
+  get_process_data: function
+  get_min_sort_wanfa_sid: function
+  check_first_region_unlock: function
+  get_common_wanfa_name: function
+  WANFA_TO_KEY_NAME: dict
+  YSGS_TYPE: number
+  SOURCE_REASON_MAP: string
+  get_point_type_2_total_score: function
+  check_tracing_valid: function
+  REC_CODE: number
+  get_module_by_wf_type: function
+  get_marker_bu_goto: function
+  check_oversea_forbid_happygame: function
+  SOURCE_REASON_TASK: string
+  NOR_TYPE: list
+  find_name_by_index: function
+  get_happy_game_nearby_top: function
+  get_wanfa_type_process: function
+  wanfa_check_find: function
+  ONLY_SHOW: number
+  COLLECT_GAME: number
+  get_wanfa_dict_by_happy_type: function
+  check_players_condition: function
+  check_in_cur_wf_region: function
+  (1 more keys)

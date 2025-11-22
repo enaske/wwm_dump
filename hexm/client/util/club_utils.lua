@@ -1,0 +1,56 @@
+Module: hexm.client.util.club_utils
+Type: table
+================================================================================
+
+Keys:
+  ui_set_club_merbers_info: function
+  get_watch_battle_play_info: function
+  ui_get_club_reward_target: function
+  refresh_club_skill_state: function
+  ui_get_presonal_reward_target: function
+  ui_set_club_banner_info: function
+  get_building_level_effect_update_info: function
+  set_gameplay_read: function
+  check_maintain_task_finished: function
+  refresh_club_gameplay_state: function
+  get_submit_stuff_reward_no: function
+  ui_set_club_reward_target: function
+  ui_set_club_merber_info: function
+  refresh_club_overview_state: function
+  check_club_buildings_can_upgrade: function
+  refresh_gameplay_start_red_points_data: function
+  ui_mount_view: function
+  get_self_club_space_no: function
+  prepare_scene_for_enter_club_area: function
+  load_normal_club_toolbar: function
+  show_gameplay_side_page: function
+  get_club_gameplay_open_time_tag: function
+  ui_join_get_club_by_name: function
+  check_club_master: function
+  set_club_fund_lack_tag: function
+  init_excel: function
+  get_building_level_cond_info: function
+  set_apply_readed: function
+  check_club_gameplay_state: function
+  get_club_season_id: function
+  get_post_title_color_by_post_id: function
+  add_to_set_by_jingying_type: function
+  open_club_rank: function
+  ui_set_club_icon: function
+  get_club_todo_list: function
+  get_club_fame_rank: function
+  get_building_no_count_info: function
+  ui_get_cur_step: function
+  ui_get_banner_bg: function
+  get_min_post_id_by_posts: function
+  refresh_baowu_unlock_red_points_data: function
+  ui_get_club_banner_info: function
+  refresh_application_red_points_data: function
+  set_club_gameplay_boss_card_tag: function
+  refresh_job_upgrade_red_points_data: function
+  ui_prase_club_target_processing: function
+  check_club_create_ts_reached: function
+  use_stuff_by_no: function
+  ui_get_hot_evaluate_type: function
+  format_progress_str: function
+  (1 more keys)

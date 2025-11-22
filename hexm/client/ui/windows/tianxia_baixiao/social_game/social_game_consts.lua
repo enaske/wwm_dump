@@ -1,0 +1,56 @@
+Module: hexm.client.ui.windows.tianxia_baixiao.social_game.social_game_consts
+Type: table
+================================================================================
+
+Keys:
+  MATE_GAME_CHIJI: number
+  GAME_MATE_FIREWORK: number
+  SOCIAL_GAME_TAG_WEEK_FUBEN: number
+  SOCIAL_GAME_TAG_CHALLENGE: number
+  check_guard_sort_level: function
+  SOCIAL_GAME_TAG_LUNJIAN: number
+  SOCIAL_GAME_TAG_LIMITED: number
+  SOCIAL_GAME_TAG_CHALLENGE_ZHENSHOU: number
+  SHOW_OPEN_LATER_TYPES: list
+  SOCIAL_GAME_TAG_CHALLENGE_JUDIAN: number
+  GAME_TYPE_SHEFU: number
+  SOCIAL_GAME_CONTROLLER_TYPE_FUBEN: number
+  SOCIAL_GAME_TAG_FUBEN: number
+  SOCIAL_GAME_HIDE_MONEY_BAR: list
+  get_game_model: function
+  GAME_MATE_PHOTO_DAKA: number
+  TIME_NOTICE_MODE_COOP: number
+  TAG_ITEM_ADAPTER: dict
+  GAME_MATE_CLUB_BATTLE: number
+  GAME_TYPE_3V3: number
+  get_paint_boat_time_data: function
+  MATE_GAME_LUNJIAN: number
+  TAG_RED_POINT_NAME: dict
+  GAME_MATE_PAINT_BOAT: number
+  get_firework_time_data: function
+  SOCIAL_GAME_TAG_ADVENTURE: number
+  GAME_CONTROLLER_TYPE_MAP: dict
+  get_newspaper_goto_text: function
+  SOCIAL_GAME_TAG_MIJING: number
+  check_need_async_request_data: function
+  SOCIAL_GAME_INDEPENDENT_TAB: dict
+  GAME_TYPE_MOJIN: number
+  MULTI_GUARD_WEEK_REWARD_RED_POINT_NAME: string
+  GAME_TIME_STATE_CLOSE: number
+  GAME_TYPE_ROOM_JUDIAN: number
+  GAME_TYPE_FUBEN: number
+  GAME_CUSTOM_MODEL: dict
+  DYNAMIC_GAME_TIME_CACHE: dict
+  DYNAMIC_TIME_NOTICE_GAMES: list
+  check_lunjian_lock_state: function
+  get_dynamic_game_time_data: function
+  SOCIAL_GAME_TAG_LEISURE: number
+  get_paint_boat_build_time_data: function
+  GAME_SORT_LEVEL_FUNC: dict
+  GAME_TYPE_DOUDIZHU: number
+  is_dynamic_open_game: function
+  check_game_lock_state: function
+  reload_all: boolean
+  IGNORE_GAME_MERGE_TYPES: list
+  SOCIAL_GAME_TAG_OTHER: number
+  (1 more keys)

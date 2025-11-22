@@ -1,0 +1,56 @@
+Module: hexm.client.consts.resource_type
+Type: table
+================================================================================
+
+Keys:
+  last: number
+  Impostor: number
+  ClothModel: number
+  VisibilityCube: number
+  ClothColShapeAsset: number
+  ShaderScript: number
+  World: number
+  PhysicsTerrainTemplate: number
+  WaterWave: number
+  Decal: number
+  NavigateMapFragment: number
+  Foliage: number
+  ShaderGraphMaterial: number
+  Destructible: number
+  Material: number
+  NavigateObShape: number
+  TextureCurve: number
+  ShaderGraphCustomShadingConfig: number
+  PVSCube: number
+  Curve: number
+  DestructibleModel: number
+  Model: number
+  Texture2DArray: number
+  Live2D: number
+  None: number
+  Ragdoll: number
+  Texture3D: number
+  DamageMaterial: number
+  Data: number
+  ParameterCollection: number
+  ParticleSystem: number
+  PhysicsMaterial: number
+  Puppet: number
+  ClothMesh: number
+  Terrain: number
+  ShaderGraph: number
+  CollisionShape: number
+  Skeleton: number
+  NavigateMap: number
+  Shoreline: number
+  TextureCube: number
+  Prefab: number
+  Occluder: number
+  FakeRepo: number
+  PSVolume: number
+  Shader: number
+  DestructibleMesh: number
+  Character: number
+  VisualGraphModule: number
+  Mesh: number
+  (1 more keys)

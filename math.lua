@@ -1,0 +1,45 @@
+Module: math
+Type: table
+================================================================================
+
+Keys:
+  angle2radian: function
+  log: function
+  shuffle: function
+  tointeger: function
+  rad: function
+  round: function
+  random: function
+  newrandomseed: function
+  randomseed: function
+  uniform: function
+  floor: function
+  mininteger: number
+  max: function
+  sqrt: function
+  modf: function
+  huge: number
+  mul: function
+  sample: function
+  ult: function
+  atan: function
+  tan: function
+  cos: function
+  exp: function
+  maxinteger: number
+  sub: function
+  choice: function
+  type: function
+  deg: function
+  abs: function
+  ceil: function
+  radian2angle: function
+  asin: function
+  min: function
+  fmod: function
+  sum: function
+  pi: number
+  acos: function
+  div: function
+  sin: function
+  add: function

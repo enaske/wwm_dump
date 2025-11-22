@@ -1,0 +1,56 @@
+Module: hexm.client.ui.windows.activity.activity_center_consts
+Type: table
+================================================================================
+
+Keys:
+  ACTIVITY_XIAJI_GUIDE: number
+  ACTIVITY_MIJI_TYPE: number
+  ACTIVITY_MULTI_PLATFORM_ACTIVITY_ID: number
+  ACTIVITY_RUSH_TOWER: number
+  ACTIVITY_HUPAI: number
+  ACTIVITY_CLNY: number
+  ACTIVITY_SPRING_FESTIVAL_CARNIVAL: number
+  ACTIVITY_MOBILE_FULI: number
+  get_activity_left_time_str_by_ts: function
+  get_activity_time_ts: function
+  FIRST_IN_ACTIVITY_ID: number
+  ACTIVITY_SPRING_FESTIVAL_SIGN: number
+  ACTIVITY_MULTI_PLATFORM_TASK: number
+  ACTIVITY_COOP_TYPE: number
+  ACTIVITY_BP_TYPE: number
+  check_zhenshou_unlock: function
+  ACTIVITY_LONGMEN_INN: number
+  check_active_time: function
+  ACTIVITY_DAILY_SIGN: number
+  ACTIVITY_XINLI_JIANFU: number
+  ACTIVITY_AREA_UNLOCK: number
+  check_is_netease_channel: function
+  ACTIVITY_REGION_UNLOCK_TYPE: number
+  ACTIVITY_MOJIN: number
+  ACTIVITY_LANTERN_FESTIVAL_WARMUP: number
+  SPECIAL_CHECK: dict
+  ACTIVITY_LEVEL: number
+  check_channel: function
+  ACTIVITY_CLOUD_MUSIC: number
+  ACTIVITY_XIAOZUJIAN: number
+  ACTIVITY_BANGDING: number
+  ACTIVITY_HEXI_HANDBOOK: number
+  check_activity_unlock: function
+  ACTIVITY_SPRING_FESTIVAL_ORDER: number
+  get_all_tab_activity_ids: function
+  date_to_ts: function
+  check_special_activity: function
+  ACTIVITY_BP_JIANFU: number
+  ACTIVITY_ZHENSHOU_TYPE: number
+  check_active_time_list: function
+  ACTIVITY_KAIFENG_UNLOCK: number
+  ACTIVITY_MARKETING_TYPE: number
+  EXIST_TAB_ID: number
+  SPRING_FESTIVAL_2025_TAB_ID: number
+  ACTIVITY_SPECIAL_SIGN_SPRING: number
+  ACTIVITY_HEXI_YUNDONGHUI: number
+  ACTIVITY_NEW_YEAR_SIGN: number
+  get_activity_left_time_str: function
+  ACTIVITY_PLACEMENT_BAG: number
+  zhenshou_reward_check: function
+  (1 more keys)

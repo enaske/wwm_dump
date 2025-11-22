@@ -1,0 +1,19 @@
+Module: rng
+Type: table
+================================================================================
+
+Keys:
+  Rng: table <UnknownInstance>
+    Functions:
+      getseed(...)  -- =[C]
+      uniform(self, a, b)  -- engine/Lib/rng.lua:36-38
+      shuffle(self, x)  -- engine/Lib/rng.lua:40-47
+      rand_by_weight_dict(self, distribution, num)  -- engine/Lib/rng.lua:114-126
+      rand_by_weight_list(self, distribution, num)  -- engine/Lib/rng.lua:82-112
+      choice(self, arr)  -- hexm/common/util/random.lua:59-62
+      sample(self, population, k)  -- engine/Lib/rng.lua:49-80
+      seed(...)  -- =[C]
+      roll(self, min, max)  -- hexm/common/util/random.lua:48-57
+      new(self, seed)  -- hexm/common/util/random.lua:44-46
+      random(...)  -- =[C]
+      getstate(...)  -- =[C]

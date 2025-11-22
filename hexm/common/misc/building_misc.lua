@@ -1,0 +1,56 @@
+Module: hexm.common.misc.building_misc
+Type: table
+================================================================================
+
+Keys:
+  get_cat_3_name: function
+  building_is_universal: function
+  building_get_exchange_id: function
+  get_necessary_dict: function
+  is_same_space_id: function
+  gen_pre_building_id: function
+  gen_navi_name_by_id: function
+  building_get_universal_no: function
+  pos_sub: function
+  get_position_by_group_id: function
+  get_building_interacts: function
+  prepare_bp_item: function
+  BUILDING_TYPE_NORMAL: number
+  get_fb_id_by_ins_no: function
+  get_ins_no_by_fb_id: function
+  prepare_bp_item_by_serial_no: function
+  get_server_homeworld_can_build: function
+  calc_abs_pos_by_relative: function
+  vector_add: function
+  get_industry_level_sys_d: function
+  get_build_is_unlock: function
+  building_get_universal_name: function
+  get_new_pack_buildings: function
+  gb_ins_rel_pos_comps: function
+  gb_ins_abs_pos_comps: function
+  BUILDING_TYPE_ROOM: number
+  get_group_num_by_no: function
+  club_get_total_num: function
+  get_interact_pos_by_relative_pos_yaw: function
+  get_gang_building_progress: function
+  unpack_buildings_from_str: function
+  building_calc_can_compound_count: function
+  sort_bp_item_comps: function
+  get_gadget_sys_d: function
+  get_cat_2: function
+  get_prefab_num: function
+  get_blueprint_stuffs: function
+  gen_ins_fb_building_id: function
+  build_is_platform: function
+  gen_ins_building_id: function
+  BUILDING_TYPE_COMPOSITION: number
+  gen_ins_gb_id: function
+  pack_buildings_to_str: function
+  get_group_interacts_by_no: function
+  generate_buildarea_data: function
+  get_batch_config_by_build_no: function
+  get_cat_3_sys_d: function
+  get_cat_3_sys_d_by_build_no: function
+  get_cat_3: function
+  prepare_fb_to_bp: function
+  (1 more keys)

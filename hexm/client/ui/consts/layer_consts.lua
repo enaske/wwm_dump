@@ -1,0 +1,56 @@
+Module: hexm.client.ui.consts.layer_consts
+Type: table
+================================================================================
+
+Keys:
+  TAG_PAINT_BOAT: number
+  LAYER_POPUP: number
+  LAYER_HUD_EDIT: number
+  ZORDER_HIGH: number
+  LAYER_DIALOGS: number
+  ZORDER_GM: number
+  ZORDER_DESKTOP: number
+  TAG_HUAJIANJI: number
+  TAG_SKILL_SET: number
+  TAG_NEIGONG: number
+  ZORDER_TOP: number
+  LAYER_NORMAL_LOW: number
+  LAYER_TOP: number
+  LAYER_MOVE_INPUT: number
+  TAG_PHOTO: number
+  LAYER_NORMAL: number
+  ZORDER_PRIMARY_POPUP: number
+  LAYER_TOUCH_FEEDBACK: number
+  LAYER_DEAD_WINDOW: number
+  ZORDER_NORMAL: number
+  TAG_GM: number
+  LAYER_DANMU: number
+  LAYER_SETTING: number
+  ZORDER_TOUCH_FEEDBACK: number
+  LAYER_PRIMARY_POPUP: number
+  LAYER_TOP_TIPS: number
+  LAYER_HIGH: number
+  TAG_PAINT_BOAT_AUCTION: number
+  LAYER_GANG_DINNER: number
+  LAYER_GM: number
+  LAYER_POPUP_LOW: number
+  ZORDER_POPUP: number
+  TAG_SIDE_PAGE: number
+  ZORDER_TIPS: number
+  LAYER_PHOTO: number
+  LAYER_CONFIRM: number
+  ZORDER_MAINGESTURE: number
+  ZORDER_LOADING: number
+  LAYER_TIPS: number
+  TAG_CUTSCENE: number
+  ZORDER_NORMAL_TIP: number
+  ZORDER_COMMON_TIP: number
+  LAYER_TOP_GUIDE: number
+  TAG_CHESS_GAME: number
+  LAYER_LOADING: number
+  TAG_LOADING: number
+  LAYER_LOADING_CUTSCENE: number
+  ZORDER_BASE: number
+  LAYER_POPUP_HIGH: number
+  ZORDER_DESKTOP_MID: number
+  (1 more keys)

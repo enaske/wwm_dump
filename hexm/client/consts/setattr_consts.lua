@@ -1,0 +1,56 @@
+Module: hexm.client.consts.setattr_consts
+Type: table
+================================================================================
+
+Keys:
+  RegionGameOccupy: string
+  IDENTITY_PVP_DOCTOR_MEDICINE_ITEM: string
+  MENTOR_FAVOR: string
+  ATTR_MOVE_JOYSTICK_TYPE: string
+  FAKE_DEATH: string
+  ENTITY_INTERACT_RELATION_INSERT_OR_DEL: string
+  TASK_EXTRA_DATA: string
+  DYNAMIC_ATTR_1: string
+  DUNGEON_ENTITY_ENV_ORDEAL_GUEST: string
+  INTERACT_COMPONENT_STATUS_CHANGED: string
+  SpaceEffects: string
+  BUFENG_CLUE: string
+  WENSHI_ANSWER_LIVENESS: string
+  BODY_FEAST: string
+  MULTI_GUARD_FINISH_REWARD: string
+  WANFA_RESOURCE_VALUE_E: string
+  ASSESSMENT_PLAYER_EVIL_REPUTATION: string
+  DUNGEON_CLIENT_TRAPS: string
+  REGION_SNEAK_STATE: string
+  ENVIRONMENT_IN_WATER_RANGE: string
+  DisasterRescueCamp: string
+  MENTOR_BAISHI_POSTS: string
+  IDENTITY_PVP_DOCTOR_INFO_ITEM: string
+  EXP_RATIO: string
+  Skip_Entity: string
+  RoomClear: string
+  TASK_STATE: string
+  PVE_BATTLE_ID: string
+  PVP_BATTLE_IN_PREPARE: string
+  LangshumijiState: string
+  EQUIP_ITEM: string
+  AIAVT_HP: string
+  SADDLE_BAG_LOAD: string
+  PLAYER_MODE: string
+  DUNGEON_MUSIC: string
+  SKILL_SENSOR: string
+  InviteMsg: string
+  YINGFU_EXP: string
+  DUNGEON_AIRWALL_GUEST: string
+  STUFF_INDEX_CHANGED: string
+  RegionEventActive: string
+  LANGZHONG_POISON_CHANGED: string
+  REVERSE_ALERT_TABLE: string
+  DUNGEON_WEATHER: string
+  ATTR_LIFE_TOXIC_DEF: string
+  JiemidongkuRound: string
+  LevelReplaceItem: string
+  GAME_FORBIDDEN: string
+  INTERACT_COMPONENT_LOAD_OR_UNLOAD: string
+  ATTR_STATE_ATTR: string
+  (1 more keys)

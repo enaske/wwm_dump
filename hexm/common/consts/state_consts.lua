@@ -1,0 +1,56 @@
+Module: hexm.common.consts.state_consts
+Type: table
+================================================================================
+
+Keys:
+  NAVIGATE: string
+  MODE_COOP_VALID_STATES: list
+  FLY: string
+  SUNSHINE_TRIGGER_STATES: list
+  E_S_SLIDE: string
+  CHOSEN_TARGET_NEED_WATCH_STATES: list
+  BEHIT: string
+  E_S_DEAD: string
+  E_S_DEFENCE: string
+  DIALOGS: string
+  E_S_REVIVE: string
+  DYING: string
+  RUN: string
+  E_S_KEEP_ANIM: string
+  E_S_DIANXUE: string
+  GAMEPLAY_GAME_LEVEL: string
+  CLUE_INVESTIGATE: string
+  GAMEPLAY_TAKE_CARRIAGE: string
+  E_S_APPROACH: string
+  GAMEPLAY: string
+  E_S_BEHIT: string
+  E_S_INTERACT: string
+  DISEASE: string
+  E_S_CLIMB_ROCK: string
+  GAMEPLAY_WATER_TURRET: string
+  E_S_CLUE_INVESTIGATE: string
+  GAMEPLAY_RHYTHM_GAME: string
+  E_S_NARROW_MOVE: string
+  GAMEPLAY_CLUB_ROOM: string
+  E_S_RIDE_ANIM: string
+  E_S_NEIGONG: string
+  E_S_PLATFORM: string
+  E_S_GRIP_HAND: string
+  GAMEPLAY_JIEYUAN_ANSWER: string
+  NEIGONG: string
+  FALL: string
+  GAMEPLAY_DIE_DIE_LE: string
+  WALK: string
+  E_S_GAMEPLAY: string
+  SWIM: string
+  E_S_SLIP: string
+  E_S_DRESS_PREVIEW: string
+  GAMEPLAY_SUMO: string
+  E_S_WAIT_RPC: string
+  E_S_NAVIGATE: string
+  GAMEPLAY_CLUB_AUTO_BUILD_ACC: string
+  GAMEPLAY_DRINK_PITCH_POT: string
+  E_S_RUN: string
+  LADDER: string
+  E_S_CUTSCENE: string
+  (1 more keys)

@@ -1,0 +1,56 @@
+Module: hexm.client.ui.windows.tip.common_tip_confirm_config
+Type: table
+================================================================================
+
+Keys:
+  PRISON_EXCHANGE_TYPE: number
+  TEAM_MERGE_TYPE: number
+  SCHOLAR_ANSWER_INVITE_TYPE: number
+  DETAIL_PARAM_CUSTOM: dict
+  BATTLE_SPARRING_INVITE: number
+  SHOW_ONLY_FRIEND: number
+  COOP_GAMES_TYPE: number
+  COOP_CALL_TOGETHER_BACK: number
+  APPLY_SCHOOL_DEBATE: number
+  APPLY_DIAGNOSE_TYPE: number
+  DEFAULT_COUNT: number
+  APPLY_LEADER_TYPE: number
+  APPLY_WUDAO_TYPE: number
+  IMMEDIATE_DANCE_START_INVITE: number
+  BOAT_NAVIGATION_INVITE_TYPE: number
+  ROBBER_SURRENDER_TYPE: number
+  INVITE_INTERACTION_EMO: number
+  LEADER_LINE_FULL_TIP: number
+  BOAT_FREE_PARTY_REQUEST: number
+  CONFIRM_TIP_PARAM: dict
+  TAB_TEAM: number
+  DETAIL_PARAM_TWO: dict
+  TEAM_INVITE_TYPE: number
+  COOP_TRANSFER_FOLLOW_TYPE: number
+  SHOW_ALL: number
+  MATCH_GUEST_ENTER_CONFIRM: number
+  SHOW_HEAD: list
+  TAB_TO_TYPES: dict
+  CHAT_ROOM_MEMBER_APPLY_MIC: number
+  SHOW_PIC: number
+  APPLY_ENTER_YIMENG_ONLINE: number
+  AFFINITY_ADD_FRIEND_NOTICE: number
+  BOAT_FREE_PARTY_INVITE: number
+  BF_SIGN_FREE_NPC: number
+  INVITE_MULTI_WORLD: number
+  RECALL_TYPE: number
+  ROOM_TASK_ONLINE_RECOMMEND: number
+  MATCH_HOST_ENTER_CONFIRM: number
+  UDS_TEAM_APPLY_ENTER: number
+  UDS_ROOM_APPLY_ENTER: number
+  CLUB_BATTLE_MATCH_SUCCESS: number
+  APPLY_ENTER_WORLD: number
+  get_player_social_tag_info: function
+  AFFINITY_BORROW_REQUEST: number
+  TEAM_APPLY_TYPE: number
+  GROUP_CONFIG: dict
+  ROOM_INVITE_MEMBER_TYPE: number
+  GROUP_TEAM_COUNT: number
+  ACCEPT_ENTER_MY_YIMNENG_ONLINE: number
+  GROUP_CCMINI_SPEAK_APPLY: number
+  (1 more keys)

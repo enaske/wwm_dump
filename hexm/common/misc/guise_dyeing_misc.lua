@@ -1,0 +1,56 @@
+Module: hexm.common.misc.guise_dyeing_misc
+Type: table
+================================================================================
+
+Keys:
+  get_bag_guise_model_no: function
+  get_dye_plan_cost: function
+  get_dye_cost_money: function
+  get_bag_guise_dyeing_preset_no2: function
+  get_stuff_cost_listv2: function
+  check_hair_color_advance: function
+  CAT2_COST: dict
+  check_dye_plan_same: function
+  get_bag_guise_dyeing_area2raw: function
+  get_dressing_all_dyeing_area2raw: function
+  check_same_dyeing_preset: function
+  CAT2HIGH: dict
+  CAT2_ID: dict
+  get_dressing_dyeing_stuff_cost: function
+  CAT2LOW_OLD_COST: dict
+  GUISE_DYEING_POINT_CLOTH: number
+  get_next_dyeing_preset_no: function
+  get_dressing_guise: function
+  get_entity_dressing_preset_no: function
+  get_bag_guise_dyeing_preset_no: function
+  get_dressing_guise_no: function
+  CAT2LOW: dict
+  get_bag_guise_dyeing_presets: function
+  calc_can_add_fashion_score: function
+  get_bag_area2raw_by_guise_no: function
+  get_dyeing_unlocked_presets_num: function
+  SCORE_PLAN_MAX: number
+  get_fenghuazhi_num: function
+  get_dressing_dyeing_presets: function
+  get_dye_plan_costv2: function
+  get_stuff_cost: function
+  get_bag_area2raw_by_guise_no2: function
+  get_dye_point: function
+  get_enable_dyeing_guises: function
+  get_stuff_cost_list: function
+  get_dye_cost_itm: function
+  dye_plan_can_add_score: function
+  get_dressing_model_no: function
+  check_hsv_same: function
+  is_high_price: function
+  CAT_CLOTH: number
+  check_cloth_color_advance: function
+  GUISE_DYEING_POINT_BOTTOM: number
+  get_dressing_area2raw: function
+  _fix_guise_id: function
+  is_hair: function
+  CAT2HIGH_OLD_COST: dict
+  CAT_HAIR: number
+  CAT2POINT: dict
+  CAT_CLOAK: number
+  (1 more keys)

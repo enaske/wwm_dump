@@ -1,0 +1,52 @@
+Module: hexm.common.misc.misc
+Type: table
+================================================================================
+
+Keys:
+  cancel_timer: function
+  get_behit_dead_anim: function
+  get_avatar_graph: function
+  filter_skill_keys: function
+  get_graph_data_by_graph_type: function
+  number_to_character_map: dict
+  spilt_chart: string
+  is_critical_dmg: function
+  le: string
+  cancel_raw_timer: function
+  number_to_tradition_character: function
+  special_ch_width: dict
+  empty_char: string
+  list_type: list
+  de: string
+  get_ch_width: function
+  REFRESH_TYPE_WEEK: number
+  add_raw_timer: function
+  is_need_refresh_limit: function
+  make_dict: function
+  update_skill_data: function
+  del_timer: function
+  continue_types: list
+  str_types: list
+  REFRESH_TYPE_DAY: number
+  end_chars: dict
+  cb: string
+  db: string
+  get_school_model: function
+  end_type_chars: dict
+  begin_chars: dict
+  rand_by_prob: function
+  REFRESH_TYPE_MONTH: number
+  add_timer: function
+  spacepos_to_relatepos: function
+  lb: string
+  ccb: string
+  get_school_head_id: function
+  get_sex: function
+  get_special_width: function
+  randlist: function
+  call_ent_method: function
+  get_model: function
+  literal_eval: function
+  add_repeat_timer: function
+  relatepos_to_spacepos: function
+  number_to_character: function

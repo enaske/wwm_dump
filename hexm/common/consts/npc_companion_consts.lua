@@ -1,0 +1,39 @@
+Module: hexm.common.consts.npc_companion_consts
+Type: table
+================================================================================
+
+Keys:
+  GIFT_TYPE_LIFE: number
+  CREATE_MAX_CNT: number
+  CREATE_ERR_SYS_LOCK: number
+  CREATE_ERR_IS_DUP: number
+  next_gift_ts: function
+  get_smart_npc_no: function
+  CREATE_ERR_OK: number
+  get_smart_ai_npc_template_entity: function
+  CREATE_ERR_GM_FORBID: number
+  last_gift_ts: function
+  get_chat_npc_id: function
+  CREATE_ERR_IS_MAX: number
+  get_smart_ai_npc_model_no: function
+  GIFT_TYPE_CULTIVATE: number
+  CREATE_ERR_SPACE: number
+  check_can_create_npc: function
+  _reload_all: boolean
+  is_smart_npc: function
+  is_chat_npc: function
+  get_smart_ai_npc_entity_no: function
+  CREATE_ERR_NO_DATA: number
+  get_marker_id: function
+  get_reward_by_ai_npc: function
+  GIFT_TABLE_KEY: dict
+  get_gift_sid_by_score: function
+  NPC_COMPANION_BILLBOARD_LOCK: string
+  GIFT_REFRESH_TS: list
+  get_npc_no: function
+  NPC_COMPANION_BILLBOARD_UNLOCK: string
+  get_chat_npc_aid: function
+  get_single_space_no: function
+  USE_CLIENT_AI_NPC: boolean
+  CREATE_ERR_NPC_LOCK: number
+  is_smart_ai_npc_unlock: function

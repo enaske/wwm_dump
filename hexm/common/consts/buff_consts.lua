@@ -1,0 +1,56 @@
+Module: hexm.common.consts.buff_consts
+Type: table
+================================================================================
+
+Keys:
+  BUFF_SHOW_LIMIT_BOSS: number
+  ERR_OK: number
+  forbid_buff_op_deque: function
+  ERR_ADD_NOT_READY: number
+  SPEC_JUDGE_BY_CLS: string
+  IMMUNE_BY_GROUP: number
+  CHANGE_FACE: string
+  LOADING_OVER_CLEAR_BUFFS: list
+  MIN_DURATION: number
+  is_fake_remove_buff_mark: function
+  ERR_ADD_DEAD: number
+  CALC_CAUSE_CHANGE_SUM: string
+  MAX_BUFF_NUM: number
+  SPEC_JUDGE_BY_JM: string
+  TH_EXTRA_EVENTS: dict
+  TS_BASE: number
+  PASSIVE_CLEAR_RM_BUFF: number
+  TH_FAKE_MODE_LOCAL: dict
+  BNO_REVIVE: number
+  IMMUNE_BY_CONTROL: number
+  PASSIVE_MARK_MODE_EXTEND: number
+  IMPACT_HIT_LIST: string
+  BNO_INVINCIBLE: number
+  BNO_TRANSFER_LOADING: number
+  GM_BNO_INVINCIBLE: number
+  ERR_ADD_ARG_DURATION: number
+  SAME_TH_MUL: number
+  is_client_buff: function
+  SHOW_OWN_CLIENT: number
+  K_HUMANPRO_MAX_RATE: string
+  genID: function
+  SAME_TH_DICT_MUL: number
+  ABR_CORR_PRO: string
+  TH_RUNTIME_MAP: dict
+  CUTSCENE_DISABLE_BUFF_EFFECT: dict
+  SAME_TH_IGNORE: number
+  REFRESH_DURATION_MODE_EXTEND: number
+  D_BUFF_SPD_CHANGE: string
+  BUFF_CONTROL_CANNOT_JIE: number
+  SPEC_JUDGE_ST: string
+  SAME_TH_DICT_COUNT: number
+  PASSIVE_CLEAR_DEFAULT: dict
+  DURATION_CHANGE: string
+  ERR_ADD_ZERO_DURATION: number
+  PASSIVE_CLEAR_LEAVE_BATTLE: number
+  ERR_ADD_SYS_D: number
+  IMMUNE_BY_CONTROL_PRIORITY: number
+  IMMUNE_CONTROL_BY_STATE: number
+  get_th_flag_bag: function
+  ERR_ADD_PROB: number
+  (1 more keys)

@@ -1,0 +1,54 @@
+Module: hexm.client.consts.resource_consts
+Type: table
+================================================================================
+
+Keys:
+  POST_tSrcNormalMap: string
+  POST_BASE_tSrcNormalMap: string
+  DUNGEON_OPEN_VOICE_PRELOAD_EFFECT_3: string
+  POST_BASE_tSrcBaseMap: string
+  MIMASUO_TOUZI_NORMAL_MAP: string
+  POST_BASE_tSrcMixMap: string
+  BOAT_tSrcBaseMap: string
+  BAKE_NAME_tBaseMapLUT: string
+  PAINTING_BOAT_BAKE_BASE: string
+  MAKEUP_BAKE_RE: string
+  EDITOR_MODEL_CAMERA_PATH: string
+  BAKE_NAME_tNormalMapLUT: string
+  DUNGEON_OPEN_VOICE_PRELOAD_EFFECT_1: string
+  FOLIAGE_SHAOCAO_DEFAULT_EFFECT: string
+  MAHJONG_MODEL_VPATH: string
+  FACE_RAIN_TEXTURE_MOBILE: string
+  DOUDIZHU_MODEL_VPATH: string
+  BOAT_tSDFTextMap: string
+  BRUSH_NOISE_TEX_PATH: string
+  POST_tBaseMapLUT: string
+  EDITOR_MODEL_POIGHTLIGHT_PATH: string
+  WATER_WARMUP_MODEL_PATH: string
+  POST_tMaskMap: string
+  FACE_RAIN_TEXTURE_PC: string
+  MAKEUP_BAKE_NORMAL: string
+  FACE_ID_MAP_PATH_2: string
+  POST_tSrcBaseMap: string
+  EDITOR_MODEL_SPOTLIGHT_PATH: string
+  BOAT_tBaseMapLUT: string
+  POST_tSrcMixMap: string
+  FACE_ID_MOBILE_MAP_PATH: string
+  FOLIAGE_CAIJI_DEFAULT_EFFECT: string
+  HIDE_MATERIAL_PATH: string
+  MIMASUO_TOUZI_BASE_MAP: string
+  INDUSTRY_LAND_AREA_EFFECT_PATH: string
+  MAKEUP_BAKE_MIX: string
+  PORTAL_TEST_MODEL: string
+  FACE_ID_MAP_PATH: string
+  BOAT_tMaskMap: string
+  FACE_ID_MOBILE_MAP_PATH_2: string
+  MAKEUP_BAKE_SPARKLE: string
+  MAKEUP_BAKE_BASE: string
+  MAKEUP_BAKE_SPOT: string
+  WATER_WARMUP_MATERIAL_PATH: string
+  MOJIN_LIGHT_MASK: string
+  SELECT_AREA_EFFECT_PATH: string
+  DUNGEON_OPEN_VOICE_PRELOAD_EFFECT_2: string
+  PORTAL_TEST_MATERIAL: string
+  POST_tNormalMapLUT: string

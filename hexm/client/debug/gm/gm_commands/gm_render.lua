@@ -1,0 +1,56 @@
+Module: hexm.client.debug.gm.gm_commands.gm_render
+Type: table
+================================================================================
+
+Keys:
+  hide_sky: function
+  show_proto_model: function
+  render_display_enable_gstat: function
+  enable_vt: function
+  set_marchingshadow_optimize: function
+  enable_shgi: function
+  rt_tag_file_name: string
+  set_gpu_occlusion_hzb: function
+  set_pc_high_render_options: function
+  get_global_option: function
+  get_marchingshadow_optimize: function
+  render_hex_cave_region: function
+  hexlevelbake_PCLow: function
+  active_setting_function: function
+  enable_shao_sunbounce_specular: function
+  set_global_option: function
+  enable_mip_draw: function
+  set_shao_begin_level: function
+  set_xess_quality: function
+  set_shao_1: function
+  sick_blur_param: instance
+  sick_blur_on: function
+  _rt_gi_config: number
+  set_pc_low_render_options: function
+  sick_blur_dec_distortion: function
+  enable_shao_sunbounce: function
+  terrain_edit_unlift: function
+  hexlevelbake_MobileMiddle: function
+  get_visibility_report: function
+  terrain_edit_smooth: function
+  set_focus_distance: function
+  enable_shgi_specular: function
+  set_shao: function
+  set_xess_aa: function
+  render_display_enable_pvs: function
+  gm_editor_cg_mode: function
+  set_xess_ultra_quality: function
+  terrain_edit_touched_chunks_heightmap: dict
+  idmap_test_exit: function
+  enable_shao: function
+  set_option: function
+  sick_blur_dec_color: function
+  set_hdr: function
+  set_gi_screen_scale: function
+  enable_gpu_terrain: function
+  get_force_fps_limit: function
+  sick_blur_off: function
+  hexlevelbake_ParametersSwitchTest: function
+  sick_blur_set_color: function
+  set_hex_water: function
+  (1 more keys)

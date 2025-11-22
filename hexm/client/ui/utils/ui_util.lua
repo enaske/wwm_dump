@@ -1,0 +1,56 @@
+Module: hexm.client.ui.utils.ui_util
+Type: table
+================================================================================
+
+Keys:
+  set_text_font_by_language: function
+  color4_to_uint32: function
+  get_node_aabb: function
+  show_oversea_costume_tag_by_wuxue_effect_config: function
+  get_title_art_font_config: function
+  parse_label_color_by_style: function
+  set_onClick: function
+  empty_aabb: function
+  show_oversea_costume_tag_auto: function
+  show_oversea_costume_tag_by_guise_suit: function
+  uint32_to_color3B: function
+  get_ui_texture_vpath: function
+  get_node_siblings_aabb: function
+  get_widget_debug_info: function
+  get_pos_from_mui: function
+  set_costume_tag_text: function
+  check_fenghua_costume_tag_gt_zero: function
+  _is_costume_tag_show: function
+  set_text_font_by_title_art: function
+  check_is_first_time_one_day: function
+  copy_custom_methods_to_instance: function
+  set_tag_node_visible: function
+  create_render_node_helper: function
+  _hide_costume_tag: function
+  set_list_view_item_margin_by_text: function
+  interact_aabb: function
+  process_view_replace_rule: function
+  get_node_tree_aabb: function
+  _show_oversea_costume_tag_by_table: function
+  show_oversea_costume_tag_by_vehicle_store: function
+  uint32_to_color: function
+  set_texture: function
+  get_custom_methods: function
+  set_widget_hover_tip: function
+  show_oversea_costume_tag_by_ride_appearance: function
+  _show_costume_tag: function
+  set_token_icon: function
+  get_char_width_by_language: function
+  _check_oversea_costume_tag_condition: function
+  stuff_id_to_suit_no: function
+  get_pos_from_cocos: function
+  set_visible: function
+  set_text: function
+  get_guise_suit_config_data: function
+  show_oversea_costume_tag_by_waiguan_jiesuan_config: function
+  threeD2pixel: function
+  check_setting_valid_for_scroll: function
+  refresh_costume_tag_view: function
+  calculate_text_width_offset: function
+  get_split_inter: function
+  (1 more keys)

@@ -1,0 +1,56 @@
+Module: Sunshine.AI.bt2code.output.cat_general
+Type: table
+================================================================================
+
+Keys:
+  n00003014_Pause: function
+  n000030_CBTAlwaysSequenceNode: function
+  n00000_ChangeSpeed: function
+  n000111121_PlayAnimAction: function
+  n00003010122_Nop: function
+  n0000301_CBTAlwaysSequenceNode: function
+  n000042_SetBlackboard: function
+  n0000401_CBTIfElseNode: function
+  n0_SetupSightDecorator: function
+  n000022_CBTIfElseNode: function
+  n00003_ReceiveWanFaEvent: function
+  n0001110_Compare: function
+  n00001_CBTIfElseNode: function
+  n000040121_DirectFaceToTargetAction: function
+  n0001_CBTWhileNode: function
+  n00002212_SendEventAction: function
+  n00007_Pause: function
+  TREE_NODES_NUM: number
+  n000040_CBTAlwaysSequenceNode: function
+  n00003013_SendEventAction: function
+  n00011110_Compare: function
+  n000043_SendEventAction: function
+  n00002_CBTIfElseNode: function
+  n00001201_SendEventAction: function
+  n000040122_Nop: function
+  n00001200_SetBlackboard: function
+  TREE_NAME: string
+  n000210_Pause: function
+  n000021_Pause: function
+  n00011_CBTIfElseNode: function
+  n0000222_Nop: function
+  n0000221_CBTAlwaysSequenceNode: function
+  n0000301010_CheckBlackboardType: function
+  n0001111_CBTIfElseNode: function
+  n000044_ExecuteBtree: function
+  n00004011_DirectFaceToTargetAction: function
+  n00011000_Pause: function
+  n000030020_Nop: function
+  n00004_CBTAlwaysSequenceNode: function
+  n000011_Nop: function
+  n000_Parallel: function
+  n00005_SetBlackboard: function
+  n000040120_Compare: function
+  n00011112_CBTAlwaysSequenceNode: function
+  n0002_CBTWhileNode: function
+  n00004010_CheckBlackboardType: function
+  n000020_Compare: function
+  n00006_SendEventAction: function
+  n000041_SetBlackboard: function
+  n00003001_Nop: function
+  (1 more keys)

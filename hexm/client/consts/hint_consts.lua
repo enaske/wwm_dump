@@ -1,0 +1,56 @@
+Module: hexm.client.consts.hint_consts
+Type: table
+================================================================================
+
+Keys:
+  FUNC_WATER_TURRET_CLOSE: number
+  FUNC_SWITCH_WEAPON_IN_BOW: number
+  FUNC_FREE_BUILDING: number
+  FUNC_YIWU: number
+  FUNC_LADDER_JUMP_DOWN: number
+  FUNC_BIG_FLY: number
+  FUNC_CLUB_BATTLE_COMMANDER_SKILL: number
+  FUNC_TING_FENG: number
+  FUNC_BASE: number
+  FUNC_SHUANGDAO_RESOURCE: number
+  FUNC_MOJIN_OPEN_BAG: number
+  KEY_SETTING: number
+  HORSE_RIDE_RUSH: number
+  FUNC_SLOT: number
+  FUNC_ENTER_ARROW_MODE: number
+  FUNC_READ: number
+  FUNC_RUN: number
+  FUNC_ARCHER_ZHISHUI_AIM: number
+  SWITCH_LIFEWEAPON: number
+  FUNC_ENTER_WALL: number
+  FUNC_LADDER_JUMP_RIGHT: number
+  FUNC_ARCHER_ZHISHUI: number
+  FUNC_LADDER_JUMP_UP: number
+  YIWU: number
+  FUNC_RIDE: number
+  RUN_FAST_HINT_NO: number
+  STICK_HINT_NO: number
+  HORSE_HINT_NO: number
+  FUNC_ENTER_CLIMB_ROCK: number
+  FUNC_WATCH_FACE_LEAVE: number
+  HORSE_RIDE_OFF: number
+  FUNC_LIFE_WEAPON: number
+  FUNC_FLIP_WINDOW: number
+  FUNC_LADDER_CHANGE_SIDE: number
+  FUNC_WATER_TURRET_OPEN: number
+  FUNC_BUFF: number
+  FUNC_ARCHER_CHANGE_MODE: number
+  FUNC_LADDER_JUMP_LEFT: number
+  FUNC_BELONG_TO_FUNC_ID: number
+  FUNC_SLOT_NORMAL_SKILL: number
+  FUNC_ANIM_ACTION_LEAVE: number
+  FUNC_ARCHER_PRE_AIM: number
+  FUNC_SMALL_FLY: number
+  FUNC_ENTER_TURRET_MODE: number
+  RUN_SLOW_HINT_NO: number
+  FUNC_MYSTERY_QISHU_OUT: number
+  CONTRACT_MODE: number
+  FUNC_WATCH_FACE_ENTER: number
+  KEY_TIP: number
+  FUNC_ALT_HIDE_MOUSE: number
+  (1 more keys)

@@ -1,0 +1,56 @@
+Module: hexm.client.consts.score_store_consts
+Type: table
+================================================================================
+
+Keys:
+  get_store_money_by_type: function
+  STORE_SPECIAL_TYPE_SORT: number
+  try_auto_coupon_shopping_cart: function
+  STORE_NEW_RED_GIFT: string
+  STORE_TYPE_SCORE_STORE: number
+  cal_discount: function
+  get_stuff_price: function
+  SUB_STORE_TYPE_EXCHANGE: number
+  _get_limit_item_time_off: function
+  get_all_waiguan_src_ids: function
+  is_stuff_need_token: function
+  SCORE_STORE_CYCLE_WEEK: number
+  is_stuff_hide_chest: function
+  SCORE_STORE_LIMIT_REPUTATION: number
+  check_duration: function
+  STORE_TYPE_MAIN_STORE: number
+  SCORE_STORE_CYCLE_DAY: number
+  can_satisfy_buy_cost: function
+  gen_store_new_red_gift_key: function
+  _get_limit_text_school_status: function
+  SCORE_STORE_CYCLE_YEAR: number
+  cmp_stuff_can_buy: function
+  get_commodity_max: function
+  _get_limit_text_club_level: function
+  SCORE_STORE_LIMIT_PRE_LIMIT: number
+  is_stuff_chosen_chest: function
+  SCORE_STORE_LIMIT_STTG_PROGRESS: number
+  check_stuff_shop_cart_enabled: function
+  get_stuff_sys_d: function
+  OWNED_COLOR: string
+  get_sub_store_type_by_store_id: function
+  RMB_BUY_TOKEN: number
+  get_perform_stuff_no: function
+  add_fenbao_widget: function
+  get_stuff_name: function
+  STORE_COUPON_SUB_STORE_ID: number
+  SCORE_STORE_LIMIT_NUM: number
+  STORE_REFILL_TEXT: dict
+  _get_limit_text_condition: function
+  STORE_SOLD_OUT_TIP: dict
+  MAX_NUM: number
+  _get_limit_text_limit_num: function
+  STORE_GIFT_ALL_RED: string
+  get_offsale_remain_day: function
+  gen_store_new_red_recommend_key: function
+  STORE_ITEM_ICON_TYPE_DIANDANG: number
+  get_limit_reason_text_short: function
+  STORE_LIMIT_TEXT: dict
+  GIFT_DEMO_TEST_REWARD: number
+  caches__check_off_sale_top: dict
+  (1 more keys)

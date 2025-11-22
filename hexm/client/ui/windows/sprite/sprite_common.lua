@@ -1,0 +1,55 @@
+Module: hexm.client.ui.windows.sprite.sprite_common
+Type: table
+================================================================================
+
+Keys:
+  show_video_time: function
+  process_html_string: function
+  LOGIN_FROM_OTHER: string
+  LOGIN_FROM_PUSH: string
+  on_request_chat_keywords_callback: function
+  LOGIN_FROM_SPRITE: string
+  is_oversea: boolean
+  get_custom_info: function
+  HTML_CONTENT_GOTO_TYPES: list
+  common_show_item_label: function
+  sprite_last_open_time_stamp: string
+  is_all_whitespace: function
+  get_image_by_key_id: function
+  on_request_sprite_data_back: function
+  HTML_CONTENT_TYPE: table <UnknownInstance>
+  sprite_last_answer_key: string
+  request_sprite_data: function
+  request_chat_keywords: function
+  get_image_by_func_id: function
+  RECOMMEND_SHARE_ID: number
+  parse_content_to_richtext: function
+  set_host_by_env: function
+  WIKI_SHARE_ID: number
+  get_image_by_image_path: function
+  sprite_host: string
+  sprite_content_has_input_key: function
+  parse_html: function
+  LOGIN_FROM_CHAT: string
+  clear_localdb_on_switch_language: function
+  switch_sprite_host: function
+  METHOD_OTHERS: string
+  is_publish: boolean
+  goto_page_by_sprite_data: function
+  LOGIN_FROM_MAIL: string
+  RICHTEXT_IMAGE_HEIGHT: number
+  METHOD_WIKI_SECOND: string
+  cur_sprite_is_publish: function
+  get_sprite_login_from: function
+  SPRITE_MSG_CONFIG_NO: number
+  sprite_chat_dont_need_pop_welcome_text: string
+  RICHTEXT_FONT_SIZE: number
+  LOGIN_FROM_GAMEPAGE_WIKI: string
+  request_control_check: function
+  update_host_env_by_server: function
+  get_sprite_main_window: function
+  get_richtext_by_image_list: function
+  sprite_last_open_tab_key: string
+  get_richtext_by_text: function
+  METHOD_LINK: string
+  record_answer_num: number

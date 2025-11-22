@@ -1,0 +1,56 @@
+Module: hexm.common.misc.chiji_misc
+Type: table
+================================================================================
+
+Keys:
+  rng_point_by_distance: function
+  max_quality_by_dead_drop: function
+  BT_EVENT_NOTIFY_MAP: dict
+  check_equip_same_weapon: function
+  is_loot_eg_by_sysd: function
+  get_pickup_qishu_target: function
+  chiji_get_temp_bag_by_quality: function
+  query_nearby_booty: function
+  has_unlock_achieve: function
+  chiji_gen_xinfa_item: function
+  set_bit: function
+  avt_score: function
+  get_pickup_bow_target: function
+  chiji_cur_bow: function
+  is_in_safe_zone: function
+  get_evac_trap_by_comp: function
+  interact_pickup_check: function
+  get_pickup_xinfa_target: function
+  get_pickup_xinfa_target_better: function
+  is_loot_eg_in_group_by_sysd: function
+  check_can_evac: function
+  chiji_random_loot_by_sid: function
+  all_bits_map: function
+  MAP_INFO_FUNC: dict
+  all_bits: function
+  chiji_gen_item: function
+  NOTIFY_START: number
+  get_one_map_info: function
+  BATTLE_EVENT_END: dict
+  chiji_random_by_config: function
+  is_comp_in_distance: function
+  _get_bt_event_brief: function
+  NOTIFY_ACTIVE: number
+  xinfa_equip_check: function
+  get_all_map_info: function
+  get_pickup_token_target: function
+  init_born_pos_by_point_map: function
+  BATTLE_EVENT_PREPARE: dict
+  chiji_cur_armor: function
+  avt_rank: function
+  _get_map_info_malaria: function
+  _get_grid_keys: function
+  NOTIFY_END: number
+  is_le_loot_in_group: function
+  get_pickup_bow_target_better: function
+  loot_position_random: function
+  qishu_get_empty_slots: function
+  get_pickup_item_target: function
+  init_bt_event_data: function
+  get_born_pos_limit: function
+  (1 more keys)

@@ -1,0 +1,56 @@
+Module: hexm.common.consts.prison_consts
+Type: table
+================================================================================
+
+Keys:
+  DIRECT_REGION_TRANSFER: number
+  get_quick_out_prison_cost: function
+  get_prison_chat_name: function
+  APPOINTMENT: number
+  get_proc_build_item: function
+  get_prison_no: function
+  RESCUE_STAGE_NOT_START: number
+  PRISON_GP_STATE_WAIT_END: number
+  PROC_INVITE_CONFIRM_CONFIG_ID: number
+  PRISON_TYPE_MULTI: number
+  CONCERT_STAGE_PICK_PLAYER: number
+  CONFIRM_REGION_TRANSFER: number
+  INSTRUMENT_ROLL_CALL_BILLBOARD: number
+  RESCUE_IDENTITY_POLICE: number
+  YOUJIE_MENTOR: number
+  MATERIAL_PROC_RECOMMEND_PLAYER_INTERVAL: number
+  RESCUE_PRISON_NO: number
+  get_prison_proc_material: function
+  get_prison_current_period: function
+  YOUJIE_JIEYUAN: number
+  INVITE: number
+  get_imprison_time: function
+  _reload_all: boolean
+  get_rest_commit_material: function
+  PERFORMANCE_TEMPLATE_STUFF: string
+  E_CONCERT_STAGE_CHANGE: number
+  have_proc_material: function
+  get_prison_space_shichen: function
+  MATERIAL_PROC_MODE_SINGLE: number
+  get_prison_group_chat_name_postfix: function
+  SINGLE_PRISON_MIN_NO: number
+  E_CONCERT_SELECT_INSTRUMENT: number
+  MATERIAL_PROC_MODE_DUAL: number
+  REASON_INTERRUPT: number
+  EXCHANGE: number
+  CONCERT_STAGE_PREVIEW: number
+  E_CONCERT_CANCEL_INSTRUMENT: number
+  PRISON_TYPE_SINGLE: number
+  CONCERT_STAGE_CLOSING: number
+  have_commit_material: function
+  get_max_commit_material: function
+  get_prison_instrument_open_left_time: function
+  PRISON_GP_INSTRUMENT: number
+  CONCERT_STAGE_NOT_START: number
+  is_in_prison_gameplay_opentime: function
+  PRISON_RESCUE_SPACE_NO: number
+  YOUJIE_CLUB: number
+  get_out_prison_disease: function
+  prison_get_remain_youjie_time: function
+  get_prison_material_proc_goal: function
+  (1 more keys)

@@ -1,0 +1,56 @@
+Module: hexm.common.consts.player_recommend_consts
+Type: table
+================================================================================
+
+Keys:
+  RECENTLY_TAG_LONGMEN_FIGHT: string
+  TAG_CLUB_HOARD_PROFITEER: string
+  DATA_TO_LEVEL_FUNC: dict
+  data_to_level_xs: function
+  get_level_by_data: function
+  TAG_FRIEND_XIUWEI_MAP: dict
+  TAG_NORMAL_MULTI: string
+  RECENTLY_TAG_CHAQI: string
+  RECENTLY_TAG_INTERACT: string
+  TAG_LOGIN_UPDATE: dict
+  TAG_MAX_LEVEL: dict
+  CREATE_ROLE_TIME: number
+  TAG_SCHOOL_ZUIHUAYIN_LEVEL: string
+  TAG_THERAPY_DOCTOR: string
+  tongyou_weekly_key: function
+  REDIS_UPDATE_TIMER_KEY: string
+  get_prop_by_type: function
+  RECENTLY_TAG_XS: string
+  RECENTLY_TAG_CHAT: string
+  LZ_THERAPY_WEEKLY_KEY: string
+  tongyou_weekly_key_to_fromid: function
+  data_to_level_therapy: function
+  RECENTLY_TAG_TEAM: string
+  RECENTLY_TAG_MATCH: string
+  club_hoard_profiteer_tag: function
+  TAG_XS_LEVEL: string
+  recent_srv2no: function
+  RECENTLY_TAG_LONGMEN_FLOT: string
+  TAG_TEAM: string
+  TAG_PAINTING_BOAT_SMALL_GAME: string
+  get_prop_by_tag: function
+  RECENTLY_TAG_PVP_XS: string
+  RECENTLY_TAG_HUIWU: string
+  TAG_THERAPY_PATIENT: string
+  TAG_FRIEND_XIUWEI_TABLE_KEY: dict
+  _val_interval_to_level: function
+  TAG_HOARD_PROFITEER: string
+  tongyou_tag: function
+  RECENTLY_TAG_LONGMEN_DRINK: string
+  TAG_NORMAL_COOP: string
+  get_level: function
+  team_tag: function
+  RECENTLY_TAG_COOP: string
+  RECENTLY_TAG_SEND_GIFT: string
+  next_week_time: function
+  get_level_by_value: function
+  data_to_level_default: function
+  TAG_CHAT_ROOM_LISTEN: string
+  team_tag_list: function
+  TAG_FRIEND: string
+  (1 more keys)

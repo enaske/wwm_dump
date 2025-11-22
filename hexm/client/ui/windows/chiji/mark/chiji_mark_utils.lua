@@ -1,0 +1,49 @@
+Module: hexm.client.ui.windows.chiji.mark.chiji_mark_utils
+Type: table
+================================================================================
+
+Keys:
+  chiji_map_focus_on_nearest_space_data: function
+  chiji_add_map_marker_from_center_pos_space_data: function
+  ICON_TYPE_LOCATION: number
+  get_map_marker_id_by_entity_id: function
+  ICON_TYPE_NORMAL: number
+  is_team_member: function
+  check_is_malaria_shop_by_map_marker_id: function
+  SPACE_DATA_REMOVE_MAP_MARKER_FUNCTIONS: dict
+  chiji_set_extra_stuff_icon: function
+  CHIJI_STUFF_STAR_BG_MAP: dict
+  chiji_remove_map_marker_malaria: function
+  chiji_update_map_marker_betrayer: function
+  chiji_space_data_type_to_map_marker_no: function
+  SPACE_DATA_ADD_MAP_MARKER_FUNCTIONS: dict
+  chiji_add_map_marker_task_accept: function
+  chiji_space_data_to_map_marker_id: function
+  chiji_get_mark_icon_type: function
+  _get_map_marker_shop_icon_info: function
+  SPACE_DATA_UPDATE_MAP_MARKER_FUNCTIONS: dict
+  check_chiji_map_marker_permanent: function
+  chiji_add_map_marker_from_common_space_data: function
+  get_betrayer_map_marker_id: function
+  auto_get_mark_type: function
+  chiji_add_map_marker_shop: function
+  get_chiji_map_marker_no_by_map_marker_id: function
+  chiji_add_map_marker_evac: function
+  chiji_add_map_marker_betrayer: function
+  create_chiji_map_marker: function
+  chiji_add_map_marker_from_space_data: function
+  chiji_get_mark_tip_text: function
+  chiji_get_stuff_icon: function
+  chiji_transfer_map_marker_task: function
+  chiji_get_mark_icon_by_map_marker_no: function
+  get_default_map_marker_id: function
+  ICON_TYPE_STUFF: number
+  get_chiji_mark_by_map: function
+  chiji_get_poison_map_icon_priotity: function
+  is_boss: function
+  is_betrayer: function
+  SPACE_DATA_TRANSFER_MAP_MARKER_FUNCTIONS: dict
+  get_malaria_shop_map_marker_id_by_entity_id: function
+  create_malaria_shop_map_marker: function
+  chiji_set_conner_mark_icon: function
+  chiji_add_map_marker_malaria: function

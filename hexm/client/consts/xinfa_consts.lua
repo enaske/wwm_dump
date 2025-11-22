@@ -1,0 +1,56 @@
+Module: hexm.client.consts.xinfa_consts
+Type: table
+================================================================================
+
+Keys:
+  XINFA_RED_UPRANK: number
+  do_slot_remove: function
+  EVENT_CHANGE_TO_MODE: string
+  get_xinfa_promotion_scale: function
+  RANK_RESET_FROM_SYSTEM_PAGE: number
+  RED_POINT_KEY_LINGWU: string
+  TEXT_TUPO_EFFECT: number
+  get_xinfa_stuff_related_xinfa_id: function
+  is_xinfa_is_hide: function
+  get_xinfa_rank_additional_description_list: function
+  XINFA_STAGE_TO_PNG: dict
+  TEXT_SWITCH_XINFA: number
+  RED_POINT_KEY_UPRANK: string
+  get_xinfa_lingwu_red_point_key: function
+  MODE_OVERVIEW: number
+  BTN_KEY_UPGRADE_RESET: string
+  is_xinfa_uprank_unlocked: function
+  xinfa_cmp: function
+  TEXT_XINFA_NOT_EQUIP: number
+  XINFA_STAR_TO_BG_PINZHI: list
+  need_show_liupai_filter: function
+  TEXT_BASE_EFFECT: number
+  XINFA_CLUE_STATE_LOCK: number
+  TEXT_TUPO: number
+  XINFA_STAGE_TO_SINGLE_STR: dict
+  XINFA_STAR_TO_ICON_PINZHI: list
+  get_xinfa_ids: function
+  get_xinfa_volume_progress: function
+  XINFA_RED_LINGWU: number
+  get_new_red_point_image: function
+  BTN_KEY_UPGRADE_STUFF: string
+  get_xinfa_next_rank_brief_desc: function
+  BTN_KEY_XINFA_RANK_RESET: string
+  EMPTY_LIUPAI_ID: number
+  xinfa_filter: function
+  do_slot_swap: function
+  XINFA_STUDY_UNIT_SPLINTER: number
+  get_tracking_image: function
+  SLOT_STATE_EMPTY: number
+  proc_xinfa_v2_item_com_stuff_for_lang: function
+  XINFA_CLUE_STATE_UNLOCK: number
+  do_slot_set: function
+  calc_xinfa_sort_value_M3: function
+  TEXT_CHONG: number
+  SLOT_STATE_ACTIVE: number
+  XINFA_STAR_TO_COLOR: list
+  XINFA_STAR_TO_TITLE_COLOR: dict
+  BTN_KEY_UPGRADE_UPRANK: string
+  TEXT_TAKEOFF_XINFA: number
+  XINFA_RED_NAME_CAN_LINGWU: string
+  (1 more keys)

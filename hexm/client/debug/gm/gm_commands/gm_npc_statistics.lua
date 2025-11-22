@@ -1,0 +1,56 @@
+Module: hexm.client.debug.gm.gm_commands.gm_npc_statistics
+Type: table
+================================================================================
+
+Keys:
+  get_curr_touch_entity: function
+  gm_stop_ai_lodx: function
+  npc_top_view: function
+  sinpc_enable_click: function
+  gm_highlight_indoor_entity: function
+  gm_enable_entity_frame_window: function
+  idler_npc_use_mobile_view_for_all: function
+  gm_show_npc_logic_lod_is_animal: function
+  _handle_sinpc_touch_ended: function
+  gm_show_npc_logic_lod_fps: function
+  gm_check_npc_base_tag: function
+  NPC_COLOR_DICT: dict
+  idler_npc_use_mobile_view: function
+  gm_get_npc_count_in_range_new: function
+  get_npc_color_level_func: function
+  gm_get_npc_fps: function
+  start_logic_lod: function
+  npc_auto_run_shenxiandu: function
+  start_aoi: function
+  gm_stop_npc_tick_lodx: function
+  gm_enable_avatar_aoi: function
+  gm_show_npc_logic_lod_is_visible: function
+  gm_count_npc: function
+  npc_inspector_auto_ne: function
+  gm_count_occluded_npc: function
+  NPC_DEBUG_COLOR: list
+  gm_stop_all_npc_tick: function
+  npc_inspector: function
+  stop_logic_lod: function
+  gm_enable_raycast_occlus: function
+  stop_aoi: function
+  FPS_COLOR: list
+  gm_npc_save_config: function
+  npc_auto_record_pos_stop: function
+  fps_withou_npc: function
+  gm_npc_debug_draw: function
+  gm_enable_simple_npc_in_sunshine: function
+  gm_enable_preload_weapon: function
+  gm_highlight_decay_entity: function
+  switch_char_drawcall_panel_visible: function
+  set_idler_npc_use_mobile_view_count: function
+  gm_overlook_scene_npc: function
+  gm_count_npc_framelimit: function
+  gm_show_npc_logic_lod_cancel: function
+  show_face_lod_npcs: function
+  npc_auto_record_pos: function
+  debug_open_improvement_windwo: function
+  gm_show_npc_logic_lod: function
+  gm_show_npc_logic_lod_hex_model: function
+  _record_char_primitive: function
+  (1 more keys)

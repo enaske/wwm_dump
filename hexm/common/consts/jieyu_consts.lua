@@ -1,0 +1,39 @@
+Module: hexm.common.consts.jieyu_consts
+Type: table
+================================================================================
+
+Keys:
+  ERR_OK: number
+  E_PRISONER_DEAD: number
+  END_REASON_GUARD_WIN: number
+  STATE_END: number
+  E_GUARD_LEADER_ENTER: number
+  STATE_NOT_START: number
+  ERR_ENROLL_SUC: number
+  STATE_MOVE_KEY: number
+  END_REASON_PRISONER_LOGOUT: number
+  ERR_JIEYU_ENTER_SUC: number
+  E_START_JIEYU: number
+  END_REASON_JIEYU_WIN: number
+  STATE_FUBEN: number
+  ERR_PID_INVALID: number
+  E_APPLY_HELP: number
+  E_OVER: number
+  E_JIEYU_STATE_CHANGE: number
+  ERR_PLAYER_UNDER_RESCUE: number
+  E_PRISONER_REVIVE: number
+  END_REASON_TIME_OVER: number
+  _reload_all: boolean
+  STATE_RESCUE_RUN: number
+  JIEYU_PRISON_NO: number
+  IGNORE_CHECK_MEMBER_NUM: boolean
+  END_REASON_RELEASE: number
+  STATE_BOSS_DEAD: number
+  E_GET_JIEYU_STATE: number
+  ERR_PLAYER_TOO_MANY: number
+  ERR_PLAYER_NOT_ONLINE: number
+  ERR_ALREADY_IN_JIEYU: number
+  STATE_BOSS_LOW_HP: number
+  FACTION_ID: string
+  JIEYU_TEAM_TARGET_ID: number
+  JIEYU_SPACE_NO: number

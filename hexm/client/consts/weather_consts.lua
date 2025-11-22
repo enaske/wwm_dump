@@ -1,0 +1,56 @@
+Module: hexm.client.consts.weather_consts
+Type: table
+================================================================================
+
+Keys:
+  get_weather_player_effect_list: function
+  WEATHER_TAG_GAMEPLAY: string
+  WEATHER_PRIORITY_PHOTO: number
+  WEATHER_PRIORITY_REGION_EVENT: number
+  get_region_no_by_weather_num: function
+  WEATHER_NOVICE_NO: number
+  MAIN_WEATHER_SUNNY: number
+  get_weather_env_transition_config: function
+  WEATHER_PRIORITY_AVATAR: number
+  MAIN_WEATHER_THUNDER: number
+  WEATHER_PRIORITY_ZHENFA: number
+  show_weather_monitor_content: function
+  WEATHER_PRIORITY_REGION: number
+  get_weather_enable_effect_tag: function
+  get_env_volume_fade_time: function
+  get_region_weather_random_list: function
+  WEATHER_HOMEWORLD_SPACE_NO: number
+  WEATHER_PRIORITY_CUTSCENE: number
+  get_region_weather_info_table: function
+  MAIN_WEATHER_RAIN: number
+  WEATHER_PRIORITY_BASE: number
+  WEATHER_TAG_SPACE: string
+  check_region_keep_weather: function
+  WEATHER_EFFECT_TYPE_HEX: number
+  WEATHER_PRIORITY_DIALOG: number
+  WEATHER_PRIORITY_TASK: number
+  WEATHER_DEFAULT_NO: number
+  WEATHER_PRIORITY_CLUB_BATTLE: number
+  WEATHER_PRIORITY_DISASTER: number
+  WEATHER_PRIORITY_INTERACT_RELATION: number
+  PRIORITY_SPACE: number
+  WEATHER_SPACE_DEFAULT_WEATHER: number
+  WEATHER_PRIORITY_DOCTOR_THERAPY: number
+  WEATHER_PRIORITY_DISASTER_DUNGEON: number
+  MAIN_WEATHER_FOGGY: number
+  WEATHER_EFFECT_TYPE_WIND: number
+  get_region_weather_random_weathers: function
+  get_extreme_weather_replace_weather: function
+  WEATHER_PRIORITY_NPC: number
+  get_weather_request_random_timeoffset: function
+  get_region_weather_info: function
+  get_weather_priority_by_tag: function
+  WEATHER_PRIORITY_TASK_LOCK: number
+  PRIORITY_REGION: number
+  WEATHER_PRIORITY_BOSS_WANFA_PYX: number
+  WEATHER_TAG_REGION: string
+  PRIORITY_LOCK: number
+  WEATHER_PRIORITY_DUNGEON: number
+  WEATHER_PRIORITY_MAP: dict
+  PRIORITY_GAMEPLAY: number
+  (1 more keys)

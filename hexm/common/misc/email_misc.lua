@@ -1,0 +1,43 @@
+Module: hexm.common.misc.email_misc
+Type: table
+================================================================================
+
+Keys:
+  club_change_type_content_args: function
+  crime_to_prison_email: function
+  firework_auction_success: function
+  multi_fuben_rank_enter_reward: function
+  activity_center_notify: function
+  firework_auction_one_biding: function
+  guild_elect_content_args: function
+  school_jl_notify_content_args: function
+  create_mail_limits: function
+  check_limit_data: function
+  disaster_destroy_content_args: function
+  has_limit_cycle: function
+  school_tq_protect: function
+  tower_sys_liupai_activity_bufa: function
+  email_content_args_iter_get_text: function
+  xs_finish_content_args: function
+  police_witness_login_open: function
+  police_pre_crime_login_open: function
+  multi_fuben_rank_reward: function
+  check_all_emails_received: function
+  school_rule_jl_email_content_args: function
+  tower_sys_liupai_activity_remind: function
+  server_log_doc_trans: function
+  activity_center_expired_reward: function
+  recall_liupai_rank_reward: function
+  COPY_TABLE_NAME: dict
+  gen_ts_limit_id: function
+  regular_email_data: function
+  check_mail_limits: function
+  firework_auction_content_args: function
+  create_default_data: function
+  firework_auction_first_biding: function
+  firework_auction_lose_rank: function
+  trade_seller_deal_content: function
+  preprocess_email_content_args: function
+  battle_pass_season_name: function
+  PERIOD2LIMIT_ATTR_NAME: dict
+  recall_wushang_rank_reward: function

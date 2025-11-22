@@ -1,0 +1,56 @@
+Module: hexm.common.consts.ailab_consts
+Type: table
+================================================================================
+
+Keys:
+  E_JIEKONG_2: list
+  PLAYER_PREPARE: number
+  SKILL_TICK_POS_TS: number
+  CHIJI_AI_STYLE_COMBATIVE: number
+  JUMP_SLOT: number
+  E_JIEKONG_3: list
+  P_JIEKONG_3: list
+  AIAVT_ARROW_COLLISION: number
+  P_JIEKONG_2: list
+  WANFA_NAME: string
+  ARROW_ID: number
+  MODEL_GEN_STATE_PROGRESS: number
+  AIAVT_FIGHT: number
+  ATTR_PLAYER_TP: number
+  MODEL_GEN_STATE_REVIEW: number
+  CHIJI_AI_STYLE_HESITATE: number
+  CHIJI_AI_STYLE_DEFAULT: number
+  ATTR_MODE_TP: number
+  FUBEN_BOSS: number
+  PLAYER_FIGHT: number
+  ATTR_MODE_ROAD_SIGN: number
+  FANJI_SLOT: number
+  FANJI_QISHU_NO: number
+  SINGLE_PVE_BATTLE: number
+  HEAD_MODE_CUSTOM: number
+  TICK_POS_SLOT: list
+  MODEL_GEN_STATE_QUEUE: number
+  LOGIC_SLOT_16: number
+  LYT_SLOT_NO: number
+  ATTR_MODE_COPY: number
+  LM_ROBOT: number
+  _reload_all: boolean
+  conf_to_weapons: function
+  MODEL_GEN_STATE_SEVER_DENY: number
+  FLY_FORBID_DEFENCE_SKILL: number
+  MODEL_GEN_STATE_IDLE: number
+  CHIJI_AI_STYLE_IMMERSIVE: number
+  REVIVE_TS: number
+  RELATION_ENEMY: number
+  MODEL_GEN_STATE_SUCCESS: number
+  RELATION_FRIEND: number
+  conf_to_kongfus: function
+  GEN_TYPE_AILAB: number
+  MOVE_POST_SYNC: dict
+  GEN_TYPE_TRIPO: number
+  MODEL_GEN_STATE_REVIEW_FAIL: number
+  AIAVT_PREPARE: number
+  MODEL_GEN_STATE_UPLOAD_FAIL: number
+  MODEL_GEN_STATE_REVIEW_SUCCESS: number
+  MODEL_GEN_STATE_FAIL: number
+  (1 more keys)

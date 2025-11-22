@@ -1,0 +1,56 @@
+Module: hexm.client.consts.interact_consts
+Type: table
+================================================================================
+
+Keys:
+  INTERACT_ENABLE_PRIORITY_NORMAL: number
+  AHEAD_ACTION_TYPE_PICKUP: string
+  AHEAD_ACTION_TYPE_ADD_CNT: string
+  AHEAD_ACTION_TYPE_MODIFY_VARIABLE: string
+  RESULT_CALLBACK: number
+  ANIM_FROM_STATUS_RECOVER: string
+  INTERACT_ENABLE_PRIORITY_BUNDLE: number
+  task_interact_cmp: function
+  dump_debug_step_log: function
+  INTERACT_ENABLE_PRIORITY_BUILDING_NORMAL: number
+  clear_interact_step_log: function
+  NAVIGATE_INTERRUPT_CALLBACK: number
+  INTERACT_AREA_TYPE_ONLY_AREA: number
+  INTERACT_ENABLE_PRIORITY_MANAGER_DESTROYING: number
+  TALK_OPTION_TYPE_NORMAL: string
+  INTERACT_ENABLE_PRIORITY_BATTLE: number
+  INTERACT_ENABLE_PRIORITY_INVISIBLE: number
+  TALK_OPTION_TYPE_WANWU_INTERACT: string
+  AHEAD_ACTION_TYPE_PUTDOWN: string
+  INTERACT_ENABLE_PRIORITY_INTERACT_RELATION: number
+  INTERACT_ENABLE_PRIORITY_SERVER: number
+  ANIM_FROM_STATUS_ENTER: string
+  INTERACT_PRIORITY_TASK: number
+  INTERRUPT_CALLBACK: number
+  get_task_interact_icon: function
+  TALK_OPTION_TYPE_WANFA_INTERACT: string
+  add_interact_step_log: function
+  TRIGGER_ACTIVE_INTERACT_CHECK_DISTANCE: number
+  TALK_OPTION_TYPE_BRANCH_SELECT: string
+  AHEAD_ACTION_TYPE_UPPER_ANIM: string
+  get_max_priority_task: function
+  INTERACT_AREA_TYPE_CLIENT_ACTIVE_WAY_FROM_CUSTOM: number
+  INTERACT_PRIORITY_BASE: number
+  INTERACT_AREA_TYPE_CLIENT_ACTIVE_WAY_FROM_CONFIG: number
+  TALK_OPTION_TYPE_EXIT: string
+  INTERACT_BUTTON_STYLE_MAIN_SCREEN: number
+  INTERACT_AREA_TYPE_SERVER_COMP: number
+  show_interact_debug: function
+  END_CALLBACK: number
+  INTERACT_BUTTON_STYLE_SKILL_PANEL: number
+  TALK_OPTION_TYPE_TASK: string
+  ANIM_FROM_STATUS: string
+  START_PROGRESS_CALLBACK: number
+  INTERACT_ENABLE_PRIORITY_BUILDING_DEFAULT: number
+  PROGRESS_BAR_BUTTON: number
+  INTERACT_ENABLE_PRIORITY_BUILDING_BP_COMP: number
+  INTERACT_ENABLE_PRIORITY_DEFAULT: number
+  show_interact_monitor_content: function
+  TALK_OPTION_TYPE_NPC_BEHAVIOR: string
+  START_CALLBACK: number
+  (1 more keys)
